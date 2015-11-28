@@ -124,3 +124,7 @@ sympy-plots-for-*.tex/
 # WinEdt
 *.bak
 *.sav
+
+# Temporary files
+*~
+.*.sw?
