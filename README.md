@@ -1,5 +1,5 @@
-# Sprechen-Sie-Attisch
-Digitalized "Sprechen Sie Attisch?" with LaTeX
+# Sprechen Sie attisch?
+Digitalized "Sprechen Sie attisch?" with LaTeX
 
 # Dependency
 - XeLaTeX
