@@ -18,15 +18,20 @@
 \usepackage{version}
 \usepackage{calc}
 \usepackage{everypage}
+\usepackage{multicol}
 %\usepackage{titlesec}
+\usepackage{tocloft}
 
+%\renewcommand\cftchapafterpnum{\vskip0pt}
+\renewcommand\cftsecafterpnum{\vskip-0.5em}
 \usepackage{microtype}
 
 \includeversion{frakturfonttypesetting}
 \excludeversion{romanfonttypesetting}
 
 \newif\ifFraktur
-\Frakturtrue
+%\Frakturtrue
+\Frakturfalse
 
 \usepackage{multirow}
 \ifpdf
@@ -50,13 +55,28 @@
 \fi
 
 \newcommand*{\germanlanguagename}{german}
+\newcommand*{\greeklanguagename}{greek}
+\newcommand*{\ifsperrsatzlanguage}[2]{%
+\ifboolexpr{%
+  test {\ifdefstrequal{\languagename}{\germanlanguagename}}
+   or
+  test {\ifcsstrequal{\languagename}{\germanlanguagename}}
+  or
+  test {\ifdefstrequal{\languagename}{\greeklanguagename}}
+  or
+  test {\ifcsstrequal{\languagename}{\greeklanguagename}}
+}{#1}{#2}%
+}
 \ifdefined\newfontfamily
   %\newfontfamily\greekfontsf[Script=Greek]{Linux Biolinum O}
-%  \newfontfamily\greekfontsf[Script=Greek,Ligatures={TeX,Common,Contextual,Rare,Historic}]{Linux Biolinum O}
-  \newfontfamily\greekfontsf[Script=Greek,Ligatures={TeX,Common,Contextual,Rare,Historic}]{Linux Biolinum}
+  \newfontfamily\greekfontsf[Script=Greek,Ligatures={TeX,Common,Contextual,Rare,Historic}]{Linux Biolinum O}
+  %\newfontfamily\greekfontsf[Script=Greek,Ligatures={TeX,Common,Contextual,Rare,Historic}]{Linux Biolinum}
   \ifFraktur
     \newfontfamily\greekfont[Script=Greek,Ligatures={TeX,Common,Contextual,Rare,Historic}]{Anaktoria}
     \newfontfamily\greekfont[Script=Greek,Ligatures={TeX,Common,Contextual,Rare,Historic}]{Theano Old Style}
+    \newfontfamily\greekfont[Script=Greek,Ligatures={TeX}]{Old Standard Italic}
+    \newfontfamily\greekfont[Script=Greek,Ligatures={TeX,Contextual}]{Junicode}
+    %\newfontfamily\greekfont[Script=Greek,Ligatures={TeX,Common,Contextual,Rare,Historic}]{Asea}
     %\newfontfamily\greekfont[Script=Greek,Ligatures={TeX,NoCommon}]{Times Italic}
     \newfontfamily\germanfont[Script=Latin,Language=German,Mapping=tex-text,Numbers=OldStyle,CharacterVariant={11,13,14},Ligatures=Historic]{UnifrakturMaguntia}
     \newfontfamily\germanfontsf[Script=Latin,Language=German,Mapping=tex-text,CharacterVariant={11,13,14}]{UnifrakturCook}
@@ -69,11 +89,19 @@
     % new:
    % \renewcommand\emshape{\nobreak\discretionary{}{}{\hbox{\xspace}}\addfontfeature{LetterSpace=20.0,WordSpace=1.5,Ligatures={NoCommon}}}
     \renewcommand\emshape{%
-\ifx\languagename\germanlanguagename%
-  \addfontfeature{LetterSpace=15.0,WordSpace=1.5,Ligatures={NoCommon}}%
+%\ifx\languagename\germanlanguagename%
+\ifboolexpr{test {\ifsperrsatzlanguage}}{%
+ % \addfontfeature{LetterSpace=15.0,WordSpace=1.5,Ligatures={NoCommon}}%
+  \addfontfeature{LetterSpace=17.0,WordSpace=1.1,Ligatures={NoCommon}}%
   \renewcommand{\textcompwordmark}{\-\hspace*{0.15em}}%
-\else\origemshape\fi}
-    \preto\emph{\ifx\languagename\germanlanguagename\ifvmode\else\xspace\fi\fi}
+}{\origemshape}}
+    \preto\emph{%
+      %\ifx\languagename\germanlanguagename\ifvmode\else\xspace\fi\fi
+      \ifsperrsatzlanguage{\ifvmode\else\xspace\fi}{}%
+      %\ifboolexpr{test {\ifsperrsatzlanguage} and ( not bool{vmode} ) }{%
+      %  \xspace
+      %}{}%
+    }
   \else
     \newfontfamily\greekfont[Script=Greek,Ligatures={TeX,Common,Contextual,Rare,Historic}]{Asea}
 
@@ -174,10 +202,42 @@
 \newcommand{\source}[1]{%
   \nobreak\parbox[t]{\linewidth}{\raggedleft #1}% Placing a quote source
 }%
+\setlength{\tabcolsep}{0em}
+
+\newsavebox{\mycontinuousitemlinebox}
+\newenvironment{continuousitemline}{%
+  \bgroup%
+  \global\sbox{\mycontinuousitemlinebox}{\theenumi.}%
+  \addtolength{\leftskip}{\wd\mycontinuousitemlinebox}%
+  \addtolength{\leftskip}{1ex}%
+  %\addtolength{\leftskip}{2ex}%
+  \addtolength{\leftskip}{1em}%
+  \addtolength{\parindent}{-1em}%
+  %\llap{"\usebox{\mycontinuousitemlinebox}"}%
+  %\rule{\wd\mycontinuousitemlinebox}{1pt}%
+  %\rule[1ex]{1ex}{1pt}%
+%
+}{%
+  \egroup%
+}
+
+
+\newenvironment{continuousexamples}{%
+  \bgroup%
+  \setlength{\leftskip}{\parindent}%
+%  \addtolength{\leftskip}{2ex}%
+  \addtolength{\leftskip}{2em}%
+  \addtolength{\parindent}{-4em}%
+}{%
+  \egroup%
+}
+\renewcommand*{\ldots}{. . .}
 \end_preamble
+\options twoside
 \use_default_options true
 \begin_modules
 enumitem
+multicol
 \end_modules
 \maintain_unincluded_children false
 \language german
@@ -200,7 +260,7 @@ enumitem
 \bibtex_command default
 \index_command default
 \paperfontsize default
-\spacing single
+\spacing other 1.1
 \use_hyperref true
 \pdf_title "Sprachen Sie Attich?"
 \pdf_author "J. Sengbusch"
@@ -214,7 +274,7 @@ enumitem
 \pdf_backref false
 \pdf_pdfusetitle true
 \papersize b5paper
-\use_geometry false
+\use_geometry true
 \use_package amsmath 1
 \use_package amssymb 1
 \use_package cancel 1
@@ -238,6 +298,7 @@ enumitem
 \shortcut idx
 \color #008000
 \end_index
+\leftmargin 3cm
 \secnumdepth 3
 \tocdepth 3
 \paragraph_separation indent
@@ -283,62 +344,134 @@ Alph{part}}
 \end_layout
 
 \begin_layout Title
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{
+\backslash
+fontfamily
+\backslash
+rmdefault
+\backslash
+selectfont 
+\end_layout
+
+\end_inset
+
 Sprechen Sie Attisch?
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subtitle
+\begin_inset CommandInset line
+LatexCommand rule
+offset "1.2ex"
+width "20col%"
+height "1pt"
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
 Moderne Conversation
 \begin_inset Newline newline
 \end_inset
 
+
+\emph on
 in altgriechischer Umgangs\SpecialChar \textcompwordmark{}
 sprache
+\emph default
+
 \begin_inset Newline newline
 \end_inset
 
 nach den besten attischen Autoren
 \end_layout
 
-\begin_layout Publishers
-Leipzig, 1889.
+\begin_layout Author
+
+\size footnotesize
+von
+\size default
+
+\begin_inset VSpace bigskip
+\end_inset
+
+
 \begin_inset Newline newline
 \end_inset
 
-C.
-\begin_inset space \space{}
-\end_inset
 
-A.
-\begin_inset space \space{}
-\end_inset
-
-Koch's Verlag.
+\series bold
+\lang latin
+E.
+ Joannides,
 \begin_inset Newline newline
 \end_inset
 
-(J.
- Sengbusch)
+
+\series default
+\size small
+Dr.
+ phil.
+\size default
+\lang german
+
+\begin_inset VSpace smallskip
+\end_inset
+
+
+\size small
+\lang latin
+
 \begin_inset Newline newline
 \end_inset
 
+
+\size default
+\lang german
 
 \begin_inset ERT
 status collapsed
 
 \begin_layout Plain Layout
 
+{
+\backslash
+tiny
+\backslash
+begin{minipage}{
+\backslash
+columnwidth}
+\end_layout
+
+\begin_layout Plain Layout
+
 
 \backslash
 begin{flushright}
-\backslash
-small
 \end_layout
 
 \begin_layout Plain Layout
 
 
 \backslash
-textlatin{---Ridentem discere
+textlatin{--- --- Ridentem discere Graeca
 \backslash
 
 \backslash
@@ -347,7 +480,7 @@ textlatin{---Ridentem discere
 
 \begin_layout Plain Layout
 
-Quid vetat?---}
+Quid vetat? --- ---}
 \end_layout
 
 \begin_layout Plain Layout
@@ -357,9 +490,62 @@ Quid vetat?---}
 end{flushright}
 \end_layout
 
+\begin_layout Plain Layout
+
+
+\backslash
+end{minipage}}
+\end_layout
+
 \end_inset
 
 
+\begin_inset VSpace smallskip
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset CommandInset line
+LatexCommand rule
+offset "1.2ex"
+width "20col%"
+height "1pt"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Publishers
+
+\series bold
+Leipzig, 1889.
+\series default
+
+\begin_inset Newline newline
+\end_inset
+
+
+\emph on
+C.
+\begin_inset space \space{}
+\end_inset
+
+A.
+\begin_inset space \space{}
+\end_inset
+
+Koch's Verlag.
+\emph default
+
+\begin_inset Newline newline
+\end_inset
+
+(J.
+ Sengbusch)
 \end_layout
 
 \begin_layout Date
@@ -379,10 +565,38 @@ relax
 \end_layout
 
 \begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace vfill
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 \align center
 
 \size giant
-(Schnitt)
+(Das originale Buch hat Ankündigungen hier.)
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace vfill
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
 \end_layout
 
 \begin_layout Section*
@@ -1691,8 +1905,41 @@ partname}{Gespräche}
 \end_layout
 
 \begin_layout Quote
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+setlength{
+\backslash
+columnseprule}{0.5pt}
+\backslash
+begin{multicols}{2}
+\end_layout
+
+\end_inset
+
+
 \begin_inset CommandInset toc
 LatexCommand tableofcontents
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Quote
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{multicols}
+\end_layout
 
 \end_inset
 
@@ -1751,11 +1998,24 @@ emph{Joannides}, Sprechen sie Attisch」と書いてある。
 \end_inset
 
 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+setlist[enumerate]{parsep=0pt,itemsep=0pt,partopsep=0pt,topsep=0pt}
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Enumerate
 \begin_inset Argument 1
-status collapsed
+status open
 
 \begin_layout Plain Layout
 leftmargin=0pt,rightmargin=0pt,listparindent =1cm,labelindent=1cm,labelsep=1ex,l
@@ -2167,7 +2427,10 @@ es wird gezürnt u.
 ὀργὴ γίγνεται
 \lang german
  dgl.
- mehr;
+\begin_inset space \space{}
+\end_inset
+
+mehr;
 \end_layout
 
 \end_deeper
@@ -2436,14 +2699,4021 @@ status collapsed
 
 \end_inset
 
+ Es ist derselbe, der dies sagt 
+\lang ancientgreek
+ὁ αὐτὸς ταῦτα λέγει
+\lang german
+.
+ Wer ist der Mann, den du rufst? 
+\lang ancientgreek
+τίνα τὸν ἄνδρα καλεῖς;
+\lang german
+ Ist es wahr, daß du das gethan hast? 
+\lang ancientgreek
+ἆρ᾽ ἀληθῶς τοῦτ᾽ ἐποίησας;
+\lang german
+ Wie ist es möglich, daß\SpecialChar \ldots{}
+ 
+\lang ancientgreek
+πῶς\SpecialChar \ldots{}
+;
+\lang german
+ wie kommt es, daß\SpecialChar \ldots{}
+ 
+\lang ancientgreek
+πῶς\SpecialChar \ldots{}
+; 
+\end_layout
 
+\begin_layout Enumerate
+Coordinirte Sätze und coordinirte Satztheile kann der Grieche nicht unverbunden
+ lassen.
+ Asyndetisches Nebeneinanderstellen von Satztheilen kommt nur selten und
+ zwar als Aus\SpecialChar \textcompwordmark{}
+druck lebhafter Erregung zur Anwendung.
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+In ununterbrochener Rede ist 
+\emph on
+jeder neue Satz
+\emph default
+ durch eine passende Conjunction (
+\lang ancientgreek
+δέ, καί οὖν, γάρ
+\lang german
+ etc.) an das Voraus\SpecialChar \textcompwordmark{}
+gehende 
+\emph on
+anzuschließen.
+\end_layout
+
+\begin_layout Standard
+Der Lernende ist davor zu warnen, 
+\lang ancientgreek
+μέν
+\lang german
+ für eine diese Verbin- dung mit dem 
+\emph on
+Voraus\SpecialChar \textcompwordmark{}
+gehenden
+\emph default
+ ersetzende Conjunction zu halten, da es nur zum Hinweis auf das 
+\emph on
+Folgende
+\emph default
+ dient.
+\end_layout
+
+\begin_layout Standard
+Anfügung ohne Bindewort ist in ununterbrochener Rede nur gestattet:
+\end_layout
+
+\begin_layout Enumerate
+an den Stellen, wo wir im Deutschen den Doppelpunkt als Interpunctions\SpecialChar \textcompwordmark{}
+zeichen
+ setzen;
+\end_layout
+
+\begin_layout Enumerate
+wenn der neue Satz mit stark betontem Demonstrativum oder
+\end_layout
+
+\begin_layout Enumerate
+wenn der neue Satz mit 
+\lang ancientgreek
+εἶτα
+\lang german
+ (= und dann) oder 
+\lang ancientgreek
+ἔπειτα
+\lang german
+ beginnt;
+\end_layout
+
+\begin_layout Enumerate
+wo wir im Deutschen mit 
+\emph on
+
+\begin_inset Quotes gld
+\end_inset
+
+nicht aber
+\begin_inset Quotes grd
+\end_inset
+
+
+\emph default
+ fortsahren; es steht dann häufig bloßes 
+\lang ancientgreek
+οὐ
+\lang german
+ (beziehentlich 
+\lang ancientgreek
+μή
+\lang german
+
+\begin_inset space \thinspace{}
+\end_inset
+
+), (weil 
+\lang ancientgreek
+οὐ
+\lang german
+ mit 
+\lang ancientgreek
+δέ
+\lang german
+ 
+\begin_inset Quotes gld
+\end_inset
+
+und nicht
+\begin_inset Quotes grd
+\end_inset
+
+ oder 
+\begin_inset Quotes gld
+\end_inset
+
+nicht einmal
+\begin_inset Quotes grd
+\end_inset
+
+ bedeutet), oft jedoch auch 
+\lang ancientgreek
+οὐ μέντοι.
+
+\lang german
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Man merke: Nun so r denn = 
+\lang ancientgreek
+ἀλλά,
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+bgroup
+\backslash
+addtolength{
+\backslash
+leftskip}{
+\backslash
+parindent}
+\backslash
+addtolength{
+\backslash
+leftskip}{3em}
+\backslash
+setlength{
+\backslash
+parindent}{-1em}
+\backslash
+setlength{
+\backslash
+arraycolsep}{0pt}
+\end_layout
+
+\end_inset
+
+o dann ...
+ = 
+\lang ancientgreek
+ἄρα,
+\end_layout
+
+\begin_layout Standard
+da kam, da sagte = 
+\lang ancientgreek
+καὶ ἦλθε, καὶ εἰπεν,
+\end_layout
+
+\begin_layout Standard
+jedoch = 
+\lang ancientgreek
+μέντοι,
+\end_layout
+
+\begin_layout Standard
+denn sonst \SpecialChar \ldots{}
+ =
+\lang ancientgreek
+γάρ,
+\end_layout
+
+\begin_layout Standard
+denn (folgernd), z.B.
+ höre 
+\emph on
+denn, so
+\emph default
+ ward er 
+\emph on
+denn
+\emph default
+ ..
+ = 
+\lang ancientgreek
+δή,
+\end_layout
+
+\begin_layout Standard
+doch wohl (ohne Zweifel) = 
+\lang ancientgreek
+δήπου,
+\end_layout
+
+\begin_layout Standard
+und schon = 
+\lang ancientgreek
+καὶ δή
+\lang german
+ (
+\lang ancientgreek
+δή
+\lang german
+ = 
+\lang ancientgreek
+ἤδη
+\lang german
+), vgl.
+ 
+\lang ancientgreek
+πάλαι δή
+\lang german
+ schon längst, 
+\lang ancientgreek
+νῦν δή
+\lang german
+ jetzt eben,
+\end_layout
+
+\begin_layout Standard
+wohl aber = 
+\lang ancientgreek
+δὲ,
+\end_layout
+
+\begin_layout Standard
+\begin_inset Tabular
+<lyxtabular version="3" rows="2" columns="2">
+<features rotate="0" tabularvalignment="middle">
+<column alignment="left" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+dann erst
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+ldelim
+\backslash
+}{2}{1em}[]
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+erst dann
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+ =
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+Ich setzte das Gleichheitszeichen.
+\end_layout
+
+\end_inset
+
+ 
+\lang ancientgreek
+οὕτω δή,
+\end_layout
+
+\begin_layout Standard
+\SpecialChar \ldots{}
+ allerdings = 
+\lang ancientgreek
+\SpecialChar \ldots{}
+ μήν,
+\end_layout
+
+\begin_layout Standard
+indessen \SpecialChar \ldots{}
+ = 
+\lang ancientgreek
+οὐ μὴν ἀλλά,
+\end_layout
+
+\begin_layout Standard
+wahrscheinlich (adv.) =
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+Ich setzte das Gleichheitszeichen.
+\end_layout
+
+\end_inset
+
+ 
+\lang ancientgreek
+ἦ που \SpecialChar \ldots{}
+
+\end_layout
+
+\begin_layout Standard
+oder (nach Negationen) = 
+\lang ancientgreek
+οὐδέ, μνδέ,
+\end_layout
+
+\begin_layout Standard
+doch (lat.
+ 
+\lang latin
+quaeso
+\lang german
+) = 
+\lang ancientgreek
+δῆτα,
+\end_layout
+
+\begin_layout Standard
+nicht sowohl 
+\lang ancientgreek
+\SpecialChar \ldots{}
+
+\lang german
+ als vielmehr = 
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+Ich habe das geschwungene Klammer gespiegelt.
+\end_layout
+
+\end_inset
+
+
+\begin_inset Tabular
+<lyxtabular version="3" rows="2" columns="2">
+<features rotate="0" tabularvalignment="middle">
+<column alignment="left" valignment="top">
+<column alignment="left" valignment="top">
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+ldelim
+\backslash
+{{2}{1em}[]
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang ancientgreek
+οὐ τοσοῦτον ὅσον \SpecialChar \ldots{}
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang ancientgreek
+οὐ τὸ πλέον \SpecialChar \ldots{}
+ ἀλλὰ \SpecialChar \ldots{}
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+egroup 
+\end_layout
+
+\end_inset
+
+Aus der Thatsache, daß 
+\begin_inset Quotes gld
+\end_inset
+
+o dann ...
+\begin_inset Quotes grd
+\end_inset
+
+ sich überall passend durch 
+\lang ancientgreek
+ἄρα
+\lang german
+ geben läßt, folgt noch keines\SpecialChar \textcompwordmark{}
+wegs, daß umgekehrt 
+\lang ancientgreek
+ἄρα
+\lang german
+ sich überall passend durch 
+\begin_inset Quotes gld
+\end_inset
+
+o dann \SpecialChar \ldots{}
+
+\begin_inset Quotes grd
+\end_inset
+
+ übersetzen lasse.
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+
+\emph on
+Großes
+\emph default
+ Glück 
+\lang ancientgreek
+πολλὴ εὐδαιμονία.
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{continuousitemline}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Großes Mißgeschick 
+\lang ancientgreek
+πολλὴ δυστυχία.
+\end_layout
+
+\begin_layout Standard
+Großer Überfluß 
+\lang ancientgreek
+πολλὴ ἀφθονία.
+\end_layout
+
+\begin_layout Standard
+Große Thorheit 
+\lang ancientgreek
+πολλὴ μωρία.
+\end_layout
+
+\begin_layout Standard
+Große Unwissenheit 
+\lang ancientgreek
+πολλὴ ἀμαθία.
+\end_layout
+
+\begin_layout Standard
+Große Unvernunft 
+\lang ancientgreek
+πολλὴ ἀλογία.
+\end_layout
+
+\begin_layout Standard
+Große Geschäftigkeit 
+\lang ancientgreek
+πολλὴ πραγματεία.
+\end_layout
+
+\begin_layout Standard
+Sehr große Muthlosigkeit 
+\lang ancientgreek
+πλείστη ἀθυμία.
+\lang german
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+par
+\backslash
+end{continuousitemline}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+\begin_inset Tabular
+<lyxtabular version="3" rows="5" columns="2">
+<features rotate="0" tabularvalignment="top">
+<column alignment="left" valignment="top" width="0pt">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+So ein trefflicher
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+rdelim
+\backslash
+}{5}{1em}[{
+\end_layout
+
+\end_inset
+
+
+\lang ancientgreek
+τοιοῦτος.
+\lang german
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}]
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+So ein abscheulicher
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+So ein erfahrener
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+So ein beschränkter
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+So ein gefährlicher
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{continuousitemline}
+\end_layout
+
+\end_inset
+
+
+\begin_inset space \qquad{}
+\end_inset
+
+u.
+ s.
+ w.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Tabular
+<lyxtabular version="3" rows="5" columns="2">
+<features rotate="0" tabularvalignment="top">
+<column alignment="left" valignment="top" width="0pt">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+So ein trefflicher
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+rdelim
+\backslash
+}{5}{1em}[{ 
+\end_layout
+
+\end_inset
+
+
+\lang ancientgreek
+τοιοῦτος.
+\lang german
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}]
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+So ein abscheulicher
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+So ein erfahrener
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+So ein beschränkter
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+So ein gefährlicher
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset space \qquad{}
+\end_inset
+
+u.
+ s.
+ w.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Tabular
+<lyxtabular version="3" rows="2" columns="2">
+<features rotate="0" tabularvalignment="top">
+<column alignment="left" valignment="top" width="0pt">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+So Verwerfliches
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+rdelim
+\backslash
+}{2}{1em}[{ 
+\end_layout
+
+\end_inset
+
+
+\lang ancientgreek
+τοιαῦτα.
+\lang german
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}]
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+So Löbliches
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset space \qquad{}
+\end_inset
+
+u.
+ s.
+ w.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Tabular
+<lyxtabular version="3" rows="3" columns="2">
+<features rotate="0" tabularvalignment="top">
+<column alignment="left" valignment="top" width="0pt">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+es klingt schön
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+rdelim
+\backslash
+}{3}{1em}[{ 
+\end_layout
+
+\end_inset
+
+
+\lang ancientgreek
+ἡδύ ἐστιν.
+\lang german
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}]
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+es schmeckt gut
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+es riecht gut
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Tabular
+<lyxtabular version="3" rows="2" columns="2">
+<features rotate="0" tabularvalignment="top">
+<column alignment="left" valignment="top" width="0pt">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+(jetzt) so spät
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+rdelim
+\backslash
+}{2}{1em}[{ 
+\end_layout
+
+\end_inset
+
+
+\lang ancientgreek
+τηνικάδε.
+\lang german
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}]
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+(jetzt) so früh
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset space \quad{}
+\end_inset
+
+Der gewöhnliche Aus\SpecialChar \textcompwordmark{}
+druck für
+\end_layout
+
+\begin_layout Standard
+\begin_inset Tabular
+<lyxtabular version="3" rows="2" columns="2">
+<features rotate="0" tabularvalignment="top">
+<column alignment="left" valignment="top" width="0pt">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+hoffen
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+rdelim
+\backslash
+}{2}{1em}[
+\backslash
+textgerman{ 
+\end_layout
+
+\end_inset
+
+ist 
+\lang ancientgreek
+οἴεσθαι
+\lang german
+,
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}]
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+fürchten
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Tabular
+<lyxtabular version="3" rows="4" columns="2">
+<features rotate="0" tabularvalignment="top">
+<column alignment="left" valignment="top" width="0pt">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+versprechen
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+rdelim
+\backslash
+}{4}{1em}[
+\backslash
+textgerman{ 
+\end_layout
+
+\end_inset
+
+ist 
+\lang ancientgreek
+φάναι.
+\lang german
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}]
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+brohen
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+antworten
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+erwidern
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\SpecialChar \ldots{}
+ fuhr er fort, = 
+\lang ancientgreek
+ἔφη.
+\lang german
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+par
+\backslash
+end{continuousitemline}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Ein Freund 
+\lang ancientgreek
+φίλος 
+\emph on
+τις.
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{continuousitemline}
+\end_layout
+
+\end_inset
+
+Ein redlicher Freund 
+\lang ancientgreek
+χρηστός τις 
+\emph on
+ἄνθρωπος
+\emph default
+ φίλος.
+\lang german
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+par
+\backslash
+end{continuousitemline}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Unsere 500 Schüler 
+\emph on
+\lang ancientgreek
+οἱ
+\emph default
+ ἡμέτεροι πεντακόσιοι μαθηταί.
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{continuousitemline}
+\end_layout
+
+\end_inset
+
+Meine drei besten Schüler 
+\emph on
+\lang ancientgreek
+οἱ
+\emph default
+ τρεῖς ἄριστοι τῶν μαθητῶν μου.
+\lang german
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+par
+\backslash
+end{continuousitemline}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+
+\lang english
+Fix indent!!!
+\end_layout
+
+\end_inset
+
+Ich verlange kein Geld, sondern Zuneigung (Liebe) 
+\lang ancientgreek
+αἰτῶ 
+\emph on
+οὐκ
+\emph default
+ ἀργύριον, ἀλλ᾽ εὔνοιαν.
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+
+\lang english
+Fix indent!!!
+\end_layout
+
+\end_inset
+
+Ich 
+\emph on
+habe
+\emph default
+ gehabt 
+\lang ancientgreek
+εἶχον,
+\lang german
+ z.
+ B.
+ ich habe ebenfalls diese Klasse einmal gehabt 
+\lang ancientgreek
+κἀγὼ εἶχον τὴν τάξιν ταύτην ποτέ.
+
+\lang german
+ Er 
+\emph on
+ist
+\emph default
+ gestern bei mir gewesen 
+\lang ancientgreek
+παρ᾽ ἐμοὶ χθὲς ἦν.
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+Das 
+\emph on
+Perfectum
+\emph default
+ von 
+\emph on
+sein
+\emph default
+ und 
+\emph on
+haben
+\emph default
+ und allen ein Dauer ausdrückenden Verben wird im Griechischen durch das
+ Imperfectum, bei den übrigen Verben meist durch den Aorist, seltener durch
+ das Perfectum wiedergegeben.
+ Läßt sich zu dem Verbum ein Adverb der Vergangenheit (z.
+ B.
+ damals) hinzudenken, so steht Aorist; läßt sich ein Adverb der Gegenwart
+ (z.
+ B.
+ nunmehr, bereits) hinzudenken, nur dann steht Perfectum.
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{continuousexamples}
+\end_layout
+
+\end_inset
+
+
+\emph on
+Hast
+\emph default
+ du das Geld gefunden? (
+\lang latin
+sc.
+
+\lang german
+ nunmehr) 
+\lang ancientgreek
+ἆρ᾽ εὕρηκας τἀργύριον;
+\end_layout
+
+\begin_layout Standard
+Ja, ich 
+\emph on
+habe
+\emph default
+ es gefunden (
+\lang latin
+sc.
+
+\lang german
+ nunmehr) 
+\lang ancientgreek
+εὕρηκανὴ Δία.
+\end_layout
+
+\begin_layout Standard
+Wo 
+\emph on
+hast
+\emph default
+ du es gefunden? (
+\lang latin
+sc.
+
+\lang german
+ damals als du es fandest) 
+\lang ancientgreek
+ποῦ εὗρες;
+\end_layout
+
+\begin_layout Standard
+Ich 
+\emph on
+habe
+\emph default
+ es (
+\lang latin
+sc.
+
+\lang german
+ damals) in dem Garden gefunden 
+\lang ancientgreek
+ἐν τῷ κήπῳ εὗρον.
+ 
+\lang german
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+par
+\backslash
+end{continuousexamples}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Der Infinitiv Aoristi bezeichnet nach den Verben des Sagens und Meinens
+ die Vergangenheit, z.
+ B.
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{continuousexamples}
+\end_layout
+
+\end_inset
+
+
+\lang ancientgreek
+φησὶν εὑρεῖν
+\lang german
+ er behauptet er 
+\emph on
+habe
+\emph default
+ gefunden.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+par
+\backslash
+end{continuousexamples}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Bedeutet 
+\emph on
+daß
+\emph default
+ soviel wie 
+\emph on
+mache(t)
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+
+\emph off
+m a ch e (t)
+\end_layout
+
+\end_inset
+
+
+\emph default
+ daß, so wird es durch 
+\lang ancientgreek
+ὅπως
+\lang german
+
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+
+\lang latin
+orig.
+ 
+\lang ancientgreek
+οπως
+\end_layout
+
+\end_inset
+
+ mit dem 
+\lang latin
+Indic.
+ Fut.
+
+\lang german
+ ausgedrückt.
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{continuousexamples}
+\end_layout
+
+\end_inset
+
+Daß es nur kein Mensch erfährt! 
+\lang ancientgreek
+ὅπως ταῦτα μηδεὶς ἀνθρώπων πεύσεται!
+\lang german
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+par
+\backslash
+end{continuousexamples}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Mit 
+\lang ancientgreek
+ἐξ οὗ
+\lang german
+ oder 
+\lang ancientgreek
+ἐπεί
+\lang german
+ = 
+\emph on
+seit
+\emph default
+ verträgt sich kein 
+\lang ancientgreek
+οὐ
+\lang german
+ oder 
+\lang ancientgreek
+μή
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+
+\lang latin
+orig.
+ 
+\lang ancientgreek
+μη
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{continuousexamples}
+\end_layout
+
+\end_inset
+
+Seit wir uns 
+\emph on
+nicht
+\emph default
+ gesehen, hat es viel geregnet: 
+\lang ancientgreek
+ἐξ οὗ 
+\lang german
+oder
+\lang ancientgreek
+ ἐπεὶ εἴδομεν ἀλλήλους ὕδωρ ἀγένετο πολύ.
+\lang german
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+par
+\backslash
+end{continuousexamples}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Wo sich statt 
+\emph on
+sein
+\emph default
+ denken läßt 
+\emph on
+gehen,
+\emph default
+ wird 
+\lang ancientgreek
+παρεῖναι εἰς
+\lang german
+ angewandt.
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{continuousexamples}
+\end_layout
+
+\end_inset
+
+Sind Sie oft im Theater gewesen? 
+\lang ancientgreek
+ἦ πολλάκις παρῆσθα εἰς τὸ θέατρον;
+\lang german
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+par
+\backslash
+end{continuousexamples}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Indefinita werden nach Negationen gern negativ, 
+\lang ancientgreek
+πω
+\lang german
+ jedoch bleibt unverändert.
+\end_layout
+
+\begin_layout Enumerate
+Ja = doch (franz.
+ 
+\lang french
+si!
+\lang german
+) dem Unglauben oder mangelhaften Glauben versichernd: 
+\lang ancientgreek
+ναί! 
+\end_layout
+
+\begin_layout Enumerate
+
+\emph on
+Zu, allzu
+\emph default
+ bleibt meist unübersetzt; z.
+ B.
+ Wir sind zu wenige 
+\lang ancientgreek
+ὀλίγοι ἐσμέν,
+\lang german
+ du hast zu menig geschrieben 
+\lang ancientgreek
+ὀλίγον ἔγραψας.
+
+\lang german
+ 
+\lang ancientgreek
+Τὸ ὕδωρ ψυχρὸν ὥστε λούσασθαί ἐστιν
+\lang german
+ (zu kalt).
+ 
+\lang ancientgreek
+Νέοι ἔτι ἐσμὲν ὥστε τοῦτ᾽ εἰδέναι
+\lang german
+ (zu jung, als daß wir wissen könnten).
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+
+\emph on
+Nicht genug
+\emph default
+ 
+\lang ancientgreek
+ὀλίγος.
+
+\lang german
+ Er hat nicht genug zu leben 
+\lang ancientgreek
+βίον ἔχει ὀλίγον.
+
+\lang german
+ Ich habe nicht genug Geld 
+\lang ancientgreek
+ἀργύριον ἔχω ὀλίγον.
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Genug
+\emph default
+ = ausreichend wird adjectivisch meist durch 
+\lang ancientgreek
+ἱκανός
+\lang german
+ ausgedrückt.
+ Geld genug 
+\lang ancientgreek
+ἱκανὸν ἀργύριον.
+
+\lang german
+ Ich denke, zwanzig Schüler sind genug 
+\lang ancientgreek
+ἱκανοὺς νομίζω μαθηδὰς εἴκοσιν.
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Genug
+\emph default
+ = in Menge 
+\lang ancientgreek
+οὐκ ὀλίγος.
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Ein anderer = noch ein weiterer 
+\lang ancientgreek
+ἕτερος; 
+\lang german
+ein anderer = irgend welcher andere 
+\lang ancientgreek
+ἄλλος.
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+Ich war dort und viele andere 
+\lang ancientgreek
+ἐγὼ παρεγενόμην καὶ ἕτεροι πολλοί.
+
+\lang german
+ Nun, es giebt ja andere gute Bücher genug 
+\lang ancientgreek
+ἀλλ᾽ ἔστιν ἔτερα νὴ Δία χρηστά βιβλία οὐκ ὀλίγα.
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{continuousitemline}
+\end_layout
+
+\end_inset
+
+Keine andere Sache 
+\lang ancientgreek
+οὐκ ἄλλο πρᾶγμα.
+\end_layout
+
+\begin_layout Standard
+Wer sonst? 
+\lang ancientgreek
+τίς ἄλλος;
+\lang german
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+par
+\backslash
+end{continuousitemline}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Immer noch = 
+\lang ancientgreek
+ἔτι καὶ νῦν,
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{continuousitemline}
+\end_layout
+
+\end_inset
+
+noch welches 
+\lang ancientgreek
+ἄλλο,
+\end_layout
+
+\begin_layout Standard
+noch einige 
+\lang ancientgreek
+ἄλλοι,
+\end_layout
+
+\begin_layout Standard
+noch irgend einer 
+\lang ancientgreek
+ἄλλος τις.
+\end_layout
+
+\begin_layout Standard
+Hat er noch (sonstiges) Geld? 
+\lang ancientgreek
+ἆρ᾽ ἔχει ἀργύριον ἄλλο;
+\end_layout
+
+\begin_layout Standard
+Er hat 
+\emph on
+welches
+\emph default
+ 
+\lang ancientgreek
+ἔχει.
+\lang german
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+par
+\backslash
+end{continuousitemline}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Ihr 
+\emph on
+beiden
+\emph default
+ alten Herren 
+\lang ancientgreek
+ὦ 
+\emph on
+δύο
+\emph default
+ πρεσβύτα.
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{continuousitemline}
+\end_layout
+
+\end_inset
+
+
+\emph on
+Diese beiden
+\emph default
+ alten Herren hier 
+\lang ancientgreek
+τὼ πρεσβύτα τώδε.
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Diese beiden
+\emph default
+ 
+\lang ancientgreek
+τώδε (ἄμφω).
+\lang german
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+par
+\backslash
+end{continuousitemline}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\lang ancientgreek
+ἄμφω
+\lang german
+ verlangt stets den 
+\emph on
+Dual
+\emph default
+ des beigefügten Substantivs, 
+\lang ancientgreek
+ἀμφότερος
+\lang german
+ steht meist mit seinem Substantiv im 
+\emph on
+Plural.
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+allein (= allein für sich) 
+\lang ancientgreek
+αὐτός,
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{continuousitemline}
+\end_layout
+
+\end_inset
+
+allein (= der einzige) 
+\lang ancientgreek
+μόνος.
+\end_layout
+
+\begin_layout Standard
+Wir sind allein (unter uns) 
+\lang ancientgreek
+αὐτοί ἐσμεν.
+\end_layout
+
+\begin_layout Standard
+Wir sind die einzigen 
+\lang ancientgreek
+μόνοι ἐσμέν.
+\lang german
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+par
+\backslash
+end{continuousitemline}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Ich habe die (schriftliche) Arbeit allein gemacht 
+\lang ancientgreek
+αὐτὸς ἐγὼ ταῦτα ἔγραψα.
+
+\lang german
+ Dagegen 
+\lang ancientgreek
+μόνος ἐγὼ ταῦτα ἔγραψα
+\lang german
+ ich bin der Einzige, der diese Arbeit gemacht hat.
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Ich habe mehr 
+\emph on
+von diesen
+\emph default
+ (z.
+ B.
+ Söhne) wie von jenen (Töchter) 
+\lang ancientgreek
+πλείους ἔχω τούτους ἢ ἐκείνας
+\lang german
+ (doch auch 
+\lang ancientgreek
+ἐκείνους ἢ ταύτας
+\lang german
+).
+\end_layout
+
+\begin_layout Enumerate
+Wollen = Lust haben, sich entschließen 
+\lang ancientgreek
+ἐθέλειν.
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{continuousitemline}
+\end_layout
+
+\end_inset
+
+Wollen = wünschen 
+\lang ancientgreek
+βούλεσθαι.
+\end_layout
+
+\begin_layout Standard
+Er hat keine Lust 
+\lang ancientgreek
+οὐκ ἐθέλει.
+\end_layout
+
+\begin_layout Standard
+(Sehnlich) wünschen 
+\lang ancientgreek
+ἐπιθυμεῖν.
+ 
+\end_layout
+
+\begin_layout Standard
+Wollen = darüber sein 
+\lang ancientgreek
+μέλλειν.
+\lang german
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+par
+\backslash
+end{continuousitemline}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Wohin eilen sie? Ich will einen Brief zum Briefkasten tragen 
+\lang ancientgreek
+ποῖ θεῖς; ἐπιστολὴν μέλλω φέρειν εἰς τὸ κιβώτιον (γραμματοκιβώτιον).
+ Ich will gehen εἶμι oder βαδιοῦμαι.
+
+\lang german
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{continuousitemline}
+\end_layout
+
+\end_inset
+
+Ich will gehen 
+\lang ancientgreek
+εἶμι
+\lang german
+ oder 
+\lang ancientgreek
+βαδιοῦμαι.
+\lang german
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+par
+\backslash
+end{continuousitemline}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Wo ist dein Bruder? 
+\lang ancientgreek
+ποῦ ᾽σθ᾽ ὁ σὸς ἀδελφός;
+\end_layout
+
+\begin_layout Enumerate
+Bei = franz.
+ 
+\lang french
+chez
+\lang german
+ 
+\lang ancientgreek
+παρά
+\lang german
+ mit 
+\lang latin
+Dat.
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{continuousitemline}
+\end_layout
+
+\end_inset
+
+Zu = franz.
+ 
+\lang french
+chez
+\lang german
+ 
+\lang ancientgreek
+παρά
+\lang german
+ mit 
+\lang latin
+Acc.
+\lang german
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+par
+\backslash
+end{continuousitemline}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+\begin_inset Tabular
+<lyxtabular version="3" rows="2" columns="5">
+<features rotate="0" tabularvalignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top" width="0pt">
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Mitnehmen,
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+mitbringen
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+(von Sachen) 
+\lang ancientgreek
+φέρειν,
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+,,
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+,,
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+(von Personen) 
+\lang ancientgreek
+ἄγειν.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{continuousitemline}
+\end_layout
+
+\end_inset
+
+Ich will das Buch mitbringen 
+\lang ancientgreek
+οἴσω τὸ βιβλίον.
+\end_layout
+
+\begin_layout Standard
+Ich will dich mit (zu ihm) nehmen 
+\lang ancientgreek
+ἄξω σε παρ᾽ αυτόν.
+\lang german
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+par
+\backslash
+end{continuousitemline}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Ich gehe (hin) 
+\lang ancientgreek
+βαδίζω,
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{continuousitemline}
+\end_layout
+
+\end_inset
+
+ich komme (her) 
+\lang ancientgreek
+ἔρχομαι,
+\end_layout
+
+\begin_layout Standard
+ich bin hergegangen 
+\lang ancientgreek
+ἐλήλυθα,
+\end_layout
+
+\begin_layout Standard
+ich bin gekommen 
+\lang ancientgreek
+ἥκω,
+\end_layout
+
+\begin_layout Standard
+ich bin wieder da 
+\lang ancientgreek
+ἥκω,
+\end_layout
+
+\begin_layout Standard
+bis ich wieder da bin 
+\lang ancientgreek
+μέχρι ἃν ἥκω,
+\end_layout
+
+\begin_layout Standard
+ich gehe 
+\emph on
+(weiter)
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+
+\emph off
+( w e i t e r )
+\end_layout
+
+\end_inset
+
+
+\emph default
+ 
+\lang ancientgreek
+χωρῶ,
+\end_layout
+
+\begin_layout Standard
+ich will ihn 
+\emph on
+besuchen
+\emph default
+ 
+\lang ancientgreek
+εἶμι (εἴσειμι) ὡς αὐτόν,
+\end_layout
+
+\begin_layout Standard
+ich werde kommen 
+\lang ancientgreek
+ἥξω.
+\end_layout
+
+\begin_layout Standard
+Ich will gehen, 
+\emph on
+um
+\emph default
+ ihn zu befragen 
+\lang ancientgreek
+εἶμι ἐρωτήσων αὐτόν.
+\end_layout
+
+\begin_layout Standard
+Ich komme her, 
+\emph on
+um
+\emph default
+ mit\SpecialChar \textcompwordmark{}
+zuspeisen 
+\lang ancientgreek
+ἔρχομαι δειπνήσων.
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+aus
+\emph default
+gehen
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+a u s gehen
+\end_layout
+
+\end_inset
+
+ 
+\lang ancientgreek
+θύραζε ἐξιέναι
+\lang german
+ oder 
+\lang ancientgreek
+θ.
+ βαδίζειν.
+\lang german
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+par
+\backslash
+end{continuousitemline}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Die 
+\emph on
+guten
+\emph default
+ Schüler 
+\lang ancientgreek
+οἱ ἀγαθοὶ τῶν μαθητῶν.
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{continuousitemline}
+\end_layout
+
+\end_inset
+
+Die guten 
+\emph on
+Schüler
+\emph default
+ 
+\lang ancientgreek
+οἱ ἀγαθοὶ μαθηταί.
+\lang german
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+par
+\backslash
+end{continuousitemline}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+
+\emph on
+Da
+\emph default
+ kommt der junge Mann herbai! 
+\lang ancientgreek
+τὸ μειράκιον 
+\emph on
+τοδὶ
+\emph default
+ (τόδε) προσέρχεται!
+\lang german
+ 
+\end_layout
+
+\begin_layout Enumerate
+Ich habe 
+\emph on
+nichts zu
+\emph default
+ essen 
+\lang ancientgreek
+οὐκ ἔχω καταφαγεῖν.
+\end_layout
+
+\begin_layout Enumerate
+
+\emph on
+hier,
+\emph default
+ den Ort des 
+\emph on
+Sprechenden
+\emph default
+ bezeichnend, haißt 
+\lang ancientgreek
+ἐνθάδε,
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{continuousitemline}
+\end_layout
+
+\end_inset
+
+hier (dem Ort des Sprechenden 
+\emph on
+nahe
+\emph default
+) 
+\lang ancientgreek
+ἐνταῦθα,
+\end_layout
+
+\begin_layout Standard
+hier (= 
+\emph on
+an Ort und Stelle,
+\emph default
+ am Orte selbst) 
+\lang ancientgreek
+αὐτοῦ.
+\lang german
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+par
+\backslash
+end{continuousitemline}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Jemanden kennen 
+\lang ancientgreek
+γιγνώσκειν τινά.
+\end_layout
+
+\begin_layout Enumerate
+Zwar nicht groß, aber schön 
+\lang ancientgreek
+μέγας μὲν οὔ, καλὸς δέ.
+\end_layout
+
+\begin_layout Enumerate
+Er hat eine breite Stirn 
+\lang ancientgreek
+πλατὺ ἔχει 
+\emph on
+τὸ
+\emph default
+ μέτωπον.
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+Sie hat allerliebste Hände 
+\emph on
+\lang ancientgreek
+τὰς
+\emph default
+ χεῖρας ἔχει παγκάλας.
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Beabsichtigen, gedenken 
+\lang ancientgreek
+ἐπινο
+\emph on
+εῖν
+\emph default
+\lang german
+ oder 
+\lang ancientgreek
+διανο
+\emph on
+εῖσθαι.
+\end_layout
+
+\begin_layout Enumerate
+Ich lerne die Gedichte Homers 
+\emph on
+auswendig
+\emph default
+ 
+\lang ancientgreek
+μανθάνω τὰ Ὁμήρου ἔπη.
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{continuousitemline}
+\end_layout
+
+\end_inset
+
+Ich 
+\emph on
+kann
+\emph default
+ die Ilias 
+\emph on
+auswendig
+\emph default
+ 
+\lang ancientgreek
+ἐπίσταμαι Ἰλιάδα.
+\end_layout
+
+\begin_layout Standard
+Ich könnte die Odyssee 
+\emph on
+auswendig hersagen
+\emph default
+ 
+\lang ancientgreek
+δυναίμην ἂν Ὀδύσσειαν ἀπὸ στόματος εἰπεῖν.
+ 
+\lang german
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+par
+\backslash
+end{continuousitemline}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Mein Vater hat mich gezwungen, die Odyssee auswendig zu lernen 
+\lang ancientgreek
+ὁ πατὴρ ἠνάγκασέ με Ὀδύσσειαν 
+\emph on
+μαθεῖν
+\emph default
+\lang german
+ = that\SpecialChar \textcompwordmark{}
+sächlich mit dem Lernen zu Stande zu kommen; 
+\lang ancientgreek
+ἠνάγκασέ με 
+\emph on
+μανθάνειν
+\emph default
+\lang german
+ bedeutet nur: er zwang mich, mit dem Lernen mich zu beschäftigen, zu befassen,
+ zu bemühen.
+ 
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\lang ancientgreek
+Εὖ λέγει 
+\lang german
+er hat Recht.
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{continuousitemline}
+\end_layout
+
+\end_inset
+
+
+\lang ancientgreek
+καλῶς λέγει
+\lang german
+ er spricht gut.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+par
+\backslash
+end{continuousitemline}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Ich habe mehr Geld als du, aber Karl hat 
+\emph on
+das
+\emph default
+ meiste 
+\lang ancientgreek
+ἐγὼ μὲν ἀργύριον ἔχω πλέον ἢ σύ, πλεῖστον δὲ Κάρολος.
+\end_layout
+
+\begin_layout Enumerate
+Der Mann, 
+\emph on
+dessen
+\emph default
+ Brief du liest 
+\lang ancientgreek
+ὁ ἀνήρ, οὖ ἀναγιγνώσκεις 
+\emph on
+τὴν
+\emph default
+ ἐπιστολήν.
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{continuousitemline}
+\end_layout
+
+\end_inset
+
+Wessen Brief liest du? 
+\emph on
+\lang ancientgreek
+τὴν
+\emph default
+ τίνος ἐπιστολὴν ἀναγιγνώσκεις;
+\lang german
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+par
+\backslash
+end{continuousitemline}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Setzest du deinen Hut auf? 
+\lang ancientgreek
+ἦ περιτίθεσαι 
+\emph on
+τὸν
+\emph default
+ πῖλον;
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{continuousitemline}
+\end_layout
+
+\end_inset
+
+Zieh deine Stiefel aus! 
+\lang ancientgreek
+ἀποδύου 
+\emph on
+τὰς
+\emph default
+ ἐμβάδας!
+\lang german
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+par
+\backslash
+end{continuousitemline}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Das Possessiv ist durch das Medium bereits ausgedrückt.
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Er wird dich von 
+\emph on
+deinem
+\emph default
+ Augenleiden befreien 
+\lang ancientgreek
+ἀπαλλάξει σε τῆς ὀφθαλμίας.
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{continuousitemline}
+\end_layout
+
+\end_inset
+
+Ein einziger Tag hat mir 
+\emph on
+meinen
+\emph default
+ ganzen Wohlstand geraubt 
+\lang ancientgreek
+μία ἡμέρα με 
+\emph on
+τὸν
+\emph default
+ πάντα ὄλβον ἀφείλετο.
+\end_layout
+
+\begin_layout Standard
+Er hat mir 
+\emph on
+mein
+\emph default
+ Geld gestahlen 
+\lang ancientgreek
+ὑπείλετό μου τἀργύρια.
+\lang german
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+par
+\backslash
+end{continuousitemline}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Bei den Verben 
+\emph on
+nehmen
+\emph default
+ und dergl.
+ darf kein Possessiv übersetzt werden, sobald die durch dasselbe bezeichnete
+ Person bereits genannt ist.
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Brauchst du 
+\emph on
+etwas?
+\emph default
+ 
+\lang ancientgreek
+δέει 
+\emph on
+τίνος;
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{continuousitemline}
+\end_layout
+
+\end_inset
+
+Giebt es 
+\emph on
+was
+\emph default
+ Neues? 
+\lang ancientgreek
+λέγεται 
+\emph on
+τί
+\emph default
+ καινόν;
+\lang german
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+par
+\backslash
+end{continuousitemline}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Woher kommst du? 
+\lang ancientgreek
+πόθεν ἥκεις;
+\lang german
+ Aus dem Garten 
+\lang ancientgreek
+ἐκ τοῦ κήπου.
+
+\lang german
+ Aus welchem? 
+\lang ancientgreek
+ἐκ 
+\emph on
+τοῦ
+\emph default
+ ποίου;
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+Wenn 
+\lang ancientgreek
+ποῖος
+\lang german
+ auf einen mit Artikel versehenen Gattungsnamen 
+\lang latin
+(Substantivum appellativum)
+\lang german
+ oder einen ihn vertretenden Satz zurückweist, so nimmt es den Artikel an.
+ Weg bleibt der Artikel in der Regel nur dann, wenn 
+\lang ancientgreek
+ποῖος
+\lang german
+ Prädicat ist.
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+
+\emph on
+Geld
+\emph default
+ in kleineren Summen 
+\lang ancientgreek
+ἀργύριον.
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{continuousitemline}
+\end_layout
+
+\end_inset
+
+Geld = Kapitalien 
+\lang ancientgreek
+χρήματα.
+ 
+\lang german
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+par
+\backslash
+end{continuousitemline}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\lang ancientgreek
+τάχα
+\lang german
+ ent\SpecialChar \textcompwordmark{}
+spricht genau dem in unserer Volks\SpecialChar \textcompwordmark{}
+sprache üblichen 
+\emph on
+am Ende
+\emph default
+ (= schließlich, möglicher Weise)
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\lang ancientgreek
+ταχύ, ταχέως
+\lang german
+ schnell, bald,
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\lang ancientgreek
+διὰ ταχέων
+\lang german
+ bald.
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+
+\emph on
+Unter
+\emph default
+ = zwischen drin 
+\lang ancientgreek
+ἐν,
+\lang german
+ z.
+ B.
+ 
+\lang ancientgreek
+ἐν τοῖς Χριστιανοῖς πολλοί εἰσιν Ἰουδαῖοι.
+ ἐν νέοις ἀνὴρ γέρων.
+\end_layout
+
+\begin_layout Enumerate
+
+\emph on
+Nicht sonderlich
+\emph default
+ 
+\lang ancientgreek
+οὐ πάνυ.
+
+\lang german
+ Er strengt sich nicht sonderlich an 
+\lang ancientgreek
+οὐ πάνυ σπουδάζει.
+\end_layout
+
+\begin_layout Enumerate
+Die natürliche Stellung des Adverbs ist im Griechischen 
+\emph on
+vor
+\emph default
+ dem durch dasselbe zu bestimmenden Begriffe.
+ Abweichung von dieser Stellung dient zur Hervorhebung des Adverbs.
+ Steht das Adverb mit Nachdruck zuletzt, so ersetzt diese Stellung das deutsche
+ 
+\emph on
+und zwar:
+\emph default
+ 
+\lang ancientgreek
+χάριν σωθέντες ὑπὸ σοῦ σοὶ ἂν ἔχοιμεν δικαίως
+\lang german
+ (und zwar pflichtschuldigst).
+ 
+\end_layout
+
+\begin_layout Enumerate
+Indirecte Ausrufesätze werden in der lateinischen Grammatik den indirecten
+ Fragesätzten gleichgestellt; im Griechischen unterscheiden sie sich aber
+ von den indirecten Fragesätzen dadurch, daß diese letzteren mit dem indirecten
+ oder directen Frageworte beginnen, die Ausrufesätze hingegen mit dem Relativum,
+ und zwar mit dem 
+\emph on
+einfachen
+\emph default
+ Relativum.
+\end_layout
+
+\begin_layout Enumerate
+Der Deutsche fragt: 
+\emph on
+Wohin
+\emph default
+ setzt er sich? der Grieche: 
+\emph on
+Wo?
+\emph default
+ Wohin wollen wir uns setzen? 
+\lang ancientgreek
+ποῦ καθιζησόμεθα;
+\end_layout
+
+\begin_layout Enumerate
+
+\emph on
+Alle Welt
+\emph default
+ 
+\lang french
+(tout le monde)
+\lang german
+ heißt 
+\lang ancientgreek
+πάντες ἄνθρωποι
+\lang german
+ (ohne Artikel).
+\end_layout
+
+\begin_layout Enumerate
+
+\emph on
+Um zu
+\emph default
+ wird gern durch 
+\lang ancientgreek
+βουλόμενος
+\lang german
+ aus|gedrückt.
+\end_layout
+
+\begin_layout Enumerate
+Ich habe bekommen = 
+\lang ancientgreek
+ἔχω,
+\lang german
+ z.
+ B.
+ ich habe von meinem Vater 10 Mk.
+ bekommen, 
+\lang ancientgreek
+δέκα μάρκας ἔχω παρὰ τοῦ πατρός.
+\end_layout
+
+\begin_layout Enumerate
+
+\emph on
+Lieber als
+\emph default
+ \SpecialChar \ldots{}
+ = eher als \SpecialChar \ldots{}
+ heißt 
+\lang ancientgreek
+μᾶλλον ἢ 
+\lang german
+\SpecialChar \ldots{}
+
+\end_layout
+
+\begin_layout Enumerate
+
+\emph on
+Vorhin
+\emph default
+ heißt 
+\lang ancientgreek
+τότε.
+
+\lang german
+ 
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\lang ancientgreek
+μέν
+\lang german
+ steht anderen Bindewörtern voran, also nicht 
+\lang ancientgreek
+πολλοὶ γὰρ μὲν 
+\lang german
+\SpecialChar \ldots{}
+
+\lang ancientgreek
+,
+\lang german
+ sondern 
+\lang ancientgreek
+πολλοὶ μὲν γὰρ 
+\lang german
+\SpecialChar \ldots{}
+
+\lang ancientgreek
+,
+\lang german
+ ebenso 
+\lang ancientgreek
+μέν γε, μὲν δή 
+\lang german
+\SpecialChar \ldots{}
+
+\lang ancientgreek
+, μὲν οὖν 
+\lang german
+\SpecialChar \ldots{}
+
+\lang ancientgreek
+, μέντοι.
+\end_layout
+
+\begin_layout Enumerate
+Den bringlichen Imperativ, welchen wir durch 
+\emph on
+so
+\emph default
+ (mach') 
+\emph on
+doch
+\emph default
+ ausdrücken, giebt der Grieche durch (das sehr oft und gern angewendete)
+ 
+\lang ancientgreek
+οὐ
+\lang german
+ mit Futurum, z.
+ B.
+ so schweig' doch! 
+\lang ancientgreek
+οὐ σιγήσει;
+\lang german
+ Negation ist dabei 
+\lang ancientgreek
+μή,
+\lang german
+ z.
+ B.
+ so mach' doch kein Gerede! 
+\lang ancientgreek
+οὐ μὴ λαλήσεις; 
+\lang german
+so halte dich doch nicht auf! 
+\lang ancientgreek
+οὐ μὴ διατρίψεις;
+\end_layout
+
+\begin_layout Enumerate
+Satzverbindungen wie folgende: 
+\begin_inset Quotes gld
+\end_inset
+
+Wenn ich nach Dresden komme und über die Brücke gehe, so sehe ich das Denkmal
+ August des Starken
+\begin_inset Quotes grd
+\end_inset
+
+ werden im Griechischen zerlegt in: 
+\begin_inset Quotes gld
+\end_inset
+
+Wenn ich nach Dresden komme, so sehe ich, wenn ich über die Brücke komme,
+ das Denkmal.
+\begin_inset Quotes grd
+\end_inset
+
+ Trotzdem gehen die 
+\emph on
+beiden
+\emph default
+ Nebensätze dem Hauptsatze voran.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Der gewöhnliche Ausdruck für 
+\emph on
+
+\begin_inset Quotes gld
+\end_inset
+
+ich bitte
+\begin_inset Quotes grd
+\end_inset
+
+
+\emph default
+ ist 
+\lang ancientgreek
+πρὸς (τῶν) θεῶν,
+\lang german
+ wofür auch 
+\lang ancientgreek
+πρὸς τοῦ Διός
+\lang german
+ u.
+ Ähnliches eintritt.
+ 
+\lang ancientgreek
+πρὸς θεῶν
+\lang german
+ ist keines\SpecialChar \textcompwordmark{}
+wegs, wie gewöhnlich angegeben wird, 
+\emph on
+
+\begin_inset Quotes gld
+\end_inset
+
+Versicherung
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+
+\emph off
+\lang english
+spacing: ,,V e but not ,, V e
+\end_layout
+
+\end_inset
+
+
+\emph default
+ bei den Göttern
+\begin_inset Quotes grd
+\end_inset
+
+, sondern 
+\emph on
+Bitt
+\emph default
+formel.
+\end_layout
+
+\begin_layout Enumerate
+Es giebt nicht bloß, wie es nach den Grammatiken scheint, einen Irrealis
+ der Gegenwart und Irrealis der Vergangenheit (z.
+ B.
+ ich wäre (jetzt) zufrieden, ich wäre (damals) zufrieden gewesen, wenn .
+ .
+ .), sondern es muß auch einen Irrealis der 
+\emph on
+Zukunft
+\emph default
+ geben.
+ Ich sage z.
+ B.: 
+\begin_inset Quotes gld
+\end_inset
+
+Wenn ich morgen in New-York wäre, würde ich mich an dem Feste betheiligen,
+\begin_inset Quotes grd
+\end_inset
+
+ obgleich ich weiß, daß ich morgen unmöglich dort sein kann.
+ Diesen Irrealis der Zukunft drückt der Grieche im Nebensatze durch 
+\lang ancientgreek
+εἰ
+\lang german
+ mit dem Optativ, im regierenden Satze durch Optativ mit 
+\lang ancientgreek
+ἄν
+\lang german
+ aus.
+ 
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Anmerkung
+\emph default
+ In Beispielen, wie 
+\lang ancientgreek
+φαίη δ᾽ ἂν ἡ θανοῦσα, εἰ φωνὴν λάβοι
+\lang german
+ steht also nicht der Optativ ungewöhnlich für das Präteritum, sondern er
+ bezeichnet regelrecht, wie in zahllosen ähnlichen Fällen, den Irrealis
+ der Zukunft: 
+\begin_inset Quotes gld
+\end_inset
+
+wenn die Verstorbene 
+\emph on
+künftig einmal
+\emph default
+ wiederkäme, so würde sie es bestätigen.
+\begin_inset Quotes grd
+\end_inset
+
+ 
 \end_layout
 
 \begin_layout Standard
 \align center
 
 \size giant
-(Schnitt)
+\begin_inset CommandInset line
+LatexCommand rule
+offset "1.2ex"
+width "20col%"
+height "1pt"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage clearpage
+\end_inset
+
+
 \end_layout
 
 \begin_layout Part
@@ -4305,9 +8575,24 @@ switchcolumn
 \begin_layout Standard
 
 \lang ancientgreek
-ἀλγῶ τὴν κεφαλὴν
+ἀλγῶ τὴν κεφαλήν
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+
+\lang latin
+orig.
+ 
+\lang ancientgreek
+κεφαλὴν
+\end_layout
+
+\end_inset
+
+
 \begin_inset Note Note
-status collapsed
+status open
 
 \begin_layout Plain Layout
 
@@ -4733,6 +9018,10 @@ indent
 
 \end_inset
 
+Wie ist es Ihnen ergangen?
+\end_layout
+
+\begin_layout Standard
 Leben Sie wohl!
 \end_layout
 
@@ -9126,7 +13415,7 @@ switchcolumn*[
 \end_layout
 
 \begin_layout Section
-Wie viel
+Wieviel
 \begin_inset Note Note
 status collapsed
 
@@ -10500,9 +14789,20 @@ switchcolumn
 τῇδε τῇ ἡμέρᾳ.
  --- τήμερον
 \begin_inset Foot
-status collapsed
+status open
 
 \begin_layout Plain Layout
+
+\lang latin
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
 
 \lang ancientgreek
 ὁ τυπογράφος ἔγραψα τὸν οὐ γεγραμμένον τόνον.
@@ -10834,6 +15134,17 @@ switchcolumn
 status open
 
 \begin_layout Plain Layout
+
+\lang latin
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
 
 \lang ancientgreek
 ὁ τυπογράφος θαυμάζω τοῦ ἑνεκα γέγραφε οὐ «εἰς» ὃν Ἀττικοὶ ἔχραον, ἀλλὰ
@@ -11184,7 +15495,7 @@ switchcolumn
 \lang ancientgreek
 δι' ἔτους 
 \emph on
-πἐμπτου.
+πέμπτου.
 \end_layout
 
 \begin_layout Standard
@@ -12161,6 +16472,17 @@ switchcolumn
 status open
 
 \begin_layout Plain Layout
+
+\lang latin
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
 
 \lang ancientgreek
 ὁ τυπογράφος ἔγραψα τὸν οὐ γεγραμμένον τόνον.
@@ -13175,6 +17497,17 @@ status open
 
 \begin_layout Plain Layout
 
+\lang latin
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
 \lang ancientgreek
 τῷ τυπογράφῳ ἄσκοπος τὸ γράμμα «ἁ» ἦν.
 \end_layout
@@ -13312,6 +17645,17 @@ switchcolumn
 status open
 
 \begin_layout Plain Layout
+
+\lang latin
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
 
 \lang ancientgreek
 ὁ τυπογράφος ἔγραψα τὸν οὐ γεγραμμένον τόνον.
@@ -18755,6 +23099,17 @@ status open
 
 \begin_layout Plain Layout
 
+\lang latin
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
 \lang ancientgreek
 τῷ τυπογράφῳ ἄσκοπος τὸ γράμμα «ό» ἦν.
 \end_layout
@@ -20107,6 +24462,17 @@ status open
 
 \begin_layout Plain Layout
 
+\lang latin
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
 \lang ancientgreek
 ὁ τυπογράφος ἔγραψα τὸν οὐ γεγραμμένον ἦχον καὶ τόνον.
 \end_layout
@@ -20721,6 +25087,17 @@ status open
 
 \begin_layout Plain Layout
 
+\lang latin
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
 \lang ancientgreek
 ὁ τυπογράφος ἔγραψα τὸν οὐ γεγραμμένον ἦχον καὶ τόνον.
 \end_layout
@@ -21152,6 +25529,17 @@ switchcolumn
 status open
 
 \begin_layout Plain Layout
+
+\lang latin
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
 
 \lang ancientgreek
 τῷ τυπογράφῳ ἄσκοπος τὸ γράμμα «ἡ» ἦν.
@@ -22969,6 +27357,17 @@ status open
 
 \begin_layout Plain Layout
 
+\lang latin
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
 \lang ancientgreek
 ὁ τυπογράφος ἔγραψα τὸν οὐ γεγραμμένον τόνον.
 \end_layout
@@ -24482,6 +28881,17 @@ status open
 
 \begin_layout Plain Layout
 
+\lang latin
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
 \lang ancientgreek
 ὁ τυπογράφος ἔγραψα τὸν οὐ γεγραμμένον ἦχον.
 \end_layout
@@ -24895,6 +29305,9 @@ switchcolumn*
 \end_layout
 
 \begin_layout Standard
+\begin_inset VSpace 0.5em
+\end_inset
+
 Schweigen Sie! 
 \end_layout
 
@@ -24932,7 +29345,7 @@ status open
 
 
 \backslash
-rdelim
+ldelim
 \backslash
 {{2}{1em}[]
 \end_layout
@@ -27135,6 +31548,17 @@ status open
 
 \begin_layout Plain Layout
 
+\lang latin
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
 \lang ancientgreek
 ὁ τυπογράφος ἔγραψα τὸν οὐ γεγραμμένον ἴοτα ὑπογραμμένον.
 \end_layout
@@ -27329,14 +31753,17 @@ switchcolumn
 \begin_layout Standard
 
 \lang ancientgreek
-ἴθι δὴ
+ἴθι δή
 \begin_inset Foot
 status open
 
 \begin_layout Plain Layout
 
 \lang latin
-sic
+orig.
+ 
+\lang ancientgreek
+δὴ
 \end_layout
 
 \end_inset
@@ -27726,14 +32153,17 @@ switchcolumn
 \begin_layout Standard
 
 \lang ancientgreek
-φέρε δὴ
+φέρε δή
 \begin_inset Foot
 status open
 
 \begin_layout Plain Layout
 
 \lang latin
-sic
+orig.
+ 
+\lang ancientgreek
+δὴ
 \end_layout
 
 \end_inset
@@ -28198,6 +32628,17 @@ switchcolumn
 status open
 
 \begin_layout Plain Layout
+
+\lang latin
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
 
 \lang ancientgreek
 τῷ τυπογράφῳ ἄσκοπος τὸ γράμμα «ι» ἦν, καὶ ὁ τυπογράφος ἔγραψα τὸν οὐ γεγραμμένο
@@ -28733,6 +33174,17 @@ status collapsed
 
 \begin_layout Plain Layout
 
+\lang latin
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
 \lang ancientgreek
 ὁ τυπογράφος ἔγραψα τὸν οὐ γεγραμμένον ἦχον και τόνον.
 \end_layout
@@ -28744,6 +33196,17 @@ status collapsed
 status collapsed
 
 \begin_layout Plain Layout
+
+\lang latin
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
 
 \lang ancientgreek
 τῷ τυπογράφῳ ἄσκοπος τὸ γράμμα «ῷ» ἦν.
@@ -29155,14 +33618,15 @@ switchcolumn
 \begin_layout Standard
 
 \lang ancientgreek
-οὐ σκαιὸς ἅνθρωπος
+οὐ σκαιὸς ἄνθρωπος
 \begin_inset Foot
 status open
 
 \begin_layout Plain Layout
 
 \lang ancientgreek
-sic.
+orig.
+ ἅνθρωπος
 \end_layout
 
 \end_inset
@@ -30706,14 +35170,17 @@ switchcolumn
 \begin_layout Standard
 
 \lang ancientgreek
-μελῳδεῖν οὐκ επίσταμαι
+μελῳδεῖν οὐκ ἐπίσταμαι
 \begin_inset Foot
 status open
 
 \begin_layout Plain Layout
 
+\lang latin
+orig.
+ 
 \lang ancientgreek
-sic.
+επίσταμαι
 \end_layout
 
 \end_inset
@@ -31998,6 +36465,17 @@ status collapsed
 
 \begin_layout Plain Layout
 
+\lang latin
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
 \lang ancientgreek
 τυπογράφος ἔγραψα τὸν οὐ γεγραμμένον τόνον.
 \end_layout
@@ -32560,6 +37038,17 @@ status collapsed
 
 \begin_layout Plain Layout
 
+\lang latin
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
 \lang ancientgreek
 ὁ τυπογράφος ἔγραψα τὸν οὐ γεγραμμένον ἦχον.
 \end_layout
@@ -32885,6 +37374,17 @@ switchcolumn
 status collapsed
 
 \begin_layout Plain Layout
+
+\lang latin
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
 
 \lang ancientgreek
 ὁ τυπογράφος ἔγραψα τὸν οὐ γεγραμμένον τόνον.
@@ -33781,6 +38281,9 @@ switchcolumn*
 \end_layout
 
 \begin_layout Standard
+\begin_inset VSpace 0.5em
+\end_inset
+
 Wes\SpecialChar \textcompwordmark{}
 halb sind Sie hergekommen?
 \end_layout
@@ -36491,6 +40994,9 @@ switchcolumn*
 \end_layout
 
 \begin_layout Standard
+\begin_inset VSpace 0.5em
+\end_inset
+
 Bitte, ziehen Sie einmal den Rock aus! 
 \end_layout
 
@@ -38980,7 +43486,10 @@ status open
 \begin_layout Plain Layout
 
 \lang latin
-sic
+? sic.
+ 
+\lang ancientgreek
+οὐκ οἶδα τί τὸ λέξις ἐστί.
 \end_layout
 
 \end_inset
@@ -40004,12 +44513,17 @@ switchcolumn
 \begin_layout Standard
 
 \lang ancientgreek
-φυλάξομαί
+φυλάξομαι
 \begin_inset Foot
 status open
 
 \begin_layout Plain Layout
-???
+
+\lang latin
+orig.
+ 
+\lang ancientgreek
+φυλάξομαί
 \end_layout
 
 \end_inset
@@ -43177,7 +47691,7 @@ switchcolumn
 
 \lang ancientgreek
 πρῶτον μὲν γὰρ τέχνην τιν' ἔμαθεν· εἶτα γεωργὸς ἐγένετο, νῦν δὲ ἔμπορός
- ἐστιν.!
+ ἐστιν.
 \end_layout
 
 \begin_layout Standard
@@ -49143,6 +53657,9 @@ switchcolumn*
 \end_layout
 
 \begin_layout Standard
+\begin_inset VSpace 0.5em
+\end_inset
+
 Sie sind verrückt, Madame! 
 \end_layout
 
@@ -51549,6 +56066,9 @@ switchcolumn*
 \end_layout
 
 \begin_layout Standard
+\begin_inset VSpace 0.5em
+\end_inset
+
 So Gott will.
  
 \end_layout
@@ -52114,7 +56634,7 @@ switchcolumn
 \begin_layout Standard
 
 \lang ancientgreek
-πλούσιοσ γεγένηται.
+πλούσιος γεγένηται.
 \end_layout
 
 \begin_layout Standard
@@ -52731,21 +57251,6 @@ switchcolumn
 
 \lang ancientgreek
 ἄνοιγε τὴν θύραν!
-\begin_inset Foot
-status open
-
-\begin_layout Plain Layout
-
-\lang latin
-(Ar.
- Lys.
- 1216, Nub.
- 181)
-\end_layout
-
-\end_inset
-
-
 \end_layout
 
 \begin_layout Standard
@@ -62060,6 +66565,17 @@ status open
 
 \begin_layout Plain Layout
 
+\lang latin
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
 \lang ancientgreek
 τὸ ῥῆμα οὐ δύναμαι διαγνῶναι.
 \end_layout
@@ -62116,6 +66632,17 @@ switchcolumn
 status open
 
 \begin_layout Plain Layout
+
+\lang latin
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
 
 \lang ancientgreek
 τὸ ῥῆμα οὐ δύναμαι διαγνῶναι.
@@ -62735,6 +67262,17 @@ switchcolumn
 status open
 
 \begin_layout Plain Layout
+
+\lang latin
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
 
 \lang ancientgreek
 τὸ ῥῆμα οὐ δύναμαι διαγνῶναι.
@@ -63619,7 +68157,24 @@ switchcolumn
 \begin_layout Standard
 
 \lang ancientgreek
-ἰδοὺ ἡ Ρ
+ἰδοὺ ἡ Ῥόδος
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+
+\lang latin
+orig.
+ 
+\lang ancientgreek
+ʼΡ
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+
+\lang ancientgreek
+Ρ
 \begin_inset ERT
 status open
 
@@ -63630,14 +68185,12 @@ status open
 
 \end_inset
 
+
+\end_layout
+
+\end_inset
+
 όδος
-\begin_inset Foot
-status open
-
-\begin_layout Plain Layout
-
-\lang latin
-sic
 \end_layout
 
 \end_inset
@@ -65372,14 +69925,17 @@ switchcolumn
 \begin_layout Standard
 
 \lang ancientgreek
-οἰ Καιροί
+οἰ καιροί
 \begin_inset Foot
 status open
 
 \begin_layout Plain Layout
 
 \lang latin
-sic
+orig.
+ 
+\lang ancientgreek
+Καιροί
 \end_layout
 
 \end_inset
@@ -66735,15 +71291,18 @@ switchcolumn*
 
 \begin_layout Standard
 Der Tabaks\SpecialChar \textcompwordmark{}
-händler..
- 
+händler.
 \begin_inset Foot
 status open
 
 \begin_layout Plain Layout
 
 \lang latin
-sic
+orig.
+ 
+\lang german
+Tabaks\SpecialChar \textcompwordmark{}
+händler..
 \end_layout
 
 \end_inset
@@ -69221,7 +73780,10 @@ status open
 \begin_layout Plain Layout
 
 \lang latin
-sic
+sic.
+
+\lang ancientgreek
+ «ʼΡωσία» φαίνεταί μοι βέλτιον ἤ «Ρωσία».
 \end_layout
 
 \end_inset
@@ -69269,6 +73831,21 @@ switchcolumn
 
 \lang ancientgreek
 οἱ Ρῶσοι.*
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+
+\lang latin
+sic.
+
+\lang ancientgreek
+ «ʼΡῶσοι» φαίνεταί μοι βέλτιον ἤ «Ρῶσοι».
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -71123,21 +75700,21 @@ genuß:
 \begin_layout Quote
 
 \lang ancientgreek
-1— 6: αʹ.
- βʹ.
- γʹ.
- δʹ.
- εʹ.
- ϛʹ.
+1— 6: αʹ.
+ βʹ.
+ γʹ.
+ δʹ.
+ εʹ.
+ ϛʹ.
 \end_layout
 
 \begin_layout Quote
 
 \lang ancientgreek
-7—10: ζʹ.
- ηʹ.
- θʹ.
- ιʹ.
+7—10: ζʹ.
+ ηʹ.
+ θʹ.
+ ιʹ.
  
 \end_layout
 
@@ -71185,10 +75762,21 @@ Druck von Hesse & Becker in Leipzig.
 \end_layout
 
 \begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 \align center
 
 \size giant
-(Schnitt)
+(Das originale Buch hat Ankündigungen hier.)
+\begin_inset Newline newline
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -71199,7 +75787,45 @@ Druck von Hesse & Becker in Leipzig.
 \end_layout
 
 \begin_layout Part*
-Redactionelle Hinweise
+Redaktionelle Hinweise
+\begin_inset Newline newline
+\end_inset
+
+zur Digitalisierung und Setzung
+\begin_inset Newline newline
+\end_inset
+
+des Buches
+\end_layout
+
+\begin_layout Standard
+Der originale Text hat 
+\emph on
+keine
+\emph default
+ Fußnote, aber der Digitalsetzer fügt 
+\emph on
+alle
+\emph default
+ die Fußnoten ein.
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+ifFraktur
+\backslash
+else
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Section*
@@ -71213,8 +75839,224 @@ Aa Bb Cc Dd Ee Ff Gg Hh Ii Jj Kk Ll Mm Nn Oo Pp Qq Rr Sss Tt Uu Vv Ww Xx
 \end_layout
 
 \begin_layout Standard
-Aa Uu; Cc Ee Ss Gg; Kk Hh; Rr Nn; Mm Ww Vv Bb Yy; Oo Qq Pp Dd; Tt Ll; Iij
- Ff; Zz Xx
+
+\lang latin
+A
+\lang german
+Aa 
+\lang latin
+U
+\lang german
+Uu; 
+\lang latin
+C
+\lang german
+Cc 
+\lang latin
+E
+\lang german
+Ee 
+\lang latin
+S
+\lang german
+Sss 
+\lang latin
+G
+\lang german
+Gg; 
+\lang latin
+K
+\lang german
+Kk 
+\lang latin
+H
+\lang german
+Hh; 
+\lang latin
+N
+\lang german
+Nn 
+\lang latin
+R
+\lang german
+Rr 
+\lang latin
+X
+\lang german
+Xx; 
+\lang latin
+M
+\lang german
+Mm 
+\lang latin
+W
+\lang german
+Ww 
+\lang latin
+V
+\lang german
+Vv 
+\lang latin
+B
+\lang german
+Bb 
+\lang latin
+Y
+\lang german
+Yy; 
+\lang latin
+O
+\lang german
+Oo 
+\lang latin
+Q
+\lang german
+Qq 
+\lang latin
+P
+\lang german
+Pp 
+\lang latin
+D
+\lang german
+Dd; 
+\lang latin
+T
+\lang german
+Tt 
+\lang latin
+L
+\lang german
+Ll; 
+\lang latin
+IJ
+\lang german
+Iij 
+\lang latin
+F
+\lang german
+Ff; 
+\lang latin
+Z
+\lang german
+Zz 
+\lang latin
+ß
+\lang german
+ß
+\end_layout
+
+\begin_layout Standard
+
+\lang ancientgreek
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+
+\lang ancientgreek
+Α
+\begin_inset space \thinspace{}
+\end_inset
+
+α Β
+\begin_inset space \thinspace{}
+\end_inset
+
+ββ Γ
+\begin_inset space \thinspace{}
+\end_inset
+
+γ Δ
+\begin_inset space \thinspace{}
+\end_inset
+
+δ Ε
+\begin_inset space \thinspace{}
+\end_inset
+
+ε Ζ
+\begin_inset space \thinspace{}
+\end_inset
+
+ζ Η
+\begin_inset space \thinspace{}
+\end_inset
+
+η Θ
+\begin_inset space \thinspace{}
+\end_inset
+
+θθ Ι
+\begin_inset space \thinspace{}
+\end_inset
+
+ι Κ
+\begin_inset space \thinspace{}
+\end_inset
+
+κ Λ
+\begin_inset space \thinspace{}
+\end_inset
+
+λ Μ
+\begin_inset space \thinspace{}
+\end_inset
+
+μ Ν
+\begin_inset space \thinspace{}
+\end_inset
+
+ν Ξ
+\begin_inset space \thinspace{}
+\end_inset
+
+ξ Ο
+\begin_inset space \thinspace{}
+\end_inset
+
+ο Π
+\begin_inset space \thinspace{}
+\end_inset
+
+ππ Ρ
+\begin_inset space \thinspace{}
+\end_inset
+
+ρρ Σ
+\begin_inset space \thinspace{}
+\end_inset
+
+σς Τ
+\begin_inset space \thinspace{}
+\end_inset
+
+τ Υ
+\begin_inset space \thinspace{}
+\end_inset
+
+υ Φ
+\begin_inset space \thinspace{}
+\end_inset
+
+φφ Χ
+\begin_inset space \thinspace{}
+\end_inset
+
+χ Ψ
+\begin_inset space \thinspace{}
+\end_inset
+
+ψ Ω
+\begin_inset space \thinspace{}
+\end_inset
+
+ω; στ
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Section*
@@ -71343,8 +76185,19 @@ ch, ck, ſt, tz; ff, ﬁ, ﬂ, ft, ll, ſi, ſſ;
 \end_layout
 
 \begin_layout Standard
-tsa, tz, t\SpecialChar \textcompwordmark{}
-z
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+fi
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Section*
@@ -71352,7 +76205,7 @@ Wörter
 \end_layout
 
 \begin_layout Itemize
-Verb, dessen Ende ist 
+Verb, dessen Ende 
 \begin_inset Quotes gld
 \end_inset
 
@@ -71360,7 +76213,7 @@ Verb, dessen Ende ist
 \begin_inset Quotes grd
 \end_inset
 
- im neudeutschen Sprache, wird 
+ im neudeutschen Sprache ist, wird 
 \begin_inset Quotes gld
 \end_inset
 
@@ -71438,43 +76291,67 @@ korrigiert
 .
 \end_layout
 
-\begin_layout Itemize
-Mittag: 
-\begin_inset Quotes gld
-\end_inset
-
-Mittag
-\begin_inset Quotes grd
-\end_inset
-
- oder 
-\begin_inset Quotes gld
-\end_inset
-
-Mit\SpecialChar \textcompwordmark{}
-tag
-\begin_inset Quotes grd
-\end_inset
-
-: welches wort ist rightig?
-\end_layout
-
-\begin_layout Itemize
-\begin_inset ERT
-status collapsed
+\begin_layout Standard
+Dieses Dokument, dessen ursprüngliche Buch (
+\begin_inset Flex URL
+status open
 
 \begin_layout Plain Layout
 
-
-\backslash
-meaning
-\backslash
-emph
+https://archive.org/details/sprechensieatti00johngoog
 \end_layout
 
 \end_inset
 
+) im 
+\begin_inset Quotes gld
+\end_inset
 
+Internet Archive
+\begin_inset Quotes grd
+\end_inset
+
+ erhältlich ist, wurde mit 
+\lang latin
+LaTeX
+\lang german
+ gesetzt.
+ Sein Quelltext ist online erhältlich: 
+\begin_inset Flex URL
+status open
+
+\begin_layout Plain Layout
+
+https://github.com/na4zagin3/Sprechen-Sie-attisch
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Nachdem Zagin (@na4zagin3) des Zirkels 
+\begin_inset Quotes gld
+\end_inset
+
+Hyalinios
+\begin_inset Quotes grd
+\end_inset
+
+ digitalisierte das Buch, veröffentlichte er am 16.
+\begin_inset space \space{}
+\end_inset
+
+Augustus 2016 es, um auf den 90.
+\begin_inset space \space{}
+\end_inset
+
+
+\emph on
+Comic Market
+\emph default
+ zu bringen.
 \end_layout
 
 \end_body
