@@ -115,7 +115,8 @@
 %\ifx\languagename\germanlanguagename%
 \ifboolexpr{test {\ifsperrsatzlanguage}}{%
  % \addfontfeature{LetterSpace=15.0,WordSpace=1.5,Ligatures={NoCommon}}%
-  \addfontfeature{LetterSpace=17.0,WordSpace=1.1,Ligatures={NoCommon}}%
+  \spaceskip=0.8em plus 0.2em minus 0.4em\relax
+  \addfontfeature{LetterSpace=17.0,Ligatures={NoCommon}}%
   \renewcommand{\textcompwordmark}{\-\hspace*{0.15em}}%
 }{\origemshape}}
     \preto\emph{%
