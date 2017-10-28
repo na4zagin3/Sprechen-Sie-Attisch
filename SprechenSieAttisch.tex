@@ -66,11 +66,10 @@
   \fi
 \else
   \ifxetex
-    %\usepackage[xetex]{hyperref}
-    %\usepackage{zxjatype}
-    %\setjamainfont{IPAMincho}
-    %\setjasansfont{IPAGothic}
-    %\setjamonofont{IPAGothic}
+    \usepackage{zxjatype}
+    \setjamainfont{YuMincho}
+    \setjasansfont{YuGothic}
+    \setjamonofont{IPAGothic}
   \else
     %\usepackage[dvipdfmx]{hyperref}
     \usepackage{pxjahyper}
@@ -266,6 +265,11 @@
 \setotherlanguage{french}
 \setotherlanguage[variant=ancient]{greek}
 \setotherlanguage{latin}
+\setotherlanguage{japanese}
+
+\newcommand{\trDE}[1]{(#1)}
+\newcommand{\trJA}[1]{#1}
+
 \begin{document}
 \frontmatter
 \renewcommand\thepart{\Alph{part}}
