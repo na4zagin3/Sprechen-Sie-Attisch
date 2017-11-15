@@ -128,3 +128,9 @@ sympy-plots-for-*.tex/
 # Temporary files
 *~
 .*.sw?
+
+# Generated
+*.pdf
+
+# Haskell Stack
+.stack-work
