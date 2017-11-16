@@ -1,0 +1,904 @@
+part:
+  de: In der Schule.
+sections:
+  - title:
+      de: In die Schule!
+    conversations:
+      - modern:
+        - de: Es ist Zeit zu gehen!
+        grc: ὥρα προβαίνειν σοί ἐστιν.
+      - modern:
+        - de: "Es ist Zeit in's Gymnasium zu gehen!"
+        grc: ὥρα ἐστὶν εἰς τὸ γυμνάσιον βαδίζειν.
+      - modern:
+        - de: "So mach' doch, daß du in's Gymnasium kommst!"
+        grc: οὐκ ἂν φθάνοις εἰς τὸ γυνμάσιον ἰών;
+      - modern:
+        - de: Halt dich nicht auf! --- Beeile dich!
+        grc: μή νυν διάτριβε! --- σπεῦδέ νυν!
+      - modern:
+        - de: Du hast keine Zeit mehr zu verlieren.
+        grc: ὁ καιρός ἐστι μηκέτι μέλλειν.
+      - modern:
+        - de: "Mach' dir keine Sorge!"
+        grc: μὴ φροντίσῃς.
+      - modern:
+        - de: Nur nicht ängstlich!
+        grc: μηδὲν δείσῃς.
+      - modern:
+        - de: Sei unbesorgt!
+        grc: μηδὲν φοβηθῆς.
+  - title:
+      de: Zu spät gekommen!
+    conversations:
+      - modern:
+        - de: Wir wollen beten!
+        grc: "ἀλλ' εὐχώμεθα!"
+      - modern:
+        - de: Ich bin \emph{doch nicht etwa} zu spät gekommen?
+        grc: \emph{μῶν} ὕστερος πάρειμι;
+      - modern:
+        - de: Ich bin zu spät gekommen.
+        grc: ὕστερος ἦλθον!
+      - modern:
+        - de: Hilf Himmel! --- Ach, ich Ärmster!
+        grc: Ἄπολλον ἀποτρόπαιε! --- οἴμοι κακοδαίμων!
+      - modern:
+        - de: Ich Unglücks\textcompwordmark{}wurm!
+        grc: κακοδαίμων ἐγώ!
+      - modern:
+        - de: Verwünscht!
+        grc: οἴμοι τάλας!
+      - modern:
+        - de: Wo kommen Sie denn nur her?
+        grc: πόθεν ἥκεις ἐτεόν;
+      - modern:
+        - de: Sie sind wieder zu spät gekommen!
+        grc: ὕστερον αὖθις ἦλθες!
+      - modern:
+        - de: Wes\textcompwordmark{}halb sind Sie jetzt erst gekommen?
+        grc: τοῦ ἕνεκα τηνικάδε ἀφίκου;
+      - modern:
+        - de: Es hat noch nicht acht geschlagen.
+        grc: οὐ γάρ πω ἐσήμηνε τὴν ὀγδόην.
+      - modern:
+        - de: Sie sind erst nach dem Läuten gekommen!
+        grc: ὕστερος σὺ ἦλθες τοῦ σημείου.
+      - modern:
+        - de: Seien Sie nicht böse; meine Uhr geht falsch.
+        grc: μὴ ἀγανάκτει· τὸ γὰρ ὡρολόγιόν μου \emph{οὐκ ὀρθῶς χωρεῖ.}
+      - modern:
+        - de: Wirklich? Zeigen Sie einmal!
+        grc: |-
+          ἄληθες; ἀλλὰ δεῖξον! (\textgerman[spelling=old,babelshorthands=true]{nicht:}
+          ἀληθές;)
+      - modern:
+        - de: Setzen Sie sich!
+        grc: κάθιζε!
+  - title:
+      de: Schriftliche Arbeiten
+    conversations:
+      - modern:
+        - de: Wollen einmal sehen, was Sie geschrieben haben!
+        grc: "φέρ' ἴδω, τί ουν ἔγραψας."
+      - modern:
+        - de: Hier ist es.
+        grc: \emph{ἰδού.}
+      - modern:
+        - de: Wovon handelt der Aufsatz?
+        grc: ἐστὶ δὲ περὶ τοῦ τὰ γεγραμμένα;
+      - modern:
+        - de: Geben Sie das Heft her, damit ich es lesen kann.
+        grc: "\\emph{φέρε} τὸ βιβλίον, ἵν' ἀναγνῶ."
+      - modern:
+        - de: Wollen einmal sehen, was darin steht!
+        grc: "φέρ' ἴδω, τί ἔνεστιν."
+      - modern:
+        - de: Haben Sie einen Bleistift?
+        grc: ἔχεις κυκλομόλυβδον;
+      - modern:
+        - de: Das R hier ist miserabel.
+        grc: τὸ ῥῶ τουτὶ μοχθηρόν.
+      - modern:
+        - de: Was ist denn das eigentlich für ein Buchstabe?
+        grc: "τουτὶ τί \\emph{ποτ'} ἐστὶ γράμμα;"
+      - modern:
+        - de: Sie geben sich keine Mühe!
+        grc: οὐκ ἐπιμελὴς εἶ.
+      - modern:
+        - de: Haben Sie das allein gemacht (verfaßt)?
+        grc: αὐτὸς δὺ ταῦτα ἔγραφες;
+      - modern:
+        - de: Verfaßt ist es von mir, aber von meinem Vater corrigirt.
+        grc: "συντέταχθαι μὲν ταῦτα ὑπ' ἐμοῦ, διώρθωται δὲ ὑπὸ τοῦ πατρός."
+      - modern:
+        - de: Haben Sie alles berührt und nichts übergangen?
+        grc: ἦ πάντα ἐπελήλυθας κοὐδὲν παρῆλθες;
+      - modern:
+        - de: Ich glaube wenigstens.
+        grc: δοκεῖ γοῦν μοι.
+      - modern:
+        - de: Das steht nicht darin.
+        grc: οὐκ ἔνεστι τοῦτο.
+      - modern:
+        - de: >-
+            Ich habe die Nacht nicht geschlafen, sondern bis zum Morgen an meiner
+            Rede gearbeitet.
+        grc: |-
+          οὐκ ἐκάθευδον τὴν νύκτα ἀλλὰ\footnote{\begin{latin}%
+          \textgreek[variant=ancient]{ὁ τυπογράφος ἔγραψα τὸν οὐ γεγραμμένον
+          τόνον.}\end{latin}%
+          } διεπονούμην πρὸς φῶς περὶ τὸν λόγον.
+      - modern:
+        - de: Ich weiß schon, wie Sie es machen.
+        grc: τούς τρόπους σου ἐπίσταμαι.
+      - modern:
+        - de: Hier haben Sie zweimal dasselbe gesagt!
+        grc: ἐνταῦθα δὶς ταὐτὸν εἶπες!
+      - modern:
+        - de: Gleich von vornherein haben Sie einen kolossalen Bock gemacht.
+        grc: \emph{εὐθὺς} ἡμάρτηκας θαυμασίως ὡς.
+      - modern:
+        - de: Ihre Arbeit enthält 20 Fehler.
+        grc: ἔχει τὸ σὸν εἴκοσιν ἁμαρτίας.
+      - modern:
+        - de: Sie wissen von vielen Dingen nichts.
+        grc: πολλά σε λανθάνει.
+  - title:
+      de: Grammatisches
+    conversations:
+      - modern:
+        - de: Weiter nun!
+        grc: ἴθι νυν.
+      - modern:
+        - de: Ich will Sie einmal examiniren, wie es mit Ihnen im Griechischen steht.
+        grc: βούλομαι λαβεῖν σου πεῖραν, ὅπως ἔχεις περὶ τῶν Ἑλληνικῶν.
+      - modern:
+        - de: \emph{Wie} heißt der Genitiv von diesem Wort?
+        grc: ποία \emph{ἐστὶν} ἡ γενικὴ ταύτης τῆς λέξεως;
+      - modern:
+        - de: Der Nominativ, Dativ, Accusativ, Vocativ?
+        grc: ἡ ὀνομαστική, δοτική, αἰτιατική, κλητική;
+      - modern:
+        - de: Falsch!
+        grc: μὴ δῆτα!
+      - modern:
+        - de: Der Genitiv von diesem Worte ist ungebräuchlich.
+        grc: ἡ γενικὴ τῆς λέξεως ταύτης ἄχρηστός ἐστιν.
+      - modern:
+        - de: Ganz richtig!
+        grc: ὀρθῶς γε!
+      - modern:
+        - de: Wie heißt der Indicativ des Präsens von diesem Verb?
+        grc: ποῖός ἐστιν ὁ ἐνεστὼς (χρόνος) τῆς ὁριστικῆς τοῦ ῥήματος τούτου;!
+      - modern:
+        - de: Das will ich mir notiren.
+        grc: μνημόσυνα ταῦτα γράψομαι.
+      - modern:
+        - de: Ich schreibe mir das auf.
+        grc: γράφομαι τοῦτο.
+      - modern:
+        - de: Der Conjunctiv, Optativ, Imperativ.
+        grc: ἡ ὑποτακτική, εὐκτική, προστακτική.
+      - modern:
+        - de: Der Infinitiv, das Particip.
+        grc: ἡ ἀπαρέμφατος, ἡ μετοχή.
+      - modern:
+        - de: Das Imperfect, Perfect.
+        grc: ὁ παρατατικός, ὁ παρακείμενος.
+      - modern:
+        - de: Plus\textcompwordmark{}quamperfect, Aorist.
+        grc: ὁ ὑπερσυντελικός, ἀόριστος.
+      - modern:
+        - de: Futurum. (Erstes, zweites.)
+        grc: ὁ μέλλων. (πρῶτος, δεύτερος.)
+      - modern:
+        - de: Das Activ, Passiv.
+        grc: τὸ ἐνεργητικόν, παθητικόν.
+      - modern:
+        - de: Sie betonen falsch.
+        grc: οὐκ ὀρθῶς τονοῖς.
+      - modern:
+        - de: Der Accent (Acut, Gravis, Circumflex).
+        grc: ἡ κεραία (ἡ ὀξεῖα, βαρεῖα, περισπωμένη).
+      - modern:
+        - de: Der Artikel muß stehen.
+        grc: δεῖ τοῦ ἄρθρου.
+  - title:
+      de: Verkehrte Antworten
+    conversations:
+      - modern:
+        - de: Geben Sie Acht!
+        grc: πρόσεχε τὸν νοῦν!
+      - modern:
+        - de: Beantworten sie mir, was ich fragen werde.
+        grc: "ἀπόκριναι, ἅττ' ἄν ἔρωμαι."
+      - modern:
+        - de: Antworten Sie bestimmt!
+        grc: ἀπόκριναι σαφῶς!
+      - modern:
+        - de: Reden Sie laut.
+        grc: λέξον \emph{μέγα.}
+      - modern:
+        - de: Versuchen Sie etwas recht Scharfsinniges u. Gescheites zu sagen!
+        grc: ἀποκινδύνευε λεπτόν τι καὶ σοφὸν λέγειν.
+      - modern:
+        - de: Bitte, sprechen Sie weiter!
+        grc: λέγοις ἂν ἄλλο.
+      - modern:
+        - de: Fahren Sie fort!
+        grc: "λέγε, ὦ 'γαθέ!"
+      - modern:
+        - de: Nun, Sie scheinen nicht zu wissen, was Sie sagen sollen.
+        grc: "ἀλλ' οὐκ ἔχειν ἔοικας, ὅτι λέγῃς."
+      - modern:
+        - de: Warum reden Sie nicht weiter?
+        grc: τί σιωπᾷς;
+      - modern:
+        - de: Sagen Sie mir, was Sie meinen!
+        grc: |-
+          εἰπέ μοι, ὅτι\footnote{\begin{latin}%
+          \textgreek[variant=ancient]{ὁ τυπογράφος ἔγραψα τὸν οὐ γεγραμμένον
+          ἦχον.}\end{latin}%
+          } λέγεις.
+      - modern:
+        - de: Was reden Sie da für verkehrtes Zeug?
+        grc: τί ταῦτα ληρεῖς;
+      - modern:
+        - de: "Sie schwatzen in's Blaue hinein!"
+        grc: ἄλλως φλυαρεῖς;
+      - modern:
+        - de: Das ist was ganz Anderes!
+        grc: "οὐ ταὐτόν, ὦ 'τάν!"
+      - modern:
+        - de: Nicht darnach frage ich Sie!
+        grc: "οὐ τοῦτ' ἐρωτῶ σε."
+      - modern:
+        - de: Doch (\textlatin{sc.} abbrechend) antworten Sie einmal auf meine Frage.
+        grc: \emph{καὶ μὴν} ἐπερωτηθεὶς ἀπόκριναί μοι.
+      - modern:
+        - de: Sie sprechen in Räthseln!
+        grc: "δι' αἰνιγμῶν λέγεις."
+      - modern:
+        - de: Ist das Ihr Ernst oder scherzen Sie?
+        grc: σπουδάζεις ταῦτα ἢ παίζεις;
+      - modern:
+        - de: Unsinn!
+        grc: οὐδὲν λέγεις!
+      - modern:
+        - de: Machen Sie weiter kein Gerede!
+        grc: μὴ λάλει!
+      - modern: # ToDo
+        - de: \vspace{0.5em}Schweigen Sie!
+        grc: |-
+          \begin{tabular}{ll}
+          \ldelim\{{2}{1em}[] & \begin{greek}[variant=ancient]%
+          σίγα!\end{greek}%
+          \tabularnewline
+          & \begin{greek}[variant=ancient]%
+          σιώπα!\end{greek}%
+          \tabularnewline
+          \end{tabular}
+      - modern:
+        - de: So schweigen Sie doch!
+        grc: οὐ σιγήσει;
+      - modern:
+        - de: O Sie Schwachkopf!
+        grc: ὦ μῶρε σύ!
+  - title:
+      de: Abbildungen
+    conversations:
+      - modern:
+        - de: Ich will Ihnen eine Abbildung zeigen.
+        grc: εἰκόνα ὑμῖν ἐπιδείξω.
+      - modern:
+        - de: Sehen Sie einmal hinunter!
+        grc: βλέψατε κάτω!
+      - modern:
+        - de: Sehen Sie hinauf!
+        grc: βλέψατε ἄνω!
+      - modern:
+        - de: Wo sehen Sie hin?
+        grc: ποῖ βλέπεις;
+      - modern:
+        - de: Sie sehen wo anders hin.
+        grc: ἑτέρωσε βλέπεις.
+      - modern:
+        - de: Sieh einmal hierher!
+        grc: δεῦρο σκεψαι!
+      - modern:
+        - de: \myafterpagetrue\mysetaligntext{german}{Ich höre ein Geräusch{ }}\mysetalign{german}dahinten.
+        grc: καὶ μὴν αἰσθάνομαι ψόφου τινός ἐξόπισθεν.
+      - modern:
+        - de: \bgroup\mysetalign{german}da vorn.\par\egroup
+        grc: ἐν τῷ πρόσθεν.
+      - modern:
+        - de: Hören Sie auf zu schwatzen!
+        grc: παῦσαι λαλῶν!
+      - modern:
+        - de: So schwatzen Sie doch nicht!
+        grc: οὐ μὴ λαλήσετε;
+  - title:
+      de: Griechische Dichter
+    conversations:
+      - modern:
+        - de: Sagen Sie mir nun die schönste Stelle aus der Antigone her!
+        grc: ἐκ τῆς Ἀντιγόνης τὸ νῦν εἰπὲ τὴν καλλίστην ῥῆσιν ἀπολέγων.
+      - modern:
+        - de: Den Anfang der Odyssee.
+        grc: τὸ πρῶτον τῆς Ὀδυσσείας.
+      - modern:
+        - de: Was bedeutet diese Stelle?
+        grc: τί \emph{νοεῖ} τοῦτο;
+      - modern:
+        - de: Sie sind nicht recht bei Troste!
+        grc: κακοδαιμονᾷς.
+      - modern:
+        - de: Wie naiv!
+        grc: ὡς εὐηθικῶς!
+      - modern:
+        - de: Wo haben Sie Ihren Verstand?
+        grc: ποῦ τὸν νοῦν ἔχεις;
+      - modern:
+        - de: Sie sind von Sinnen.
+        grc: παραφρονεῖς!
+      - modern:
+        - de: >-
+            Diese Stelle hat Sophokles nicht so aufgefaßt, wie Sie sie auffassen.
+            Überlegen Sie es sich besser!
+        grc: |-
+          τὴν ῥῆσιν ταύτην οὐκ οὕτω Σοφοκλῆς ὑπελάμβανεν, ὡς σὺ ὑπολαμβάνεις.
+          ὅρα δὴ βέλτιον.
+      - modern: # Why \_?
+        - de: Beachten Sie diesen Aus\textcompwordmark{}druck!\_
+        grc: σκόπει τὸ ῥῆμα τοῦτο!
+      - modern:
+        - de: \textgreek[variant=ancient]{ἥκω} ist gleichbedeutend mit \textgreek[variant=ancient]{κατέρχομαι.}
+        grc: ἥκω ταὐτόν ἐστι τῷ κατέρχομαι.
+      - modern:
+        - de: Was soll das bedeuten?
+        grc: τίς ὁ νοῦς.
+      - modern:
+        - de: Jetzt sprechen sie vernünftig.
+        grc: τουτὶ φρονίμως ἤδη λέγεις.
+      - modern:
+        - de: Sie haben nunmehr den Sinn vollkommen inne.
+        grc: "πάντ' ἔχεις ἤδη."
+      - modern:
+        - de: Sie haben gut combinirt.
+        grc: εὖ γε ξυνέβαλες!
+      - modern:
+        - de: Das ist ohne Zweifel \emph{das Schönste, was} Sophokles gedichtet hat.
+        grc: τοῦτο δήπου κάλλιστον πεποίηκε Σοφοκλῆς.
+      - modern:
+        - de: Sophokles steht über Euripides.
+        grc: "Σοφοκλῆς πρότερός ἐστ' Εὐριπίδου."
+      - modern:
+        - de: Doch ist dieser ebenfalls ein guter Dichter.
+        grc: "ὁ δ' ἀγαθὸς ποιητής ἐστι καὶ αὐτός."
+      - modern:
+        - de: Ich bin kein Verehrer des Euripides.
+        grc: οὐκ ἐπαινῶ Εὐριπίδην μὰ Δία.
+      - modern:
+        - de: Fällt Ihnen nicht ein Vers des Euripides ein?
+        grc: οὐκ ἀναμιμνήσκει ἴαμβον Εὐριπίδου;
+      - modern:
+        - de: Das können sie ziemlich gut.
+        grc: "τουτὶ μὲν ἐπιεικῶς σύγ' ἐπίστασαι."
+      - modern:
+        - de: Im Euripides sind Sie gut bewandert.
+        grc: Εὐριπίδην πεπάτηκας ἀκριβῶς.
+      - modern:
+        - de: Wo haben Sie das so gut gelernt?
+        grc: "πόθεν ταῦτ' ἔμαθες οὕτω καλῶς;"
+      - modern:
+        - de: Ich habe mir viele Stellen von Euripides abgeschrieben.
+        grc: Εὐριπίδου ῥήσεις ἐξεγραψάμην πολλάς.
+      - modern:
+        - de: Declamire mir ein Stück von einem neueren Dichter!
+        grc: λέξον τι τῶν νεωτέρων.
+      - modern:
+        - de: >-
+            Sie verdienen es nicht, denn einen originellen Dichter wird man wohl
+            nicht mehr unter ihnen finden.
+        grc: οὐκ ἔξιοί εἰσι τούτου, γόνιμον γὰρ ποιητὴν οὐκ ἂν ἔτι εὕροις ἐν αὐτοῖς.
+      - modern:
+        - de: Welche Ansicht haben Sie über Äschylus?
+        grc: περὶ Αἰσχύλου δὲ τίνα ἔχεις γνώμην;
+      - modern:
+        - de: Den Äschylus stelle ich am höchsten unter den Dichtern.
+        grc: Αἰσχύλον νομίζω πρῶτον ἐν ποιηταῖς.
+      - modern:
+        - de: Kennen Sie dieses Lied von Simonides?
+        grc: ἐπίστασαι τοῦτο τὸ ἆσμα Σιμωνίδου.
+      - modern:
+        - de: Ja!
+        grc: μάλιστα.
+      - modern:
+        - de: Ja gewiß!
+        grc: ἔγωγε νὴ Δία\textgerman[spelling=old,babelshorthands=true]{.}
+      - modern:
+        - de: Soll ich es ganz hersagen?
+        grc: βούλει πᾶν διεξέλθω;
+      - modern:
+        - de: Ist nicht nöthig.
+        grc: οὐδὲν δεῖ.
+      - modern:
+        - de: Wie heißen diese Verse? (\textlatin{sc.} mit Namen)
+        grc: ὄνομα δὲ τούτῳ τῷ μέτρῳ τί ἐστιν;
+      - modern:
+        - de: Ich kann das Gedicht nicht.
+        grc: τὸ ἆσμα οὐκ ἐπίσταμαι.
+      - modern:
+        - de: Doch ich wende mich nun zu dem zweiten Act der Tragödie.
+        grc: |-
+          καὶ μὴν ἐπὶ τὸ δεύτερον τῆς τραγῳδίας\footnote{\begin{latin}%
+          \textgreek[variant=ancient]{ὁ τυπογράφος ἔγραψα τὸν οὐ γεγραμμένον
+          ἴοτα ὑπογραμμένον.}\end{latin}%
+          } μέρος τρέψομαι.
+  - title:
+      de: Übersetzen
+    conversations:
+      - modern:
+        - de: Suchen Sie in Ihrem Buche den Abschnitt über Sokrates auf! Es ist Nr.\ 107.
+        grc: ζητεῖτε τὸ περὶ Σωκράτους λαβόντες τὸ βιβλίον. ἐστὶ δὲ τὸ ἐκατοστὸνκαὶ ἕβδομον.
+      - modern:
+        - de: Nun, so geben Sie Acht!.
+        grc: ἀλλὰ προσέχετε τὸν νοῦν.
+      - modern:
+        - de: "Wir wollen das (mündlich) in's Griechische übersetzen."
+        grc: λέγωμεν ἑλληνικῶς ταῦτα μεταβάλλοντες.
+      - modern:
+        - de: Fangen Sie an, N.!
+        grc: |-
+          ἴθι δή\footnote{\begin{latin}%
+          orig. \textgreek[variant=ancient]{δὴ}\end{latin}%
+          }, λέγε, ὦ Ν.
+      - modern:
+        - de: Ich bin mit Ihrer Übersetzung zufrieden.
+        grc: "ταῦτα μ' ἤρεσας λέγων."
+      - modern:
+        - de: Von wem haben sie Griechisch gelernt?
+        grc: "τίς σ' ἐδίδαξε τὴν ἑλληνικὴν φωνήν;"
+      - modern:
+        - de: Fahren Sie \emph{fort!}
+        grc: \emph{λέγε.}
+      - modern:
+        - de: Das ist wieder ganz geschickt.
+        grc: "τοῦτ' αὖ δεξιόν."
+      - modern:
+        - de: Fahren \emph{Sie} fort!
+        grc: "λέγε δὴ σύ, ὦ 'γαθέ."
+      - modern:
+        - de: Sie übersetzen ungeschickt.
+        grc: σκαιῶς ταῦτα λέγεις.
+      - modern:
+        - de: Das ist ein Jonisches Wort.
+        grc: "τοῦτ' ἐστ' Ἰωνικὸν τὸ ῥῆμα."
+      - modern:
+        - de: Sie übersetzen in Jonischem Dialekt.
+        grc: Ἰωνικῶς λέγεις.
+      - modern:
+        - de: Nun, wie wollen Sie übersetzen?
+        grc: |-
+          φέρε δή\footnote{\begin{latin}%
+          orig. \textgreek[variant=ancient]{δὴ}\end{latin}%
+          }, τί λέγεις;
+      - modern: # ToDo, is the footnote original?
+        - de: Machen Sie schnell u.\footnote{\quotedblbase und``}\ übersetzen Sie!
+        grc: "ἀλλ' \\emph{ἀνύσας} λέγε!"
+      - modern:
+        - de: Mit Ihnen ist nichts.
+        grc: "σύγ' οὐδὲν εἶ."
+      - modern:
+        - de: Es ist \emph{meine Pflicht,} daß ich Ihnen dies sage.
+        grc: δικαίως δὲ τοῦτό σοι λέγω.
+      - modern:
+        - de: Sie können ja nicht drei Worte übersetzen, ohne Fehler zu machen.
+        grc: "σὺ γὰρ οὐδὲ τρία ῥήματα ἑλληνικῶς εἰπεῖν οἷός τ' εἶ πρὶν ἐξαμαρτεῖν."
+      - modern:
+        - de: Hören Sie auf!
+        grc: \emph{παῦε!}
+      - modern:
+        - de: Übersetzen Sie dieses Stück auch schriftlich!.
+        grc: καὶ μεταγράφετε αὐτὸ τοῦτο ἑλληνιστί!
+      - modern:
+        - de: Verstanden?
+        grc: \emph{μανθάνετε;}
+      - modern:
+        - de: Ja wohl!
+        grc: πάνυ μανθάνομεν.
+      - modern:
+        - de: Die Aufgabe.
+        grc: τὸ ἔργον.
+      - modern:
+        - de: Wie fatal, daß ich das Heft vergessen habe.
+        grc: |-
+          ἐς κόρακας! ὡς ἄχθομαι, ὅτι\footnote{\begin{latin}%
+          \textgreek[variant=ancient]{τῷ τυπογράφῳ ἄσκοπος τὸ γράμμα «ι» ἦν,
+          καὶ ὁ τυπογράφος ἔγραψα τὸν οὐ γεγραμμένον τόνον.}\end{latin}%
+          } ἐπελαθόμην τοὺς χάρτας (τὸ βιβλίον) προσφέρειν.
+      - modern:
+        - de: "Leih' mir eine Feder und Papier!"
+        grc: χρῆσόν τί μοι γραφεῖον καὶ χάρτην.
+  - title:
+      de: Beschäftigt
+    conversations:
+      - modern:
+        - de: Jeder geht an seine Arbeit.
+        grc: πᾶς χωρεῖ πρὸς ἔργον.
+      - modern:
+        - de: Was haben wir (beiden) denn nun weiter zu thun?
+        grc: ἄγε δή, τί νῷν ἐντευθενὶ ποιητέον;
+      - modern:
+        - de: So, das wäre besorgt.
+        grc: ταυτὶ δέδραται.
+      - modern:
+        - de: "Ich will's besorgen."
+        grc: ταῦτα δράσω.
+      - modern:
+        - de: Das will ich schon besorgen.
+        grc: μελήσει μοι ταῦτα.
+      - modern:
+        - de: Da ist Alles, was du brauchst.
+        grc: ἰδοὺ πάντα, ὧν δέει.
+      - modern:
+        - de: Hast du Alles, was du brauchst?
+        grc: "ἆρ' ἔχεις ἅπαντα, ἅ δεῖ;"
+      - modern:
+        - de: Ja, ich habe Alles da, was ich brauche.
+        grc: πάντα νὴ Δία πάρεστι μοί, ὅσων δέομαι.
+      - modern:
+        - de: Die Sache ist ganz einfach.
+        grc: \emph{φαυλότατον} ἔργον.
+      - modern:
+        - de: Zu welchem Zwecke thut ihr dies?
+        grc: ἵνα δὴ τί τοῦτο δρᾶτε;
+      - modern:
+        - de: So geht die Sache viel besser.
+        grc: |-
+          χωρεῖ τὸ πρᾶγμα οὕτω\footnote{%
+          \textgreek[variant=ancient]{ὁ τυπογράφος ἔγραψα τὸν οὐ γεγραμμένον
+          ἦχον και τόνον.}%
+          } πολλῷ\footnote{%
+          \textgreek[variant=ancient]{τῷ τυπογράφῳ ἄσκοπος τὸ γράμμα «ῷ» ἦν.}%
+          } πᾶλλον.
+      - modern:
+        - de: Sei fleißig bei der Arbeit!
+        grc: τῷ ἔργῳ πρόσεχε!
+      - modern:
+        - de: "Mach' es nicht wie die Andern!"
+        grc: μὴ ποίει, ἅπερ οἱ ἄλλοι δρῶσιν!
+      - modern:
+        - de: Die Arbeit geht nicht vorwärts.
+        grc: οὐ χωρεῖ τοὖργον.
+      - modern:
+        - de: Was wollen Sie \emph{denn} thun?
+        grc: τί δαὶ ποιήσεις;
+      - modern:
+        - de: Das Weitere ist \emph{Eure} Aufgabe.
+        grc: ὑμέτερον ἐντεῦθεν ἔργον.
+      - modern:
+        - de: Hilf mir, wenn du (jetzt) keine Abhaltung hast!
+        grc: συλλαμβάνου, εἰ μή σέ τι κωλύει!
+      - modern:
+        - de: Ich habe keine Zeit.
+        grc: \emph{οὐ σχολή} (μοι).
+  - title:
+      de: Lob und Tadel
+    conversations:
+      - modern:
+        - de: Wie denken Sie über diesen Schüler, Herr Rector?
+        grc: τί οὖν ἐρεῖς περὶ τούτου τοῦ μαθητοῦ, ὦ γυμνασίαρχε;
+      - modern:
+        - de: Der Mensch ist nicht unbegabt.
+        grc: οὐ σκαιὸς ἄνθρωπος\footnote{orig. ἅνθρωπος}!
+      - modern:
+        - de: Er scheint mir nicht unbegabt zu sein.
+        grc: οὐ σκαιός μοι δοκεῖ εἶναι.
+      - modern:
+        - de: Nein, er ist (vielmehr) recht befähigt.
+        grc: δεξιὸς \emph{μὲν οὖν} ἐστιν.
+      - modern:
+        - de: Und lerneifrig und geweckt.
+        grc: καὶ φιλομαθὴς καὶ ἀγχίνους.
+      - modern:
+        - de: Und wie ist der Andere?
+        grc: ὁ δὲ ἕτερος ποῖός τις;
+      - modern:
+        - de: Er gehört zur schlechten Sorte.
+        grc: ἐστὶ τοῦ πονηροῦ κόμματος.
+      - modern:
+        - de: Nun, mit diesem werde ich später ein Wort reden.
+        grc: ἀλλὰ πρὸς τοῦτον μὲν ὕστερός ἐστί μοι λόγος.
+      - modern:
+        - de: Er ist vergeßlich und schwer von Begriffen.
+        grc: ἐπιλήσμων γάρ ἐστι καὶ βραδύς.
+      - modern:
+        - de: Und er giebt sich keine Mühe.
+        grc: καὶ οὐκ ἐπιμελής ἐστιν.
+      - modern:
+        - de: Er ist der dümmste von allen.
+        grc: ἠλιθιότατός ἐστι πάντων.
+      - modern:
+        - de: Er hat sich ganz und gar geändert.
+        grc: πολὺ πάνυ μεθέστηκεν.
+      - modern:
+        - de: Ich weiß es wohl.
+        grc: οἶδά τοι.
+      - modern:
+        - de: Wir werden entsprechende Maßregeln ergreifen.
+        grc: ποιήσομέν τι τῶν προὔργου.
+      - modern:
+        - de: Er ist \quotedblbase dumm, faul und gefräßig.``
+        grc: ἠλίθιός τε καὶ ἀργὸς καὶ γάστρις ἐστιν.
+      - modern:
+        - de: Er ist ganz verdreht.
+        grc: μεγαγχολᾷ.
+      - modern:
+        - de: Wie macht A. seine Sache?
+        grc: ὁ δὲ Ἁ.\ πῶς παρέχει τὰ ἑαυτοῦ;
+      - modern:
+        - de: Nach (seinen) Kräften.
+        grc: "καθ' ὅσον ἂν σθένῃ!"
+      - modern:
+        - de: Ziemlich gut.
+        grc: ἐπιεικῶς.
+      - modern:
+        - de: \myafterpagetrue\mysetaligntext{german}{(Censuren:) { }}\mysetalign{german}1.
+        grc: \mysetaligntext{greek}{}\mysetalign*{greek}\textgreek[variant=ancient]{εὖγε.}
+      - modern:
+        - de: \bgroup\mysetalign{german}1b.\par\egroup
+        grc: \bgroup\mysetalign*{greek}\textgreek[variant=ancient]{καλῶς.}\par\egroup
+      - modern:
+        - de: \bgroup\mysetalign{german}2a.\par\egroup
+        grc: \bgroup\mysetalign*{greek}\textgreek[variant=ancient]{ἀκριβῶς.}\par\egroup
+      - modern:
+        - de: \bgroup\mysetalign{german}2.\par\egroup
+        grc: \bgroup\mysetalign*{greek}\textgreek[variant=ancient]{ὀρθῶς.}\par\egroup
+      - modern:
+        - de: \bgroup\mysetalign{german}2b.\par\egroup
+        grc: \bgroup\mysetalign*{greek}\textgreek[variant=ancient]{ἐπιεικῶς.}\par\egroup
+      - modern:
+        - de: \bgroup\mysetalign{german}3a.\par\egroup
+        grc: \bgroup\mysetalign*{greek}\textgreek[variant=ancient]{μετρίως.}\par\egroup
+      - modern:
+        - de: \bgroup\mysetalign{german}3.\par\egroup
+        grc: \bgroup\mysetalign*{greek}\textgreek[variant=ancient]{μέσως.}\par\egroup
+      - modern:
+        - de: \bgroup\mysetalign{german}3b.\par\egroup
+        grc: \bgroup\mysetalign*{greek}\textgreek[variant=ancient]{φαύλως.}\par\egroup
+      - modern:
+        - de: \bgroup\mysetalign{german}4.\par\egroup
+        grc: \bgroup\mysetalign*{greek}\textgreek[variant=ancient]{οὐκ ὀρθῶς.}\par\egroup
+  - title:
+      de: Singen
+    conversations:
+      - modern:
+        - de: Singe etwas!
+        grc: ᾆδόν τι!
+      - modern:
+        - de: Ich kann nicht singen.
+        grc: |-
+          μελῳδεῖν οὐκ ἐπίσταμαι\footnote{\begin{latin}%
+          orig. \textgreek[variant=ancient]{επίσταμαι}\end{latin}%
+          }!
+      - modern:
+        - de: Singt einmal ein Lied!
+        grc: μέλος τι ᾄσατε.
+      - modern:
+        - de: Was gedenkt Ihr zu singen?
+        grc: τί ἐπινοεῖτε ᾄδειν;
+      - modern:
+        - de: Nun, was sollen wir denn singen?
+        grc: "ἀλλὰ τί δῆτ' ᾄδωμεν;"
+      - modern:
+        - de: Sagen Sie nur, was Sie gern hören.
+        grc: εἰπὲ οἶστισι \emph{χαίρεις.}
+      - modern:
+        - de: Ein herrliches Lied!
+        grc: ὡς ἡδὺ τὸ μέλος!
+      - modern:
+        - de: Wir wollen noch eins singen.
+        grc: ἕτερον ᾀσόμεθα.
+      - modern:
+        - de: Erlauben sie, daß ich ein Solo singe!
+        grc: ἔασόν με μονῳδῆσαι.
+      - modern:
+        - de: Singe, soviel du willst!
+        grc: "ἀλλ' ᾆδ' ὁπόσα βούλει."
+      - modern:
+        - de: "Hör' auf zu singen!"
+        grc: παῦσαι μελῳδῶν!
+      - modern:
+        - de: Du singst immer nu \emph{vom} Wein.
+        grc: οὐδὲν γὰρ ᾄδεις πλὴν οἶνον.
+      - modern:
+        - de: Das gefällt mir.
+        grc: "τουτί μ' ἀρέσκει."
+      - modern:
+        - de: Ihnen gefällt das?
+        grc: "σὲ δὲ τοῦτ' ἀρέσκει;"
+      - modern:
+        - de: Was Sie deben gesungen haben, werde ich sicherlich nie vergessen.
+        grc: ὅσα ἄρτι ᾖσας, οὐ μὴ ἐπιλάθωμαί ποτε.!
+      - modern:
+        - de: Ich will ein Lied dazu singen.
+        grc: ἐπᾴσομαι μέλος τι.
+  - title:
+      de: Sie haben Recht!
+    conversations:
+      - modern:
+        - de: Sie haben Recht.
+        grc: \emph{εὖ λέγεις.}
+      - modern:
+        - de: Sie haben wirklich Recht.
+        grc: εὖ τοι λέγεις.
+      - modern:
+        - de: Sie könnten vielleicht Recht haben.
+        grc: ἴσως ἄν τι λέγοις.
+      - modern:
+        - de: Sie haben ganz Recht.
+        grc: εὖ πάνυ λέγεις.
+      - modern:
+        - de: Sie haben offenbar Recht.
+        grc: εὖ λέγειν σὺ φαίνει.
+      - modern:
+        - de: Ich denke, Sie haben Recht.
+        grc: εὖ γέ μοι δοκεῖς λέγειν.
+      - modern:
+        - de: Das ist auch meine Ansicht.
+        grc: συνδοκεῖ ταῦτα κἀμοί.
+      - modern:
+        - de: Es kommt mir allerdings auch so vor.
+        grc: τοῦτο μὲν κἀμοί δοκεῖ.
+      - modern:
+        - de: Das ist ganz klar.
+        grc: τοῦτο περιφανέστατον.
+      - modern:
+        - de: Das ist ein billiger Vorschlag.
+        grc: δίκαιος ὁ λόγος.
+      - modern:
+        - de: "Glaub's gern."
+        grc: \emph{πείθομαι.}
+      - modern:
+        - de: Wie es scheint.
+        grc: ὡς ἔοικεν.
+      - modern:
+        - de: Dafür giebt es viele Beweise.
+        grc: τούτων τεκμήριά ἐστι πολλά.
+      - modern:
+        - de: Ich schließe es aus Thatsachen.
+        grc: ἔργῳ τεκμαίρομαι.
+  - title:
+      de: Ja!
+    conversations:
+      - modern:
+        - de: Ja! (Ohne Zweifel!)
+        grc: |-
+          νὴ\footnote{\begin{latin}%
+          \textgreek[variant=ancient]{τυπογράφος ἔγραψα τὸν οὐ γεγραμμένον
+          τόνον.}\end{latin}%
+          } Δία!
+      - modern:
+        - de: Ja wahrhaftig!
+        grc: νὴ τοὺς θεούς! --- νὴ τὸν Ποσειδῶ!
+      - modern:
+        - de: Ganz recht!
+        grc: μάλιστά γε. --- νάνυ!
+      - modern:
+        - de: Sehr richtig!
+        grc: κομιδῆ μὲν οὖν!
+      - modern:
+        - de: Natürlich!
+        grc: εἰκότως! --- εἰκὸς γάρ!
+      - modern:
+        - de: Ja natürlich!
+        grc: εἰκότως γε (νὴ Δία)!
+      - modern:
+        - de: Ganz gewiß!
+        grc: "εὖ ἴσθ' ὅτι!"
+      - modern:
+        - de: Ich? Freilich, Sie!
+        grc: ἐγώ; σὺ \emph{μέντοι!}
+      - modern:
+        - de: Kann sein!
+        grc: \emph{οὐκ οἶδα.}
+      - modern:
+        - de: Kann wohl sein!
+        grc: ἕοικεν!
+      - modern:
+        - de: Kein Wunder!
+        grc: κοὐ θαῦμά γε!
+      - modern:
+        - de: Und das ist gar kein Wunder!
+        grc: "καὶ θαῦμά γ' οὐδέν!"
+      - modern:
+        - de: Schön!
+        grc: εὖ λέγεις!
+      - modern:
+        - de: Du fragst noch?
+        grc: |-
+          οὐκ\footnote{\begin{latin}%
+          \textgreek[variant=ancient]{ὁ τυπογράφος ἔγραψα τὸν οὐ γεγραμμένον
+          ἦχον.}\end{latin}%
+          } οἶσθα;!
+  - title:
+      de: Nein!
+    conversations:
+      - modern:
+        - de: Nein!
+        grc: \emph{οὐ μὰ Δία!}
+      - modern:
+        - de: Nein, ich nicht.
+        grc: "μὰ Δί' ἐγὼ μὲν οὔ."
+      - modern:
+        - de: Nein, sondern . . .
+        grc: οὔκ· ἀλλά . . .
+      - modern:
+        - de: Nicht doch!
+        grc: μὴ δῆτα!
+      - modern:
+        - de: "Thu's nicht!"
+        grc: μή νυν ποιήσῃς!
+      - modern:
+        - de: Noch nicht!
+        grc: μὴ δῆτά πώ γε.
+      - modern:
+        - de: Nicht eher, als bis (dies geschieht)
+        grc: |
+                οὔκ, ἢν μὴ (τοῦτο γένηται\footnote{\begin{latin}%
+                \textgreek[variant=ancient]{ὁ τυπογράφος ἔγραψα τὸν οὐ γεγραμμένον
+                τόνον.}\end{latin}%
+                }).
+      - modern:
+        - de: Ja nicht!
+        grc: μηδαμῶς!
+      - modern:
+        - de: Ist nicht nöthig!
+        grc: οὐδὲν δεῖ!
+      - modern:
+        - de: Freilich nicht.
+        grc: "μὰ Δί' οὐ μέντοι."
+      - modern:
+        - de: (Ich) leider nicht!
+        grc: εἰ γὰρ ὤφελ(ον)!
+      - modern:
+        - de: Du bist gescheit! (ironisch ablehnend.)
+        grc: σωφρονεῖς! --- δεξιὸς εἶ!
+      - modern:
+        - de: Kein Gedanke!
+        grc: ἥκιστα!
+      - modern:
+        - de: Am allerwenigsten!
+        grc: ἥκιστά γε!
+      - modern:
+        - de: Um keinen Preis!
+        grc: ἥκιστα πάντων!
+      - modern:
+        - de: Nein, und wenn Ihr Euch auf den Kopf stellt!
+        grc: οὐκ ἂν μὰ Δία, εἰ κρέμαισθέ γε ὑμεῖς!
+      - modern:
+        - de: Denken Sie, ich sei verrückt?
+        grc: "μελαγχολᾶν μ' οὕτως οἴκει;"
+      - modern:
+        - de: So steht die Sache nicht!
+        grc: οὐχ οὗτος ὁ τρόπος!
+      - modern:
+        - de: Wenn zehnmal!
+        grc: "ἀλλ' ὅμως!"
+      - modern:
+        - de: Sie haben \emph{nicht Recht!}
+        grc: \emph{οὐκ ὀρθῶς} λέγεις.
+      - modern:
+        - de: Ach was! (Blech!)
+        grc: λῆρος!
+      - modern:
+        - de: Das ist Unsinn!
+        grc: οὐδὲν λέγεις!
+      - modern:
+        - de: Aber das ist was ganz Anderes!
+        grc: "ἀλλ' οὐ ταὐτόν!"
+      - modern:
+        - de: Aber das gehört ja gar nicht hierher, was Sie sagen!
+        grc: "ἀλλ' οὐκ εἶπας ὅμοιον!"
