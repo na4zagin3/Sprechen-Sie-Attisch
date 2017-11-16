@@ -64,7 +64,7 @@ modernSentence fg = concat $ catMaybes [textDe, textJa]
     textJa = (++ "%\n") <$> langLineFrag japanese fg
 
 modernSentences :: [ModernSentence] -> Document
-modernSentences [] = error $ "modernSentences: empty list"
+modernSentences [] = error "modernSentences: empty list"
 modernSentences [m] = modernSentence m
 modernSentences ms = concat ls
   where
@@ -104,13 +104,13 @@ renderConversation fg = concat ls
       _ -> "\\vspace{0.5em}\n"
 
 renderSection :: Section -> Document
-renderSection s = concat $ [docTitle, docConvs]
+renderSection s = docTitle ++ docConvs
   where
     docTitle = sectionHeader . modernSentence $ title s
     docConvs = L.intercalate "\\switchcolumn*\n" . map renderConversation $ conversations s
 
 convertPart :: Part -> Document
-convertPart p = concat $ L.intersperse "\n" $ [docTitle] ++ docSections
+convertPart p = L.intercalate "\n" $ docTitle : docSections
   where
     docTitle = partHeader . modernSentence $ part p
     docSections = map renderSection $ sections p
