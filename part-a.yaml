@@ -509,10 +509,14 @@ sections:
       - modern:
         - de: Wie?
         grc: τί λέγεις;
+      - modern:
+        - de: \emph{Was} denn?
         grc: τί δή;
       - modern:
         - de: Was \emph{denn}?
         grc: τί δαί;
+      - modern:
+        - de: \emph{Wie} denn?
         grc: πῶς δή;
       - modern:
         - de: Wie \emph{denn}?
