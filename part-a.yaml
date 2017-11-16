@@ -78,8 +78,7 @@ sections:
       ja: 元気？
     conversations:
       - modern:
-        - de: Ah! Guten Tag!
-          ja: おお、こんにちは！
+        - de: Wie geht es Ihnen?
         - de: Was machen Sie?
           ja: 何をされているのですか？
         grc: "τί πράττεις;"
@@ -819,6 +818,7 @@ sections:
       - modern:
         - de: Jahres\textcompwordmark{}tag (Stiftungs\textcompwordmark{}fest)..
         grc: ἡ ἐπέτειος ἑορτή.
+        ruleAfter: true
       - modern:
         - de: "Die Monate:"
         grc: |-

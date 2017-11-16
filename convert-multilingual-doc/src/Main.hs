@@ -27,6 +27,7 @@ type ModernSentence = Map LangCode String
 
 data Fragment = Fragment { modern :: [ModernSentence]
                          , grc :: String
+                         , ruleAfter :: Maybe Bool
                          } deriving (Generic, Show)
 
 instance ToJSON Fragment where
@@ -97,6 +98,9 @@ renderConversation fg = concat ls
          , "\\begin{greek}[variant=ancient]%\n"
          , grcAlignment ++ grc fg
          , "%\n\\end{greek}%\n"
+         , "\\switchcolumn*"
+         , if ruleAfter fg == Just True then "[\\centering\\rule{1.5in}{1pt}]" else ""
+         , "\n"
          ]
     grcAlignment = case length $ modern fg of
       0 -> ""
@@ -107,7 +111,7 @@ renderSection :: Section -> Document
 renderSection s = docTitle ++ docConvs
   where
     docTitle = sectionHeader . modernSentence $ title s
-    docConvs = L.intercalate "\\switchcolumn*\n" . map renderConversation $ conversations s
+    docConvs = concatMap renderConversation $ conversations s
 
 convertPart :: Part -> Document
 convertPart p = L.intercalate "\n" $ docTitle : docSections
