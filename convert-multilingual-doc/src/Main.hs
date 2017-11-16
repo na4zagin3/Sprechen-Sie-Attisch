@@ -96,7 +96,7 @@ renderConversation fg = concat ls
          , "\\switchcolumn\n"
          , "\\begin{greek}[variant=ancient]%\n"
          , grcAlignment ++ grc fg
-         , "\n\\end{greek}%\n"
+         , "%\n\\end{greek}%\n"
          ]
     grcAlignment = case length $ modern fg of
       0 -> ""
