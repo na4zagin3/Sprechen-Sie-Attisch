@@ -1,0 +1,376 @@
+part:
+  de: Handel und Wandel.
+sections:
+  - title:
+      de: Er will Geld
+    conversations:
+      - modern:
+        - de: Er will etwas haben. 
+        grc: αἰτεῖ λαβεῖν τι.
+      - modern:
+        - de: Er hat Alles, was er braucht. 
+        grc: ἔχει ἅπαντα, ἃ δεῖ.
+      - modern:
+        - de: Was wünschen Sie? 
+        grc: \emph{τοῦ δέει;}
+      - modern:
+        - de: \vspace{0.5em}Wes\textcompwordmark{}halb sind Sie hergekommen?
+        grc: |-
+          \begin{tabular}{ll}
+          \ldelim\{{2}{1em}[] & \begin{greek}[variant=ancient]%
+          τοῦ δεόμενος ἦλθες ἐνθαδί;\end{greek}%
+          \tabularnewline
+          & \begin{greek}[variant=ancient]%
+          ἥκεις κατὰ τί;\end{greek}%
+          \tabularnewline
+          \end{tabular}
+      - modern:
+        - de: Was hat Sie hergeführt? 
+        grc: ἐπὶ τί πάρει δεῦρο;
+      - modern:
+        - de: Ich bitte Sie, leihen Sie mir 20 Mark! 
+        grc: δάνεισόν μοι πρὸς τῶν θεῶν εἴκοσι μάρκας{*}!
+      - modern:
+        - de: Die Noth zwingt mich dazu. 
+        grc: ἡ ἀνάγκη με πιέζει.
+      - modern:
+        - de: Nein! 
+        grc: "μὰ Δί' ἐγὼ μὲν οὔ!"
+      - modern:
+        - de: Sie haben, was Sie brauchen. 
+        grc: ἔχεις ὧν δέει.
+      - modern:
+        - de: So helfen Sie mir doch! 
+        grc: οὐκ ἀρἠξεις;
+      - modern:
+        - de: Haben Sie Mitleid mit mir! 
+        grc: οἴκτειρόν με!
+      - modern:
+        - de: Was wollen Sie mit dem Gelde machen? 
+        grc: \emph{τί χρήσει τῷ} ἀργυρίῳ;
+      - modern:
+        - de: Ich will meinen Schuhmacher bezahlen. 
+        grc: ἀποδώσω τῷ σκυτοτόμῳ.
+      - modern:
+        - de: Woher soll ich das Geld bekommen? 
+        grc: πόθεν τὸ ἀργύριον λήψομαι;
+      - modern:
+        - de: Hier haben Sie es! 
+        grc: ἰδοὺ τουτὶ λαβέ!
+      - modern:
+        - de: Haben Sie vielen Dank! 
+        grc: "εὖ γ' ἐποίησας!"
+      - modern:
+        - de: Der Himmel segne Sie tausendmal! 
+        grc: "πόλλ' ἀγαθὰ γένοιτό σοι!"
+      - modern:
+        - de: Seien sie nicht böse, mein Lieber! 
+        grc: "μὴ ἀγανάκτει, ὦ 'γαθέ!"
+      - modern:
+        - de: \emph{Seien sie so gut} und sprechen Sie nicht davon! 
+        grc: "\\emph{οἶσθ' ὁ δρᾶσον;} μὴ διαλέγου περι τούτοθ μηδέν!"
+      - modern:
+        - de: Aber ich bitte Sie —! 
+        grc: "ἀλλ' ὦ 'γαθέ —!"
+  - title:
+      de: Der Hausirer
+    conversations:
+      - modern:
+        - de: Da kommt der Jude wieder!
+        grc: καὶ μὴν ὁδὶ ἐκεῖνος ὁ Ἰουδαῖος!
+      - modern:
+        - de: "Schöne Portemonnaies! Schlipfe\\footnote{Redacteur: \\quotedblbase Shlipfe`` wird im Original verwendet.}! Messer!"
+        grc: βαλάντια καλά! λαιμοδέτια!{*} μαχαίρια!
+      - modern:
+        - de: Was soll ich für dies hier zahlen? 
+        grc: τί δῆτα καταθῶ τουτοί;
+      - modern:
+        - de: Zwei Mark fünfzig. 
+        grc: δύο μάρκας{*} καὶ πεντήκοντα.
+      - modern:
+        - de: Nein, das ist zuviel. 
+        grc: "μὰ Δί', ἀλλ' ἔλαττον."
+      - modern:
+        - de: Geben Sie zwei Mark darür! 
+        grc: δύο μάρκας τελεῖς;
+      - modern:
+        - de: Hier haben Sie 1 Mark 50 Pf. 
+        grc: λαβὲ μάρκην καὶ ἡμίσειαν.
+      - modern:
+        - de: Was kosten die Portemonnaies? 
+        grc: πῶς τὰ βαλάντια ὤνια;
+      - modern:
+        - de: Für 4 Mark können Sie ein ganz schönes bekommen. 
+        grc: λήψει τεσσάρων μαρκῶν πάνυ καλόν.
+      - modern: # ToDo: Fix
+        - de: Nehmen Sie es wieder mit, ich kaufe es nicht. — Sie wollen \emph{zu vie}l profitiren. 
+        grc: ἀπόφερε· οὐκ ὠνήσομαι. κερδαίνειν γὰρ βούλει \emph{πολύ.}
+      - modern:
+        - de: Was bieten Sie gutwillig? 
+        grc: \emph{αὐτὸς} σὺ τί δίδως;
+      - modern:
+        - de: Was ich biete? Zwei Mark würde ich geben. 
+        grc: ὅτι δίδωμι; δοίην ἂν δύο μάρκας.
+      - modern:
+        - de: Da nehmen Sie es; denn es ist immer besser als nichts zu lösen. 
+        grc: ἔνεγκε τοίνυν· κρεῖττον γάρ ἐστιν ἢ μηδὲν λαβεῖν.
+      - modern:
+        - de: Wir werden den Kerl nicht wieder los! 
+        grc: ἅνθρωπος οὐκ ἀπαλλαχθήσεται ἡμῶν.
+      - modern:
+        - de: Das Messer taugt nichts; ich würde nicht 1 Mark dafür geben. 
+        grc: οὐδέν ἐστιν ἡ μάχαιρα· οὐκ ἂν πριαίμην οὐδὲ μιᾶς μάρκης.!
+      - modern:
+        - de: Ich habe selbst seiner Zeit 3 Mark dafür gegeben. 
+        grc: αὐτὸς ἀντέδωκα τούτου ποτὲ τρεῖς μάρκας.
+      - modern:
+        - de: Ich verdiene nichts daran. 
+        grc: οὐδέν μοι περιγίγνεται.
+      - modern:
+        - de: Wirklich? 
+        grc: ἄληθες;
+      - modern:
+        - de: Schwören Sie einmal! 
+        grc: ὄμοσον!
+      - modern:
+        - de: Bei Gott! 
+        grc: οὐ μὰ τοὺς θεούς!
+      - modern:
+        - de: Verkaufen Sie es an einen Andern! 
+        grc: πώλει τοῦτο ἄλλῳ τινί!
+      - modern:
+        - de: Ich will es Ihnen \emph{abkaufen}. 
+        grc: ὠνήσομαί \emph{σοι} ἐγώ.
+      - modern:
+        - de: Da haben Sie das Geld. 
+        grc: ἔχε δὴ τἀργύριον.
+      - modern:
+        - de: Das wäre abgemacht. 
+        grc: \emph{ταῦτα} δή.
+      - modern:
+        - de: Ich habe 3 Mark \emph{dafür} bezahlt. 
+        grc: ἀπέδοκα \emph{ὀφείλων} τρεῖς μάρκας.
+      - modern:
+        - de: In Leipzig verkauft man das Dutzend für 20 Mark. 
+        grc: ἐν Λειψίᾳ{*} πωλοῦνται κατὰ δώδεκα εἴκοσι μαρκῶν.
+      - modern:
+        - de: Das hier hat er für 1 Mark verkauft. 
+        grc: τοδὶ ἀπέδοτο μιᾶς μάρκης.
+  - title:
+      de: Beim Schneider
+    conversations:
+      - modern:
+        - de: Guten Tag! 
+        grc: χαῖρε!
+      - modern:
+        - de: Guten Tag, mein Herr! 
+        grc: χαῖρε καὶ σύ!
+      - modern:
+        - de: Womit kann ich dienen? 
+        grc: ἥκεις δὲ κατὰ τί;
+      - modern:
+        - de: Was wünschen Sie? 
+        grc: τοῦ δέει;
+      - modern:
+        - de: Ich brauche Rock und Hose. 
+        grc: δέομαι ἱμαίου τε καὶ βρακῶν.
+      - modern:
+        - de: Das Hemd. 
+        grc: ὁ χιτών.
+      - modern:
+        - de: Der Hut. 
+        grc: ὁ πῖλος.
+      - modern:
+        - de: Der Überrock. 
+        grc: τὸ ἐπάνω ἱμάτιον.
+      - modern:
+        - de: Die Stiefel. 
+        grc: τὰ ὑποδήματα.
+      - modern:
+        - de: Der Strumpf. 
+        grc: ἡ περικνημίς.
+      - modern:
+        - de: Das Taschentuch. 
+        grc: τὸ ῥινόμακτρον.
+      - modern:
+        - de: Was soll ich \emph{dafür} zahlen? 
+        grc: τί τελῶ ταῦτα \emph{ὠνούμενος;}
+      - modern:
+        - de: 50 Mark für einen Rock und 20 Mark für die Beinkleider. 
+        grc: "πεντήκοντα μάρκας{*} εἰς ἱμάτιον, εἴκοσι δ' εἰς βράκας."
+      - modern:
+        - de: Hier ist ein sehr schöner Rock nebst Beinkleidern. 
+        grc: κάλλιστον τοδὶ ἱμάτιον μετὰ βρακῶν.
+      - modern:
+        - de: Wird er mir passen? 
+        grc: "ἆρ' \\emph{ἁρμόσει} μοι;"
+      - modern:
+        - de: Legen Sie gefälligst ab! 
+        grc: κατάθου δῆτα τὸ ἐπάνω ἱμάτιον.
+      - modern:
+        - de: \vspace{0.5em}Bitte, ziehen Sie einmal den Rock aus! 
+        grc: |-
+          \begin{tabular}{ll}
+          \ldelim\{{2}{1em}[] & \begin{greek}[variant=ancient]%
+          ἀπόδυθι, ἀντιβολῶ, θοἰμάτιον!\end{greek}%
+          \tabularnewline
+          & \begin{greek}[variant=ancient]%
+          βούλει ἀποδύεσθαι θοἰμάτιον;\end{greek}%
+          \tabularnewline
+          \end{tabular}
+      - modern:
+        - de: Sie haben keinen neuen Rock an. 
+        grc: οὐ καινὸν ἀμπέχει ἱμάτιον.
+      - modern:
+        - de: Nein, der alte Rock hat Löcher. 
+        grc: "οὐ μὰ Δί'· ἀλλ' ὀπὰς ἔχει τὸ τριβώνιον."
+      - modern:
+        - de: Was Sie nun für einen schönen Anzug haben! 
+        grc: ποίαν ἤδη ἔχεις σκευήν!
+      - modern:
+        - de: Der neue Rock sitzt vortrefflich. 
+        grc: "ἄριστ' ἔχει τὸ καινὸν ἱμάτιον!"
+      - modern:
+        - de: Haben Sie etwas daran aus\textcompwordmark{}zusetzen?
+        grc: ἔχεις τι ψέγειν τούτου;
+      - modern:
+        - de: Er steht mir nicht. 
+        grc: οὐ \emph{πρέπει} μοι.
+  - title:
+      de: Schuhwerk
+    conversations:
+      - modern:
+        - de: Die Stiefel fehlen noch. 
+        grc: ὑποδημάτων δεῖ.
+      - modern:
+        - de: Nimm hier meine! 
+        grc: τἀμὰ ταυτὶ λάμβανε!
+      - modern:
+        - de: "Erst zieh' diesen an!"
+        grc: τοῦτο πρῶτον ὑποδύου.
+      - modern:
+        - de: "Zieh' endlich die Stiefel an!"
+        grc: ἄνυσον ὑποδυσάμενος!
+      - modern:
+        - de: "Zieh' die Stiefeletten aus!"
+        grc: ἀποδύου τὰς ἐμβάδας (τὰ ἐμβάδια).
+      - modern:
+        - de: "Zieh' diese hier an!"
+        grc: ὑπόδυθι τάσδε.
+      - modern:
+        - de: Passen sie? 
+        grc: "ἆρ' ἁρμόττουσιν."
+      - modern:
+        - de: Ja, sie sitzen vortrefflich. 
+        grc: "νὴ Δί', ἀλλ' ἄριστ' ἔχει."
+      - modern:
+        - de: Wo haben Sie das Paar Stiefeletten gekauft, das Sie anhaben? 
+        grc: πόθεν πριάμενος τὸ ζεῦγος ἐμβάδων τουτὶ φορεῖς;
+      - modern:
+        - de: Auf \emph{dem} Markte. 
+        grc: ἐν ἀγορᾷ.
+      - modern:
+        - de: Für wieviel? 
+        grc: καὶ πόσου;
+      - modern:
+        - de: Für 16 Mark. 
+        grc: ἑκκαίδεκα μαρκῶν{*}.
+  - title:
+      de: Vom Obstmarkt
+    conversations:
+      - modern:
+        - de: Ich muß auf \emph{den} Markt gehen. 
+        grc: εἰς ἀγορὰν βαδιστέον μοι.
+      - modern:
+        - de: Wes\textcompwordmark{}halb?
+        grc: τίνος ἕνεκα;
+      - modern:
+        - de: Sie geht auf den Markt, um Trauben zu holen. 
+        grc: χωρεῖ εἰς ἀγορὰν ἐπὶ βότρυς.
+      - modern:
+        - de: Ich will sie kaufen, wenn du mir das Geld giebst. 
+        grc: ὠνήσομαι, ἐὰν σύ μοι δῷς τἀργύριον.
+      - modern:
+        - de: Da hast du ein paar Groschen! 
+        grc: ἰδοὺ λαβὲ μικρὸν ἀργυρίδιον!
+      - modern:
+        - de: Was soll ich kaufen? 
+        grc: τί βούλει με πρίασθαι;
+      - modern:
+        - de: Wir wollen für dieses Geld Pfirsiche kaufen. 
+        grc: ὠνησόμεθα περσικὰ τούτου τοῦ ἀργυρίου.
+      - modern:
+        - de: \myafterpagetrue\mysetaligntext{german}{Kaufe mir{ }}\mysetalign{german}Äpfel.
+        grc: \mysetaligntext{greek}{\textgreek[variant=ancient]{ἀγόρασόν μοι}{ }}\mysetalign*{greek}\textgreek[variant=ancient]{μῆλα.}
+      - modern:
+        - de: \bgroup\mysetalign{german}Aprikosen.\par\egroup
+        grc: \bgroup\mysetalign*{greek}ἀρμενιακά (μῆλα).\par\egroup
+      - modern:
+        - de: \bgroup\mysetalign{german}Birnen.\par\egroup
+        grc: \bgroup\mysetalign*{greek}ἄπια.\par\egroup
+      - modern:
+        - de: \bgroup\mysetalign{german}Erdbeeren.\par\egroup
+        grc: \bgroup\mysetalign*{greek}χαμοκέρασα{*}.\par\egroup
+      - modern:
+        - de: \bgroup\mysetalign{german}Gemüse.\par\egroup
+        grc: \bgroup\mysetalign*{greek}λάχανα.\par\egroup
+      - modern:
+        - de: \bgroup\mysetalign{german}Kastanien.\par\egroup
+        grc: \bgroup\mysetalign*{greek}κάστανα.\par\egroup
+      - modern:
+        - de: \bgroup\mysetalign{german}Kirschen.\par\egroup
+        grc: \bgroup\mysetalign*{greek}κεράσια.\par\egroup
+      - modern:
+        - de: \bgroup\mysetalign{german}Wallnüsse.\par\egroup
+        grc: \bgroup\mysetalign*{greek}κάρυα.\par\egroup
+      - modern:
+        - de: \bgroup\mysetalign{german}Haselnüsse.\par\egroup
+        grc: \bgroup\mysetalign*{greek}λεπτοκάρυα.\par\egroup
+      - modern:
+        - de: \bgroup\mysetalign{german}Pfirsiche.\par\egroup
+        grc: \bgroup\mysetalign*{greek}περσικά (μῆλα).\par\egroup
+      - modern:
+        - de: \bgroup\mysetalign{german}Pflaumen.\par\egroup
+        grc: \bgroup\mysetalign*{greek}κοκκύμηλα (\textgerman[spelling=old,babelshorthands=true]{Kuckucks\textcompwordmark{}äpfel}).\par\egroup
+      - modern:
+        - de: \bgroup\mysetalign{german}Apfelsinen.\par\egroup
+        grc: \bgroup\mysetalign*{greek}πορτοκάλια{*}. (\textgerman[spelling=old,babelshorthands=true]{Früchte aus Portugal.})\par\egroup
+      - modern:
+        - de: \bgroup\mysetalign{german}Johannis\textcompwordmark{}beeren.\par\egroup
+        grc: \bgroup\mysetalign*{greek}φραγγοστάφυλα{*}.\par\egroup
+      - modern:
+        - de: \bgroup\mysetalign{german}Radies\textcompwordmark{}chen.\par\egroup
+        grc: \bgroup\mysetalign*{greek}ῥαφανίδια.\par\egroup
+      - modern:
+        - de: \bgroup\mysetalign{german}Alles Mögliche.\par\egroup
+        grc: \bgroup\mysetalign*{greek}\emph{πάντα.}\par\egroup
+      - modern:
+        - de: "Wieviel geben Sie für's Geld?"
+        grc: πόσον δίδως δῆτα τἀργυρίου;
+      - modern:
+        - de: Die Mandel für eine Mark. 
+        grc: πεντεκαίδεκα τῆς μάρκες.
+      - modern:
+        - de: Was kostet jetzt die Butter? 
+        grc: |-
+          πῶς ὁ βούτυρος (τὸ βούτυρον) το\footnote{\begin{latin}%
+          ? sic. \textgreek[variant=ancient]{οὐκ οἶδα τί τὸ λέξις ἐστί.}\end{latin}%
+          } νῦν ὤνιος.
+      - modern:
+        - de: Sie ist wohlfeil. 
+        grc: εὐτελής ἐστιν.
+      - modern:
+        - de: Wir müssen sie theuer kaufen. 
+        grc: δεῖ τίμιον πρίασθαι αὐτόν.
+      - modern:
+        - de: Frische Butter, friesches Fleisch. 
+        grc: \emph{χλωρὸς} βούτυρος, χλωρὸν κρέας.
+      - modern:
+        - de: Ich habe noch nichts eingekauft. 
+        grc: οὐδὲν ἠμπόληκά πω.
+      - modern:
+        - de: Wir haben etwas eingekauft und wollen nun nach Hause gehen. 
+        grc: "οἴκαδ' ἴμεν ἐμπολήσαντές τι."
+      - modern:
+        - de: Der Preis. 
+        grc: ἡ τιμή.
