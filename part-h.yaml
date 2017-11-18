@@ -1,0 +1,257 @@
+part:
+  de: Beim Skat\textcompwordmark{}spiel.
+sections:
+  - title:
+      de: Ein Spiel mit Redens\textcompwordmark{}arten
+    conversations:
+      - modern:
+        - de: Wollen wir nicht ein Spielchen machen?
+        grc: βούλεσθε παιδιὰν παίζωμεν;
+      - modern:
+        - de: Meinetwegen.
+        grc: \emph{οὐδὲν κωλύει.}
+      - modern:
+        - de: Was wollen wir spielen?
+        grc: παιδιὰν τίνα;
+      - modern:
+        - de: Einen Skat wollen wir machen.
+        grc: (σκατιούμεθα).
+      - modern:
+        - de: Wer giebt?
+        grc: τίς ὁ διαδώσων;
+      - modern:
+        - de: Ich frage.
+        grc: ἐμὸν τὸ ἐρωτᾶν.
+      - modern:
+        - de: Eichel, Grün, Roth, Schellen.
+        grc: τὰ βαλάνια, τὰ φυλλεῖα, τὰ ἐρυθρά, τά κρόταλα.
+      - modern:
+        - de: Eichel sticht.
+        grc: κρατεῖ τὰ βαλάνια.
+      - modern:
+        - de: Geben Sie Grün zu!
+        grc: ἀπόδος φυλλεῖα!
+      - modern:
+        - de: Ich?
+        grc: ἐγώ;
+      - modern:
+        - de: Freilich (Sie)!
+        grc: σὺ μέντοι!
+      - modern:
+        - de: Was habe ich davon?
+        grc: τί κερδανῶ;
+      - modern:
+        - de: Was ich für ein Pech habe!
+        grc: ὡς δυστυκής εἰμι!
+      - modern:
+        - de: Nur nicht ängstlich!
+        grc: μὴ δέδιθι!
+      - modern:
+        - de: Sehen Sie sich vor, daß Ihnen der rothe Wenzel nicht entgeht!
+        grc: εὐλαβοῦ, μὴ ἐκφύγῃ σε τῶν ἐρυθρῶν ὁ κράτιστος!
+      - modern:
+        - de: "Jetzt ist's an Ihnen, zu sehen, wie wir gewinnen!"
+        grc: σὸν \emph{ἔργον} φροντίζειν, ὅπως κρατήσομεν.
+      - modern:
+        - de: Jetzt gilt es!
+        grc: νῶν ὁ καιρός!
+      - modern:
+        - de: Jetzt haben wir ihn!
+        grc: νῶν ἔχεται μέσος!
+      - modern:
+        - de: "Hau' ihm, Lucas!"
+        grc: παῖε, παῖε τὸν πανοῦργον!
+      - modern:
+        - de: |-
+            Das soll Ihnen schlecht bekommen, daß Sie das rothe Daus gestochen
+            haben!
+        grc: οὔ τοι μὰ Δία χαιρήσεις, ὁτιὴ τοῦτ᾽ ἔδρασας.!
+      - modern:
+        - de: Verwünscht! Das ist zum Haaraus\textcompwordmark{}raufen!
+        grc: οἴμοι, διαρραγήσομαι!
+      - modern:
+        - de: Ich weiß schon, wie Sie es machen.
+        grc: τοὺς τρόπους σου ἐπίσταμαι.
+      - modern:
+        - de: Feine Rase!
+        grc: εὖ γε ξυνέβαλες!
+      - modern:
+        - de: Du wunderst dich?
+        grc: ἐθαύμασας;!
+      - modern:
+        - de: Darin bin ich Meister.
+        grc: ταύτεῃ κράτιστός εἰμι.
+      - modern:
+        - de: Sie spielen falsch!
+        grc: ἀδικεῖς!
+      - modern:
+        - de: Du hast die Mogelei nicht bemerkt.
+        grc: τὸ πραττόμενόν σε λέληθεν.
+      - modern:
+        - de: Ist das wahr?
+        grc: τί λέγεις;
+      - modern:
+        - de: Ent\textcompwordmark{}schuldigen Sie!
+        grc: σύγγνωθί μοι!
+      - modern:
+        - de: Kellner, zünden Sie Licht an!
+        grc: ἅπτε, παῖ, λύχνον!
+      - modern:
+        - de: Was fällt Ihnen denn ein, daß Sie die Zehn aus\textcompwordmark{}spielen?
+        grc: τί δὴ μαθὼν τοῦτο ποιεῖς;
+      - modern:
+        - de: Die Noth zwingt mich dazu.
+        grc: ἡ ἀνάγκη με πιέζει.
+      - modern:
+        - de: Verwünscht! was soll ich thun?
+        grc: οἴ μοι, τί δράςω;
+      - modern:
+        - de: Geben Sie mir einen guten Rath!
+        grc: χρηστόν τι συμβούλευσον.
+      - modern:
+        - de: "Er will's gewinnen."
+        grc: ἐθέλει οὗτος κρατῆσαι.
+      - modern:
+        - de: Geben Sie sich keine vergebliche Mühe!
+        grc: λίθον ἕψεις!
+      - modern:
+        - de: Hilf Himmel!
+        grc: Ἄπολλον ἀποτρόπαιε!
+      - modern:
+        - de: "O weh! Jetzt geht's uns (zweien) schlecht!"
+        grc: ἒ ἔ, παρὰ νῷν στενάζειν!
+      - modern:
+        - de: Gerade das will ich ja!
+        grc: τοῦτ᾽ αὐτὸ γὰρ καὶ βούλομαι!
+      - modern:
+        - de: Zähle einmal!
+        grc: λόγισαι!
+      - modern:
+        - de: Wir haben verspielt!
+        grc: \emph{ἀπολώλαμεν} ἡμεῖς.
+      - modern:
+        - de: Bitte, bezahlen Sie!
+        grc: ἀπότισον \emph{δῆτα!}
+      - modern:
+        - de: Mein Geld ist futsch!
+        grc: φροῦδα τὰ χρήματα!
+      - modern:
+        - de: Es steht schlecht mit mir.
+        grc: φαῦλόν ἐστι τὸ ἐμὸν πρᾶγμα.
+      - modern:
+        - de: Wir machen miserable Geschäfte.
+        grc: ἀθλίως πεπράγαμεν.
+  - title:
+      de: Ein Grand
+    conversations:
+      - modern:
+        - de: (Ein Grand.)
+        grc: (τὸ παμμέγιστον.)
+      - modern:
+        - de: A. Wer giebt denn?
+        grc: τίς ὁ διαδώσων;
+      - modern:
+        - de: B. Du selbst.
+        grc: αὐτὸς σύ.
+      - modern:
+        - de: C. Immer, wer fragt.
+        grc: ὁ ἀεὶ ἐρωτήσας.
+      - modern:
+        - de: |-
+            B. Nun gieb mir aber einmal anständige Karten; ich habe den ganzen
+            Abend noch kein Spiel gehabt!
+        grc: |-
+          δός τι δῆτ᾽ ἐμοὶ· οὐδὲν γὰρ πώποτ᾽ ἔλαβον ἔγωγε τῇδε τῇ\footnote{\begin{latin}%
+          \textgreek[variant=ancient]{τὸ ῥῆμα οὐ δύναμαι διαγνῶναι.}\end{latin}%
+          } ἑσπέρᾳ!
+      - modern:
+        - de: C. Ich frage. Grün Solo!
+        grc: |-
+          ἐμὸν τὸ ἐρωτᾶν. τὰ φυλλεῖα αὐτὰ\footnote{\begin{latin}%
+          \textgreek[variant=ancient]{τὸ ῥῆμα οὐ δύναμαι διαγνῶναι.}\end{latin}%
+          } καθ᾽ αὑτά!
+      - modern:
+        - de: "B. Das halt' ich!"
+        grc: ἔχω ἔγωγε!
+      - modern:
+        - de: C. Null?
+        grc: τὸ μηδέν;
+      - modern:
+        - de: B. Auch das.
+        grc: καὶ τοῦτό γε.
+      - modern:
+        - de: C. Passe.
+        grc: παραχωρῶ ἔγωγε.
+      - modern:
+        - de: A. Ich auch.
+        grc: κἀγώ.
+      - modern:
+        - de: B. Grand.
+        grc: τὸ παμμέγιστον.
+      - modern:
+        - de: "B. Ich spiele selbst aus. Hier! Wenzel 'raus!"
+        grc: ἐμὸν τὸ ἐξάρχειν. ἰδού. ἀπόδοτε δὴ τοὺς κρατίστους!
+      - modern:
+        - de: C. Ja, den kann ich nicht!
+        grc: οὐ δυνατὸς ἐγὼ μὰ Δία ὑπὲρ τοῦτον.
+      - modern:
+        - de: A. Nanu?!
+        grc: τί φής;
+      - modern:
+        - de: B. Hurrah! Der Alte liegt im Skat! Hier!
+        grc: βαβαιάξ! ἀπόκειται ὁ παγκράτιστος! ἰδού
+      - modern:
+        - de: C. Himmeldonnerwetter!
+        grc: ἐς κόρακας!
+      - modern:
+        - de: A. Kreuzmillionen . . .!
+        grc: Ἄπολλον ἀποτρόπαιε!
+      - modern:
+        - de: "C. Ih, da soll doch der Deiwel 'reinfahren!"
+        grc: οἴμοι κακοδαίμων!
+      - modern:
+        - de: A. Heiliges Gewitter! Hast du denn gar nichts?
+        grc: |-
+          ὦ Ζεῦ βασιλεῦ! οὐκ ἄρ᾽ ἔχεις\footnote{\begin{latin}%
+          \textgreek[variant=ancient]{τὸ ῥῆμα οὐ δύναμαι διαγνῶναι.}\end{latin}%
+          } οὐδέν;
+      - modern:
+        - de: "C. Dieser ist unser! 'rin, was Beine hat!"
+        grc: ἀλλὰ τοῦτό γε γίγνεται ἥμῖν. νῦν ὁ καιρὸς ἐπιδοῦναι!
+      - modern:
+        - de: B. Halt! Gesprochen wird nicht beim Spiel!
+        grc: μὴ δῆτα — οὐ γὰρ ἔστι λαλεῖν τῷ παίζοντι!
+      - modern:
+        - de: C. So, das ist auch unser!
+        grc: ἰδοὺ καὶ τοῦτο ἡμῖν!
+      - modern:
+        - de: Gottlob! Aus dem Schneider wären wir!
+        grc: τὸ μέσον καλῶς τετμήκαμεν!
+      - modern:
+        - de: A. Oh, wir kriegen noch viel mehr!
+        grc: ἕξομεν ἔτι πολλῷ πλέον, ὦ τάν.
+      - modern:
+        - de: B. Keinen Stich! Der Rest ist mein!
+        grc: οὐκ ἄλλ᾽ οὐδὲ ἕν. ἐμὰ γὰρ τὰ λοιπά!
+      - modern:
+        - de: A. u. C. Oho! — Wahrhaftig!
+        grc: οὐδὲν λέγεις! — μὰ τὸν Δί᾽ οὐ τοίνυν!
+      - modern:
+        - de: |-
+            A. Ja wie konntest du aber auch \emph{die} Farbe spielen? Wir mußten
+            ja dicke gewinnen!
+        grc: πῶς ἄρ᾽ οὖν ἐπὶ ταῦτα ἦλθες; ἐμέλλομεν γάρ τοι σφοδρῶς ὑπερέχειν!
+      - modern:
+        - de: Ich sitze hier mit der ganzen Grün.
+        grc: ἐγὼ δὲ κάθημαι οὕτω πάντα τὰ φυλλεῖα ἔχων.
+      - modern:
+        - de: |-
+            C. So? Warum stichst du denn nicht? Ich habe ganz richtig aus\textcompwordmark{}gespielt.
+            — du bist schuld!
+        grc: |-
+          ἄληθες; τί δὴ παθὴν οὐχ ὑπερέβαλες\footnote{\begin{latin}%
+          orig. \textgreek[variant=ancient]{ὑπερ-|έβαλες}\end{latin}%
+          } σύ; εὖ γὰρ ἐμοίησα ἔγωγε. — σὺ δὲ τούτου αἴτιος!
+      - modern:
+        - de: B. Das war Grand mit Vieren! Sechzig. Wer giebt?
+        grc: παμμέγιστον τοῦτ᾽ ἦν μετὰ τεσσάρων! ἑξήκοντα. τίς ὁ διαδώσων;

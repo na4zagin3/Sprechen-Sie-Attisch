@@ -10,6 +10,12 @@ stack build
 convert_part a
 convert_part b
 convert_part c
+convert_part d
+convert_part e
+convert_part f
+convert_part g
+convert_part h
+convert_part i
 popd
 
 latexmk -xelatex SprechenSieAttisch.tex

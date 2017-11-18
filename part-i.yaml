@@ -1,0 +1,80 @@
+part:
+  de: "Sprichwörtliches aus der Umgangs\\textcompwordmark{}sprache."
+indexTitle:
+  de: "Sprichwörtliches aus der Umgangs\\textcompwordmark{}sprache Altgriechische Bezeichnungen für moderne Begriffe"
+sections:
+  - conversations:
+      - modern:
+        - de: Mensch, ärgere dich nicht!
+        grc: μὴ σεαυτὸν ἔσθιε, ὦ ᾽γαθέ!
+      - modern:
+        - de: Eines Mannes Rede ist keine Rede.
+        grc: πρὶν ἂν ἀμφοῖν μῦθον ἀκούσῃς, οὐκ ἂν δικάσαις.
+      - modern:
+        - de: Das hieße Eulen nach Athen tragen.
+        grc: τίς γλαῦκ᾽ Ἀθήναζε ἄγαγεν;
+      - modern:
+        - de: Vorsicht ist die Mutter der Weis\textcompwordmark{}heit.
+        grc: ἡ (γὰρ) εὐλάβεια πάντα σώζει.
+      - modern:
+        - de: Eine Schwalbe macht noch keinen Sommer.
+        grc: μία χελιδὼν ἔαρ οὐ ποιεῖ.
+      - modern:
+        - de: Menge dich nicht in meine Sachen!
+        grc: μὴ τὸν ἐμὸν οἴκει οἶκον!!
+      - modern:
+        - de: Der reine Menschenfeind (Timon)!
+        grc: Τίμων \emph{καθαρός!}
+      - modern:
+        - de: Immer das alte Lied!
+        grc: ὁ Διὸς Κόρινθος!
+      - modern: # ToDo: Latin
+        - la: Hic Rhodus, hic salta!
+        grc: |-
+          ἰδοὺ ἡ Ῥόδος\footnote{\begin{latin}%
+          orig. \textgreek[variant=ancient]{ʼΡόδος}\end{latin}%
+          }, ἰδοὺ καὶ τὸ πήδημα!
+      - modern:
+        - de: Ein trauriger Peter (Japper)!
+        grc: Μυσῶν ἔσχατος!
+      - modern:
+        - de: Das Gute ist rar.
+        grc: ὀλίγον τὸ χρηστόν ἐστιν.
+      - modern:
+        - de: Es ist kein Vorwärts\textcompwordmark{}kommen (für uns).
+        grc: οὔτε θέομεν οὔτ᾽ ἐλαύνομεν.!
+      - modern:
+        - de: Geld regiert die Welt.
+        grc: ἅπαντα (γὰρ) τῷ πλουτεῖν ὑπήκοα.!
+      - modern: # ToDo latin
+        - la: Donec eris felix, multos numerabis amicos.
+        grc: ζεῖ χύτρα, ζῇ φιλία.!
+      - modern:
+        - de: Durch Schaden wird man klug!
+        grc: \quotedblbase παθὼν δέ τε νήπιος ἔγνω.``
+      - modern: # ToDo latin
+        - la: Tempi passati!
+        grc: πάλαι ποτ᾽ ἦσαν ἄλκιμοι Μιλήσιοι.
+      - modern: # ToD latin
+        - la: Ubi bene, ibi patria!
+        grc: πατρὶς γάρ ἐστι πᾶσ᾽, ἵν ἂν πράττῃ τις εὖ.
+      - modern:
+        - de: Er ist der beste Bruder auch nicht!
+        grc: ἐστὶ τοῦ πονηροῦ κόμματος.
+      - modern: # ToDo latin
+        - la: Parturiunt montes etc.
+        grc: ὤδινεν ὄρος, εἶτα μῦν ἀπέτεκεν.
+      - modern:
+        - de: Du giebst dir vergebliche Mühe.
+        grc: λίθον ἕψεις.
+      - modern:
+        - de: Das Übel ärger machen.
+        grc: πλέον θάτερον ποιεῖν.
+      - modern:
+        - de: Eile mit Weile.
+        grc: |-
+          σπεῦδε βραδέως!\textgerman[spelling=old,babelshorthands=true]{ (Wahlspruch
+          des Kaisers Augustus.)}
+      - modern:
+        - de: Laß dir genügen!
+        grc: πλέον ἥμισυ παντός!

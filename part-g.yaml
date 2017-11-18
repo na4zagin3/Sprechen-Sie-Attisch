@@ -1,0 +1,167 @@
+part:
+  de: Aus dem politischen Leben.
+sections:
+  - title:
+      de: Parteibewegung
+    conversations:
+      - modern:
+        - de: Eugen ist da?
+        grc: ὁ Εὐγενὴς ἐπιδεδήμεκεν;
+      - modern:
+        - de: Schon seit vorgestern.
+        grc: τρίτην ἤδη ἡμέραν.
+      - modern:
+        - de: Er wird doch wohl eine Rede halten?
+        grc: \emph{οὐκοῦν} δημηγορήσει;
+      - modern:
+        - de: Versteht sich! Heute Abend.
+        grc: εὖ ἴσθ᾽ ὅτι εἰς ἑσπέραν.
+      - modern:
+        - de: Worüber? Über alles Mögliche.
+        grc: περὶ τοῦ; περὶ \emph{ἁπάντων} πραγμάτων.
+      - modern:
+        - de: Ich will Sie mit in die Versammlung nehmen.
+        grc: \emph{ἄξω} σε μετ᾽ ἐμαυτοῦ εἰς τὸν σύλλογον.
+      - modern:
+        - de: Ich danke, ich weiß den Weg.
+        grc: καλῶς· ἀλλ᾽ οἶδα τὴν ὁδόν.
+      - modern:
+        - de: |-
+            Nun, so machen Sie denn, daß Sie \emph{auch} hinkommen und bringen
+            Sie noch ein paar Andere mit!
+        grc: ἀλλ᾽ ὅπως παρέσει καὶ αὐτὸς καὶ ἄλλους \emph{ἄξεις!}
+      - modern:
+        - de: Die Fort\textcompwordmark{}schrittler.
+        grc: οἱ καινοτομοῦντες.
+      - modern:
+        - de: Die Conservativen.
+        grc: οἱ συντηρητικοί.{*}
+      - modern:
+        - de: Die Rothen.
+        grc: οἱ δημοκρατικοί.
+      - modern:
+        - de: Das Parlament.
+        grc: ἡ βουλή.
+      - modern:
+        - de: Die Commission.
+        grc: οἱ ἐπίτροποι.
+      - modern:
+        - de: Der Abgeordnete.
+        grc: ὁ βουλευτής.
+      - modern:
+        - de: Der Wahlkandidat.
+        grc: ὁ ὑπόψηφος.
+      - modern:
+        - de: Die Majorität.
+        grc: οἱ πλείονες.
+      - modern:
+        - de: Die Minorität.
+        grc: οἱ μείονες.
+      - modern:
+        - de: Die Präsident.
+        grc: ὁ πρόεδρος.
+      - modern:
+        - de: Wer hat die meisten (wenigsten) \emph{Stimmen?}
+        grc: τίνι πλεῖσται (ἐλάχισται) γεγόνασιν;
+      - modern:
+        - de: Abgeordneter ist, wer die meisten \emph{Stimmen} bekommen hat.
+        grc: βουλευτής ἐστιν, ᾧ ἂν πλεῖσται γένωνται.
+      - modern:
+        - de: Ist A.\ gewählt?
+        grc: πότερον Ἀ.\ ᾑρέθη;
+      - modern:
+        - de: Leider nicht!
+        grc: εἰ γὰρ ὤφερε!
+  - title:
+      de: Opposition
+    conversations:
+      - modern:
+        - de: Wir brauchen keine neuen \emph{Steuern!}
+        grc: οὐ δεόμεθα καινῶν δασμῶν!
+      - modern:
+        - de: Wir \emph{brauchen} keine neuen Steuern!
+        grc: καινῶν δασμῶν οὐ δεόμεθα!
+      - modern:
+        - de: Das wird uns ruiniren!
+        grc: τοῦθ᾽ ἡμᾶς ἐπιτρίψει!
+      - modern:
+        - de: Ich denke, es giebt einen Mittelweg.
+        grc: ἀλλ᾽ εἶναί τί μοι δοκεῖ μέση τούτων ὁδός.
+      - modern:
+        - de: Jetzt ist Schonung der Steuerkraft nöthig!
+        grc: νῦν \emph{ἔργον} εὐτελείας!
+      - modern:
+        - de: Die Kolonialpolitik bringt keinen Nutzen.
+        grc: τί \emph{πλέον ἐστὶν} ἔξω ἐποικεῖν;
+      - modern:
+        - de: Das gefällt mir nicht!
+        grc: τοῦτό μ᾽ οὐκ ἀρέσκει!
+      - modern:
+        - de: Dahinter steckt etwas!
+        grc: ἔστιν ἐνταῦθά τι κακόν!
+      - modern:
+        - de: Was hat man davon?
+        grc: τί κέρδος;
+      - modern:
+        - de: Was werden wir davon haben?
+        grc: τί κερδανοῦμεν;
+      - modern:
+        - de: Was kann das nützen?
+        grc: πῶς ξυνοίσει ταῦτα;
+      - modern:
+        - de: Ich weiß schon, wo man hinaus\textcompwordmark{}will!
+        grc: οἶδα τὸν νοῦν!
+      - modern:
+        - de: Fort mit Bis\textcompwordmark{}marck!
+        grc: Βίσμαρκ ἐρρέτω!
+      - modern:
+        - de: Bravo! Bravo!
+        grc: εὖγε! εὖγε!
+      - modern:
+        - de: Wie gut ist es, einen so vortrefflichen Abgeordneten zu haben!
+        grc: ὡς ἀγαθὸν τοιοῦτον ἔχειν βουλευτήν!
+      - modern:
+        - de: Unsinn!
+        grc: οὐδὲν λέγεις!
+      - modern:
+        - de: Wir hängen diese Tiraden zum Halse heraus!
+        grc: πάνυ μοι ἤδη ταῦτ᾽ ἐστὶ χολή.
+      - modern:
+        - de: Still!
+        grc: σίγα!
+  - title:
+      de: Zum Schlutz
+    conversations:
+      - modern:
+        - de: Wer wünscht das Wort?
+        grc: τίς ἀγορεύειν βούλεται;
+      - modern:
+        - de: Ich.
+        grc: ἐγώ.
+      - modern:
+        - de: Ist noch Jemand, der zu sprechen wünscht?
+        grc: ἔσθ᾽ ὅστις ἕτερος βούλεται λέγειν;
+      - modern:
+        - de: Es wird wohl Niemand dagegen stimmen.
+        grc: οὐ δεὶς ἀντιχειροτονήσειεν ἄν.
+      - modern:
+        - de: Ich stimme dagegen.
+        grc: ἐγὼ τἀναντία ψηφίζομαι.
+      - modern:
+        - de: "So ist's recht."
+        grc: καλῶς γε ποιῶν.
+      - modern:
+        - de: "Thu', was du \\emph{denkst!}"
+        grc: ποίει, ὅτι ἄν σοι δοκῇ.
+      - modern:
+        - de: Was ist heute berathen worden?
+        grc: τί βεβούλεται τήμερον;
+      - modern:
+        - de: Was hat man denn beschlossen?
+        grc: τί δῆτ᾽ ἔδοξεν;
+      - modern:
+        - de: Noch nichts; es war \emph{Stimmen}gleichheit.
+        grc: οὐδέν πω· ἶσαι γὰρ ἐγένοντο.
+      - modern:
+        - de: Eine so unsinnige Versammlung habe ich noch nicht erlebt.
+        grc: τοιοῦτον σύλλογον οὔπω \emph{ὄπωπα.}
