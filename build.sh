@@ -1,7 +1,8 @@
 #!/bin/sh
 
 function convert_part () {
-  stack exec -- convert-multilingual-doc < "../part-$1.yaml" > "../part-$1.tex"
+  echo "Converting Part $1"
+  stack exec -- convert-multilingual-doc --part-to-file "../part-$1.tex" "../part-$1.yaml" || exit 1
 }
 
 pushd convert-multilingual-doc
