@@ -134,3 +134,6 @@ sympy-plots-for-*.tex/
 
 # Haskell Stack
 .stack-work
+
+# Temporary files
+part-*.tex
