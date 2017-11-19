@@ -25,23 +25,6 @@ instance ToJSON Part where
 
 instance FromJSON Part where
 
-partHeader :: Maybe String -> Document -> Document
-partHeader indexstr content = concat [ "\\switchcolumn[0]*[{\\part"
-                            , optarg indexstr
-                            , "{%\n"
-                            , content
-                            , "}}]\n"
-                            ]
-  where
-    optarg Nothing = ""
-    optarg (Just s) = "[{" ++ s ++ "}]"
-
-sectionHeader :: Document -> Document
-sectionHeader content = concat [ "\\switchcolumn[0]*[{\\section{%\n"
-                              , content
-                              , "}}]\\indent\n"
-                              ]
-
 renderFragment :: Fragment -> Document
 renderFragment fg = concat ls
   where
@@ -62,7 +45,7 @@ renderFragment fg = concat ls
 renderSection :: Section -> Document
 renderSection s = concat $ catMaybes [docTitle, Just docConvs]
   where
-    docTitle = sectionHeader . modernSentence <$> title s
+    docTitle = sectionHeader Nothing . modernSentence <$> title s
     docConvs = concatMap renderFragment $ conversations s
 
 convertPart :: Part -> Document

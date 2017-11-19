@@ -69,3 +69,25 @@ modernSentences ms = concat ls
            "& \\tabularnewline\n"
          , "\\end{tabular}\n"
          ]
+
+partHeader :: Maybe String -> Document -> Document
+partHeader indexstr content = concat [ "\\switchcolumn[0]*[{\\part"
+                            , optarg indexstr
+                            , "{%\n"
+                            , content
+                            , "}}]\n"
+                            ]
+  where
+    optarg Nothing = ""
+    optarg (Just s) = "[{" ++ s ++ "}]"
+
+sectionHeader :: Maybe String -> Document -> Document
+sectionHeader indexstr content = concat [ "\\switchcolumn[0]*[{\\section"
+                                        , optarg indexstr
+                                        , "{%\n"
+                                        , content
+                                        , "}}]\\indent\n"
+                                        ]
+  where
+    optarg Nothing = ""
+    optarg (Just s) = "[{" ++ s ++ "}]"
