@@ -70,24 +70,44 @@ modernSentences ms = concat ls
          , "\\end{tabular}\n"
          ]
 
-partHeader :: Maybe String -> Document -> Document
-partHeader indexstr content = concat [ "\\switchcolumn[0]*[{\\part"
-                            , optarg indexstr
-                            , "{%\n"
-                            , content
-                            , "}}]\n"
-                            ]
+header :: String -> Maybe String -> Document -> Document
+header headerCmd indexstr content = concat strs
   where
     optarg Nothing = ""
     optarg (Just s) = "[{" ++ s ++ "}]"
+    strs = [ "\\switchcolumn[0]*[{"
+           , headerCmd
+           , optarg indexstr
+           , "{%\n"
+           , content
+           , "}}]\n"
+           ]
+
+renderFragment :: Fragment -> Document
+renderFragment fg = concat ls
+  where
+    ls = [ modernSentences $ modern fg
+         , "\\switchcolumn\n"
+         , "\\begin{greek}[variant=ancient]%\n"
+         , grcAlignment ++ grc fg
+         , "%\n\\end{greek}%\n"
+         , "\\switchcolumn*"
+         , if ruleAfter fg == Just True then "[\\centering\\rule{1.5in}{1pt}]" else ""
+         , "\n"
+         ]
+    grcAlignment = case length $ modern fg of
+      0 -> ""
+      1 -> ""
+      _ -> "\\vspace{0.5em}\n"
+
+partHeader :: Maybe String -> Document -> Document
+partHeader = header "\\part"
 
 sectionHeader :: Maybe String -> Document -> Document
-sectionHeader indexstr content = concat [ "\\switchcolumn[0]*[{\\section"
-                                        , optarg indexstr
-                                        , "{%\n"
-                                        , content
-                                        , "}}]\\indent\n"
-                                        ]
-  where
-    optarg Nothing = ""
-    optarg (Just s) = "[{" ++ s ++ "}]"
+sectionHeader = header "\\section"
+
+subSectionHeader :: Maybe String -> Document -> Document
+subSectionHeader = header "\\subsection"
+
+subSectionStarHeader :: Maybe String -> Document -> Document
+subSectionStarHeader = header "\\subsection*"

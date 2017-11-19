@@ -25,23 +25,6 @@ instance ToJSON Part where
 
 instance FromJSON Part where
 
-renderFragment :: Fragment -> Document
-renderFragment fg = concat ls
-  where
-    ls = [ modernSentences $ modern fg
-         , "\\switchcolumn\n"
-         , "\\begin{greek}[variant=ancient]%\n"
-         , grcAlignment ++ grc fg
-         , "%\n\\end{greek}%\n"
-         , "\\switchcolumn*"
-         , if ruleAfter fg == Just True then "[\\centering\\rule{1.5in}{1pt}]" else ""
-         , "\n"
-         ]
-    grcAlignment = case length $ modern fg of
-      0 -> ""
-      1 -> ""
-      _ -> "\\vspace{0.5em}\n"
-
 renderSection :: Section -> Document
 renderSection s = concat $ catMaybes [docTitle, Just docConvs]
   where

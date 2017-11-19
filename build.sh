@@ -5,6 +5,11 @@ function convert_part () {
   stack exec -- convert-multilingual-doc --part-to-file "../part-$1.tex" "../part-$1.yaml" || exit 1
 }
 
+function convert_lexicon () {
+  echo "Converting Lexicon"
+  stack exec -- convert-multilingual-doc --lexicon-to-file "../lexicon.tex" "../lexicon.yaml" || exit 1
+}
+
 pushd convert-multilingual-doc
 stack build
 convert_part a
