@@ -21,6 +21,7 @@ convert_part f
 convert_part g
 convert_part h
 convert_part i
+convert_lexicon
 popd
 
 latexmk -xelatex SprechenSieAttisch.tex

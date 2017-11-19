@@ -1,0 +1,446 @@
+lexicon:
+  de: |-
+    Altgriechische (auch neue\textrm{\textmd{{*}}} gutgebildete) Bezeichnungen
+    für moderne Begriffe aus dem Neugriechischen.\addcontentsline{toc}{section}{aus dem Neugriechischen}
+sections:
+  - entries:
+      - modern:
+          - de: Der Reichs\textcompwordmark{}tag 
+        grc: ἡ βουλή.
+      - modern:
+          - de: Der Abgeordnete.
+        grc: ὁ βουλευτής.
+      - modern:
+          - de: Das Heer.
+        grc: ὁ στρατός.
+      - modern:
+          - de: Der Bürgermeister.
+        grc: ὁ δήμαρχος.
+      - modern:
+          - de: Das Bureau.
+        grc: τὸ γραφεῖον.
+      - modern:
+          - de: Die orientalische Frage.
+        grc: τὸ ζήτημα τὸ ἀνατολικόν.
+      - modern:
+          - de: Das Gericht.
+        grc: τὸ δικαστήριον.
+      - modern:
+          - de: Die Partei.
+        grc: τὸ κόμμα.
+      - modern:
+          - de: conservativ.
+        grc: συντηρητικός.
+      - modern:
+          - de: liberal.
+        grc: φιλελεύθερος.
+      - modern:
+          - de: Der (Wahl-)Candidat.
+        grc: ὁ ὑπόψηφος.
+      - modern:
+          - de: Der Minister.
+        grc: ὁ ὑπουργός.
+      - modern:
+          - de: Das Ministerium des Aus\textcompwordmark{}wärtigen. 
+        grc: τὸ ἡπουργεῖον{*} τῶν ἐξωτερικῶν.
+      - modern:
+          - de: \qquad{}des Innern.
+        grc: \qquad{}\textgreek[variant=ancient]{τῶν ἐσωτερικῶν.}
+      - modern:
+          - de: \qquad{}der Finanzen.
+        grc: \qquad{}\textgreek[variant=ancient]{τῶν οἰκονομικῶν.}
+      - modern:
+          - de: \qquad{}der Justiz.
+        grc: \qquad{}\textgreek[variant=ancient]{τῆς δικαιοσύνης.}
+      - modern:
+          - de: \qquad{}des Krieges.
+        grc: \qquad{}\textgreek[variant=ancient]{τῶν στρατιωτικῶν.}
+      - modern:
+          - de: \qquad{}des Kultus.
+        grc: \qquad{}\textgreek[variant=ancient]{τῶν ἐκκλησιαστικῶν.}
+      - modern:
+          - de: \qquad{}des öffentlichen Unterrichts.
+        grc: \qquad{}\textgreek[variant=ancient]{τῆς δημοσίας ἐκπαιδεύσεως.}
+      - modern:
+          - de: Der Landrath, Amts\textcompwordmark{}hauptmann.
+        grc: ὁ ἔπαρχος.
+      - modern:
+          - de: Der Präsident.
+        grc: ὁ πρόεδρος.
+      - modern:
+          - de: Die Regierung.
+        grc: ἡ κυβέρνησις.
+      - modern:
+          - de: Die Regierungs\textcompwordmark{}partei.
+        grc: τὸ κυβερνητικὸν κόμμα.
+      - modern:
+          - de: Die Zeitung.
+        grc: ἡ ἐφημερίς.
+      - modern:
+          - de: Die Times.
+        grc: |-
+          οἰ καιροί\footnote{\begin{latin}%
+          orig. \textgreek[variant=ancient]{Καιροί}\end{latin}%
+          }.
+  - entries:
+      - modern:
+          - de: Das Dampf\textcompwordmark{}schiff. 
+        grc: τὸ ἀτμόπλοιον.{*}
+      - modern:
+          - de: Das Segelschiff.
+        grc: τὸ ἱστιοφόρον.
+      - modern:
+          - de: Der Bahnhof.
+        grc: ὁ σταθμός.
+      - modern:
+          - de: Der Bahnzug.
+        grc: ἡ ἁμαξοστοιχία.{*}
+      - modern:
+          - de: Die Eisenbahn.
+        grc: |-
+          ὁ\footnote{\begin{latin}%
+          orig. \textgreek[variant=ancient]{ο}\end{latin}%
+          } σιδηρόδρομος.{*}
+      - modern:
+          - de: Der Gasthof, das Hotel.
+        grc: τὸ ξενοδοχεῖον.
+      - modern:
+          - de: Der Omnibus.
+        grc: τὸ λεωφορεῖον.
+      - modern:
+          - de: Der Fahrplan. 
+        grc: τὸ δρομολόγιον.
+  - entries:
+      - modern:
+          - de: Der Apotheker.
+        grc: ὁ φαρμακοπώλης.
+      - modern:
+          - de: Der Arbeiter.
+        grc: ὁ ἐργάτης.
+      - modern:
+          - de: Der Streik.
+        grc: ἡ ἀπεργία.{*}
+      - modern:
+          - de: Der Barbier.
+        grc: ὁ κουρεύς.
+      - modern:
+          - de: Der Baumeister.
+        grc: ὁ ἀρχιτέκτων.
+      - modern:
+          - de: Der Briefträger.
+        grc: ὁ γραμματοφόρος.
+      - modern:
+          - de: Der Buchbinder.
+        grc: ὁ βιβλιοδέτης.{*}
+      - modern:
+          - de: Der Buchdrucker.
+        grc: ὁ τυπογράφος.{*}
+      - modern:
+          - de: Der Buchhändler.
+        grc: ὁ βιβλιοπώλης.
+      - modern:
+          - de: Der Droschkenkutscher.
+        grc: ὁ ἁμαξηλάτης.{*}
+      - modern:
+          - de: Der Handwerker.
+        grc: ὁ τεχνίτης.
+      - modern:
+          - de: Der Ingenieur.
+        grc: ὁ μηχανικός.
+      - modern:
+          - de: Der Journalist.
+        grc: ὁ ἐφημεριδογράφος.{*}
+      - modern:
+          - de: Der Handels\textcompwordmark{}mann. 
+        grc: ὁ παντοπώλης.
+      - modern:
+          - de: Der Lehrer.
+        grc: ὁ διδάσκαλος.
+      - modern:
+          - de: Der Offizier.
+        grc: ὁ ἀξιωματικός.
+      - modern:
+          - de: Der Photograph.
+        grc: ὁ φωτογράφος.{*}
+      - modern:
+          - de: Der Professor.
+        grc: ὁ καθηγητής.
+      - modern:
+          - de: Der Redacterur.
+        grc: ὁ συντάκτης.{*}
+      - modern:
+          - de: Der Gerichts\textcompwordmark{}rath. 
+        grc: ὁ δικαστής.
+      - modern:
+          - de: Der Schrift\textcompwordmark{}setzer. 
+        grc: ὁ τυποθέτης.{*}
+      - modern:
+          - de: Der Wichsier.
+        grc: ὁ καθαριστής.
+      - modern:
+          - de: Der Student.
+        grc: ὁ φοιτητής.
+      - modern:
+          - de: |-
+              Der Tabaks\textcompwordmark{}händler.\footnote{\begin{latin}%
+              orig. \textgerman[spelling=old,babelshorthands=true]{Tabaks\textcompwordmark{}händler..}\end{latin}%
+              }
+        grc: ὁ καπνοπώλης.{*}
+      - modern:
+          - de: Der Uhrmacher.
+        grc: ὁ ὡρολογοποιός.{*}
+  - entries:
+      - modern:
+          - de: Die Apotheke.
+        grc: τὸ φαρμακοπωλεῖον.
+      - modern:
+          - de: Das Café.
+        grc: τὸ καφενεῖον.{*}
+      - modern:
+          - de: Die Droschke.
+        grc: ἡ ἅμαξα.
+      - modern:
+          - de: Der Kirchhof.
+        grc: τὸ κοιμητήριον.
+      - modern:
+          - de: Der Klub.
+        grc: ἡ λέσχη.
+      - modern:
+          - de: Das Lesezimmer.
+        grc: τὸ ἀναγνωστήριον.
+      - modern:
+          - de: Das Concert.
+        grc: ἡ συμφωνία.
+      - modern:
+          - de: Das Schloß.
+        grc: τὰ ἀνάκτορα.
+      - modern:
+          - de: Das Herrenhaus.
+        grc: ἡ ἔπαυλις.
+      - modern:
+          - de: Das Trottoir.
+        grc: τὸ πεζοδρόμιον.{*}
+      - modern:
+          - de: Die Post.
+        grc: τὸ ταχυδρομεῖον.
+      - modern:
+          - de: Die Freimarke.
+        grc: τὸ γραμματόσημον.
+      - modern:
+          - de: Die Postkarte.
+        grc: τὸ ἐπιστολικὸν δελτάριον.
+      - modern:
+          - de: Die Promenade.
+        grc: ὁ περίπατος.
+      - modern:
+          - de: Das Rathhaus.
+        grc: τὸ δημαρχεῖον.
+      - modern:
+          - de: Die Straße.
+        grc: ἡ ὁδός.
+      - modern:
+          - de: Die Vorstadt.
+        grc: τὸ προάστειον.
+      - modern:
+          - de: Die Universität.
+        grc: τὸ πανεπιστήμιον.{*}
+      - modern:
+          - de: Der Briefkasten.
+        grc: τὸ γραμματοκιβώτιον.{*}
+      - modern:
+          - de: Das Löschpapier.
+        grc: τὸ στουπόχαρτον.{*}
+      - modern:
+          - de: Das Telegramm.
+        grc: τὸ τηλεγράφημα.{*}
+      - modern:
+          - de: telegraphisch.
+        grc: τηλεγραφικῶς.{*}
+      - modern:
+          - de: Die Tinte.
+        grc: (ἡ μελάνη) τὸ μέλαν.
+      - modern:
+          - de: Das Tintenfaß.
+        grc: τὸ μελανοδοχεῖον.
+      - modern:
+          - de: Der umschlag (Kouvert). 
+        grc: τὸ περικάλυμμα.
+  - entries:
+      - modern:
+          - de: Die Bürste.
+        grc: ἡ ψήκτρα.
+      - modern:
+          - de: Das Faß.
+        grc: ὁ κάδος.
+      - modern:
+          - de: Das Fenster.
+        grc: τὸ παραθύριον.
+      - modern:
+          - de: Die Glocke, Klingel.
+        grc: τὸ κωδώνιον.
+      - modern:
+          - de: klingeln.
+        grc: κωδωνίζειν.
+      - modern:
+          - de: Holz, Kohlen.
+        grc: ξύλα, ἄνθρακες.
+      - modern:
+          - de: Die Möbel.
+        grc: τὰ ἔπιπλα.
+      - modern:
+          - de: Der Ofen.
+        grc: ἡ ἑστία.
+      - modern:
+          - de: Das Pianoforte.
+        grc: τὸ κλειδοκύμβαλον.
+      - modern:
+          - de: Der Saal.
+        grc: ἡ αἴθουσα.
+      - modern:
+          - de: Das Schlafzimmer.
+        grc: ὁ κοιτών.
+      - modern:
+          - de: Der Schrank.
+        grc: ἡ σκευοθήκη.
+      - modern:
+          - de: Der Kleiderschrank.
+        grc: ἡ ἱματιοθήκη.
+      - modern:
+          - de: Der Schreibtisch.
+        grc: τὸ γραφεῖον.
+      - modern:
+          - de: Die Schwefelhölzchen.
+        grc: τὰ θειαφοκέρια.{*}
+      - modern:
+          - de: Die Seife.
+        grc: ὁ σάπων.
+      - modern:
+          - de: Das Sopha.
+        grc: τὸ ἀνάκλιντρον.
+      - modern:
+          - de: Die Treppe.
+        grc: ἡ κλῖμαξ, τὸ ἀνάβαθρον.
+      - modern:
+          - de: Die Gardinen.
+        grc: τὸ παραπέτασμα.
+      - modern:
+          - de: Das Waschbecken.
+        grc: ἡ λεκάνη.
+      - modern:
+          - de: Der Waschtisch.
+        grc: ὁ νιπτήρ.
+      - modern:
+          - de: Das Zimmer.
+        grc: τὸ δωμάτιον.
+      - modern:
+          - de: Der Uhrschlüssel.
+        grc: τὸ κλειδίον.
+      - modern:
+          - de: Der Zahnstocher. 
+        grc: ἡ ὀδοντογλυφίς.
+  - entries:
+      - modern:
+          - de: Der Keiser.
+        grc: ὁ αὐτοκράτως.
+      - modern:
+          - de: Deutschland.
+        grc: Γερμανία.
+      - modern:
+          - de: Die Deutschen.
+        grc: οἱ Γερμανοί.
+      - modern:
+          - de: Österreich.
+        grc: Αὐστρία.{*}
+      - modern:
+          - de: Ungarn.
+        grc: Οὐγγαρία.{*}
+      - modern:
+          - de: England.
+        grc: Ἀγγλία.{*}
+      - modern:
+          - de: Die Engländer.
+        grc: οἱ Ἄγγλοι.
+      - modern:
+          - de: Rußland.
+        grc: |
+          Ρωσία.{*}\footnote{\begin{latin}%
+          sic.\textgreek[variant=ancient]{ «ʼΡωσία» φαίνεταί μοι βέλτιον ἤ «Ρωσία».}\end{latin}%
+          }
+      - modern:
+          - de: Die Russen.
+        grc: |
+          οἱ Ρῶσοι.{*}\footnote{\begin{latin}%
+          sic.\textgreek[variant=ancient]{ «ʼΡῶσοι» φαίνεταί μοι βέλτιον ἤ «Ρῶσοι».}\end{latin}%
+          }
+      - modern:
+          - de: Frankreich.
+        grc: Γαλλία.
+      - modern:
+          - de: Die Franzosen.
+        grc: οἱ Γάλλοι.
+      - modern:
+          - de: Dänemark.
+        grc: Δανία.{*}
+      - modern:
+          - de: Italien.
+        grc: Ἰταλία.
+      - modern:
+          - de: Spanien.
+        grc: Ἱσπανία.
+      - modern:
+          - de: Türkei.
+        grc: Τουρκία.{*}
+      - modern:
+          - de: Berlin.
+        grc: Βερόλινον.{*}
+      - modern:
+          - de: Wien.
+        grc: Βιέννη.{*}
+      - modern:
+          - de: Peters\textcompwordmark{}burg. 
+        grc: Πετρούπολις.{*}
+      - modern:
+          - de: Paris.
+        grc: Παρίσιοι.{*}
+      - modern:
+          - de: London.
+        grc: Λόνδινον.{*}
+      - modern:
+          - de: Der Congreß.
+        grc: τὸ συνέδριον.
+      - modern:
+          - de: Die Commission.
+        grc: ἡ ἐπιτροπή.
+      - modern:
+          - de: Fürst Bismarck.
+        grc: ὁ πρίγκιψ Βίσμαρκ.
+      - modern:
+          - de: Er lebe hoch!
+        grc: ζέτω!
+  - section:
+      de: "\\emph{Die Wochentage} heißen neugriechisch:"
+    entries:
+      - modern:
+          - de: Sonntag.
+        grc: |-
+          (ἡ\footnote{\begin{latin}%
+          orig. \textgreek[variant=ancient]{ὴ}\end{latin}%
+          }) κυριακή.
+      - modern:
+          - de: Montag.
+        grc: ἡ δευτέρα.
+      - modern:
+          - de: Dienstag.
+        grc: ἡ τρίτη.
+      - modern:
+          - de: Mittwoch.
+        grc: ἡ τετάρτη.
+      - modern:
+          - de: Donners\textcompwordmark{}tag.
+        grc: ἡ πέμπτη.
+      - modern:
+          - de: Freitag.
+        grc: (ἡ) παρασκευή \textgerman[spelling=old,babelshorthands=true]{(Küst\textcompwordmark{}tag)}.
+      - modern:
+          - de: Sonnabend (Samstag).
+        grc: (τὸ) σάββατον.
