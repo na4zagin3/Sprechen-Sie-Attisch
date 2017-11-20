@@ -27,7 +27,7 @@ type Document = String
 type ModernSentence = Map LangCode String
 
 data Fragment = Fragment { modern :: [ModernSentence]
-                         , grc :: String
+                         , grc :: [String]
                          , ruleAfter :: Maybe Bool
                          } deriving (Generic, Show)
 
@@ -38,12 +38,16 @@ instance FromJSON Fragment where
 langLine :: LangCode -> String -> Document
 langLine "ja" text = "\\trJA{" ++ text ++ "}"
 langLine "de" text = "\\trDE{" ++ text ++ "}"
-langLine "la" text = concat [ "\\trDE{%\n"
+langLine "la" text = concat [ "\\trDE{%\n" -- ToDo: This is redundant
                             , "\\begin{latin}%\n"
                             , text
                             , "%\n\\end{latin}%\n"
                             ,"}"
                             ]
+langLine "grc" text = concat [ "\\begin{greek}[variant=ancient]%\n"
+                             , text
+                             , "%\n\\end{greek}%\n"
+                             ]
 langLine lang text = error $ "langLine: lang: " ++ lang ++ " is not supported. text: " ++ text
 
 langLineFrag :: LangCode -> ModernSentence -> Maybe Document
@@ -70,6 +74,20 @@ modernSentences ms = concat ls
          , "\\end{tabular}\n"
          ]
 
+leftBraced :: [Document] -> Document
+leftBraced [] = error "leftBraced: empty list"
+leftBraced [d] = d
+leftBraced ms = concat ls
+  where
+    ls = [ "\\begin{tabular}{ll}\n"
+         , "\\ldelim\\{{" ++ show (length ms) ++ "}{1em}[] & "
+         , head ms
+         , "\\tabularnewline\n& "
+         ] ++ L.intersperse "\\tabularnewline\n& " (tail ms) ++ [
+           "\\tabularnewline\n"
+         , "\\end{tabular}\n"
+         ]
+
 header :: String -> Maybe String -> Document -> Document
 header headerCmd indexstr content = concat strs
   where
@@ -86,19 +104,18 @@ header headerCmd indexstr content = concat strs
 renderFragment :: Fragment -> Document
 renderFragment fg = concat ls
   where
-    ls = [ modernSentences $ modern fg
+    ls = [ modernAlignment
+         , modernSentences $ modern fg
          , "\\switchcolumn\n"
-         , "\\begin{greek}[variant=ancient]%\n"
-         , grcAlignment ++ grc fg
-         , "%\n\\end{greek}%\n"
+         , grcAlignment
+         , leftBraced . map (langLine greek) $ grc fg
          , "\\switchcolumn*"
          , if ruleAfter fg == Just True then "[\\centering\\rule{1.5in}{1pt}]" else ""
          , "\n"
          ]
-    grcAlignment = case length $ modern fg of
-      0 -> ""
-      1 -> ""
-      _ -> "\\vspace{0.5em}\n"
+    grcAlignment = alignment . length $ modern fg
+    modernAlignment = alignment . length $ grc fg
+    alignment n = if n > 1 then "\\vspace{0.5em}\n" else ""
 
 partHeader :: Maybe String -> Document -> Document
 partHeader = header "\\part"

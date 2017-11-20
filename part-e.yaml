@@ -6,562 +6,715 @@ sections:
     conversations:
       - modern:
         - de: Wie denken Sie über das Mädel?
-        grc: |-
-          τί οὖν\footnote{\begin{german}[spelling=old,babelshorthands=true]%
-          orig. \textgreek[variant=ancient]{ουν}\end{german}%
-          } ἐρεῖς περὶ τῆς μείρακος;
+        grc:
+          - |-
+            τί οὖν\footnote{\begin{german}[spelling=old,babelshorthands=true]%
+            orig. \textgreek[variant=ancient]{ουν}\end{german}%
+            } ἐρεῖς περὶ τῆς μείρακος;
       - modern:
         - de: Alles nichts gegen meine Anna!
-        grc: λῆρός ἐστι τἆλλα πρὸς Ἄνναν.
+        grc:
+          - λῆρός ἐστι τἆλλα πρὸς Ἄνναν.
       - modern:
         - de: Die Sehnsucht nach Anna quält mich.
-        grc: |-
-          ἵμερός με (\textgerman[spelling=old,babelshorthands=true]{od.} πόθος
-          με) διαλυμαίνεται Ἄννης.
+        grc:
+          - |-
+            ἵμερός με (\textgerman[spelling=old,babelshorthands=true]{od.} πόθος
+            με) διαλυμαίνεται Ἄννης.
       - modern:
         - de: Im Ernst?
-        grc: ὢ τί λέτεις;
+        grc:
+          - ὢ τί λέτεις;
       - modern:
         - de: Du wunderst dich?
-        grc: ἐθαύ\emph{μασας};
+        grc:
+          - ἐθαύ\emph{μασας};
       - modern:
         - de: Warum wunderst du dich?
-        grc: τί ἐθαύμασας;
+        grc:
+          - τί ἐθαύμασας;
       - modern:
         - de: Wie schmerzlich für mich, daß sie nicht da ist!
-        grc: ὡς ἄχθομαι αὐτῆς ἀπούσης!
+        grc:
+          - ὡς ἄχθομαι αὐτῆς ἀπούσης!
       - modern:
         - de: Sei kein Thor!
-        grc: μὴ ἄφρων γένῃ!
+        grc:
+          - μὴ ἄφρων γένῃ!
       - modern:
         - de: Die Zeit wird mir lang, weil ich das herrliche Mädchen nicht sehe.
-        grc: πάνυ πολύς μοι δοκεῖ εἶναι χρόνος, ὅτι οὐχ ὁρῶ αὑτὴν τοιαύτην οὖσαν.
+        grc:
+          - πάνυ πολύς μοι δοκεῖ εἶναι χρόνος, ὅτι οὐχ ὁρῶ αὑτὴν τοιαύτην οὖσαν.
       - modern:
         - de: Sie ist nicht hier.
-        grc: οὐκ ἐνθάδε ἐστίν.
+        grc:
+          - οὐκ ἐνθάδε ἐστίν.
       - modern:
         - de: Aber sie ist schon auf dem Wege.
-        grc: "ἀλλ' ἔρχεται."
+        grc:
+          - "ἀλλ' ἔρχεται."
       - modern:
         - de: Da kommt sie!
-        grc: ἡδὶ προσέρχεται!
+        grc:
+          - ἡδὶ προσέρχεται!
       - modern:
         - de: Jetzt sehe ich sie endlich.
-        grc: |-
-          νῦν\footnote{\begin{german}[spelling=old,babelshorthands=true]%
-          orig. \textgreek[variant=ancient]{νὖν}\end{german}%
-          } γε ἤδη καθορῶ αὐτήν.
+        grc:
+          - |-
+            νῦν\footnote{\begin{german}[spelling=old,babelshorthands=true]%
+            orig. \textgreek[variant=ancient]{νὖν}\end{german}%
+            } γε ἤδη καθορῶ αὐτήν.
       - modern:
         - de: Sie ist schon ziemlich lange da.
-        grc: \emph{ἥκει} ἐπιεικῶς πάλαι.
+        grc:
+          - \emph{ἥκει} ἐπιεικῶς πάλαι.
       - modern:
         - de: Das ist unerhört!
-        grc: ἄτοπον τουτὶ πρᾶγμα!
+        grc:
+          - ἄτοπον τουτὶ πρᾶγμα!
       - modern:
         - de: Was fällt dir ein?
-        grc: τί πάσχεις;
+        grc:
+          - τί πάσχεις;
       - modern:
         - de: Siehst du nicht? N. lauft ihr nach. Er begrüßt sie angelegentlich!
-        grc: οὐχ ὁρᾶς; Ν. ἀκολουθεῖ κατόπιν αὐτῆς καὶ ἀσπάζεται!
+        grc:
+          - οὐχ ὁρᾶς; Ν. ἀκολουθεῖ κατόπιν αὐτῆς καὶ ἀσπάζεται!
       - modern:
         - de: Das interessirt mich wenig.
-        grc: ὀλίγον μοι μέλει.
+        grc:
+          - ὀλίγον μοι μέλει.
       - modern:
         - de: Sie reicht ihm die Hand!
-        grc: ἡ δὲ δεξιοῦται αὐτόν.
+        grc:
+          - ἡ δὲ δεξιοῦται αὐτόν.
       - modern:
         - de: Ach, ich Ärmster!
-        grc: οἴμοι κακοδαίμων.
+        grc:
+          - οἴμοι κακοδαίμων.
       - modern:
         - de: Sie scheint dich nicht zu sehen.
-        grc: οὐ δοκεῖ ὁρᾶν σε.
+        grc:
+          - οὐ δοκεῖ ὁρᾶν σε.
       - modern:
         - de: Sie hat ihm die Hand gegeben.
-        grc: ἐνέβελε τὴν δεξιάν.
+        grc:
+          - ἐνέβελε τὴν δεξιάν.
       - modern:
         - de: Kümmere dich nicht weiter um sie!
-        grc: ταύτην μὲν \emph{ἔα χαίρειν}!
+        grc:
+          - ταύτην μὲν \emph{ἔα χαίρειν}!
       - modern:
         - de: Ich gehe. Ich will meine Tante begrüßen.
-        grc: "ἀλλ' εἶμι· προσερῶ γὰρ τὴν τεθίδα."
+        grc:
+          - "ἀλλ' εἶμι· προσερῶ γὰρ τὴν τεθίδα."
       - modern:
         - de: Ich habe sie bereits begrüßt.
-        grc: ἐγὼ δὲ προσείρηκα αὐτήν.
+        grc:
+          - ἐγὼ δὲ προσείρηκα αὐτήν.
       - modern:
         - de: |-
             Das ist gar \emph{nicht schön} von Ihnen, \emph{daß} Sie mich nicht
             begrüßt haben.
-        grc: καλῶς γε οὐ προσεῖπάς με! \textgerman[spelling=old,babelshorthands=true]{(ironisch.)}
+        grc:
+          - καλῶς γε οὐ προσεῖπάς με! \textgerman[spelling=old,babelshorthands=true]{(ironisch.)}
   - title:
       de: Soll ich?
     conversations:
       - modern:
         - de: Was gedenken Sie zu thun?
-        grc: τί ποιεῖν διανοεῖ;
+        grc:
+          - τί ποιεῖν διανοεῖ;
       - modern:
         - de: Was haben Sie vor?
-        grc: τί μέλλεις δρᾶν;
+        grc:
+          - τί μέλλεις δρᾶν;
       - modern:
         - de: Geben Sie mir einen guten Rath!
-        grc: χρηστόν τι συμβούλευσον!
+        grc:
+          - χρηστόν τι συμβούλευσον!
       - modern:
         - de: Was soll ich machen?
-        grc: τί ποιήσω;
+        grc:
+          - τί ποιήσω;
       - modern:
         - de: Ich fürchte, Sie werden es bereuen.
-        grc: \emph{οἶμαί} σοι τοῦτο μεταμελήσειν.
+        grc:
+          - \emph{οἶμαί} σοι τοῦτο μεταμελήσειν.
       - modern:
         - de: Sehen Sie sich vor, daß sie Ihnen nicht entgeht.
-        grc: "εὐλαβοῦ, μὴ ἐκφύγῃ σ' ἐκείνη."
+        grc:
+          - "εὐλαβοῦ, μὴ ἐκφύγῃ σ' ἐκείνη."
       - modern:
         - de: Jetzt ist es an Ihnen, das Weitere zu thun.
-        grc: \emph{σὸν ἔργον} τἆλλα ποιεῖν.
+        grc:
+          - \emph{σὸν ἔργον} τἆλλα ποιεῖν.
       - modern:
         - de: Was soll ich also?
-        grc: τί οὖν κελεύεις δρᾶν με;
+        grc:
+          - τί οὖν κελεύεις δρᾶν με;
       - modern:
         - de: Sie müssen mit ihr sprechen, sobald sich Gelegenheit bietet.
-        grc: δεῖ διαλέγεσθαι αὐτῇ, ὅταν τύχῃς.
+        grc:
+          - δεῖ διαλέγεσθαι αὐτῇ, ὅταν τύχῃς.
       - modern:
         - de: Gerade das will ich ja!
-        grc: "τοῦτ' αὐτὸ γὰρ καὶ βούλομαι."
+        grc:
+          - "τοῦτ' αὐτὸ γὰρ καὶ βούλομαι."
       - modern:
         - de: Aber soweit ist die Sache noch nicht.
-        grc: "ἀλλ' οὐκ ἔστι πω ἐν τούτῳ τὰ πράγματα."
+        grc:
+          - "ἀλλ' οὐκ ἔστι πω ἐν τούτῳ τὰ πράγματα."
       - modern:
         - de: Die Sache hat einen Haken.
-        grc: ἔνι κίνδυνος ἐν τῷ πράγματι.
+        grc:
+          - ἔνι κίνδυνος ἐν τῷ πράγματι.
       - modern:
         - de: Ein schwieriger Punkt!
-        grc: χαλεπὸν τὸ πρᾶγμα!
+        grc:
+          - χαλεπὸν τὸ πρᾶγμα!
       - modern:
         - de: Machen Sie sich keine Sorge!
-        grc: μὴ φροντίσῃς.
+        grc:
+          - μὴ φροντίσῃς.
       - modern:
         - de: Nur nicht ängstlich!
-        grc: μὴ δέδιθι.
+        grc:
+          - μὴ δέδιθι.
       - modern:
         - de: Haben Sie keine Angst, mein Bester!
-        grc: |-
-          μηδὲν δέδιτι, ὦ τᾶν\footnote{\begin{german}[spelling=old,babelshorthands=true]%
-          orig. \textgreek[variant=ancient]{τάν}\end{german}%
-          }.
+        grc:
+          - |-
+            μηδὲν δέδιτι, ὦ τᾶν\footnote{\begin{german}[spelling=old,babelshorthands=true]%
+            orig. \textgreek[variant=ancient]{τάν}\end{german}%
+            }.
       - modern:
         - de: Es wird Ihnen nichts passiren.
-        grc: οὐδὲν (γὰρ) πείσει.
+        grc:
+          - οὐδὲν (γὰρ) πείσει.
       - modern:
         - de: An mir soll es nicht liegen.
-        grc: |-
-          οὐ τοὐμὸν ἐμποδὼν ἔσται, ὦ τᾶν\footnote{\begin{german}[spelling=old,babelshorthands=true]%
-          orig. \textgreek[variant=ancient]{τάν}\end{german}%
-          }.
+        grc:
+          - |-
+            οὐ τοὐμὸν ἐμποδὼν ἔσται, ὦ τᾶν\footnote{\begin{german}[spelling=old,babelshorthands=true]%
+            orig. \textgreek[variant=ancient]{τάν}\end{german}%
+            }.
       - modern:
         - de: Das will ich schon besorgen.
-        grc: μελήσει μοι τοῦτό γε.
+        grc:
+          - μελήσει μοι τοῦτό γε.
   - title:
       de: Nur Muth!
     conversations:
       - modern:
         - de: Beeilen Sie sich!
-        grc: σπεῦδέ νυν! ἔπειγέ νυν!
+        grc:
+          - σπεῦδέ νυν! ἔπειγέ νυν!
       - modern:
         - de: So beeilen Sie sich doch!
-        grc: οὔκουν ἐπείξει;
+        grc:
+          - οὔκουν ἐπείξει;
       - modern:
         - de: Zögern Sie nicht!
-        grc: μὴ βράδυνε!
+        grc:
+          - μὴ βράδυνε!
       - modern:
         - de: Machen Sie schnell!
-        grc: \emph{ἄνυε!}
+        grc:
+          - \emph{ἄνυε!}
       - modern:
         - de: So machen Sie doch schnell!
-        grc: οὐκ ἀνύσεις;
+        grc:
+          - οὐκ ἀνύσεις;
       - modern:
         - de: Sie dürfen nicht zögern.
-        grc: οὐ μέλλειν χρή σε.
+        grc:
+          - οὐ μέλλειν χρή σε.
       - modern:
         - de: Wir wollen uns nicht aufhalten.
-        grc: μὴ διατρίβωμεν.
+        grc:
+          - μὴ διατρίβωμεν.
       - modern:
         - de: So halten Sie sich doch nicht auf!
-        grc: οὐ μὴ διατρίψεις;
+        grc:
+          - οὐ μὴ διατρίψεις;
       - modern:
         - de: Jetzt gilt es!
-        grc: νῦν ὁ καιρός!
+        grc:
+          - νῦν ὁ καιρός!
       - modern:
         - de: Nun so versuchen Sie es doch wenigstens!
-        grc: ἀλλ᾽ οὖν πεπειράσθω γε.
+        grc:
+          - ἀλλ᾽ οὖν πεπειράσθω γε.
       - modern:
         - de: "Auf Ihre Verantwortung hin will ich's thun."
-        grc: δράσω τοίνυν σοὶ πίσυνος.
+        grc:
+          - δράσω τοίνυν σοὶ πίσυνος.
       - modern:
         - de: Ich will es versuchen.
-        grc: πειράσομαι.
+        grc:
+          - πειράσομαι.
       - modern:
         - de: Und wenn es den Kopf kostet!
-        grc: κἂν δέῃ μ᾽ ἀποθανεῖν!
+        grc:
+          - κἂν δέῃ μ᾽ ἀποθανεῖν!
       - modern:
         - de: Ich bin schon darüber.
-        grc: ἀλλὰ δρῶ τοῦτο.
+        grc:
+          - ἀλλὰ δρῶ τοῦτο.
       - modern:
         - de: Endlich ist es so weit!
-        grc: ἤδη ᾽στὶ τοῦτ᾽ ἐκεῖνο!
+        grc:
+          - ἤδη ᾽στὶ τοῦτ᾽ ἐκεῖνο!
       - modern:
         - de: Und wenn sie Nein sagt und nicht will?
-        grc: κἂν μὴ φῇ μηδ᾽ ἐθελήσῃ;
+        grc:
+          - κἂν μὴ φῇ μηδ᾽ ἐθελήσῃ;
       - modern:
         - de: Wir werden gleich sehen.
-        grc: εἰσόμεθ᾽ αὐτίκα.
+        grc:
+          - εἰσόμεθ᾽ αὐτίκα.
       - modern:
         - de: Ich will gleich einmal sehen.
-        grc: ἐγὼ \emph{εἴσομαι.}
+        grc:
+          - ἐγὼ \emph{εἴσομαι.}
   - title:
       de: Liebes\textcompwordmark{}glück
     conversations:
       - modern:
         - de: Ich verehre Sie.
-        grc: ἐραστής εἰμι σός.
+        grc:
+          - ἐραστής εἰμι σός.
       - modern:
         - de: Ist das wahr?
-        grc: τί λέγεις;
+        grc:
+          - τί λέγεις;
       - modern:
         - de: Warum sagen Sie das?
-        grc: τί τοῦτο λέγεις;
+        grc:
+          - τί τοῦτο λέγεις;
       - modern:
         - de: Weil ich Sie liebe.
-        grc: ὁτιὴ φιλῶ λέγεις;
+        grc:
+          - ὁτιὴ φιλῶ λέγεις;
       - modern:
         - de: Wenn Sie mich wirklich von Herzen lieben, so sprechen Sie mit meiner Mutter.
-        grc: εἴπερ ὄντως ἐκ τῆς καρδίας με φιλεῖς, πρόσειπε τἡν μητέρα μου.
+        grc:
+          - εἴπερ ὄντως ἐκ τῆς καρδίας με φιλεῖς, πρόσειπε τἡν μητέρα μου.
       - modern:
         - de: Erlauben Sie mir einen Kuß!
-        grc: \emph{δός μοι} κύσαι. (δὸς κύσαι.)
+        grc:
+          - \emph{δός μοι} κύσαι. (δὸς κύσαι.)
       - modern:
         - de: Geben Sie mir einen Kuß! Bitte bitte!
-        grc: κύσον με, ἀντιβολῶ!
+        grc:
+          - κύσον με, ἀντιβολῶ!
       - modern:
         - de: Einen Kuß!
-        grc: φέρε, σε κύσω!
+        grc:
+          - φέρε, σε κύσω!
       - modern:
         - de: |-
             Ich weiß zwar gewiß, daß die Mutter darüber böse sein wird, aber Ihnen
             zu Gefallen will ich es thun.
-        grc: οἶδα μὲν σαφῶς, ὅτι ἡ μήτηρ ἀχθέσεται, σοῦ ἕνεκα τοῦτο δράσω.
+        grc:
+          - οἶδα μὲν σαφῶς, ὅτι ἡ μήτηρ ἀχθέσεται, σοῦ ἕνεκα τοῦτο δράσω.
       - modern:
         - de: Hören Sie auf!
-        grc: παῦε! παῦε!
+        grc:
+          - παῦε! παῦε!
       - modern:
         - de: Wie glücklich bin ich!
-        grc: ὡς ἥδομαι!
+        grc:
+          - ὡς ἥδομαι!
       - modern:
         - de: Ach, daß mich nur dir Mutter nicht sieht!
-        grc: οἴμοι, ἡ μήτηρ ὅπως μή μ᾽ ὄψεται!
+        grc:
+          - οἴμοι, ἡ μήτηρ ὅπως μή μ᾽ ὄψεται!
       - modern:
         - de: Wir sind ja allein (unter uns).
-        grc: \emph{αὐτοὶ} γάρ ἐσμεν.
+        grc:
+          - \emph{αὐτοὶ} γάρ ἐσμεν.
       - modern:
         - de: Pst! Seien Sie still!
-        grc: ἤ ἤ· σιώπα.
+        grc:
+          - ἤ ἤ· σιώπα.
       - modern:
         - de: Geben Sie mir die Hand!
-        grc: δός μοι τὴν χεῖρα τὴν δεξιάν.
+        grc:
+          - δός μοι τὴν χεῖρα τὴν δεξιάν.
       - modern:
         - de: Ich schwöre Ihnen ewige Treue!
-        grc: οὐδέποτέ σ᾽ ἀπολείψειν φημί!
+        grc:
+          - οὐδέποτέ σ᾽ ἀπολείψειν φημί!
   - title:
       de: Die Schwiegermutter
     conversations:
       - modern:
         - de: Was geht da vor? — Was ist das?
-        grc: τί τὸ πρᾶγμα; — τουτὶ τί ἐστιν;
+        grc:
+          - τί τὸ πρᾶγμα; — τουτὶ τί ἐστιν;
       - modern:
         - de: Allmächtiger Gott!
-        grc: ὦ Ζεῦ βασιλεῦ!
+        grc:
+          - ὦ Ζεῦ βασιλεῦ!
       - modern:
         - de: Verwünscht!
-        grc: οἴμοι κακοδαίμων!
+        grc:
+          - οἴμοι κακοδαίμων!
       - modern:
         - de: Wir sind verrathen!
-        grc: προδεδόμεθα!
+        grc:
+          - προδεδόμεθα!
       - modern:
         - de: Hier ist der schändliche Mensch!
-        grc: οὗτος ὁ πανοῦργος!
+        grc:
+          - οὗτος ὁ πανοῦργος!
       - modern:
         - de: Sind Sie verrückt?
-        grc: τί ποιεῖς;
+        grc:
+          - τί ποιεῖς;
       - modern:
         - de: Was fällt Ihnen ein?
-        grc: τί πάσχεις;
+        grc:
+          - τί πάσχεις;
       - modern:
         - de: O Sie Abscheulicher!
-        grc: ὦ βδελυρὲ σύ!
+        grc:
+          - ὦ βδελυρὲ σύ!
       - modern:
         - de: Ereifern Sie sich nicht!
-        grc: μὴ πρὸς ὀργήν!
+        grc:
+          - μὴ πρὸς ὀργήν!
       - modern:
         - de: Das ist eine Sünde und Schande!
-        grc: ἀνόσια ἐπάθομεν!
+        grc:
+          - ἀνόσια ἐπάθομεν!
       - modern:
         - de: \emph{Nein,} über diese Unverschämtheit!
-        grc: ἆρ᾽ οὐχ ὕβρις ταῦτ᾽ ἐστὶ πολλή;
+        grc:
+          - ἆρ᾽ οὐχ ὕβρις ταῦτ᾽ ἐστὶ πολλή;
       - modern:
         - de: Hören Sie auf!
-        grc: παῦε!
+        grc:
+          - παῦε!
       - modern:
         - de: Gehen Sie Ihrer Wege!
-        grc: ἄπιθ᾽ ἐκποδών!
+        grc:
+          - ἄπιθ᾽ ἐκποδών!
       - modern:
         - de: Machen Sie, daß Sie hinaus\textcompwordmark{}kommen!
-        grc: οὐκ εἶ θύραζε;
+        grc:
+          - οὐκ εἶ θύραζε;
       - modern:
         - de: Entfernen Sie sich doch!
-        grc: οὐκ ἄπει δῆτα ἐκποδών;
+        grc:
+          - οὐκ ἄπει δῆτα ἐκποδών;
       - modern:
         - de: Gehen Sie zum Teufel!
-        grc: ἐς κόρακας!
+        grc:
+          - ἐς κόρακας!
       - modern:
         - de: Fort mit Ihnen!
-        grc: ἄπερρε!
+        grc:
+          - ἄπερρε!
       - modern:
         - de: Der Teufel soll Sie holen!
-        grc: ἀπολεῖ κάκιστα!
+        grc:
+          - ἀπολεῖ κάκιστα!
       - modern:
         - de: So gehen Sie doch zum Teufel!
-        grc: οὐκ ἐς κόρακας;
+        grc:
+          - οὐκ ἐς κόρακας;
       - modern:
-        - de: \vspace{0.5em}Sie sind verrückt, Madame!
-        grc: |-
-          \begin{tabular}{ll}
-          \rdelim\{{2}{1em}[] & \begin{greek}[variant=ancient]%
-          παραπαίεις, ὦ γύναι.\end{greek}%
-          \tabularnewline
-          & \begin{greek}[variant=ancient]%
-          ὦ γύναι, ὡς παραπαίεις! \end{greek}%
-          \tabularnewline
-          \end{tabular}
+        - de: Sie sind verrückt, Madame!
+        grc:
+          - παραπαίεις, ὦ γύναι.
+          - ὦ γύναι, ὡς παραπαίεις!
       - modern:
         - de: Sie beleidigen mich!
-        grc: οἴμοι, ὡς ὑβρίζεις!
+        grc:
+          - οἴμοι, ὡς ὑβρίζεις!
       - modern:
         - de: Pfui!
-        grc: αἰβοί!
+        grc:
+          - αἰβοί!
       - modern:
         - de: Das soll Ihnen nicht so hingehen!
-        grc: οὔτοι καταπροίξει (τοῦτο δρῶν)!
+        grc:
+          - οὔτοι καταπροίξει (τοῦτο δρῶν)!
       - modern:
         - de: Das soll Ihnen schlecht bekommen!
-        grc: οὐ χαιρήσεις.
+        grc:
+          - οὐ χαιρήσεις.
       - modern:
         - de: Das will ich Ihnen anstreichen!
-        grc: ἐγώ σε παύσω τοῦ θράσους.
+        grc:
+          - ἐγώ σε παύσω τοῦ θράσους.
       - modern:
         - de: Nun, so mäßigen Sie sich doch!
-        grc: ἀλλ᾽ ἀνάσχου!
+        grc:
+          - ἀλλ᾽ ἀνάσχου!
       - modern:
         - de: Ist es nicht arg, daß Sie das thun?
-        grc: οὐ δεινὸν δῆτά σε τοῦτο δράσαι;
+        grc:
+          - οὐ δεινὸν δῆτά σε τοῦτο δράσαι;
       - modern:
         - de: Das ist empörend!
-        grc: οὐκ ἀνασχετὸν τοῦτο!
+        grc:
+          - οὐκ ἀνασχετὸν τοῦτο!
       - modern:
         - de: Verwünscht! was soll ich thun?
-        grc: οἴμοι, τί δράσω;
+        grc:
+          - οἴμοι, τί δράσω;
       - modern:
         - de: Sehen Sie, was Sie gethan haben?
-        grc: ὁρᾷς, ἃ δέδρακας;
+        grc:
+          - ὁρᾷς, ἃ δέδρακας;
       - modern:
         - de: Sie sind schuld daran!
-        grc: |-
-          σὺ τούτων αἴτιος\footnote{\begin{latin}%
-          orig. \textgreek[variant=ancient]{αἰτιος}\end{latin}%
-          }.
+        grc:
+          - |-
+            σὺ τούτων αἴτιος\footnote{\begin{latin}%
+            orig. \textgreek[variant=ancient]{αἰτιος}\end{latin}%
+            }.
   - title:
       de: Wie ärgerlich!
     conversations:
       - modern:
         - de: Was hängst du den Kopf?
-        grc: τί κύπτεις;
+        grc:
+          - τί κύπτεις;
       - modern:
         - de: Ich schäme mich.
-        grc: αἰσχύνομαι.
+        grc:
+          - αἰσχύνομαι.
       - modern:
         - de: Die Frau hat dich in der That sehr schlecht behandelt.
-        grc: αἴσχιστά τοί σ᾽ εἰργάσατο ἡ γυνή.
+        grc:
+          - αἴσχιστά τοί σ᾽ εἰργάσατο ἡ γυνή.
       - modern:
         - de: Sie ist sehr böse auf uns.
-        grc: ὀργὴν ἡμῖν ἔχει πολλήν.
+        grc:
+          - ὀργὴν ἡμῖν ἔχει πολλήν.
       - modern:
         - de: Das ist höchst ärgerlich für uns.
-        grc: τοῦτ᾽ ἔστ᾽ ἄλγιστον ἡμῖν.
+        grc:
+          - τοῦτ᾽ ἔστ᾽ ἄλγιστον ἡμῖν.
       - modern:
         - de: Ich ärgere mich immer wieder, daß ich das gethan habe.
-        grc: πόλλ᾽ ἄχθομαι, ὅτι ἔδρασα τοῦτο.
+        grc:
+          - πόλλ᾽ ἄχθομαι, ὅτι ἔδρασα τοῦτο.
       - modern:
         - de: Das hatte ich nicht erwartet.
-        grc: τουτὶ μὰ Δί᾽ οὐδέποτ᾽ ἤλπισα.
+        grc:
+          - τουτὶ μὰ Δί᾽ οὐδέποτ᾽ ἤλπισα.
       - modern:
         - de: Knirsche nicht mit den Zähnen!
-        grc: μὴ πρῖε τοὺς ὀδόντας!
+        grc:
+          - μὴ πρῖε τοὺς ὀδόντας!
       - modern:
         - de: Das läßt sich nicht ändern.
-        grc: ταῦτα μὲν δὴ ταῦτα.
+        grc:
+          - ταῦτα μὲν δὴ ταῦτα.
       - modern:
         - de: Sei nicht rachsüchtig!
-        grc: μὴ μνησικακήσῃς.
+        grc:
+          - μὴ μνησικακήσῃς.
       - modern:
         - de: Es ist am besten, wir bleiben ruhig.
-        grc: ἡσυχίαν ἄγειν βέλτιστόν ἐστιν.
+        grc:
+          - ἡσυχίαν ἄγειν βέλτιστόν ἐστιν.
       - modern:
         - de: Das war ein Fehler von uns.
-        grc: ἡμάρτομεν ταῦτα.
+        grc:
+          - ἡμάρτομεν ταῦτα.
       - modern:
         - de: Sei nicht böse, mein Lieber!
-        grc: μὴ ἀγανάκτει, ὦ ᾽γαθέ.
+        grc:
+          - μὴ ἀγανάκτει, ὦ ᾽γαθέ.
       - modern:
         - de: Aber ich kann unmöglich schweigen.
-        grc: ἀλλ᾽ \emph{οὐκ ἔσθ᾽ ὅπως} σιγήσομαι.
+        grc:
+          - ἀλλ᾽ \emph{οὐκ ἔσθ᾽ ὅπως} σιγήσομαι.
       - modern:
         - de: Daran bist du ganz allein schuld.
-        grc: αἴτιος μέντοι σὺ τούτων εἶ μόνος.
+        grc:
+          - αἴτιος μέντοι σὺ τούτων εἶ μόνος.
       - modern:
         - de: Es war \emph{nicht richtig, daß} du das thatest.
-        grc: οὐκ ὀρθῶς τοῦτ᾽ ἔδρασας!
+        grc:
+          - οὐκ ὀρθῶς τοῦτ᾽ ἔδρασας!
       - modern:
         - de: Was geht das \emph{dich} an?
-        grc: τί δὲ σοὶ τοῦτο;
+        grc:
+          - τί δὲ σοὶ τοῦτο;
       - modern:
         - de: Was fiel dir denn ein, daß du das thatest?
-        grc: τί δὴ \emph{μαθὼν} τοῦτ᾽ ἐποίησας;
+        grc:
+          - τί δὴ \emph{μαθὼν} τοῦτ᾽ ἐποίησας;
       - modern:
         - de: O über die Thorheit!
-        grc: τῆς μωρίας!
+        grc:
+          - τῆς μωρίας!
       - modern:
         - de: Wie \emph{unrecht} du gehandelt hast!
-        grc: ὡς οὐκ ὀρθῶς τοῦτ᾽ ἔδρασας!
+        grc:
+          - ὡς οὐκ ὀρθῶς τοῦτ᾽ ἔδρασας!
       - modern:
         - de: Das war Unrecht von dir.
-        grc: τοῦτ᾽ οὐκ ὀρθῶς ἐποίησας.
+        grc:
+          - τοῦτ᾽ οὐκ ὀρθῶς ἐποίησας.
       - modern:
         - de: \emph{Das ist es, was} du mir zum Vorwurf machst?
-        grc: ταῦτ᾽ ἐπικαλεῖς;
+        grc:
+          - ταῦτ᾽ ἐπικαλεῖς;
       - modern:
         - de: Aber es ging nicht anders.
-        grc: ἀλλ᾽ οὐκ ἦν παρὰ ταῦτ᾽ ἄλλα.
+        grc:
+          - ἀλλ᾽ οὐκ ἦν παρὰ ταῦτ᾽ ἄλλα.
       - modern:
         - de: Gieb mir keine guten Lehren, sondern —
-        grc: μὴ νουθέτει με, ἀλλὰ —
+        grc:
+          - μὴ νουθέτει με, ἀλλὰ —
       - modern:
         - de: Über dich kann man sich krank ärgern.
-        grc: ἀπολεῖς με!
+        grc:
+          - ἀπολεῖς με!
       - modern:
         - de: "Aber soviel sage ich dir:"
-        grc: ἓν δέ σοι λέγω·
+        grc:
+          - ἓν δέ σοι λέγω·
       - modern:
         - de: Mir \emph{thut} das Fräulein \emph{leid.}
-        grc: περὶ τῆς κόρης ἀνιῶμαι.
+        grc:
+          - περὶ τῆς κόρης ἀνιῶμαι.
   - title:
       de: Keine schlechten Witze!
     conversations:
       - modern:
         - de: Wie komisch sich das aus\textcompwordmark{}nahm!
-        grc: ὡς καταγέλαστον ἐφάνη τὸ πρᾶγμα!
+        grc:
+          - ὡς καταγέλαστον ἐφάνη τὸ πρᾶγμα!
       - modern:
         - de: Das ist ein Hauptwitz!
-        grc: τοῦτο πάνυ γελοῖον!
+        grc:
+          - τοῦτο πάνυ γελοῖον!
       - modern:
         - de: Das geht auf mich!
-        grc: πρὸς \emph{ἐμὲ} ταῦτ᾽ ἐστίν.
+        grc:
+          - πρὸς \emph{ἐμὲ} ταῦτ᾽ ἐστίν.
       - modern:
         - de: Er macht schlechte Witze.
-        grc: σκώπτει.
+        grc:
+          - σκώπτει.
       - modern:
         - de: "Mach' keine schlechten Witze!"
-        grc: μὴ σκῶπτε!
+        grc:
+          - μὴ σκῶπτε!
       - modern:
         - de: "Mach' keine schlechten Witze \\emph{über mich!}"
-        grc: μὴ σκῶπτέ με!
+        grc:
+          - μὴ σκῶπτέ με!
       - modern:
         - de: |-
             Du machst doch nicht etwa des\textcompwordmark{}wegen schlechte Witze
             über mich?
-        grc: μῶν με σκώπτεις ὁρῶν τοῦτο;
+        grc:
+          - μῶν με σκώπτεις ὁρῶν τοῦτο;
       - modern:
         - de: Laß dich doch nicht aus\textcompwordmark{}lachen!
-        grc: καταγέλαστος εἶ.
+        grc:
+          - καταγέλαστος εἶ.
       - modern:
         - de: Wir lachen nicht über dich.
-        grc: οὐ σοῦ καταγελῶμεν.
+        grc:
+          - οὐ σοῦ καταγελῶμεν.
       - modern:
         - de: Nun, worüber denn?
-        grc: ἀλλὰ τοῦ;
+        grc:
+          - ἀλλὰ τοῦ;
       - modern:
         - de: Worüber lachst du?
-        grc: ἐπὶ τῷ γελᾶς;
+        grc:
+          - ἐπὶ τῷ γελᾶς;
       - modern:
         - de: "Hör' auf! — Schweig'!"
-        grc: παῦε! — σιώπα!
+        grc:
+          - παῦε! — σιώπα!
       - modern:
         - de: Sei so gut und rede nicht mehr mit mir!
-        grc: \emph{βούλει} μὴ προσαγορεύειν ἐμέ;
+        grc:
+          - \emph{βούλει} μὴ προσαγορεύειν ἐμέ;
   - title:
       de: Ende gut, Alles gut!
     conversations:
       - modern:
         - de: Vielleicht kann es noch gut werden!
-        grc: ἴσως ἂν εὖ γένοιτο.
+        grc:
+          - ἴσως ἂν εὖ γένοιτο.
       - modern:
-        - de: \vspace{0.5em}So Gott will.
-        grc: |-
-          \begin{tabular}{ll}
-          \rdelim\{{2}{1em}[] & \begin{greek}[variant=ancient]%
-          σὺν θεῷ δ᾽ εἰρήσεται.\end{greek}%
-          \tabularnewline
-          & \begin{greek}[variant=ancient]%
-          ἢν θεοὶ θέλωσιν.\end{greek}%
-          \tabularnewline
-          \end{tabular}
+        - de: So Gott will.
+        grc:
+          - σὺν θεῷ δ᾽ εἰρήσεται.
+          - ἢν θεοὶ θέλωσιν.
       - modern:
         - de: Wer bürgt dir dafür?
-        grc: καὶ τίς ἐγγυητής ἐστι τούτου;
+        grc:
+          - καὶ τίς ἐγγυητής ἐστι τούτου;
       - modern:
         - de: Wenn es uns gelingt, so will ich Gott innig denken.
-        grc: ἢν \emph{κατορθώσωμεν, ἐπαινέσομαι} τὸν θεὸν πάνυ σφόδρα.
+        grc:
+          - ἢν \emph{κατορθώσωμεν, ἐπαινέσομαι} τὸν θεὸν πάνυ σφόδρα.
       - modern:
         - de: Wie es sich gehört.
-        grc: ὥσπερ εἰκός ἐστιν.
+        grc:
+          - ὥσπερ εἰκός ἐστιν.
       - modern: # ToDo why colon?
         - de: In Gottes Namen!
-        grc: "τυχαγαθῇ:"
+        grc:
+          - "τυχαγαθῇ:"
       - modern:
         - de: Wenn es uns aber mißlingt?
-        grc: ἢν δὲ \emph{σφαλῶμεν;}
+        grc:
+          - ἢν δὲ \emph{σφαλῶμεν;}
       - modern:
         - de: Hurrah! (Freudenruf.)
-        grc: ἀλαλαί!
+        grc:
+          - ἀλαλαί!
       - modern:
         - de: Was du für \emph{Glück hast!}
-        grc: ὡς εὐτυχὴς εἶ!
+        grc:
+          - ὡς εὐτυχὴς εἶ!
       - modern:
         - de: Er hat großes Glück.
-        grc: εὐτυχέστατα πέπραγεν.
+        grc:
+          - εὐτυχέστατα πέπραγεν.
       - modern:
         - de: Inwiefern?
-        grc: τίνι τρόπῳ;
+        grc:
+          - τίνι τρόπῳ;
       - modern:
         - de: Er hat ein ganz junges Mädchen geheirathet.
-        grc: παῖδα κόρην γεγάμηκεν.
+        grc:
+          - παῖδα κόρην γεγάμηκεν.
       - modern:
         - de: Er ist ein reicher Mann geworden.
-        grc: πλούσιος γεγένηται.
+        grc:
+          - πλούσιος γεγένηται.
       - modern:
         - de: Er kann das Leben genießen.
-        grc: ἔχει τῆς ἥβης ἀπολαῦσαι.
+        grc:
+          - ἔχει τῆς ἥβης ἀπολαῦσαι.
       - modern:
         - de: "Wenn's weiter nichts ist!"
-        grc: εἶτα τί τοῦτο;
+        grc:
+          - εἶτα τί τοῦτο;
       - modern:
         - de: Seine Freunde vermissen ihn schmerzlich.
-        grc: ποθεινός ἐστι τοῖς φίλοις.
+        grc:
+          - ποθεινός ἐστι τοῖς φίλοις.
       - modern:
         - de: Er ist ein Freund von mir.
-        grc: ἐστὶ \emph{τῶν} φίλων.
+        grc:
+          - ἐστὶ \emph{τῶν} φίλων.

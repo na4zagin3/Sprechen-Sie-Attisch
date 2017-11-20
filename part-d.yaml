@@ -6,391 +6,510 @@ sections:
     conversations:
       - modern:
         - de: Sie tanzt gut; \emph{nicht wahr?}
-        grc: καλῶς ὀρχεῖται· ἦ γάρ;
+        grc:
+          - καλῶς ὀρχεῖται· ἦ γάρ;
       - modern:
         - de: Allerdings.
-        grc: μάλιστα.
+        grc:
+          - μάλιστα.
       - modern:
         - de: Ich bin ent\textcompwordmark{}zückt.
-        grc: κεκήλημαι ἔγωγε.
+        grc:
+          - κεκήλημαι ἔγωγε.
       - modern:
         - de: Ich werde Polka mit ihr tanzen (Schottisch, Walzer, Française).
-        grc: |-
-          ὀρχήσομαι μετ' αὐτῆς τὸ Πολωνικόν (τὸ Καληδονικόν, τὸ Γερμανικόν,
-          τὸ Γαλλικόν).
+        grc:
+          - |-
+            ὀρχήσομαι μετ' αὐτῆς τὸ Πολωνικόν (τὸ Καληδονικόν, τὸ Γερμανικόν,
+            τὸ Γαλλικόν).
       - modern:
         - de: Erlauben Sie mir diesen Tanz, gnädige Frau? (— Fräulein?)
-        grc: δὸς ὀρχεῖσθαι τοῦτο μετὰ σοῦ, ὦ γύναι! (--- ὦ κόρη!)
+        grc:
+          - δὸς ὀρχεῖσθαι τοῦτο μετὰ σοῦ, ὦ γύναι! (--- ὦ κόρη!)
       - modern:
         - de: Recht gern!
-        grc: \emph{φθόνος οὐδείς.}
+        grc:
+          - \emph{φθόνος οὐδείς.}
       - modern:
         - de: Bitte, hören Sie auf, ich kann nicht mehr.
-        grc: "παῦε δῆτ' ὀρχούμενος, !"
+        grc:
+          - "παῦε δῆτ' ὀρχούμενος, !"
       - modern:
         - de: Ich bin müde.
-        grc: κέκμηκα.
+        grc:
+          - κέκμηκα.
       - modern:
         - de: Nur dies \emph{eine} Mal erlauben Sie mir noch!
-        grc: "ἓν μὲν οὖν τουτί μ' ἔασον ὀρχήσασθαι."
+        grc:
+          - "ἓν μὲν οὖν τουτί μ' ἔασον ὀρχήσασθαι."
       - modern:
         - de: Nun denn noch dies \emph{eine} Mal und nicht weiter!
-        grc: "τοῖτό νυν καὶ μηκέτ' ἄλλο μηδέν."
+        grc:
+          - "τοῖτό νυν καὶ μηκέτ' ἄλλο μηδέν."
       - modern:
         - de: Das ist eine Lust, mit Ihnen zu tanzen!
-        grc: ὡς ἡδὺ μετὰ σοῦ ὀρχεῖσθαι!
+        grc:
+          - ὡς ἡδὺ μετὰ σοῦ ὀρχεῖσθαι!
       - modern:
         - de: Wer ist eigentlich der Herr dort, der hierher sieht? der an der Thür steht?
-        grc: "τίς ποθ' ὅδεὁ δεῦρο βλέπων; \\emph{ὁ ἐπὶ} ταῖς θύραις;"
+        grc:
+          - "τίς ποθ' ὅδεὁ δεῦρο βλέπων; \\emph{ὁ ἐπὶ} ταῖς θύραις;"
       - modern:
         - de: Es ist mein Mann.
-        grc: ἐστὶν οὑμὸς ἀνήρ.
+        grc:
+          - ἐστὶν οὑμὸς ἀνήρ.
       - modern:
         - de: Warum macht er ein so verdrießliches Gesicht?
-        grc: τί σκυθρωπάζει;
+        grc:
+          - τί σκυθρωπάζει;
       - modern:
         - de: Er ist sehr eifersüchtig.
-        grc: σφόδρα ζηλότυπός ἐστιν.
+        grc:
+          - σφόδρα ζηλότυπός ἐστιν.
       - modern:
         - de: Wir wollen gar nicht thun, als sähen wir ihn.
-        grc: μὴ ὁρᾶν δοκῶμεν αὐτόν.
+        grc:
+          - μὴ ὁρᾶν δοκῶμεν αὐτόν.
       - modern:
         - de: Ich werde mich hüten!
-        grc: |-
-          φυλάξομαι\footnote{\begin{latin}%
-          orig. \textgreek[variant=ancient]{φυλάξομαί}\end{latin}%
-          }!
+        grc:
+          - |-
+            φυλάξομαι\footnote{\begin{latin}%
+            orig. \textgreek[variant=ancient]{φυλάξομαί}\end{latin}%
+            }!
       - modern:
         - de: Den Männern ist ja nicht zu trauen!
-        grc: οὐδὲν γὰρ πιστὸν τοῖς ἀνδράσιν.
+        grc:
+          - οὐδὲν γὰρ πιστὸν τοῖς ἀνδράσιν.
       - modern:
         - de: Sie ist erst 3 Monate verheirathet.
-        grc: νύμφη ἐστὶ τρεῖς μῆνας.
+        grc:
+          - νύμφη ἐστὶ τρεῖς μῆνας.
       - modern:
         - de: Der Tanzlehrer.
-        grc: ὁ ὀρχηστοδιδάσκαλος.
+        grc:
+          - ὁ ὀρχηστοδιδάσκαλος.
       - modern:
         - de: In die Tanzstunde.
-        grc: εἰς τὸ ὀρχηστοδιδασκαλεῖον.
+        grc:
+          - εἰς τὸ ὀρχηστοδιδασκαλεῖον.
   - title:
       de: Eine Geschichte
     conversations:
       - modern:
         - de: Hören Sie einmal zu, gnädige Frau, ich will Ihnen eine hübsche Geschichte erzählen.
-        grc: ἄκουσον, ὦ γύναι, λόγον σοι βούλομαι λέξαι χαρίεντα.
+        grc:
+          - ἄκουσον, ὦ γύναι, λόγον σοι βούλομαι λέξαι χαρίεντα.
       - modern:
         - de: Nur zu, erzählen Sie!
-        grc: |-
-          ἴθι\footnote{\begin{german}[spelling=old,babelshorthands=true]%
-          orig. \textgreek[variant=ancient]{ιθι}\end{german}%
-          } δὴ, λέξον.
+        grc:
+          - |-
+            ἴθι\footnote{\begin{german}[spelling=old,babelshorthands=true]%
+            orig. \textgreek[variant=ancient]{ιθι}\end{german}%
+            } δὴ, λέξον.
       - modern:
         - de: Ist das wahr?
-        grc: τί λέγεις;
+        grc:
+          - τί λέγεις;
       - modern:
         - de: Sie wundern sich?
-        grc: ἐθαύ\textit{μασας;}
+        grc:
+          - ἐθαύ\textit{μασας;}
       - modern:
         - de: Sie erzählen mir (erfundene) Geschichten!
-        grc: μύθους μοι λέγεις!
+        grc:
+          - μύθους μοι λέγεις!
       - modern:
         - de: Die Wahrheit wollen Sie doch nicht sagen!
-        grc: τἀληθὲς γὰρ οὐκ ἐθέλεις φράσαι.
+        grc:
+          - τἀληθὲς γὰρ οὐκ ἐθέλεις φράσαι.
       - modern:
         - de: Wenn Sie wirklich die Wahrheit sprechen, so weiß ich nicht was ich sagen soll.
-        grc: |-
-          εἴπερ ὄντως σὺ\footnote{\begin{german}[spelling=old,babelshorthands=true]%
-          orig. \textgreek[variant=ancient]{συ}\end{german}%
-          } ταῦτ' ἀληθῆ λέγεις, οὐδὲν ἔχω εἰπεῖν.
+        grc:
+          - |-
+            εἴπερ ὄντως σὺ\footnote{\begin{german}[spelling=old,babelshorthands=true]%
+            orig. \textgreek[variant=ancient]{συ}\end{german}%
+            } ταῦτ' ἀληθῆ λέγεις, οὐδὲν ἔχω εἰπεῖν.
       - modern:
         - de: Nach dem, was Sie sagen, muß man sie bewundern.
-        grc: κατὰ τὸν λόγον, ὃν σὺ λέγεις, ἀξία ἐστὶ θαυμάσαι.
+        grc:
+          - κατὰ τὸν λόγον, ὃν σὺ λέγεις, ἀξία ἐστὶ θαυμάσαι.
       - modern:
         - de: Reden Sie mit ihr \emph{von} der Sache!
-        grc: "λέγ' αὐτῇ τὸ πρᾶγμα."
+        grc:
+          - "λέγ' αὐτῇ τὸ πρᾶγμα."
       - modern:
         - de: Sagen = angeben.
-        grc: φράζειν.
+        grc:
+          - φράζειν.
       - modern:
         - de: Was hat sie darauf erwidert?
-        grc: τί πρὸς ταῦτα εἶπεν;
+        grc:
+          - τί πρὸς ταῦτα εἶπεν;
       - modern:
         - de: Sie macht Aus\textcompwordmark{}flüchte.
-        grc: προφασίζεσται.
+        grc:
+          - προφασίζεσται.
       - modern:
         - de: Ich will euch ein Märchen erzählen nämlich —
-        grc: |-
-          μῦθον ὑμῖν βούλομαι λέξαι οὕτως\footnote{\begin{german}[spelling=old,babelshorthands=true]%
-          orig. \textgreek[variant=ancient]{ουτως}\end{german}%
-          }.
+        grc:
+          - |-
+            μῦθον ὑμῖν βούλομαι λέξαι οὕτως\footnote{\begin{german}[spelling=old,babelshorthands=true]%
+            orig. \textgreek[variant=ancient]{ουτως}\end{german}%
+            }.
   - title:
       de: Ich weiß nicht
     conversations:
       - modern:
         - de: Ich weiß es nicht.
-        grc: οὐκ οἶδα.
+        grc:
+          - οὐκ οἶδα.
       - modern:
         - de: Ich kann es nicht sagen.
-        grc: οὐκ ἔχω φράσαι.
+        grc:
+          - οὐκ ἔχω φράσαι.
       - modern:
         - de: Worauf soll man rathen?
-        grc: ποῖ τις ἂν τράποιτο;
+        grc:
+          - ποῖ τις ἂν τράποιτο;
       - modern:
         - de: Ich will es schon heraus\textcompwordmark{}bekommen.
-        grc: γνώσομαι ἔγωγε.
+        grc:
+          - γνώσομαι ἔγωγε.
       - modern:
         - de: Ich weiß es nicht genau.
-        grc: "οὐκ οἶδ' ἀκριβῶς."
+        grc:
+          - "οὐκ οἶδ' ἀκριβῶς."
       - modern:
         - de: Nein, soviel ich weiß.
-        grc: "οὐχ, ὅσον γέ μ' εἰδέναι."
+        grc:
+          - "οὐχ, ὅσον γέ μ' εἰδέναι."
       - modern:
         - de: Ich weiß nicht sicher, wie es steht.
-        grc: "οὐ σάφ' οἶδα, ὅπως ἔχει."
+        grc:
+          - "οὐ σάφ' οἶδα, ὅπως ἔχει."
       - modern:
         - de: Ich kann es nicht glauben.
-        grc: οὐ πείθομαι.
+        grc:
+          - οὐ πείθομαι.
       - modern:
         - de: Ich weiß es ja.
-        grc: οἶδά τοι.
+        grc:
+          - οἶδά τοι.
       - modern:
         - de: Ist mir bekannt!
-        grc: μεμνήμεθα!
+        grc:
+          - μεμνήμεθα!
       - modern:
         - de: Freilich weiß ich es!
-        grc: οἶδα μέντοι!
+        grc:
+          - οἶδα μέντοι!
       - modern:
         - de: Da Sie es denn zu wissen verlangen, so will ich es sagen.
-        grc: εἰ δὴ ἐπιθυμεῖς εἰδέναι, φράσω.
+        grc:
+          - εἰ δὴ ἐπιθυμεῖς εἰδέναι, φράσω.
       - modern:
         - de: "Wär's möglich?"
-        grc: τί φής!
+        grc:
+          - τί φής!
       - modern:
         - de: Ich habe es aus bester Quelle.
-        grc: "πέπυσμαι τοῦτο τῶν σάφ' εἰδότων."
+        grc:
+          - "πέπυσμαι τοῦτο τῶν σάφ' εἰδότων."
       - modern:
         - de: Haben Sie bereits etwas von der Sache gehört?
-        grc: "ἆρ' ἀκήκοάς τι τοῦ πράγματος;"
+        grc:
+          - "ἆρ' ἀκήκοάς τι τοῦ πράγματος;"
       - modern:
         - de: Das mußte ich (bis\textcompwordmark{}her noch) nicht.
-        grc: "τοῦτ' οὐκ ᾔδειν ἐγώ."
+        grc:
+          - "τοῦτ' οὐκ ᾔδειν ἐγώ."
       - modern:
         - de: \emph{O, dann begreife ich, daß} Sie verstimmt sind.
-        grc: \emph{οὐκ ἐτὸς ἄρα} λυπεῖ.
+        grc:
+          - \emph{οὐκ ἐτὸς ἄρα} λυπεῖ.
   - title:
       de: Die Schöne und die Häßliche
     conversations:
       - modern:
         - de: Sehen Sie die hier an, wie \emph{schön} sie ist!
-        grc: ὅρα ταυτηνὶ, ὡς καλή!
+        grc:
+          - ὅρα ταυτηνὶ, ὡς καλή!
       - modern:
         - de: Wer ist wohl dort die Dame?
-        grc: "τίς ποθ' αὑτηί;"
+        grc:
+          - "τίς ποθ' αὑτηί;"
       - modern:
         - de: Die in dem grauen Kleide?
-        grc: ἡ τὸ φαιὸν ἔνδυμα ἀμπεχομένη;
+        grc:
+          - ἡ τὸ φαιὸν ἔνδυμα ἀμπεχομένη;
       - modern:
         - de: Sie ist die schönste (= blühendste) von allen.
-        grc: πασῶν \emph{ὡραιοτάτη} ἐστίν.
+        grc:
+          - πασῶν \emph{ὡραιοτάτη} ἐστίν.
       - modern:
         - de: Wer mag sie nur sein?
-        grc: τίς καί ἐστί ποτε;
+        grc:
+          - τίς καί ἐστί ποτε;
       - modern:
         - de: Kennt sie Jemand von Ihnen?
-        grc: \emph{γιγνώσκει} τις ὑμῶν;
+        grc:
+          - \emph{γιγνώσκει} τις ὑμῶν;
       - modern:
         - de: Ja, ich.
-        grc: νὴ Δία ἔγωγε.
+        grc:
+          - νὴ Δία ἔγωγε.
       - modern:
         - de: Es ist meine Cousine.
-        grc: ἐστὶν ἀνεψιά μου.
+        grc:
+          - ἐστὶν ἀνεψιά μου.
       - modern:
         - de: Wie schön sie aus\textcompwordmark{}sieht!
-        grc: οἷον τὸ κάλλος αὐτῆς φαίνεται!
+        grc:
+          - οἷον τὸ κάλλος αὐτῆς φαίνεται!
       - modern:
         - de: Sie hat sehr gesunde Farbe.
-        grc: ὡς εὐχροεῖ!
+        grc:
+          - ὡς εὐχροεῖ!
       - modern:
         - de: Sie hat ein sanftes, schönes Auge.
-        grc: καὶ τὸ βλέμμα ἔχει μαλακὸν καὶ καλόν.
+        grc:
+          - καὶ τὸ βλέμμα ἔχει μαλακὸν καὶ καλόν.
       - modern:
         - de: Und allerliebste Hände hat sie.
-        grc: καὶ \emph{τὰς} χεῖρας παγκάλας ἔχει.
+        grc:
+          - καὶ \emph{τὰς} χεῖρας παγκάλας ἔχει.
       - modern:
         - de: Sie lacht \emph{gern.}
-        grc: καὶ ἡδέως γελᾷ.
+        grc:
+          - καὶ ἡδέως γελᾷ.
       - modern:
         - de: Ich bin in das Mädchen (die Dame) verliebt.
-        grc: ἔρως με εἴληφε τῆς κόρης ταύτης.
+        grc:
+          - ἔρως με εἴληφε τῆς κόρης ταύτης.
       - modern:
         - de: Aber sie hat wohl nichts?
-        grc: "ἀλλ' ἔχει οὐδέν;"
+        grc:
+          - "ἀλλ' ἔχει οὐδέν;"
       - modern:
         - de: O nein, sie ist reich; sie hat ein respectables Vermögen.
-        grc: πλουτεῖ \emph{μὲν οὖν·} οὐσίαν γὰρ ἔχει συχνήν.
+        grc:
+          - πλουτεῖ \emph{μὲν οὖν·} οὐσίαν γὰρ ἔχει συχνήν.
       - modern:
         - de: Weißt du, wem sie ganz ähnlich sieht? Der A.
-        grc: "οὖσθ' ᾗ μάλιστ' ἔοικεν; τῇ Ἀ."
+        grc:
+          - "οὖσθ' ᾗ μάλιστ' ἔοικεν; τῇ Ἀ."
       - modern:
         - de: Dort ist ein schönes Mädchen! (Mädel!)
-        grc: ἐνταῦθα μείραξ ὡραία ἐστίν.
+        grc:
+          - ἐνταῦθα μείραξ ὡραία ἐστίν.
       - modern:
         - de: Wer ist denn die hinter ihr?
-        grc: "τίς γάρ ἐσθ' ἡ ὄπισθεν αὐτῆς."
+        grc:
+          - "τίς γάρ ἐσθ' ἡ ὄπισθεν αὐτῆς."
       - modern:
         - de: Wer die ist? Frau Schulze.
-        grc: ἥτις ἐστίν; Σχουλζίου γυνή.
+        grc:
+          - ἥτις ἐστίν; Σχουλζίου γυνή.
       - modern:
         - de: Die Andere interessirt mich weniger.
-        grc: τῆς ἑτέρας μοι ἧττον μέλει.
+        grc:
+          - τῆς ἑτέρας μοι ἧττον μέλει.
       - modern:
         - de: Sie ist häßlich.
-        grc: αἰσχρὰ γάρ ἐστιν.
+        grc:
+          - αἰσχρὰ γάρ ἐστιν.
       - modern:
         - de: Und hat eine stumpfe (kolbige) Nase.
-        grc: καὶ σιμή (ἐστιν).
+        grc:
+          - καὶ σιμή (ἐστιν).
       - modern:
         - de: Sie ist geschminkt.
-        grc: καὶ καταπεπλασμένη (ἐστίν).
+        grc:
+          - καὶ καταπεπλασμένη (ἐστίν).
       - modern:
         - de: sie riecht nach Pomade.
-        grc: ὄζει δὲ μύρου.
+        grc:
+          - ὄζει δὲ μύρου.
       - modern:
         - de: Riechst du etwas?
-        grc: ὀσφραίνει τι;
+        grc:
+          - ὀσφραίνει τι;
       - modern:
         - de: Die Pomade riecht nicht gut.
-        grc: οὐχ ἡδὺ τὸ μύρον τουτί.
+        grc:
+          - οὐχ ἡδὺ τὸ μύρον τουτί.
   - title:
       de: Herr Schulze
     conversations:
       - modern:
         - de: Schulze heißt er? \emph{Was ist das für ein} Schulze?
-        grc: Σχούλζιος αὐτῷ ὄνομα; ποῖος οὗτος ὁ Σχούλζιος;
+        grc:
+          - Σχούλζιος αὐτῷ ὄνομα; ποῖος οὗτος ὁ Σχούλζιος;
       - modern:
         - de: Kennen Sie ihn nicht?
-        grc: οὐκ οἶσθα αὐτόν;
+        grc:
+          - οὐκ οἶσθα αὐτόν;
       - modern:
         - de: Nein, ich bin fremd hier und erst eben angekommen.
-        grc: οὐ μὰ Δία ἔγωγε, ξένος γάρ εἰμι ἀρτίως ἀφιγμένος.
+        grc:
+          - οὐ μὰ Δία ἔγωγε, ξένος γάρ εἰμι ἀρτίως ἀφιγμένος.
       - modern:
         - de: Er spielt die erste Rolle in der Stadt.
-        grc: πράττει τὰ μέγιστα ἐν τῇ πόλει.
+        grc:
+          - πράττει τὰ μέγιστα ἐν τῇ πόλει.
       - modern:
         - de: Er hat einen \emph{großen} Bart.
-        grc: ἔχει δὲ πώγωνα.
+        grc:
+          - ἔχει δὲ πώγωνα.
       - modern:
         - de: Und graues Haar?
-        grc: καὶ πολιός ἐστιν;
+        grc:
+          - καὶ πολιός ἐστιν;
       - modern:
         - de: Wovon lebt er?
-        grc: πόθεν διαζῇ;
+        grc:
+          - πόθεν διαζῇ;
       - modern:
         - de: Der Mann ist schnell reich geworben.
-        grc: ταχέως ὁ ἀνὴρ γεγένηται πλούσιος.
+        grc:
+          - ταχέως ὁ ἀνὴρ γεγένηται πλούσιος.
       - modern:
         - de: Wodurch?
-        grc: τί δρῶν;
+        grc:
+          - τί δρῶν;
       - modern:
         - de: |-
             Er hat ursprünglich ein Handwerk gelernt, dann wurde er Landwirth
             und jetzt ist er Kaufmann.
-        grc: |-
-          πρῶτον μὲν γὰρ τέχνην τιν' ἔμαθεν· εἶτα γεωργὸς ἐγένετο, νῦν δὲ ἔμπορός
-          ἐστιν.
+        grc:
+          - |-
+            πρῶτον μὲν γὰρ τέχνην τιν' ἔμαθεν· εἶτα γεωργὸς ἐγένετο, νῦν δὲ ἔμπορός
+            ἐστιν.
       - modern:
         - de: \myafterpagetrue\mysetaligntext{german}{Es ist{ }}\mysetalign{german}Fabrikant.
-        grc: ἐργαστήριον ἔχει.
+        grc:
+          - ἐργαστήριον ἔχει.
       - modern:
         - de: \bgroup\mysetalign{german}Arbeiter.\par\egroup
-        grc: ἐργάτης
+        grc:
+          - ἐργάτης
       - modern:
         - de: \bgroup\mysetalign{german}(Amts- etc.) Richter.\par\egroup
-        grc: δικαστής.
+        grc:
+          - δικαστής.
       - modern:
         - de: \bgroup\mysetalign{german}Unterbeamter.\par\egroup
-        grc: ὑπάλληλος.
+        grc:
+          - ὑπάλληλος.
       - modern:
         - de: \bgroup\mysetalign{german}Rechts\textcompwordmark{}anwalt.\par\egroup
-        grc: σύνδικος.
+        grc:
+          - σύνδικος.
       - modern:
         - de: \bgroup\mysetalign{german}Apotheker.\par\egroup
-        grc: φαρμακοπώλης.
+        grc:
+          - φαρμακοπώλης.
       - modern:
         - de: \bgroup\mysetalign{german}Banquier.\par\egroup
-        grc: τραπεζίτης.
+        grc:
+          - τραπεζίτης.
       - modern:
         - de: \bgroup\mysetalign{german}Officier.\par\egroup
-        grc: ἀξιωματικός.
+        grc:
+          - ἀξιωματικός.
       - modern:
         - de: \bgroup\mysetalign{german}Schüler.\par\egroup
-        grc: μαθητής.
+        grc:
+          - μαθητής.
       - modern:
         - de: \bgroup\mysetalign{german}Student.\par\egroup
-        grc: φοιτητής.
+        grc:
+          - φοιτητής.
       - modern:
         - de: \bgroup\mysetalign{german}Lehrer.\par\egroup
-        grc: διδάσκαλος.
+        grc:
+          - διδάσκαλος.
       - modern:
         - de: \bgroup\mysetalign{german}Professor.\par\egroup
-        grc: καθηγητής.
+        grc:
+          - καθηγητής.
       - modern:
         - de: Er ist vom Lande.
-        grc: ἐκ τῶν ἀγρῶν ἐστιν.
+        grc:
+          - ἐκ τῶν ἀγρῶν ἐστιν.
       - modern:
         - de: Er ist aus der Nachbarschaft.
-        grc: ἐκ τῶν γειτόνων ἐστίν.
+        grc:
+          - ἐκ τῶν γειτόνων ἐστίν.
       - modern:
         - de: Mir ist er langweilig.
-        grc: ἄχθομαι αὐτῷ συνὼν ἔγωγε.
+        grc:
+          - ἄχθομαι αὐτῷ συνὼν ἔγωγε.
       - modern:
         - de: Er ist nicht schlecht von Charakter.
-        grc: οὐ πονηρός ἐστι τοὺς τρόπους.
+        grc:
+          - οὐ πονηρός ἐστι τοὺς τρόπους.
       - modern:
         - de: (Seht nur) wie protzig er hereingekommen ist!
-        grc: \emph{ὡς σοβαρὸς} εἰσελήλυθεν!
+        grc:
+          - \emph{ὡς σοβαρὸς} εἰσελήλυθεν!
       - modern:
         - de: Es scheint mir nicht guter Ton zu sein, sich so zu betragen.
-        grc: οὐκ ἀστεῖόν μοι δοκεῖ εἶναι τοιτοῦτον ἑαυτὸν παρέχειν.
+        grc:
+          - οὐκ ἀστεῖόν μοι δοκεῖ εἶναι τοιτοῦτον ἑαυτὸν παρέχειν.
       - modern:
         - de: Aber N. N. ist wirklich ein Gentleman.
-        grc: ὁ δὲ Ν. Ν. νὴ Δία γεννάδας ἀνήρ!
+        grc:
+          - ὁ δὲ Ν. Ν. νὴ Δία γεννάδας ἀνήρ!
   - title:
       de: Wie alt?
     conversations:
       - modern:
         - de: Er hat nur eine einzige Tochter.
-        grc: θυγάτηρ αὐτῷ μόνη οὖσα τυγχάνει.
+        grc:
+          - θυγάτηρ αὐτῷ μόνη οὖσα τυγχάνει.
       - modern:
         - de: Wie alt ist sie?
-        grc: πηλίκη ἐστίν;
+        grc:
+          - πηλίκη ἐστίν;
       - modern:
         - de: Sie ist über ein Jahr älter als du.
-        grc: "πλεῖν ἢ 'νιαυτῷ σου πρεσβυτέρα ἐστίν."
+        grc:
+          - "πλεῖν ἢ 'νιαυτῷ σου πρεσβυτέρα ἐστίν."
       - modern:
         - de: Über 20 Jahre \emph{alt}.
-        grc: ὑπὲρ εἴκοσιν ἔτη \emph{γεγονυῖα.}
+        grc:
+          - ὑπὲρ εἴκοσιν ἔτη \emph{γεγονυῖα.}
       - modern:
         - de: Du bist ein junger Mann \emph{von} 19 Jahren.
-        grc: σὺ δὲ ἀνὴρ νέος εἶ ἐννεακαίδεκα ἐτῶν.
+        grc:
+          - σὺ δὲ ἀνὴρ νέος εἶ ἐννεακαίδεκα ἐτῶν.
       - modern:
         - de: Du mußt mit denen unter zwanzig tanzen.
-        grc: δεῖ οὖν ὀρχεῖσθαί σε μετὰ τῶν \emph{ἐντὸς} εἴκοσιν.
+        grc:
+          - δεῖ οὖν ὀρχεῖσθαί σε μετὰ τῶν \emph{ἐντὸς} εἴκοσιν.
       - modern:
         - de: Sie sitzt dort bei den älteren Damen.
-        grc: ἐνταῦτα κάθηται παρὰ ταῖς πρεσβυτέραις γυναιξίν.
+        grc:
+          - ἐνταῦτα κάθηται παρὰ ταῖς πρεσβυτέραις γυναιξίν.
       - modern:
         - de: "Wo? zeig' einmal!"
-        grc: τοῦ; δεῖξον!
+        grc:
+          - τοῦ; δεῖξον!
       - modern:
         - de: Was hat sie für Toilette?
-        grc: "ποίαν τιν' ἔχει σκευήν;"
+        grc:
+          - "ποίαν τιν' ἔχει σκευήν;"
       - modern:
         - de: Ihre Mutter ist \emph{seit} 10 Jahren todt.
-        grc: τέθνηκεν ἡ μήτηρ αὐτῆς ἔτη δέκα.
+        grc:
+          - τέθνηκεν ἡ μήτηρ αὐτῆς ἔτη δέκα.
       - modern:
         - de: Ihr Vater ist ein Sechziger.
-        grc: ἑξηκοντέτης ἐστὶν αὐτῆς ὁ πατήρ.
+        grc:
+          - ἑξηκοντέτης ἐστὶν αὐτῆς ὁ πατήρ.
       - modern:
         - de: Die Familie.
-        grc: ὁ οἶκος.
+        grc:
+          - ὁ οἶκος.

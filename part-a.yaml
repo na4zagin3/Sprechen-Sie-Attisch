@@ -9,70 +9,84 @@ sections:
       - modern:
         - de: Ah! Guten Tag!
           ja: おお、こんにちは！
-        grc: ὦ χαῖρε!
+        grc:
+          - ὦ χαῖρε!
       - modern:
         - de: Guten Morgen, Karl!
           ja: おはやう、カール\footnote{ΚάρολοςはKarlのラテン語形Carolusをギリシャ語化した形のやうである。}！
-        grc: "χαῖρ' ὦ Κάρολε!"
+        grc:
+          - "χαῖρ' ὦ Κάρολε!"
       - modern:
         - de: Guten Morgen, Gustav! (Erwiderung)
           ja: おはやう、グスタフ！（返答）
-        grc: καὶ σύγε ὦ Γούσταβε!
+        grc:
+          - καὶ σύγε ὦ Γούσταβε!
 
       - modern:
         - de: Seien Sie mir schön willkommen!
           ja: Seien Sie mir schön willkommen!
-        grc: ὦ χαῖρε, φίλτατε!
+        grc:
+          - ὦ χαῖρε, φίλτατε!
 
       - modern:
         - de: Ah! freue mich außerordentlich!
           ja: Ah! freue mich außerordentlich!
-        grc: ἀσπάζομαι!
+        grc:
+          - ἀσπάζομαι!
 
       - modern:
         - de: Freue mich außerordentlich, Herr Müller!
           ja: ようこそ、ミュラーさん。歓迎します。
-        grc: Μύλλερον ἀσπάζομαι!
+        grc:
+          - Μύλλερον ἀσπάζομαι!
 
       - modern:
         - de: Ganz auf meiner Seite!
           ja: 私もです。
-        grc: κἄγογέ σε!
+        grc:
+          - κἄγογέ σε!
 
       - modern:
         - de: Guten Tag! Guten Tag! Wie freue ich mich, daß Sie gekommen sind, Verehrtester!
           ja: 今日は、今日は、友よ。お越し下さって、嬉しく思います。
-        grc: χαῖρε, χαῖρε, ὡς ἀσμένῳ μοι ἦλθες, ὦ φίλτατε!
+        grc:
+          - χαῖρε, χαῖρε, ὡς ἀσμένῳ μοι ἦλθες, ὦ φίλτατε!
 
       - modern:
         - de: Ah! Guten Tag! Was bringen Sie?
           ja: おお、こんにちは。何を持って来たのですか。
-        grc: ὦ χαῖρε, τί φέρεις!
+        grc:
+          - ὦ χαῖρε, τί φέρεις!
 
       - modern:
         - de: Ah! Guten Tag, Perikles; was steht zu Diensten?
           ja: おお、今日は、ペリクレースよ。何を持って来たのですか。
-        grc: ὦ χαῖρε, Περίκλεις, τί ἔστιν;
+        grc:
+          - ὦ χαῖρε, Περίκλεις, τί ἔστιν;
 
       - modern:
         - de: "Giebt's was Neues?"
           ja: 何か新しいことはありませんか？
-        grc: λέγεται τί καινόν; (νεώτερον, \textgerman[spelling=old,babelshorthands=true]{Schlimmes})
+        grc:
+          - λέγεται τί καινόν; (νεώτερον, \textgerman[spelling=old,babelshorthands=true]{Schlimmes})
 
       - modern:
         - de: Guten Abend, meine Herren (meine Damen)! Meine (jungen) Damen!
           ja: 今晩は。諸君、（御夫人方）、御令嬢！
-        grc: χαίρετε, ὦ φίλοι (ὦ δέσποιναι)! ὦ κόραι!
+        grc:
+          - χαίρετε, ὦ φίλοι (ὦ δέσποιναι)! ὦ κόραι!
 
       - modern:
         - de: Paul läßt Sie grüßen.
           ja: パウロに挨拶するやう言われました。
-        grc: Παῦλος ἐπέστειλε φράσαι χαίρειν σοι.
+        grc:
+          - Παῦλος ἐπέστειλε φράσαι χαίρειν σοι.
 
       - modern:
         - de: Mein lieber Herr!
           ja: おお、友（男）よ。
-        grc: "ὦ φίλ' ἄνερ!"
+        grc:
+          - "ὦ φίλ' ἄνερ!"
   - title:
       de: "Wie geht's?"
       ja: 元気？
@@ -81,64 +95,77 @@ sections:
         - de: Wie geht es Ihnen?
         - de: Was machen Sie?
           ja: 何をされているのですか？
-        grc: "τί πράττεις;"
+        grc:
+          - "τί πράττεις;"
       - modern:
         - de: Danke, es geht mir ganz wohl.
           ja: 頗る良好です。
-        grc: "πάντ' ἀγαθὰ πράττω, ὦ φίλε."
+        grc:
+          - "πάντ' ἀγαθὰ πράττω, ὦ φίλε."
       - modern:
         - de: Ich bin besser daran, als gestern.
           ja: 昨日より良くなりました。
-        grc: ἄμεινον πράττω ἢ χθές.
+        grc:
+          - ἄμεινον πράττω ἢ χθές.
       - modern:
         - de: Wie geht es Ihrem Vater?
           ja: 父君はお元気ですか？
-        grc: τί πράττει ὁ πατήρ σου;
+        grc:
+          - τί πράττει ὁ πατήρ σου;
 
       - modern:
         - de: Es geht ihm recht gut.
           ja: よくやっております。
-        grc: εὐδαιμόνως πράττει.
+        grc:
+          - εὐδαιμόνως πράττει.
 
       - modern:
         - de: Wie steht es sonst bei euch?
           ja: 他に何かございましたか？
-        grc: "τί δ' ἄλλο παρ' ὑμῖν;"
+        grc:
+          - "τί δ' ἄλλο παρ' ὑμῖν;"
 
       - modern:
         - de: Wie befinden Sie sich?
           ja: 如何なされましたか？
-        grc: πῶς ἔχεις;
+        grc:
+          - πῶς ἔχεις;
 
       - modern:
         - de: Schlecht.
           ja: 悪うございます。
-        grc: ἔχω κακῶς.
+        grc:
+          - ἔχω κακῶς.
 
       - modern:
         - de: Ich habe keine Freude mehr am Leben.
           ja: 生まれてこの方、喜びなど一つもありはしませんでした。
-        grc: οὐδεμίαν ἔχω τῷ βίῳ χάριν.
+        grc:
+          - οὐδεμίαν ἔχω τῷ βίῳ χάριν.
 
       - modern:
         - de: Es geht mir (wirthschaftlich) nicht gut.
           ja: （経済的に）よくありません。
-        grc: κακῶς πράττω.
+        grc:
+          - κακῶς πράττω.
 
       - modern:
         - de: Es steht schlecht mit mir.
           ja: あまりよくありません。
-        grc: φαῦλόν ἐστι τὸ ἐμὸν πρᾶγμα.
+        grc:
+          - φαῦλόν ἐστι τὸ ἐμὸν πρᾶγμα.
 
       - modern:
         - de: "Wie lebt sich's in Leipzig?"
           ja: ライプツィヒでの生活はいかがですか。
-        grc: "τίς ἐσθ' ὁ ἐν Λειψίᾳ{*} βίος;"
+        grc:
+          - "τίς ἐσθ' ὁ ἐν Λειψίᾳ{*} βίος;"
 
       - modern:
         - de: Ganz hübsch.
           ja: 誠に宜しゅうございます。
-        grc: οὐκ ἄχαρις.
+        grc:
+          - οὐκ ἄχαρις.
 
   - title:
       de: Was fehlt Ihnen?
@@ -149,110 +176,131 @@ sections:
           ja: 何か悪い所はありますか？
         - de: Was ist mit Ihnen?
           ja: 何かありましたか？
-        grc: "τί πράττεις;"
+        grc:
+          - "τί πράττεις;"
 
       - modern:
         - de: Es geht mir merkwürdig.
           ja: 著しく（良い）。
-        grc: πάσχω θαυμαστόν.
+        grc:
+          - πάσχω θαυμαστόν.
 
       - modern:
         - de: Was haben Sie für Schmerzen.
           ja: 何処か痛みますか。
-        grc: τί κάμνεις.
+        grc:
+          - τί κάμνεις.
 
       - modern:
         - de: Was ist Ihnen zugestoßen?
           ja: 何があったのですか？
-        grc: τί πέπονθας.
+        grc:
+          - τί πέπονθας.
 
       - modern:
         - de: Wie ist es Ihnen ergangen?
           ja: 何があったのですか？
-        grc: τί ἔπαθες.
+        grc:
+          - τί ἔπαθες.
 
       - modern:
         - de: Warum seufzen Sie?
           ja: 何故嘆いているのか？
-        grc: τί στένεις.
+        grc:
+          - τί στένεις.
 
       - modern:
         - de: Warum sind Sie so verstimmt?
           ja: 何故苛立っているのか？
-        grc: τί δυσφορεῖς.
+        grc:
+          - τί δυσφορεῖς.
 
       - modern:
         - de: Sieh nicht so finster aus, mein Lieber!
           ja: そう陰気になるな、我が子よ！
-        grc: μὴ σκυθρώπαζε, ὦ τέκνον!
+        grc:
+          - μὴ σκυθρώπαζε, ὦ τέκνον!
 
       - modern:
         - de: Ich langweile mich hier.
           ja: ここに居るのは飽きた。
-        grc: ἄχθομαι ἐνθάδε παρών.
+        grc:
+          - ἄχθομαι ἐνθάδε παρών.
 
       - modern:
         - de: Sie scheinen mir zu frieren.
           ja: 君は凍えているやうだ。
-        grc: ῥιγῶν μοι δοκεῖς.
+        grc:
+          - ῥιγῶν μοι δοκεῖς.
 
       - modern:
         - de: Mir ist schwindlig.
           ja: 眩暈がする。
-        grc: ἰλιγγιῶ.
+        grc:
+          - ἰλιγγιῶ.
 
       - modern:
         - de: Ich habe Kopf\textcompwordmark{}schmerz.
           ja: 頭痛がする。
-        grc: |-
-          ἀλγῶ τὴν κεφαλήν\footnote{\begin{latin}%
-          orig. \textgreek[variant=ancient]{κεφαλὴν}\end{latin}%
-          }!
+        grc:
+          - |-
+            ἀλγῶ τὴν κεφαλήν\footnote{\begin{latin}%
+            orig. \textgreek[variant=ancient]{κεφαλὴν}\end{latin}%
+            }!
 
       - modern:
         - de: Sie haben jedenfalls Katzenjammer.
           ja: 確実に、君は二日酔いではないな。
-        grc: "οὐκ ἔσθ' ὅπως οὐ κραιπαλᾷς."
+        grc:
+          - "οὐκ ἔσθ' ὅπως οὐ κραιπαλᾷς."
 
       - modern:
         - de: An welcher Krankheit leben Sie?
           ja: 何の病気を患っているのか？
-        grc: τίνα νόσον νοσεῖς;
+        grc:
+          - τίνα νόσον νοσεῖς;
 
       - modern:
         - de: Sie haben doch wohl die Seekrankheit.
           ja: たぶん、君は船酔いだ。
-        grc: ναυτιᾷς δήπου.
+        grc:
+          - ναυτιᾷς δήπου.
 
       - modern:
         - de: Du bekommst den Schnupfen.
           ja: 君は（鼻）風邪を引いている。
-        grc: κόρυζά σε λαμβάνει.
+        grc:
+          - κόρυζά σε λαμβάνει.
 
       - modern:
         - de: Ich leide an den Augen.
           ja: 眼炎を患っている。
-        grc: ὀφθαλμιῶ.
+        grc:
+          - ὀφθαλμιῶ.
 
       - modern:
         - de: Bist du müde?
           ja: もう疲れた？
-        grc: ἆρα κέκμηκας;
+        grc:
+          - ἆρα κέκμηκας;
 
       - modern:
         - de: Mir thun die Beine weh von dem weiten Wege.
           ja: 長い旅路を来たので脚が痛い。
-        grc: ἀλγῶ τὰ σκέλη μακρὰν ὁδὸν διεληλυθώς.
+        grc:
+          - ἀλγῶ τὰ σκέλη μακρὰν ὁδὸν διεληλυθώς.
 
       - modern:
         - de: Du bist besser zu Fuße als ich.
           ja: 歩くことにかけては、君は僕より強い。
-        grc: κρείττων εἶ μου σὺ βαδίζειν.
+        grc:
+          - κρείττων εἶ μου σὺ βαδίζειν.
 
       - modern:
         - de: Sie wird ohnmächtig.
           ja: 彼女\footnote{唐突に現れた彼女は一体誰なんだろうか。}は気を失いつつある。
-        grc: ὡρακιᾷ.
+        grc:
+          - ὡρακιᾷ.
 
   - title:
       de: Leben Sie wohl!
@@ -261,47 +309,56 @@ sections:
       - modern:
         - de: Leben Sie wohl!
           ja: お元気で！
-        grc: ὑγίαινε!
+        grc:
+          - ὑγίαινε!
 
       - modern:
         - de: Ich will gehen, leben Sie wohl!
           ja: さて、私は行く。お元気で！
-        grc: "ἀλλ' εἶμι, σὺ δ' ὑγίαινε!"
+        grc:
+          - "ἀλλ' εἶμι, σὺ δ' ὑγίαινε!"
 
       - modern:
         - de: Leben Sie wohl (Erwiderung)!
           ja: 君も！
-        grc: καὶ σύγε!
+        grc:
+          - καὶ σύγε!
 
       - modern:
         - de: Leben Sie recht wohl!
           ja: お幸せに！
-        grc: χαῖρε πολλά!
+        grc:
+          - χαῖρε πολλά!
 
       - modern:
         - de: Geben Sie mir eine Hand!
           ja: 右手\footnote{δεξιά, ἡは右手の意であるが、歓迎や挨拶の時にはδεξιὰν διδόναι [προτείνειν, ἐμβάλλειν]するものらしい。ホメーロスでは、差し出すものはδεξιάであってχείρは使われていなかったらしい。LSJ δεξιάより。}を差し出して下さい！
-        grc: ἔμβαλέ μοι τὴν δεξιάν!
+        grc:
+          - ἔμβαλέ μοι τὴν δεξιάν!
 
       - modern:
         - de: Nun so leben Sie denn wohl und behalten Sie mich in gutem Andenken!
           ja: では、さらば。私のことを憶えておいてくれ。
-        grc: ἀλλὰ χαῖρε πολλὰ καὶ μέμνησό μου!
+        grc:
+          - ἀλλὰ χαῖρε πολλὰ καὶ μέμνησό μου!
 
       - modern:
         - de: Auf Wiedersehen!
           ja: ではまた！
-        grc: εἰς αὖθις!
+        grc:
+          - εἰς αὖθις!
 
       - modern:
         - de: Viel Vergnügen!
           ja: 楽しんで来てね！
-        grc: ἴθι χαίρων!
+        grc:
+          - ἴθι χαίρων!
 
       - modern:
         - de: Gute Nacht!
           ja: お休み！
-        grc: "ὑγίαινε!\\textgerman[spelling=old,babelshorthands=true]{ (Auch am Morgen beim Abschied).}"
+        grc:
+          - "ὑγίαινε!\\textgerman[spelling=old,babelshorthands=true]{ (Auch am Morgen beim Abschied).}"
   - title:
       de: Ich bitte
       ja: すみません！
@@ -309,1177 +366,1528 @@ sections:
       - modern:
         - de: Verzeihen Sie!
           ja: すみません！
-        grc: συγγνώμην ἔχε!
+        grc:
+          - συγγνώμην ἔχε!
 
       - modern:
         - de: Ent\textcompwordmark{}schuldigen Sie!
           ja: ごめんなさい！
-        grc: σύγγνωθί μοι.
+        grc:
+          - σύγγνωθί μοι.
 
       - modern:
         - de: Es ist meins. Geben Sie mir es, bitte!
           ja: それは私のものだ。こちらに渡してくださいませんか。
-        grc: ἐστι τὸ ἐμόν. ἀλλὰ δός μοι, ἀντιβολῶ!
+        grc:
+          - ἐστι τὸ ἐμόν. ἀλλὰ δός μοι, ἀντιβολῶ!
 
       - modern:
         - de: Ich bitte Sie, geben Sie es mir!
           ja: どうか、それを私にくださいませんか？
-        grc: δός μοι πρὸς τῶν θεῶν!
+        grc:
+          - δός μοι πρὸς τῶν θεῶν!
 
       - modern:
         - de: Ich bitte Sie inständigst.
           ja: どうか、よろしくお願いします。
-        grc: πρὸς τοῦ Διός, ἀντιβολῶ σε.
+        grc:
+          - πρὸς τοῦ Διός, ἀντιβολῶ σε.
 
       - modern:
         - de: Ich bitte um Himmels\textcompwordmark{}willen!.
           ja: 天地神明に誓って。
-        grc: πρὸς πάντων θεῶν!
+        grc:
+          - πρὸς πάντων θεῶν!
 
       - modern:
         - de: Thun Sie mir den Gefallen!
           ja: 頼み事があるのだが。
-        grc: χάρισαί μοι!
+        grc:
+          - χάρισαί μοι!
 
       - modern:
         - de: Nun, so thun Sie uns denn den Gefallen.
           ja: 我々の為に頼まれてくれないか。
-        grc: ἀλλὰ χάρισαι ἡμῖν!
+        grc:
+          - ἀλλὰ χάρισαι ἡμῖν!
 
       - modern:
         - de: Thun Sie mir einen kleinen Gefallen!
           ja: ちょっとした頼み事があるのだが。
-        grc: χάρισαι βραχύ τί μοι!
+        grc:
+          - χάρισαι βραχύ τί μοι!
 
       - modern:
         - de: Was soll ich Ihnen zu Gefallen thun?
           ja: 何をしたら良い？
-        grc: τί σοι χαρίσωμαι.
+        grc:
+          - τί σοι χαρίσωμαι.
 
       - modern:
         - de: "Sei so gut und gieb mir's."
           ja: 私にそれをくれないか？（どれくらい叮嚀なんだろ……？）
-        grc: βούλει μοι δοῦναι;
+        grc:
+          - βούλει μοι δοῦναι;
 
       - modern:
         - de: "\\emph{Den} Gefallen will ich Ihnen thun."
-        grc: χαριοῦμαί σοι τοῦτο.
+        grc:
+          - χαριοῦμαί σοι τοῦτο.
 
       - modern:
         - de: Gleich!
-        grc: ταῦτα!
+        grc:
+          - ταῦτα!
 
       - modern:
         - de: Recht gern!
-        grc: φθόνος οὐδείς!
+        grc:
+          - φθόνος οὐδείς!
 
       - modern:
         - de: Sagen Sie es doch gefälligst den Anderen!
-        grc: οὐ δῆτα γενναίως τοῖς ἄλλοις ἐρεῖς;
+        grc:
+          - οὐ δῆτα γενναίως τοῖς ἄλλοις ἐρεῖς;
 
       - modern:
         - de: "Bitte, sag' es ihm doch!"
-        grc: εἰπὲ δῆτα αὐτῷ πρὸς τῶν θεῶν!
+        grc:
+          - εἰπὲ δῆτα αὐτῷ πρὸς τῶν θεῶν!
 
       - modern:
         - de: "\\emph{Darf ich mir erlauben} Ihnen einzuschenken?"
-        grc: "\\emph{βούλει} ἐγχέω σοι πιεῖν;"
+        grc:
+          - "\\emph{βούλει} ἐγχέω σοι πιεῖν;"
   - title:
       de: Ich danke
     conversations:
       - modern:
         - de: Ich danke!
-        grc: ἐπαινῶ.
+        grc:
+          - ἐπαινῶ.
 
       - modern:
         - de: Ich danke Ihnen!
-        grc: ἐπαινῶ τὸ σόν!
+        grc:
+          - ἐπαινῶ τὸ σόν!
 
       - modern:
         - de: Ich danke Ihnen für Ihre freundliche Gesinnung.
-        grc: ἐπαινῶ τὴν σὴν πρόνοιαν.
+        grc:
+          - ἐπαινῶ τὴν σὴν πρόνοιαν.
 
       - modern:
         - de: Haben Sie vielen Dank dafür!
-        grc: "εὖ γ' ἐμοίησας!"
+        grc:
+          - "εὖ γ' ἐμοίησας!"
       - modern:
         - de: Sie sind sehr gütig.
-        grc: γενναῖος εἶ.
+        grc:
+          - γενναῖος εἶ.
       - modern:
         - de: Ich werde Ihnen nur dankbar sein, wenn Sie das thun.
-        grc: χάριν γε εἴσομαι, ἐὰν τοῦτο ποιῇς.
+        grc:
+          - χάριν γε εἴσομαι, ἐὰν τοῦτο ποιῇς.
       - modern:
         - de: Ich bin Ihnen zu Danke verpflichtet.
-        grc: κεκάρισαί μοι.
+        grc:
+          - κεκάρισαί μοι.
       - modern:
         - de: Der Himmel segne Sie tausendmal!
-        grc: "πόλλ' ἀγαθὰ γένοιό σοι!"
+        grc:
+          - "πόλλ' ἀγαθὰ γένοιό σοι!"
       - modern:
         - de: Danke schön! (auch ablehnend.)
-        grc: καλῶς!
+        grc:
+          - καλῶς!
       - modern:
         - de: Ich danke bestens! (des\textcompwordmark{}gl.)
-        grc: κάλλιστα· ἐπαινῶ.
+        grc:
+          - κάλλιστα· ἐπαινῶ.
       - modern:
         - de: Bravo! Bravo!
-        grc: εὖγε! εὖγι.
+        grc:
+          - εὖγε! εὖγι.
       - modern:
         - de: Wie herrlich!
-        grc: ὡς ἡδύ!
+        grc:
+          - ὡς ἡδύ!
       - modern:
         - de: Hurrah! (Freudenruf.)
-        grc: ἀλαλαί!
+        grc:
+          - ἀλαλαί!
       - modern:
         - de: Das macht nichts. Das ist einerlei.
-        grc: οὐδὲν διαφέρει.
+        grc:
+          - οὐδὲν διαφέρει.
       - modern:
         - de: Das kümmert mich wenig.
         - de: Daran liegt mir wenig.
-        grc: ὀλίγον μέλει μοι.
+        grc:
+          - ὀλίγον μέλει μοι.
       - modern:
         - de: Was geht das \emph{mich} an?
-        grc: "τί δ' ἐμοὶ ταῦτα;"
+        grc:
+          - "τί δ' ἐμοὶ ταῦτα;"
       - modern:
         - de: Was geht \emph{Sie} das an?.
-        grc: "τί δ' σοὶ τοῦτο;"
+        grc:
+          - "τί δ' σοὶ τοῦτο;"
       - modern:
         - de: Sie interessirt es wahrscheinlich nicht.
-        grc: "σοὶ δ' ἴσως οὐδὲν μέλει."
+        grc:
+          - "σοὶ δ' ἴσως οὐδὲν μέλει."
       - modern:
         - de: Da sieh \emph{du} zu!
-        grc: αὐτὸς σκόπει σύ!
+        grc:
+          - αὐτὸς σκόπει σύ!
       - modern:
         - de: Es ist einmal so Sitte.
-        grc: νόμος γάρ ἐστιν.
+        grc:
+          - νόμος γάρ ἐστιν.
   - title:
       de: Können Sie Griechisch?
     conversations:
       - modern:
         - de: Können Sie Griechisch?
-        grc: ἐπίστασαι ἑλληνίζειν;
+        grc:
+          - ἐπίστασαι ἑλληνίζειν;
       - modern:
         - de: Ein wenig.
-        grc: ὀλίγον τι.
+        grc:
+          - ὀλίγον τι.
       - modern:
         - de: Natürlich!
-        grc: εἰκότως γε!
+        grc:
+          - εἰκότως γε!
       - modern:
         - de: Ja freilich!
-        grc: μάλιστα!
+        grc:
+          - μάλιστα!
       - modern:
         - de: Ja gewiß!
-        grc: ἔγωγε νὴ Δία!
+        grc:
+          - ἔγωγε νὴ Δία!
       - modern:
         - de: Darin bin ich stark.
-        grc: ταύτῃ κράτιστός εἰμι.
+        grc:
+          - ταύτῃ κράτιστός εἰμι.
       - modern:
         - de: Schön!
-        grc: καλῶς!
+        grc:
+          - καλῶς!
       - modern:
         - de: Da wollen wir einmal Griechisch mit einander sprechen!
-        grc: διαλεχθῶμεν οὖν ἑλληνικῶς!
+        grc:
+          - διαλεχθῶμεν οὖν ἑλληνικῶς!
       - modern:
         - de: Meinetwegen.
-        grc: οὐδὲν κωλύει.
+        grc:
+          - οὐδὲν κωλύει.
       - modern:
         - de: Was meinen sie?
-        grc: τί λέγεις;
+        grc:
+          - τί λέγεις;
       - modern:
         - de: Verstehen Sie, was ich meine?
-        grc: ξυνίης τὰ λεγόμενα;
+        grc:
+          - ξυνίης τὰ λεγόμενα;
       - modern:
         - de: Haben Sie verstanden, was ich meine?
-        grc: ξυνῆκας, ὃ λέγω;!
+        grc:
+          - ξυνῆκας, ὃ λέγω;!
       - modern:
         - de: Nein, ich verstehe es nicht.
-        grc: οὐ ξυνίημι μὰ Δία.
+        grc:
+          - οὐ ξυνίημι μὰ Δία.
       - modern:
         - de: Wiederholen Sie es gefälligst noch einmal!
-        grc: αὖθις ἐξ ἀρχῆς λέγε, ἀντιβολῶ!
+        grc:
+          - αὖθις ἐξ ἀρχῆς λέγε, ἀντιβολῶ!
       - modern:
         - de: Seien Sie so gut und sprechen sie langsamer!
-        grc: βούλει σχολαίτερον λέγειν;
+        grc:
+          - βούλει σχολαίτερον λέγειν;
   - title:
       de: Fragen
     conversations:
       - modern:
         - de: "Was giebt's?"
-        grc: "τί δ' ἔστιν;"
+        grc:
+          - "τί δ' ἔστιν;"
       - modern:
         - de: Wie?
-        grc: τί λέγεις;
+        grc:
+          - τί λέγεις;
       - modern:
         - de: \emph{Was} denn?
-        grc: τί δή;
+        grc:
+          - τί δή;
       - modern:
         - de: Was \emph{denn}?
-        grc: τί δαί;
+        grc:
+          - τί δαί;
       - modern:
         - de: \emph{Wie} denn?
-        grc: πῶς δή;
+        grc:
+          - πῶς δή;
       - modern:
         - de: Wie \emph{denn}?
-        grc: πῶς δαί;
+        grc:
+          - πῶς δαί;
       - modern:
         - de: Warum denn?
-        grc: ὁτιὴ τί δή; τιὴ τί δή;
+        grc:
+          - ὁτιὴ τί δή; τιὴ τί δή;
       - modern:
         - de: Wes\textcompwordmark{}halb?
-        grc: τίνος ἕνεκα;
+        grc:
+          - τίνος ἕνεκα;
       - modern:
         - de: In wiefern?
-        grc: τίνι τρόπῳ;
+        grc:
+          - τίνι τρόπῳ;
       - modern:
         - de: Wieso denn?
-        grc: πῶς δή;
+        grc:
+          - πῶς δή;
       - modern:
         - de: Bitte, wo?
-        grc: ποῦ δῆτα;
+        grc:
+          - ποῦ δῆτα;
       - modern:
         - de: Wohin? Woher?
-        grc: ποῖ; πόθεν;
+        grc:
+          - ποῖ; πόθεν;
       - modern:
         - de: Wann?
-        grc: πηνίκα;
+        grc:
+          - πηνίκα;
       - modern:
         - de: Er straft ihn.
-        grc: κολάζει αὐτόν.
+        grc:
+          - κολάζει αὐτόν.
       - modern:
         - de: Wofür?
-        grc: τί δράσαντα;
+        grc:
+          - τί δράσαντα;
       - modern:
         - de: Wodurch?
-        grc: τί δρῶν;
+        grc:
+          - τί δρῶν;
       - modern:
         - de: Zu welchem Zwecke denn?
-        grc: ἵνα δὴ τί;
+        grc:
+          - ἵνα δὴ τί;
       - modern:
         - de: Um was handelt es sich?
-        grc: τί τὸ πρᾶγμα;
+        grc:
+          - τί τὸ πρᾶγμα;
       - modern:
         - de: Meinen Sie nicht auch?
-        grc: οὐ καὶ σοὶ δοκεῖ;
+        grc:
+          - οὐ καὶ σοὶ δοκεῖ;
       - modern:
         - de: "Wär's möglich?"
-        grc: "πῶς φής;"
+        grc:
+          - "πῶς φής;"
       - modern:
         - de: "Wo blieb' \\emph{ich}?"
-        grc: τί ἐγὼ δέ;
+        grc:
+          - τί ἐγὼ δέ;
       - modern:
         - de: Laß doch einmal sehen!
-        grc: "φέρ' ἴδω!"
+        grc:
+          - "φέρ' ἴδω!"
       - modern:
         - de: Nun, machen sie Fort\textcompwordmark{}schritte?
-        grc: τί δέ, ἐπιδώσεις λαμβάνεις;
+        grc:
+          - τί δέ, ἐπιδώσεις λαμβάνεις;
   - title:
       de: Wie heißen Sie?
     conversations:
       - modern:
         - de: Wie heißen Sie?
-        grc: ὄνομά σοι τί ἐστιν;
+        grc:
+          - ὄνομά σοι τί ἐστιν;
       - modern:
         - de: Wie heißen Sie mit Vor- und Zunamen?
-        grc: τίνα σοι ὀνόματα.
+        grc:
+          - τίνα σοι ὀνόματα.
       - modern:
         - de: Wie heißen Sie eigentlich?
-        grc: "τί σοί ποτ' ἔστ' ὄνομα;"
+        grc:
+          - "τί σοί ποτ' ἔστ' ὄνομα;"
       - modern:
         - de: Wer \emph{sind} Sie?
-        grc: σὺ δὲ τίς εἰ;
+        grc:
+          - σὺ δὲ τίς εἰ;
       - modern:
         - de: Wer sind \emph{Sie}?
-        grc: "τίς δ' εἶ σύ;"
+        grc:
+          - "τίς δ' εἶ σύ;"
       - modern:
         - de: Wer sind Sie eigentlich?
-        grc: "σὺ δ' εἶ τίς ἐτεόν;"
+        grc:
+          - "σὺ δ' εἶ τίς ἐτεόν;"
       - modern:
         - de: Ich heiße Müller.
-        grc: ὄνομά μοι Μύλλερος.
+        grc:
+          - ὄνομά μοι Μύλλερος.
       - modern:
         - de: Wer ist eigentlich der hier?
-        grc: "τίς ποθ' ὅδε;"
+        grc:
+          - "τίς ποθ' ὅδε;"
       - modern:
         - de: Wer muß das nur sein?
-        grc: "τίς ἄρα ποτ' ἐστίν;"
+        grc:
+          - "τίς ἄρα ποτ' ἐστίν;"
       - modern:
         - de: Und wo sind Sie her?
-        grc: καὶ ποδαπός;
+        grc:
+          - καὶ ποδαπός;
       - modern:
         - de: Wo wohnen Sie?
-        grc: ποῦ κατοικεῖς;
+        grc:
+          - ποῦ κατοικεῖς;
       - modern:
         - de: Ich wohne ganz in der Nähe.
-        grc: ἐγγύτατα οἰκῶ.
+        grc:
+          - ἐγγύτατα οἰκῶ.
       - modern:
         - de: Ich wohne weit.
-        grc: τηλοῦ οἰκῶ.
+        grc:
+          - τηλοῦ οἰκῶ.
       - modern:
         - de: Nennen Sie mich nicht bei Namen!
-        grc: μὴ κάλει μου τοὔνομα!
+        grc:
+          - μὴ κάλει μου τοὔνομα!
       - modern:
         - de: So rufen Sie mich doch nicht, ich bitte Sie!
-        grc: οὐ μὴ καλεῖς με; ἱκετεύω!
+        grc:
+          - οὐ μὴ καλεῖς με; ἱκετεύω!
   - title:
       de: Wieviel Uhr ist es?
     conversations:
       - modern:
         - de: Wie viel Uhr ist es?
-        grc: τίς ὥρα ἐστίν;
+        grc:
+          - τίς ὥρα ἐστίν;
       - modern:
         - de: Wie spät ist es am Tage?
-        grc: "πηνίκ' ἐστὶ τῆς ἡμέρας;"
+        grc:
+          - "πηνίκ' ἐστὶ τῆς ἡμέρας;"
       - modern:
         - de: Es ist um Eins.
-        grc: ἐσὶ μία ὥρα.
+        grc:
+          - ἐσὶ μία ὥρα.
       - modern:
         - de: Es ist um Zwei (Dri, Vier).
-        grc: εἰσὶ δύο (τρεῖς, τέσσαρες) ὦραι.!
+        grc:
+          - εἰσὶ δύο (τρεῖς, τέσσαρες) ὦραι.!
       - modern:
         - de: Es ist ½2 Uhr.
-        grc: ἐστὶ μία ὥρα καὶ ἡμίσεια.
+        grc:
+          - ἐστὶ μία ὥρα καὶ ἡμίσεια.
       - modern:
         - de: Um welche Zeit?
-        grc: πηνίκα;
+        grc:
+          - πηνίκα;
       - modern:
         - de: Um ein Uur.
-        grc: τῇ πρώτῃ ὥρᾳ.
+        grc:
+          - τῇ πρώτῃ ὥρᾳ.
       - modern:
         - de: Um zwei.
-        grc: τῇ δευτέρᾳ (ὥρα).
+        grc:
+          - τῇ δευτέρᾳ (ὥρα).
       - modern:
         - de: Es ist noch weiter (später).
-        grc: περαιτέρω ἐστίν.
+        grc:
+          - περαιτέρω ἐστίν.
       - modern:
         - de: Es ist ein Viertel nach Sieben.
-        grc: εἰσὶν ἑπτὰ ὦραι καὶ τέταρτον.
+        grc:
+          - εἰσὶν ἑπτὰ ὦραι καὶ τέταρτον.
       - modern:
         - de: Es ist drei Viertel auf Eins.
-        grc: εἰσὶ δώδεκα (ὦραι) καὶ τρία τέταρτα.
+        grc:
+          - εἰσὶ δώδεκα (ὦραι) καὶ τρία τέταρτα.
       - modern:
         - de: Um die dritte Stunde.
-        grc: περὶ τὴν τρίτην ὥραν.!
+        grc:
+          - περὶ τὴν τρίτην ὥραν.!
       - modern:
         - de: Gegen halb fünf.
-        grc: περὶ τὴν τετάρτην καὶ ἡμίσειαν!
+        grc:
+          - περὶ τὴν τετάρτην καὶ ἡμίσειαν!
       - modern:
         - de: Ich werde um ¾11 Uhr kommen.
-        grc: ἥξω εἰς τὴν δεκάτην καὶ τρία τέταρτα.
+        grc:
+          - ἥξω εἰς τὴν δεκάτην καὶ τρία τέταρτα.
   - title:
       de: Tages\textcompwordmark{}zeiten
     conversations:
       - modern:
         - de: Zu Mittag.
-        grc: ἐν μεσημβρίᾳ.
+        grc:
+          - ἐν μεσημβρίᾳ.
       - modern:
         - de: Vormittags.
-        grc: πρὸ μεσημβρίας.
+        grc:
+          - πρὸ μεσημβρίας.
       - modern:
         - de: Nachmittags.
-        grc: μετὰ μεσημβρίαν.
+        grc:
+          - μετὰ μεσημβρίαν.
       - modern:
         - de: Es ist hell.
-        grc: φῶς ἐστιν.
+        grc:
+          - φῶς ἐστιν.
       - modern:
         - de: Es ist (wird) dunkel.
-        grc: σκότος γίγνεται.
+        grc:
+          - σκότος γίγνεται.
       - modern:
         - de: Im Finstern.
-        grc: ἐν (τῷ) σκότῳ.
+        grc:
+          - ἐν (τῷ) σκότῳ.
       - modern:
         - de: Abends.
-        grc: \emph{τῆς ἑσπέρας.}
+        grc:
+          - \emph{τῆς ἑσπέρας.}
       - modern:
         - de: Gestern Abend.
-        grc: \emph{ἑσπέρας.}
+        grc:
+          - \emph{ἑσπέρας.}
       - modern:
         - de: Heute Abend. (künstig.)
-        grc: \emph{εἰς ἑσπέραν.}
+        grc:
+          - \emph{εἰς ἑσπέραν.}
       - modern:
         - de: Abends spät.
-        grc: νύκτωρ ὀψέ.
+        grc:
+          - νύκτωρ ὀψέ.
       - modern:
         - de: Den Tag über.
-        grc: "δι' ἡμέρας."
+        grc:
+          - "δι' ἡμέρας."
       - modern:
         - de: Die ganze Nacht hindurch.
-        grc: ὅλην τὴν νύκτα.
+        grc:
+          - ὅλην τὴν νύκτα.
       - modern:
         - de: Vom frühen Morgen an.
-        grc: ἐξ ἑωθινοῦ.
+        grc:
+          - ἐξ ἑωθινοῦ.
       - modern:
         - de: Von früh an.
-        grc: ἐξ ἕω.
+        grc:
+          - ἐξ ἕω.
       - modern:
         - de: Gleich von früh an.
-        grc: ἕωθεν εὐθύς.
+        grc:
+          - ἕωθεν εὐθύς.
       - modern:
         - de: Heute Morgens.
-        grc: ἕωθεν.
+        grc:
+          - ἕωθεν.
       - modern:
         - de: Morgen früh.
-        grc: αὔριον ἕωθεν.
+        grc:
+          - αὔριον ἕωθεν.
       - modern:
         - de: Heute.
-        grc: |-
-          τῇδε τῇ ἡμέρᾳ. --- τήμερον\footnote{\begin{latin}%
-          \textgreek[variant=ancient]{ὁ τυπογράφος ἔγραψα τὸν οὐ γεγραμμένον
-          τόνον.}\end{latin}%
-          }.
+        grc:
+          - |-
+            τῇδε τῇ ἡμέρᾳ. --- τήμερον\footnote{\begin{latin}%
+            \textgreek[variant=ancient]{ὁ τυπογράφος ἔγραψα τὸν οὐ γεγραμμένον
+            τόνον.}\end{latin}%
+            }.
       - modern:
         - de: Gestern.
-        grc: χθές. ἐχθές.
+        grc:
+          - χθές. ἐχθές.
       - modern:
         - de: Morgen.
-        grc: αὔριον.
+        grc:
+          - αὔριον.
       - modern:
         - de: Übermorgen.
-        grc: ἕνης. εἰς ἕνηςν
+        grc:
+          - ἕνης. εἰς ἕνηςν
       - modern:
         - de: Vorgestern.
-        grc: |-
-          τρίτην ἡμέραν. (\textgerman[spelling=old,babelshorthands=true]{auch}
-          νεωστί).
+        grc:
+          - |-
+            τρίτην ἡμέραν. (\textgerman[spelling=old,babelshorthands=true]{auch}
+            νεωστί).
   - title:
       de: Jetzt\textcompwordmark{}zeit. Feste
     conversations:
       - modern:
         - de: In der jetzigen Zeit.
-        grc: ἐν τῷ νῦν χρόνῳ.
+        grc:
+          - ἐν τῷ νῦν χρόνῳ.
       - modern:
         - de: Gerade wie früher.
-        grc: ὥσπερ καὶ πρὸ τοῦ.
+        grc:
+          - ὥσπερ καὶ πρὸ τοῦ.
       - modern:
         - de: Auf welchen Tag?
-        grc: |-
-          ἐς\footnote{\begin{latin}%
-          \textgreek[variant=ancient]{ὁ τυπογράφος θαυμάζω τοῦ ἑνεκα γέγραφε
-          οὐ «εἰς» ὃν Ἀττικοὶ ἔχραον, ἀλλὰ «ἐς» ὃν Ἰωνικοί.}\end{latin}%
-          } τίνα ἡμέραν.
+        grc:
+          - |-
+            ἐς\footnote{\begin{latin}%
+            \textgreek[variant=ancient]{ὁ τυπογράφος θαυμάζω τοῦ ἑνεκα γέγραφε
+            οὐ «εἰς» ὃν Ἀττικοὶ ἔχραον, ἀλλὰ «ἐς» ὃν Ἰωνικοί.}\end{latin}%
+            } τίνα ἡμέραν.
       - modern:
         - de: Für sogleich.
-        grc: ἐς αὐτίκα μάλα.
+        grc:
+          - ἐς αὐτίκα μάλα.
       - modern:
         - de: Vor Kurzem.
-        grc: τὸ ἔναγχος.
+        grc:
+          - τὸ ἔναγχος.
       - modern:
         - de: Lange genug.
-        grc: ἰκανὸν χρόνον.
+        grc:
+          - ἰκανὸν χρόνον.
       - modern:
         - de: Heute über 14 Tage.
-        grc: "μεθ' ἡμέρας \\emph{μεντεκαὶδεκα} ἀπὸ τῆς τήμερον."
+        grc:
+          - "μεθ' ἡμέρας \\emph{μεντεκαὶδεκα} ἀπὸ τῆς τήμερον."
       - modern:
         - de: Heuer.
-        grc: τῆτες.
+        grc:
+          - τῆτες.
       - modern:
         - de: "Vor'm Jahr."
-        grc: πέρυσιν.
+        grc:
+          - πέρυσιν.
       - modern:
         - de: "Über's Jahr."
-        grc: εἰς νέωτα.
+        grc:
+          - εἰς νέωτα.
       - modern:
         - de: Alle vier Jahre.
-        grc: "δι' ἔτους \\emph{πέμπτου.}"
+        grc:
+          - "δι' ἔτους \\emph{πέμπτου.}"
       - modern:
         - de: Monatlich.
-        grc: κατὰ μῆνα.
+        grc:
+          - κατὰ μῆνα.
       - modern:
         - de: Der Frühling. Der Sommer.
-        grc: τὸ ἔαρ. τὸ θέρος.
+        grc:
+          - τὸ ἔαρ. τὸ θέρος.
       - modern:
         - de: Der Herbst. Der Winter.
-        grc: τὸ φθινόπωρον. ὁ χειμών.
+        grc:
+          - τὸ φθινόπωρον. ὁ χειμών.
       - modern:
         - de: Zur Winters\textcompwordmark{}zeit.
-        grc: χειμῶνος ὄντος.
+        grc:
+          - χειμῶνος ὄντος.
       - modern:
         - de: Das Fest.
-        grc: ἡ ἑορτή.
+        grc:
+          - ἡ ἑορτή.
       - modern:
         - de: Weihnachten.
-        grc: τὰ Χριστούγεννα.{*}
+        grc:
+          - τὰ Χριστούγεννα.{*}
       - modern:
         - de: Neujahr.
-        grc: ἡ πρώτη τοῦ ἔτους.
+        grc:
+          - ἡ πρώτη τοῦ ἔτους.
       - modern:
         - de: Fastnacht.
-        grc: αἱ ἀπόκρεω.{*}
+        grc:
+          - αἱ ἀπόκρεω.{*}
       - modern:
         - de: Charfreitag.
-        grc: ἡ μεγάλη παρασκευή.{*}
+        grc:
+          - ἡ μεγάλη παρασκευή.{*}
       - modern:
         - de: Ostern.
-        grc: τὸ πάσχα.{*}
+        grc:
+          - τὸ πάσχα.{*}
       - modern:
         - de: Pfingsten.
-        grc: ἡ πεντηκοστή.
+        grc:
+          - ἡ πεντηκοστή.
       - modern:
         - de: Geburts\textcompwordmark{}tag.
-        grc: τὸ γενέθλια.
+        grc:
+          - τὸ γενέθλια.
       - modern:
         - de: Jahres\textcompwordmark{}tag (Stiftungs\textcompwordmark{}fest)..
-        grc: ἡ ἐπέτειος ἑορτή.
+        grc:
+          - ἡ ἐπέτειος ἑορτή.
         ruleAfter: true
       - modern:
         - de: "Die Monate:"
-        grc: |-
-          οἱ μῆνες: Ἰανουάριος. Φεβρουάριος. Μάρτιος. Ἀπρίλιος. Μάϊος. Ἰούνιος.
-          Ἰούλιος. Αὔγουστος. Σεπτέμβριος. Ὀκτώβριος. Νοεμβριος. Δεκέμβριος.
+        grc:
+          - |-
+            οἱ μῆνες: Ἰανουάριος. Φεβρουάριος. Μάρτιος. Ἀπρίλιος. Μάϊος. Ἰούνιος.
+            Ἰούλιος. Αὔγουστος. Σεπτέμβριος. Ὀκτώβριος. Νοεμβριος. Δεκέμβριος.
   - title:
       de: Das Wetter
     conversations:
       - modern:
         - de: Was haben wir für Wetter?
-        grc: ποῖος ὁ \emph{ἀὴρ} τό νῦν;
+        grc:
+          - ποῖος ὁ \emph{ἀὴρ} τό νῦν;
       - modern:
         - de: Das Wetter ist schön.
-        grc: εὐδία ἐστίν.
+        grc:
+          - εὐδία ἐστίν.
       - modern:
         - de: Es ist herrliches Wetter.
-        grc: εὐδία ἐστὶν ἡδίστη.
+        grc:
+          - εὐδία ἐστὶν ἡδίστη.
       - modern:
         - de: Die Sonne scheint.
-        grc: ἐξέχει εἵλη ἔχομεν ἥλιον. φαίνεται ὁ ἥλιος. ἥλιος λάμπει.
+        grc:
+          - ἐξέχει εἵλη ἔχομεν ἥλιον. φαίνεται ὁ ἥλιος. ἥλιος λάμπει.
       - modern:
         - de: Es ist warm.
-        grc: θάλμος ἐστίν.
+        grc:
+          - θάλμος ἐστίν.
       - modern:
         - de: Es ist windig. (Der Wind geht.)
-        grc: ἄνεμος γίγνεται.
+        grc:
+          - ἄνεμος γίγνεται.
       - modern:
         - de: Es weht ein starker Wind.
-        grc: ἄνεμος πνεῖ \emph{μέγας.}
+        grc:
+          - ἄνεμος πνεῖ \emph{μέγας.}
       - modern:
         - de: Wir haben Nord-, Süd-, Ost-, Westwind.
-        grc: |-
-          ἄνεμος γίγνεται βόρειος, νότιος\footnote{\begin{latin}%
-          \textgreek[variant=ancient]{ὁ τυπογράφος ἔγραψα τὸν οὐ γεγραμμένον
-          τόνον.}\end{latin}%
-          }, ἀνατολικός, δυτικός.!
+        grc:
+          - |-
+            ἄνεμος γίγνεται βόρειος, νότιος\footnote{\begin{latin}%
+            \textgreek[variant=ancient]{ὁ τυπογράφος ἔγραψα τὸν οὐ γεγραμμένον
+            τόνον.}\end{latin}%
+            }, ἀνατολικός, δυτικός.!
       - modern:
         - de: Es umwölkt sich.
-        grc: ξυννεφεῖ.
+        grc:
+          - ξυννεφεῖ.
       - modern:
         - de: Es sprüht.
-        grc: ψακάζει.
+        grc:
+          - ψακάζει.
       - modern:
         - de: Es regnet.
-        grc: ὕει.
+        grc:
+          - ὕει.
       - modern:
         - de: Es gießt sehr.
-        grc: ὄμβρος πολὺς γίγνεται.
+        grc:
+          - ὄμβρος πολὺς γίγνεται.
       - modern:
         - de: Es donnert.
-        grc: βροντᾷ.
+        grc:
+          - βροντᾷ.
       - modern:
         - de: Wir haben ein Gewitter.
-        grc: βρονταὶ γίγνονται καὶ κεραυνοί.
+        grc:
+          - βρονταὶ γίγνονται καὶ κεραυνοί.
       - modern:
         - de: Es blitzt stark.
-        grc: ἀστράπτει πολὺ νὴ Δία.
+        grc:
+          - ἀστράπτει πολὺ νὴ Δία.
       - modern:
         - de: Es hat eingeschlagen.
-        grc: ἔπεσε σκηπτός. ἔπεσε κεραυνός.
+        grc:
+          - ἔπεσε σκηπτός. ἔπεσε κεραυνός.
       - modern:
         - de: Es ist kalt. (sehr kalt.)
-        grc: ψῦχός ἐστιν. (ψ. ἐστι μέγεστον.)
+        grc:
+          - ψῦχός ἐστιν. (ψ. ἐστι μέγεστον.)
       - modern:
         - de: Es schneit! hu!
-        grc: νίφει· βαβαιάξ!
+        grc:
+          - νίφει· βαβαιάξ!
       - modern:
         - de: Es schneit sehr.
-        grc: χιών γίγνεται πολλή.
+        grc:
+          - χιών γίγνεται πολλή.
       - modern:
         - de: Es friet.
-        grc: χρύος γίγνεται.
+        grc:
+          - χρύος γίγνεται.
       - modern:
         - de: Warum machst du den (Sonnen-)Schirm zu?.
-        grc: τί πάλιν ξυνάγεις τὸ σκιάδειον;
+        grc:
+          - τί πάλιν ξυνάγεις τὸ σκιάδειον;
       - modern:
         - de: "Mach' ihn wieder auf!"
-        grc: ἐκπέτασον αὐτό!
+        grc:
+          - ἐκπέτασον αὐτό!
       - modern:
         - de: Her mit dem Schirm!
-        grc: φέρε τὸ σκιάδειον!
+        grc:
+          - φέρε τὸ σκιάδειον!
       - modern:
         - de: Halte den Schirm über mich!
-        grc: ὑπέρεχέ μου τὸ σκιάδειον.
+        grc:
+          - ὑπέρεχέ μου τὸ σκιάδειον.
       - modern:
         - de: Nimm dich hier vor dem Schmutze in Acht!
-        grc: τὸν πηλὸν τουτονὶ φύλαξαι!
+        grc:
+          - τὸν πηλὸν τουτονὶ φύλαξαι!
   - title:
       de: Abreise
     conversations:
       - modern:
         - de: Wann reisen Sie nach Berlin?
-        grc: |-
-          πότε \emph{ἄπει} εἰς Βερόλινον{*} (Λόνδινον, Βιέννην{*} \textgerman[spelling=old,babelshorthands=true]{Wien,}
-          Γαστάϊν{*} , Παρισίους, Πετρούπολιν{*}, εἰς Ἑλβητίαν, Κίσσιγγεν{*},
-          Δρέσδην{*}, Βρυξέλας{*}, Μόναχον \textgerman[spelling=old,babelshorthands=true]{München});
+        grc:
+          - |-
+            πότε \emph{ἄπει} εἰς Βερόλινον{*} (Λόνδινον, Βιέννην{*} \textgerman[spelling=old,babelshorthands=true]{Wien,}
+            Γαστάϊν{*} , Παρισίους, Πετρούπολιν{*}, εἰς Ἑλβητίαν, Κίσσιγγεν{*},
+            Δρέσδην{*}, Βρυξέλας{*}, Μόναχον \textgerman[spelling=old,babelshorthands=true]{München});
       - modern:
         - de: Um 12. November.
-        grc: τῇ δωδεκάτῃ Νοεμβρίου.
+        grc:
+          - τῇ δωδεκάτῃ Νοεμβρίου.
       - modern:
         - de: Nach Leipzig sind Sie bis\textcompwordmark{}her noch nicht gekommen.
-        grc: εἰς Λειψίαν{*} οὔπω ἐλήλυθας.
+        grc:
+          - εἰς Λειψίαν{*} οὔπω ἐλήλυθας.
       - modern:
         - de: "In den Ferien hätte ich Lust auf's Land zu gehen."
-        grc: ἐν τῷ ἀναπαύλης χρόνῳ ἐπιθυμῶ ἐλθεῖν εἰς ἀγρόν.
+        grc:
+          - ἐν τῷ ἀναπαύλης χρόνῳ ἐπιθυμῶ ἐλθεῖν εἰς ἀγρόν.
       - modern:
         - de: Mit welcher Gelegenheit wollen Sie reisen?
-        grc: τίς σοι γενήσεται πόρος τῆς ὁδοῦ;
+        grc:
+          - τίς σοι γενήσεται πόρος τῆς ὁδοῦ;
       - modern:
         - de: Um vier Uhr mit dem Bahnzuge.
-        grc: |-
-          τῇ τετάρτῃ ὥρᾳ χρώμενος τῇ ἁμαξοστοιχίᾳ\footnote{\begin{latin}%
-          \textgreek[variant=ancient]{τῷ τυπογράφῳ ἄσκοπος τὸ γράμμα «ἁ» ἦν.}\end{latin}%
-          }.{*}
+        grc:
+          - |-
+            τῇ τετάρτῃ ὥρᾳ χρώμενος τῇ ἁμαξοστοιχίᾳ\footnote{\begin{latin}%
+            \textgreek[variant=ancient]{τῷ τυπογράφῳ ἄσκοπος τὸ γράμμα «ἁ» ἦν.}\end{latin}%
+            }.{*}
       - modern:
         - de: O, dann ist es Zeit zu gehen.
-        grc: "ὥρα βαδίζειν ἄρ' ἐστίν."
+        grc:
+          - "ὥρα βαδίζειν ἄρ' ἐστίν."
       - modern:
         - de: Es ist Zeit auf den Bahnhof zu gehen.
-        grc: ὥρα ἐστὶν εἰς τὸν (σιδηροδρομικὸν{*}) σταθμὸν βαδίζειν.
+        grc:
+          - ὥρα ἐστὶν εἰς τὸν (σιδηροδρομικὸν{*}) σταθμὸν βαδίζειν.
       - modern:
         - de: Es wäre längst Zeit gewesen!
-        grc: |-
-          ὥρα\footnote{\begin{latin}%
-          \textgreek[variant=ancient]{ὁ τυπογράφος ἔγραψα τὸν οὐ γεγραμμένον
-          τόνον.}\end{latin}%
-          } ἦν πάλαι.
+        grc:
+          - |-
+            ὥρα\footnote{\begin{latin}%
+            \textgreek[variant=ancient]{ὁ τυπογράφος ἔγραψα τὸν οὐ γεγραμμένον
+            τόνον.}\end{latin}%
+            } ἦν πάλαι.
       - modern:
         - de: Nun, so reisen Sie glücklich!
-        grc: "ἀλλ' ἴθι χαίρων!"
+        grc:
+          - "ἀλλ' ἴθι χαίρων!"
       - modern:
         - de: Adieu!
-        grc: χαῖρε καὶ σύ!
+        grc:
+          - χαῖρε καὶ σύ!
       - modern:
         - de: Er ist abgereist.
-        grc: οἴχεται.
+        grc:
+          - οἴχεται.
       - modern:
         - de: Mein Bruder ist seit 5 Monaten fort.
-        grc: ὁ ἐμὸς ἀδελφὸς πέντε μῆνας ἄπεστιν.
+        grc:
+          - ὁ ἐμὸς ἀδελφὸς πέντε μῆνας ἄπεστιν.
       - modern:
         - de: Er ist auf der Reise.
-        grc: ἀποδημῶν ἐστιν.
+        grc:
+          - ἀποδημῶν ἐστιν.
   - title:
       de: Gehen. Weg.
     conversations:
       - modern:
         - de: Kommen Sie mit!
-        grc: ἕπου!
+        grc:
+          - ἕπου!
       - modern:
         - de: Kommen Sie mit mir!
-        grc: "ἕπου μετ' ἐμοῦ!"
+        grc:
+          - "ἕπου μετ' ἐμοῦ!"
       - modern:
         - de: Der Bahnhof ist nicht weit.
-        grc: "ἔστ' οὐ μεκρὰν ἄποθεν ὁ σταθμός."
+        grc:
+          - "ἔστ' οὐ μεκρὰν ἄποθεν ὁ σταθμός."
       - modern:
         - de: Nun, so wollen wir gehen.
-        grc: ἄγε νυν ἴωμεν.
+        grc:
+          - ἄγε νυν ἴωμεν.
       - modern:
         - de: Wir wollen fortgehen
-        grc: ἀπίωμεν.
+        grc:
+          - ἀπίωμεν.
       - modern:
         - de: Wir wollen weitergehen.
-        grc: χωρῶμεν.
+        grc:
+          - χωρῶμεν.
       - modern:
         - de: Vorwärts!
-        grc: χώρει!
+        grc:
+          - χώρει!
       - modern:
         - de: Wir wollen Euch voraus\textcompwordmark{}gehen.
-        grc: προίωμεν ὑμῶν.
+        grc:
+          - προίωμεν ὑμῶν.
       - modern:
         - de: "Ich werde eine Droschke nehmen."
-        grc: ἁμάξῃ χρήσομαι.
+        grc:
+          - ἁμάξῃ χρήσομαι.
       - modern:
         - de: Ich werde vielmehr den Omnibus benutzen.
-        grc: ἐγὼ μὲν οὖν χρήσομαι τῷ λεωφορείῳ{*}.
+        grc:
+          - ἐγὼ μὲν οὖν χρήσομαι τῷ λεωφορείῳ{*}.
       - modern:
         - de: Ich meinerseits gehe zu Fuße.
-        grc: βαδίζω ἔγωγε.
+        grc:
+          - βαδίζω ἔγωγε.
       - modern:
         - de: Du reitest.
-        grc: ὀχεῖ!
+        grc:
+          - ὀχεῖ!
       - modern:
         - de: Sagen Sie, auf welchem Wege kommen wir am schnellsten nach dem Bahnhofe?
-        grc: φράζε, ὅπῃ τάχιστα ἀφιξόμεθα εἰς τὸν σταθμόν;
+        grc:
+          - φράζε, ὅπῃ τάχιστα ἀφιξόμεθα εἰς τὸν σταθμόν;
       - modern:
         - de: Wir können den Weg nicht finden.
-        grc: οὐ δυνάμεθα ἐξευρεῖν τὴν ὁδόν.
+        grc:
+          - οὐ δυνάμεθα ἐξευρεῖν τὴν ὁδόν.
       - modern:
         - de: Ich weiß nicht mehr, wo wir sind.
-        grc: οὐκέτι οἶδα, ποῖ γῆς ἐσμεν..
+        grc:
+          - οὐκέτι οἶδα, ποῖ γῆς ἐσμεν..
       - modern:
         - de: Sie haben den Weg verfehlt.
-        grc: τῆς ὁδοῦ ἡμάρτηκας.
+        grc:
+          - τῆς ὁδοῦ ἡμάρτηκας.
       - modern:
         - de: Ach, du mein Gott!
-        grc: ὦ φίλιο θεοί!
+        grc:
+          - ὦ φίλιο θεοί!
       - modern:
         - de: Gehen Sie die Straße hier, so werden Sie sogleich auf den Marktplatz kommen.
-        grc: ἴθι τὴν ὁδὸν ταυτηνί καὶ τὐθὺς ἐπὶ τὴν ἀγορὰν ἥξεις.
+        grc:
+          - ἴθι τὴν ὁδὸν ταυτηνί καὶ τὐθὺς ἐπὶ τὴν ἀγορὰν ἥξεις.
       - modern:
         - de: Und was dann?
-        grc: εἶτα τί;
+        grc:
+          - εἶτα τί;
       - modern:
         - de: Dann müssen Sie rechts (links) gehen.
-        grc: "εἶτα βαδιστέα σοι ἐπὶ δεξιά (ἐπ' ἀριστερά)."
+        grc:
+          - "εἶτα βαδιστέα σοι ἐπὶ δεξιά (ἐπ' ἀριστερά)."
       - modern:
         - de: Gerade aus!
-        grc: ὀρθήν!
+        grc:
+          - ὀρθήν!
       - modern:
         - de: Wie weit ist es etwa?
-        grc: πόση τις ἡ ὁδός;
+        grc:
+          - πόση τις ἡ ὁδός;
       - modern:
         - de: Danke.
-        grc: καλῶς.
+        grc:
+          - καλῶς.
       - modern:
         - de: Nun, da wollen wir uns beeilen.
-        grc: ἀλλὰ σπεύδωμεν.
+        grc:
+          - ἀλλὰ σπεύδωμεν.
       - modern:
         - de: Gehen Sie zu!
-        grc: χώρει!
+        grc:
+          - χώρει!
       - modern:
         - de: Wir sind erst nach dem zweiten Läuten gekommen.
-        grc: ὕστερον ἤλθομεν τοῦ δευτέρου σημείου.
+        grc:
+          - ὕστερον ἤλθομεν τοῦ δευτέρου σημείου.
   - title:
       de: Warte!
     conversations:
       - modern:
         - de: Du, halt einmal!
-        grc: ἐπίσχες, οὗτος!
+        grc:
+          - ἐπίσχες, οὗτος!
       - modern:
         - de: Warte einmal!
-        grc: ἔχε νυν ἥσυχος!
+        grc:
+          - ἔχε νυν ἥσυχος!
       - modern:
         - de: "Halt! Bleib' stehen!"
-        grc: "μέν' ἥσυχος! στῆθι!"
+        grc:
+          - "μέν' ἥσυχος! στῆθι!"
       - modern:
         - de: Nicht von der Stelle!
-        grc: "ἔχ' ἀστέμας αὐτοῦ!"
+        grc:
+          - "ἔχ' ἀστέμας αὐτοῦ!"
       - modern:
         - de: So warte doch!
-        grc: \emph{οὐ μενεῖς;}
+        grc:
+          - \emph{οὐ μενεῖς;}
       - modern:
         - de: Warte eine Weile auf mich!
-        grc: "ἐπανάμεινον μ' ὀλίγον χρόνον."
+        grc:
+          - "ἐπανάμεινον μ' ὀλίγον χρόνον."
       - modern:
         - de: Ich werde gleich wiederkommen.
-        grc: "ἀλλ' ἥξω ταχέως."
+        grc:
+          - "ἀλλ' ἥξω ταχέως."
       - modern:
         - de: Wo soll ich dich erwarten?
-        grc: ποῦ ἀναμεῶ;
+        grc:
+          - ποῦ ἀναμεῶ;
       - modern:
         - de: "Komm' nur schnell wieder!"
-        grc: ἧκέ νυν ταχύ!
+        grc:
+          - ἧκέ νυν ταχύ!
       - modern:
         - de: Da bin ich wieder.
-        grc: ἰδού, πάρειμι.
+        grc:
+          - ἰδού, πάρειμι.
       - modern:
         - de: Bist du wieder da?
-        grc: ἥκεις;
+        grc:
+          - ἥκεις;
       - modern:
         - de: Ich bin dir doch nicht zu lange gewesen?
-        grc: μῶν ἐπισχεῖν σοι δοκῶ;
+        grc:
+          - μῶν ἐπισχεῖν σοι δοκῶ;
       - modern:
         - de: Wo bist du nur so lange geblieben?
-        grc: "ποῦ ποτ' ἦσθα ἀπ' ἐμοῦ (ἀφ' ἡμῶν) τὸν πολὺν τοῦτον χρόνον;"
+        grc:
+          - "ποῦ ποτ' ἦσθα ἀπ' ἐμοῦ (ἀφ' ἡμῶν) τὸν πολὺν τοῦτον χρόνον;"
   - title:
       de: Komm her!
     conversations:
       - modern:
         - de: Komm her!
-        grc: "δεῦρ' ἐλθέ!"
+        grc:
+          - "δεῦρ' ἐλθέ!"
       - modern:
         - de: Komm hierher!
-        grc: ἐλθὲ δεῦρο!
+        grc:
+          - ἐλθὲ δεῦρο!
       - modern:
         - de: "Geh' her!"
-        grc: χώρει δεῦρο!
+        grc:
+          - χώρει δεῦρο!
       - modern:
         - de: "Geh' hierher, zu mir!"
-        grc: βάδιζε δεῦρο, ὡς ἐμέ!
+        grc:
+          - βάδιζε δεῦρο, ὡς ἐμέ!
       - modern:
         - de: Du kommst wie gerusen.
-        grc: ἥκεις ὥσπερ κατὰ θεῖον.
+        grc:
+          - ἥκεις ὥσπερ κατὰ θεῖον.
       - modern:
         - de: Woher kommst du?
-        grc: πόθεν βαδίζεις;
+        grc:
+          - πόθεν βαδίζεις;
       - modern:
         - de: Aber wo kommst du eigentlich her?
-        grc: ἀτὰρ πόθεν ἥκεις ἐτεόν;
+        grc:
+          - ἀτὰρ πόθεν ἥκεις ἐτεόν;
       - modern:
         - de: Ich komme von Müllers.
-        grc: \emph{ἐκ Μυλλέρου} ἔρχομαι.
+        grc:
+          - \emph{ἐκ Μυλλέρου} ἔρχομαι.
       - modern:
         - de: "Geh' mit mir hinein!"
-        grc: "εἴσιθι αμ'\\footnote{ὁ τυπογράφος ἔγραψα τὸν οὐ γεγραμμένον τόνον.} ἐμοί."
+        grc:
+          - "εἴσιθι αμ'\\footnote{ὁ τυπογράφος ἔγραψα τὸν οὐ γεγραμμένον τόνον.} ἐμοί."
       - modern:
         - de: Ich bitte dich, noch bei uns zu bleiben.
-        grc: δέομαί σου περαμεῖναι ἡμῖν.
+        grc:
+          - δέομαί σου περαμεῖναι ἡμῖν.
       - modern:
         - de: Das geht nicht!
-        grc: "ἀλλ' οὐχ οἷόν τε!"
+        grc:
+          - "ἀλλ' οὐχ οἷόν τε!"
       - modern:
         - de: Wohin gehst du?
-        grc: ποῖ βαδίζεις;
+        grc:
+          - ποῖ βαδίζεις;
       - modern:
         - de: "So bleib' doch da!"
-        grc: οὐ παραμενεῖς;
+        grc:
+          - οὐ παραμενεῖς;
       - modern:
         - de: Wir lassen dich nicht fort.
-        grc: "οὔ σ' ἀφήσομεν."
+        grc:
+          - "οὔ σ' ἀφήσομεν."
       - modern:
         - de: Ich will zum Friseur.
-        grc: \emph{βούλομαι εἰς} τὸ κουρεῖον.
+        grc:
+          - \emph{βούλομαι εἰς} τὸ κουρεῖον.
       - modern:
         - de: Wir lassen dich durchaus nicht fort.
-        grc: οὐκ ἀφήσομέν σε μά δία οὐδέποτε!
+        grc:
+          - οὐκ ἀφήσομέν σε μά δία οὐδέποτε!
       - modern:
         - de: Laßt mich los!
-        grc: μέθεσθέ μου!
+        grc:
+          - μέθεσθέ μου!
       - modern:
         - de: Kommt schnell zu mir her!
-        grc: "ἴτε δεῦρ' ὡς ἐμὲ ταχέως."
+        grc:
+          - "ἴτε δεῦρ' ὡς ἐμὲ ταχέως."
       - modern:
         - de: Heute Abend will ich kommen.
-        grc: εἰς ἑσπέραν ἥξω.
+        grc:
+          - εἰς ἑσπέραν ἥξω.
       - modern:
         - de: Weg ist er!
-        grc: φροῦδός ἐστιν!
+        grc:
+          - φροῦδός ἐστιν!
       - modern:
         - de: Wo ist er denn hin?
-        grc: ποῖ γὰρ οἴχεται;
+        grc:
+          - ποῖ γὰρ οἴχεται;
       - modern:
         - de: Er ist fort zum Friseur.
-        grc: εἰς τὸ κουρεῖον οἴχεται.
+        grc:
+          - εἰς τὸ κουρεῖον οἴχεται.
       - modern:
         - de: Er geht heim.
-        grc: "οἴκαδ' ἔρχεται."
+        grc:
+          - "οἴκαδ' ἔρχεται."
       - modern:
         - de: Wir wollen wieder heimgehen.
-        grc: "ἀπίωμεν οἴκαδ' αὖθις."
+        grc:
+          - "ἀπίωμεν οἴκαδ' αὖθις."
       - modern:
         - de: Er will ihnen entgegen gehen.
-        grc: ἀπαντῆσαι αὐτοῖς βούλεται.
+        grc:
+          - ἀπαντῆσαι αὐτοῖς βούλεται.
       - modern:
         - de: Er ist ihr begegnet.
-        grc: ξυνήντησεν αὐτῇ.
+        grc:
+          - ξυνήντησεν αὐτῇ.
       - modern:
         - de: Wo wollen wir uns treffen?
-        grc: ποῖ ἀπαντησόμεθα;
+        grc:
+          - ποῖ ἀπαντησόμεθα;
       - modern:
         - de: Hier.
-        grc: ἐνθάδε.
+        grc:
+          - ἐνθάδε.
   - title:
       de: Bier her!
     conversations:
       - modern:
         - de: Kellner! Kellner!
-        grc: παῖ! παῖ!
+        grc:
+          - παῖ! παῖ!
       - modern:
         - de: Wo steckt denn die Bedienung?
-        grc: οὐ περιδραμεῖταί τις δεῦρο τῶν παίδων;
+        grc:
+          - οὐ περιδραμεῖταί τις δεῦρο τῶν παίδων;
       - modern:
         - de: Sie da, Kellner, wohin laufen Sie? --- Nach Gläsern.
-        grc: "οὗτος σὺ, παῖ, ποῖ θεῖς; --- Ἐπ' ἐκπώματα."
+        grc:
+          - "οὗτος σὺ, παῖ, ποῖ θεῖς; --- Ἐπ' ἐκπώματα."
       - modern:
         - de: Kommen Sie hierher!
-        grc: ἐλθὲ δεῦρο!
+        grc:
+          - ἐλθὲ δεῦρο!
       - modern:
         - de: Bringen Sie mir einmal schnell Bier und Hasenbraten!
-        grc: ἔνεγκέ μοι ταχέως ζῦθον καὶ λαγῷα.
+        grc:
+          - ἔνεγκέ μοι ταχέως ζῦθον καὶ λαγῷα.
       - modern:
         - de: Ganz wohl, mein Herr!
-        grc: \emph{ταῦτα,} ὦ δέσποτα.
+        grc:
+          - \emph{ταῦτα,} ὦ δέσποτα.
       - modern:
         - de: So, da bringe ich Alles.
-        grc: "ἰδού, ἅπαντ' ἐγὼ φέρω."
+        grc:
+          - "ἰδού, ἅπαντ' ἐγὼ φέρω."
       - modern:
         - de: Das Bier schmeckt gut!
-        grc: ὡς ἡδὺς ὁ ζῦθος!
+        grc:
+          - ὡς ἡδὺς ὁ ζῦθος!
       - modern:
         - de: Es schmeckt mir nicht.
-        grc: οὐκ ἀρέσκει με.
+        grc:
+          - οὐκ ἀρέσκει με.
       - modern:
         - de: Das Bier \emph{schmeckt} sehr stark nach Pech.
-        grc: \emph{ὄζει} πίττης ὁ ζῦθος ὀξύτατον.!
+        grc:
+          - \emph{ὄζει} πίττης ὁ ζῦθος ὀξύτατον.!
       - modern:
         - de: Bier her, Kellner! --- Schleunigst!
-        grc: πέρε σὺ ζῦθον ὁ παῖς! --- πάσῃ τέχνῃ!
+        grc:
+          - πέρε σὺ ζῦθον ὁ παῖς! --- πάσῃ τέχνῃ!
       - modern:
         - de: So beeilen Sie sich doch!
-        grc: οὐ θᾶττον ἐγκονήσεις;
+        grc:
+          - οὐ θᾶττον ἐγκονήσεις;
       - modern:
         - de: Sie sorgen schlecht für uns.
-        grc: κακῶς ἐπιμελεῖ ἡμῶν!
+        grc:
+          - κακῶς ἐπιμελεῖ ἡμῶν!
       - modern:
         - de: Kellner, schenken Sie mir noch einmal ein!
-        grc: παῖ, ἕτερον ἔγχεον!
+        grc:
+          - παῖ, ἕτερον ἔγχεον!
       - modern:
         - de: Schenken Sie mir auch ein!
-        grc: ἔγχει κἀμοί!
+        grc:
+          - ἔγχει κἀμοί!
       - modern:
         - de: Heute Abend wollen wir nach langer Zeit wieder einmal gehörig zechen.
-        grc: εἰς ἑσπέραν μεθυσθῶμεν διὰ χρόνου.
+        grc:
+          - εἰς ἑσπέραν μεθυσθῶμεν διὰ χρόνου.
       - modern:
         - de: Das Kneipen taugt nichts.
-        grc: κακὸν τὸ πίνειν!
+        grc:
+          - κακὸν τὸ πίνειν!
       - modern:
         - de: Man bekommt Katzenjammer von dem Bier.
-        grc: κραιπάλη γίγνεται ἀπὸ τοῖ ζύθου.
+        grc:
+          - κραιπάλη γίγνεται ἀπὸ τοῖ ζύθου.
       - modern:
         - de: Ich will Bier \emph{holen}.
-        grc: ἐπὶ ζῦθον εἶμι.
+        grc:
+          - ἐπὶ ζῦθον εἶμι.
       - modern:
         - de: Ich werde Sie nöthigenfalls rufen.
-        grc: καλέσω σε, εἴ τι δέοι.
+        grc:
+          - καλέσω σε, εἴ τι δέοι.
       - modern:
         - de: Ich gehe und hole mir noch eins.
-        grc: ἕτερον ἰὼν κομιοῦμαι.
+        grc:
+          - ἕτερον ἰὼν κομιοῦμαι.
       - modern:
         - de: Hier haben Sie es!
-        grc: ἰδού, τουτὶ λαβέ.
+        grc:
+          - ἰδού, τουτὶ λαβέ.
       - modern:
         - de: Schön. Sie sollen ein Trinkgeld von mir bekommen.
-        grc: καλῶς. εὐεργετήσω σε.
+        grc:
+          - καλῶς. εὐεργετήσω σε.
       - modern:
         - de: Ich bin nicht im Stande hier zu bleiben.
-        grc: "οὐχ οἷός τ' εἰμὶ ἐυθάδε μένειν."
+        grc:
+          - "οὐχ οἷός τ' εἰμὶ ἐυθάδε μένειν."
       - modern:
         - de: Der Rauch beißt mich in die Augen.
-        grc: ὁ καπνὸς δάκνει τὰ βλέφαρά μου.
+        grc:
+          - ὁ καπνὸς δάκνει τὰ βλέφαρά μου.
       - modern:
         - de: "Komm', geh' mit!"
-        grc: "ἕπου μετ' ἐμοῦ."
+        grc:
+          - "ἕπου μετ' ἐμοῦ."
       - modern:
         - de: Der Rauch vertreibt mich.
-        grc: "ὁ καπνός μ' ἐκπέμπει."
+        grc:
+          - "ὁ καπνός μ' ἐκπέμπει."
       - modern:
         - de: Kellner, rechnen Sie einmal die Zeche zusammen!
-        grc: παῖ, λόγισαι ταῦτα.
+        grc:
+          - παῖ, λόγισαι ταῦτα.
       - modern:
         - de: Sie hatten 6 Bier, Hasenbraten, Brot, macht 2½ Mark.
-        grc: |-
-          εἴχετε ζύθου ἕξ (ποτήρια) καὶ λαγῷα καὶ ἄρτον· γίγνονται οὖν ἡμῖν
-          δύο μάρκαι{*} καὶ ἡμίσεια.
+        grc:
+          - |-
+            εἴχετε ζύθου ἕξ (ποτήρια) καὶ λαγῷα καὶ ἄρτον· γίγνονται οὖν ἡμῖν
+            δύο μάρκαι{*} καὶ ἡμίσεια.
       - modern:
         - de: Hier haben Sie!
-        grc: ἰδού, λαβέ.
+        grc:
+          - ἰδού, λαβέ.
       - modern:
         - de: Ich taumele beim Gehen.
-        grc: σφαλλόμενος ἔρχομαι.
+        grc:
+          - σφαλλόμενος ἔρχομαι.
   - title:
       de: Mich hungert
     conversations:
       - modern:
         - de: Ich bekomme Hunger.
-        grc: λιμός με λαμβάνει.
+        grc:
+          - λιμός με λαμβάνει.
       - modern:
         - de: Ich habe nichts zu essen.
-        grc: οὐκ ἔχω καταφαγεῖν.
+        grc:
+          - οὐκ ἔχω καταφαγεῖν.
       - modern:
         - de: Er hat einen Bärenhunger.
-        grc: βουλιμιᾷ.
+        grc:
+          - βουλιμιᾷ.
       - modern:
         - de: Ich komme vor Hunger um..
-        grc: ἀπόλωλα ὑπὸ λιμοῦ.
+        grc:
+          - ἀπόλωλα ὑπὸ λιμοῦ.
       - modern:
         - de: Soll ich Ihnen etwas zu essen (zu trinken) geben?
-        grc: φέρε τί σοι δῶ \emph{φαγεῖν;} (πιεῖν;)
+        grc:
+          - φέρε τί σοι δῶ \emph{φαγεῖν;} (πιεῖν;)
       - modern:
         - de: Geben Sie mir etwas zu essen!
-        grc: δός μοι φαγεῖν!
+        grc:
+          - δός μοι φαγεῖν!
       - modern:
         - de: Ich will zu Tische gehen.
-        grc: βαδιοῦμαι ἐπὶ δεῖπνον.
+        grc:
+          - βαδιοῦμαι ἐπὶ δεῖπνον.
       - modern:
         - de: Sie haben noch nicht zu Mittag gegessen?
-        grc: οὔπω δεδείπνηκας;
+        grc:
+          - οὔπω δεδείπνηκας;
       - modern:
         - de: Nein!
-        grc: "μὰ Δί' ἐγὼ μὲν οὔ."
+        grc:
+          - "μὰ Δί' ἐγὼ μὲν οὔ."
       - modern:
         - de: Ich muß fort zu Tische.
-        grc: δεῖ με χωρεῖν ἐπὶ δεῖπνον.
+        grc:
+          - δεῖ με χωρεῖν ἐπὶ δεῖπνον.
       - modern:
         - de: Nun, so gehen Sie schnell zum Essen!
-        grc: "ἀλλ' ἐπὶ δεῖπνον ταχὺ βάδιζε!"
+        grc:
+          - "ἀλλ' ἐπὶ δεῖπνον ταχὺ βάδιζε!"
       - modern:
         - de: Er kommt zu Tische.
-        grc: ἐπὶ δεῖπνον ἔρχεται.
+        grc:
+          - ἐπὶ δεῖπνον ἔρχεται.
       - modern:
         - de: Der Tisch ist gedeckt.
-        grc: "τὸ δεῖπνόν ἐστ' ἐπεσκευασμένον.!"
+        grc:
+          - "τὸ δεῖπνόν ἐστ' ἐπεσκευασμένον.!"
       - modern:
         - de: Die Tasse.
-        grc: τὸ κύπελλον.
+        grc:
+          - τὸ κύπελλον.
       - modern:
         - de: Der Teller.
-        grc: τὸ λεκάνιον.
+        grc:
+          - τὸ λεκάνιον.
       - modern:
         - de: Die Schüssel.
-        grc: τὸ τρυβλίον.
+        grc:
+          - τὸ τρυβλίον.
       - modern:
         - de: Das Messer.
-        grc: τὸ μαχαίριον.
+        grc:
+          - τὸ μαχαίριον.
       - modern:
         - de: Die Gabel.
-        grc: τὸ πειρούνιον.{*}
+        grc:
+          - τὸ πειρούνιον.{*}
       - modern:
         - de: Die Serviette.
-        grc: τὸ χειρόμακτρον.
+        grc:
+          - τὸ χειρόμακτρον.
   - title:
       de: Mahlzeit
     conversations:
       - modern:
         - de: Ich lade dich zum Frühstück ein.
-        grc: "ἐπ' ἄριστον καλῶ σε."
+        grc:
+          - "ἐπ' ἄριστον καλῶ σε."
       - modern:
         - de: Er hat mich zum Frühstück geladen.
-        grc: "ἐπ' ἄριστον μ' ἐκάλεσεν.!"
+        grc:
+          - "ἐπ' ἄριστον μ' ἐκάλεσεν.!"
       - modern:
         - de: Wir werden gut essen und trinken.
-        grc: εὐωχησόμεθα ἡμεῖς γε.
+        grc:
+          - εὐωχησόμεθα ἡμεῖς γε.
       - modern:
         - de: Ich rechnete darauf, daß Sie kommen mürden.
-        grc: |-
-          ἐλογιζόμην\footnote{\begin{latin}%
-          \textgreek[variant=ancient]{τῷ τυπογράφῳ ἄσκοπος τὸ γράμμα «ό» ἦν.}\end{latin}%
-          } ἐγώ σε παρέσεσθαι.
+        grc:
+          - |-
+            ἐλογιζόμην\footnote{\begin{latin}%
+            \textgreek[variant=ancient]{τῷ τυπογράφῳ ἄσκοπος τὸ γράμμα «ό» ἦν.}\end{latin}%
+            } ἐγώ σε παρέσεσθαι.
       - modern:
         - de: Er frühstückt.
-        grc: ἀριστᾷ.
+        grc:
+          - ἀριστᾷ.
 
       - modern:
-        - de: \myafterpagetrue\mysetaligntext{german}{Es giebt{ }}\mysetalign{german}Braten. 
-        grc: \mysetaligntext{greek}{πάρεστι{ }}\mysetalign*{greek}κρέα ὠπτημένα.
+        - de: \myafterpagetrue\mysetaligntext{german}{Es giebt{ }}\mysetalign{german}Braten.
+        grc:
+          - \mysetaligntext{greek}{πάρεστι{ }}\mysetalign*{greek}κρέα ὠπτημένα.
       - modern:
         - de: \bgroup\mysetalign{german}Kalbs\textcompwordmark{}braten.\par\egroup
-        grc: \bgroup\mysetalign*{greek}(κρέα) μόσχεια.\mysetaligntext{greek}{πάρεστι (κρέα){ }}\par\egroup
+        grc:
+          - \bgroup\mysetalign*{greek}(κρέα) μόσχεια.\mysetaligntext{greek}{πάρεστι (κρέα){ }}\par\egroup
       - modern:
         - de: \bgroup\mysetalign{german}Kinderbraten.\par\egroup
-        grc: \bgroup\mysetalign*{greek}βόεια.\par\egroup
+        grc:
+          - \bgroup\mysetalign*{greek}βόεια.\par\egroup
       - modern:
         - de: \bgroup\mysetalign{german}Schweinebraten.\par\egroup
-        grc: \bgroup\mysetalign*{greek}χοίρεια.\par\egroup
+        grc:
+          - \bgroup\mysetalign*{greek}χοίρεια.\par\egroup
       - modern:
         - de: \bgroup\mysetalign{german}Hammelbraten.\par\egroup
-        grc: \bgroup\mysetalign*{greek}ἄρνεια.\par\egroup
+        grc:
+          - \bgroup\mysetalign*{greek}ἄρνεια.\par\egroup
       - modern:
         - de: \bgroup\mysetalign{german}Ziegenbraten.\par\egroup
-        grc: \bgroup\mysetalign*{greek}ἐρίφεια.\par\egroup
+        grc:
+          - \bgroup\mysetalign*{greek}ἐρίφεια.\par\egroup
       - modern:
         - de: \bgroup\mysetalign{german}Keule, Schinken.\par\egroup
-        grc: \bgroup\mysetalign*{greek}κωλῆ.\par\egroup
+        grc:
+          - \bgroup\mysetalign*{greek}κωλῆ.\par\egroup
       - modern:
         - de: \bgroup\mysetalign{german}Hasenbraten.\par\egroup
-        grc: \bgroup\mysetalign*{greek}λαγῷα.\par\egroup
+        grc:
+          - \bgroup\mysetalign*{greek}λαγῷα.\par\egroup
       - modern:
         - de: \bgroup\mysetalign{german}Geflügel.\par\egroup
-        grc: \bgroup\mysetalign*{greek}ὀρνίθεια.\par\egroup
+        grc:
+          - \bgroup\mysetalign*{greek}ὀρνίθεια.\par\egroup
       - modern:
         - de: \bgroup\mysetalign{german}Aal.\par\egroup
-        grc: \bgroup\mysetalign*{greek}ἐγχέλεια.\par\egroup
+        grc:
+          - \bgroup\mysetalign*{greek}ἐγχέλεια.\par\egroup
 
       - modern:
         - de: Aal habe ich nicht gern; lieber äße ich Geflügel.
-        grc: |-
-          οὐ χαίρω ἐγχέλεσιν, ἀλλ' \emph{ἥδιον}\footnote{\begin{latin}%
-          \textgreek[variant=ancient]{ὁ τυπογράφος ἔγραψα τὸν οὐ γεγραμμένον
-          ἦχον καὶ τόνον.}\end{latin}%
-          } ἂν φάγοιμι ὀρνίθεια.
+        grc:
+          - |-
+            οὐ χαίρω ἐγχέλεσιν, ἀλλ' \emph{ἥδιον}\footnote{\begin{latin}%
+            \textgreek[variant=ancient]{ὁ τυπογράφος ἔγραψα τὸν οὐ γεγραμμένον
+            ἦχον καὶ τόνον.}\end{latin}%
+            } ἂν φάγοιμι ὀρνίθεια.
       - modern:
         - de: Das esse ich am liebsten.
-        grc: "ταῦτα γὰρ \\emph{ἥδιστ'} ἐσθίω."
+        grc:
+          - "ταῦτα γὰρ \\emph{ἥδιστ'} ἐσθίω."
       - modern:
         - de: Das habe ich gestern gegessen.
-        grc: τοῦτο χθὲς ἔφαγον.
+        grc:
+          - τοῦτο χθὲς ἔφαγον.
       - modern:
         - de: Bringen Sie Krammets\textcompwordmark{}vögel für mich her!
-        grc: φέρε δεῦρο κίχλας ἐμοί!
+        grc:
+          - φέρε δεῦρο κίχλας ἐμοί!
       - modern:
         - de: Kosten Sie einmal davon!
-        grc: γεῦσαι λαβών!
+        grc:
+          - γεῦσαι λαβών!
       - modern:
         - de: Essen Sie einmal dies!
-        grc: φάγε τουτί!
+        grc:
+          - φάγε τουτί!
       - modern:
         - de: Nein, das bekommt mir gar nicht gut.
-        grc: μὰ τὸν Δία, οὐ γὰρ οὐδαμῶς μοι ξύμφορον.
+        grc:
+          - μὰ τὸν Δία, οὐ γὰρ οὐδαμῶς μοι ξύμφορον.
       - modern:
         - de: Knus\textcompwordmark{}pern Sie einmal dies!
-        grc: ἔντραγε τουτί!
+        grc:
+          - ἔντραγε τουτί!
       - modern:
         - de: Genöthigt wird principiell nicht.
-        grc: οὐ προσαναγκάζομεν οὐδαμῶς.
+        grc:
+          - οὐ προσαναγκάζομεν οὐδαμῶς.
       - modern:
         - de: Das Fleisch schmeckt sehr gut.
-        grc: τὰ κρέα ἥδιστά ἐστιν.
+        grc:
+          - τὰ κρέα ἥδιστά ἐστιν.
       - modern:
         - de: Das schmeckt gut.
-        grc: ὡς ἡδύ!
+        grc:
+          - ὡς ἡδύ!
       - modern:
         - de: Die Sause schmeckt sehr gut.
-        grc: ὡς ἡδὺ τὸ κατάχυσμα!
+        grc:
+          - ὡς ἡδὺ τὸ κατάχυσμα!
       - modern:
         - de: Eins vermisse ich noch.
-        grc: ἕν ἔτι ποθῶ.
+        grc:
+          - ἕν ἔτι ποθῶ.
       - modern:
         - de: Geben Sie mir doch ein Stück Brot!
-        grc: δός μοι δῆτα ὀλίγον τι ἄρτου!
+        grc:
+          - δός μοι δῆτα ὀλίγον τι ἄρτου!
       - modern:
         - de: |-
             Und ein Stück Wurst\\
             und Erbsenbrei.
-        grc: |-
-          καὶ χορδῆς τι\\
-          καὶ ἔτνος\footnote{\begin{latin}%
-          \textgreek[variant=ancient]{ὁ τυπογράφος ἔγραψα τὸν οὐ γεγραμμένον
-          ἦχον καὶ τόνον.}\end{latin}%
-          } πίσινον.
+        grc:
+          - |-
+            καὶ χορδῆς τι\\
+            καὶ ἔτνος\footnote{\begin{latin}%
+            \textgreek[variant=ancient]{ὁ τυπογράφος ἔγραψα τὸν οὐ γεγραμμένον
+            ἦχον καὶ τόνον.}\end{latin}%
+            } πίσινον.
       - modern:
         - de: Der Nachtisch.
-        grc: τὸ ἐπίδειπνον.
+        grc:
+          - τὸ ἐπίδειπνον.
       - modern:
         - de: Was wollen wir zum Dessert essen?
-        grc: τί ἐπιδειπνήσομεν;
+        grc:
+          - τί ἐπιδειπνήσομεν;
       - modern:
         - de: Bringen Sie noch etwas Weißbrot mit Schweizerkäse!
-        grc: παράθες ἔτι ὀλίγον τι ἄρτου πυρίνου μετὰ τυροῦ ἑλβητικοῦ!
+        grc:
+          - παράθες ἔτι ὀλίγον τι ἄρτου πυρίνου μετὰ τυροῦ ἑλβητικοῦ!
       - modern:
         - de: Es wird Kuchen gebacken.
-        grc: πόπανα πέττεται.
+        grc:
+          - πόπανα πέττεται.
       - modern:
         - de: Da haben Sie auch ein Stück Speckkuchen.
-        grc: λαβὲ καὶ πλακοῦντος πίονος τόμον.
+        grc:
+          - λαβὲ καὶ πλακοῦντος πίονος τόμον.
       - modern:
         - de: "Ich danke bestens! (Nein!)"
-        grc: κάλλιστα· ἐπαινῶ.
+        grc:
+          - κάλλιστα· ἐπαινῶ.
       - modern:
         - de: Auch ich habe genug.
-        grc: "κἀμοί γ' ἅλις."
+        grc:
+          - "κἀμοί γ' ἅλις."
       - modern:
         - de: Bringen Sie Wein! (Weiß-, Roth-.)
-        grc: "φέρ' οἶνον (λευκόν, ἐρυθρόν)."
+        grc:
+          - "φέρ' οἶνον (λευκόν, ἐρυθρόν)."
       - modern:
         - de: Der Wein hat Bouquet.
-        grc: ὀσμὴν ἔχει ὁ οἶνος ὁδί.
+        grc:
+          - ὀσμὴν ἔχει ὁ οἶνος ὁδί.
       - modern:
         - de: Ich trinke diesen Wein hier gern.
-        grc: |-
-          ἡδέως\footnote{\begin{latin}%
-          \textgreek[variant=ancient]{τῷ τυπογράφῳ ἄσκοπος τὸ γράμμα «ἡ» ἦν.}\end{latin}%
-          } πίνω τὸν οἶνον τονδί.
+        grc:
+          - |-
+            ἡδέως\footnote{\begin{latin}%
+            \textgreek[variant=ancient]{τῷ τυπογράφῳ ἄσκοπος τὸ γράμμα «ἡ» ἦν.}\end{latin}%
+            } πίνω τὸν οἶνον τονδί.
       - modern:
         - de: Es ist noch Wein übrig geblieben.
-        grc: οἶνός ἐστι περιλελειμμένος.
+        grc:
+          - οἶνός ἐστι περιλελειμμένος.
       - modern:
         - de: Wie viel etwa?
-        grc: πόσον τι;
+        grc:
+          - πόσον τι;
       - modern:
         - de: Über die Hälfte.
-        grc: ὑπὲρ ἥμισυ.
+        grc:
+          - ὑπὲρ ἥμισυ.
       - modern:
         - de: Was soll ich damit machen?
-        grc: τί χρήσομαι τούτῳ;
+        grc:
+          - τί χρήσομαι τούτῳ;

@@ -6,383 +6,505 @@ sections:
     conversations:
       - modern:
         - de: Werden Sie mir wohl sagen können, wo hier Herr M. wohnt?
-        grc: ἔχοις ἂν φράσαι μοι (τόν κύριον{*}) Μύλλερον, ὅπου ἐνθάδε οἰκεῖ;
+        grc:
+          - ἔχοις ἂν φράσαι μοι (τόν κύριον{*}) Μύλλερον, ὅπου ἐνθάδε οἰκεῖ;
       - modern:
         - de: Ich möchte gern erfahren, wo Müller wohnt.
-        grc: ἡδέως ἂν μάθοιμι, ποῦ Μύλλερος οἰκεῖ.
+        grc:
+          - ἡδέως ἂν μάθοιμι, ποῦ Μύλλερος οἰκεῖ.
       - modern:
         - de: Das möchte ich gern wissen.
-        grc: τοῦτ᾽ με δίδαξον!
+        grc:
+          - τοῦτ᾽ με δίδαξον!
       - modern:
         - de: In der Leipziger Straße.
-        grc: ἐν τῇ Λειψιανῇ{*} ὁδῷ.
+        grc:
+          - ἐν τῇ Λειψιανῇ{*} ὁδῷ.
       - modern:
         - de: Er zieht aus.
-        grc: μετοικίζεται.
+        grc:
+          - μετοικίζεται.
       - modern:
         - de: Er ist aus\textcompwordmark{}gezogen.
-        grc: φροῦδός ἐστιν ἐξῳκισμένος.
+        grc:
+          - φροῦδός ἐστιν ἐξῳκισμένος.
       - modern:
         - de: Da sieht er zum Fenster heraus!
-        grc: ὁδὶ ἐκ θυρίδος παρακύπτει.
+        grc:
+          - ὁδὶ ἐκ θυρίδος παρακύπτει.
       - modern:
         - de: Das ist er.
-        grc: \emph{οὗτός ἐστ’ ἐκεῖνος.}
+        grc:
+          - \emph{οὗτός ἐστ’ ἐκεῖνος.}
       - modern:
         - de: Wer klopft?
-        grc: τίς ἐσθ’ ὁ τὴν θύραν κόπτων;
+        grc:
+          - τίς ἐσθ’ ὁ τὴν θύραν κόπτων;
       - modern:
         - de: "Mach' die Thür auf!"
-        grc: ἄνοιγε τὴν θύραν!
+        grc:
+          - ἄνοιγε τὴν θύραν!
       - modern:
         - de: "Mach' doch auf!"
-        grc: οὐκ ἀνοίξεις;
+        grc:
+          - οὐκ ἀνοίξεις;
       - modern:
         - de: "Mach' endlich die Thür auf!"
-        grc: ἄνοιγ’ \emph{ἀνύσας} τὴν θύραν.
+        grc:
+          - ἄνοιγ’ \emph{ἀνύσας} τὴν θύραν.
       - modern:
         - de: Wer ist da?
-        grc: τίς οὗτος;
+        grc:
+          - τίς οὗτος;
       - modern:
         - de: Melden Sie mich!
-        grc: εἰσάγγειλον.
+        grc:
+          - εἰσάγγειλον.
       - modern:
         - de: Ich weiß Ihren Namen nicht genau.
-        grc: οὐκ οἶδ’ ἀκριβῶς σου τοὔνομα.
+        grc:
+          - οὐκ οἶδ’ ἀκριβῶς σου τοὔνομα.
       - modern:
         - de: Ist Müller zu Hause?
-        grc: \emph{ἔνδον} ἐστὶ Μύλλερος;
+        grc:
+          - \emph{ἔνδον} ἐστὶ Μύλλερος;
       - modern:
         - de: Nein, er ist nicht zu Hause.
-        grc: οὐκ ἔνδον ἐστίν.
+        grc:
+          - οὐκ ἔνδον ἐστίν.
       - modern:
         - de: \emph{Augenblicklich} ist er nicht zu Hause.
-        grc: οὐκ ἔνδον ὢν τυγχάνει.
+        grc:
+          - οὐκ ἔνδον ὢν τυγχάνει.
       - modern:
         - de: Er ist spazieren.
-        grc: περίπατον ποιεῖται.
+        grc:
+          - περίπατον ποιεῖται.
       - modern:
         - de: So?
-        grc: ἄληρες;
+        grc:
+          - ἄληρες;
       - modern:
         - de: Er steht an der Thür.
-        grc: ἐπὶ ταῖς θύραις ἕστηκεν.
+        grc:
+          - ἐπὶ ταῖς θύραις ἕστηκεν.
       - modern:
         - de: Er ist im Begriff aus\textcompwordmark{}zugehen.
-        grc: μέλλει \emph{θύραζε βαδίζειν.}
+        grc:
+          - μέλλει \emph{θύραζε βαδίζειν.}
   - title:
       de: Am Morgen
     conversations:
       - modern:
         - de: Er ist im Schlafzimmer.
-        grc: ἐστὶν ἐν τῷ δωματίῳ.
+        grc:
+          - ἐστὶν ἐν τῷ δωματίῳ.
       - modern:
         - de: Das Bett.
-        grc: τὰ \emph{στρώματα.}
+        grc:
+          - τὰ \emph{στρώματα.}
       - modern:
         - de: Im Bette.
-        grc: ἐν τοῖς στρώμασιν.
+        grc:
+          - ἐν τοῖς στρώμασιν.
       - modern:
         - de: Er schläft eben.
-        grc: ἀρτίως εὕδει.
+        grc:
+          - ἀρτίως εὕδει.
       - modern:
         - de: "Du, wach' auf!"
-        grc: οὗτος, ἐγείρου!
+        grc:
+          - οὗτος, ἐγείρου!
       - modern:
         - de: "Steh' auf!"
-        grc: ἀνίστασο!
+        grc:
+          - ἀνίστασο!
       - modern:
         - de: Zünde Licht an!
-        grc: ἅπτε λύχνον!
+        grc:
+          - ἅπτε λύχνον!
       - modern:
         - de: Sehr wohl.
-        grc: ταῦτα.
+        grc:
+          - ταῦτα.
       - modern:
         - de: Hast du dich gewaschen?
-        grc: ἆρ᾽ ἀπονένιψαι;
+        grc:
+          - ἆρ᾽ ἀπονένιψαι;
       - modern:
         - de: Kannst du \emph{ohne} Handtuch zurechtkommen?
-        grc: ἀνύτεις χειρόμακτρον οὐκ ἔχων;
+        grc:
+          - ἀνύτεις χειρόμακτρον οὐκ ἔχων;
       - modern:
         - de: Du siehst schrecklich schmutzig aus.
-        grc: αὐχμεῖς αἰσχρῶς.
+        grc:
+          - αὐχμεῖς αἰσχρῶς.
       - modern:
         - de: Er hat sich nicht gebadet.
-        grc: οὐκ ἐλούσατο.
+        grc:
+          - οὐκ ἐλούσατο.
       - modern:
         - de: "Wisch' den Tisch ab!"
-        grc: ἀποκάθαιρε τὴν τράπεζαν!
+        grc:
+          - ἀποκάθαιρε τὴν τράπεζαν!
       - modern:
         - de: Ich will zu hause bleiben.
-        grc: οἴκοι μενῶ.
+        grc:
+          - οἴκοι μενῶ.
       - modern:
         - de: Wir wollen zu Hause bei mir studiren.
-        grc: ἔνδον παρ᾽ ἐμοὶ διατρίψομεν (περὶ τὰ μαθήματα).
+        grc:
+          - ἔνδον παρ᾽ ἐμοὶ διατρίψομεν (περὶ τὰ μαθήματα).
       - modern:
         - de: Bei dir?
-        grc: παρὰ σοί;
+        grc:
+          - παρὰ σοί;
       - modern:
         - de: Ganz recht.
-        grc: πάνυ.
+        grc:
+          - πάνυ.
       - modern:
         - de: Du warst gestern bei mir.
-        grc: παρ᾽ ἐμοὶ χθὲς ἦσθα.
+        grc:
+          - παρ᾽ ἐμοὶ χθὲς ἦσθα.
       - modern:
         - de: Kommt heute in meine Wohnung!
-        grc: ἥκετ᾽ \emph{εἰς ἐμοῦ} τήμερον!
+        grc:
+          - ἥκετ᾽ \emph{εἰς ἐμοῦ} τήμερον!
   - title:
       de: Sitzen. Stehen
     conversations:
       - modern:
         - de: "Leg' ab!"
-        grc: ἀποδύου!
+        grc:
+          - ἀποδύου!
       - modern:
         - de: Ich ziehe mich schon aus.
-        grc: καὶ δὴ ἐκδύομαι.
+        grc:
+          - καὶ δὴ ἐκδύομαι.
       - modern:
         - de: Wohin wollen wir uns setzen?
-        grc: \emph{ποῦ} καθιζησόμεθα;
+        grc:
+          - \emph{ποῦ} καθιζησόμεθα;
       - modern:
         - de: Nehmt Platz!
-        grc: κάθησθε!
+        grc:
+          - κάθησθε!
       - modern:
         - de: Setzen Sie sich!
         - de: "Setz' dich nieder!"
-        grc: κάθιζε!
+        grc:
+          - κάθιζε!
       - modern:
         - de: Wenn du erlaubst!
-        grc: εἰ ταῦτα \emph{δοκεῖ!}
+        grc:
+          - εἰ ταῦτα \emph{δοκεῖ!}
       - modern:
         - de: So, ich sitze.
-        grc: ἰδού· κάθημαι.
+        grc:
+          - ἰδού· κάθημαι.
       - modern:
         - de: Ich sitze schon!
-        grc: κάθημαι ᾽γὼ πάλαι.
+        grc:
+          - κάθημαι ᾽γὼ πάλαι.
       - modern:
         - de: Du hast keinen guten Platz.
-        grc: οὐ καθίζεις ἐν καλῷ.
+        grc:
+          - οὐ καθίζεις ἐν καλῷ.
       - modern:
         - de: Hast du nichts zu essen?
-        grc: οὐκ ἔχεις καταφαγεῖν;
+        grc:
+          - οὐκ ἔχεις καταφαγεῖν;
       - modern:
         - de: \emph{Darf ich} dir ein Abendbrot vorsetzen?
-        grc: βούλει παραθῶ σοι δόρπον.
+        grc:
+          - βούλει παραθῶ σοι δόρπον.
       - modern:
         - de: Ich bitte nur um ein Stück Brot und Fleisch.
-        grc: αἰτῶ λαβεῖν τιν᾽ ἄρτον καὶ κρέας.!
+        grc:
+          - αἰτῶ λαβεῖν τιν᾽ ἄρτον καὶ κρέας.!
       - modern:
         - de: Ich habe mir zu trinken \emph{mitgebracht}.
-        grc: \emph{ἥκω φέρων} πιεῖν.
+        grc:
+          - \emph{ἥκω φέρων} πιεῖν.
       - modern:
         - de: Gieb mir einmal zu trinken!
-        grc: δός μοι πιεῖν.
+        grc:
+          - δός μοι πιεῖν.
       - modern:
         - de: Gleich.
-        grc: ἰδού.
+        grc:
+          - ἰδού.
       - modern:
         - de: Es ist unrecht, daß du hier sitzest.
-        grc: ἀδικεῖς ἐνθάδε καθήμενος.
+        grc:
+          - ἀδικεῖς ἐνθάδε καθήμενος.
       - modern:
         - de: "Steh' \\emph{wieder} auf!"
-        grc: ἀνίστασο!
+        grc:
+          - ἀνίστασο!
       - modern:
         - de: "So steh' doch schnell auf, ehe dich jemand sieht!"
-        grc: ούκουν ἀναστήσει ταχύ, πρίν τινά σ᾽ ἰδεῖν;
+        grc:
+          - ούκουν ἀναστήσει ταχύ, πρίν τινά σ᾽ ἰδεῖν;
       - modern:
         - de: "Steh' gerade!"
-        grc: ἀνίστασο ὀρθός.
+        grc:
+          - ἀνίστασο ὀρθός.
       - modern:
         - de: "\\emph{Bleib'} stehen!"
-        grc: στῆθι.
+        grc:
+          - στῆθι.
       - modern:
         - de: Zu Befehl, Herr Hauptmann!
-        grc: ταῦτα, ὦ λοχαγέ!
+        grc:
+          - ταῦτα, ὦ λοχαγέ!
   - title:
       de: Frau und Kinder
     conversations:
       - modern:
         - de: Sie hat einen kleinen Jungen bekommen.
-        grc: ἄρρεν ἔτεκε παιδίον.
+        grc:
+          - ἄρρεν ἔτεκε παιδίον.
       - modern:
         - de: Er hat viele kleine Kinder zu ernähren.
-        grc: βόσκει μικρὰ πολλὰ παιδία.
+        grc:
+          - βόσκει μικρὰ πολλὰ παιδία.
       - modern:
         - de: Wo sind die Kinder?
-        grc: ποῦ τὰ παιδία;
+        grc:
+          - ποῦ τὰ παιδία;
       - modern:
         - de: Wo ist meine Frau hin?
-        grc: ποῖ ἡ γυνὴ φρούδη ᾽στίν;
+        grc:
+          - ποῖ ἡ γυνὴ φρούδη ᾽στίν;
       - modern:
         - de: Wer kann mir sagen, wo meine Frau ist?
-        grc: τίς ἂν φράσειε, ποῦ ᾽στι ἡ γυνή;
+        grc:
+          - τίς ἂν φράσειε, ποῦ ᾽στι ἡ γυνή;
       - modern:
         - de: Sie wäscht und päppelt das Kind.
-        grc: λούει καὶ ψωμίζει τὸ παιδίον.
+        grc:
+          - λούει καὶ ψωμίζει τὸ παιδίον.
       - modern:
         - de: Die Kinder sind gewaschen.
-        grc: ἀπονενιμμένα ἐστὶ τὰ παιδία.
+        grc:
+          - ἀπονενιμμένα ἐστὶ τὰ παιδία.
       - modern:
         - de: Sie bringt die Kinder zu Bette.
-        grc: κατακλίνει τὰ παιδία.
+        grc:
+          - κατακλίνει τὰ παιδία.
       - modern:
         - de: Es ist \emph{höchste} Zeit.
-        grc: καιρὸς δέ.
+        grc:
+          - καιρὸς δέ.
       - modern:
         - de: Ihr habt lange genug gespielt.
-        grc: ἱκανὸν κρόνον ἐπαίζετε.
+        grc:
+          - ἱκανὸν κρόνον ἐπαίζετε.
       - modern:
         - de: Sie würfeln. — Um was?
-        grc: κυβεύουσιν. — περὶ τοῦ;
+        grc:
+          - κυβεύουσιν. — περὶ τοῦ;
       - modern:
         - de: Sei artig!
-        grc: κοσμίως ἔχε!
+        grc:
+          - κοσμίως ἔχε!
       - modern:
         - de: "Thu' das ja nicht!"
-        grc: μηδαμῶς τοῦτ᾽ ἐργάσῃ!
+        grc:
+          - μηδαμῶς τοῦτ᾽ ἐργάσῃ!
       - modern:
         - de: "Da, schau' einmal!"
-        grc: ἰδού· θέασαι!
+        grc:
+          - ἰδού· θέασαι!
       - modern:
         - de: Der Onkel hat hübsche Geschenke mitgebracht.
-        grc: ὁ θεῖος ἥκει φέρων δῶρα χαρίεντα.!
+        grc:
+          - ὁ θεῖος ἥκει φέρων δῶρα χαρίεντα.!
       - modern:
         - de: Lies\textcompwordmark{}chen klatscht vor Freude in die Hände.
-        grc: Λουίσιον{*} τὼ χεῖρ᾽ ἀνακροτεῖ ὑφ᾽ ἡδονῆς.!
+        grc:
+          - Λουίσιον{*} τὼ χεῖρ᾽ ἀνακροτεῖ ὑφ᾽ ἡδονῆς.!
       - modern:
         - de: Meine Frau ist nicht zu sehen.
-        grc: ἡ δὲ γυνὴ \emph{φαίνεται.}
+        grc:
+          - ἡ δὲ γυνὴ \emph{φαίνεται.}
       - modern:
         - de: Suchst du mich etwa?
-        grc: μῶν ἐμὲ ζητεῖς;
+        grc:
+          - μῶν ἐμὲ ζητεῖς;
       - modern:
         - de: Komm her, mein goldiger Schatz!
-        grc: δεῦρό νυν, ὦ χρυσίον.
+        grc:
+          - δεῦρό νυν, ὦ χρυσίον.
   - title:
       de: Kinderkrawall
     conversations:
       - modern:
         - de: Das ist Unrecht von dir.
-        grc: ταῦτ’ οὐκ ὀρθῶς ποιεῖς.
+        grc:
+          - ταῦτ’ οὐκ ὀρθῶς ποιεῖς.
       - modern:
         - de: Das ist unrecht, daß du mir das thust.
-        grc: ἀδικεῖς γέ με τοῦτο ποιῶν.
+        grc:
+          - ἀδικεῖς γέ με τοῦτο ποιῶν.
       - modern:
         - de: "Wenn du mich ärgern willst, so soll dir's schlecht gehen!"
-        grc: ἤν τι λυπῇς με, οὐ χαιρήσεις!
+        grc:
+          - ἤν τι λυπῇς με, οὐ χαιρήσεις!
       - modern:
         - de: "Gieb mir's wieder!"
-        grc: ἀλλ’ ἀπόδος αὐτό!
+        grc:
+          - ἀλλ’ ἀπόδος αὐτό!
       - modern:
         - de: Oder du sollst sehen (= ich ergreife andere Maßregeln)!
-        grc: ἢ τἀπὶ τούτοις δρῶ.
+        grc:
+          - ἢ τἀπὶ τούτοις δρῶ.
       - modern:
         - de: Soll ich dir eine Ohrfeige geben?
-        grc: τὴν γνάθον βούλει θένω;
+        grc:
+          - τὴν γνάθον βούλει θένω;
       - modern:
         - de: Das sollst du nicht umsonst gesagt haben!
-        grc: οὐ μὰ ∆ία σὺ καταπροίξει τοῦτο \emph{λέγων!}
+        grc:
+          - οὐ μὰ ∆ία σὺ καταπροίξει τοῦτο \emph{λέγων!}
       - modern:
         - de: Was hast du vor?
-        grc: τί μέλλεις δρᾶν;
+        grc:
+          - τί μέλλεις δρᾶν;
       - modern:
         - de: Du sollst gehörige Prügel bekommen.
-        grc: κλαύσει μακρά.
+        grc:
+          - κλαύσει μακρά.
       - modern:
         - de: "(Daß du berstest!) Hol' dich der Kuckuck!"
-        grc: διαρραγείης!
+        grc:
+          - διαρραγείης!
       - modern:
         - de: Da hast du eine Backpfeife!
-        grc: οὑτοσί σοι κόνδυλος!
+        grc:
+          - οὑτοσί σοι κόνδυλος!
       - modern:
         - de: "Zum Donnerwetter!Immer hau' ihn!"
-        grc: ἐς κόρακας!
+        grc:
+          - ἐς κόρακας!
       - modern:
         - de: "Wart', ich will dir's weisen!"
-        grc: παῖε παῖε!
+        grc:
+          - παῖε παῖε!
       - modern:
         - de: Kommt mir nicht zu nahe!
-        grc: μὴ πρόσιτε.
+        grc:
+          - μὴ πρόσιτε.
       - modern:
         - de: Hurrah!
-        grc: ἀλαλαί!
+        grc:
+          - ἀλαλαί!
       - modern:
         - de: Jetzt haben wir ihn!
-        grc: νῦν ἔχεται μέσος!
+        grc:
+          - νῦν ἔχεται μέσος!
       - modern:
         - de: Wollt ihr weg!
-        grc: οὐχὶ σοῦσθε;
+        grc:
+          - οὐχὶ σοῦσθε;
       - modern:
         - de: Wir sollt ihr nicht wieder kommen!
-        grc: οὐδὲν ἄν με φλαῦρον ἔτι ἐργάσαισθε.
+        grc:
+          - οὐδὲν ἄν με φλαῦρον ἔτι ἐργάσαισθε.
   - title:
       de: Kinderzucht
     conversations:
       - modern:
         - de: Was ist das für ein Lärm da drin?
-        grc: τίς οὗτος ὁ ἔνδον θόρυβος;
+        grc:
+          - τίς οὗτος ὁ ἔνδον θόρυβος;
       - modern:
         - de: Schreit nicht so!
-        grc: μὴ βοᾶτε! — μὴ βοᾶτε μηδαμῶς! — μὴ κεκράγατε!
+        grc:
+          - μὴ βοᾶτε! — μὴ βοᾶτε μηδαμῶς! — μὴ κεκράγατε!
       - modern:
         - de: So hört doch endlich!
-        grc: οὐκ ἄκούσεσθε ἐτεόν;
+        grc:
+          - οὐκ ἄκούσεσθε ἐτεόν;
       - modern:
         - de: "Was giebt's?"
-        grc: τί ἔστιν;
+        grc:
+          - τί ἔστιν;
       - modern:
         - de: Was ist los? Um was handelt es sich?
-        grc: τί τὸ πρᾶγμα;
+        grc:
+          - τί τὸ πρᾶγμα;
       - modern:
         - de: Wer schreit \emph{nach mir?}
-        grc: τίς ὁ βοῶν με;
+        grc:
+          - τίς ὁ βοῶν με;
       - modern:
         - de: "Soll ich's sagen?"
-        grc: εἴπω;
+        grc:
+          - εἴπω;
       - modern:
         - de: Erzähle es mir!
-        grc: κάτειπέ μοι.
+        grc:
+          - κάτειπέ μοι.
       - modern:
         - de: Karl hat uns geprügelt.
-        grc: Κάρολος πληγὰς ἡμῖν ἐνέβαλλεν.
+        grc:
+          - Κάρολος πληγὰς ἡμῖν ἐνέβαλλεν.
       - modern:
         - de: "Ist's möglich?"
-        grc: τί φής!
+        grc:
+          - τί φής!
       - modern:
         - de: Und was war dir Ursache davon?
-        grc: ἡ δ’ αἰτία τίς ἦν;
+        grc:
+          - ἡ δ’ αἰτία τίς ἦν;
       - modern:
         - de: Warum?
-        grc: τιή;
+        grc:
+          - τιή;
       - modern:
         - de: So hitzig?
-        grc: ὡς ὀξύθυμος!
+        grc:
+          - ὡς ὀξύθυμος!
       - modern:
         - de: Das ist immer so deine Art!
-        grc: οὗτος ὁ τρόπος πανταχοῦ!
+        grc:
+          - οὗτος ὁ τρόπος πανταχοῦ!
       - modern:
         - de: Ich bin nicht schuld daran.
-        grc: οὐκ ἐγὼ τούτων αἴτιος.
+        grc:
+          - οὐκ ἐγὼ τούτων αἴτιος.
       - modern:
         - de: Ja mit mir hat er es ebenso gemacht.
-        grc: νὴ ∆ία, κἀμὲ τοῦτ’ ἔδρασε ταὐτόν.
+        grc:
+          - νὴ ∆ία, κἀμὲ τοῦτ’ ἔδρασε ταὐτόν.
       - modern:
         - de: Du willst es in Abrede stellen?
-        grc: ἀρνεῖ;
+        grc:
+          - ἀρνεῖ;
       - modern:
         - de: Nicht gemuckst!
-        grc: μὴ γρύξῃς!
+        grc:
+          - μὴ γρύξῃς!
       - modern:
         - de: Daß du mir keine Lügen sagst!
-        grc: ὅπως ἐρεῖς μηδὲν ψεῦδος!
+        grc:
+          - ὅπως ἐρεῖς μηδὲν ψεῦδος!
       - modern:
         - de: Du verdienst Schläge.
-        grc: ἄξιος εἶ πληγὰς λαβεῖν.
+        grc:
+          - ἄξιος εἶ πληγὰς λαβεῖν.
       - modern:
         - de: "Du, halt' einmal! Wo rennst du hin?"
-        grc: ἐπίσχες, οὗτος! ποῖ θεῖς;
+        grc:
+          - ἐπίσχες, οὗτος! ποῖ θεῖς;
       - modern:
         - de: Sei nicht böse, lieber Vater!
-        grc: μηδὲν ἀγανάακτει, ὦ πάτερ!
+        grc:
+          - μηδὲν ἀγανάακτει, ὦ πάτερ!
       - modern:
         - de: Man muß sich todtärgern!
-        grc: οἴμοι, διαρραγήσομαι.
+        grc:
+          - οἴμοι, διαρραγήσομαι.
