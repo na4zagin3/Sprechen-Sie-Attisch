@@ -377,7 +377,7 @@ sections:
       - modern:
         - de: \myafterpagetrue\mysetaligntext{german}{Kaufe mir{ }}\mysetalign{german}Äpfel.
         grc:
-          - \mysetaligntext{greek}{\textgreek[variant=ancient]{ἀγόρασόν μοι}{ }}\mysetalign*{greek}\textgreek[variant=ancient]{μῆλα.}
+          - \mysetaligntext{greek}{\textgreek{ἀγόρασόν μοι}{ }}\mysetalign*{greek}\textgreek{μῆλα.}
       - modern:
         - de: \bgroup\mysetalign{german}Aprikosen.\par\egroup
         grc:
@@ -417,11 +417,11 @@ sections:
       - modern:
         - de: \bgroup\mysetalign{german}Pflaumen.\par\egroup
         grc:
-          - \bgroup\mysetalign*{greek}κοκκύμηλα (\textgerman[spelling=old,babelshorthands=true]{Kuckucks\textcompwordmark{}äpfel}).\par\egroup
+          - \bgroup\mysetalign*{greek}κοκκύμηλα (\textgerman{Kuckucks\textcompwordmark{}äpfel}).\par\egroup
       - modern:
         - de: \bgroup\mysetalign{german}Apfelsinen.\par\egroup
         grc:
-          - \bgroup\mysetalign*{greek}πορτοκάλια{*}. (\textgerman[spelling=old,babelshorthands=true]{Früchte aus Portugal.})\par\egroup
+          - \bgroup\mysetalign*{greek}πορτοκάλια{*}. (\textgerman{Früchte aus Portugal.})\par\egroup
       - modern:
         - de: \bgroup\mysetalign{german}Johannis\textcompwordmark{}beeren.\par\egroup
         grc:
@@ -446,8 +446,8 @@ sections:
         - de: Was kostet jetzt die Butter?
         grc:
           - |-
-            πῶς ὁ βούτυρος (τὸ βούτυρον) το\footnote{\begin{latin}%
-            ? sic. \textgreek[variant=ancient]{οὐκ οἶδα τί τὸ λέξις ἐστί.}\end{latin}%
+            πῶς ὁ βούτυρος (τὸ βούτυρον) το\footnote{\textlatin{%
+            ? sic. \textgreek{οὐκ οἶδα τί τὸ λέξις ἐστί.}}%
             } νῦν ὤνιος.
       - modern:
         - de: Sie ist wohlfeil.

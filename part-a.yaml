@@ -68,7 +68,7 @@ sections:
         - de: "Giebt's was Neues?"
           ja: 何か新しいことはありませんか？
         grc:
-          - λέγεται τί καινόν; (νεώτερον, \textgerman[spelling=old,babelshorthands=true]{Schlimmes})
+          - λέγεται τί καινόν; (νεώτερον, \textgerman{Schlimmes})
 
       - modern:
         - de: Guten Abend, meine Herren (meine Damen)! Meine (jungen) Damen!
@@ -244,9 +244,7 @@ sections:
           ja: 頭痛がする。
         grc:
           - |-
-            ἀλγῶ τὴν κεφαλήν\footnote{\begin{latin}%
-            orig. \textgreek[variant=ancient]{κεφαλὴν}\end{latin}%
-            }!
+            ἀλγῶ τὴν κεφαλήν\footnote{\textlatin{orig. \textgreek{κεφαλὴν}}}!
 
       - modern:
         - de: Sie haben jedenfalls Katzenjammer.
@@ -358,7 +356,7 @@ sections:
         - de: Gute Nacht!
           ja: お休み！
         grc:
-          - "ὑγίαινε!\\textgerman[spelling=old,babelshorthands=true]{ (Auch am Morgen beim Abschied).}"
+          - "ὑγίαινε!\\textgerman{ (Auch am Morgen beim Abschied).}"
   - title:
       de: Ich bitte
       ja: すみません！
@@ -900,9 +898,9 @@ sections:
         - de: Heute.
         grc:
           - |-
-            τῇδε τῇ ἡμέρᾳ. --- τήμερον\footnote{\begin{latin}%
-            \textgreek[variant=ancient]{ὁ τυπογράφος ἔγραψα τὸν οὐ γεγραμμένον
-            τόνον.}\end{latin}%
+            τῇδε τῇ ἡμέρᾳ. --- τήμερον\footnote{\textlatin{%
+            \textgreek{ὁ τυπογράφος ἔγραψα τὸν οὐ γεγραμμένον
+            τόνον.}}%
             }.
       - modern:
         - de: Gestern.
@@ -920,7 +918,7 @@ sections:
         - de: Vorgestern.
         grc:
           - |-
-            τρίτην ἡμέραν. (\textgerman[spelling=old,babelshorthands=true]{auch}
+            τρίτην ἡμέραν. (\textgerman{auch}
             νεωστί).
   - title:
       de: Jetzt\textcompwordmark{}zeit. Feste
@@ -937,9 +935,9 @@ sections:
         - de: Auf welchen Tag?
         grc:
           - |-
-            ἐς\footnote{\begin{latin}%
-            \textgreek[variant=ancient]{ὁ τυπογράφος θαυμάζω τοῦ ἑνεκα γέγραφε
-            οὐ «εἰς» ὃν Ἀττικοὶ ἔχραον, ἀλλὰ «ἐς» ὃν Ἰωνικοί.}\end{latin}%
+            ἐς\footnote{\textlatin{%
+            \textgreek{ὁ τυπογράφος θαυμάζω τοῦ ἑνεκα γέγραφε
+            οὐ «εἰς» ὃν Ἀττικοὶ ἔχραον, ἀλλὰ «ἐς» ὃν Ἰωνικοί.}}%
             } τίνα ἡμέραν.
       - modern:
         - de: Für sogleich.
@@ -1067,9 +1065,9 @@ sections:
         - de: Wir haben Nord-, Süd-, Ost-, Westwind.
         grc:
           - |-
-            ἄνεμος γίγνεται βόρειος, νότιος\footnote{\begin{latin}%
-            \textgreek[variant=ancient]{ὁ τυπογράφος ἔγραψα τὸν οὐ γεγραμμένον
-            τόνον.}\end{latin}%
+            ἄνεμος γίγνεται βόρειος, νότιος\footnote{\textlatin{%
+            \textgreek{ὁ τυπογράφος ἔγραψα τὸν οὐ γεγραμμένον
+            τόνον.}}%
             }, ἀνατολικός, δυτικός.!
       - modern:
         - de: Es umwölkt sich.
@@ -1146,9 +1144,9 @@ sections:
         - de: Wann reisen Sie nach Berlin?
         grc:
           - |-
-            πότε \emph{ἄπει} εἰς Βερόλινον{*} (Λόνδινον, Βιέννην{*} \textgerman[spelling=old,babelshorthands=true]{Wien,}
+            πότε \emph{ἄπει} εἰς Βερόλινον{*} (Λόνδινον, Βιέννην{*} \textgerman{Wien,}
             Γαστάϊν{*} , Παρισίους, Πετρούπολιν{*}, εἰς Ἑλβητίαν, Κίσσιγγεν{*},
-            Δρέσδην{*}, Βρυξέλας{*}, Μόναχον \textgerman[spelling=old,babelshorthands=true]{München});
+            Δρέσδην{*}, Βρυξέλας{*}, Μόναχον \textgerman{München});
       - modern:
         - de: Um 12. November.
         grc:
@@ -1169,8 +1167,8 @@ sections:
         - de: Um vier Uhr mit dem Bahnzuge.
         grc:
           - |-
-            τῇ τετάρτῃ ὥρᾳ χρώμενος τῇ ἁμαξοστοιχίᾳ\footnote{\begin{latin}%
-            \textgreek[variant=ancient]{τῷ τυπογράφῳ ἄσκοπος τὸ γράμμα «ἁ» ἦν.}\end{latin}%
+            τῇ τετάρτῃ ὥρᾳ χρώμενος τῇ ἁμαξοστοιχίᾳ\footnote{\textlatin{%
+            \textgreek{τῷ τυπογράφῳ ἄσκοπος τὸ γράμμα «ἁ» ἦν.}}%
             }.{*}
       - modern:
         - de: O, dann ist es Zeit zu gehen.
@@ -1184,9 +1182,9 @@ sections:
         - de: Es wäre längst Zeit gewesen!
         grc:
           - |-
-            ὥρα\footnote{\begin{latin}%
-            \textgreek[variant=ancient]{ὁ τυπογράφος ἔγραψα τὸν οὐ γεγραμμένον
-            τόνον.}\end{latin}%
+            ὥρα\footnote{\textlatin{%
+            \textgreek{ὁ τυπογράφος ἔγραψα τὸν οὐ γεγραμμένον
+            τόνον.}}%
             } ἦν πάλαι.
       - modern:
         - de: Nun, so reisen Sie glücklich!
@@ -1712,8 +1710,8 @@ sections:
         - de: Ich rechnete darauf, daß Sie kommen mürden.
         grc:
           - |-
-            ἐλογιζόμην\footnote{\begin{latin}%
-            \textgreek[variant=ancient]{τῷ τυπογράφῳ ἄσκοπος τὸ γράμμα «ό» ἦν.}\end{latin}%
+            ἐλογιζόμην\footnote{\textlatin{%
+            \textgreek{τῷ τυπογράφῳ ἄσκοπος τὸ γράμμα «ό» ἦν.}}%
             } ἐγώ σε παρέσεσθαι.
       - modern:
         - de: Er frühstückt.
@@ -1765,9 +1763,9 @@ sections:
         - de: Aal habe ich nicht gern; lieber äße ich Geflügel.
         grc:
           - |-
-            οὐ χαίρω ἐγχέλεσιν, ἀλλ' \emph{ἥδιον}\footnote{\begin{latin}%
-            \textgreek[variant=ancient]{ὁ τυπογράφος ἔγραψα τὸν οὐ γεγραμμένον
-            ἦχον καὶ τόνον.}\end{latin}%
+            οὐ χαίρω ἐγχέλεσιν, ἀλλ' \emph{ἥδιον}\footnote{\textlatin{%
+            \textgreek{ὁ τυπογράφος ἔγραψα τὸν οὐ γεγραμμένον
+            ἦχον καὶ τόνον.}}%
             } ἂν φάγοιμι ὀρνίθεια.
       - modern:
         - de: Das esse ich am liebsten.
@@ -1828,9 +1826,9 @@ sections:
         grc:
           - |-
             καὶ χορδῆς τι\\
-            καὶ ἔτνος\footnote{\begin{latin}%
-            \textgreek[variant=ancient]{ὁ τυπογράφος ἔγραψα τὸν οὐ γεγραμμένον
-            ἦχον καὶ τόνον.}\end{latin}%
+            καὶ ἔτνος\footnote{\textlatin{%
+            \textgreek{ὁ τυπογράφος ἔγραψα τὸν οὐ γεγραμμένον
+            ἦχον καὶ τόνον.}}%
             } πίσινον.
       - modern:
         - de: Der Nachtisch.
@@ -1872,8 +1870,8 @@ sections:
         - de: Ich trinke diesen Wein hier gern.
         grc:
           - |-
-            ἡδέως\footnote{\begin{latin}%
-            \textgreek[variant=ancient]{τῷ τυπογράφῳ ἄσκοπος τὸ γράμμα «ἡ» ἦν.}\end{latin}%
+            ἡδέως\footnote{\textlatin{%
+            \textgreek{τῷ τυπογράφῳ ἄσκοπος τὸ γράμμα «ἡ» ἦν.}}%
             } πίνω τὸν οἶνον τονδί.
       - modern:
         - de: Es ist noch Wein übrig geblieben.

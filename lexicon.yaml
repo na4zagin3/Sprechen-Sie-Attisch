@@ -59,27 +59,27 @@ sections:
       - modern:
           - de: \qquad{}des Innern.
         grc:
-          - \qquad{}\textgreek[variant=ancient]{τῶν ἐσωτερικῶν.}
+          - \qquad{}\textgreek{τῶν ἐσωτερικῶν.}
       - modern:
           - de: \qquad{}der Finanzen.
         grc:
-          - \qquad{}\textgreek[variant=ancient]{τῶν οἰκονομικῶν.}
+          - \qquad{}\textgreek{τῶν οἰκονομικῶν.}
       - modern:
           - de: \qquad{}der Justiz.
         grc:
-          - \qquad{}\textgreek[variant=ancient]{τῆς δικαιοσύνης.}
+          - \qquad{}\textgreek{τῆς δικαιοσύνης.}
       - modern:
           - de: \qquad{}des Krieges.
         grc:
-          - \qquad{}\textgreek[variant=ancient]{τῶν στρατιωτικῶν.}
+          - \qquad{}\textgreek{τῶν στρατιωτικῶν.}
       - modern:
           - de: \qquad{}des Kultus.
         grc:
-          - \qquad{}\textgreek[variant=ancient]{τῶν ἐκκλησιαστικῶν.}
+          - \qquad{}\textgreek{τῶν ἐκκλησιαστικῶν.}
       - modern:
           - de: \qquad{}des öffentlichen Unterrichts.
         grc:
-          - \qquad{}\textgreek[variant=ancient]{τῆς δημοσίας ἐκπαιδεύσεως.}
+          - \qquad{}\textgreek{τῆς δημοσίας ἐκπαιδεύσεως.}
       - modern:
           - de: Der Landrath, Amts\textcompwordmark{}hauptmann.
         grc:
@@ -104,8 +104,8 @@ sections:
           - de: Die Times.
         grc:
           - |-
-            οἰ καιροί\footnote{\begin{latin}%
-            orig. \textgreek[variant=ancient]{Καιροί}\end{latin}%
+            οἰ καιροί\footnote{\textlatin{%
+            orig. \textgreek{Καιροί}}%
             }.
   - entries:
       - modern:
@@ -128,8 +128,8 @@ sections:
           - de: Die Eisenbahn.
         grc:
           - |-
-            ὁ\footnote{\begin{latin}%
-            orig. \textgreek[variant=ancient]{ο}\end{latin}%
+            ὁ\footnote{\textlatin{%
+            orig. \textgreek{ο}}%
             } σιδηρόδρομος.{*}
       - modern:
           - de: Der Gasthof, das Hotel.
@@ -238,8 +238,8 @@ sections:
           - ὁ φοιτητής.
       - modern:
           - de: |-
-              Der Tabaks\textcompwordmark{}händler.\footnote{\begin{latin}%
-              orig. \textgerman[spelling=old,babelshorthands=true]{Tabaks\textcompwordmark{}händler..}\end{latin}%
+              Der Tabaks\textcompwordmark{}händler.\footnote{\textlatin{%
+              orig. \textgerman{Tabaks\textcompwordmark{}händler..}}%
               }
         grc:
           - ὁ καπνοπώλης.{*}
@@ -478,15 +478,15 @@ sections:
           - de: Rußland.
         grc:
           - |
-            Ρωσία.{*}\footnote{\begin{latin}%
-            sic.\textgreek[variant=ancient]{ «ʼΡωσία» φαίνεταί μοι βέλτιον ἤ «Ρωσία».}\end{latin}%
+            Ρωσία.{*}\footnote{\textlatin{%
+            sic.\textgreek{ «ʼΡωσία» φαίνεταί μοι βέλτιον ἤ «Ρωσία».}}%
             }
       - modern:
           - de: Die Russen.
         grc:
           - |
-            οἱ Ρῶσοι.{*}\footnote{\begin{latin}%
-            sic.\textgreek[variant=ancient]{ «ʼΡῶσοι» φαίνεταί μοι βέλτιον ἤ «Ρῶσοι».}\end{latin}%
+            οἱ Ρῶσοι.{*}\footnote{\textlatin{%
+            sic.\textgreek{ «ʼΡῶσοι» φαίνεταί μοι βέλτιον ἤ «Ρῶσοι».}}%
             }
       - modern:
           - de: Frankreich.
@@ -555,8 +555,8 @@ sections:
           - de: Sonntag.
         grc:
           - |-
-            (ἡ\footnote{\begin{latin}%
-            orig. \textgreek[variant=ancient]{ὴ}\end{latin}%
+            (ἡ\footnote{\textlatin{%
+            orig. \textgreek{ὴ}}%
             }) κυριακή.
       - modern:
           - de: Montag.
@@ -577,7 +577,7 @@ sections:
       - modern:
           - de: Freitag.
         grc:
-          - (ἡ) παρασκευή \textgerman[spelling=old,babelshorthands=true]{(Küst\textcompwordmark{}tag)}.
+          - (ἡ) παρασκευή \textgerman{(Küst\textcompwordmark{}tag)}.
       - modern:
           - de: Sonnabend (Samstag).
         grc:

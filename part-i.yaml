@@ -40,8 +40,8 @@ sections:
         - la: Hic Rhodus, hic salta!
         grc:
           - |-
-            ἰδοὺ ἡ Ῥόδος\footnote{\begin{latin}%
-            orig. \textgreek[variant=ancient]{ʼΡόδος}\end{latin}%
+            ἰδοὺ ἡ Ῥόδος\footnote{\textlatin{%
+            orig. \textgreek{ʼΡόδος}}%
             }, ἰδοὺ καὶ τὸ πήδημα!
       - modern:
         - de: Ein trauriger Peter (Japper)!
@@ -95,7 +95,7 @@ sections:
         - de: Eile mit Weile.
         grc:
           - |-
-            σπεῦδε βραδέως!\textgerman[spelling=old,babelshorthands=true]{ (Wahlspruch
+            σπεῦδε βραδέως!\textgerman{ (Wahlspruch
             des Kaisers Augustus.)}
       - modern:
         - de: Laß dir genügen!

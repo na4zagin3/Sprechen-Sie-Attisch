@@ -211,15 +211,14 @@ sections:
             Abend noch kein Spiel gehabt!
         grc:
           - |-
-            δός τι δῆτ᾽ ἐμοὶ· οὐδὲν γὰρ πώποτ᾽ ἔλαβον ἔγωγε τῇδε τῇ\footnote{\begin{latin}%
-            \textgreek[variant=ancient]{τὸ ῥῆμα οὐ δύναμαι διαγνῶναι.}\end{latin}%
+            δός τι δῆτ᾽ ἐμοὶ· οὐδὲν γὰρ πώποτ᾽ ἔλαβον ἔγωγε τῇδε τῇ\footnote{\textgreek{%
+            τὸ ῥῆμα οὐ δύναμαι διαγνῶναι.}%
             } ἑσπέρᾳ!
       - modern:
         - de: C. Ich frage. Grün Solo!
         grc:
           - |-
-            ἐμὸν τὸ ἐρωτᾶν. τὰ φυλλεῖα αὐτὰ\footnote{\begin{latin}%
-            \textgreek[variant=ancient]{τὸ ῥῆμα οὐ δύναμαι διαγνῶναι.}\end{latin}%
+            ἐμὸν τὸ ἐρωτᾶν. τὰ φυλλεῖα αὐτὰ\footnote{\textgreek{τὸ ῥῆμα οὐ δύναμαι διαγνῶναι.}%
             } καθ᾽ αὑτά!
       - modern:
         - de: "B. Das halt' ich!"
@@ -277,8 +276,7 @@ sections:
         - de: A. Heiliges Gewitter! Hast du denn gar nichts?
         grc:
           - |-
-            ὦ Ζεῦ βασιλεῦ! οὐκ ἄρ᾽ ἔχεις\footnote{\begin{latin}%
-            \textgreek[variant=ancient]{τὸ ῥῆμα οὐ δύναμαι διαγνῶναι.}\end{latin}%
+            ὦ Ζεῦ βασιλεῦ! οὐκ ἄρ᾽ ἔχεις\footnote{\textgreek{τὸ ῥῆμα οὐ δύναμαι διαγνῶναι.}%
             } οὐδέν;
       - modern:
         - de: "C. Dieser ist unser! 'rin, was Beine hat!"
@@ -324,8 +322,8 @@ sections:
             — du bist schuld!
         grc:
           - |-
-            ἄληθες; τί δὴ παθὴν οὐχ ὑπερέβαλες\footnote{\begin{latin}%
-            orig. \textgreek[variant=ancient]{ὑπερ-|έβαλες}\end{latin}%
+            ἄληθες; τί δὴ παθὴν οὐχ ὑπερέβαλες\footnote{\textlatin{%
+            orig. \textgreek{ὑπερ-|έβαλες}}%
             } σύ; εὖ γὰρ ἐμοίησα ἔγωγε. — σὺ δὲ τούτου αἴτιος!
       - modern:
         - de: B. Das war Grand mit Vieren! Sechzig. Wer giebt?

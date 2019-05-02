@@ -8,8 +8,8 @@ sections:
         - de: Wie denken Sie über das Mädel?
         grc:
           - |-
-            τί οὖν\footnote{\begin{german}[spelling=old,babelshorthands=true]%
-            orig. \textgreek[variant=ancient]{ουν}\end{german}%
+            τί οὖν\footnote{\textlatin{%
+            orig. \textgreek{ουν}}%
             } ἐρεῖς περὶ τῆς μείρακος;
       - modern:
         - de: Alles nichts gegen meine Anna!
@@ -19,7 +19,7 @@ sections:
         - de: Die Sehnsucht nach Anna quält mich.
         grc:
           - |-
-            ἵμερός με (\textgerman[spelling=old,babelshorthands=true]{od.} πόθος
+            ἵμερός με (\textgerman{od.} πόθος
             με) διαλυμαίνεται Ἄννης.
       - modern:
         - de: Im Ernst?
@@ -61,8 +61,8 @@ sections:
         - de: Jetzt sehe ich sie endlich.
         grc:
           - |-
-            νῦν\footnote{\begin{german}[spelling=old,babelshorthands=true]%
-            orig. \textgreek[variant=ancient]{νὖν}\end{german}%
+            νῦν\footnote{\textlatin{%
+            orig. \textgreek{νὖν}}%
             } γε ἤδη καθορῶ αὐτήν.
       - modern:
         - de: Sie ist schon ziemlich lange da.
@@ -117,7 +117,7 @@ sections:
             Das ist gar \emph{nicht schön} von Ihnen, \emph{daß} Sie mich nicht
             begrüßt haben.
         grc:
-          - καλῶς γε οὐ προσεῖπάς με! \textgerman[spelling=old,babelshorthands=true]{(ironisch.)}
+          - καλῶς γε οὐ προσεῖπάς με! \textgerman{(ironisch.)}
   - title:
       de: Soll ich?
     conversations:
@@ -185,8 +185,8 @@ sections:
         - de: Haben Sie keine Angst, mein Bester!
         grc:
           - |-
-            μηδὲν δέδιτι, ὦ τᾶν\footnote{\begin{german}[spelling=old,babelshorthands=true]%
-            orig. \textgreek[variant=ancient]{τάν}\end{german}%
+            μηδὲν δέδιτι, ὦ τᾶν\footnote{\textlatin{%
+            orig. \textgreek{τάν}}%
             }.
       - modern:
         - de: Es wird Ihnen nichts passiren.
@@ -196,8 +196,8 @@ sections:
         - de: An mir soll es nicht liegen.
         grc:
           - |-
-            οὐ τοὐμὸν ἐμποδὼν ἔσται, ὦ τᾶν\footnote{\begin{german}[spelling=old,babelshorthands=true]%
-            orig. \textgreek[variant=ancient]{τάν}\end{german}%
+            οὐ τοὐμὸν ἐμποδὼν ἔσται, ὦ τᾶν\footnote{\textlatin{%
+            orig. \textgreek{τάν}}%
             }.
       - modern:
         - de: Das will ich schon besorgen.
@@ -475,8 +475,8 @@ sections:
         - de: Sie sind schuld daran!
         grc:
           - |-
-            σὺ τούτων αἴτιος\footnote{\begin{latin}%
-            orig. \textgreek[variant=ancient]{αἰτιος}\end{latin}%
+            σὺ τούτων αἴτιος\footnote{\textlatin{%
+            orig. \textgreek{αἰτιος}}%
             }.
   - title:
       de: Wie ärgerlich!

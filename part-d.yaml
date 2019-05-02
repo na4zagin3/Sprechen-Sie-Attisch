@@ -74,8 +74,8 @@ sections:
         - de: Ich werde mich hüten!
         grc:
           - |-
-            φυλάξομαι\footnote{\begin{latin}%
-            orig. \textgreek[variant=ancient]{φυλάξομαί}\end{latin}%
+            φυλάξομαι\footnote{\textlatin{%
+            orig. \textgreek{φυλάξομαί}}%
             }!
       - modern:
         - de: Den Männern ist ja nicht zu trauen!
@@ -104,8 +104,8 @@ sections:
         - de: Nur zu, erzählen Sie!
         grc:
           - |-
-            ἴθι\footnote{\begin{german}[spelling=old,babelshorthands=true]%
-            orig. \textgreek[variant=ancient]{ιθι}\end{german}%
+            ἴθι\footnote{\textlatin{%
+            orig. \textgreek{ιθι}}%
             } δὴ, λέξον.
       - modern:
         - de: Ist das wahr?
@@ -127,8 +127,8 @@ sections:
         - de: Wenn Sie wirklich die Wahrheit sprechen, so weiß ich nicht was ich sagen soll.
         grc:
           - |-
-            εἴπερ ὄντως σὺ\footnote{\begin{german}[spelling=old,babelshorthands=true]%
-            orig. \textgreek[variant=ancient]{συ}\end{german}%
+            εἴπερ ὄντως σὺ\footnote{\textlatin{%
+            orig. \textgreek{συ}}%
             } ταῦτ' ἀληθῆ λέγεις, οὐδὲν ἔχω εἰπεῖν.
       - modern:
         - de: Nach dem, was Sie sagen, muß man sie bewundern.
@@ -154,8 +154,8 @@ sections:
         - de: Ich will euch ein Märchen erzählen nämlich —
         grc:
           - |-
-            μῦθον ὑμῖν βούλομαι λέξαι οὕτως\footnote{\begin{german}[spelling=old,babelshorthands=true]%
-            orig. \textgreek[variant=ancient]{ουτως}\end{german}%
+            μῦθον ὑμῖν βούλομαι λέξαι οὕτως\footnote{\textlatin{%
+            orig. \textgreek{ουτως}}%
             }.
   - title:
       de: Ich weiß nicht

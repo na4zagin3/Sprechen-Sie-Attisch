@@ -91,7 +91,7 @@ sections:
         - de: Wirklich? Zeigen Sie einmal!
         grc:
           - |-
-            ἄληθες; ἀλλὰ δεῖξον! (\textgerman[spelling=old,babelshorthands=true]{nicht:}
+            ἄληθες; ἀλλὰ δεῖξον! (\textgerman{nicht:}
             ἀληθές;)
       - modern:
         - de: Setzen Sie sich!
@@ -162,9 +162,9 @@ sections:
             Rede gearbeitet.
         grc:
           - |-
-            οὐκ ἐκάθευδον τὴν νύκτα ἀλλὰ\footnote{\begin{latin}%
-            \textgreek[variant=ancient]{ὁ τυπογράφος ἔγραψα τὸν οὐ γεγραμμένον
-            τόνον.}\end{latin}%
+            οὐκ ἐκάθευδον τὴν νύκτα ἀλλὰ\footnote{%
+            \textgreek{ὁ τυπογράφος ἔγραψα τὸν οὐ γεγραμμένον
+            τόνον.}%
             } διεπονούμην πρὸς φῶς περὶ τὸν λόγον.
       - modern:
         - de: Ich weiß schon, wie Sie es machen.
@@ -308,9 +308,9 @@ sections:
         - de: Sagen Sie mir, was Sie meinen!
         grc:
           - |-
-            εἰπέ μοι, ὅτι\footnote{\begin{latin}%
-            \textgreek[variant=ancient]{ὁ τυπογράφος ἔγραψα τὸν οὐ γεγραμμένον
-            ἦχον.}\end{latin}%
+            εἰπέ μοι, ὅτι\footnote{%
+            \textgreek{ὁ τυπογράφος ἔγραψα τὸν οὐ γεγραμμένον
+            ἦχον.}%
             } λέγεις.
       - modern:
         - de: Was reden Sie da für verkehrtes Zeug?
@@ -448,7 +448,7 @@ sections:
         grc:
           - σκόπει τὸ ῥῆμα τοῦτο!
       - modern:
-        - de: \textgreek[variant=ancient]{ἥκω} ist gleichbedeutend mit \textgreek[variant=ancient]{κατέρχομαι.}
+        - de: \textgreek{ἥκω} ist gleichbedeutend mit \textgreek{κατέρχομαι.}
         grc:
           - ἥκω ταὐτόν ἐστι τῷ κατέρχομαι.
       - modern:
@@ -532,7 +532,7 @@ sections:
       - modern:
         - de: Ja gewiß!
         grc:
-          - ἔγωγε νὴ Δία\textgerman[spelling=old,babelshorthands=true]{.}
+          - ἔγωγε νὴ Δία.
       - modern:
         - de: Soll ich es ganz hersagen?
         grc:
@@ -553,9 +553,9 @@ sections:
         - de: Doch ich wende mich nun zu dem zweiten Act der Tragödie.
         grc:
           - |-
-            καὶ μὴν ἐπὶ τὸ δεύτερον τῆς τραγῳδίας\footnote{\begin{latin}%
-            \textgreek[variant=ancient]{ὁ τυπογράφος ἔγραψα τὸν οὐ γεγραμμένον
-            ἴοτα ὑπογραμμένον.}\end{latin}%
+            καὶ μὴν ἐπὶ τὸ δεύτερον τῆς τραγῳδίας\footnote{%
+            \textgreek{ὁ τυπογράφος ἔγραψα τὸν οὐ γεγραμμένον
+            ἴοτα ὑπογραμμένον.}%
             } μέρος τρέψομαι.
   - title:
       de: Übersetzen
@@ -576,8 +576,8 @@ sections:
         - de: Fangen Sie an, N.!
         grc:
           - |-
-            ἴθι δή\footnote{\begin{latin}%
-            orig. \textgreek[variant=ancient]{δὴ}\end{latin}%
+            ἴθι δή\footnote{\textlatin{%
+            orig. \textgreek{δὴ}}%
             }, λέγε, ὦ Ν.
       - modern:
         - de: Ich bin mit Ihrer Übersetzung zufrieden.
@@ -588,7 +588,7 @@ sections:
         grc:
           - "τίς σ' ἐδίδαξε τὴν ἑλληνικὴν φωνήν;"
       - modern:
-        - de: Fahren Sie \emph{fort!}
+        - de: "Fahren Sie \\emph{fort!}"
         grc:
           - \emph{λέγε.}
       - modern:
@@ -615,8 +615,8 @@ sections:
         - de: Nun, wie wollen Sie übersetzen?
         grc:
           - |-
-            φέρε δή\footnote{\begin{latin}%
-            orig. \textgreek[variant=ancient]{δὴ}\end{latin}%
+            φέρε δή\footnote{\textlatin{%
+            orig. \textgreek{δὴ}}%
             }, τί λέγεις;
       - modern: # ToDo, is the footnote original?
         - de: Machen Sie schnell u.\footnote{\quotedblbase und``}\ übersetzen Sie!
@@ -637,7 +637,7 @@ sections:
       - modern:
         - de: Hören Sie auf!
         grc:
-          - \emph{παῦε!}
+          - "\\emph{παῦε!}"
       - modern:
         - de: Übersetzen Sie dieses Stück auch schriftlich!.
         grc:
@@ -658,9 +658,9 @@ sections:
         - de: Wie fatal, daß ich das Heft vergessen habe.
         grc:
           - |-
-            ἐς κόρακας! ὡς ἄχθομαι, ὅτι\footnote{\begin{latin}%
-            \textgreek[variant=ancient]{τῷ τυπογράφῳ ἄσκοπος τὸ γράμμα «ι» ἦν,
-            καὶ ὁ τυπογράφος ἔγραψα τὸν οὐ γεγραμμένον τόνον.}\end{latin}%
+            ἐς κόρακας! ὡς ἄχθομαι, ὅτι\footnote{\textgreek{%
+            τῷ τυπογράφῳ ἄσκοπος τὸ γράμμα «ι» ἦν,
+            καὶ ὁ τυπογράφος ἔγραψα τὸν οὐ γεγραμμένον τόνον.}%
             } ἐπελαθόμην τοὺς χάρτας (τὸ βιβλίον) προσφέρειν.
       - modern:
         - de: "Leih' mir eine Feder und Papier!"
@@ -714,10 +714,10 @@ sections:
         grc:
           - |-
             χωρεῖ τὸ πρᾶγμα οὕτω\footnote{%
-            \textgreek[variant=ancient]{ὁ τυπογράφος ἔγραψα τὸν οὐ γεγραμμένον
+            \textgreek{ὁ τυπογράφος ἔγραψα τὸν οὐ γεγραμμένον
             ἦχον και τόνον.}%
             } πολλῷ\footnote{%
-            \textgreek[variant=ancient]{τῷ τυπογράφῳ ἄσκοπος τὸ γράμμα «ῷ» ἦν.}%
+            \textgreek{τῷ τυπογράφῳ ἄσκοπος τὸ γράμμα «ῷ» ἦν.}%
             } πᾶλλον.
       - modern:
         - de: Sei fleißig bei der Arbeit!
@@ -757,7 +757,7 @@ sections:
       - modern:
         - de: Der Mensch ist nicht unbegabt.
         grc:
-          - οὐ σκαιὸς ἄνθρωπος\footnote{orig. ἅνθρωπος}!
+          - οὐ σκαιὸς ἄνθρωπος\footnote{orig. \textgreek{ἅνθρωπος}}!
       - modern:
         - de: Er scheint mir nicht unbegabt zu sein.
         grc:
@@ -829,39 +829,39 @@ sections:
       - modern:
         - de: \myafterpagetrue\mysetaligntext{german}{(Censuren:) { }}\mysetalign{german}1.
         grc:
-          - \mysetaligntext{greek}{}\mysetalign*{greek}\textgreek[variant=ancient]{εὖγε.}
+          - \mysetaligntext{greek}{}\mysetalign*{greek}\textgreek{εὖγε.}
       - modern:
         - de: \bgroup\mysetalign{german}1b.\par\egroup
         grc:
-          - \bgroup\mysetalign*{greek}\textgreek[variant=ancient]{καλῶς.}\par\egroup
+          - \bgroup\mysetalign*{greek}\textgreek{καλῶς.}\par\egroup
       - modern:
         - de: \bgroup\mysetalign{german}2a.\par\egroup
         grc:
-          - \bgroup\mysetalign*{greek}\textgreek[variant=ancient]{ἀκριβῶς.}\par\egroup
+          - \bgroup\mysetalign*{greek}\textgreek{ἀκριβῶς.}\par\egroup
       - modern:
         - de: \bgroup\mysetalign{german}2.\par\egroup
         grc:
-          - \bgroup\mysetalign*{greek}\textgreek[variant=ancient]{ὀρθῶς.}\par\egroup
+          - \bgroup\mysetalign*{greek}\textgreek{ὀρθῶς.}\par\egroup
       - modern:
         - de: \bgroup\mysetalign{german}2b.\par\egroup
         grc:
-          - \bgroup\mysetalign*{greek}\textgreek[variant=ancient]{ἐπιεικῶς.}\par\egroup
+          - \bgroup\mysetalign*{greek}\textgreek{ἐπιεικῶς.}\par\egroup
       - modern:
         - de: \bgroup\mysetalign{german}3a.\par\egroup
         grc:
-          - \bgroup\mysetalign*{greek}\textgreek[variant=ancient]{μετρίως.}\par\egroup
+          - \bgroup\mysetalign*{greek}\textgreek{μετρίως.}\par\egroup
       - modern:
         - de: \bgroup\mysetalign{german}3.\par\egroup
         grc:
-          - \bgroup\mysetalign*{greek}\textgreek[variant=ancient]{μέσως.}\par\egroup
+          - \bgroup\mysetalign*{greek}\textgreek{μέσως.}\par\egroup
       - modern:
         - de: \bgroup\mysetalign{german}3b.\par\egroup
         grc:
-          - \bgroup\mysetalign*{greek}\textgreek[variant=ancient]{φαύλως.}\par\egroup
+          - \bgroup\mysetalign*{greek}\textgreek{φαύλως.}\par\egroup
       - modern:
         - de: \bgroup\mysetalign{german}4.\par\egroup
         grc:
-          - \bgroup\mysetalign*{greek}\textgreek[variant=ancient]{οὐκ ὀρθῶς.}\par\egroup
+          - \bgroup\mysetalign*{greek}\textgreek{οὐκ ὀρθῶς.}\par\egroup
   - title:
       de: Singen
     conversations:
@@ -873,8 +873,8 @@ sections:
         - de: Ich kann nicht singen.
         grc:
           - |-
-            μελῳδεῖν οὐκ ἐπίσταμαι\footnote{\begin{latin}%
-            orig. \textgreek[variant=ancient]{επίσταμαι}\end{latin}%
+            μελῳδεῖν οὐκ ἐπίσταμαι\footnote{\textlatin{%
+            orig. \textgreek{επίσταμαι}}%
             }!
       - modern:
         - de: Singt einmal ein Lied!
@@ -998,9 +998,9 @@ sections:
         - de: Ja! (Ohne Zweifel!)
         grc:
           - |-
-            νὴ\footnote{\begin{latin}%
-            \textgreek[variant=ancient]{τυπογράφος ἔγραψα τὸν οὐ γεγραμμένον
-            τόνον.}\end{latin}%
+            νὴ\footnote{%
+            \textgreek{τυπογράφος ἔγραψα τὸν οὐ γεγραμμένον
+            τόνον.}%
             } Δία!
       - modern:
         - de: Ja wahrhaftig!
@@ -1054,9 +1054,9 @@ sections:
         - de: Du fragst noch?
         grc:
           - |-
-            οὐκ\footnote{\begin{latin}%
-            \textgreek[variant=ancient]{ὁ τυπογράφος ἔγραψα τὸν οὐ γεγραμμένον
-            ἦχον.}\end{latin}%
+            οὐκ\footnote{%
+            \textgreek{ὁ τυπογράφος ἔγραψα τὸν οὐ γεγραμμένον
+            ἦχον.}%
             } οἶσθα;!
   - title:
       de: Nein!
@@ -1089,9 +1089,9 @@ sections:
         - de: Nicht eher, als bis (dies geschieht)
         grc:
           - |-
-            οὔκ, ἢν μὴ (τοῦτο γένηται\footnote{\begin{latin}%
-            \textgreek[variant=ancient]{ὁ τυπογράφος ἔγραψα τὸν οὐ γεγραμμένον
-            τόνον.}\end{latin}%
+            οὔκ, ἢν μὴ (τοῦτο γένηται\footnote{%
+            \textgreek{ὁ τυπογράφος ἔγραψα τὸν οὐ γεγραμμένον
+            τόνον.}%
             }).
       - modern:
         - de: Ja nicht!
