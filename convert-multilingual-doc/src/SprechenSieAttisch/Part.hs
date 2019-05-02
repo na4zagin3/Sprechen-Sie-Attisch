@@ -25,14 +25,3 @@ instance ToJSON Part where
 
 instance FromJSON Part where
 
-renderSection :: Section -> Document
-renderSection s = concat $ catMaybes [docTitle, Just docConvs]
-  where
-    docTitle = sectionHeader Nothing . modernSentence <$> title s
-    docConvs = concatMap renderFragment $ conversations s
-
-convertPart :: Part -> Document
-convertPart p = L.intercalate "\n" $ docTitle : docSections
-  where
-    docTitle = partHeader (modernSentence <$> indexTitle p) . modernSentence $ part p
-    docSections = map renderSection $ sections p

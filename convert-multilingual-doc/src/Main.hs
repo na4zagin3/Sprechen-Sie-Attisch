@@ -8,8 +8,7 @@ import qualified Data.Yaml as Y
 import System.Environment
 
 import SprechenSieAttisch.Prim (Document)
-import SprechenSieAttisch.Part (convertPart)
-import SprechenSieAttisch.Lexicon (convertLexicon)
+import SprechenSieAttisch.LaTeX (convertPart, convertLexicon)
 
 fileConvertNormalPart :: (ToJSON a, FromJSON a) => (a -> Document) -> FilePath -> FilePath -> IO ()
 fileConvertNormalPart conv outfile infile = do
