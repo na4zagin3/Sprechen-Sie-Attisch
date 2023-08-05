@@ -60,13 +60,15 @@
 \usepackage{multirow}
 \ifpdf
   \ifluatex
-    %\usepackage{luatexja-fontspec}
-   % \usepackage[hiragino-pro,deluxe]{luatexja-preset}
+    \usepackage{luatexja-fontspec}
+    \usepackage[deluxe]{luatexja-preset}
+    \ltjsetparameter{jacharrange={-1, -2, +3, -4, -5, +6, +7, -8}}
   \else
-    %\usepackage[pdftex]{hyperref}
+    % \usepackage[pdftex]{hyperref}
   \fi
 \else
   \ifxetex
+    \usepackage{xunicode}
     \usepackage{zxjatype}
     %\setjamainfont{YuMincho}
     %\setjasansfont{YuGothic}
@@ -260,7 +262,6 @@
 
 \makeatother
 
-\usepackage{xunicode}
 \usepackage{polyglossia}
 \setdefaultlanguage[spelling=old,babelshorthands=true]{german}
 \setotherlanguage{english}

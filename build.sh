@@ -24,4 +24,5 @@ convert_part i
 convert_lexicon
 popd
 
-latexmk -xelatex SprechenSieAttisch.tex
+# latexmk -xelatex SprechenSieAttisch.tex
+latexmk -lualatex -interaction=nonstopmode SprechenSieAttisch.tex
