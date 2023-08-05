@@ -13,24 +13,24 @@ sections:
           - ὦ χαῖρε!
       - modern:
         - de: Guten Morgen, Karl!
-          ja: おはやう、カール\footnote{ΚάρολοςはKarlのラテン語形Carolusをギリシャ語化した形のやうである。}！
+          ja: おはよう、カール\footnote{ΚάρολοςはKarlのラテン語形Carolusをギリシャ語化した形のようである。}！
         grc:
           - "χαῖρ' ὦ Κάρολε!"
       - modern:
         - de: Guten Morgen, Gustav! (Erwiderung)
-          ja: おはやう、グスタフ！（返答）
+          ja: おお、おはよう。グスタフ！（返答）
         grc:
           - καὶ σύγε ὦ Γούσταβε!
 
       - modern:
         - de: Seien Sie mir schön willkommen!
-          ja: Seien Sie mir schön willkommen!
+          ja: おお、友よ！こんにちは！
         grc:
           - ὦ χαῖρε, φίλτατε!
 
       - modern:
         - de: Ah! freue mich außerordentlich!
-          ja: Ah! freue mich außerordentlich!
+          ja: よく來ましたねぇ！
         grc:
           - ἀσπάζομαι!
 
@@ -54,13 +54,13 @@ sections:
 
       - modern:
         - de: Ah! Guten Tag! Was bringen Sie?
-          ja: おお、こんにちは。何を持って来たのですか。
+          ja: おお、こんにちは。何か変わったことはありますか？
         grc:
           - ὦ χαῖρε, τί φέρεις!
 
       - modern:
         - de: Ah! Guten Tag, Perikles; was steht zu Diensten?
-          ja: おお、今日は、ペリクレースよ。何を持って来たのですか。
+          ja: おお、今日は、ペリクレースよ。首尾はどうですか。
         grc:
           - ὦ χαῖρε, Περίκλεις, τί ἔστιν;
 
@@ -78,7 +78,7 @@ sections:
 
       - modern:
         - de: Paul läßt Sie grüßen.
-          ja: パウロに挨拶するやう言われました。
+          ja: パウロが宜しくと言っていました。
         grc:
           - Παῦλος ἐπέστειλε φράσαι χαίρειν σοι.
 
@@ -89,10 +89,11 @@ sections:
           - "ὦ φίλ' ἄνερ!"
   - title:
       de: "Wie geht's?"
-      ja: 元気？
+      ja: お元気ですか？
     conversations:
       - modern:
         - de: Wie geht es Ihnen?
+          ja: ご機嫌いががですか？
         - de: Was machen Sie?
           ja: 何をされているのですか？
         grc:
@@ -121,13 +122,13 @@ sections:
 
       - modern:
         - de: Wie steht es sonst bei euch?
-          ja: 他に何かございましたか？
+          ja: 他に何かお変わりはありますか？
         grc:
           - "τί δ' ἄλλο παρ' ὑμῖν;"
 
       - modern:
         - de: Wie befinden Sie sich?
-          ja: 如何なされましたか？
+          ja: ご機嫌いががですか？
         grc:
           - πῶς ἔχεις;
 
@@ -139,7 +140,7 @@ sections:
 
       - modern:
         - de: Ich habe keine Freude mehr am Leben.
-          ja: 生まれてこの方、喜びなど一つもありはしませんでした。
+          ja: 生きる楽しみがありません。
         grc:
           - οὐδεμίαν ἔχω τῷ βίῳ χάριν.
 
@@ -151,7 +152,7 @@ sections:
 
       - modern:
         - de: Es steht schlecht mit mir.
-          ja: あまりよくありません。
+          ja: 事態はあまりよくありません。
         grc:
           - φαῦλόν ἐστι τὸ ἐμὸν πρᾶγμα.
 
@@ -205,13 +206,13 @@ sections:
 
       - modern:
         - de: Warum seufzen Sie?
-          ja: 何故嘆いているのか？
+          ja: 何故嘆いているのですか？
         grc:
           - τί στένεις.
 
       - modern:
         - de: Warum sind Sie so verstimmt?
-          ja: 何故苛立っているのか？
+          ja: 何故苛立っているのですか？
         grc:
           - τί δυσφορεῖς.
 
@@ -229,7 +230,7 @@ sections:
 
       - modern:
         - de: Sie scheinen mir zu frieren.
-          ja: 君は凍えているやうだ。
+          ja: 君は凍えているようだ。
         grc:
           - ῥιγῶν μοι δοκεῖς.
 
@@ -375,13 +376,13 @@ sections:
 
       - modern:
         - de: Es ist meins. Geben Sie mir es, bitte!
-          ja: それは私のものだ。こちらに渡してくださいませんか。
+          ja: それは私のものです。こちらに渡してくれませんか。
         grc:
           - ἐστι τὸ ἐμόν. ἀλλὰ δός μοι, ἀντιβολῶ!
 
       - modern:
         - de: Ich bitte Sie, geben Sie es mir!
-          ja: どうか、それを私にくださいませんか？
+          ja: どうか、それを私にください。
         grc:
           - δός μοι πρὸς τῶν θεῶν!
 
@@ -399,128 +400,155 @@ sections:
 
       - modern:
         - de: Thun Sie mir den Gefallen!
-          ja: 頼み事があるのだが。
+          ja: 頼み事があるのですが。
         grc:
           - χάρισαί μοι!
 
       - modern:
         - de: Nun, so thun Sie uns denn den Gefallen.
-          ja: 我々の為に頼まれてくれないか。
+          ja: 我々の為に頼まれてくれませんか。
         grc:
           - ἀλλὰ χάρισαι ἡμῖν!
 
       - modern:
         - de: Thun Sie mir einen kleinen Gefallen!
-          ja: ちょっとした頼み事があるのだが。
+          ja: ちょっとした頼み事があるのですが。
         grc:
           - χάρισαι βραχύ τί μοι!
 
       - modern:
         - de: Was soll ich Ihnen zu Gefallen thun?
-          ja: 何をしたら良い？
+          ja: 何のご用件でしょうか？
         grc:
           - τί σοι χαρίσωμαι.
 
       - modern:
         - de: "Sei so gut und gieb mir's."
-          ja: 私にそれをくれないか？（どれくらい叮嚀なんだろ……？）
+          ja: 私にそれをいただけませんか？
         grc:
           - βούλει μοι δοῦναι;
 
       - modern:
         - de: "\\emph{Den} Gefallen will ich Ihnen thun."
+          ja: そのご用件、承ります。
         grc:
           - χαριοῦμαί σοι τοῦτο.
 
       - modern:
         - de: Gleich!
+          ja: はい、ただいま！\footnote{LSJ ``οὗτος, αὕτη, τοῦτο'' C VII 1 \textgreek{ταῦτ̓, ὦ δέσποτα} \emph{yes} Sir (i.e., \textgreek{ἔστι ταῦτα, ταῦτα δράσς,}, etc.), Ar.V142, Pax275, cf. Eq.III}
         grc:
           - ταῦτα!
 
       - modern:
         - de: Recht gern!
+          ja: 喜んで！
         grc:
           - φθόνος οὐδείς!
 
       - modern:
         - de: Sagen Sie es doch gefälligst den Anderen!
+          ja: 他の人に言ってください。
         grc:
           - οὐ δῆτα γενναίως τοῖς ἄλλοις ἐρεῖς;
 
       - modern:
         - de: "Bitte, sag' es ihm doch!"
+          ja: どうか、彼に言ってください。
         grc:
           - εἰπὲ δῆτα αὐτῷ πρὸς τῶν θεῶν!
 
       - modern:
         - de: "\\emph{Darf ich mir erlauben} Ihnen einzuschenken?"
+          ja: "お酌いたしましょうか？"
         grc:
           - "\\emph{βούλει} ἐγχέω σοι πιεῖν;"
   - title:
       de: Ich danke
+      ja: ありがとう
     conversations:
       - modern:
         - de: Ich danke!
+          ja: ありがとう！
         grc:
           - ἐπαινῶ.
 
       - modern:
         - de: Ich danke Ihnen!
+          a: あなたに感謝します！
         grc:
           - ἐπαινῶ τὸ σόν!
 
       - modern:
         - de: Ich danke Ihnen für Ihre freundliche Gesinnung.
+          ja: お気遣いありがとうございます。
         grc:
           - ἐπαινῶ τὴν σὴν πρόνοιαν.
 
       - modern:
         - de: Haben Sie vielen Dank dafür!
+          ja: それはよくして下さいましたね。
         grc:
           - "εὖ γ' ἐμοίησας!"
       - modern:
         - de: Sie sind sehr gütig.
+          ja: 貴方は親切です。
         grc:
           - γενναῖος εἶ.
       - modern:
         - de: Ich werde Ihnen nur dankbar sein, wenn Sie das thun.
+          ja: もしそれをやって下されば、ありがたく思います。
         grc:
           - χάριν γε εἴσομαι, ἐὰν τοῦτο ποιῇς.
       - modern:
         - de: Ich bin Ihnen zu Danke verpflichtet.
+          ja: 私は貴方に感謝している。
         grc:
           - κεκάρισαί μοι.
       - modern:
         - de: Der Himmel segne Sie tausendmal!
+          ja: 幸多からんことを。
         grc:
           - "πόλλ' ἀγαθὰ γένοιό σοι!"
       - modern:
         - de: Danke schön! (auch ablehnend.)
+          ja: ありがとう！
+        - de: ""
+          ja: 結構です。（拒否する場合もあり）
         grc:
           - καλῶς!
       - modern:
         - de: Ich danke bestens! (des\textcompwordmark{}gl.)
+          ja: どうもありがとう！
+        - de: ""
+          ja: 真に結構です。（拒否する場合もあり）
         grc:
           - κάλλιστα· ἐπαινῶ.
       - modern:
         - de: Bravo! Bravo!
+          ja: ブラボー！ブラボー！
         grc:
-          - εὖγε! εὖγι.
+          - εὖγε! εὖγε.
       - modern:
         - de: Wie herrlich!
+          ja: なんと素晴らしい！
         grc:
           - ὡς ἡδύ!
       - modern:
         - de: Hurrah! (Freudenruf.)
+          ja: 万歳！（喜びの叫び。）
         grc:
           - ἀλαλαί!
       - modern:
         - de: Das macht nichts. Das ist einerlei.
+          ja: 問題ありません。相違ありません。
         grc:
           - οὐδὲν διαφέρει.
       - modern:
         - de: Das kümmert mich wenig.
+          ja: どういたしまして。
         - de: Daran liegt mir wenig.
+          ja: お気になさらず。
         grc:
           - ὀλίγον μέλει μοι.
       - modern:
