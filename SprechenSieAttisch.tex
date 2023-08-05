@@ -2,7 +2,8 @@
 %% Do not edit unless you really know what you are doing.
 \documentclass[english,french,latin,german,twoside]{scrartcl}
 \usepackage{fontspec}
-\setmainfont[Mapping=tex-text,Numbers=OldStyle]{Old Standard}
+%\setmainfont[Mapping=tex-text,Numbers=OldStyle]{Old Standard}
+\setmainfont[Ligatures=TeX]{Old Standard}
 \usepackage[b5paper]{geometry}
 \geometry{verbose,lmargin=3cm}
 \pagestyle{plain}
@@ -43,10 +44,10 @@
 \usepackage{calc}
 \usepackage{everypage}
 \usepackage{multicol}
-%\usepackage{titlesec}
+% \usepackage{titlesec}
 \usepackage{tocloft}
 
-%\renewcommand\cftchapafterpnum{\vskip0pt}
+% \renewcommand\cftchapafterpnum{\vskip0pt}
 \renewcommand\cftsecafterpnum{\vskip-0.5em}
 \usepackage{microtype}
 
@@ -67,8 +68,8 @@
 \else
   \ifxetex
     \usepackage{zxjatype}
-    \setjamainfont{YuMincho}
-    \setjasansfont{YuGothic}
+    %\setjamainfont{YuMincho}
+    %\setjasansfont{YuGothic}
     \setjamonofont{IPAGothic}
   \else
     %\usepackage[dvipdfmx]{hyperref}
@@ -94,7 +95,7 @@
   \newfontfamily\greekfontsf[Script=Greek,Ligatures={TeX,Common,Contextual,Rare,Historic}]{Linux Biolinum O}
   %\newfontfamily\greekfontsf[Script=Greek,Ligatures={TeX,Common,Contextual,Rare,Historic}]{Linux Biolinum}
   \ifFraktur
-    \newfontfamily\greekfont[Script=Greek,Ligatures={TeX,Common,Contextual,Rare,Historic}]{Anaktoria}
+    %\newfontfamily\greekfont[Script=Greek,Ligatures={TeX,Common,Contextual,Rare,Historic}]{Anaktoria}
     \newfontfamily\greekfont[Script=Greek,Ligatures={TeX,Common,Contextual,Rare,Historic}]{Theano Old Style}
     \newfontfamily\greekfont[Script=Greek,Ligatures={TeX}]{Old Standard Italic}
     \newfontfamily\greekfont[Script=Greek,Ligatures={TeX,Contextual}]{Junicode}
@@ -126,7 +127,8 @@
       %}{}%
     }
   \else
-    \newfontfamily\greekfont[Script=Greek,Ligatures={TeX,Common,Contextual,Rare,Historic}]{Asea}
+    %\newfontfamily\greekfont[Script=Greek,Ligatures={TeX,Common,Contextual,Rare,Historic}]{Asea}
+    \newfontfamily\greekfont[Script=Greek,Ligatures={TeX,Common,Contextual,Rare,Historic}]{Theano Old Style}
 
   \fi
 \fi
