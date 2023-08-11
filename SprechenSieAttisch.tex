@@ -56,11 +56,13 @@
 
 \newif\ifFraktur
 \Frakturtrue
+\Frakturfalse
 
 \usepackage{multirow}
 \ifpdf
   \ifluatex
     \usepackage{luatexja-fontspec}
+    \usepackage{luatexja-ruby}
     \usepackage[deluxe]{luatexja-preset}
     \ltjsetparameter{jacharrange={-1, -2, +3, -4, -5, +6, +7, -8}}
   \else
@@ -270,9 +272,9 @@
 \setotherlanguage{latin}
 \setotherlanguage{japanese}
 
-\newcommand{\trDE}[1]{#1}
-\newcommand{\trLA}[1]{#1}
-\newcommand{\trJA}[1]{}
+\newcommand{\trDE}[1]{}
+\newcommand{\trLA}[1]{}
+\newcommand{\trJA}[1]{#1}
 
 \begin{document}
 \frontmatter
