@@ -68,7 +68,8 @@ sections:
         - de: "Giebt's was Neues?"
           ja: 何か新しいことはありませんか？
         grc:
-          - λέγεται τί καινόν; (νεώτερον, \textgerman{Schlimmes})
+          - λέγεται τί καινόν;
+          # - λέγεται τί καινόν; (νεώτερον, \textgerman{Schlimmes})
 
       - modern:
         - de: Guten Abend, meine Herren (meine Damen)! Meine (jungen) Damen!

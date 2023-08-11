@@ -50,6 +50,12 @@
     \usepackage{luatexja-ruby}
     \usepackage[deluxe]{luatexja-preset}
     \ltjsetparameter{jacharrange={-1, -2, +3, -4, -5, +6, +7, -8}}
+
+    \def\kintou#1#2{\leavevmode\hbox to#1{%
+    \ltjsetparameter{kanjiskip=0pt plus 1fill minus 1fill}
+    \ltjsetparameter{xkanjiskip=\ltjgetparameter{kanjiskip}}
+    #2}}
+    \ltjsetruby{kenten=\raisebox{-0.3ex}[0.25ex][0ex]{\textbullet}}
   \else
     % \usepackage[pdftex]{hyperref}
   \fi
@@ -117,12 +123,13 @@
     }
   \else
     %\newfontfamily\greekfont[Script=Greek,Ligatures={TeX,Common,Contextual,Rare,Historic}]{Asea}
-    \newfontfamily\greekfont[Script=Greek,Ligatures={TeX,Common,Contextual,Rare,Historic}]{Theano Old Style}
+    %\newfontfamily\greekfont[Script=Greek,Ligatures={TeX,Common,Contextual,Rare,Historic}]{Theano Old Style}
+    \newfontfamily\greekfont[Script=Greek,Ligatures={TeX,Contextual}]{Theano Old Style}
 
   \fi
 \fi
 
-%\newfontfamily\greekfont[Script=Greek,Ligatures={TeX,Common,Contextual,Rare,Historic}]{Asea}
+% \newfontfamily\greekfont[Script=Greek,Ligatures={TeX,Common,Contextual,Rare,Historic}]{Asea}
 %\renewcommand{\emph}[1]{{\addfontfeature{LetterSpace=20.0}#1}}
 
 %\renewcommand\emshape{\ifx\languagename\germanlanguagename\xspace\addfontfeature{LetterSpace=20.0,WordSpace=1.5,Ligatures={NoCommon}}\else\origemshape\fi}

@@ -1,8 +1,9 @@
 %% LyX 2.1.3 created this file.  For more info, see http://www.lyx.org/.
 %% Do not edit unless you really know what you are doing.
 \documentclass[english,french,latin,german,twoside,a4paper]{ltjsarticle}
-%\documentclass[english,french,latin,german,twoside,a4paper]{scrartcl}
+% \documentclass[english,french,latin,german,twoside,a4paper]{scrartcl}
 \usepackage{version}
+\usepackage{tabularx}
 
 \includeversion{frakturfonttypesetting}
 \excludeversion{romanfonttypesetting}
@@ -17,12 +18,12 @@
 
 
 \usepackage{polyglossia}
-\setdefaultlanguage[spelling=old,babelshorthands=true]{german}
+\setotherlanguage[spelling=old,babelshorthands=true]{german}
 \setotherlanguage{english}
 \setotherlanguage{french}
 \setotherlanguage[variant=ancient]{greek}
 \setotherlanguage{latin}
-\setotherlanguage{japanese}
+\setmainlanguage{japanese}
 
 \newcommand{\trDE}[1]{}
 \newcommand{\trLA}[1]{}
@@ -34,52 +35,56 @@
 
 
 \title{{\fontfamily\rmdefault\selectfont アッティカ方言で話しませんか?\\Sprechen Sie Attisch?}\\
-\rule[1.2ex]{0.2\columnwidth}{1pt}\\
-\large
+  \rule[1.2ex]{0.2\columnwidth}{1pt}\\
+  \normalsize
   最良のアッティカの著者に基づく\\
   \kenten{古代ギリシャ語での}\\
-  現代\footnote{19世紀末ドイツ}\ 日常会話\\
-  \smallskip
-  第1部 一般的事項
+  現代\footnote{19世紀末ドイツ}\quad日常会話\\
+  \large
+  \medskip
+  第A部 一般的事項
 }
 
 
 \author{
   \textlatin{\textbf{E. Joannides博士} 著}\\
   \textlatin{\textbf{ざぎん @na4zagin3} 訳}\\
-{\tiny\begin{minipage}{\columnwidth}
-\begin{flushright}
-\textlatin{--- --- Ridentem discere Graeca\\
-Quid vetat? --- ---}
-\end{flushright}
-\end{minipage}}\smallskip{}
-\\
-\rule[1.2ex]{0.2\columnwidth}{1pt}}
+  {\tiny\begin{minipage}{\columnwidth}
+      \begin{flushright}
+        \textlatin{--- --- Ridentem discere Graeca\\
+          Quid vetat? --- ---}
+      \end{flushright}
+    \end{minipage}}\smallskip{}
+  \\
+  \rule[1.2ex]{0.2\columnwidth}{1pt}}
 
 
 \date{
   コミックマーケット102（2023年）発行\\
-  原著 \textbf{Leipzig, 1889.}\\
-\emph{C.\ A.\ Koch's Verlag.}\\
-(J. Sengbusch)}
+  原著 \textbf{Leipzig, 1889.} \emph{C.\ A.\ Koch's Verlag.}
+  (J. Sengbusch)}
 
 \maketitle
 \pagebreak{}
 
-\input{legend-ja.tex}
-\begin{quote}
-
-\end{quote}
-\pagebreak{}\gappto\captionsgerman{%
-\renewcommand{\contentsname}{Inhalts\textcompwordmark{}verzeichniß}%
-\renewcommand{\partname}{Gespräche}%
+% \input{legend-ja.tex}
+% \begin{quote}
+%   
+% \end{quote}
+\show\part
+\show\section
+\pagebreak{}\gappto\captionsjapanese{%
+\renewcommand{\contentsname}{目次}%
+\renewcommand{\prepartname}{第}
+\renewcommand{\postpartname}{部}
 } 
-\captionsgerman
-\renewcommand{\contentsname}{Inhalts\textcompwordmark{}verzeichniß}
-\renewcommand{\partname}{Gespräche}
+\captionsjapanese
+\renewcommand{\contentsname}{目次}
+\renewcommand{\prepartname}{第}
+\renewcommand{\postpartname}{部}
 
 \begin{quote}
-\setlength{\columnseprule}{0.5pt}\begin{multicols}{2}\tableofcontents{}
+    \setlength{\columnseprule}{0.5pt}\begin{multicols}{2}\tableofcontents{}
 
 \end{multicols}
 
@@ -115,78 +120,53 @@ Quid vetat? --- ---}
 %\input{quotes.tex}
 
 \cleardoublepage{}
-
-
-\part*{Redaktionelle Hinweise\protect \\
-zur Digitalisierung und Setzung\protect \\
-des Buches}
-
-Der originale Text hat \emph{keine} Fußnote, aber der Digitalsetzer
-fügt \emph{alle} die Fußnoten ein.
-
-
-\section*{Buch\textcompwordmark{}staben}
-
-Aa Bb Cc Dd Ee Ff Gg Hh Ii Jj Kk Ll Mm Nn Oo Pp Qq Rr Sss Tt Uu Vv
-Ww Xx Yy Zz Ää Öö Üü ß
-
-\begin{latin}%
-A\textgerman[spelling=old,babelshorthands=true]{Aa }U\textgerman[spelling=old,babelshorthands=true]{Uu;
-}C\textgerman[spelling=old,babelshorthands=true]{Cc }E\textgerman[spelling=old,babelshorthands=true]{Ee
-}S\textgerman[spelling=old,babelshorthands=true]{Sss }G\textgerman[spelling=old,babelshorthands=true]{Gg;
-}K\textgerman[spelling=old,babelshorthands=true]{Kk }H\textgerman[spelling=old,babelshorthands=true]{Hh;
-}N\textgerman[spelling=old,babelshorthands=true]{Nn }R\textgerman[spelling=old,babelshorthands=true]{Rr
-}X\textgerman[spelling=old,babelshorthands=true]{Xx; }M\textgerman[spelling=old,babelshorthands=true]{Mm
-}W\textgerman[spelling=old,babelshorthands=true]{Ww }V\textgerman[spelling=old,babelshorthands=true]{Vv
-}B\textgerman[spelling=old,babelshorthands=true]{Bb }Y\textgerman[spelling=old,babelshorthands=true]{Yy;
-}O\textgerman[spelling=old,babelshorthands=true]{Oo }Q\textgerman[spelling=old,babelshorthands=true]{Qq
-}P\textgerman[spelling=old,babelshorthands=true]{Pp }D\textgerman[spelling=old,babelshorthands=true]{Dd;
-}T\textgerman[spelling=old,babelshorthands=true]{Tt }L\textgerman[spelling=old,babelshorthands=true]{Ll;
-}IJ\textgerman[spelling=old,babelshorthands=true]{Iij }F\textgerman[spelling=old,babelshorthands=true]{Ff;
-}Z\textgerman[spelling=old,babelshorthands=true]{Zz }ß\textgerman[spelling=old,babelshorthands=true]{ß}
-
-\end{latin}%
-\begin{greek}[variant=ancient]%
-\begin{comment}
-Α\,α Β\,ββ Γ\,γ Δ\,δ Ε\,ε Ζ\,ζ Η\,η Θ\,θθ Ι\,ι Κ\,κ Λ\,λ
-Μ\,μ Ν\,ν Ξ\,ξ Ο\,ο Π\,ππ Ρ\,ρρ Σ\,σς Τ\,τ Υ\,υ Φ\,φφ Χ\,χ
-Ψ\,ψ Ω\,ω; στ
-\end{comment}
-
-
-\end{greek}%
-
-\section*{Buch\textcompwordmark{}stabenverbund}
-
-Diese Buch\textcompwordmark{}stabenkombinationen werden Buch\textcompwordmark{}stabenverbund
-(auch oder Ligatur), wenn es keine Grenze zwischen die Buch\textcompwordmark{}staben
-ist: ch, ck, ſt, tz; ff, ﬁ, ﬂ, ft, ll, ſi, ſſ; (seit Anfang des 20.
-Jh.) ſch. \quotedblbase Eins`` also \quotedblbase Einsatz``, und
-\quotedblbase Wachstube`` (eng. \textenglish{guardhouse}, lat. \textlatin{commissarius})
-also \quotedblbase Wachs\textcompwordmark{}tube`` (eng. \textenglish{wax
-tube}, lat. \textlatin{tubus cerae}).
-
-Laut Wikipädia (\url{http://de.wikipedia.org/wiki/Fraktursatz}),
-\quotedblbase ch``, \quotedblbase ck``, \quotedblbase ſt`` und
-\quotedblbase tz`` werden im Sperrsatz nicht aufgelöst, also alle
-anderen Ligaturen werden aufgelöst und gesperrt: \emph{ch, ck, ſt,
-tz; ff, ﬁ, ﬂ, ft, ll, ſi, ſſ;} \emph{ſch}.
-
-
-\section*{Wörter}
+\pagestyle{empty}
+\setlength{\parindent}{1\zw}
+\setlength{\hangindent}{0pt}
+\section*{文字について}
+本書はギリシャ語部分にTheano Old Styleを用い、以下のOpenType Featureを適用しています。
 \begin{itemize}
-\item Verb, dessen Ende \quotedblbase -ieren`` im neudeutschen Sprache
-ist, wird \quotedblbase -iren``.
-\item \quotedblbase gibt`` wird \quotedblbase giebt``.
-\item \quotedblbase C``, die in \quotedblbase K`` verändert wird, bleibt
-weiterhin bestehen. z.\,B.: Object \quotedblbase Objekt``, activ
-\quotedblbase aktiv``, corrigirt \quotedblbase korrigiert``.
+\item Common Ligatures
+\item Contextural Ligatures
 \end{itemize}
-Dieses Dokument, dessen ursprüngliche Buch (\url{https://archive.org/details/sprechensieatti00johngoog})
-im \quotedblbase Internet Archive`` erhältlich ist, wurde mit \textlatin{\LaTeX{}}
-gesetzt. Sein Quelltext ist online erhältlich: \url{https://github.com/na4zagin3/Sprechen-Sie-attisch}.
 
-Nachdem Zagin (@na4zagin3) des Zirkels \quotedblbase Hyalinios``
-digitalisierte das Buch, veröffentlichte er am 31.\ Dezember 2015
-es, um auf den 89.\ \emph{Comic Market} zu bringen.
+以下の特徴が見慣れないかもしれないので、注意して下さい。
+
+\begin{itemize}
+\item \textgreek{β ρ φ} の三字は、\textgreek{βεβηκα ῥάφανος φώρ}のように、語頭と語中で形が変わります。
+\item \textgreek{{\addfontfeature{Ligatures={NoCommon,NoContextual}}ου}}は\textgreek{ου}になります。
+\item \textgreek{{\addfontfeature{Ligatures={NoCommon,NoContextual}}στ}}は\textgreek{στ}になります。
+\end{itemize}
+
+\section*{あとがき}
+
+本書を手に取って下さってありがとうございます。
+
+これは、%
+\url{https://archive.org/details/sprechensieatti00johngoog}%
+を底本として人力OCRをした%
+\url{https://github.com/na4zagin3/Sprechen-Sie-Attisch}%
+に基づくものです。%
+訳の際に%
+\url{https://paulatinygriego.files.wordpress.com/2019/02/greekenglishphrasebook.pdf}%
+を参考にしましたが、全面的に依拠している訳ではありません（腑に落ちない点があるのでメールを送ってみようと思っています）。
+
+オープンソースプロジェクトとして翻訳をしていきたいと思っているので、
+誤りや改善案等ございましたら、是非とも%
+\url{https://github.com/na4zagin3/Sprechen-Sie-Attisch}%
+にissueを立てるなり、pull requestを送るなりして下さると、幸甚です。
+
+ギリシャ語学習の一助になれば幸いです。一緒に古典語学習ブームを盛り上げていきましょう！
+
+\vspace{\fill}
+
+  \begin{tabularx}{\columnwidth}{@{}r@{\hspace*{0.25\zw}：\hspace*{0.15\zw}}X@{}}
+    \kintou{4\zw}{発行日}&2023年08月13日
+    %\hfill{\includegraphics[trim={8cm 12cm 8cm 12cm},width=6em,valign=t]{./c100_logo_mono.png}}%
+    \\
+    \kintou{4\zw}{発行}&ヒュアリニオス%
+    \\
+    \kintou{4\zw}{ 訳 }&ざぎん\hspace{1em}\textsf{@na4zagin3}%
+    \\
+  \end{tabularx}
 \end{document}

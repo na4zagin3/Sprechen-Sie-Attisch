@@ -27,3 +27,4 @@ popd
 # latexmk -xelatex SprechenSieAttisch.tex
 latexmk -lualatex -interaction=nonstopmode SprechenSieAttisch.tex
 latexmk -lualatex -interaction=nonstopmode SprechenSieAttisch-ja-1.tex
+# latexmk -lualatex SprechenSieAttisch-ja-1.tex
