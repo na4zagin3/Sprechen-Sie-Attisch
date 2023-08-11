@@ -1,12 +1,8 @@
-
 %% LyX 2.1.3 created this file.  For more info, see http://www.lyx.org/.
 %% Do not edit unless you really know what you are doing.
-\documentclass[english,french,latin,german,twoside,a4paper]{scrartcl}
+\documentclass[english,french,latin,german,twoside,a4paper]{ltjsarticle}
+%\documentclass[english,french,latin,german,twoside,a4paper]{scrartcl}
 \usepackage{version}
-
-% \renewcommand\cftchapafterpnum{\vskip0pt}
-\renewcommand\cftsecafterpnum{\vskip-0.5em}
-\usepackage{microtype}
 
 \includeversion{frakturfonttypesetting}
 \excludeversion{romanfonttypesetting}
@@ -16,7 +12,7 @@
 \Frakturfalse
 
 \input{preamble.tex}
-\hypersetup{pdftitle={Sprachen Sie Attich?},
+\hypersetup{pdftitle={Sprachen Sie Attich? 日本語訳第1部},
   pdfauthor={J. Sengbusch}}
 
 
@@ -37,20 +33,20 @@
 \renewcommand\thepart{\Alph{part}}
 
 
-\title{{\fontfamily\rmdefault\selectfont Sprechen Sie Attisch?}}
+\title{{\fontfamily\rmdefault\selectfont アッティカ方言で話しませんか?\\Sprechen Sie Attisch?}\\
+\rule[1.2ex]{0.2\columnwidth}{1pt}\\
+\large
+  最良のアッティカの著者に基づく\\
+  \kenten{古代ギリシャ語での}\\
+  現代\footnote{19世紀末ドイツ}\ 日常会話\\
+  \smallskip
+  第1部 一般的事項
+}
 
 
-\subtitle{\rule[1.2ex]{0.2\columnwidth}{1pt}\\
-Moderne Conversation\\
-\emph{in altgriechischer Umgangs\textcompwordmark{}sprache}\\
-nach den besten attischen Autoren}
-
-
-\author{{\footnotesize{}von}\bigskip{}
-\\
-\textlatin{\textbf{E. Joannides,}}\\
-\textlatin{{\small{}Dr. phil.}}\smallskip{}
-\textlatin{{\small{}}}\\
+\author{
+  \textlatin{\textbf{E. Joannides博士} 著}\\
+  \textlatin{\textbf{ざぎん @na4zagin3} 訳}\\
 {\tiny\begin{minipage}{\columnwidth}
 \begin{flushright}
 \textlatin{--- --- Ridentem discere Graeca\\
@@ -61,29 +57,16 @@ Quid vetat? --- ---}
 \rule[1.2ex]{0.2\columnwidth}{1pt}}
 
 
-\publishers{\textbf{Leipzig, 1889.}\\
+\date{
+  コミックマーケット102（2023年）発行\\
+  原著 \textbf{Leipzig, 1889.}\\
 \emph{C.\ A.\ Koch's Verlag.}\\
 (J. Sengbusch)}
-
-
-\date{\relax}
 
 \maketitle
 \pagebreak{}
 
-\vfill{}
-
-
-\begin{center}
-{\Huge{}(Das originale Buch hat Ankündigungen hier.)}
-\par\end{center}{\Huge \par}
-
-\vfill{}
-
-
-\pagebreak{}
-
-\input{legend.tex}
+\input{legend-ja.tex}
 \begin{quote}
 
 \end{quote}
@@ -103,13 +86,13 @@ Quid vetat? --- ---}
 \pagebreak{}\mainmatter
 \end{quote}
 
-\input{grammar.tex}
-
-\begin{center}
-{\Huge{}\rule[1.2ex]{0.2\columnwidth}{1pt}}
-\par\end{center}{\Huge \par}
-
-\clearpage{}
+%\input{grammar.tex}
+%
+%\begin{center}
+%{\Huge{}\rule[1.2ex]{0.2\columnwidth}{1pt}}
+%\par\end{center}{\Huge \par}
+%
+%\clearpage{}
 
 
 
@@ -118,18 +101,18 @@ Quid vetat? --- ---}
 %\titlespacing{\section}{0pt}{\parskip}{-\parskip}
 \begin{paracol}{2}
 	\input{part-a.tex}
-	\input{part-b.tex}
-	\input{part-c.tex}
-	\input{part-d.tex}
-	\input{part-e.tex}
-	\input{part-f.tex}
-	\input{part-g.tex}
-	\input{part-h.tex}
-	\input{part-i.tex}
-	\input{lexicon.tex}
+	%\input{part-b.tex}
+	%\input{part-c.tex}
+	%\input{part-d.tex}
+	%\input{part-e.tex}
+	%\input{part-f.tex}
+	%\input{part-g.tex}
+	%\input{part-h.tex}
+	%\input{part-i.tex}
+	%\input{lexicon.tex}
 \end{paracol}
 
-\input{quotes.tex}
+%\input{quotes.tex}
 
 \cleardoublepage{}
 

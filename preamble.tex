@@ -1,0 +1,251 @@
+\usepackage{fontspec}
+%\setmainfont[Mapping=tex-text,Numbers=OldStyle]{Old Standard}
+\setmainfont[Ligatures=TeX]{Old Standard}
+\usepackage[b5paper]{geometry}
+\geometry{verbose,lmargin=3cm}
+\pagestyle{plain}
+\usepackage{verbatim}
+\usepackage{url}
+\usepackage{setspace}
+\setstretch{1.1}
+\usepackage[unicode=true,
+ bookmarks=true,bookmarksnumbered=false,bookmarksopen=false,
+ breaklinks=false,pdfborder={0 0 1},backref=false,colorlinks=false]
+ {hyperref}
+
+\makeatletter
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% LyX specific LaTeX commands.
+%% Because html converters don't know tabularnewline
+\providecommand{\tabularnewline}{\\}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Textclass specific LaTeX commands.
+\usepackage{enumitem}		% customizable list environments
+\newlength{\lyxlabelwidth}      % auxiliary length 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% User specified LaTeX commands.
+\usepackage{ifpdf}
+\usepackage{ifluatex}
+\usepackage{ifxetex}
+\usepackage{xspace}
+\usepackage{etoolbox}
+\usepackage{trace}
+\usepackage{paracol}
+\usepackage{bigdelim}
+\usepackage{lineno}
+\usepackage{indentfirst}
+\usepackage{quoting}
+\usepackage{version}
+\usepackage{calc}
+\usepackage{everypage}
+\usepackage{multicol}
+% \usepackage{titlesec}
+\usepackage{tocloft}
+
+
+\usepackage{multirow}
+\ifpdf
+  \ifluatex
+    \usepackage{luatexja-fontspec}
+    \usepackage{luatexja-ruby}
+    \usepackage[deluxe]{luatexja-preset}
+    \ltjsetparameter{jacharrange={-1, -2, +3, -4, -5, +6, +7, -8}}
+  \else
+    % \usepackage[pdftex]{hyperref}
+  \fi
+\else
+  \ifxetex
+    \usepackage{xunicode}
+    \usepackage{zxjatype}
+    %\setjamainfont{YuMincho}
+    %\setjasansfont{YuGothic}
+    \setjamonofont{IPAGothic}
+  \else
+    %\usepackage[dvipdfmx]{hyperref}
+    \usepackage{pxjahyper}
+  \fi
+\fi
+
+\newcommand*{\germanlanguagename}{german}
+\newcommand*{\greeklanguagename}{greek}
+\newcommand*{\ifsperrsatzlanguage}[2]{%
+\ifboolexpr{%
+  test {\ifdefstrequal{\languagename}{\germanlanguagename}}
+   or
+  test {\ifcsstrequal{\languagename}{\germanlanguagename}}
+  or
+  test {\ifdefstrequal{\languagename}{\greeklanguagename}}
+  or
+  test {\ifcsstrequal{\languagename}{\greeklanguagename}}
+}{#1}{#2}%
+}
+\ifdefined\newfontfamily
+  %\newfontfamily\greekfontsf[Script=Greek]{Linux Biolinum O}
+  \newfontfamily\greekfontsf[Script=Greek,Ligatures={TeX,Common,Contextual,Rare,Historic}]{Linux Biolinum O}
+  %\newfontfamily\greekfontsf[Script=Greek,Ligatures={TeX,Common,Contextual,Rare,Historic}]{Linux Biolinum}
+  \ifFraktur
+    %\newfontfamily\greekfont[Script=Greek,Ligatures={TeX,Common,Contextual,Rare,Historic}]{Anaktoria}
+    \newfontfamily\greekfont[Script=Greek,Ligatures={TeX,Common,Contextual,Rare,Historic}]{Theano Old Style}
+    \newfontfamily\greekfont[Script=Greek,Ligatures={TeX}]{Old Standard Italic}
+    \newfontfamily\greekfont[Script=Greek,Ligatures={TeX,Contextual}]{Junicode}
+    %\newfontfamily\greekfont[Script=Greek,Ligatures={TeX,Common,Contextual,Rare,Historic}]{Asea}
+    %\newfontfamily\greekfont[Script=Greek,Ligatures={TeX,NoCommon}]{Times Italic}
+    \newfontfamily\germanfont[Script=Latin,Language=German,Mapping=tex-text,Numbers=OldStyle,CharacterVariant={11,13,14},Ligatures=Historic]{UnifrakturMaguntia}
+    \newfontfamily\germanfontsf[Script=Latin,Language=German,Mapping=tex-text,CharacterVariant={11,13,14}]{UnifrakturCook}
+    \setsansfont[Script=Latin,Language=German,Mapping=tex-text,CharacterVariant={11,13,14}]{UnifrakturCook}
+
+    \let\origemshape=\emshape
+    \let\origemph=\emph
+    % orig:
+    %\renewcommand\emshape{\xspace\addfontfeature{LetterSpace=20.0,WordSpace=1.5,Ligatures={NoCommon}}}
+    % new:
+   % \renewcommand\emshape{\nobreak\discretionary{}{}{\hbox{\xspace}}\addfontfeature{LetterSpace=20.0,WordSpace=1.5,Ligatures={NoCommon}}}
+    \renewcommand\emshape{%
+%\ifx\languagename\germanlanguagename%
+\ifboolexpr{test {\ifsperrsatzlanguage}}{%
+ % \addfontfeature{LetterSpace=15.0,WordSpace=1.5,Ligatures={NoCommon}}%
+  \spaceskip=0.8em plus 0.2em minus 0.4em\relax
+  \addfontfeature{LetterSpace=17.0,Ligatures={NoCommon}}%
+  \renewcommand{\textcompwordmark}{\-\hspace*{0.15em}}%
+}{\origemshape}}
+    \preto\emph{%
+      %\ifx\languagename\germanlanguagename\ifvmode\else\xspace\fi\fi
+      \ifsperrsatzlanguage{\ifvmode\else\xspace\fi}{}%
+      %\ifboolexpr{test {\ifsperrsatzlanguage} and ( not bool{vmode} ) }{%
+      %  \xspace
+      %}{}%
+    }
+  \else
+    %\newfontfamily\greekfont[Script=Greek,Ligatures={TeX,Common,Contextual,Rare,Historic}]{Asea}
+    \newfontfamily\greekfont[Script=Greek,Ligatures={TeX,Common,Contextual,Rare,Historic}]{Theano Old Style}
+
+  \fi
+\fi
+
+%\newfontfamily\greekfont[Script=Greek,Ligatures={TeX,Common,Contextual,Rare,Historic}]{Asea}
+%\renewcommand{\emph}[1]{{\addfontfeature{LetterSpace=20.0}#1}}
+
+%\renewcommand\emshape{\ifx\languagename\germanlanguagename\xspace\addfontfeature{LetterSpace=20.0,WordSpace=1.5,Ligatures={NoCommon}}\else\origemshape\fi}
+
+\begin{frakturfonttypesetting}
+
+\end{frakturfonttypesetting}
+
+\newcommand\frontmatter{%
+    \cleardoublepage
+  %\@mainmatterfalse
+  \pagenumbering{roman}}
+
+\newcommand\mainmatter{%
+    \cleardoublepage
+ % \@mainmattertrue
+  \pagenumbering{arabic}}
+
+\newcommand\backmatter{%
+  \if@openright
+    \cleardoublepage
+  \else
+    \clearpage
+  \fi
+ % \@mainmatterfalse
+   }
+
+%\gappto\enumerate{%
+%\setlength{\listparindent}{0.2in}%
+%\setlength{\labelwidth}{0pt}%
+%\setlength{\itemindent}{0.2in}%
+%}
+
+\quotingsetup{vskip=0pt,rightmargin=0pt}
+
+% from http://tex.stackexchange.com/questions/36974/adding-an-open-quote-mark-to-the-start-of-each-line-in-a-multiline-quotation
+%\newcommand{\leftquotes}{\def\makeLineNumber{%
+%  \ifnum\value{linenumber}=1 \else\hskip\leftmargin\llap{\quotedblbase}\hss\fi}}
+\newcommand{\leftquotes}{\def\makeLineNumber{%
+  \hskip\leftmargin\llap{\quotedblbase}\hss}}
+\newenvironment{quotedquotation}
+  {\quoting\linenumbers\leftquotes}
+  {\endquoting}
+
+%\setlength{\parsep}{0pt}
+
+\newsavebox{\mygermanalignbox}
+\newsavebox{\mygreekalignbox}
+
+\newsavebox{\mygermanaligntext}{}
+\newcommand{\mygreekaligntext}{}
+
+\newlength{\mygermanalign}
+\newlength{\mygreekalign}
+
+\newif\ifmyafterpage
+\myafterpagetrue
+
+\newcommand{\mysetaligntextsub}[3]{%
+\global\savebox{#1}{#3}%
+\global\setlength{#2}{\widthof{#1}}%
+}
+\newcommand{\mysetaligntextt}[2]{%
+\expandafter\mysetaligntextsub{\csname my#1alignbox\endcsname}{\csname my#1align\endcsname}{#2}%
+}
+\newcommand{\mysetaligntext}[2]{%
+\global\sbox{\csname my#1alignbox\endcsname}{#2}%
+%\expandafter\global\savebox{\csname my#1alignbox\endcsname}{#2}%
+%\global\setlength{\csname my#1align\endcsname}{\wd\csname my#1alignbox\endcsname}%
+\global\csname my#1align\endcsname=\wd\csname my#1alignbox\endcsname%
+}
+
+\NewDocumentCommand \mysetalign { s m }
+{%
+\ifmyafterpage%
+\usebox{\csname my#2alignbox\endcsname}%
+\else%
+\advance\leftskip\csname my#2align\endcsname%
+\fi%
+\IfBooleanTF {#1}%
+{\global\myafterpagefalse }%
+{}%
+}
+%\newcommand{\mysetalign}[1]{}
+\newcommand{\myaligntext}[1]{\ifmyafterpage\else\fi}
+%
+\AddEverypageHook{\global\myafterpagetrue}
+%\rfoot{\global\myafterpagetrue}
+\newcommand{\StarOrnament}{\begin{center}\begin{minipage}{10em}\centering$\ast$\hspace{5em}$\ast$\\$\ast$\end{minipage}\end{center}\par}
+
+\newcommand{\source}[1]{%
+  \nobreak\parbox[t]{\linewidth}{\raggedleft #1}% Placing a quote source
+}%
+\setlength{\tabcolsep}{0em}
+
+\newsavebox{\mycontinuousitemlinebox}
+\newenvironment{continuousitemline}{%
+  \bgroup%
+  \global\sbox{\mycontinuousitemlinebox}{\theenumi.}%
+  \addtolength{\leftskip}{\wd\mycontinuousitemlinebox}%
+  \addtolength{\leftskip}{1ex}%
+  %\addtolength{\leftskip}{2ex}%
+  \addtolength{\leftskip}{1em}%
+  \addtolength{\parindent}{-1em}%
+  %\llap{"\usebox{\mycontinuousitemlinebox}"}%
+  %\rule{\wd\mycontinuousitemlinebox}{1pt}%
+  %\rule[1ex]{1ex}{1pt}%
+%
+}{%
+  \egroup%
+}
+
+
+\newenvironment{continuousexamples}{%
+  \bgroup%
+  \setlength{\leftskip}{\parindent}%
+%  \addtolength{\leftskip}{2ex}%
+  \addtolength{\leftskip}{2em}%
+  \addtolength{\parindent}{-4em}%
+}{%
+  \egroup%
+}
+\renewcommand*{\ldots}{. . .}
+
+\makeatother
+
