@@ -331,7 +331,7 @@ sections:
 
       - modern:
         - de: Geben Sie mir eine Hand!
-          ja: 右手\footnote{δεξιά, ἡは右手の意であるが、歓迎や挨拶の時にはδεξιὰν διδόναι [προτείνειν, ἐμβάλλειν]するものらしい。ホメーロスでは、差し出すものはδεξιάであってχείρは使われていなかったらしい。LSJ δεξιάより。}を差し出して下さい！
+          ja: 右手\footnote{δεξιά, ἡは右手の意であるが、歓迎や挨拶の時にはδεξιὰν διδόναι [προτείνειν, ἐμβάλλειν]するものらしい。ホメーロスでは、差し出すものはδεξιάであってχείρは使われていなかったらしい。LSJ δεξιάを見よ。}を差し出して下さい！
         grc:
           - ἔμβαλέ μοι τὴν δεξιάν!
 
@@ -514,14 +514,14 @@ sections:
         - de: Danke schön! (auch ablehnend.)
           ja: ありがとう！
         - de: ""
-          ja: 結構です。（拒否する場合もあり）
+          ja: 結構です。（拒否する場合にも）
         grc:
           - καλῶς!
       - modern:
         - de: Ich danke bestens! (des\textcompwordmark{}gl.)
           ja: どうもありがとう！
         - de: ""
-          ja: 真に結構です。（拒否する場合もあり）
+          ja: 真に結構です。（拒否する場合にも）
         grc:
           - κάλλιστα· ἐπαινῶ.
       - modern:
@@ -553,414 +553,520 @@ sections:
           - ὀλίγον μέλει μοι.
       - modern:
         - de: Was geht das \emph{mich} an?
+          ja: それが\kenten{私}と何の関係があるのですか？
         grc:
           - "τί δ' ἐμοὶ ταῦτα;"
       - modern:
         - de: Was geht \emph{Sie} das an?.
+          ja: それが\kenten{貴方}と何の関係があるのですか？
         grc:
           - "τί δ' σοὶ τοῦτο;"
       - modern:
         - de: Sie interessirt es wahrscheinlich nicht.
+          ja: おそらく貴方には關わりのないことでしょう。
         grc:
           - "σοὶ δ' ἴσως οὐδὲν μέλει."
       - modern:
         - de: Da sieh \emph{du} zu!
+          ja: \kenten{貴方自身}で考えてください！
         grc:
           - αὐτὸς σκόπει σύ!
       - modern:
         - de: Es ist einmal so Sitte.
+          ja: それはそういう決まりなんですね。
         grc:
           - νόμος γάρ ἐστιν.
   - title:
       de: Können Sie Griechisch?
+      ja: ギリシャ語は話せますか？
     conversations:
       - modern:
         - de: Können Sie Griechisch?
+          ja: ギリシャ語は話せますか？
         grc:
           - ἐπίστασαι ἑλληνίζειν;
       - modern:
         - de: Ein wenig.
+          ja: 少しは。
         grc:
           - ὀλίγον τι.
       - modern:
         - de: Natürlich!
+          ja: 当然！
         grc:
           - εἰκότως γε!
       - modern:
         - de: Ja freilich!
+          ja: \ruby{正}{まさ}しく！
         grc:
           - μάλιστα!
       - modern:
         - de: Ja gewiß!
+          ja: 確かに！
         grc:
           - ἔγωγε νὴ Δία!
       - modern:
         - de: Darin bin ich stark.
+          ja: \ruby{能}{よ}く出來ます。
         grc:
           - ταύτῃ κράτιστός εἰμι.
       - modern:
         - de: Schön!
+          ja: 素晴らしい！
         grc:
           - καλῶς!
       - modern:
         - de: Da wollen wir einmal Griechisch mit einander sprechen!
+          ja: それでは、一緒にギリシャ語で話しましょう！
         grc:
           - διαλεχθῶμεν οὖν ἑλληνικῶς!
       - modern:
         - de: Meinetwegen.
+          ja: 異議無し。
         grc:
           - οὐδὲν κωλύει.
       - modern:
+        - de: Fangen wir an!
+          ja: 始めましょう！
+        grc:
+          - ἀρξώμεθα!
+      - modern:
         - de: Was meinen sie?
+          ja: 貴方は何を言っている（＝どういう意味な）のですか？
         grc:
           - τί λέγεις;
       - modern:
         - de: Verstehen Sie, was ich meine?
+          ja: （私の）言っていることが分かりますか？
         grc:
           - ξυνίης τὰ λεγόμενα;
       - modern:
         - de: Haben Sie verstanden, was ich meine?
+          ja: 私の言っていることが分かりましたか？
         grc:
-          - ξυνῆκας, ὃ λέγω;!
+          - ξυνῆκας, ὃ λέγω;
       - modern:
         - de: Nein, ich verstehe es nicht.
+          ja: いえ、分かりません。
         grc:
           - οὐ ξυνίημι μὰ Δία.
       - modern:
         - de: Wiederholen Sie es gefälligst noch einmal!
+          ja: もう一度最初から言って下さい。お願いします。
         grc:
           - αὖθις ἐξ ἀρχῆς λέγε, ἀντιβολῶ!
       - modern:
         - de: Seien Sie so gut und sprechen sie langsamer!
+          ja: ゆっくり話して下さいませんか？
         grc:
           - βούλει σχολαίτερον λέγειν;
   - title:
       de: Fragen
+      ja: 質問
     conversations:
       - modern:
         - de: "Was giebt's?"
+          ja: 何かありますか？
         grc:
           - "τί δ' ἔστιν;"
       - modern:
         - de: Wie?
+          ja: どういう意味ですか？
         grc:
           - τί λέγεις;
       - modern:
         - de: \emph{Was} denn?
+          ja: それで、何？
         grc:
           - τί δή;
       - modern:
         - de: Was \emph{denn}?
+          ja: へぇ、それは何？
         grc:
           - τί δαί;
       - modern:
         - de: \emph{Wie} denn?
+          ja: それで、どうやって？
         grc:
           - πῶς δή;
       - modern:
         - de: Wie \emph{denn}?
+          ja: へぇ、どうやって？
         grc:
           - πῶς δαί;
       - modern:
         - de: Warum denn?
+          ja: それで、何故？
         grc:
           - ὁτιὴ τί δή; τιὴ τί δή;
       - modern:
         - de: Wes\textcompwordmark{}halb?
+          ja: 何の為に？
         grc:
           - τίνος ἕνεκα;
       - modern:
         - de: In wiefern?
+          ja: どういう方法で？
         grc:
           - τίνι τρόπῳ;
       - modern:
         - de: Wieso denn?
+          ja: それで、どうやって？
         grc:
           - πῶς δή;
       - modern:
         - de: Bitte, wo?
+          ja: では、どこで？
         grc:
           - ποῦ δῆτα;
       - modern:
         - de: Wohin? Woher?
+          ja: どこへ？どこから？
         grc:
           - ποῖ; πόθεν;
       - modern:
         - de: Wann?
+          ja: いつ？
         grc:
           - πηνίκα;
       - modern:
         - de: Er straft ihn.
+          ja: （あの人は）彼を罰しています。
         grc:
           - κολάζει αὐτόν.
       - modern:
         - de: Wofür?
+          ja: 何の\ruby{廉}{かど}で？
         grc:
           - τί δράσαντα;
       - modern:
         - de: Wodurch?
+          ja: なんで？
+          # https://paulatinygriego.files.wordpress.com/2019/02/greekenglishphrasebook.pdf は多分間違い
         grc:
           - τί δρῶν;
       - modern:
         - de: Zu welchem Zwecke denn?
+          ja: 何の目的で？
         grc:
           - ἵνα δὴ τί;
       - modern:
         - de: Um was handelt es sich?
+          ja: 何について？
         grc:
           - τί τὸ πρᾶγμα;
       - modern:
         - de: Meinen Sie nicht auch?
+          ja: 貴方もそう思いませんか？
         grc:
           - οὐ καὶ σοὶ δοκεῖ;
       - modern:
         - de: "Wär's möglich?"
+          ja: どう思われますか？
         grc:
           - "πῶς φής;"
       - modern:
         - de: "Wo blieb' \\emph{ich}?"
+          ja: 私については？
         grc:
           - τί ἐγὼ δέ;
       - modern:
         - de: Laß doch einmal sehen!
+          ja: 見せて下さい！
         grc:
           - "φέρ' ἴδω!"
       - modern:
         - de: Nun, machen sie Fort\textcompwordmark{}schritte?
+          ja: では、何か進捗はありますか？
         grc:
           - τί δέ, ἐπιδώσεις λαμβάνεις;
   - title:
       de: Wie heißen Sie?
+      ja: お名前は？
     conversations:
       - modern:
         - de: Wie heißen Sie?
+          ja: 貴方のお名前は何ですか？
         grc:
           - ὄνομά σοι τί ἐστιν;
       - modern:
         - de: Wie heißen Sie mit Vor- und Zunamen?
+          ja: 貴方の苗字と名前は何ですか？
         grc:
           - τίνα σοι ὀνόματα.
       - modern:
         - de: Wie heißen Sie eigentlich?
+          ja: そもそも、貴方の名前は何ですか？
         grc:
           - "τί σοί ποτ' ἔστ' ὄνομα;"
       - modern:
         - de: Wer \emph{sind} Sie?
+          ja: 貴方は一体\kenten{誰なんですか}？
         grc:
           - σὺ δὲ τίς εἰ;
       - modern:
         - de: Wer sind \emph{Sie}?
+          ja: \kenten{貴方}は誰ですか？
         grc:
           - "τίς δ' εἶ σύ;"
       - modern:
         - de: Wer sind Sie eigentlich?
+          ja: 実際の所、貴方は誰ですか？
         grc:
           - "σὺ δ' εἶ τίς ἐτεόν;"
       - modern:
         - de: Ich heiße Müller.
+          ja: 私の名はミュラー(Müller)です。
         grc:
           - ὄνομά μοι Μύλλερος.
       - modern:
         - de: Wer ist eigentlich der hier?
+          ja: では、この人は誰ですか？
         grc:
           - "τίς ποθ' ὅδε;"
       - modern:
         - de: Wer muß das nur sein?
+          ja: 全く、この人は誰なんですか？
         grc:
           - "τίς ἄρα ποτ' ἐστίν;"
       - modern:
         - de: Und wo sind Sie her?
+          ja: では、ご出身は？
         grc:
           - καὶ ποδαπός;
       - modern:
         - de: Wo wohnen Sie?
+          ja: どこにお住まいですか？
         grc:
           - ποῦ κατοικεῖς;
       - modern:
         - de: Ich wohne ganz in der Nähe.
+          ja: 近くに住んでいます。
         grc:
           - ἐγγύτατα οἰκῶ.
       - modern:
         - de: Ich wohne weit.
+          ja: 遠くに住んでいます。
         grc:
           - τηλοῦ οἰκῶ.
       - modern:
         - de: Nennen Sie mich nicht bei Namen!
+          ja: 私の名を呼ばないで下さい。
         grc:
           - μὴ κάλει μου τοὔνομα!
       - modern:
         - de: So rufen Sie mich doch nicht, ich bitte Sie!
+          ja: 私のことを呼ばないで下さい。お願いします。
         grc:
           - οὐ μὴ καλεῖς με; ἱκετεύω!
   - title:
       de: Wieviel Uhr ist es?
+      ja: 今何時ですか？
     conversations:
       - modern:
         - de: Wie viel Uhr ist es?
+          ja: 今何\ruby{時}{じ}ですか？
         grc:
           - τίς ὥρα ἐστίν;
       - modern:
         - de: Wie spät ist es am Tage?
+          ja: 今何\ruby{時}{どき}ですか？
         grc:
           - "πηνίκ' ἐστὶ τῆς ἡμέρας;"
       - modern:
         - de: Es ist um Eins.
+          ja: 一時です。
         grc:
-          - ἐσὶ μία ὥρα.
+          - ἐστὶ μία ὥρα.
       - modern:
         - de: Es ist um Zwei (Dri, Vier).
+          ja: 一（二、三）時です。
         grc:
           - εἰσὶ δύο (τρεῖς, τέσσαρες) ὦραι.!
       - modern:
         - de: Es ist ½2 Uhr.
+          ja: 一時半です。
         grc:
           - ἐστὶ μία ὥρα καὶ ἡμίσεια.
       - modern:
         - de: Um welche Zeit?
+          ja: 何時にですか？
         grc:
           - πηνίκα;
       - modern:
         - de: Um ein Uur.
+          ja: 一時に。
         grc:
           - τῇ πρώτῃ ὥρᾳ.
       - modern:
         - de: Um zwei.
+          ja: 二時に。
         grc:
           - τῇ δευτέρᾳ (ὥρα).
       - modern:
         - de: Es ist noch weiter (später).
+          ja: 更に\ruby{晩}{おそ}い時間です。
         grc:
           - περαιτέρω ἐστίν.
       - modern:
         - de: Es ist ein Viertel nach Sieben.
+          ja: 七時十五分です。
         grc:
           - εἰσὶν ἑπτὰ ὦραι καὶ τέταρτον.
       - modern:
         - de: Es ist drei Viertel auf Eins.
+          ja: 十二時四十五分です。
+          # https://paulatinygriego.files.wordpress.com/2019/02/greekenglishphrasebook.pdf は間違い
         grc:
           - εἰσὶ δώδεκα (ὦραι) καὶ τρία τέταρτα.
       - modern:
         - de: Um die dritte Stunde.
+          ja: 三時頃に。
         grc:
-          - περὶ τὴν τρίτην ὥραν.!
+          - περὶ τὴν τρίτην ὥραν.
       - modern:
         - de: Gegen halb fünf.
+          ja: 四時半頃に。
         grc:
           - περὶ τὴν τετάρτην καὶ ἡμίσειαν!
       - modern:
         - de: Ich werde um ¾11 Uhr kommen.
+          ja: 十時四十五分頃に來ます。
         grc:
           - ἥξω εἰς τὴν δεκάτην καὶ τρία τέταρτα.
   - title:
       de: Tages\textcompwordmark{}zeiten
+      ja: 時間帯
     conversations:
       - modern:
-        - de: Zu Mittag.
-        grc:
-          - ἐν μεσημβρίᾳ.
-      - modern:
-        - de: Vormittags.
-        grc:
-          - πρὸ μεσημβρίας.
-      - modern:
-        - de: Nachmittags.
-        grc:
-          - μετὰ μεσημβρίαν.
-      - modern:
-        - de: Es ist hell.
-        grc:
-          - φῶς ἐστιν.
-      - modern:
-        - de: Es ist (wird) dunkel.
-        grc:
-          - σκότος γίγνεται.
-      - modern:
-        - de: Im Finstern.
-        grc:
-          - ἐν (τῷ) σκότῳ.
-      - modern:
-        - de: Abends.
-        grc:
-          - \emph{τῆς ἑσπέρας.}
-      - modern:
-        - de: Gestern Abend.
-        grc:
-          - \emph{ἑσπέρας.}
-      - modern:
-        - de: Heute Abend. (künstig.)
-        grc:
-          - \emph{εἰς ἑσπέραν.}
-      - modern:
-        - de: Abends spät.
-        grc:
-          - νύκτωρ ὀψέ.
-      - modern:
-        - de: Den Tag über.
-        grc:
-          - "δι' ἡμέρας."
-      - modern:
-        - de: Die ganze Nacht hindurch.
-        grc:
-          - ὅλην τὴν νύκτα.
-      - modern:
         - de: Vom frühen Morgen an.
+          ja: 暁より。
         grc:
           - ἐξ ἑωθινοῦ.
       - modern:
-        - de: Von früh an.
+        - de: Vom früh an.
+          ja: 夜明けより。
         grc:
           - ἐξ ἕω.
       - modern:
-        - de: Gleich von früh an.
+        - de: Gleich von früan.
+          ja: 丁度夜明け方に。
         grc:
           - ἕωθεν εὐθύς.
       - modern:
-        - de: Heute Morgens.
+        - de: Es ist hell.
+          ja: もう朝ぼらけだ。
+        grc:
+          - φῶς ἐστιν.
+      - modern:
+        - de: Heute morgen.
+          ja: 今朝。
         grc:
           - ἕωθεν.
       - modern:
         - de: Morgen früh.
+          ja: 翌朝。
         grc:
           - αὔριον ἕωθεν.
       - modern:
-        - de: Heute.
+        - de: Zu Mittag.
+          ja: 正午に。
         grc:
-          - |-
-            τῇδε τῇ ἡμέρᾳ. --- τήμερον\footnote{\textlatin{%
-            \textgreek{ὁ τυπογράφος ἔγραψα τὸν οὐ γεγραμμένον
-            τόνον.}}%
-            }.
+          - ἐν μεσημβρίᾳ.
+      - modern:
+        - de: Vormittags.
+          ja: 午前中に。
+        grc:
+          - πρὸ μεσημβρίας.
+      - modern:
+        - de: Nachmittags.
+          ja: 午後に。
+        grc:
+          - μετὰ μεσημβρίαν.
+      - modern:
+        - de: Es ist (wird) dunkel.
+          ja: 日が暮れる。
+        grc:
+          - σκότος γίγνεται.
+      - modern:
+        - de: Im Finstern.
+          ja: 暮れに。
+        grc:
+          - ἐν (τῷ) σκότῳ.
+      - modern:
+        - de: Abends.
+          ja: 晩に。
+        grc:
+          - \emph{τῆς ἑσπέρας.}
+      - modern:
+        - de: Gestern Abend.
+          ja: 昨晩。
+        grc:
+          - \emph{ἑσπέρας.}
+      - modern:
+        - de: Heute Abend. (künstig.)
+          ja: 今晩。
+        grc:
+          - \emph{εἰς ἑσπέραν.}
+      - modern:
+        - de: Abends spät.
+          ja: 夜遅くに。
+        grc:
+          - νύκτωρ ὀψέ.
+      - modern:
+        - de: Den Tag über.
+          ja: \ruby{終日}{ひねもす}。
+        grc:
+          - "δι' ἡμέρας."
+      - modern:
+        - de: Die ganze Nacht hindurch.
+          ja: \ruby{終夜}{よもすがら}。
+        grc:
+          - ὅλην τὴν νύκτα.
+      - modern:
+        - de: Heute
+          ja: 今日
+        grc:
+          - τῇδε τῇ ἡμέρᾳ. --- τήμερον.
       - modern:
         - de: Gestern.
+          ja: 昨日
         grc:
           - χθές. ἐχθές.
       - modern:
         - de: Morgen.
+          ja: 明日
         grc:
           - αὔριον.
       - modern:
         - de: Übermorgen.
+          ja: 明後日
         grc:
           - ἕνης. εἰς ἕνηςν
       - modern:
         - de: Vorgestern.
+          ja: 一昨日
         grc:
           - |-
             τρίτην ἡμέραν. (\textgerman{auch}
             νεωστί).
   - title:
       de: Jetzt\textcompwordmark{}zeit. Feste
+      ja: 現今。祝祭日。
     conversations:
       - modern:
         - de: In der jetzigen Zeit.
+          ja: 現時点で。
         grc:
           - ἐν τῷ νῦν χρόνῳ.
       - modern:
         - de: Gerade wie früher.
+          ja: 従前のように。
         grc:
           - ὥσπερ καὶ πρὸ τοῦ.
       - modern:
         - de: Auf welchen Tag?
+          ja: 何日に？
         grc:
           - |-
             ἐς\footnote{\textlatin{%
@@ -969,207 +1075,259 @@ sections:
             } τίνα ἡμέραν.
       - modern:
         - de: Für sogleich.
+          ja: ただちに。
         grc:
           - ἐς αὐτίκα μάλα.
       - modern:
         - de: Vor Kurzem.
+          ja: 今し方。
         grc:
           - τὸ ἔναγχος.
       - modern:
         - de: Lange genug.
+          ja: 長期に亙って。
         grc:
           - ἰκανὸν χρόνον.
       - modern:
         - de: Heute über 14 Tage.
+          ja: 今日から14日後に。
         grc:
           - "μεθ' ἡμέρας \\emph{μεντεκαὶδεκα} ἀπὸ τῆς τήμερον."
       - modern:
         - de: Heuer.
+          ja: 今年。
         grc:
           - τῆτες.
       - modern:
         - de: "Vor'm Jahr."
+          ja: 去年。
         grc:
           - πέρυσιν.
       - modern:
         - de: "Über's Jahr."
+          ja: 來年。
         grc:
           - εἰς νέωτα.
       - modern:
         - de: Alle vier Jahre.
+          ja: 每五年。
         grc:
           - "δι' ἔτους \\emph{πέμπτου.}"
       - modern:
         - de: Monatlich.
+          ja: 每月。
         grc:
           - κατὰ μῆνα.
       - modern:
         - de: Der Frühling. Der Sommer.
+          ja: 春。夏。
         grc:
           - τὸ ἔαρ. τὸ θέρος.
       - modern:
         - de: Der Herbst. Der Winter.
+          ja: 秋。冬。
         grc:
           - τὸ φθινόπωρον. ὁ χειμών.
       - modern:
         - de: Zur Winters\textcompwordmark{}zeit.
+          ja: 冬に。
         grc:
           - χειμῶνος ὄντος.
       - modern:
         - de: Das Fest.
+          ja: 祭。
         grc:
           - ἡ ἑορτή.
       - modern:
         - de: Weihnachten.
+          ja: 降誕祭。
         grc:
           - τὰ Χριστούγεννα.{*}
       - modern:
         - de: Neujahr.
+          ja: 新年。
         grc:
           - ἡ πρώτη τοῦ ἔτους.
       - modern:
         - de: Fastnacht.
+          ja: 謝肉祭。
         grc:
           - αἱ ἀπόκρεω.{*}
       - modern:
         - de: Charfreitag.
+          ja: 聖金曜日。
         grc:
           - ἡ μεγάλη παρασκευή.{*}
       - modern:
         - de: Ostern.
+          ja: 復活祭。
         grc:
           - τὸ πάσχα.{*}
       - modern:
         - de: Pfingsten.
+          ja: 聖霊降臨祭。
         grc:
           - ἡ πεντηκοστή.
       - modern:
         - de: Geburts\textcompwordmark{}tag.
+          ja: 誕生日。
         grc:
           - τὸ γενέθλια.
       - modern:
-        - de: Jahres\textcompwordmark{}tag (Stiftungs\textcompwordmark{}fest)..
+        - de: Ich weiß, daß der heutige (morgende) Tag dein Geburts\textcompwordmark{}tag ist.
+          ja: 今日(明日)は君の誕生日だったよね。
+        grc:
+          - οἶδα τὴν τήμερον (αὔριον) ἡμέραν οὖσαν γενέθλιόν σου.
+      - modern:
+        - de: Jahres\textcompwordmark{}tag (Stiftungs\textcompwordmark{}fest).
+          ja: 例祭日（創立祝賀祭）。
         grc:
           - ἡ ἐπέτειος ἑορτή.
         ruleAfter: true
       - modern:
         - de: "Die Monate:"
+          ja: 月名：
         grc:
           - |-
             οἱ μῆνες: Ἰανουάριος. Φεβρουάριος. Μάρτιος. Ἀπρίλιος. Μάϊος. Ἰούνιος.
             Ἰούλιος. Αὔγουστος. Σεπτέμβριος. Ὀκτώβριος. Νοεμβριος. Δεκέμβριος.
   - title:
       de: Das Wetter
+      ja: 天気
     conversations:
       - modern:
         - de: Was haben wir für Wetter?
+          ja: 今の天気はどうですか？
         grc:
           - ποῖος ὁ \emph{ἀὴρ} τό νῦν;
       - modern:
         - de: Das Wetter ist schön.
+          ja: 良い天気です。
         grc:
           - εὐδία ἐστίν.
       - modern:
         - de: Es ist herrliches Wetter.
+          ja: 素晴らしい天気です。
         grc:
           - εὐδία ἐστὶν ἡδίστη.
       - modern:
         - de: Die Sonne scheint.
+          ja: 太陽が輝いています。
         grc:
           - ἐξέχει εἵλη ἔχομεν ἥλιον. φαίνεται ὁ ἥλιος. ἥλιος λάμπει.
       - modern:
         - de: Es ist warm.
+          ja: 暖かです。
         grc:
           - θάλμος ἐστίν.
       - modern:
         - de: Es ist windig. (Der Wind geht.)
+          ja: 風が吹いています。
         grc:
           - ἄνεμος γίγνεται.
       - modern:
         - de: Es weht ein starker Wind.
+          ja: 風が強く吹いています。
         grc:
           - ἄνεμος πνεῖ \emph{μέγας.}
       - modern:
         - de: Wir haben Nord-, Süd-, Ost-, Westwind.
+          ja: 北、南、東、西風が吹いています。
         grc:
           - |-
-            ἄνεμος γίγνεται βόρειος, νότιος\footnote{\textlatin{%
-            \textgreek{ὁ τυπογράφος ἔγραψα τὸν οὐ γεγραμμένον
-            τόνον.}}%
-            }, ἀνατολικός, δυτικός.!
+            ἄνεμος γίγνεται βόρειος, νότιος, ἀνατολικός, δυτικός.!
       - modern:
         - de: Es umwölkt sich.
+          ja: 曇ってきました。
         grc:
           - ξυννεφεῖ.
       - modern:
         - de: Es sprüht.
+          ja: 霧雨が降っています。
         grc:
           - ψακάζει.
       - modern:
         - de: Es regnet.
+          ja: 雨が降っています。
         grc:
           - ὕει.
       - modern:
         - de: Es gießt sehr.
+          ja: 土砂降りです。
         grc:
           - ὄμβρος πολὺς γίγνεται.
       - modern:
         - de: Es donnert.
+          ja: 雷が鳴っています。
         grc:
           - βροντᾷ.
       - modern:
         - de: Wir haben ein Gewitter.
+          ja: 雷雨です。
         grc:
           - βρονταὶ γίγνονται καὶ κεραυνοί.
       - modern:
         - de: Es blitzt stark.
+          ja: 雷が激しく落ちています。
         grc:
           - ἀστράπτει πολὺ νὴ Δία.
       - modern:
         - de: Es hat eingeschlagen.
+          ja: 雷が落ちました。
         grc:
           - ἔπεσε σκηπτός. ἔπεσε κεραυνός.
       - modern:
         - de: Es ist kalt. (sehr kalt.)
+          ja: 寒うございます。（厳しい寒さです）
         grc:
           - ψῦχός ἐστιν. (ψ. ἐστι μέγεστον.)
       - modern:
         - de: Es schneit! hu!
+          ja: 雪が降っています！うひゃあ！
         grc:
           - νίφει· βαβαιάξ!
       - modern:
         - de: Es schneit sehr.
+          ja: 大雪です。
         grc:
           - χιών γίγνεται πολλή.
       - modern:
         - de: Es friet.
+          ja: 凍りつく寒さです。
         grc:
-          - χρύος γίγνεται.
+          - κρύος γίγνεται.
       - modern:
         - de: Warum machst du den (Sonnen-)Schirm zu?.
+          ja: 何故（日）傘を閉じているのですか？
         grc:
           - τί πάλιν ξυνάγεις τὸ σκιάδειον;
       - modern:
         - de: "Mach' ihn wieder auf!"
+          ja: それ（傘）を開きなさい！
         grc:
           - ἐκπέτασον αὐτό!
       - modern:
         - de: Her mit dem Schirm!
+          ja: 傘を持ちなさい！
         grc:
           - φέρε τὸ σκιάδειον!
       - modern:
         - de: Halte den Schirm über mich!
+          ja: 傘を私に差しなさい！
         grc:
           - ὑπέρεχέ μου τὸ σκιάδειον.
       - modern:
         - de: Nimm dich hier vor dem Schmutze in Acht!
+          ja: そこの泥に注意しなさい！
         grc:
           - τὸν πηλὸν τουτονὶ φύλαξαι!
   - title:
       de: Abreise
+      ja: 出発
     conversations:
       - modern:
         - de: Wann reisen Sie nach Berlin?
+          ja: いつベルリンに旅行しますか？
         grc:
           - |-
             πότε \emph{ἄπει} εἰς Βερόλινον{*} (Λόνδινον, Βιέννην{*} \textgerman{Wien,}
@@ -1177,743 +1335,930 @@ sections:
             Δρέσδην{*}, Βρυξέλας{*}, Μόναχον \textgerman{München});
       - modern:
         - de: Um 12. November.
+          ja: 11月12日に。
         grc:
           - τῇ δωδεκάτῃ Νοεμβρίου.
       - modern:
         - de: Nach Leipzig sind Sie bis\textcompwordmark{}her noch nicht gekommen.
+          ja: 貴方はまだライプツィヒに行ったことが無い。
         grc:
           - εἰς Λειψίαν{*} οὔπω ἐλήλυθας.
       - modern:
         - de: "In den Ferien hätte ich Lust auf's Land zu gehen."
+          ja: 休暇中は田舎に行きたいなぁ。
         grc:
           - ἐν τῷ ἀναπαύλης χρόνῳ ἐπιθυμῶ ἐλθεῖν εἰς ἀγρόν.
       - modern:
         - de: Mit welcher Gelegenheit wollen Sie reisen?
+          ja: 旅程はどんな感じになりそうですか？
         grc:
           - τίς σοι γενήσεται πόρος τῆς ὁδοῦ;
       - modern:
         - de: Um vier Uhr mit dem Bahnzuge.
+          ja: 旅程はどんな感じになりそうですか？
         grc:
-          - |-
-            τῇ τετάρτῃ ὥρᾳ χρώμενος τῇ ἁμαξοστοιχίᾳ\footnote{\textlatin{%
-            \textgreek{τῷ τυπογράφῳ ἄσκοπος τὸ γράμμα «ἁ» ἦν.}}%
-            }.{*}
+          - τῇ τετάρτῃ ὥρᾳ χρώμενος τῇ ἁμαξοστοιχίᾳ.{*}
       - modern:
         - de: O, dann ist es Zeit zu gehen.
+          ja: それでは、出発の時間だ。
         grc:
           - "ὥρα βαδίζειν ἄρ' ἐστίν."
       - modern:
         - de: Es ist Zeit auf den Bahnhof zu gehen.
+          ja: 駅に行く時間だ。
         grc:
           - ὥρα ἐστὶν εἰς τὸν (σιδηροδρομικὸν{*}) σταθμὸν βαδίζειν.
       - modern:
         - de: Es wäre längst Zeit gewesen!
+          ja: もうこんな時間だ！
         grc:
-          - |-
-            ὥρα\footnote{\textlatin{%
-            \textgreek{ὁ τυπογράφος ἔγραψα τὸν οὐ γεγραμμένον
-            τόνον.}}%
-            } ἦν πάλαι.
+          - ὥρα ἦν πάλαι.
       - modern:
         - de: Nun, so reisen Sie glücklich!
+          ja: では、道中お気を付けて。
         grc:
           - "ἀλλ' ἴθι χαίρων!"
       - modern:
         - de: Adieu!
+          ja: お元気で！
         grc:
           - χαῖρε καὶ σύ!
       - modern:
         - de: Er ist abgereist.
+          ja: 彼はもう行ってしまった。
         grc:
           - οἴχεται.
       - modern:
         - de: Mein Bruder ist seit 5 Monaten fort.
+          ja: 我が兄（弟）はもう五ヶ月間不在だ。
         grc:
           - ὁ ἐμὸς ἀδελφὸς πέντε μῆνας ἄπεστιν.
       - modern:
         - de: Er ist auf der Reise.
+          ja: 彼は旅行中だ。
         grc:
           - ἀποδημῶν ἐστιν.
   - title:
       de: Gehen. Weg.
+      ja: 行。旅路
     conversations:
       - modern:
         - de: Kommen Sie mit!
+          ja: こっち來て！
         grc:
           - ἕπου!
       - modern:
         - de: Kommen Sie mit mir!
+          ja: 着いて來て！
         grc:
           - "ἕπου μετ' ἐμοῦ!"
       - modern:
         - de: Der Bahnhof ist nicht weit.
+          ja: 駅までは遠くない。
         grc:
           - "ἔστ' οὐ μεκρὰν ἄποθεν ὁ σταθμός."
       - modern:
         - de: Nun, so wollen wir gehen.
+          ja: さあ、行こう！
         grc:
           - ἄγε νυν ἴωμεν.
       - modern:
         - de: Wir wollen fortgehen
+          ja: 去ろう！
         grc:
           - ἀπίωμεν.
       - modern:
         - de: Wir wollen weitergehen.
+          ja: 進もう！
         grc:
           - χωρῶμεν.
       - modern:
         - de: Vorwärts!
+          ja: 進め！
         grc:
           - χώρει!
       - modern:
         - de: Wir wollen Euch voraus\textcompwordmark{}gehen.
+          ja: 我々は諸君らを先導しよう。
         grc:
           - προίωμεν ὑμῶν.
       - modern:
         - de: "Ich werde eine Droschke nehmen."
+          ja: \ruby{辻馬車}{タクシー}を呼ぼう（＝使おう）。
         grc:
           - ἁμάξῃ χρήσομαι.
       - modern:
         - de: Ich werde vielmehr den Omnibus benutzen.
+          ja: いや、私はむしろ\ruby{乗合馬車}{バス}を使おう。
         grc:
           - ἐγὼ μὲν οὖν χρήσομαι τῷ λεωφορείῳ{*}.
       - modern:
         - de: Ich meinerseits gehe zu Fuße.
+          ja: \kenten{私は}歩いていこう。
         grc:
           - βαδίζω ἔγωγε.
       - modern:
         - de: Du reitest.
+          ja: 君は（馬に）乗れ。
         grc:
           - ὀχεῖ!
       - modern:
         - de: Sagen Sie, auf welchem Wege kommen wir am schnellsten nach dem Bahnhofe?
+          ja: 最速で駅に着く方法を教えてくれ。
         grc:
           - φράζε, ὅπῃ τάχιστα ἀφιξόμεθα εἰς τὸν σταθμόν;
       - modern:
         - de: Wir können den Weg nicht finden.
+          ja: 道が見つけられない。
         grc:
           - οὐ δυνάμεθα ἐξευρεῖν τὴν ὁδόν.
       - modern:
         - de: Ich weiß nicht mehr, wo wir sind.
+          ja: 我々が今何処に居るのだか全く分からない。
         grc:
-          - οὐκέτι οἶδα, ποῖ γῆς ἐσμεν..
+          - οὐκέτι οἶδα, ποῖ γῆς ἐσμεν.
       - modern:
         - de: Sie haben den Weg verfehlt.
+          ja: 道を間違えたようだが。
         grc:
           - τῆς ὁδοῦ ἡμάρτηκας.
       - modern:
         - de: Ach, du mein Gott!
+          ja: 南無三！
         grc:
-          - ὦ φίλιο θεοί!
+          - ὦ φίλοι θεοί!
       - modern:
         - de: Gehen Sie die Straße hier, so werden Sie sogleich auf den Marktplatz kommen.
+          ja: この道を行ったらすぐ広場に着きますよ。
         grc:
-          - ἴθι τὴν ὁδὸν ταυτηνί καὶ τὐθὺς ἐπὶ τὴν ἀγορὰν ἥξεις.
+          - ἴθι τὴν ὁδὸν ταυτηνί καὶ εὐθὺς ἐπὶ τὴν ἀγορὰν ἥξεις.
       - modern:
         - de: Und was dann?
+          ja: そしたら何だって？
         grc:
           - εἶτα τί;
       - modern:
         - de: Dann müssen Sie rechts (links) gehen.
+          ja: そしたら右折（左折）。
         grc:
           - "εἶτα βαδιστέα σοι ἐπὶ δεξιά (ἐπ' ἀριστερά)."
       - modern:
         - de: Gerade aus!
+          ja: 真っ直ぐ！
         grc:
           - ὀρθήν!
       - modern:
         - de: Wie weit ist es etwa?
+          ja: この道は大体どれくらい（の長さ）？
         grc:
           - πόση τις ἡ ὁδός;
       - modern:
         - de: Danke.
+          ja: ご尤も／宜しい／結構です。
         grc:
           - καλῶς.
       - modern:
         - de: Nun, da wollen wir uns beeilen.
+          ja: さあ急ごう。
         grc:
           - ἀλλὰ σπεύδωμεν.
       - modern:
         - de: Gehen Sie zu!
+          ja: 行こう！
         grc:
           - χώρει!
       - modern:
         - de: Wir sind erst nach dem zweiten Läuten gekommen.
+          ja: 我々は二度目の号鐘(?)の後に到着した。
         grc:
           - ὕστερον ἤλθομεν τοῦ δευτέρου σημείου.
   - title:
       de: Warte!
+      ja: 待て！
     conversations:
       - modern:
         - de: Du, halt einmal!
+          ja: 君、ちょっと止まって！
         grc:
           - ἐπίσχες, οὗτος!
       - modern:
         - de: Warte einmal!
+          ja: ちょっと待って！
         grc:
           - ἔχε νυν ἥσυχος!
       - modern:
         - de: "Halt! Bleib' stehen!"
+          ja: 止まれ！停止しろ！
         grc:
           - "μέν' ἥσυχος! στῆθι!"
       - modern:
         - de: Nicht von der Stelle!
+          ja: 動くな！
         grc:
-          - "ἔχ' ἀστέμας αὐτοῦ!"
+          - "ἔχ' ἀτρέμας αὐτοῦ!"
       - modern:
         - de: So warte doch!
+          ja: 待たないか！
         grc:
           - \emph{οὐ μενεῖς;}
       - modern:
         - de: Warte eine Weile auf mich!
+          ja: 少し待っていて下さい。
         grc:
           - "ἐπανάμεινον μ' ὀλίγον χρόνον."
       - modern:
         - de: Ich werde gleich wiederkommen.
+          ja: すぐ戻ります。
         grc:
           - "ἀλλ' ἥξω ταχέως."
       - modern:
         - de: Wo soll ich dich erwarten?
+          ja: どこで待っていればいい？
         grc:
           - ποῦ ἀναμεῶ;
       - modern:
         - de: "Komm' nur schnell wieder!"
+          ja: すぐ戻って來い！
         grc:
           - ἧκέ νυν ταχύ!
       - modern:
+        - de: Dahinten kommt er!
+          ja: 奴が後ろから來ているぞ！
+        grc:
+          - οὗτος ὄπισθεν προσέρχεται.
+      - modern:
+        - de: Nun, so wollen wir warten
+          ja: では待ちましょう。
+        grc:
+          - ἀλλά περιμενοῦμεν.
+      - modern:
         - de: Da bin ich wieder.
+          ja: 只今戻りました。
         grc:
           - ἰδού, πάρειμι.
       - modern:
         - de: Bist du wieder da?
+          ja: もう戻ってる？
         grc:
           - ἥκεις;
       - modern:
         - de: Ich bin dir doch nicht zu lange gewesen?
+          ja: （否定応答を期待して）待った？
         grc:
           - μῶν ἐπισχεῖν σοι δοκῶ;
       - modern:
         - de: Wo bist du nur so lange geblieben?
+          ja: こんなに長い間君は一體何処にいたのかな？
         grc:
           - "ποῦ ποτ' ἦσθα ἀπ' ἐμοῦ (ἀφ' ἡμῶν) τὸν πολὺν τοῦτον χρόνον;"
   - title:
       de: Komm her!
+      ja: 來て！
     conversations:
       - modern:
         - de: Komm her!
+          ja: 來て！
         grc:
           - "δεῦρ' ἐλθέ!"
       - modern:
         - de: Komm hierher!
+          ja: こっちに來て！
         grc:
           - ἐλθὲ δεῦρο!
       - modern:
         - de: "Geh' her!"
+          ja: こちらへ！
         grc:
           - χώρει δεῦρο!
       - modern:
         - de: "Geh' hierher, zu mir!"
+          ja: ここに來て。
         grc:
           - βάδιζε δεῦρο, ὡς ἐμέ!
       - modern:
         - de: Du kommst wie gerusen.
+          ja: 君が來たのも神のお蔭だ。
         grc:
           - ἥκεις ὥσπερ κατὰ θεῖον.
       - modern:
         - de: Woher kommst du?
+          ja: どこから來たのかね？
         grc:
           - πόθεν βαδίζεις;
       - modern:
         - de: Aber wo kommst du eigentlich her?
+          ja: それにしても、実際君はどこから來たのかね？
         grc:
           - ἀτὰρ πόθεν ἥκεις ἐτεόν;
       - modern:
         - de: Ich komme von Müllers.
+          ja: ミュラー氏の許より來ました。
         grc:
           - \emph{ἐκ Μυλλέρου} ἔρχομαι.
       - modern:
         - de: "Geh' mit mir hinein!"
+          ja: 私と一緒に入りなさい。
         grc:
-          - "εἴσιθι αμ'\\footnote{ὁ τυπογράφος ἔγραψα τὸν οὐ γεγραμμένον τόνον.} ἐμοί."
+          - "εἴσιθι ἅμ' ἐμοί."
       - modern:
         - de: Ich bitte dich, noch bei uns zu bleiben.
+          ja: 君には我々と共にいて欲しい。
         grc:
-          - δέομαί σου περαμεῖναι ἡμῖν.
+          - δέομαί σου παραμεῖναι ἡμῖν.
       - modern:
         - de: Das geht nicht!
+          ja: いや、無理です。
         grc:
           - "ἀλλ' οὐχ οἷόν τε!"
       - modern:
         - de: Wohin gehst du?
+          ja: どこへ行くのかね？
         grc:
           - ποῖ βαδίζεις;
       - modern:
         - de: "So bleib' doch da!"
+          ja: 一緒に居てもらえないかね？
         grc:
           - οὐ παραμενεῖς;
       - modern:
         - de: Wir lassen dich nicht fort.
+          ja: 君は逃さないぞ！
         grc:
           - "οὔ σ' ἀφήσομεν."
       - modern:
         - de: Ich will zum Friseur.
+          ja: 床屋に行きたいのです。
         grc:
           - \emph{βούλομαι εἰς} τὸ κουρεῖον.
       - modern:
         - de: Wir lassen dich durchaus nicht fort.
+          ja: 神に誓って君のことはどこにもやらないぞ！
         grc:
           - οὐκ ἀφήσομέν σε μά δία οὐδέποτε!
       - modern:
         - de: Laßt mich los!
+          ja: 放せ！
         grc:
           - μέθεσθέ μου!
       - modern:
         - de: Kommt schnell zu mir her!
+          ja: 早くここに來なさい！
         grc:
           - "ἴτε δεῦρ' ὡς ἐμὲ ταχέως."
       - modern:
         - de: Heute Abend will ich kommen.
+          ja: 夕方に着きます。
         grc:
           - εἰς ἑσπέραν ἥξω.
       - modern:
         - de: Weg ist er!
+          ja: 彼は外出中です。
         grc:
           - φροῦδός ἐστιν!
       - modern:
         - de: Wo ist er denn hin?
+          ja: では、彼はどこに行ったんだ？
         grc:
           - ποῖ γὰρ οἴχεται;
       - modern:
         - de: Er ist fort zum Friseur.
+          ja: 彼は床屋に行きました。
         grc:
           - εἰς τὸ κουρεῖον οἴχεται.
       - modern:
         - de: Er geht heim.
+          ja: 彼は家路に就いています。
         grc:
           - "οἴκαδ' ἔρχεται."
       - modern:
         - de: Wir wollen wieder heimgehen.
+          ja: 家に帰ろうではないか。
         grc:
           - "ἀπίωμεν οἴκαδ' αὖθις."
       - modern:
         - de: Er will ihnen entgegen gehen.
+          ja: 彼らに会いたがっています。
         grc:
           - ἀπαντῆσαι αὐτοῖς βούλεται.
       - modern:
         - de: Er ist ihr begegnet.
+          ja: 彼は彼女に会った。
         grc:
           - ξυνήντησεν αὐτῇ.
       - modern:
         - de: Wo wollen wir uns treffen?
+          ja: 我々はどこで会おうか。
         grc:
           - ποῖ ἀπαντησόμεθα;
       - modern:
         - de: Hier.
+          ja: ここで。
         grc:
           - ἐνθάδε.
   - title:
       de: Bier her!
+      ja: ビール一つ！
     conversations:
       - modern:
         - de: Kellner! Kellner!
+          ja: 給仕さん！給仕さん！
         grc:
           - παῖ! παῖ!
       - modern:
         - de: Wo steckt denn die Bedienung?
+          ja: 給仕を誰かここに寄こしてくれませんか？
         grc:
           - οὐ περιδραμεῖταί τις δεῦρο τῶν παίδων;
       - modern:
         - de: Sie da, Kellner, wohin laufen Sie? --- Nach Gläsern.
+          ja: 「すみません、給仕さん、なぜ行ってしまうのですか？」「ちょっと杯を（取りに）……」
         grc:
           - "οὗτος σὺ, παῖ, ποῖ θεῖς; --- Ἐπ' ἐκπώματα."
       - modern:
         - de: Kommen Sie hierher!
+          ja: ここに來て！
         grc:
           - ἐλθὲ δεῦρο!
       - modern:
         - de: Bringen Sie mir einmal schnell Bier und Hasenbraten!
+          ja: ビールと焼き兎を早く持って來て！
         grc:
           - ἔνεγκέ μοι ταχέως ζῦθον καὶ λαγῷα.
       - modern:
         - de: Ganz wohl, mein Herr!
+          ja: 分かりました。御主人樣。
         grc:
           - \emph{ταῦτα,} ὦ δέσποτα.
       - modern:
         - de: So, da bringe ich Alles.
+          ja: どうぞ、全てお持ちしました。
         grc:
           - "ἰδού, ἅπαντ' ἐγὼ φέρω."
       - modern:
         - de: Das Bier schmeckt gut!
+          ja: このビール美味しいね!
         grc:
           - ὡς ἡδὺς ὁ ζῦθος!
       - modern:
         - de: Es schmeckt mir nicht.
+          ja: これ好きではないなぁ。
         grc:
           - οὐκ ἀρέσκει με.
       - modern:
         - de: Das Bier \emph{schmeckt} sehr stark nach Pech.
+          ja: このビール、タールピッチの匂いが鼻を突く。
         grc:
-          - \emph{ὄζει} πίττης ὁ ζῦθος ὀξύτατον.!
+          - \emph{ὄζει} πίττης ὁ ζῦθος ὀξύτατον.
       - modern:
         - de: Bier her, Kellner! --- Schleunigst!
+          ja: 「給仕さん、ビール一つ下さい！」「はい、只今！」
         grc:
-          - πέρε σὺ ζῦθον ὁ παῖς! --- πάσῃ τέχνῃ!
+          - φέρε σὺ ζῦθον ὁ παῖς! --- πάσῃ τέχνῃ!
       - modern:
         - de: So beeilen Sie sich doch!
+          ja: もっと急いでくれませんか？
         grc:
           - οὐ θᾶττον ἐγκονήσεις;
       - modern:
         - de: Sie sorgen schlecht für uns.
+          ja: 君の\ruby{給仕}{サービス}は良くないな。
         grc:
           - κακῶς ἐπιμελεῖ ἡμῶν!
       - modern:
         - de: Kellner, schenken Sie mir noch einmal ein!
+          ja: 給仕さん、もう一杯注いでくれ！
         grc:
           - παῖ, ἕτερον ἔγχεον!
       - modern:
         - de: Schenken Sie mir auch ein!
+          ja: 僕にも注いでくれ!
         grc:
           - ἔγχει κἀμοί!
       - modern:
         - de: Heute Abend wollen wir nach langer Zeit wieder einmal gehörig zechen.
+          ja: 夕方まで酔っ払っちまおうぜ。
         grc:
           - εἰς ἑσπέραν μεθυσθῶμεν διὰ χρόνου.
       - modern:
         - de: Das Kneipen taugt nichts.
+          ja: ここで飲むのは\ruby{止}{よ}そう。
         grc:
           - κακὸν τὸ πίνειν!
       - modern:
         - de: Man bekommt Katzenjammer von dem Bier.
+          ja: こいつはビールで酔っ払らっちまった。
         grc:
           - κραιπάλη γίγνεται ἀπὸ τοῖ ζύθου.
       - modern:
         - de: Ich will Bier \emph{holen}.
+          ja: ビールを取りに行く。
         grc:
           - ἐπὶ ζῦθον εἶμι.
       - modern:
-        - de: Ich werde Sie nöthigenfalls rufen.
+        - de: Ich werde Sie nöthigenfalls rufen. (\textgreek{εἴ τι δέοι} = wenn es nötig werden \emph{sollte;} dagegen \textgreek{ἐάν τι δέη} = wenn es nötig wird)
+          ja: 万一必要なことがあったら呼ぶよ。（\textgreek{εἴ τι δέοι}＝万一必要なことがあったら。対して、\textgreek{ἐάν τι δέη}＝必要なことがあれば）
         grc:
-          - καλέσω σε, εἴ τι δέοι.
+          - καλῶ (καλέσω) σε, εἴ τι δέοι.
+#      - modern:
+#        - de: Ich werde Sie nöthigenfalls rufen.
+#          ja: もし必要なことがあったら呼んでくれ。
+#        grc:
+#          - καλῶ (καλέσω) σε, εἴ τι δέοι (= \textgerman{wenn es nötig werden \emph{sollte;} dagegen \textgreek{ἐάν τι δέη} = wenn es nötig wird}).
       - modern:
         - de: Ich gehe und hole mir noch eins.
+          ja: 外のお客樣の所へ行きます。
         grc:
           - ἕτερον ἰὼν κομιοῦμαι.
       - modern:
         - de: Hier haben Sie es!
+          ja: はい、こちらをどうぞ！
         grc:
           - ἰδού, τουτὶ λαβέ.
       - modern:
         - de: Schön. Sie sollen ein Trinkgeld von mir bekommen.
+          ja: よろしい。チップを弾みましょう。
         grc:
           - καλῶς. εὐεργετήσω σε.
       - modern:
         - de: Ich bin nicht im Stande hier zu bleiben.
+          ja: ここにずっとは居られません。
         grc:
           - "οὐχ οἷός τ' εἰμὶ ἐυθάδε μένειν."
       - modern:
         - de: Der Rauch beißt mich in die Augen.
+          ja: 煙が目にしみる。
         grc:
           - ὁ καπνὸς δάκνει τὰ βλέφαρά μου.
       - modern:
+        - de: Wer nicht mit trinken will, gehört nicht her!
+          ja: 飲むか去るかだ。君には他の選択肢は無い。
+        grc:
+          - ἢ πῖθι\footnote{\textlatin{orig.} πίθι} ἢ ἄπιθι!
+      - modern:
         - de: "Komm', geh' mit!"
+          ja: 私について來なさい。
         grc:
           - "ἕπου μετ' ἐμοῦ."
       - modern:
         - de: Der Rauch vertreibt mich.
+          ja: 煙が私を追い払う。
         grc:
           - "ὁ καπνός μ' ἐκπέμπει."
       - modern:
         - de: Kellner, rechnen Sie einmal die Zeche zusammen!
+          ja: 給仕さん、お会計お願いします。
         grc:
           - παῖ, λόγισαι ταῦτα.
       - modern:
         - de: Sie hatten 6 Bier, Hasenbraten, Brot, macht 2½ Mark.
+          ja: ビール6杯、焼き兎肉、パンで合計2½マルクです。
         grc:
           - |-
             εἴχετε ζύθου ἕξ (ποτήρια) καὶ λαγῷα καὶ ἄρτον· γίγνονται οὖν ἡμῖν
             δύο μάρκαι{*} καὶ ἡμίσεια.
       - modern:
         - de: Hier haben Sie!
+          ja: はい、どうぞ。
         grc:
           - ἰδού, λαβέ.
       - modern:
         - de: Ich taumele beim Gehen.
+          ja: 千鳥足になった。
         grc:
           - σφαλλόμενος ἔρχομαι.
   - title:
       de: Mich hungert
+      ja: 空腹
     conversations:
       - modern:
         - de: Ich bekomme Hunger.
+          ja: お腹が空いてきた。
         grc:
           - λιμός με λαμβάνει.
       - modern:
         - de: Ich habe nichts zu essen.
+          ja: 食べ物が無い。
         grc:
           - οὐκ ἔχω καταφαγεῖν.
       - modern:
         - de: Er hat einen Bärenhunger.
+          ja: 飢餓に陥っている。
         grc:
           - βουλιμιᾷ.
       - modern:
-        - de: Ich komme vor Hunger um..
+        - de: Ich komme vor Hunger um.
+          ja: 空腹で死にそうだ。
         grc:
           - ἀπόλωλα ὑπὸ λιμοῦ.
       - modern:
         - de: Soll ich Ihnen etwas zu essen (zu trinken) geben?
+          ja: 食べ物（飲み物）を上げましょうか？
         grc:
           - φέρε τί σοι δῶ \emph{φαγεῖν;} (πιεῖν;)
       - modern:
         - de: Geben Sie mir etwas zu essen!
+          ja: 食べ物を下さい！
         grc:
           - δός μοι φαγεῖν!
       - modern:
         - de: Ich will zu Tische gehen.
+          ja: 食卓に行こうと思う。
         grc:
           - βαδιοῦμαι ἐπὶ δεῖπνον.
       - modern:
         - de: Sie haben noch nicht zu Mittag gegessen?
+          ja: まだ昼食を食べていませんか
         grc:
           - οὔπω δεδείπνηκας;
       - modern:
         - de: Nein!
+          ja: 天地神明に誓ってまだだ。
         grc:
           - "μὰ Δί' ἐγὼ μὲν οὔ."
       - modern:
         - de: Ich muß fort zu Tische.
+          ja: 食事に行かねばならぬ。
         grc:
           - δεῖ με χωρεῖν ἐπὶ δεῖπνον.
       - modern:
         - de: Nun, so gehen Sie schnell zum Essen!
+          ja: さぁ、食事をしに速く行きなさい！
         grc:
           - "ἀλλ' ἐπὶ δεῖπνον ταχὺ βάδιζε!"
       - modern:
         - de: Er kommt zu Tische.
+          ja: 彼が食事に來る。
         grc:
           - ἐπὶ δεῖπνον ἔρχεται.
       - modern:
         - de: Der Tisch ist gedeckt.
+          ja: 食事の準備ができている。
         grc:
           - "τὸ δεῖπνόν ἐστ' ἐπεσκευασμένον.!"
       - modern:
         - de: Die Tasse.
+          ja: \ruby{杯}{コップ}。
         grc:
           - τὸ κύπελλον.
       - modern:
         - de: Der Teller.
+          ja: 皿。
         grc:
           - τὸ λεκάνιον.
       - modern:
         - de: Die Schüssel.
+          ja: 碗。
         grc:
           - τὸ τρυβλίον.
       - modern:
         - de: Das Messer.
+          ja: \ruby{小刀}{ナイフ}。
         grc:
           - τὸ μαχαίριον.
       - modern:
         - de: Die Gabel.
+          ja: \ruby{叉}{フォーク}。
         grc:
           - τὸ πειρούνιον.{*}
       - modern:
         - de: Die Serviette.
+          ja: \ruby{餐巾}{ナプキン}。
         grc:
           - τὸ χειρόμακτρον.
   - title:
       de: Mahlzeit
+      ja: 食事の時間
     conversations:
       - modern:
         - de: Ich lade dich zum Frühstück ein.
+          ja: 君を朝食に招待します。
         grc:
           - "ἐπ' ἄριστον καλῶ σε."
       - modern:
         - de: Er hat mich zum Frühstück geladen.
+          ja: 彼は私を朝食に招待しました。
         grc:
-          - "ἐπ' ἄριστον μ' ἐκάλεσεν.!"
+          - "ἐπ' ἄριστον μ' ἐκάλεσεν."
       - modern:
         - de: Wir werden gut essen und trinken.
+          ja: （少なくとも）我々は食事を楽しむ。
         grc:
           - εὐωχησόμεθα ἡμεῖς γε.
       - modern:
         - de: Ich rechnete darauf, daß Sie kommen mürden.
+          ja: 私は君が出席すると思っていたよ。
         grc:
-          - |-
-            ἐλογιζόμην\footnote{\textlatin{%
-            \textgreek{τῷ τυπογράφῳ ἄσκοπος τὸ γράμμα «ό» ἦν.}}%
-            } ἐγώ σε παρέσεσθαι.
+          - ἐλογιζόμην ἐγώ σε παρέσεσθαι.
       - modern:
         - de: Er frühstückt.
+          ja: 彼は朝食中だ。
         grc:
           - ἀριστᾷ.
 
       - modern:
         - de: \myafterpagetrue\mysetaligntext{german}{Es giebt{ }}\mysetalign{german}Braten.
+          ja: 焼肉があります。
         grc:
           - \mysetaligntext{greek}{πάρεστι{ }}\mysetalign*{greek}κρέα ὠπτημένα.
       - modern:
         - de: \bgroup\mysetalign{german}Kalbs\textcompwordmark{}braten.\par\egroup
+          ja: 仔牛の焼肉が…
         grc:
           - \bgroup\mysetalign*{greek}(κρέα) μόσχεια.\mysetaligntext{greek}{πάρεστι (κρέα){ }}\par\egroup
       - modern:
-        - de: \bgroup\mysetalign{german}Kinderbraten.\par\egroup
+        - de: \bgroup\mysetalign{german}Rinderbraten.\par\egroup
+          ja: 牛の焼肉が…
         grc:
           - \bgroup\mysetalign*{greek}βόεια.\par\egroup
       - modern:
         - de: \bgroup\mysetalign{german}Schweinebraten.\par\egroup
+          ja: 豚の焼肉が…
         grc:
           - \bgroup\mysetalign*{greek}χοίρεια.\par\egroup
       - modern:
         - de: \bgroup\mysetalign{german}Hammelbraten.\par\egroup
+          ja: 羊の焼肉が…
         grc:
           - \bgroup\mysetalign*{greek}ἄρνεια.\par\egroup
       - modern:
         - de: \bgroup\mysetalign{german}Ziegenbraten.\par\egroup
+          ja: 山羊の焼肉が…
         grc:
           - \bgroup\mysetalign*{greek}ἐρίφεια.\par\egroup
       - modern:
         - de: \bgroup\mysetalign{german}Keule, Schinken.\par\egroup
+          ja: \ruby{腿肉}{ハム}の焼肉が…
         grc:
           - \bgroup\mysetalign*{greek}κωλῆ.\par\egroup
       - modern:
         - de: \bgroup\mysetalign{german}Hasenbraten.\par\egroup
+          ja: 兎の焼肉が…
         grc:
           - \bgroup\mysetalign*{greek}λαγῷα.\par\egroup
       - modern:
         - de: \bgroup\mysetalign{german}Geflügel.\par\egroup
+          ja: 家禽（鶏等）の焼肉が…
         grc:
           - \bgroup\mysetalign*{greek}ὀρνίθεια.\par\egroup
       - modern:
         - de: \bgroup\mysetalign{german}Aal.\par\egroup
+          ja: 鰻の焼肉が…
         grc:
           - \bgroup\mysetalign*{greek}ἐγχέλεια.\par\egroup
 
       - modern:
         - de: Aal habe ich nicht gern; lieber äße ich Geflügel.
+          ja: 鰻は好きではない。鶏肉の方が好ぎだ。
         grc:
-          - |-
-            οὐ χαίρω ἐγχέλεσιν, ἀλλ' \emph{ἥδιον}\footnote{\textlatin{%
-            \textgreek{ὁ τυπογράφος ἔγραψα τὸν οὐ γεγραμμένον
-            ἦχον καὶ τόνον.}}%
-            } ἂν φάγοιμι ὀρνίθεια.
+          - οὐ χαίρω ἐγχέλεσιν, ἀλλ' \emph{ἥδιον} ἂν φάγοιμι ὀρνίθεια.
       - modern:
         - de: Das esse ich am liebsten.
+          ja: それが一番好きだ。
         grc:
           - "ταῦτα γὰρ \\emph{ἥδιστ'} ἐσθίω."
       - modern:
         - de: Das habe ich gestern gegessen.
+          ja: それは昨日食べた。
         grc:
           - τοῦτο χθὲς ἔφαγον.
       - modern:
         - de: Bringen Sie Krammets\textcompwordmark{}vögel für mich her!
+          ja: ツグミをここに持ってきなさい。
         grc:
           - φέρε δεῦρο κίχλας ἐμοί!
       - modern:
         - de: Kosten Sie einmal davon!
+          ja: 一度試してみなさい。
         grc:
           - γεῦσαι λαβών!
       - modern:
         - de: Essen Sie einmal dies!
+          ja: これを一度食べてみなさい。
         grc:
           - φάγε τουτί!
       - modern:
         - de: Nein, das bekommt mir gar nicht gut.
+          ja: いいや、これは私には全然合わない。
         grc:
           - μὰ τὸν Δία, οὐ γὰρ οὐδαμῶς μοι ξύμφορον.
       - modern:
         - de: Knus\textcompwordmark{}pern Sie einmal dies!
+          ja: これ（果実）を一度食べてみなさい。
         grc:
           - ἔντραγε τουτί!
       - modern:
         - de: Genöthigt wird principiell nicht.
+          ja: 我々は誰にも無理強いはしない。
         grc:
           - οὐ προσαναγκάζομεν οὐδαμῶς.
       - modern:
         - de: Das Fleisch schmeckt sehr gut.
+          ja: この肉は最高に旨い。
         grc:
           - τὰ κρέα ἥδιστά ἐστιν.
       - modern:
         - de: Das schmeckt gut.
+          ja: なんと旨いことよ！
         grc:
           - ὡς ἡδύ!
       - modern:
         - de: Die Sause schmeckt sehr gut.
+          ja: このタレのなんと旨いことよ！
         grc:
           - ὡς ἡδὺ τὸ κατάχυσμα!
       - modern:
         - de: Eins vermisse ich noch.
+          ja: まだ一つやりたいことがある。
         grc:
           - ἕν ἔτι ποθῶ.
       - modern:
         - de: Geben Sie mir doch ein Stück Brot!
+          ja: パンを幾切れかくれ。
         grc:
           - δός μοι δῆτα ὀλίγον τι ἄρτου!
       - modern:
         - de: |-
             Und ein Stück Wurst\\
             und Erbsenbrei.
+          ja: |-
+            あと\ruby{腸詰}{ソーセージ}と\\
+            エンドウ豆の汁を。
         grc:
           - |-
             καὶ χορδῆς τι\\
-            καὶ ἔτνος\footnote{\textlatin{%
-            \textgreek{ὁ τυπογράφος ἔγραψα τὸν οὐ γεγραμμένον
-            ἦχον καὶ τόνον.}}%
-            } πίσινον.
+            καὶ ἔτνος πίσινον.
       - modern:
         - de: Der Nachtisch.
+          ja: \ruby{食後}{デザート}。
         grc:
           - τὸ ἐπίδειπνον.
       - modern:
         - de: Was wollen wir zum Dessert essen?
+          ja: \ruby{食後の甘味}{デザート}に何を食べようか。
         grc:
           - τί ἐπιδειπνήσομεν;
       - modern:
         - de: Bringen Sie noch etwas Weißbrot mit Schweizerkäse!
+          ja: スイスチーズ付きの白パンをちょっと持って來なさい。
         grc:
           - παράθες ἔτι ὀλίγον τι ἄρτου πυρίνου μετὰ τυροῦ ἑλβητικοῦ!
       - modern:
         - de: Es wird Kuchen gebacken.
+          ja: 丸いケーキが焼かれている。
         grc:
           - πόπανα πέττεται.
       - modern:
         - de: Da haben Sie auch ein Stück Speckkuchen.
+          ja: \ruby{Speckpfannkuchen}{ベーコン入りパンケーキ}を一切れどうぞ。
         grc:
           - λαβὲ καὶ πλακοῦντος πίονος τόμον.
       - modern:
         - de: "Ich danke bestens! (Nein!)"
+          ja: ともあれ、どうもありがとう。（丁寧な拒絶）
         grc:
           - κάλλιστα· ἐπαινῶ.
       - modern:
         - de: Auch ich habe genug.
+          ja: 私ももう十分だ。
         grc:
           - "κἀμοί γ' ἅλις."
       - modern:
         - de: Bringen Sie Wein! (Weiß-, Roth-.)
+          ja: \ruby{葡萄酒}{ワイン}をくれ。（白-、赤-）
         grc:
           - "φέρ' οἶνον (λευκόν, ἐρυθρόν)."
       - modern:
         - de: Der Wein hat Bouquet.
+          ja: この\ruby{葡萄酒}{ワイン}には\ruby{酒香}{ブーケ}がある。
         grc:
           - ὀσμὴν ἔχει ὁ οἶνος ὁδί.
       - modern:
         - de: Ich trinke diesen Wein hier gern.
+          ja: ここの\ruby{葡萄酒}{ワイン}は喜んで飲む。
         grc:
-          - |-
-            ἡδέως\footnote{\textlatin{%
-            \textgreek{τῷ τυπογράφῳ ἄσκοπος τὸ γράμμα «ἡ» ἦν.}}%
-            } πίνω τὸν οἶνον τονδί.
+          - ἡδέως πίνω τὸν οἶνον τονδί.
       - modern:
         - de: Es ist noch Wein übrig geblieben.
+          ja: まだ\ruby{葡萄酒}{ワイン}が残っている。
         grc:
           - οἶνός ἐστι περιλελειμμένος.
       - modern:
         - de: Wie viel etwa?
+          ja: どれくらい？
         grc:
           - πόσον τι;
       - modern:
         - de: Über die Hälfte.
+          ja: 半分強。
         grc:
           - ὑπὲρ ἥμισυ.
       - modern:
         - de: Was soll ich damit machen?
+          ja: それどうしたらいい？
         grc:
           - τί χρήσομαι τούτῳ;
+      - modern:
+        - de: Nehmen Sie es mit sort.
+          ja: 飲んでしまいな。
+        grc:
+          - ἴθι λαβὼν τοῦτο.
