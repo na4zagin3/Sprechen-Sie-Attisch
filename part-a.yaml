@@ -30,7 +30,7 @@ sections:
 
       - modern:
         - de: Ah! freue mich außerordentlich!
-          ja: よく來ましたねぇ！
+          ja: よく来ましたねぇ！
         grc:
           - ἀσπάζομαι!
 
@@ -246,7 +246,7 @@ sections:
           ja: 頭痛がする。
         grc:
           - |-
-            ἀλγῶ τὴν κεφαλήν\footnote{\textlatin{orig. \textgreek{κεφαλὴν}}}!
+            ἀλγῶ τὴν κεφαλήν\footnote{\textjapanese{原文は\textgreek{«κεφαλὴν»}}}!
 
       - modern:
         - de: Sie haben jedenfalls Katzenjammer.
@@ -298,7 +298,7 @@ sections:
 
       - modern:
         - de: Sie wird ohnmächtig.
-          ja: 彼女\footnote{唐突に現れた彼女は一体誰なんだろうか。}は気を失いつつある。
+          ja: 彼女は気を失いつつある\footnote{原文は„Sie wird ohnmächtig.“。唐突に現れた彼女は一体誰なんだろうか。}。
         grc:
           - ὡρακιᾷ.
 
@@ -503,7 +503,7 @@ sections:
           - χάριν γε εἴσομαι, ἐὰν τοῦτο ποιῇς.
       - modern:
         - de: Ich bin Ihnen zu Danke verpflichtet.
-          ja: 私は貴方に感謝している。
+          ja: ご厚情を深謝いたします。
         grc:
           - κεκάρισαί μοι.
       - modern:
@@ -574,7 +574,7 @@ sections:
           - αὐτὸς σκόπει σύ!
       - modern:
         - de: Es ist einmal so Sitte.
-          ja: それはそういう決まりなんですね。
+          ja: それはそういう決まりですからね。
         grc:
           - νόμος γάρ ἐστιν.
   - title:
@@ -608,7 +608,7 @@ sections:
           - ἔγωγε νὴ Δία!
       - modern:
         - de: Darin bin ich stark.
-          ja: \ruby{能}{よ}く出來ます。
+          ja: \ruby{能}{よ}く出来ます。
         grc:
           - ταύτῃ κράτιστός εἰμι.
       - modern:
@@ -881,7 +881,7 @@ sections:
           - ἐστὶ μία ὥρα.
       - modern:
         - de: Es ist um Zwei (Dri, Vier).
-          ja: 一（二、三）時です。
+          ja: 二（三、四）時です。
         grc:
           - εἰσὶ δύο (τρεῖς, τέσσαρες) ὦραι.!
       - modern:
@@ -932,7 +932,7 @@ sections:
           - περὶ τὴν τετάρτην καὶ ἡμίσειαν!
       - modern:
         - de: Ich werde um ¾11 Uhr kommen.
-          ja: 十時四十五分頃に來ます。
+          ja: 十時四十五分頃に来ます。
         grc:
           - ἥξω εἰς τὴν δεκάτην καὶ τρία τέταρτα.
   - title:
@@ -1026,27 +1026,27 @@ sections:
           - ὅλην τὴν νύκτα.
       - modern:
         - de: Heute
-          ja: 今日
+          ja: 今日。
         grc:
           - τῇδε τῇ ἡμέρᾳ. --- τήμερον.
       - modern:
         - de: Gestern.
-          ja: 昨日
+          ja: 昨日。
         grc:
           - χθές. ἐχθές.
       - modern:
         - de: Morgen.
-          ja: 明日
+          ja: 明日。
         grc:
           - αὔριον.
       - modern:
         - de: Übermorgen.
-          ja: 明後日
+          ja: 明後日。
         grc:
           - ἕνης. εἰς ἕνηςν
       - modern:
         - de: Vorgestern.
-          ja: 一昨日
+          ja: 一昨日。
         grc:
           - |-
             τρίτην ἡμέραν. (\textgerman{auch}
@@ -1070,10 +1070,14 @@ sections:
           ja: 何日に？
         grc:
           - |-
-            ἐς\footnote{\textlatin{%
-            \textgreek{ὁ τυπογράφος θαυμάζω τοῦ ἑνεκα γέγραφε
-            οὐ «εἰς» ὃν Ἀττικοὶ ἔχραον, ἀλλὰ «ἐς» ὃν Ἰωνικοί.}}%
+            ἐς\footnote{\textlatin{アッティカ方言では通常は%
+            \textgreek{«εἰς»}}%
             } τίνα ἡμέραν.
+          #- |-
+          #  ἐς\footnote{\textlatin{%
+          #  \textgreek{ὁ τυπογράφος θαυμάζω τοῦ ἑνεκα γέγραφε
+          #  οὐ «εἰς» ὃν Ἀττικοὶ ἔχραον, ἀλλὰ «ἐς» ὃν Ἰωνικοί.}}%
+          #  } τίνα ἡμέραν.
       - modern:
         - de: Für sogleich.
           ja: ただちに。
@@ -1091,7 +1095,7 @@ sections:
           - ἰκανὸν χρόνον.
       - modern:
         - de: Heute über 14 Tage.
-          ja: 今日から14日後に。
+          ja: 今日から14日後\footnote{原文では「15番目の日」である。ギリシャ語では当日が1日目なのである。}に。
         grc:
           - "μεθ' ἡμέρας \\emph{μεντεκαὶδεκα} ἀπὸ τῆς τήμερον."
       - modern:
@@ -1106,7 +1110,7 @@ sections:
           - πέρυσιν.
       - modern:
         - de: "Über's Jahr."
-          ja: 來年。
+          ja: 来年。
         grc:
           - εἰς νέωτα.
       - modern:
@@ -1141,7 +1145,7 @@ sections:
           - ἡ ἑορτή.
       - modern:
         - de: Weihnachten.
-          ja: 降誕祭。
+          ja: \ruby{降誕祭}{クリスマス}。
         grc:
           - τὰ Χριστούγεννα.{*}
       - modern:
@@ -1294,7 +1298,7 @@ sections:
           - χιών γίγνεται πολλή.
       - modern:
         - de: Es friet.
-          ja: 凍りつく寒さです。
+          ja: 凍てつく寒さです。
         grc:
           - κρύος γίγνεται.
       - modern:
@@ -1356,7 +1360,7 @@ sections:
           - τίς σοι γενήσεται πόρος τῆς ὁδοῦ;
       - modern:
         - de: Um vier Uhr mit dem Bahnzuge.
-          ja: 旅程はどんな感じになりそうですか？
+          ja: 四時に列車に乗らねば。
         grc:
           - τῇ τετάρτῃ ὥρᾳ χρώμενος τῇ ἁμαξοστοιχίᾳ.{*}
       - modern:
@@ -1405,12 +1409,12 @@ sections:
     conversations:
       - modern:
         - de: Kommen Sie mit!
-          ja: こっち來て！
+          ja: こっち来て！
         grc:
           - ἕπου!
       - modern:
         - de: Kommen Sie mit mir!
-          ja: 着いて來て！
+          ja: 着いて来て！
         grc:
           - "ἕπου μετ' ἐμοῦ!"
       - modern:
@@ -1530,7 +1534,7 @@ sections:
           - χώρει!
       - modern:
         - de: Wir sind erst nach dem zweiten Läuten gekommen.
-          ja: 我々は二度目の号鐘(?)の後に到着した。
+          ja: 我々は二度目の号鐘\footnote{ドイツ語原文は「鐘」でギリシャ語原文は「印、兆し」。}の後に到着した。
         grc:
           - ὕστερον ἤλθομεν τοῦ δευτέρου σημείου.
   - title:
@@ -1579,12 +1583,12 @@ sections:
           - ποῦ ἀναμεῶ;
       - modern:
         - de: "Komm' nur schnell wieder!"
-          ja: すぐ戻って來い！
+          ja: すぐ戻って来い！
         grc:
           - ἧκέ νυν ταχύ!
       - modern:
         - de: Dahinten kommt er!
-          ja: 奴が後ろから來ているぞ！
+          ja: 奴が後ろから来ているぞ！
         grc:
           - οὗτος ὄπισθεν προσέρχεται.
       - modern:
@@ -1609,21 +1613,21 @@ sections:
           - μῶν ἐπισχεῖν σοι δοκῶ;
       - modern:
         - de: Wo bist du nur so lange geblieben?
-          ja: こんなに長い間君は一體何処にいたのかな？
+          ja: こんなに長い間君は一体何処にいたのかな？
         grc:
           - "ποῦ ποτ' ἦσθα ἀπ' ἐμοῦ (ἀφ' ἡμῶν) τὸν πολὺν τοῦτον χρόνον;"
   - title:
       de: Komm her!
-      ja: 來て！
+      ja: 来て！
     conversations:
       - modern:
         - de: Komm her!
-          ja: 來て！
+          ja: 来て！
         grc:
           - "δεῦρ' ἐλθέ!"
       - modern:
         - de: Komm hierher!
-          ja: こっちに來て！
+          ja: こっちに来て！
         grc:
           - ἐλθὲ δεῦρο!
       - modern:
@@ -1633,27 +1637,27 @@ sections:
           - χώρει δεῦρο!
       - modern:
         - de: "Geh' hierher, zu mir!"
-          ja: ここに來て。
+          ja: ここに来て。
         grc:
           - βάδιζε δεῦρο, ὡς ἐμέ!
       - modern:
         - de: Du kommst wie gerusen.
-          ja: 君が來たのも神のお蔭だ。
+          ja: 君が来たのも神のお蔭だ。
         grc:
           - ἥκεις ὥσπερ κατὰ θεῖον.
       - modern:
         - de: Woher kommst du?
-          ja: どこから來たのかね？
+          ja: どこから来たのかね？
         grc:
           - πόθεν βαδίζεις;
       - modern:
         - de: Aber wo kommst du eigentlich her?
-          ja: それにしても、実際君はどこから來たのかね？
+          ja: それにしても、実際君はどこから来たのかね？
         grc:
           - ἀτὰρ πόθεν ἥκεις ἐτεόν;
       - modern:
         - de: Ich komme von Müllers.
-          ja: ミュラー氏の許より來ました。
+          ja: ミュラー氏の許より来ました。
         grc:
           - \emph{ἐκ Μυλλέρου} ἔρχομαι.
       - modern:
@@ -1703,7 +1707,7 @@ sections:
           - μέθεσθέ μου!
       - modern:
         - de: Kommt schnell zu mir her!
-          ja: 早くここに來なさい！
+          ja: 早くここに来なさい！
         grc:
           - "ἴτε δεῦρ' ὡς ἐμὲ ταχέως."
       - modern:
@@ -1777,17 +1781,17 @@ sections:
           - "οὗτος σὺ, παῖ, ποῖ θεῖς; --- Ἐπ' ἐκπώματα."
       - modern:
         - de: Kommen Sie hierher!
-          ja: ここに來て！
+          ja: ここに来て！
         grc:
           - ἐλθὲ δεῦρο!
       - modern:
         - de: Bringen Sie mir einmal schnell Bier und Hasenbraten!
-          ja: ビールと焼き兎を早く持って來て！
+          ja: ビールと焼き兎を早く持って来て！
         grc:
           - ἔνεγκέ μοι ταχέως ζῦθον καὶ λαγῷα.
       - modern:
         - de: Ganz wohl, mein Herr!
-          ja: 分かりました。御主人樣。
+          ja: 分かりました。御主人様\footnote{客の意味は無いのでこう訳した。}。
         grc:
           - \emph{ταῦτα,} ὦ δέσποτα.
       - modern:
@@ -1822,7 +1826,7 @@ sections:
           - οὐ θᾶττον ἐγκονήσεις;
       - modern:
         - de: Sie sorgen schlecht für uns.
-          ja: 君の\ruby{給仕}{サービス}は良くないな。
+          ja: 我々についての君の\ruby{給仕}{サービス}は良くないな。
         grc:
           - κακῶς ἐπιμελεῖ ἡμῶν!
       - modern:
@@ -1867,7 +1871,7 @@ sections:
 #          - καλῶ (καλέσω) σε, εἴ τι δέοι (= \textgerman{wenn es nötig werden \emph{sollte;} dagegen \textgreek{ἐάν τι δέη} = wenn es nötig wird}).
       - modern:
         - de: Ich gehe und hole mir noch eins.
-          ja: 外のお客樣の所へ行きます。
+          ja: 他のお客様の所へ行きます。
         grc:
           - ἕτερον ἰὼν κομιοῦμαι.
       - modern:
@@ -1892,12 +1896,12 @@ sections:
           - ὁ καπνὸς δάκνει τὰ βλέφαρά μου.
       - modern:
         - de: Wer nicht mit trinken will, gehört nicht her!
-          ja: 飲むか去るかだ。君には他の選択肢は無い。
+          ja: 飲むか去るかしたまえ。
         grc:
-          - ἢ πῖθι\footnote{\textlatin{orig.} πίθι} ἢ ἄπιθι!
+          - ἢ πῖθι\footnote{\textjapanese{原文は} «πίθι»} ἢ ἄπιθι!
       - modern:
         - de: "Komm', geh' mit!"
-          ja: 私について來なさい。
+          ja: 私について来なさい。
         grc:
           - "ἕπου μετ' ἐμοῦ."
       - modern:
@@ -1912,7 +1916,7 @@ sections:
           - παῖ, λόγισαι ταῦτα.
       - modern:
         - de: Sie hatten 6 Bier, Hasenbraten, Brot, macht 2½ Mark.
-          ja: ビール6杯、焼き兎肉、パンで合計2½マルクです。
+          ja: ビール6杯、焼き兎肉、パンで合計2½マルク\footnote{舞台が19世紀ドイツである故。}です。
         grc:
           - |-
             εἴχετε ζύθου ἕξ (ποτήρια) καὶ λαγῷα καὶ ἄρτον· γίγνονται οὖν ἡμῖν
@@ -1988,7 +1992,7 @@ sections:
           - "ἀλλ' ἐπὶ δεῖπνον ταχὺ βάδιζε!"
       - modern:
         - de: Er kommt zu Tische.
-          ja: 彼が食事に來る。
+          ja: 彼が食事に来る。
         grc:
           - ἐπὶ δεῖπνον ἔρχεται.
       - modern:
@@ -2200,7 +2204,7 @@ sections:
           - τί ἐπιδειπνήσομεν;
       - modern:
         - de: Bringen Sie noch etwas Weißbrot mit Schweizerkäse!
-          ja: スイスチーズ付きの白パンをちょっと持って來なさい。
+          ja: スイスチーズ付きの白パンをちょっと持って来なさい。
         grc:
           - παράθες ἔτι ὀλίγον τι ἄρτου πυρίνου μετὰ τυροῦ ἑλβητικοῦ!
       - modern:
