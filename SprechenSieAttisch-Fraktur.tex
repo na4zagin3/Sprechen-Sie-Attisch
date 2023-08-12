@@ -3,9 +3,6 @@
 %% Do not edit unless you really know what you are doing.
 \documentclass[english,french,latin,german,twoside,a4paper]{scrartcl}
 \usepackage{version}
-
-% \renewcommand\cftchapafterpnum{\vskip0pt}
-\renewcommand\cftsecafterpnum{\vskip-0.5em}
 \usepackage{microtype}
 
 \includeversion{frakturfonttypesetting}
@@ -13,9 +10,10 @@
 
 \newif\ifFraktur
 \Frakturtrue
-\Frakturfalse
 
 \input{preamble.tex}
+% \renewcommand\cftchapafterpnum{\vskip0pt}
+\renewcommand\cftsecafterpnum{\vskip-0.5em}
 \hypersetup{pdftitle={Sprachen Sie Attich?},
   pdfauthor={J. Sengbusch}}
 
@@ -28,9 +26,9 @@
 \setotherlanguage{latin}
 \setotherlanguage{japanese}
 
-\newcommand{\trDE}[1]{}
+\newcommand{\trDE}[1]{#1}
 \newcommand{\trLA}[1]{}
-\newcommand{\trJA}[1]{#1}
+\newcommand{\trJA}[1]{}
 
 \begin{document}
 \frontmatter

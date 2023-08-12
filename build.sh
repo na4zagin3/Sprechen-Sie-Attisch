@@ -25,6 +25,7 @@ convert_lexicon
 popd
 
 # latexmk -xelatex SprechenSieAttisch.tex
-latexmk -lualatex -interaction=nonstopmode SprechenSieAttisch.tex
+latexmk -xelatex -interaction=nonstopmode SprechenSieAttisch-Fraktur.tex
+latexmk -lualatex -interaction=nonstopmode SprechenSieAttisch-Antiqua.tex
 latexmk -lualatex -interaction=nonstopmode SprechenSieAttisch-ja-1.tex
-# latexmk -lualatex SprechenSieAttisch-ja-1.tex
+latexmk -lualatex SprechenSieAttisch-ja-1.tex

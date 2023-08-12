@@ -246,7 +246,7 @@ sections:
           ja: 頭痛がする。
         grc:
           - |-
-            ἀλγῶ τὴν κεφαλήν\footnote{\textjapanese{原文は\textgreek{«κεφαλὴν»}}}!
+            ἀλγῶ τὴν κεφαλήν\footnote{\textlatin{orig. \textgreek{«κεφαλὴν»}}}!
 
       - modern:
         - de: Sie haben jedenfalls Katzenjammer.
@@ -1067,12 +1067,11 @@ sections:
           - ὥσπερ καὶ πρὸ τοῦ.
       - modern:
         - de: Auf welchen Tag?
-          ja: 何日に？
-        grc:
-          - |-
-            ἐς\footnote{\textlatin{アッティカ方言では通常は%
+          ja: 何日に\footnote{\textlatin{アッティカ方言では通常は%
             \textgreek{«εἰς»}}%
-            } τίνα ἡμέραν.
+            }？
+        grc:
+          - ἐς τίνα ἡμέραν.
           #- |-
           #  ἐς\footnote{\textlatin{%
           #  \textgreek{ὁ τυπογράφος θαυμάζω τοῦ ἑνεκα γέγραφε
@@ -1898,7 +1897,7 @@ sections:
         - de: Wer nicht mit trinken will, gehört nicht her!
           ja: 飲むか去るかしたまえ。
         grc:
-          - ἢ πῖθι\footnote{\textjapanese{原文は} «πίθι»} ἢ ἄπιθι!
+          - ἢ πῖθι\footnote{\textlatin{orig.} «πίθι»} ἢ ἄπιθι!
       - modern:
         - de: "Komm', geh' mit!"
           ja: 私について来なさい。

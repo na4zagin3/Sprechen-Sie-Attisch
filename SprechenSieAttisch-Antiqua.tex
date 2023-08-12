@@ -1,0 +1,208 @@
+
+%% LyX 2.1.3 created this file.  For more info, see http://www.lyx.org/.
+%% Do not edit unless you really know what you are doing.
+\documentclass[english,french,latin,german,twoside,a4paper]{scrartcl}
+\usepackage{version}
+
+\usepackage{microtype}
+
+\excludeversion{frakturfonttypesetting}
+\includeversion{romanfonttypesetting}
+
+\newif\ifFraktur
+\Frakturfalse
+
+\input{preamble.tex}
+% \renewcommand\cftchapafterpnum{\vskip0pt}
+\renewcommand\cftsecafterpnum{\vskip-0.5em}
+\hypersetup{pdftitle={Sprachen Sie Attich?},
+  pdfauthor={J. Sengbusch}}
+
+
+\usepackage{polyglossia}
+\setdefaultlanguage[spelling=old,babelshorthands=true]{german}
+\setotherlanguage{english}
+\setotherlanguage{french}
+\setotherlanguage[variant=ancient]{greek}
+\setotherlanguage{latin}
+\setotherlanguage{japanese}
+
+\newcommand{\trDE}[1]{#1}
+\newcommand{\trLA}[1]{}
+\newcommand{\trJA}[1]{}
+
+\begin{document}
+\frontmatter
+\renewcommand\thepart{\Alph{part}}
+
+
+\title{{\fontfamily\rmdefault\selectfont Sprechen Sie Attisch?}}
+
+
+\subtitle{\rule[1.2ex]{0.2\columnwidth}{1pt}\\
+Moderne Conversation\\
+\emph{in altgriechischer Umgangs\textcompwordmark{}sprache}\\
+nach den besten attischen Autoren}
+
+
+\author{{\footnotesize{}von}\bigskip{}
+\\
+\textlatin{\textbf{E. Joannides,}}\\
+\textlatin{{\small{}Dr. phil.}}\smallskip{}
+\textlatin{{\small{}}}\\
+{\tiny\begin{minipage}{\columnwidth}
+\begin{flushright}
+\textlatin{--- --- Ridentem discere Graeca\\
+Quid vetat? --- ---}
+\end{flushright}
+\end{minipage}}\smallskip{}
+\\
+\rule[1.2ex]{0.2\columnwidth}{1pt}}
+
+
+\publishers{\textbf{Leipzig, 1889.}\\
+\emph{C.\ A.\ Koch's Verlag.}\\
+(J. Sengbusch)}
+
+
+\date{\relax}
+
+\maketitle
+\pagebreak{}
+
+\vfill{}
+
+
+\begin{center}
+{\Huge{}(Das originale Buch hat Ankündigungen hier.)}
+\par\end{center}{\Huge \par}
+
+\vfill{}
+
+
+\pagebreak{}
+
+\input{legend.tex}
+\begin{quote}
+
+\end{quote}
+\pagebreak{}\gappto\captionsgerman{%
+\renewcommand{\contentsname}{Inhalts\textcompwordmark{}verzeichniß}%
+\renewcommand{\partname}{Gespräche}%
+} 
+\captionsgerman
+\renewcommand{\contentsname}{Inhalts\textcompwordmark{}verzeichniß}
+\renewcommand{\partname}{Gespräche}
+
+\begin{quote}
+\setlength{\columnseprule}{0.5pt}\begin{multicols}{2}\tableofcontents{}
+
+\end{multicols}
+
+\pagebreak{}\mainmatter
+\end{quote}
+
+\input{grammar.tex}
+
+\begin{center}
+{\Huge{}\rule[1.2ex]{0.2\columnwidth}{1pt}}
+\par\end{center}{\Huge \par}
+
+\clearpage{}
+
+
+
+\leftskip=0.1in\parindent=-0.1in\tabcolsep=0pt
+%\hangindent=2em\hangafter=2
+%\titlespacing{\section}{0pt}{\parskip}{-\parskip}
+\begin{paracol}{2}
+	\input{part-a.tex}
+	\input{part-b.tex}
+	\input{part-c.tex}
+	\input{part-d.tex}
+	\input{part-e.tex}
+	\input{part-f.tex}
+	\input{part-g.tex}
+	\input{part-h.tex}
+	\input{part-i.tex}
+	\input{lexicon.tex}
+\end{paracol}
+
+\input{quotes.tex}
+
+\cleardoublepage{}
+
+
+\part*{Redaktionelle Hinweise\protect \\
+zur Digitalisierung und Setzung\protect \\
+des Buches}
+
+Der originale Text hat \emph{keine} Fußnote, aber der Digitalsetzer
+fügt \emph{alle} die Fußnoten ein.
+
+
+\section*{Buch\textcompwordmark{}staben}
+
+Aa Bb Cc Dd Ee Ff Gg Hh Ii Jj Kk Ll Mm Nn Oo Pp Qq Rr Sss Tt Uu Vv
+Ww Xx Yy Zz Ää Öö Üü ß
+
+\begin{latin}%
+A\textgerman[spelling=old,babelshorthands=true]{Aa }U\textgerman[spelling=old,babelshorthands=true]{Uu;
+}C\textgerman[spelling=old,babelshorthands=true]{Cc }E\textgerman[spelling=old,babelshorthands=true]{Ee
+}S\textgerman[spelling=old,babelshorthands=true]{Sss }G\textgerman[spelling=old,babelshorthands=true]{Gg;
+}K\textgerman[spelling=old,babelshorthands=true]{Kk }H\textgerman[spelling=old,babelshorthands=true]{Hh;
+}N\textgerman[spelling=old,babelshorthands=true]{Nn }R\textgerman[spelling=old,babelshorthands=true]{Rr
+}X\textgerman[spelling=old,babelshorthands=true]{Xx; }M\textgerman[spelling=old,babelshorthands=true]{Mm
+}W\textgerman[spelling=old,babelshorthands=true]{Ww }V\textgerman[spelling=old,babelshorthands=true]{Vv
+}B\textgerman[spelling=old,babelshorthands=true]{Bb }Y\textgerman[spelling=old,babelshorthands=true]{Yy;
+}O\textgerman[spelling=old,babelshorthands=true]{Oo }Q\textgerman[spelling=old,babelshorthands=true]{Qq
+}P\textgerman[spelling=old,babelshorthands=true]{Pp }D\textgerman[spelling=old,babelshorthands=true]{Dd;
+}T\textgerman[spelling=old,babelshorthands=true]{Tt }L\textgerman[spelling=old,babelshorthands=true]{Ll;
+}IJ\textgerman[spelling=old,babelshorthands=true]{Iij }F\textgerman[spelling=old,babelshorthands=true]{Ff;
+}Z\textgerman[spelling=old,babelshorthands=true]{Zz }ß\textgerman[spelling=old,babelshorthands=true]{ß}
+
+\end{latin}%
+\begin{greek}[variant=ancient]%
+\begin{comment}
+Α\,α Β\,ββ Γ\,γ Δ\,δ Ε\,ε Ζ\,ζ Η\,η Θ\,θθ Ι\,ι Κ\,κ Λ\,λ
+Μ\,μ Ν\,ν Ξ\,ξ Ο\,ο Π\,ππ Ρ\,ρρ Σ\,σς Τ\,τ Υ\,υ Φ\,φφ Χ\,χ
+Ψ\,ψ Ω\,ω; στ
+\end{comment}
+
+
+\end{greek}%
+
+\section*{Buch\textcompwordmark{}stabenverbund}
+
+Diese Buch\textcompwordmark{}stabenkombinationen werden Buch\textcompwordmark{}stabenverbund
+(auch oder Ligatur), wenn es keine Grenze zwischen die Buch\textcompwordmark{}staben
+ist: ch, ck, ſt, tz; ff, ﬁ, ﬂ, ft, ll, ſi, ſſ; (seit Anfang des 20.
+Jh.) ſch. \quotedblbase Eins`` also \quotedblbase Einsatz``, und
+\quotedblbase Wachstube`` (eng. \textenglish{guardhouse}, lat. \textlatin{commissarius})
+also \quotedblbase Wachs\textcompwordmark{}tube`` (eng. \textenglish{wax
+tube}, lat. \textlatin{tubus cerae}).
+
+Laut Wikipädia (\url{http://de.wikipedia.org/wiki/Fraktursatz}),
+\quotedblbase ch``, \quotedblbase ck``, \quotedblbase ſt`` und
+\quotedblbase tz`` werden im Sperrsatz nicht aufgelöst, also alle
+anderen Ligaturen werden aufgelöst und gesperrt: \emph{ch, ck, ſt,
+tz; ff, ﬁ, ﬂ, ft, ll, ſi, ſſ;} \emph{ſch}.
+
+
+\section*{Wörter}
+\begin{itemize}
+\item Verb, dessen Ende \quotedblbase -ieren`` im neudeutschen Sprache
+ist, wird \quotedblbase -iren``.
+\item \quotedblbase gibt`` wird \quotedblbase giebt``.
+\item \quotedblbase C``, die in \quotedblbase K`` verändert wird, bleibt
+weiterhin bestehen. z.\,B.: Object \quotedblbase Objekt``, activ
+\quotedblbase aktiv``, corrigirt \quotedblbase korrigiert``.
+\end{itemize}
+Dieses Dokument, dessen ursprüngliche Buch (\url{https://archive.org/details/sprechensieatti00johngoog})
+im \quotedblbase Internet Archive`` erhältlich ist, wurde mit \textlatin{\LaTeX{}}
+gesetzt. Sein Quelltext ist online erhältlich: \url{https://github.com/na4zagin3/Sprechen-Sie-attisch}.
+
+Nachdem Zagin (@na4zagin3) des Zirkels \quotedblbase Hyalinios``
+digitalisierte das Buch, veröffentlichte er am 31.\ Dezember 2015
+es, um auf den 89.\ \emph{Comic Market} zu bringen.
+\end{document}
