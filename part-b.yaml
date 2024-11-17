@@ -1,165 +1,209 @@
 part:
   de: In der Schule.
+  ja: 学校にて
 sections:
   - title:
       de: In die Schule!
+      ja: 学校にて
     conversations:
       - modern:
         - de: Es ist Zeit zu gehen!
+          ja: 出発の時間だぞ！
         grc:
           - ὥρα προβαίνειν σοί ἐστιν.
       - modern:
         - de: "Es ist Zeit in's Gymnasium zu gehen!"
+          ja: 学校\footnote{原文はGymnasium}へ行く時間だ。
         grc:
           - ὥρα ἐστὶν εἰς τὸ γυμνάσιον βαδίζειν.
       - modern:
         - de: "So mach' doch, daß du in's Gymnasium kommst!"
+          ja: 一刻も早く学校へ行きなさい。
         grc:
           - οὐκ ἂν φθάνοις εἰς τὸ γυνμάσιον ἰών;
       - modern:
         - de: Halt dich nicht auf! --- Beeile dich!
+          ja: グズグズするな！ --- 急げ！
         grc:
           - μή νυν διάτριβε! --- σπεῦδέ νυν!
       - modern:
         - de: Du hast keine Zeit mehr zu verlieren.
+          ja: もう時間がないぞ。
         grc:
           - ὁ καιρός ἐστι μηκέτι μέλλειν.
       - modern:
         - de: "Mach' dir keine Sorge!"
+          ja: 心配しないで！
         grc:
           - μὴ φροντίσῃς.
       - modern:
         - de: Nur nicht ängstlich!
+          ja: 怖がらないで！
         grc:
           - μηδὲν δείσῃς.
       - modern:
         - de: Sei unbesorgt!
+          ja: 安心しなさい！
         grc:
           - μηδὲν φοβηθῆς.
   - title:
       de: Zu spät gekommen!
+      ja: 遅刻しました！
     conversations:
       - modern:
         - de: Wir wollen beten!
+          ja: 祈りましょう！\footnote{訳註：授業開始時の一幕か？}
         grc:
           - "ἀλλ' εὐχώμεθα!"
+        cite: Aristoph. Pax 967
       - modern:
-        - de: Ich bin \emph{doch nicht etwa} zu spät gekommen?
+        - de: "Ich bin \emph{doch nicht etwa} zu spät gekommen?"
+          ja: \kenten{もしかしたら}遅刻ですかね？
+          commentary: μῶνは否定応答を期待する疑問小辞。
         grc:
           - \emph{μῶν} ὕστερος πάρειμι;
       - modern:
         - de: Ich bin zu spät gekommen.
+          ja: 遅刻しました！
         grc:
           - ὕστερος ἦλθον!
       - modern:
         - de: Hilf Himmel! --- Ach, ich Ärmster!
+          ja: 厄避けのアポッローン様！ --- ああ、なんて災難だ。
         grc:
           - Ἄπολλον ἀποτρόπαιε! --- οἴμοι κακοδαίμων!
+        cite: Aristoph. Pl. 854, Vesp. 161; Aristoph. Thes. 235
       - modern:
         - de: Ich Unglücks\textcompwordmark{}wurm!
+          ja: ツイてないなぁ！
         grc:
           - κακοδαίμων ἐγώ!
       - modern:
         - de: Verwünscht!
+          ja: 惨めだ！
         grc:
           - οἴμοι τάλας!
       - modern:
         - de: Wo kommen Sie denn nur her?
+          ja: 一体どこから来たのですか？
         grc:
           - πόθεν ἥκεις ἐτεόν;
       - modern:
         - de: Sie sind wieder zu spät gekommen!
+          ja: また遅刻しましたね！
         grc:
           - ὕστερον αὖθις ἦλθες!
       - modern:
         - de: Wes\textcompwordmark{}halb sind Sie jetzt erst gekommen?
+          ja: 何故今頃来たのですか？
         grc:
           - τοῦ ἕνεκα τηνικάδε ἀφίκου;
       - modern:
         - de: Es hat noch nicht acht geschlagen.
+          ja: まだ8時の鐘は鳴っていませんよね。
         grc:
           - οὐ γάρ πω ἐσήμηνε τὴν ὀγδόην.
       - modern:
         - de: Sie sind erst nach dem Läuten gekommen!
+          ja: 君は時鐘が鳴った後に来ましたね！
         grc:
           - ὕστερος σὺ ἦλθες τοῦ σημείου.
       - modern:
         - de: Seien Sie nicht böse; meine Uhr geht falsch.
+          ja: 怒らないでください。私の時計が狂っていたからです。
         grc:
           - μὴ ἀγανάκτει· τὸ γὰρ ὡρολόγιόν μου \emph{οὐκ ὀρθῶς χωρεῖ.}
       - modern:
         - de: Wirklich? Zeigen Sie einmal!
+          ja: 本当ですか？　見せなさい！
         grc:
           - |-
             ἄληθες; ἀλλὰ δεῖξον! (\textgerman{nicht:}
             ἀληθές;)
       - modern:
         - de: Setzen Sie sich!
+          ja: 席に着きなさい。
         grc:
           - κάθιζε!
   - title:
       de: Schriftliche Arbeiten
+      ja: 作文課題
     conversations:
       - modern:
         - de: Wollen einmal sehen, was Sie geschrieben haben!
+          ja: 何を書いたのか見せなさい！
         grc:
           - "φέρ' ἴδω, τί ουν ἔγραψας."
       - modern:
         - de: Hier ist es.
+          ja: はい、どうぞ。
         grc:
           - \emph{ἰδού.}
       - modern:
         - de: Wovon handelt der Aufsatz?
+          ja: この作文は何についてのものですか？
         grc:
           - ἐστὶ δὲ περὶ τοῦ τὰ γεγραμμένα;
       - modern:
         - de: Geben Sie das Heft her, damit ich es lesen kann.
+          ja: 読みますので、ノートを渡しなさい。
         grc:
           - "\\emph{φέρε} τὸ βιβλίον, ἵν' ἀναγνῶ."
       - modern:
         - de: Wollen einmal sehen, was darin steht!
+          ja: さて、中に何とあるか見てみましょう！
         grc:
           - "φέρ' ἴδω, τί ἔνεστιν."
       - modern:
         - de: Haben Sie einen Bleistift?
+          ja: 鉛筆は持っていますか？
         grc:
           - ἔχεις κυκλομόλυβδον;
       - modern:
         - de: Das R hier ist miserabel.
+          ja: ここの「ρ」は汚いね。
         grc:
           - τὸ ῥῶ τουτὶ μοχθηρόν.
       - modern:
         - de: Was ist denn das eigentlich für ein Buchstabe?
+          ja: これは\kenten{一体}何という文字ですか？
         grc:
           - "τουτὶ τί \\emph{ποτ'} ἐστὶ γράμμα;"
       - modern:
         - de: Sie geben sich keine Mühe!
+          ja: 君はぞんざいですね。
         grc:
           - οὐκ ἐπιμελὴς εἶ.
       - modern:
         - de: Haben Sie das allein gemacht (verfaßt)?
+          ja: これは君が自分で書いたのですか？
         grc:
           - αὐτὸς σὺ ταῦτα ἔγραφες;
       - modern:
         - de: Verfaßt ist es von mir, aber von meinem Vater corrigirt.
+          ja: 書いたのは私ですが、訂正したのは父です。
         grc:
           - "συντέταχθαι μὲν ταῦτα ὑπ' ἐμοῦ, διώρθωται δὲ ὑπὸ τοῦ πατρός."
       - modern:
         - de: Haben Sie alles berührt und nichts übergangen?
+          ja: 申し開きはそれで全てですか？　もう他に言うことはありませんか？
         grc:
           - ἦ πάντα ἐπελήλυθας κοὐδὲν παρῆλθες;
       - modern:
         - de: Ich glaube wenigstens.
+          ja: そう思われます。
         grc:
           - δοκεῖ γοῦν μοι.
       - modern:
         - de: Das steht nicht darin.
+          ja: それはそこにはありません。
         grc:
           - οὐκ ἔνεστι τοῦτο.
       - modern:
         - de: >-
             Ich habe die Nacht nicht geschlafen, sondern bis zum Morgen an meiner
             Rede gearbeitet.
+          ja: 夜は一睡もせず、朝まで弁論に取り組んでいました。
         grc:
           - |-
             οὐκ ἐκάθευδον τὴν νύκτα ἀλλὰ\footnote{%
@@ -168,22 +212,28 @@ sections:
             } διεπονούμην πρὸς φῶς περὶ τὸν λόγον.
       - modern:
         - de: Ich weiß schon, wie Sie es machen.
+          ja: あなたのやり方はもう分かっています。
         grc:
           - τούς τρόπους σου ἐπίσταμαι.
       - modern:
         - de: Hier haben Sie zweimal dasselbe gesagt!
+          ja: ここで同じことを2回言っていますよ！
         grc:
           - ἐνταῦθα δὶς ταὐτὸν εἶπες!
       - modern:
         - de: Gleich von vornherein haben Sie einen kolossalen Bock gemacht.
+          ja: 最初から凄い失敗をしましたね。
         grc:
           - \emph{εὐθὺς} ἡμάρτηκας θαυμασίως ὡς.
+        cite: LSJ ὡς D.III.b.
       - modern:
         - de: Ihre Arbeit enthält 20 Fehler.
+          ja: 君の課題には20の間違いがあります。
         grc:
           - ἔχει τὸ σὸν εἴκοσιν ἁμαρτίας.
       - modern:
         - de: Sie wissen von vielen Dingen nichts.
+          ja: 君にはまだ沢山知らないことがありますね。
         grc:
           - πολλά σε λανθάνει.
   - title:
