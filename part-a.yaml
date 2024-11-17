@@ -2216,6 +2216,8 @@ sections:
           ja: \ruby{Speckpfannkuchen}{ベーコン入りパンケーキ}を一切れどうぞ。
         grc:
           - λαβὲ καὶ πλακοῦντος πίονος τόμον.
+        note:
+          ja: πλακοῦς, πλακοῦντος, ὁは丸いパンのようなもの。ドイツ語原文はSpeckkuchenでベーコン入りパンケーキのこと。
       - modern:
         - de: "Ich danke bestens! (Nein!)"
           ja: ともあれ、どうもありがとう。（丁寧な拒絶）
