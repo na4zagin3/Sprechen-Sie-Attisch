@@ -241,121 +241,153 @@ sections:
     conversations:
       - modern:
         - de: Weiter nun!
+          ja: では、続けて！
         grc:
           - ἴθι νυν.
       - modern:
         - de: Ich will Sie einmal examiniren, wie es mit Ihnen im Griechischen steht.
+          ja: 君のギリシャ語の実力を試したいと思います。
         grc:
           - βούλομαι λαβεῖν σου πεῖραν, ὅπως ἔχεις περὶ τῶν Ἑλληνικῶν.
       - modern:
         - de: \emph{Wie} heißt der Genitiv von diesem Wort?
+          ja: この単語の属格形は何ですか？
         grc:
           - ποία \emph{ἐστὶν} ἡ γενικὴ ταύτης τῆς λέξεως;
       - modern:
         - de: Der Nominativ, Dativ, Accusativ, Vocativ?
+          ja: 主格、与格、対格、呼格は？
         grc:
           - ἡ ὀνομαστική, δοτική, αἰτιατική, κλητική;
       - modern:
         - de: Falsch!
+          ja: いいえ、違います。
         grc:
           - μὴ δῆτα!
       - modern:
         - de: Der Genitiv von diesem Worte ist ungebräuchlich.
+          ja: この単語の属格形は普通使われません。
         grc:
           - ἡ γενικὴ τῆς λέξεως ταύτης ἄχρηστός ἐστιν.
       - modern:
         - de: Ganz richtig!
+          ja: 全くその通り！
         grc:
           - ὀρθῶς γε!
       - modern:
         - de: Wie heißt der Indicativ des Präsens von diesem Verb?
+          ja: この動詞の直説法現在形は何ですか？
         grc:
-          - ποῖός ἐστιν ὁ ἐνεστὼς (χρόνος) τῆς ὁριστικῆς τοῦ ῥήματος τούτου;!
+          - ποῖός ἐστιν ὁ ἐνεστὼς (χρόνος) τῆς ὁριστικῆς τοῦ ῥήματος τούτου;
       - modern:
         - de: Das will ich mir notiren.
+          ja: それはメモしておこう。
         grc:
           - μνημόσυνα ταῦτα γράψομαι.
+        cite: Ar. V. 538
       - modern:
         - de: Ich schreibe mir das auf.
+          ja: 書き留めているところだ。
         grc:
           - γράφομαι τοῦτο.
       - modern:
         - de: Der Conjunctiv, Optativ, Imperativ.
+          ja: 接続法、希求法、命令法。
         grc:
           - ἡ ὑποτακτική, εὐκτική, προστακτική.
       - modern:
         - de: Der Infinitiv, das Particip.
+          ja: 不定詞、分詞。
         grc:
           - ἡ ἀπαρέμφατος, ἡ μετοχή.
       - modern:
         - de: Das Imperfect, Perfect.
+          ja: 未完了過去、完了。
         grc:
           - ὁ παρατατικός, ὁ παρακείμενος.
       - modern:
         - de: Plus\textcompwordmark{}quamperfect, Aorist.
+          ja: 過去完了、アオリスト。
         grc:
           - ὁ ὑπερσυντελικός, ἀόριστος.
       - modern:
         - de: Futurum. (Erstes, zweites.)
+          ja: 未来（第一、第二）。
         grc:
           - ὁ μέλλων. (πρῶτος, δεύτερος.)
       - modern:
         - de: Das Activ, Passiv.
+          ja: 能動態、受動態。
         grc:
           - τὸ ἐνεργητικόν, παθητικόν.
       - modern:
         - de: Sie betonen falsch.
+          ja: アクセントが正しくない。
         grc:
           - οὐκ ὀρθῶς τονοῖς.
       - modern:
         - de: Der Accent (Acut, Gravis, Circumflex).
+          ja: アクセント（鋭アクセント、重アクセント、曲アクセント）。
         grc:
           - ἡ κεραία (ἡ ὀξεῖα, βαρεῖα, περισπωμένη).
       - modern:
         - de: Der Artikel muß stehen.
+          ja: 冠詞が必要だ。
         grc:
           - δεῖ τοῦ ἄρθρου.
   - title:
       de: Verkehrte Antworten
+      ja: 遣り取りされる返答
     conversations:
       - modern:
         - de: Geben Sie Acht!
+          ja: よく注意しなさい！
         grc:
           - πρόσεχε τὸν νοῦν!
       - modern:
         - de: Beantworten sie mir, was ich fragen werde.
+          ja: 私が訊くことに答えなさい。
         grc:
           - "ἀπόκριναι, ἅττ' ἄν ἔρωμαι."
       - modern:
         - de: Antworten Sie bestimmt!
+          ja: はっきり答えなさい！
         grc:
           - ἀπόκριναι σαφῶς!
       - modern:
         - de: Reden Sie laut.
+          ja: 大きな声で言いなさい。
         grc:
           - λέξον \emph{μέγα.}
       - modern:
         - de: Versuchen Sie etwas recht Scharfsinniges u. Gescheites zu sagen!
+          ja: 何か微妙で賢明なことを言ってみなさい！
         grc:
           - ἀποκινδύνευε λεπτόν τι καὶ σοφὸν λέγειν.
+        cite: Ar. Besp. 963
       - modern:
         - de: Bitte, sprechen Sie weiter!
+          ja: どうぞ、話を続けてください！
         grc:
           - λέγοις ἂν ἄλλο.
       - modern:
         - de: Fahren Sie fort!
+          ja: 話を続けて！
         grc:
           - "λέγε, ὦ 'γαθέ!"
       - modern:
         - de: Nun, Sie scheinen nicht zu wissen, was Sie sagen sollen.
+          ja: さて、何を言えばいいのか分からないようですね。
         grc:
           - "ἀλλ' οὐκ ἔχειν ἔοικας, ὅτι λέγῃς."
       - modern:
         - de: Warum reden Sie nicht weiter?
+          ja: なぜ黙っているのですか？
         grc:
           - τί σιωπᾷς;
       - modern:
         - de: Sagen Sie mir, was Sie meinen!
+          ja: どういう意味か教えてください！
         grc:
           - |-
             εἰπέ μοι, ὅτι\footnote{%
@@ -364,51 +396,65 @@ sections:
             } λέγεις.
       - modern:
         - de: Was reden Sie da für verkehrtes Zeug?
+          ja: 何を馬鹿なことを言っているのですか！
         grc:
           - τί ταῦτα ληρεῖς;
       - modern:
         - de: "Sie schwatzen in's Blaue hinein!"
+          ja: 口から出任せを言っていますね！
         grc:
           - ἄλλως φλυαρεῖς;
       - modern:
         - de: Das ist was ganz Anderes!
+          ja: それは全く違いますよ！
         grc:
           - "οὐ ταὐτόν, ὦ 'τάν!"
       - modern:
         - de: Nicht darnach frage ich Sie!
+          ja: 君に訊いているのはそれではありません。
         grc:
           - "οὐ τοῦτ' ἐρωτῶ σε."
       - modern:
         - de: Doch (\textlatin{sc.} abbrechend) antworten Sie einmal auf meine Frage.
+          ja: （話を切り上げて）ともかく、私の質問に答えなさい！
         grc:
           - \emph{καὶ μὴν} ἐπερωτηθεὶς ἀπόκριναί μοι.
       - modern:
         - de: Sie sprechen in Räthseln!
+          ja: 謎掛けをしているようですね。
         grc:
           - "δι' αἰνιγμῶν λέγεις."
       - modern:
         - de: Ist das Ihr Ernst oder scherzen Sie?
+          ja: それは本気ですか、それとも冗談ですか？
         grc:
           - σπουδάζεις ταῦτα ἢ παίζεις;
       - modern:
         - de: Unsinn!
+          ja: でたらめを言っているようですね。
         grc:
           - οὐδὲν λέγεις!
+        cite:
+          - Ar.Th.625
       - modern:
         - de: Machen Sie weiter kein Gerede!
+          ja: 無駄話をしないで下さい！
         grc:
           - μὴ λάλει!
       - modern: # ToDo
         - de: Schweigen Sie!
+          ja: 静かにしさい！
         grc:
           - σίγα!
           - σιώπα!
       - modern:
         - de: So schweigen Sie doch!
+          ja: もう、静かにしてくれませんか。
         grc:
           - οὐ σιγήσει;
       - modern:
         - de: O Sie Schwachkopf!
+          ja: 君の馬鹿！
         grc:
           - ὦ μῶρε σύ!
   - title:
