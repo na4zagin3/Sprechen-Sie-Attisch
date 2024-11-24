@@ -238,6 +238,7 @@ sections:
           - πολλά σε λανθάνει.
   - title:
       de: Grammatisches
+      ja: 文法的事項
     conversations:
       - modern:
         - de: Weiter nun!
@@ -459,45 +460,60 @@ sections:
           - ὦ μῶρε σύ!
   - title:
       de: Abbildungen
+      ja: 図解
     conversations:
       - modern:
         - de: Ich will Ihnen eine Abbildung zeigen.
+          ja: 諸君に図をお見せしましょう。
         grc:
           - εἰκόνα ὑμῖν ἐπιδείξω.
       - modern:
         - de: Sehen Sie einmal hinunter!
+          ja: 下を見て下さい。
         grc:
           - βλέψατε κάτω!
       - modern:
         - de: Sehen Sie hinauf!
+          ja: 上を見て下さい。
         grc:
           - βλέψατε ἄνω!
       - modern:
         - de: Wo sehen Sie hin?
+          ja: 君は何処を見ているのですか。
         grc:
           - ποῖ βλέπεις;
       - modern:
         - de: Sie sehen wo anders hin.
+          ja: 君はよそを見ていますね。
         grc:
           - ἑτέρωσε βλέπεις.
       - modern:
         - de: Sieh einmal hierher!
+          ja: ちょっとここを見て！
         grc:
           - δεῦρο σκεψαι!
       - modern:
         - de: \myafterpagetrue\mysetaligntext{german}{Ich höre ein Geräusch{ }}\mysetalign{german}dahinten.
+          ja: 後ろの方で物音・騒音が聞こえます。
         grc:
           - καὶ μὴν αἰσθάνομαι ψόφου τινός ἐξόπισθεν.
+        cite:
+          - Ar.Ra.285–6
       - modern:
         - de: \bgroup\mysetalign{german}da vorn.\par\egroup
+          ja: 前の方で…
         grc:
           - ἐν τῷ πρόσθεν.
+        cite:
+          - Ar.Ra.287
       - modern:
         - de: Hören Sie auf zu schwatzen!
+          ja: おしゃべりをやめなさい！
         grc:
           - παῦσαι λαλῶν!
       - modern:
         - de: So schwatzen Sie doch nicht!
+          ja: そんなにおしゃべりしないで下さい！
         grc:
           - οὐ μὴ λαλήσετε;
   - title:
