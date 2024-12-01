@@ -207,8 +207,7 @@ sections:
         grc:
           - |-
             οὐκ ἐκάθευδον τὴν νύκτα ἀλλὰ\footnote{%
-            \textgreek{ὁ τυπογράφος ἔγραψα τὸν οὐ γεγραμμένον
-            τόνον.}%
+            \textlatin{orig.} \textgreek{ἀλλα}%
             } διεπονούμην πρὸς φῶς περὶ τὸν λόγον.
       - modern:
         - de: Ich weiß schon, wie Sie es machen.
@@ -392,8 +391,7 @@ sections:
         grc:
           - |-
             εἰπέ μοι, ὅτι\footnote{%
-            \textgreek{ὁ τυπογράφος ἔγραψα τὸν οὐ γεγραμμένον
-            ἦχον.}%
+            \textlatin{orig.} \textgreek{ότι}%
             } λέγεις.
       - modern:
         - de: Was reden Sie da für verkehrtes Zeug?
@@ -518,156 +516,221 @@ sections:
           - οὐ μὴ λαλήσετε;
   - title:
       de: Griechische Dichter
+      ja: ギリシャ詩人
     conversations:
       - modern:
         - de: Sagen Sie mir nun die schönste Stelle aus der Antigone her!
+          ja: さあ、『アンティゴネー』の中で最も美しい箇所を朗読してください！
         grc:
           - ἐκ τῆς Ἀντιγόνης τὸ νῦν εἰπὲ τὴν καλλίστην ῥῆσιν ἀπολέγων.
       - modern:
         - de: Den Anfang der Odyssee.
+          ja: 『オデュッセイア』の冒頭部分を。
         grc:
           - τὸ πρῶτον τῆς Ὀδυσσείας.
       - modern:
         - de: Was bedeutet diese Stelle?
+          ja: この文・箇所はどういう意味ですか？
         grc:
           - τί \emph{νοεῖ} τοῦτο;
       - modern:
         - de: Sie sind nicht recht bei Troste!
+          ja: 君は厄病神に取り憑かれているよ！
         grc:
           - κακοδαιμονᾷς.
+        cite:
+          - Ar.Plut.372
       - modern:
         - de: Wie naiv!
+          ja: 何とあさはかな（事物・人）。
         grc:
           - ὡς εὐηθικῶς!
+        cite:
+          - Ar.Eccl.521
       - modern:
         - de: Wo haben Sie Ihren Verstand?
+          ja: 君の知性はどこにあるのかね。
         grc:
           - ποῦ τὸν νοῦν ἔχεις;
+        cite:
+          - Ar.Eccl.156
       - modern:
         - de: Sie sind von Sinnen.
+          ja: 君は気が狂っている。
         grc:
           - παραφρονεῖς!
+        cite:
+          - Ar.V.9
       - modern:
         - de: >-
             Diese Stelle hat Sophokles nicht so aufgefaßt, wie Sie sie auffassen.
             Überlegen Sie es sich besser!
+            ja: ソポ̣クレースはこの箇所をあなたのようには解釈していません。もう少しよく考えてみてください！
         grc:
           - |-
             τὴν ῥῆσιν ταύτην οὐκ οὕτω Σοφοκλῆς ὑπελάμβανεν, ὡς σὺ ὑπολαμβάνεις.
             ὅρα δὴ βέλτιον.
+        note:
+          - Plut. De Profectibus in Virtute 7 ??
       - modern: # Why \_?
         - de: Beachten Sie diesen Aus\textcompwordmark{}druck!\_
+          ja: この表現に注意してください！
         grc:
           - σκόπει τὸ ῥῆμα τοῦτο!
       - modern:
         - de: \textgreek{ἥκω} ist gleichbedeutend mit \textgreek{κατέρχομαι.}
+          ja: 「ἥκω」は「κατέρχομαι」と同義です。
         grc:
           - ἥκω ταὐτόν ἐστι τῷ κατέρχομαι.
       - modern:
         - de: Was soll das bedeuten?
+          ja: これはどういう意味ですか？
         grc:
           - τίς ὁ νοῦς.
+        cite:
+          - Ar.Re.47
       - modern:
-        - de: Jetzt sprechen sie vernünftig.
+        - de: Jetzt sprechen Sie vernünftig.
+          ja: 今は思慮深く話をしていますね。
         grc:
           - τουτὶ φρονίμως ἤδη λέγεις.
+        cite:
+          - Ar.Eq.1365
       - modern:
         - de: Sie haben nunmehr den Sinn vollkommen inne.
+          ja: 今や完全に意味を理解していますね。
         grc:
           - "πάντ' ἔχεις ἤδη."
       - modern:
         - de: Sie haben gut combinirt.
+          ja: よく推論しましたね。
         grc:
           - εὖ γε ξυνέβαλες!
+        cite:
+          - Ar.Eq.427
+        notes:
+          - LSJ συμβάλλω III.3
       - modern:
         - de: Das ist ohne Zweifel \emph{das Schönste, was} Sophokles gedichtet hat.
+          ja: 間違い無く、これこそがソポ̣クレースが作った中で最も美しいものです。
         grc:
           - τοῦτο δήπου κάλλιστον πεποίηκε Σοφοκλῆς.
+        cite:
+          - Ar.Pa.1089
       - modern:
         - de: Sophokles steht über Euripides.
+          ja: ソポ̣クレースはエウリーピデースよりも優れています。
         grc:
           - "Σοφοκλῆς πρότερός ἐστ' Εὐριπίδου."
       - modern:
         - de: Doch ist dieser ebenfalls ein guter Dichter.
+          ja: しかし、彼もまた良い詩人です。
         grc:
           - "ὁ δ' ἀγαθὸς ποιητής ἐστι καὶ αὐτός."
       - modern:
         - de: Ich bin kein Verehrer des Euripides.
+          ja: 私はエウリーピデースの賛美者ではありません。
         grc:
           - οὐκ ἐπαινῶ Εὐριπίδην μὰ Δία.
       - modern:
         - de: Fällt Ihnen nicht ein Vers des Euripides ein?
+          ja: エウリーピデースの詩行は思い出せませんか？
         grc:
           - οὐκ ἀναμιμνήσκει ἴαμβον Εὐριπίδου;
       - modern:
         - de: Das können sie ziemlich gut.
+          ja: それはなかなか上手ですね。
         grc:
           - "τουτὶ μὲν ἐπιεικῶς σύγ' ἐπίστασαι."
       - modern:
         - de: Im Euripides sind Sie gut bewandert.
+          ja: 君はエウリーピデースに通暁していますね。
         grc:
           - Εὐριπίδην πεπάτηκας ἀκριβῶς.
+        cite:
+          - Pl. Phdr. 273a
       - modern:
         - de: Wo haben Sie das so gut gelernt?
+          ja: どこでそれをそんなに上手に学んだのですか？
         grc:
           - "πόθεν ταῦτ' ἔμαθες οὕτω καλῶς;"
       - modern:
         - de: Ich habe mir viele Stellen von Euripides abgeschrieben.
+          ja: エウリーピデースの章句を沢山書き写しました。
         grc:
           - Εὐριπίδου ῥήσεις ἐξεγραψάμην πολλάς.
       - modern:
         - de: Declamire mir ein Stück von einem neueren Dichter!
+          ja: もっと新しい詩人の一節を何か私に朗誦してください！
         grc:
           - λέξον τι τῶν νεωτέρων.
       - modern:
         - de: >-
             Sie verdienen es nicht, denn einen originellen Dichter wird man wohl
             nicht mehr unter ihnen finden.
+          ja: 彼らはその価値がありません。なぜなら、もはや創造的な詩人は彼らの中に見つからないでしょうから。
         grc:
-          - οὐκ ἔξιοί εἰσι τούτου, γόνιμον γὰρ ποιητὴν οὐκ ἂν ἔτι εὕροις ἐν αὐτοῖς.
+          - οὐκ ἄξιοί εἰσι τούτου, γόνιμον γὰρ ποιητὴν οὐκ ἂν ἔτι εὕροις ἐν αὐτοῖς.
+        cite:
+          - Ar. Ra. 96
       - modern:
         - de: Welche Ansicht haben Sie über Äschylus?
+          ja: アイスキュロスについてはどのような意見をお持ちですか？
         grc:
           - περὶ Αἰσχύλου δὲ τίνα ἔχεις γνώμην;
       - modern:
         - de: Den Äschylus stelle ich am höchsten unter den Dichtern.
+          ja: 私は詩人の中でアイスキュロスを最も高く評価します。
         grc:
           - Αἰσχύλον νομίζω πρῶτον ἐν ποιηταῖς.
       - modern:
         - de: Kennen Sie dieses Lied von Simonides?
+          ja: シーモニデースのこの詩は知っていますか？
         grc:
           - ἐπίστασαι τοῦτο τὸ ἆσμα Σιμωνίδου.
       - modern:
         - de: Ja!
+          ja: はい！
         grc:
           - μάλιστα.
       - modern:
         - de: Ja gewiß!
+          ja: もちろんです！
         grc:
           - ἔγωγε νὴ Δία.
       - modern:
         - de: Soll ich es ganz hersagen?
+          ja: 全部朗読しましょうか？
         grc:
           - βούλει πᾶν διεξέλθω;
+        cite:
+          - Pl. Prot. 339b
       - modern:
         - de: Ist nicht nöthig.
+          ja: それには及びません。
         grc:
           - οὐδὲν δεῖ.
+        cite:
+          - Pl. Prot. 339b
       - modern:
         - de: Wie heißen diese Verse? (\textlatin{sc.} mit Namen)
+          ja: この詩格の名前は何ですか？
         grc:
           - ὄνομα δὲ τούτῳ τῷ μέτρῳ τί ἐστιν;
+        cite:
+          - Pl. Po. 1448b
       - modern:
         - de: Ich kann das Gedicht nicht.
+          ja: その\ruby{詩}{うた}は知りません。
         grc:
-          - τὸ ἆσμα οὐκ ἐπίσταμαι.
+          - τὸ ᾆσμα\footnote{\textlatin{orig.} \textgreek{ἆσμα}} οὐκ ἐπίσταμαι.
       - modern:
         - de: Doch ich wende mich nun zu dem zweiten Act der Tragödie.
+          ja: ともあれ、悲劇の第2篇に進みます。
         grc:
           - |-
             καὶ μὴν ἐπὶ τὸ δεύτερον τῆς τραγῳδίας\footnote{%
-            \textgreek{ὁ τυπογράφος ἔγραψα τὸν οὐ γεγραμμένον
-            ἴοτα ὑπογραμμένον.}%
+            \textlatin{orig.} \textgreek{τραγωδίας}%
             } μέρος τρέψομαι.
   - title:
       de: Übersetzen
