@@ -734,21 +734,31 @@ sections:
             } μέρος τρέψομαι.
   - title:
       de: Übersetzen
+      ja: 翻訳
     conversations:
       - modern:
         - de: Suchen Sie in Ihrem Buche den Abschnitt über Sokrates auf! Es ist Nr.\ 107.
+          ja: 本を取りソクラテスについての節を開いて下さい！第107節です。
         grc:
           - ζητεῖτε τὸ περὶ Σωκράτους λαβόντες τὸ βιβλίον. ἐστὶ δὲ τὸ ἐκατοστὸνκαὶ ἕβδομον.
+        cite:
+          - LXX Deut. 13:26
       - modern:
         - de: Nun, so geben Sie Acht!.
+          ja: では、よく注意して下さい。
         grc:
           - ἀλλὰ προσέχετε τὸν νοῦν.
+        cite:
+          - Pl. Sym. 217b
+          - Lys. 10.19
       - modern:
         - de: "Wir wollen das (mündlich) in's Griechische übersetzen."
+          ja: これを（口頭で）ギリシャ語に訳しましょう。
         grc:
           - λέγωμεν ἑλληνικῶς ταῦτα μεταβάλλοντες.
       - modern:
         - de: Fangen Sie an, N.!
+          ja: Nさん、始めてください！
         grc:
           - |-
             ἴθι δή\footnote{\textlatin{%
@@ -756,38 +766,47 @@ sections:
             }, λέγε, ὦ Ν.
       - modern:
         - de: Ich bin mit Ihrer Übersetzung zufrieden.
+          ja: 君の翻訳に満足しています。
         grc:
           - "ταῦτα μ' ἤρεσας λέγων."
       - modern:
         - de: Von wem haben sie Griechisch gelernt?
+          ja: ギリシャ語は誰から習いましたか？
         grc:
           - "τίς σ' ἐδίδαξε τὴν ἑλληνικὴν φωνήν;"
       - modern:
         - de: "Fahren Sie \\emph{fort!}"
+          ja: 続けて下さい。
         grc:
           - \emph{λέγε.}
       - modern:
         - de: Das ist wieder ganz geschickt.
+          ja: また非常に巧妙ですね。
         grc:
           - "τοῦτ' αὖ δεξιόν."
       - modern:
         - de: Fahren \emph{Sie} fort!
+          ja: では君が続けて下さい。
         grc:
           - "λέγε δὴ σύ, ὦ 'γαθέ."
       - modern:
         - de: Sie übersetzen ungeschickt.
+          ja: 君の翻訳はぎこちないね。
         grc:
           - σκαιῶς ταῦτα λέγεις.
       - modern:
         - de: Das ist ein Jonisches Wort.
+          ja: それはイオニア方言の単語です。
         grc:
           - "τοῦτ' ἐστ' Ἰωνικὸν τὸ ῥῆμα."
       - modern:
         - de: Sie übersetzen in Jonischem Dialekt.
+          ja: 君はイオニア方言で翻訳している。
         grc:
           - Ἰωνικῶς λέγεις.
       - modern:
         - de: Nun, wie wollen Sie übersetzen?
+          ja: さて、どう翻訳しますか？
         grc:
           - |-
             φέρε δή\footnote{\textlatin{%
@@ -795,50 +814,67 @@ sections:
             }, τί λέγεις;
       - modern: # ToDo, is the footnote original?
         - de: Machen Sie schnell u.\footnote{\quotedblbase und``}\ übersetzen Sie!
+          ja: 早く訳してください！
         grc:
           - "ἀλλ' \\emph{ἀνύσας} λέγε!"
+        cite:
+          - Ar. Pl. 229?
       - modern:
         - de: Mit Ihnen ist nichts.
+          ja: 君はどうしようもない。
         grc:
           - "σύγ' οὐδὲν εἶ."
+        cite:
+          - Ar.Ec.144
       - modern:
         - de: Es ist \emph{meine Pflicht,} daß ich Ihnen dies sage.
+          ja: これを君に伝えるのは私の職務です。
         grc:
           - δικαίως δὲ τοῦτό σοι λέγω.
       - modern:
         - de: Sie können ja nicht drei Worte übersetzen, ohne Fehler zu machen.
+          ja: あなたは3語さえ誤り無く訳せないのですからね。
         grc:
           - "σὺ γὰρ οὐδὲ τρία ῥήματα ἑλληνικῶς εἰπεῖν οἷός τ' εἶ πρὶν ἐξαμαρτεῖν."
       - modern:
         - de: Hören Sie auf!
+          ja: 止めなさい。
         grc:
           - "\\emph{παῦε!}"
       - modern:
         - de: Übersetzen Sie dieses Stück auch schriftlich!.
+          ja: みなさん、同じ部分の翻訳を書き下してください！
         grc:
           - καὶ μεταγράφετε αὐτὸ τοῦτο ἑλληνιστί!
       - modern:
         - de: Verstanden?
+          ja: 分かりましたね？
         grc:
           - \emph{μανθάνετε;}
       - modern:
         - de: Ja wohl!
+          ja: はい、もちろんです！
         grc:
           - πάνυ μανθάνομεν.
       - modern:
         - de: Die Aufgabe.
+          ja: 課題。
         grc:
           - τὸ ἔργον.
       - modern:
         - de: Wie fatal, daß ich das Heft vergessen habe.
+          ja: くたばりやがれ！ノートを忘れてしまうなんて、なんたる失態だ。
         grc:
           - |-
-            ἐς κόρακας! ὡς ἄχθομαι, ὅτι\footnote{\textgreek{%
-            τῷ τυπογράφῳ ἄσκοπος τὸ γράμμα «ι» ἦν,
-            καὶ ὁ τυπογράφος ἔγραψα τὸν οὐ γεγραμμένον τόνον.}%
+            ἐς κόρακας! ὡς ἄχθομαι, ὅτι\footnote{\textlatin{orig.} \textgreek{ὁτι}%
             } ἐπελαθόμην τοὺς χάρτας (τὸ βιβλίον) προσφέρειν.
+        cite:
+          - Ar.Pl.189
+        notes:
+          - ἐς κόρακας = 死ね
       - modern:
         - de: "Leih' mir eine Feder und Papier!"
+          ja: ペンと紙を貸してくれ！
         grc:
           - χρῆσόν τί μοι γραφεῖον καὶ χάρτην.
   - title:
