@@ -879,83 +879,109 @@ sections:
           - χρῆσόν τί μοι γραφεῖον καὶ χάρτην.
   - title:
       de: Beschäftigt
+      ja: 勤務
     conversations:
       - modern:
         - de: Jeder geht an seine Arbeit.
+          ja: 皆仕事に取りかかっている。
         grc:
           - πᾶς χωρεῖ πρὸς ἔργον.
+        cite:
+          - S.Aj.116, Ar.Ra.884
       - modern:
         - de: Was haben wir (beiden) denn nun weiter zu thun?
+          ja: さて、私たち（二人）は何をすればいいのでしょうか？
         grc:
           - ἄγε δή, τί νῷν ἐντευθενὶ ποιητέον;
+        cite:
+          - Ar. Pax 922
       - modern:
         - de: So, das wäre besorgt.
+          ja: さて、これは片付いた。
         grc:
           - ταυτὶ δέδραται.
+        cite:
+          - Ar. Pax 1039
       - modern:
         - de: "Ich will's besorgen."
+          ja: 私がそれをやります。
         grc:
           - ταῦτα δράσω.
       - modern:
         - de: Das will ich schon besorgen.
+          ja: それは私がやります。
         grc:
           - μελήσει μοι ταῦτα.
       - modern:
         - de: Da ist Alles, was du brauchst.
+          ja: これが君に必要なものすべてだ。
         grc:
           - ἰδοὺ πάντα, ὧν δέει.
       - modern:
         - de: Hast du Alles, was du brauchst?
+          ja: 君に必要なものは全部そろっているか？
         grc:
           - "ἆρ' ἔχεις ἅπαντα, ἅ δεῖ;"
       - modern:
         - de: Ja, ich habe Alles da, was ich brauche.
+          ja: はい、必要なものはすべてあります。
         grc:
           - πάντα νὴ Δία πάρεστι μοί, ὅσων δέομαι.
       - modern:
         - de: Die Sache ist ganz einfach.
+          ja: これは非常に簡単なことです。
         grc:
           - \emph{φαυλότατον} ἔργον.
       - modern:
         - de: Zu welchem Zwecke thut ihr dies?
+          ja: 君らは何のためにこれをしているのか？
         grc:
           - ἵνα δὴ τί τοῦτο δρᾶτε;
       - modern:
         - de: So geht die Sache viel besser.
+          ja: この問題はこうやれば遥かに上手く行く。
         grc:
           - |-
             χωρεῖ τὸ πρᾶγμα οὕτω\footnote{%
-            \textgreek{ὁ τυπογράφος ἔγραψα τὸν οὐ γεγραμμένον
-            ἦχον και τόνον.}%
-            } πολλῷ\footnote{%
-            \textgreek{τῷ τυπογράφῳ ἄσκοπος τὸ γράμμα «ῷ» ἦν.}%
-            } πᾶλλον.
+            \textlatin{orig.} \textgreek{ουτω}%
+            } πολλῷ μᾶλλον.
       - modern:
         - de: Sei fleißig bei der Arbeit!
+          ja: 仕事に励みなさい！
         grc:
           - τῷ ἔργῳ πρόσεχε!
       - modern:
         - de: "Mach' es nicht wie die Andern!"
+          ja: 他の人と同じようにしないように！
         grc:
           - μὴ ποίει, ἅπερ οἱ ἄλλοι δρῶσιν!
       - modern:
         - de: Die Arbeit geht nicht vorwärts.
+          ja: 仕事が進まない。
         grc:
           - οὐ χωρεῖ τοὖργον.
       - modern:
         - de: Was wollen Sie \emph{denn} thun?
+          ja: いったい何をするつもりなのですか？
         grc:
           - τί δαὶ ποιήσεις;
+        cite:
+          - Ar. Av. 1451
       - modern:
         - de: Das Weitere ist \emph{Eure} Aufgabe.
+          ja: 残りは\kenten{あなたたち}の仕事です。
         grc:
           - ὑμέτερον ἐντεῦθεν ἔργον.
       - modern:
         - de: Hilf mir, wenn du (jetzt) keine Abhaltung hast!
+          ja: 今手が空いているのなら、手伝って！
         grc:
           - συλλαμβάνου, εἰ μή σέ τι κωλύει!
+        cite:
+          - Pl. Prot. 317d
       - modern:
         - de: Ich habe keine Zeit.
+          ja: 暇が無い。
         grc:
           - \emph{οὐ σχολή} (μοι).
   - title:
