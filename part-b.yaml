@@ -986,117 +986,163 @@ sections:
           - \emph{οὐ σχολή} (μοι).
   - title:
       de: Lob und Tadel
+      ja: 賞賛と非難
     conversations:
       - modern:
         - de: Wie denken Sie über diesen Schüler, Herr Rector?
+          ja: この生徒についてどう思いますか、校長先生？
         grc:
           - τί οὖν ἐρεῖς περὶ τούτου τοῦ μαθητοῦ, ὦ γυμνασίαρχε;
       - modern:
         - de: Der Mensch ist nicht unbegabt.
+          ja: 不才ではないね。
         grc:
           - οὐ σκαιὸς ἄνθρωπος\footnote{orig. \textgreek{ἅνθρωπος}}!
+        cite:
+          - Ar. Pl. 1023
       - modern:
         - de: Er scheint mir nicht unbegabt zu sein.
+          ja: 私には無能に見えません。
         grc:
           - οὐ σκαιός μοι δοκεῖ εἶναι.
       - modern:
         - de: Nein, er ist (vielmehr) recht befähigt.
+          ja: いや、実の所、\ruby{頗}{すこぶ}る有能だ。
         grc:
           - δεξιὸς \emph{μὲν οὖν} ἐστιν.
       - modern:
         - de: Und lerneifrig und geweckt.
+          ja: 加えて、向学心旺盛で明敏だ。
         grc:
           - καὶ φιλομαθὴς καὶ ἀγχίνους.
       - modern:
         - de: Und wie ist der Andere?
+          ja: それでは、もう一人はどうでしょうか。
         grc:
           - ὁ δὲ ἕτερος ποῖός τις;
       - modern:
         - de: Er gehört zur schlechten Sorte.
+          ja: 下等だね。
         grc:
           - ἐστὶ τοῦ πονηροῦ κόμματος.
+        cite:
+          - Ar. Pl. 862
+          - Aristeides Aelius Orat. 53.26
+        notes:
+          ja: πονηρός κόμμαは鐚銭の意
       - modern:
         - de: Nun, mit diesem werde ich später ein Wort reden.
+          ja: では、後で話をしておきます。
         grc:
           - ἀλλὰ πρὸς τοῦτον μὲν ὕστερός ἐστί μοι λόγος.
       - modern:
         - de: Er ist vergeßlich und schwer von Begriffen.
+          ja: 憶えが悪く、のみこみが遅い。
         grc:
           - ἐπιλήσμων γάρ ἐστι καὶ βραδύς.
+        cite:
+          - Ar. Nu. 129
       - modern:
         - de: Und er giebt sich keine Mühe.
+          ja: さらに、努力をしない。
         grc:
           - καὶ οὐκ ἐπιμελής ἐστιν.
       - modern:
         - de: Er ist der dümmste von allen.
+          ja: 全生徒のなかで一番馬鹿だ。
         grc:
           - ἠλιθιότατός ἐστι πάντων.
       - modern:
         - de: Er hat sich ganz und gar geändert.
+          ja: 彼はすっかり変ってしまった。
         grc:
           - πολὺ πάνυ μεθέστηκεν.
+        cite:
+          - Ar. Pl. 994
       - modern:
         - de: Ich weiß es wohl.
+          ja: よく分かります。
         grc:
           - οἶδά τοι.
+        cite:
+          - Pl. Theae. 177b
       - modern:
         - de: Wir werden entsprechende Maßregeln ergreifen.
+          ja: 適切な措置を講じましょう。
         grc:
           - ποιήσομέν τι τῶν προὔργου.
+        cite:
+          - Ar. Pl. 632
       - modern:
         - de: Er ist \quotedblbase dumm, faul und gefräßig.``
+          ja: 彼は愚かで怠惰で貪欲だ。
         grc:
           - ἠλίθιός τε καὶ ἀργὸς καὶ γάστρις ἐστιν.
       - modern:
         - de: Er ist ganz verdreht.
+          ja: 気が狂っている。
         grc:
-          - μεγαγχολᾷ.
+          - μελαγχολᾷ.
+        cite:
+          - Ar. Pl. 12, 366, 903
       - modern:
         - de: Wie macht A. seine Sache?
+          ja: ところで、A君は課題の取り組みはどうかね？
         grc:
           - ὁ δὲ Ἁ.\ πῶς παρέχει τὰ ἑαυτοῦ;
       - modern:
         - de: Nach (seinen) Kräften.
+          ja: できる限りやってるようですね。
         grc:
           - "καθ' ὅσον ἂν σθένῃ!"
       - modern:
         - de: Ziemlich gut.
+          ja: かなり良いね。
         grc:
           - ἐπιεικῶς.
       - modern:
         - de: \myafterpagetrue\mysetaligntext{german}{(Censuren:) { }}\mysetalign{german}1.
+          ja: \myafterpagetrue\mysetaligntext{japanese}{（評定：）{ }}\mysetalign{japanese}1.
         grc:
           - \mysetaligntext{greek}{}\mysetalign*{greek}\textgreek{εὖγε.}
       - modern:
         - de: \bgroup\mysetalign{german}1b.\par\egroup
+          ja: \bgroup\mysetalign{japanese}1b.\par\egroup
         grc:
           - \bgroup\mysetalign*{greek}\textgreek{καλῶς.}\par\egroup
       - modern:
         - de: \bgroup\mysetalign{german}2a.\par\egroup
+          ja: \bgroup\mysetalign{japanese}2a.\par\egroup
         grc:
           - \bgroup\mysetalign*{greek}\textgreek{ἀκριβῶς.}\par\egroup
       - modern:
         - de: \bgroup\mysetalign{german}2.\par\egroup
+          ja: \bgroup\mysetalign{japanese}2.\par\egroup
         grc:
           - \bgroup\mysetalign*{greek}\textgreek{ὀρθῶς.}\par\egroup
       - modern:
         - de: \bgroup\mysetalign{german}2b.\par\egroup
+          ja: \bgroup\mysetalign{japanese}2b.\par\egroup
         grc:
           - \bgroup\mysetalign*{greek}\textgreek{ἐπιεικῶς.}\par\egroup
       - modern:
         - de: \bgroup\mysetalign{german}3a.\par\egroup
+          ja: \bgroup\mysetalign{japanese}3a.\par\egroup
         grc:
           - \bgroup\mysetalign*{greek}\textgreek{μετρίως.}\par\egroup
       - modern:
         - de: \bgroup\mysetalign{german}3.\par\egroup
+          ja: \bgroup\mysetalign{japanese}3.\par\egroup
         grc:
           - \bgroup\mysetalign*{greek}\textgreek{μέσως.}\par\egroup
       - modern:
         - de: \bgroup\mysetalign{german}3b.\par\egroup
+          ja: \bgroup\mysetalign{japanese}3b.\par\egroup
         grc:
           - \bgroup\mysetalign*{greek}\textgreek{φαύλως.}\par\egroup
       - modern:
         - de: \bgroup\mysetalign{german}4.\par\egroup
+          ja: \bgroup\mysetalign{japanese}4.\par\egroup
         grc:
           - \bgroup\mysetalign*{greek}\textgreek{οὐκ ὀρθῶς.}\par\egroup
   - title:
