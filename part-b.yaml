@@ -57,7 +57,7 @@ sections:
           - "ἀλλ' εὐχώμεθα!"
         cite: Aristoph. Pax 967
       - modern:
-        - de: "Ich bin \emph{doch nicht etwa} zu spät gekommen?"
+        - de: "Ich bin \\emph{doch nicht etwa} zu spät gekommen?"
           ja: \kenten{もしかしたら}遅刻ですかね？
           commentary: μῶνは否定応答を期待する疑問小辞。
         grc:

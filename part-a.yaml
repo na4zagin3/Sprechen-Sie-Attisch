@@ -1067,9 +1067,7 @@ sections:
           - ὥσπερ καὶ πρὸ τοῦ.
       - modern:
         - de: Auf welchen Tag?
-          ja: 何日に\footnote{\textlatin{アッティカ方言では通常は%
-            \textgreek{«εἰς»}}%
-            }？
+          ja: 何日に\footnote{\textlatin{アッティカ方言では通常は\textgreek{«εἰς»}}}？
         grc:
           - ἐς τίνα ἡμέραν.
           #- |-
