@@ -1334,71 +1334,86 @@ sections:
           - A. Pr. 338
   - title:
       de: Ja!
+      ja: はい！
     conversations:
       - modern:
         - de: Ja! (Ohne Zweifel!)
+          ja: はい！（疑いなく！）
         grc:
           - |-
             νὴ\footnote{%
-            \textgreek{τυπογράφος ἔγραψα τὸν οὐ γεγραμμένον
-            τόνον.}%
+            \textlatin{orig.}
+            \textgreek{νη}%
             } Δία!
       - modern:
         - de: Ja wahrhaftig!
+          ja: 神に誓って！
         grc:
           - νὴ τοὺς θεούς! --- νὴ τὸν Ποσειδῶ!
       - modern:
         - de: Ganz recht!
+          ja: 全くその通り！
         grc:
-          - μάλιστά γε. --- νάνυ!
+          - μάλιστά γε. --- πάνυ!
       - modern:
         - de: Sehr richtig!
+          ja: 実にその通り！
         grc:
-          - κομιδῆ μὲν οὖν!
+          - κομιδῇ\footnote{\textlatin{orig.} κομιδῆ} μὲν οὖν!
+        cite:
+          - Ar. Plut. 833
       - modern:
         - de: Natürlich!
+          ja: 勿論！
         grc:
           - εἰκότως! --- εἰκὸς γάρ!
       - modern:
         - de: Ja natürlich!
+          ja: ええ勿論！
         grc:
           - εἰκότως γε (νὴ Δία)!
       - modern:
         - de: Ganz gewiß!
+          ja: 確かに！
         grc:
           - "εὖ ἴσθ' ὅτι!"
+        cite:
+          - Ar. Th. 12
       - modern:
         - de: Ich? Freilich, Sie!
+          ja: 私？もちろんあなたです！
         grc:
           - ἐγώ; σὺ \emph{μέντοι!}
       - modern:
         - de: Kann sein!
+          ja: かもね！
         grc:
           - \emph{οὐκ οἶδα.}
       - modern:
         - de: Kann wohl sein!
+          ja: ありうる！
         grc:
           - ἕοικεν!
       - modern:
         - de: Kein Wunder!
+          ja: 少しも不思議ではない！
         grc:
           - κοὐ θαῦμά γε!
       - modern:
         - de: Und das ist gar kein Wunder!
+          ja: 何ら驚きがない！
         grc:
           - "καὶ θαῦμά γ' οὐδέν!"
       - modern:
         - de: Schön!
+          ja: いいですね！
         grc:
           - εὖ λέγεις!
       - modern:
         - de: Du fragst noch?
+          ja: もう聞くまでもなかろうに。
         grc:
-          - |-
-            οὐκ\footnote{%
-            \textgreek{ὁ τυπογράφος ἔγραψα τὸν οὐ γεγραμμένον
-            ἦχον.}%
-            } οἶσθα;!
+          - οὐκ\footnote{\textlatin{orig.} \textgreek{ουκ}} οἶσθα;
   - title:
       de: Nein!
     conversations:
