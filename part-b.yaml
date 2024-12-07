@@ -1147,133 +1147,191 @@ sections:
           - \bgroup\mysetalign*{greek}\textgreek{οὐκ ὀρθῶς.}\par\egroup
   - title:
       de: Singen
+      ja: 歌
     conversations:
       - modern:
         - de: Singe etwas!
+          ja: （一人に向け）何か歌って！
         grc:
-          - ᾆδόν τι!
+          - ᾆσόν τι!
       - modern:
         - de: Ich kann nicht singen.
+          ja: 私は歌はできません。
         grc:
           - |-
             μελῳδεῖν οὐκ ἐπίσταμαι\footnote{\textlatin{%
             orig. \textgreek{επίσταμαι}}%
             }!
+        cite:
+          - Ar.V.989
       - modern:
         - de: Singt einmal ein Lied!
+          ja: （複数人に向け）一曲歌って！
         grc:
           - μέλος τι ᾄσατε.
       - modern:
         - de: Was gedenkt Ihr zu singen?
+          ja: 何を歌うの？
         grc:
           - τί ἐπινοεῖτε ᾄδειν;
       - modern:
         - de: Nun, was sollen wir denn singen?
+          ja: さて、何を歌いましょうかね？
         grc:
           - "ἀλλὰ τί δῆτ' ᾄδωμεν;"
       - modern:
         - de: Sagen Sie nur, was Sie gern hören.
+          ja: 聴きたい曲を教えてください。
         grc:
-          - εἰπὲ οἶστισι \emph{χαίρεις.}
+          - εἰπὲ οἷστισι \emph{χαίρεις.}
       - modern:
         - de: Ein herrliches Lied!
+          ja: 素晴らしい歌だ！
         grc:
           - ὡς ἡδὺ τὸ μέλος!
       - modern:
         - de: Wir wollen noch eins singen.
+          ja: もう一曲歌いましょう。
         grc:
           - ἕτερον ᾀσόμεθα.
       - modern:
-        - de: Erlauben sie, daß ich ein Solo singe!
+        - de: Erlauben Sie, daß ich ein Solo singe!
+          ja: 独唱させてください！
         grc:
           - ἔασόν με μονῳδῆσαι.
       - modern:
         - de: Singe, soviel du willst!
+          ja: 好きなだけ歌って！
         grc:
           - "ἀλλ' ᾆδ' ὁπόσα βούλει."
       - modern:
         - de: "Hör' auf zu singen!"
+          ja: 歌うのをやめて！
         grc:
           - παῦσαι μελῳδῶν!
       - modern:
         - de: Du singst immer nu \emph{vom} Wein.
+          ja: いつも酒の歌ばかり歌っているね。
         grc:
           - οὐδὲν γὰρ ᾄδεις πλὴν οἶνον.
       - modern:
         - de: Das gefällt mir.
+          ja: それ気に入った。
         grc:
           - "τουτί μ' ἀρέσκει."
       - modern:
         - de: Ihnen gefällt das?
+          ja: それが好きなの？
         grc:
           - "σὲ δὲ τοῦτ' ἀρέσκει;"
       - modern:
         - de: Was Sie deben gesungen haben, werde ich sicherlich nie vergessen.
+          ja: あなたが今しがた歌った曲は、きっと忘れません。
         grc:
-          - ὅσα ἄρτι ᾖσας, οὐ μὴ ἐπιλάθωμαί ποτε.!
+          - ὅσα ἄρτι ᾖσας, οὐ μὴ ἐπιλάθωμαί ποτε.
       - modern:
         - de: Ich will ein Lied dazu singen.
+          ja: 一緒に一曲歌います。
         grc:
           - ἐπᾴσομαι μέλος τι.
+        cite:
+          - Ar. Eccl. 1153
+        notes:
+          ja: 自信無し
   - title:
       de: Sie haben Recht!
+      ja: あなたは正しい！
     conversations:
       - modern:
         - de: Sie haben Recht.
+          ja: あなたは正しい。
         grc:
           - \emph{εὖ λέγεις.}
       - modern:
         - de: Sie haben wirklich Recht.
+          ja: 実際その通りです。
         grc:
           - εὖ τοι λέγεις.
+        cite:
+          - Ar. Pax 934
       - modern:
         - de: Sie könnten vielleicht Recht haben.
+          ja: ひょっとするとそうかもしれません。
         grc:
           - ἴσως ἄν τι λέγοις.
+        cite:
+          - X.Mem.2.1.12
       - modern:
         - de: Sie haben ganz Recht.
+          ja: 全くその通りです。
         grc:
           - εὖ πάνυ λέγεις.
+        cite:
+          - Ar. Pl. 800
       - modern:
         - de: Sie haben offenbar Recht.
+          ja: 見たところそうであるようです。
         grc:
           - εὖ λέγειν σὺ φαίνει.
+        cite:
+          - Ar. Nu. 403
       - modern:
         - de: Ich denke, Sie haben Recht.
+          ja: 私にはその通りだと思われます。
         grc:
           - εὖ γέ μοι δοκεῖς λέγειν.
+        cite:
+          - Pl. Meno 86c
       - modern:
         - de: Das ist auch meine Ansicht.
+          ja: 私も同意見です。
         grc:
           - συνδοκεῖ ταῦτα κἀμοί.
+        cite:
+          - Ar. Av. 1630
       - modern:
         - de: Es kommt mir allerdings auch so vor.
+          ja: 私にもそのように思えます。
         grc:
           - τοῦτο μὲν κἀμοί δοκεῖ.
       - modern:
         - de: Das ist ganz klar.
+          ja: それは明白です。
         grc:
           - τοῦτο περιφανέστατον.
+        cite:
+          - Ar. Eq. 206
       - modern:
         - de: Das ist ein billiger Vorschlag.
+          ja: それは妥当な提案です。
         grc:
           - δίκαιος ὁ λόγος.
+        cite:
+          - Ar. Ra. 623
       - modern:
         - de: "Glaub's gern."
+          ja: 君の言を信じよう。
         grc:
           - \emph{πείθομαι.}
       - modern:
         - de: Wie es scheint.
+          ja: 見たところでは。
         grc:
           - ὡς ἔοικεν.
+        cite:
+          - Pl. Euth. 8a
       - modern:
         - de: Dafür giebt es viele Beweise.
+          ja: それには証拠が沢山あります。
         grc:
           - τούτων τεκμήριά ἐστι πολλά.
       - modern:
         - de: Ich schließe es aus Thatsachen.
+          ja: それは事実からの結論です。
         grc:
           - ἔργῳ τεκμαίρομαι.
+        cite:
+          - A. Pr. 338
   - title:
       de: Ja!
     conversations:
