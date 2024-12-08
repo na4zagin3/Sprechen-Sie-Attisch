@@ -1406,7 +1406,7 @@ sections:
           - "καὶ θαῦμά γ' οὐδέν!"
       - modern:
         - de: Schön!
-          ja: いいですね！
+          ja: いいね！
         grc:
           - εὖ λέγεις!
       - modern:
@@ -1416,104 +1416,160 @@ sections:
           - οὐκ\footnote{\textlatin{orig.} \textgreek{ουκ}} οἶσθα;
   - title:
       de: Nein!
+      ja: いいえ！
     conversations:
       - modern:
         - de: Nein!
+          ja: いいえ！
         grc:
           - \emph{οὐ μὰ Δία!}
       - modern:
         - de: Nein, ich nicht.
+          ja: いいえ、私は違います。
         grc:
           - "μὰ Δί' ἐγὼ μὲν οὔ."
       - modern:
         - de: Nein, sondern . . .
+          ja: いいえ、むしろ...
         grc:
           - οὔκ· ἀλλά . . .
       - modern:
         - de: Nicht doch!
+          ja: そんなことはない！
         grc:
           - μὴ δῆτα!
       - modern:
         - de: "Thu's nicht!"
+          ja: それはするな！
         grc:
           - μή νυν ποιήσῃς!
+        cite:
+          - Ar. Ra. 16
       - modern:
         - de: Noch nicht!
+          ja: 待った！
         grc:
           - μὴ δῆτά πώ γε.
+        cite:
+          - Ar. Eq. 960
       - modern:
         - de: Nicht eher, als bis (dies geschieht)
+          ja: （それが起こるまでは）まだだ。
         grc:
-          - |-
-            οὔκ, ἢν μὴ (τοῦτο γένηται\footnote{%
-            \textgreek{ὁ τυπογράφος ἔγραψα τὸν οὐ γεγραμμένον
-            τόνον.}%
-            }).
+          - οὔκ, ἢν μὴ (τοῦτο γένηται\footnote{\textlatin{orig.} \textgreek{γενηται}}).
       - modern:
         - de: Ja nicht!
+          ja: 絶対に駄目だ！
         grc:
           - μηδαμῶς!
+        cite:
+          - A. Pr. 339
       - modern:
         - de: Ist nicht nöthig!
+          ja: 必要無い！
         grc:
           - οὐδὲν δεῖ!
       - modern:
         - de: Freilich nicht.
+          ja: もちろん違います。
         grc:
           - "μὰ Δί' οὐ μέντοι."
+        cite:
+          - Pl. Eu. 290e
+          - Pl. Ly. 208a
       - modern:
         - de: (Ich) leider nicht!
+          ja: 残念だけどそうならなかったね。
         grc:
           - εἰ γὰρ ὤφελ(ον)!
+        cite:
+          - Ar. Eccl. 380
       - modern:
         - de: Du bist gescheit! (ironisch ablehnend.)
+          ja: 賢いね！（皮肉っぽく拒絶して）
         grc:
           - σωφρονεῖς! --- δεξιὸς εἶ!
       - modern:
         - de: Kein Gedanke!
+          ja: とんでもない！
         grc:
           - ἥκιστα!
+        cite:
+          - Ar. Av. 126
       - modern:
         - de: Am allerwenigsten!
+          ja: 一番ない！
         grc:
           - ἥκιστά γε!
+        cite:
+          - Ar. Pl. 1157
       - modern:
         - de: Um keinen Preis!
+          ja: 断じてない！
         grc:
           - ἥκιστα πάντων!
+        cite:
+          - Ar. Pl. 440
       - modern:
         - de: Nein, und wenn Ihr Euch auf den Kopf stellt!
+          ja: 逆立ちしたってダメだ！
         grc:
           - οὐκ ἂν μὰ Δία, εἰ κρέμαισθέ γε ὑμεῖς!
+        cite:
+          - Ar. V. 297
       - modern:
         - de: Denken Sie, ich sei verrückt?
+          ja: 私が気が狂っていると思うのかい？
         grc:
           - "μελαγχολᾶν μ' οὕτως οἴκει;"
+        cite:
+          - Ar. Pl. 901
       - modern:
         - de: So steht die Sache nicht!
+          ja: そういうことではない！
         grc:
           - οὐχ οὗτος ὁ τρόπος!
+        cite:
+          - Ar. Lys. 25
       - modern:
         - de: Wenn zehnmal!
+          ja: そうは言っても\footnote{ToDo これどう訳したらいいのかね}。
         grc:
           - "ἀλλ' ὅμως!"
+        cite:
+          - Ar. Nu. 587
       - modern:
         - de: Sie haben \emph{nicht Recht!}
+          ja: その言い分は\kenten{正しく}ないね！
         grc:
           - \emph{οὐκ ὀρθῶς} λέγεις.
+        cite:
+          - Ar. Eq. 1084
       - modern:
         - de: Ach was! (Blech!)
+          ja: 戯言を！（げえっ！）
         grc:
           - λῆρος!
+        cite:
+          - Ar. Pl. 23
       - modern:
         - de: Das ist Unsinn!
+          ja: でたらめだ！
         grc:
           - οὐδὲν λέγεις!
+        cite:
+          - Ar. Th. 625
       - modern:
         - de: Aber das ist was ganz Anderes!
+          ja: それは全く別のことだ！
         grc:
           - "ἀλλ' οὐ ταὐτόν!"
+        cite:
+          - Ar. Lys. 496
       - modern:
         - de: Aber das gehört ja gar nicht hierher, was Sie sagen!
+          ja: それはこれとは話が違う！
         grc:
           - "ἀλλ' οὐκ εἶπας ὅμοιον!"
+        cite:
+          - Ar. Lys. 594
