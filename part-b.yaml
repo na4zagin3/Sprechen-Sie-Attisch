@@ -33,14 +33,16 @@ sections:
           - ὁ καιρός ἐστι μηκέτι μέλλειν.
       - modern:
         - de: "Mach' dir keine Sorge!"
-          ja: 心配しないで！
+          ja: 心配無用！
         grc:
           - μὴ φροντίσῃς.
       - modern:
         - de: Nur nicht ängstlich!
-          ja: 怖がらないで！
+          ja: 恐れるな！
         grc:
           - μηδὲν δείσῃς.
+        cite:
+          - Ar. V. 387
       - modern:
         - de: Sei unbesorgt!
           ja: 安心しなさい！
@@ -55,7 +57,8 @@ sections:
           ja: 祈りましょう！\footnote{訳註：授業開始時の一幕か？}
         grc:
           - "ἀλλ' εὐχώμεθα!"
-        cite: Aristoph. Pax 967
+        cite:
+          - Ar. Pax 967
       - modern:
         - de: "Ich bin \\emph{doch nicht etwa} zu spät gekommen?"
           ja: \kenten{もしかしたら}遅刻ですかね？
@@ -442,7 +445,7 @@ sections:
           - μὴ λάλει!
       - modern: # ToDo
         - de: Schweigen Sie!
-          ja: 静かにしさい！
+          ja: 静かにしなさい！
         grc:
           - σίγα!
           - σιώπα!
@@ -565,7 +568,7 @@ sections:
         - de: >-
             Diese Stelle hat Sophokles nicht so aufgefaßt, wie Sie sie auffassen.
             Überlegen Sie es sich besser!
-            ja: ソポ̣クレースはこの箇所をあなたのようには解釈していません。もう少しよく考えてみてください！
+          ja: ソ\jdb{ポ}クレースはこの箇所をあなたのようには解釈していません。もう少しよく考えてみてください！
         grc:
           - |-
             τὴν ῥῆσιν ταύτην οὐκ οὕτω Σοφοκλῆς ὑπελάμβανεν, ὡς σὺ ὑπολαμβάνεις.
@@ -612,14 +615,14 @@ sections:
           - LSJ συμβάλλω III.3
       - modern:
         - de: Das ist ohne Zweifel \emph{das Schönste, was} Sophokles gedichtet hat.
-          ja: 間違い無く、これこそがソポ̣クレースが作った中で最も美しいものです。
+          ja: 間違い無く、これこそがソ\jdb{ポ}クレースが作った中で最も美しいものです。
         grc:
           - τοῦτο δήπου κάλλιστον πεποίηκε Σοφοκλῆς.
         cite:
           - Ar.Pa.1089
       - modern:
         - de: Sophokles steht über Euripides.
-          ja: ソポ̣クレースはエウリーピデースよりも優れています。
+          ja: ソ\jdb{ポ}クレースはエウリーピデースよりも優れています。
         grc:
           - "Σοφοκλῆς πρότερός ἐστ' Εὐριπίδου."
       - modern:
@@ -1089,7 +1092,7 @@ sections:
         - de: Wie macht A. seine Sache?
           ja: ところで、A君は課題の取り組みはどうかね？
         grc:
-          - ὁ δὲ Ἁ.\ πῶς παρέχει τὰ ἑαυτοῦ;
+          - ὁ δὲ Ἀ.\ πῶς παρέχει τὰ ἑαυτοῦ;
       - modern:
         - de: Nach (seinen) Kräften.
           ja: できる限りやってるようですね。
@@ -1533,7 +1536,7 @@ sections:
           - Ar. Lys. 25
       - modern:
         - de: Wenn zehnmal!
-          ja: そうは言っても\footnote{ToDo これどう訳したらいいのかね}。
+          ja: そうは言っても。
         grc:
           - "ἀλλ' ὅμως!"
         cite:

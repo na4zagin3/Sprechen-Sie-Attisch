@@ -5,6 +5,7 @@
 \usepackage{version}
 \usepackage{tabularx}
 \usepackage{tcolorbox}
+\usepackage{amsfonts}
 
 \includeversion{frakturfonttypesetting}
 \excludeversion{romanfonttypesetting}
@@ -46,6 +47,7 @@
   現代（訳注：19世紀末ドイツ）日常会話\\
   \large
   \medskip
+  第A部 一般的事項\\
   第B部 学校にて
 }
 
@@ -65,13 +67,48 @@
 
 
 \date{
-  コミックマーケット104（2024年）発行\\
+  コミックマーケット105（2024年冬）発行\\
   原著 \textbf{Leipzig, 1889.} \emph{C.\ A.\ Koch's Verlag.}
   (J. Sengbusch)}
 
 \pagestyle{empty}
 \maketitle
 \pagebreak{}
+{
+\setlength{\parindent}{1\zw}
+\setlength{\hangindent}{0pt}
+\section*{まえがき}
+本書は、%
+第A部から第J部、並びに文法要項と単語集からなる原書1889年刊行版%
+\url{https://books.google.co.jp/books/about/Sprechen_Sie_Attisch.html?id=swUZAAAAYAAJ&redir_esc=y}%
+のうち、第A部と第B部のドイツ語部分を、ギリシャ語部分も参考にして和訳したものです。
+
+第A部は2023年夏C102で頒布したのですが、もう在庫が無くなってしまったので、新規に訳した第B部と一緒にしました。
+
+訳の際には既存の英訳%
+\url{https://paulatinygriego.files.wordpress.com/2019/02/greekenglishphrasebook.pdf}%
+や、アリストパネースの和訳『ギリシア喜劇全集第1巻〜第4巻』（岩波書店）%
+も参照しました。
+
+オープンソースプロジェクトとして翻訳をしていきたいと思っているので、
+誤りや改善案等ございましたら、是非とも%
+\url{https://github.com/na4zagin3/Sprechen-Sie-Attisch}%
+にissueを立てるなり、pull requestを送るなりして下さると、幸甚です。
+
+ギリシャ語学習の一助になれば幸いです。一緒に古典語学習ブームを盛り上げていきましょう！
+
+\subsection*{文字について}
+本書では、自分の完全な趣味で、ギリシャ語部分にTheano Old Styleを用い、Common LigaturesとContextural
+Ligaturesを有効にしました。
+
+以下の特徴が見慣れないかもしれないので、注意して下さい。
+
+\begin{itemize}
+\item \textgreek{β θ ρ φ} の四字は、\textgreek{βιβλίον φαέσφορον ῥητορικὸν θαλαττωθῇ}のように、語頭と語中で形が変わります。
+\item \textgreek{{\addfontfeature{Ligatures={NoCommon,NoContextual}}ου}}は
+  \textgreek{ου}に、\textgreek{{\addfontfeature{Ligatures={NoCommon,NoContextual}}στ}}は\textgreek{στ}になります。
+\end{itemize}
+}
 
 \pagestyle{plain}
 % \input{legend-ja.tex}
@@ -110,9 +147,9 @@
 %\hangindent=2em\hangafter=2
 %\titlespacing{\section}{0pt}{\parskip}{-\parskip}
 \begin{paracol}{2}
-	%\input{part-a.tex}
-  \setcounter{part}{1}
-  \setcounter{section}{20}
+	\input{part-a.tex}
+  %\setcounter{part}{1}
+  %\setcounter{section}{20}
 	\input{part-b.tex}
 	%\input{part-c.tex}
 	%\input{part-d.tex}
@@ -126,52 +163,30 @@
 
 %\input{quotes.tex}
 
-\cleardoublepage{}
+\clearpage{}
 \pagestyle{empty}
 \setlength{\parindent}{1\zw}
 \setlength{\hangindent}{0pt}
-\section*{文字について}
-本書はギリシャ語部分にTheano Old Styleを用い、Common LigaturesとContextural
-Ligaturesを有効にしたものです。
 
-以下の特徴が見慣れないかもしれないので、注意して下さい。
+%\section*{あとがき}
 
-\begin{itemize}
-\item \textgreek{β ρ φ} の三字は、\textgreek{βεβηκα ῥάφανος φώρ}のように、語頭と語中で形が変わります。
-\item \textgreek{{\addfontfeature{Ligatures={NoCommon,NoContextual}}ου}}は
-  \textgreek{ου}に、\textgreek{{\addfontfeature{Ligatures={NoCommon,NoContextual}}στ}}は\textgreek{στ}になります。
-\end{itemize}
+%本書を手に取って下さってありがとうございます。
 
-\section*{あとがき}
-
-本書を手に取って下さってありがとうございます。
-
-これは、%
-第A部から第J部、並びに文法要項と単語集からなる原書
-\url{https://archive.org/details/sprechensieatti00johngoog}%
-のうち、第B部のドイツ語部分を、ギリシャ語部分も参考にして和訳したものです。
-
-訳の際には既存の英訳%
-\url{https://paulatinygriego.files.wordpress.com/2019/02/greekenglishphrasebook.pdf}%
-も参照しました。
-
-オープンソースプロジェクトとして翻訳をしていきたいと思っているので、
-誤りや改善案等ございましたら、是非とも%
-\url{https://github.com/na4zagin3/Sprechen-Sie-Attisch}%
-にissueを立てるなり、pull requestを送るなりして下さると、幸甚です。
-
-ギリシャ語学習の一助になれば幸いです。一緒に古典語学習ブームを盛り上げていきましょう！
 
 \vspace*{\fill}
 
-\begin{tcolorbox}[width=0.80\columnwidth,before=\par\smallskip\centering,after=\par,colback=white,coltext=black,]
+\begin{tcolorbox}[width=0.85\columnwidth,before=\par\smallskip\centering,after=\par,colback=white,coltext=black,]
   \begin{tabularx}{\columnwidth}{@{}r@{\hspace*{0.25\zw}：\hspace*{0.15\zw}}X@{}}
-    \kintou{4\zw}{発行日}&2024年12月30日
+    \kintou{6\zw}{書名}&アッティカ方言で話しませんか? 日本語訳 第AB部
     % \hfill{\includegraphics[trim={8cm 12cm 8cm 12cm},width=6em,valign=t]{./c100_logo_mono.png}}%
     \\
-    \kintou{4\zw}{発行}&ヒュアリニオス%
+    \kintou{6\zw}{発行サークル}&ヒュアリニオス\newline\url{https://hyalinios.hatenadiary.com}%
     \\
-    \kintou{4\zw}{ 訳 }&ざぎん\hspace{1em}\textsf{@na4zagin3}%
+    \kintou{6\zw}{発行責任者}&ざぎん\newline Twitter（現$\mathbb{X}$）: \textsf{@na4zagin3}%
+    \\
+    \kintou{6\zw}{発行日}&初版2024年12月30日
+    \\
+    \kintou{6\zw}{印刷}&ちょ古っ都製本工房
     \\
   \end{tabularx}
 \end{tcolorbox}
