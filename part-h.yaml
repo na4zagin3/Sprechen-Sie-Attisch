@@ -85,7 +85,7 @@ sections:
             Das soll Ihnen schlecht bekommen, daß Sie das rothe Daus gestochen
             haben!
         grc:
-          - οὔ τοι μὰ Δία χαιρήσεις, ὁτιὴ τοῦτ᾽ ἔδρασας.!
+          - οὔ τοι μὰ Δία χαιρήσεις, ὁτιὴ τοῦτ’ ἔδρασας.!
       - modern:
         - de: Verwünscht! Das ist zum Haaraus\textcompwordmark{}raufen!
         grc:
@@ -161,7 +161,7 @@ sections:
       - modern:
         - de: Gerade das will ich ja!
         grc:
-          - τοῦτ᾽ αὐτὸ γὰρ καὶ βούλομαι!
+          - τοῦτ’ αὐτὸ γὰρ καὶ βούλομαι!
       - modern:
         - de: Zähle einmal!
         grc:
@@ -211,7 +211,7 @@ sections:
             Abend noch kein Spiel gehabt!
         grc:
           - |-
-            δός τι δῆτ᾽ ἐμοὶ· οὐδὲν γὰρ πώποτ᾽ ἔλαβον ἔγωγε τῇδε τῇ\footnote{\textgreek{%
+            δός τι δῆτ’ ἐμοὶ· οὐδὲν γὰρ πώποτ’ ἔλαβον ἔγωγε τῇδε τῇ\footnote{\textgreek{%
             τὸ ῥῆμα οὐ δύναμαι διαγνῶναι.}%
             } ἑσπέρᾳ!
       - modern:
@@ -219,7 +219,7 @@ sections:
         grc:
           - |-
             ἐμὸν τὸ ἐρωτᾶν. τὰ φυλλεῖα αὐτὰ\footnote{\textgreek{τὸ ῥῆμα οὐ δύναμαι διαγνῶναι.}%
-            } καθ᾽ αὑτά!
+            } καθ’ αὑτά!
       - modern:
         - de: "B. Das halt' ich!"
         grc:
@@ -276,7 +276,7 @@ sections:
         - de: A. Heiliges Gewitter! Hast du denn gar nichts?
         grc:
           - |-
-            ὦ Ζεῦ βασιλεῦ! οὐκ ἄρ᾽ ἔχεις\footnote{\textgreek{τὸ ῥῆμα οὐ δύναμαι διαγνῶναι.}%
+            ὦ Ζεῦ βασιλεῦ! οὐκ ἄρ’ ἔχεις\footnote{\textgreek{τὸ ῥῆμα οὐ δύναμαι διαγνῶναι.}%
             } οὐδέν;
       - modern:
         - de: "C. Dieser ist unser! 'rin, was Beine hat!"
@@ -301,17 +301,17 @@ sections:
       - modern:
         - de: B. Keinen Stich! Der Rest ist mein!
         grc:
-          - οὐκ ἄλλ᾽ οὐδὲ ἕν. ἐμὰ γὰρ τὰ λοιπά!
+          - οὐκ ἄλλ’ οὐδὲ ἕν. ἐμὰ γὰρ τὰ λοιπά!
       - modern:
         - de: A. u. C. Oho! — Wahrhaftig!
         grc:
-          - οὐδὲν λέγεις! — μὰ τὸν Δί᾽ οὐ τοίνυν!
+          - οὐδὲν λέγεις! — μὰ τὸν Δί’ οὐ τοίνυν!
       - modern:
         - de: |-
             A. Ja wie konntest du aber auch \emph{die} Farbe spielen? Wir mußten
             ja dicke gewinnen!
         grc:
-          - πῶς ἄρ᾽ οὖν ἐπὶ ταῦτα ἦλθες; ἐμέλλομεν γάρ τοι σφοδρῶς ὑπερέχειν!
+          - πῶς ἄρ’ οὖν ἐπὶ ταῦτα ἦλθες; ἐμέλλομεν γάρ τοι σφοδρῶς ὑπερέχειν!
       - modern:
         - de: Ich sitze hier mit der ganzen Grün.
         grc:
@@ -328,4 +328,4 @@ sections:
       - modern:
         - de: B. Das war Grand mit Vieren! Sechzig. Wer giebt?
         grc:
-          - παμμέγιστον τοῦτ᾽ ἦν μετὰ τεσσάρων! ἑξήκοντα. τίς ὁ διαδώσων;
+          - παμμέγιστον τοῦτ’ ἦν μετὰ τεσσάρων! ἑξήκοντα. τίς ὁ διαδώσων;

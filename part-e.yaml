@@ -245,7 +245,7 @@ sections:
       - modern:
         - de: Nun so versuchen Sie es doch wenigstens!
         grc:
-          - ἀλλ᾽ οὖν πεπειράσθω γε.
+          - ἀλλ’ οὖν πεπειράσθω γε.
       - modern:
         - de: "Auf Ihre Verantwortung hin will ich's thun."
         grc:
@@ -257,7 +257,7 @@ sections:
       - modern:
         - de: Und wenn es den Kopf kostet!
         grc:
-          - κἂν δέῃ μ᾽ ἀποθανεῖν!
+          - κἂν δέῃ μ’ ἀποθανεῖν!
       - modern:
         - de: Ich bin schon darüber.
         grc:
@@ -265,15 +265,15 @@ sections:
       - modern:
         - de: Endlich ist es so weit!
         grc:
-          - ἤδη ᾽στὶ τοῦτ᾽ ἐκεῖνο!
+          - ἤδη ’στὶ τοῦτ’ ἐκεῖνο!
       - modern:
         - de: Und wenn sie Nein sagt und nicht will?
         grc:
-          - κἂν μὴ φῇ μηδ᾽ ἐθελήσῃ;
+          - κἂν μὴ φῇ μηδ’ ἐθελήσῃ;
       - modern:
         - de: Wir werden gleich sehen.
         grc:
-          - εἰσόμεθ᾽ αὐτίκα.
+          - εἰσόμεθ’ αὐτίκα.
       - modern:
         - de: Ich will gleich einmal sehen.
         grc:
@@ -330,7 +330,7 @@ sections:
       - modern:
         - de: Ach, daß mich nur dir Mutter nicht sieht!
         grc:
-          - οἴμοι, ἡ μήτηρ ὅπως μή μ᾽ ὄψεται!
+          - οἴμοι, ἡ μήτηρ ὅπως μή μ’ ὄψεται!
       - modern:
         - de: Wir sind ja allein (unter uns).
         grc:
@@ -346,7 +346,7 @@ sections:
       - modern:
         - de: Ich schwöre Ihnen ewige Treue!
         grc:
-          - οὐδέποτέ σ᾽ ἀπολείψειν φημί!
+          - οὐδέποτέ σ’ ἀπολείψειν φημί!
   - title:
       de: Die Schwiegermutter
     conversations:
@@ -393,7 +393,7 @@ sections:
       - modern:
         - de: \emph{Nein,} über diese Unverschämtheit!
         grc:
-          - ἆρ᾽ οὐχ ὕβρις ταῦτ᾽ ἐστὶ πολλή;
+          - ἆρ’ οὐχ ὕβρις ταῦτ’ ἐστὶ πολλή;
       - modern:
         - de: Hören Sie auf!
         grc:
@@ -401,7 +401,7 @@ sections:
       - modern:
         - de: Gehen Sie Ihrer Wege!
         grc:
-          - ἄπιθ᾽ ἐκποδών!
+          - ἄπιθ’ ἐκποδών!
       - modern:
         - de: Machen Sie, daß Sie hinaus\textcompwordmark{}kommen!
         grc:
@@ -454,7 +454,7 @@ sections:
       - modern:
         - de: Nun, so mäßigen Sie sich doch!
         grc:
-          - ἀλλ᾽ ἀνάσχου!
+          - ἀλλ’ ἀνάσχου!
       - modern:
         - de: Ist es nicht arg, daß Sie das thun?
         grc:
@@ -492,7 +492,7 @@ sections:
       - modern:
         - de: Die Frau hat dich in der That sehr schlecht behandelt.
         grc:
-          - αἴσχιστά τοί σ᾽ εἰργάσατο ἡ γυνή.
+          - αἴσχιστά τοί σ’ εἰργάσατο ἡ γυνή.
       - modern:
         - de: Sie ist sehr böse auf uns.
         grc:
@@ -500,15 +500,15 @@ sections:
       - modern:
         - de: Das ist höchst ärgerlich für uns.
         grc:
-          - τοῦτ᾽ ἔστ᾽ ἄλγιστον ἡμῖν.
+          - τοῦτ’ ἔστ’ ἄλγιστον ἡμῖν.
       - modern:
         - de: Ich ärgere mich immer wieder, daß ich das gethan habe.
         grc:
-          - πόλλ᾽ ἄχθομαι, ὅτι ἔδρασα τοῦτο.
+          - πόλλ’ ἄχθομαι, ὅτι ἔδρασα τοῦτο.
       - modern:
         - de: Das hatte ich nicht erwartet.
         grc:
-          - τουτὶ μὰ Δί᾽ οὐδέποτ᾽ ἤλπισα.
+          - τουτὶ μὰ Δί’ οὐδέποτ’ ἤλπισα.
       - modern:
         - de: Knirsche nicht mit den Zähnen!
         grc:
@@ -532,11 +532,11 @@ sections:
       - modern:
         - de: Sei nicht böse, mein Lieber!
         grc:
-          - μὴ ἀγανάκτει, ὦ ᾽γαθέ.
+          - μὴ ἀγανάκτει, ὦ ’γαθέ.
       - modern:
         - de: Aber ich kann unmöglich schweigen.
         grc:
-          - ἀλλ᾽ \emph{οὐκ ἔσθ᾽ ὅπως} σιγήσομαι.
+          - ἀλλ’ \emph{οὐκ ἔσθ’ ὅπως} σιγήσομαι.
       - modern:
         - de: Daran bist du ganz allein schuld.
         grc:
@@ -544,7 +544,7 @@ sections:
       - modern:
         - de: Es war \emph{nicht richtig, daß} du das thatest.
         grc:
-          - οὐκ ὀρθῶς τοῦτ᾽ ἔδρασας!
+          - οὐκ ὀρθῶς τοῦτ’ ἔδρασας!
       - modern:
         - de: Was geht das \emph{dich} an?
         grc:
@@ -552,7 +552,7 @@ sections:
       - modern:
         - de: Was fiel dir denn ein, daß du das thatest?
         grc:
-          - τί δὴ \emph{μαθὼν} τοῦτ᾽ ἐποίησας;
+          - τί δὴ \emph{μαθὼν} τοῦτ’ ἐποίησας;
       - modern:
         - de: O über die Thorheit!
         grc:
@@ -560,19 +560,19 @@ sections:
       - modern:
         - de: Wie \emph{unrecht} du gehandelt hast!
         grc:
-          - ὡς οὐκ ὀρθῶς τοῦτ᾽ ἔδρασας!
+          - ὡς οὐκ ὀρθῶς τοῦτ’ ἔδρασας!
       - modern:
         - de: Das war Unrecht von dir.
         grc:
-          - τοῦτ᾽ οὐκ ὀρθῶς ἐποίησας.
+          - τοῦτ’ οὐκ ὀρθῶς ἐποίησας.
       - modern:
         - de: \emph{Das ist es, was} du mir zum Vorwurf machst?
         grc:
-          - ταῦτ᾽ ἐπικαλεῖς;
+          - ταῦτ’ ἐπικαλεῖς;
       - modern:
         - de: Aber es ging nicht anders.
         grc:
-          - ἀλλ᾽ οὐκ ἦν παρὰ ταῦτ᾽ ἄλλα.
+          - ἀλλ’ οὐκ ἦν παρὰ ταῦτ’ ἄλλα.
       - modern:
         - de: Gieb mir keine guten Lehren, sondern —
         grc:
@@ -603,7 +603,7 @@ sections:
       - modern:
         - de: Das geht auf mich!
         grc:
-          - πρὸς \emph{ἐμὲ} ταῦτ᾽ ἐστίν.
+          - πρὸς \emph{ἐμὲ} ταῦτ’ ἐστίν.
       - modern:
         - de: Er macht schlechte Witze.
         grc:
@@ -656,7 +656,7 @@ sections:
       - modern:
         - de: So Gott will.
         grc:
-          - σὺν θεῷ δ᾽ εἰρήσεται.
+          - σὺν θεῷ δ’ εἰρήσεται.
           - ἢν θεοὶ θέλωσιν.
       - modern:
         - de: Wer bürgt dir dafür?

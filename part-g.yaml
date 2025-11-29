@@ -19,7 +19,7 @@ sections:
       - modern:
         - de: Versteht sich! Heute Abend.
         grc:
-          - εὖ ἴσθ᾽ ὅτι εἰς ἑσπέραν.
+          - εὖ ἴσθ’ ὅτι εἰς ἑσπέραν.
       - modern:
         - de: Worüber? Über alles Mögliche.
         grc:
@@ -27,17 +27,17 @@ sections:
       - modern:
         - de: Ich will Sie mit in die Versammlung nehmen.
         grc:
-          - \emph{ἄξω} σε μετ᾽ ἐμαυτοῦ εἰς τὸν σύλλογον.
+          - \emph{ἄξω} σε μετ’ ἐμαυτοῦ εἰς τὸν σύλλογον.
       - modern:
         - de: Ich danke, ich weiß den Weg.
         grc:
-          - καλῶς· ἀλλ᾽ οἶδα τὴν ὁδόν.
+          - καλῶς· ἀλλ’ οἶδα τὴν ὁδόν.
       - modern:
         - de: |-
             Nun, so machen Sie denn, daß Sie \emph{auch} hinkommen und bringen
             Sie noch ein paar Andere mit!
         grc:
-          - ἀλλ᾽ ὅπως παρέσει καὶ αὐτὸς καὶ ἄλλους \emph{ἄξεις!}
+          - ἀλλ’ ὅπως παρέσει καὶ αὐτὸς καὶ ἄλλους \emph{ἄξεις!}
       - modern:
         - de: Die Fort\textcompwordmark{}schrittler.
         grc:
@@ -108,11 +108,11 @@ sections:
       - modern:
         - de: Das wird uns ruiniren!
         grc:
-          - τοῦθ᾽ ἡμᾶς ἐπιτρίψει!
+          - τοῦθ’ ἡμᾶς ἐπιτρίψει!
       - modern:
         - de: Ich denke, es giebt einen Mittelweg.
         grc:
-          - ἀλλ᾽ εἶναί τί μοι δοκεῖ μέση τούτων ὁδός.
+          - ἀλλ’ εἶναί τί μοι δοκεῖ μέση τούτων ὁδός.
       - modern:
         - de: Jetzt ist Schonung der Steuerkraft nöthig!
         grc:
@@ -124,7 +124,7 @@ sections:
       - modern:
         - de: Das gefällt mir nicht!
         grc:
-          - τοῦτό μ᾽ οὐκ ἀρέσκει!
+          - τοῦτό μ’ οὐκ ἀρέσκει!
       - modern:
         - de: Dahinter steckt etwas!
         grc:
@@ -164,7 +164,7 @@ sections:
       - modern:
         - de: Wir hängen diese Tiraden zum Halse heraus!
         grc:
-          - πάνυ μοι ἤδη ταῦτ᾽ ἐστὶ χολή.
+          - πάνυ μοι ἤδη ταῦτ’ ἐστὶ χολή.
       - modern:
         - de: Still!
         grc:
@@ -183,7 +183,7 @@ sections:
       - modern:
         - de: Ist noch Jemand, der zu sprechen wünscht?
         grc:
-          - ἔσθ᾽ ὅστις ἕτερος βούλεται λέγειν;
+          - ἔσθ’ ὅστις ἕτερος βούλεται λέγειν;
       - modern:
         - de: Es wird wohl Niemand dagegen stimmen.
         grc:
@@ -207,7 +207,7 @@ sections:
       - modern:
         - de: Was hat man denn beschlossen?
         grc:
-          - τί δῆτ᾽ ἔδοξεν;
+          - τί δῆτ’ ἔδοξεν;
       - modern:
         - de: Noch nichts; es war \emph{Stimmen}gleichheit.
         grc:

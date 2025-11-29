@@ -7,7 +7,7 @@ sections:
       - modern:
         - de: Mensch, ärgere dich nicht!
         grc:
-          - μὴ σεαυτὸν ἔσθιε, ὦ ᾽γαθέ!
+          - μὴ σεαυτὸν ἔσθιε, ὦ ’γαθέ!
       - modern:
         - de: Eines Mannes Rede ist keine Rede.
         grc:
@@ -15,7 +15,7 @@ sections:
       - modern:
         - de: Das hieße Eulen nach Athen tragen.
         grc:
-          - τίς γλαῦκ᾽ Ἀθήναζε ἄγαγεν;
+          - τίς γλαῦκ’ Ἀθήναζε ἄγαγεν;
       - modern:
         - de: Vorsicht ist die Mutter der Weis\textcompwordmark{}heit.
         grc:
@@ -54,7 +54,7 @@ sections:
       - modern:
         - de: Es ist kein Vorwärts\textcompwordmark{}kommen (für uns).
         grc:
-          - οὔτε θέομεν οὔτ᾽ ἐλαύνομεν.!
+          - οὔτε θέομεν οὔτ’ ἐλαύνομεν.!
       - modern:
         - de: Geld regiert die Welt.
         grc:
@@ -70,11 +70,11 @@ sections:
       - modern: # ToDo latin
         - la: Tempi passati!
         grc:
-          - πάλαι ποτ᾽ ἦσαν ἄλκιμοι Μιλήσιοι.
+          - πάλαι ποτ’ ἦσαν ἄλκιμοι Μιλήσιοι.
       - modern: # ToD latin
         - la: Ubi bene, ibi patria!
         grc:
-          - πατρὶς γάρ ἐστι πᾶσ᾽, ἵν ἂν πράττῃ τις εὖ.
+          - πατρὶς γάρ ἐστι πᾶσ’, ἵν ἂν πράττῃ τις εὖ.
       - modern:
         - de: Er ist der beste Bruder auch nicht!
         grc:

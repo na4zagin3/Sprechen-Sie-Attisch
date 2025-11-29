@@ -15,7 +15,7 @@ sections:
       - modern:
         - de: Das möchte ich gern wissen.
         grc:
-          - τοῦτ᾽ με δίδαξον!
+          - τοῦτ’ με δίδαξον!
       - modern:
         - de: In der Leipziger Straße.
         grc:
@@ -130,7 +130,7 @@ sections:
       - modern:
         - de: Hast du dich gewaschen?
         grc:
-          - ἆρ᾽ ἀπονένιψαι;
+          - ἆρ’ ἀπονένιψαι;
       - modern:
         - de: Kannst du \emph{ohne} Handtuch zurechtkommen?
         grc:
@@ -154,7 +154,7 @@ sections:
       - modern:
         - de: Wir wollen zu Hause bei mir studiren.
         grc:
-          - ἔνδον παρ᾽ ἐμοὶ διατρίψομεν (περὶ τὰ μαθήματα).
+          - ἔνδον παρ’ ἐμοὶ διατρίψομεν (περὶ τὰ μαθήματα).
       - modern:
         - de: Bei dir?
         grc:
@@ -166,11 +166,11 @@ sections:
       - modern:
         - de: Du warst gestern bei mir.
         grc:
-          - παρ᾽ ἐμοὶ χθὲς ἦσθα.
+          - παρ’ ἐμοὶ χθὲς ἦσθα.
       - modern:
         - de: Kommt heute in meine Wohnung!
         grc:
-          - ἥκετ᾽ \emph{εἰς ἐμοῦ} τήμερον!
+          - ἥκετ’ \emph{εἰς ἐμοῦ} τήμερον!
   - title:
       de: Sitzen. Stehen
     conversations:
@@ -206,7 +206,7 @@ sections:
       - modern:
         - de: Ich sitze schon!
         grc:
-          - κάθημαι ᾽γὼ πάλαι.
+          - κάθημαι ’γὼ πάλαι.
       - modern:
         - de: Du hast keinen guten Platz.
         grc:
@@ -222,7 +222,7 @@ sections:
       - modern:
         - de: Ich bitte nur um ein Stück Brot und Fleisch.
         grc:
-          - αἰτῶ λαβεῖν τιν᾽ ἄρτον καὶ κρέας.!
+          - αἰτῶ λαβεῖν τιν’ ἄρτον καὶ κρέας.!
       - modern:
         - de: Ich habe mir zu trinken \emph{mitgebracht}.
         grc:
@@ -246,7 +246,7 @@ sections:
       - modern:
         - de: "So steh' doch schnell auf, ehe dich jemand sieht!"
         grc:
-          - ούκουν ἀναστήσει ταχύ, πρίν τινά σ᾽ ἰδεῖν;
+          - ούκουν ἀναστήσει ταχύ, πρίν τινά σ’ ἰδεῖν;
       - modern:
         - de: "Steh' gerade!"
         grc:
@@ -277,11 +277,11 @@ sections:
       - modern:
         - de: Wo ist meine Frau hin?
         grc:
-          - ποῖ ἡ γυνὴ φρούδη ᾽στίν;
+          - ποῖ ἡ γυνὴ φρούδη ’στίν;
       - modern:
         - de: Wer kann mir sagen, wo meine Frau ist?
         grc:
-          - τίς ἂν φράσειε, ποῦ ᾽στι ἡ γυνή;
+          - τίς ἂν φράσειε, ποῦ ’στι ἡ γυνή;
       - modern:
         - de: Sie wäscht und päppelt das Kind.
         grc:
@@ -313,7 +313,7 @@ sections:
       - modern:
         - de: "Thu' das ja nicht!"
         grc:
-          - μηδαμῶς τοῦτ᾽ ἐργάσῃ!
+          - μηδαμῶς τοῦτ’ ἐργάσῃ!
       - modern:
         - de: "Da, schau' einmal!"
         grc:
@@ -325,7 +325,7 @@ sections:
       - modern:
         - de: Lies\textcompwordmark{}chen klatscht vor Freude in die Hände.
         grc:
-          - Λουίσιον{*} τὼ χεῖρ᾽ ἀνακροτεῖ ὑφ᾽ ἡδονῆς.!
+          - Λουίσιον{*} τὼ χεῖρ’ ἀνακροτεῖ ὑφ’ ἡδονῆς.!
       - modern:
         - de: Meine Frau ist nicht zu sehen.
         grc:
