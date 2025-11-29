@@ -1,77 +1,96 @@
 part:
   de: In Gesellschaft.
+  ja: 交際にて
 sections:
   - title:
       de: Tanz
+      ja: ダンス
     conversations:
       - modern:
         - de: Sie tanzt gut; \emph{nicht wahr?}
+          ja: 彼女は上手に踊りますね？
         grc:
           - καλῶς ὀρχεῖται· ἦ γάρ;
       - modern:
         - de: Allerdings.
+          ja: そのとおり。
         grc:
           - μάλιστα.
       - modern:
         - de: Ich bin ent\textcompwordmark{}zückt.
+          ja: とても感激しています。
         grc:
           - κεκήλημαι ἔγωγε.
       - modern:
         - de: Ich werde Polka mit ihr tanzen (Schottisch, Walzer, Française).
+          ja: 彼女とポルカ（スコティッシュ、ワルツ、フランセーズ）を踊ります。
         grc:
           - |-
             ὀρχήσομαι μετ' αὐτῆς τὸ Πολωνικόν (τὸ Καληδονικόν, τὸ Γερμανικόν,
             τὸ Γαλλικόν).
       - modern:
         - de: Erlauben Sie mir diesen Tanz, gnädige Frau? (— Fräulein?)
+          ja: 奥様、この曲をご一緒してもよろしいですか？（――お嬢さん？）
         grc:
           - δὸς ὀρχεῖσθαι τοῦτο μετὰ σοῦ, ὦ γύναι! (--- ὦ κόρη!)
       - modern:
         - de: Recht gern!
+          ja: ええ、喜んで！
         grc:
           - \emph{φθόνος οὐδείς.}
       - modern:
         - de: Bitte, hören Sie auf, ich kann nicht mehr.
+          ja: すみません、もう踊れませんからやめてください。
         grc:
           - "παῦε δῆτ' ὀρχούμενος, !"
       - modern:
         - de: Ich bin müde.
+          ja: 疲れました。
         grc:
           - κέκμηκα.
       - modern:
         - de: Nur dies \emph{eine} Mal erlauben Sie mir noch!
+          ja: せめてあと\emph{一度}だけ許してください！
         grc:
           - "ἓν μὲν οὖν τουτί μ' ἔασον ὀρχήσασθαι."
       - modern:
         - de: Nun denn noch dies \emph{eine} Mal und nicht weiter!
+          ja: ではこれ\emph{一度}だけですよ、もうこれきりです！
         grc:
           - "τοῖτό νυν καὶ μηκέτ' ἄλλο μηδέν."
       - modern:
         - de: Das ist eine Lust, mit Ihnen zu tanzen!
+          ja: あなたと踊るのは本当に楽しいですね！
         grc:
           - ὡς ἡδὺ μετὰ σοῦ ὀρχεῖσθαι!
       - modern:
         - de: Wer ist eigentlich der Herr dort, der hierher sieht? der an der Thür steht?
+          ja: あそこでこちらを見ている、ドアのところにいる紳士は誰ですか？
         grc:
           - "τίς ποθ' ὅδεὁ δεῦρο βλέπων; \\emph{ὁ ἐπὶ} ταῖς θύραις;"
       - modern:
         - de: Es ist mein Mann.
+          ja: 私の夫です。
         grc:
           - ἐστὶν οὑμὸς ἀνήρ.
       - modern:
         - de: Warum macht er ein so verdrießliches Gesicht?
+          ja: なぜあんな不機嫌そうな顔をしているのですか？
         grc:
           - τί σκυθρωπάζει;
       - modern:
         - de: Er ist sehr eifersüchtig.
+          ja: とてもやきもち焼きなんです。
         grc:
           - σφόδρα ζηλότυπός ἐστιν.
       - modern:
         - de: Wir wollen gar nicht thun, als sähen wir ihn.
+          ja: 見えていないふりをしていましょう。
         grc:
           - μὴ ὁρᾶν δοκῶμεν αὐτόν.
       - modern:
         - de: Ich werde mich hüten!
+          ja: 気をつけます！
         grc:
           - |-
             φυλάξομαι\footnote{\textlatin{%
@@ -79,29 +98,36 @@ sections:
             }!
       - modern:
         - de: Den Männern ist ja nicht zu trauen!
+          ja: 男の人は信用できませんからね！
         grc:
           - οὐδὲν γὰρ πιστὸν τοῖς ἀνδράσιν.
       - modern:
         - de: Sie ist erst 3 Monate verheirathet.
+          ja: 彼女は結婚してまだ三か月です。
         grc:
           - νύμφη ἐστὶ τρεῖς μῆνας.
       - modern:
         - de: Der Tanzlehrer.
+          ja: ダンスの先生。
         grc:
           - ὁ ὀρχηστοδιδάσκαλος.
       - modern:
         - de: In die Tanzstunde.
+          ja: ダンスの授業へ。
         grc:
           - εἰς τὸ ὀρχηστοδιδασκαλεῖον.
   - title:
       de: Eine Geschichte
+      ja: ひとつの話
     conversations:
       - modern:
         - de: Hören Sie einmal zu, gnädige Frau, ich will Ihnen eine hübsche Geschichte erzählen.
+          ja: 奥様、ちょっとお聞きください、面白い話をいたしましょう。
         grc:
           - ἄκουσον, ὦ γύναι, λόγον σοι βούλομαι λέξαι χαρίεντα.
       - modern:
         - de: Nur zu, erzählen Sie!
+          ja: さあ、話してください！
         grc:
           - |-
             ἴθι\footnote{\textlatin{%
@@ -109,22 +135,27 @@ sections:
             } δὴ, λέξον.
       - modern:
         - de: Ist das wahr?
+          ja: 本当ですか。
         grc:
           - τί λέγεις;
       - modern:
         - de: Sie wundern sich?
+          ja: 驚きましたか？
         grc:
           - ἐθαύ\textit{μασας;}
       - modern:
         - de: Sie erzählen mir (erfundene) Geschichten!
+          ja: 作り話をしているのですね！
         grc:
           - μύθους μοι λέγεις!
       - modern:
         - de: Die Wahrheit wollen Sie doch nicht sagen!
+          ja: 本当のことを言いたくないのですね！
         grc:
           - τἀληθὲς γὰρ οὐκ ἐθέλεις φράσαι.
       - modern:
         - de: Wenn Sie wirklich die Wahrheit sprechen, so weiß ich nicht was ich sagen soll.
+          ja: もし本当に本当のことを言っているなら、何と言えばいいか分かりません。
         grc:
           - |-
             εἴπερ ὄντως σὺ\footnote{\textlatin{%
@@ -132,26 +163,32 @@ sections:
             } ταῦτ' ἀληθῆ λέγεις, οὐδὲν ἔχω εἰπεῖν.
       - modern:
         - de: Nach dem, was Sie sagen, muß man sie bewundern.
+          ja: あなたの話を聞くと、彼女は賞賛されるべきですね。
         grc:
           - κατὰ τὸν λόγον, ὃν σὺ λέγεις, ἀξία ἐστὶ θαυμάσαι.
       - modern:
         - de: Reden Sie mit ihr \emph{von} der Sache!
+          ja: その件について彼女に話してください！
         grc:
           - "λέγ' αὐτῇ τὸ πρᾶγμα."
       - modern:
         - de: Sagen = angeben.
+          ja: 伝える＝述べる。
         grc:
           - φράζειν.
       - modern:
         - de: Was hat sie darauf erwidert?
+          ja: それについて彼女は何と返事しましたか。
         grc:
           - τί πρὸς ταῦτα εἶπεν;
       - modern:
         - de: Sie macht Aus\textcompwordmark{}flüchte.
+          ja: 彼女は言い訳をします。
         grc:
           - προφασίζεσται.
       - modern:
         - de: Ich will euch ein Märchen erzählen nämlich —
+          ja: ではおとぎ話を聞かせましょう、つまり——
         grc:
           - |-
             μῦθον ὑμῖν βούλομαι λέξαι οὕτως\footnote{\textlatin{%
@@ -159,357 +196,447 @@ sections:
             }.
   - title:
       de: Ich weiß nicht
+      ja: 知らない
     conversations:
       - modern:
         - de: Ich weiß es nicht.
+          ja: 知りません。
         grc:
           - οὐκ οἶδα.
       - modern:
         - de: Ich kann es nicht sagen.
+          ja: それは言えません。
         grc:
           - οὐκ ἔχω φράσαι.
       - modern:
         - de: Worauf soll man rathen?
+          ja: 何を当てればいいのでしょうか。
         grc:
           - ποῖ τις ἂν τράποιτο;
       - modern:
         - de: Ich will es schon heraus\textcompwordmark{}bekommen.
+          ja: きっと突き止めてみせます。
         grc:
           - γνώσομαι ἔγωγε.
       - modern:
         - de: Ich weiß es nicht genau.
+          ja: 正確には知りません。
         grc:
           - "οὐκ οἶδ' ἀκριβῶς."
       - modern:
         - de: Nein, soviel ich weiß.
+          ja: いいえ、私が知る限りでは。
         grc:
           - "οὐχ, ὅσον γέ μ' εἰδέναι."
       - modern:
         - de: Ich weiß nicht sicher, wie es steht.
+          ja: どうなっているのか確かには知りません。
         grc:
           - "οὐ σάφ' οἶδα, ὅπως ἔχει."
       - modern:
         - de: Ich kann es nicht glauben.
+          ja: 信じられません。
         grc:
           - οὐ πείθομαι.
       - modern:
         - de: Ich weiß es ja.
+          ja: それは知っています。
         grc:
           - οἶδά τοι.
       - modern:
         - de: Ist mir bekannt!
+          ja: 承知しています！
         grc:
           - μεμνήμεθα!
       - modern:
         - de: Freilich weiß ich es!
+          ja: もちろん知っています！
         grc:
           - οἶδα μέντοι!
       - modern:
         - de: Da Sie es denn zu wissen verlangen, so will ich es sagen.
+          ja: 知りたいとおっしゃるならお話ししましょう。
         grc:
           - εἰ δὴ ἐπιθυμεῖς εἰδέναι, φράσω.
       - modern:
         - de: "Wär's möglich?"
+          ja: そんなことがあり得ますか？
         grc:
           - τί φής!
       - modern:
         - de: Ich habe es aus bester Quelle.
+          ja: 確かな筋から聞きました。
         grc:
           - "πέπυσμαι τοῦτο τῶν σάφ' εἰδότων."
       - modern:
         - de: Haben Sie bereits etwas von der Sache gehört?
+          ja: この件についてもう何か聞きましたか。
         grc:
           - "ἆρ' ἀκήκοάς τι τοῦ πράγματος;"
       - modern:
         - de: Das mußte ich (bis\textcompwordmark{}her noch) nicht.
+          ja: それはこれまで知りませんでした。
         grc:
           - "τοῦτ' οὐκ ᾔδειν ἐγώ."
       - modern:
         - de: \emph{O, dann begreife ich, daß} Sie verstimmt sind.
+          ja: \emph{ああ、そうなら}ご機嫌ななめなのも分かります。
         grc:
           - \emph{οὐκ ἐτὸς ἄρα} λυπεῖ.
   - title:
       de: Die Schöne und die Häßliche
+      ja: 美人と醜女
     conversations:
       - modern:
         - de: Sehen Sie die hier an, wie \emph{schön} sie ist!
+          ja: ここにいる彼女をご覧なさい、なんて\emph{きれい}なんでしょう！
         grc:
           - ὅρα ταυτηνὶ, ὡς καλή!
       - modern:
         - de: Wer ist wohl dort die Dame?
+          ja: あちらのご婦人はどなたでしょう？
         grc:
           - "τίς ποθ' αὑτηί;"
       - modern:
         - de: Die in dem grauen Kleide?
+          ja: 灰色の服を着ている人ですか？
         grc:
           - ἡ τὸ φαιὸν ἔνδυμα ἀμπεχομένη;
       - modern:
         - de: Sie ist die schönste (= blühendste) von allen.
+          ja: 彼女は皆の中でいちばん美しい（＝花盛り）です。
         grc:
           - πασῶν \emph{ὡραιοτάτη} ἐστίν.
       - modern:
         - de: Wer mag sie nur sein?
+          ja: いったい誰なのでしょう。
         grc:
           - τίς καί ἐστί ποτε;
       - modern:
         - de: Kennt sie Jemand von Ihnen?
+          ja: どなたか彼女をご存じですか。
         grc:
           - \emph{γιγνώσκει} τις ὑμῶν;
       - modern:
         - de: Ja, ich.
+          ja: はい、私です。
         grc:
           - νὴ Δία ἔγωγε.
       - modern:
         - de: Es ist meine Cousine.
+          ja: 彼女は私の従妹です。
         grc:
           - ἐστὶν ἀνεψιά μου.
       - modern:
         - de: Wie schön sie aus\textcompwordmark{}sieht!
+          ja: なんて美しく見えるのでしょう！
         grc:
           - οἷον τὸ κάλλος αὐτῆς φαίνεται!
       - modern:
         - de: Sie hat sehr gesunde Farbe.
+          ja: とても健康的な血色をしています。
         grc:
           - ὡς εὐχροεῖ!
       - modern:
         - de: Sie hat ein sanftes, schönes Auge.
+          ja: 優しく美しい眼差しですね。
         grc:
           - καὶ τὸ βλέμμα ἔχει μαλακὸν καὶ καλόν.
       - modern:
         - de: Und allerliebste Hände hat sie.
+          ja: それに本当に愛らしい手をしています。
         grc:
           - καὶ \emph{τὰς} χεῖρας παγκάλας ἔχει.
       - modern:
         - de: Sie lacht \emph{gern.}
+          ja: 彼女は\emph{よく}笑います。
         grc:
           - καὶ ἡδέως γελᾷ.
       - modern:
         - de: Ich bin in das Mädchen (die Dame) verliebt.
+          ja: その娘（ご婦人）に恋をしています。
         grc:
           - ἔρως με εἴληφε τῆς κόρης ταύτης.
       - modern:
         - de: Aber sie hat wohl nichts?
+          ja: でも、持参金がないのでは？
         grc:
           - "ἀλλ' ἔχει οὐδέν;"
       - modern:
         - de: O nein, sie ist reich; sie hat ein respectables Vermögen.
+          ja: いいえ、彼女は裕福で、かなりの財産があります。
         grc:
           - πλουτεῖ \emph{μὲν οὖν·} οὐσίαν γὰρ ἔχει συχνήν.
       - modern:
         - de: Weißt du, wem sie ganz ähnlich sieht? Der A.
+          ja: 彼女が誰にとてもよく似ているか分かる？　Aさんにそっくりです。
         grc:
           - "οὖσθ' ᾗ μάλιστ' ἔοικεν; τῇ Ἀ."
       - modern:
         - de: Dort ist ein schönes Mädchen! (Mädel!)
+          ja: あそこにきれいな娘さんがいる！（娘っ子だ！）
         grc:
           - ἐνταῦθα μείραξ ὡραία ἐστίν.
       - modern:
         - de: Wer ist denn die hinter ihr?
+          ja: では、その後ろにいる人は誰ですか。
         grc:
           - "τίς γάρ ἐσθ' ἡ ὄπισθεν αὐτῆς."
       - modern:
         - de: Wer die ist? Frau Schulze.
+          ja: あの人ですか？　シュルツェ夫人ですよ。
         grc:
           - ἥτις ἐστίν; Σχουλζίου γυνή.
       - modern:
         - de: Die Andere interessirt mich weniger.
+          ja: もう一人の方にはあまり興味がありません。
         grc:
           - τῆς ἑτέρας μοι ἧττον μέλει.
       - modern:
         - de: Sie ist häßlich.
+          ja: 彼女は醜いです。
         grc:
           - αἰσχρὰ γάρ ἐστιν.
       - modern:
         - de: Und hat eine stumpfe (kolbige) Nase.
+          ja: しかも団子鼻です。
         grc:
           - καὶ σιμή (ἐστιν).
       - modern:
         - de: Sie ist geschminkt.
+          ja: 化粧をしています。
         grc:
           - καὶ καταπεπλασμένη (ἐστίν).
       - modern:
         - de: sie riecht nach Pomade.
+          ja: ポマードの匂いがします。
         grc:
           - ὄζει δὲ μύρου.
       - modern:
         - de: Riechst du etwas?
+          ja: 何か匂いますか。
         grc:
           - ὀσφραίνει τι;
       - modern:
         - de: Die Pomade riecht nicht gut.
+          ja: このポマードはあまりいい香りではありません。
         grc:
           - οὐχ ἡδὺ τὸ μύρον τουτί.
   - title:
       de: Herr Schulze
+      ja: シュルツェ氏
     conversations:
       - modern:
         - de: Schulze heißt er? \emph{Was ist das für ein} Schulze?
+          ja: 彼はシュルツェというのですか？\emph{どんな}シュルツェ氏です？
         grc:
           - Σχούλζιος αὐτῷ ὄνομα; ποῖος οὗτος ὁ Σχούλζιος;
       - modern:
         - de: Kennen Sie ihn nicht?
+          ja: ご存じありませんか。
         grc:
           - οὐκ οἶσθα αὐτόν;
       - modern:
         - de: Nein, ich bin fremd hier und erst eben angekommen.
+          ja: いいえ、私はここではよそ者で、今着いたばかりです。
         grc:
           - οὐ μὰ Δία ἔγωγε, ξένος γάρ εἰμι ἀρτίως ἀφιγμένος.
       - modern:
         - de: Er spielt die erste Rolle in der Stadt.
+          ja: 彼はこの街で重要人物です。
         grc:
           - πράττει τὰ μέγιστα ἐν τῇ πόλει.
       - modern:
         - de: Er hat einen \emph{großen} Bart.
+          ja: 立派な髭を蓄えています。
         grc:
           - ἔχει δὲ πώγωνα.
       - modern:
         - de: Und graues Haar?
+          ja: それに白髪ですか。
         grc:
           - καὶ πολιός ἐστιν;
       - modern:
         - de: Wovon lebt er?
+          ja: 何で生計を立てているのですか。
         grc:
           - πόθεν διαζῇ;
       - modern:
         - de: Der Mann ist schnell reich geworben.
+          ja: 彼はあっという間に金持ちになりました。
         grc:
           - ταχέως ὁ ἀνὴρ γεγένηται πλούσιος.
       - modern:
         - de: Wodurch?
+          ja: どうやって？
         grc:
           - τί δρῶν;
       - modern:
         - de: |-
             Er hat ursprünglich ein Handwerk gelernt, dann wurde er Landwirth
             und jetzt ist er Kaufmann.
+          ja: |-
+            彼はもともと職人の技を学び、その後農夫になり、今は商人です。
         grc:
           - |-
             πρῶτον μὲν γὰρ τέχνην τιν' ἔμαθεν· εἶτα γεωργὸς ἐγένετο, νῦν δὲ ἔμπορός
             ἐστιν.
       - modern:
         - de: \myafterpagetrue\mysetaligntext{german}{Es ist{ }}\mysetalign{german}Fabrikant.
+          ja: \myafterpagetrue\mysetaligntext{german}{彼は{ }}\mysetalign{german}製造業者です。
         grc:
           - ἐργαστήριον ἔχει.
       - modern:
         - de: \bgroup\mysetalign{german}Arbeiter.\par\egroup
+          ja: \bgroup\mysetalign{german}職工。\par\egroup
         grc:
           - ἐργάτης
       - modern:
         - de: \bgroup\mysetalign{german}(Amts- etc.) Richter.\par\egroup
+          ja: \bgroup\mysetalign{german}（官職などの）裁判官。\par\egroup
         grc:
           - δικαστής.
       - modern:
         - de: \bgroup\mysetalign{german}Unterbeamter.\par\egroup
+          ja: \bgroup\mysetalign{german}下級官吏。\par\egroup
         grc:
           - ὑπάλληλος.
       - modern:
         - de: \bgroup\mysetalign{german}Rechts\textcompwordmark{}anwalt.\par\egroup
+          ja: \bgroup\mysetalign{german}弁護士。\par\egroup
         grc:
           - σύνδικος.
       - modern:
         - de: \bgroup\mysetalign{german}Apotheker.\par\egroup
+          ja: \bgroup\mysetalign{german}薬剤師。\par\egroup
         grc:
           - φαρμακοπώλης.
       - modern:
         - de: \bgroup\mysetalign{german}Banquier.\par\egroup
+          ja: \bgroup\mysetalign{german}銀行家。\par\egroup
         grc:
           - τραπεζίτης.
       - modern:
         - de: \bgroup\mysetalign{german}Officier.\par\egroup
+          ja: \bgroup\mysetalign{german}士官。\par\egroup
         grc:
           - ἀξιωματικός.
       - modern:
         - de: \bgroup\mysetalign{german}Schüler.\par\egroup
+          ja: \bgroup\mysetalign{german}生徒。\par\egroup
         grc:
           - μαθητής.
       - modern:
         - de: \bgroup\mysetalign{german}Student.\par\egroup
+          ja: \bgroup\mysetalign{german}学生。\par\egroup
         grc:
           - φοιτητής.
       - modern:
         - de: \bgroup\mysetalign{german}Lehrer.\par\egroup
+          ja: \bgroup\mysetalign{german}教師。\par\egroup
         grc:
           - διδάσκαλος.
       - modern:
         - de: \bgroup\mysetalign{german}Professor.\par\egroup
+          ja: \bgroup\mysetalign{german}教授。\par\egroup
         grc:
           - καθηγητής.
       - modern:
         - de: Er ist vom Lande.
+          ja: 彼は田舎出身です。
         grc:
           - ἐκ τῶν ἀγρῶν ἐστιν.
       - modern:
         - de: Er ist aus der Nachbarschaft.
+          ja: 近所の人です。
         grc:
           - ἐκ τῶν γειτόνων ἐστίν.
       - modern:
         - de: Mir ist er langweilig.
+          ja: 彼と一緒にいると退屈です。
         grc:
           - ἄχθομαι αὐτῷ συνὼν ἔγωγε.
       - modern:
         - de: Er ist nicht schlecht von Charakter.
+          ja: 性格は悪くありません。
         grc:
           - οὐ πονηρός ἐστι τοὺς τρόπους.
       - modern:
         - de: (Seht nur) wie protzig er hereingekommen ist!
+          ja: （ごらん）なんと尊大に入ってきたことでしょう！
         grc:
           - \emph{ὡς σοβαρὸς} εἰσελήλυθεν!
       - modern:
         - de: Es scheint mir nicht guter Ton zu sein, sich so zu betragen.
+          ja: あんな振る舞いは品がないと思います。
         grc:
           - οὐκ ἀστεῖόν μοι δοκεῖ εἶναι τοιτοῦτον ἑαυτὸν παρέχειν.
       - modern:
         - de: Aber N. N. ist wirklich ein Gentleman.
+          ja: でも○○氏は本当に紳士です。
         grc:
           - ὁ δὲ Ν. Ν. νὴ Δία γεννάδας ἀνήρ!
   - title:
       de: Wie alt?
+      ja: 何歳？
     conversations:
       - modern:
         - de: Er hat nur eine einzige Tochter.
+          ja: 彼には一人娘しかいません。
         grc:
           - θυγάτηρ αὐτῷ μόνη οὖσα τυγχάνει.
       - modern:
         - de: Wie alt ist sie?
+          ja: 彼女は何歳ですか。
         grc:
           - πηλίκη ἐστίν;
       - modern:
         - de: Sie ist über ein Jahr älter als du.
+          ja: 彼女は君より一年以上年上です。
         grc:
           - "πλεῖν ἢ 'νιαυτῷ σου πρεσβυτέρα ἐστίν."
       - modern:
         - de: Über 20 Jahre \emph{alt}.
+          ja: 20歳を\emph{超えています}。
         grc:
           - ὑπὲρ εἴκοσιν ἔτη \emph{γεγονυῖα.}
       - modern:
         - de: Du bist ein junger Mann \emph{von} 19 Jahren.
+          ja: 君は\emph{19歳の}若者です。
         grc:
           - σὺ δὲ ἀνὴρ νέος εἶ ἐννεακαίδεκα ἐτῶν.
       - modern:
         - de: Du mußt mit denen unter zwanzig tanzen.
+          ja: 20歳未満の人と踊らなければなりません。
         grc:
           - δεῖ οὖν ὀρχεῖσθαί σε μετὰ τῶν \emph{ἐντὸς} εἴκοσιν.
       - modern:
         - de: Sie sitzt dort bei den älteren Damen.
+          ja: 彼女はあそこで年配のご婦人たちのそばに座っています。
         grc:
           - ἐνταῦτα κάθηται παρὰ ταῖς πρεσβυτέραις γυναιξίν.
       - modern:
         - de: "Wo? zeig' einmal!"
+          ja: どこ？　見せて！
         grc:
           - τοῦ; δεῖξον!
       - modern:
         - de: Was hat sie für Toilette?
+          ja: どんな身なりをしていますか。
         grc:
           - "ποίαν τιν' ἔχει σκευήν;"
       - modern:
         - de: Ihre Mutter ist \emph{seit} 10 Jahren todt.
+          ja: 彼女の母は10年前に亡くなりました。
         grc:
           - τέθνηκεν ἡ μήτηρ αὐτῆς ἔτη δέκα.
       - modern:
         - de: Ihr Vater ist ein Sechziger.
+          ja: 父親は60代です。
         grc:
           - ἑξηκοντέτης ἐστὶν αὐτῆς ὁ πατήρ.
       - modern:
         - de: Die Familie.
+          ja: 家族。
         grc:
           - ὁ οἶκος.

@@ -1,218 +1,274 @@
 part:
   de: Aus dem politischen Leben.
+  ja: 政治生活より
 sections:
   - title:
       de: Parteibewegung
+      ja: 政党運動
     conversations:
       - modern:
         - de: Eugen ist da?
+          ja: オイゲンは来ていますか？
         grc:
           - ὁ Εὐγενὴς ἐπιδεδήμεκεν;
       - modern:
         - de: Schon seit vorgestern.
+          ja: おとといからもう来ています。
         grc:
           - τρίτην ἤδη ἡμέραν.
       - modern:
         - de: Er wird doch wohl eine Rede halten?
+          ja: 彼は演説をするのでしょう？
         grc:
           - \emph{οὐκοῦν} δημηγορήσει;
       - modern:
         - de: Versteht sich! Heute Abend.
+          ja: もちろんです。今晩に。
         grc:
           - εὖ ἴσθ᾽ ὅτι εἰς ἑσπέραν.
       - modern:
         - de: Worüber? Über alles Mögliche.
+          ja: 何について？あらゆることについてです。
         grc:
           - περὶ τοῦ; περὶ \emph{ἁπάντων} πραγμάτων.
       - modern:
         - de: Ich will Sie mit in die Versammlung nehmen.
+          ja: 会合にご一緒しましょう。
         grc:
           - \emph{ἄξω} σε μετ᾽ ἐμαυτοῦ εἰς τὸν σύλλογον.
       - modern:
         - de: Ich danke, ich weiß den Weg.
+          ja: ありがとう、道は知っています。
         grc:
           - καλῶς· ἀλλ᾽ οἶδα τὴν ὁδόν.
       - modern:
         - de: |-
             Nun, so machen Sie denn, daß Sie \emph{auch} hinkommen und bringen
             Sie noch ein paar Andere mit!
+          ja: ではあなたもぜひ来て、ほかの人も何人か連れてきてください。
         grc:
           - ἀλλ᾽ ὅπως παρέσει καὶ αὐτὸς καὶ ἄλλους \emph{ἄξεις!}
       - modern:
         - de: Die Fort\textcompwordmark{}schrittler.
+          ja: 進歩派。
         grc:
           - οἱ καινοτομοῦντες.
       - modern:
         - de: Die Conservativen.
+          ja: 保守派。
         grc:
           - οἱ συντηρητικοί.{*}
       - modern:
         - de: Die Rothen.
+          ja: 急進派（赤）。
         grc:
           - οἱ δημοκρατικοί.
       - modern:
         - de: Das Parlament.
+          ja: 議会。
         grc:
           - ἡ βουλή.
       - modern:
         - de: Die Commission.
+          ja: 委員会。
         grc:
           - οἱ ἐπίτροποι.
       - modern:
         - de: Der Abgeordnete.
+          ja: 代議士。
         grc:
           - ὁ βουλευτής.
       - modern:
         - de: Der Wahlkandidat.
+          ja: 立候補者。
         grc:
           - ὁ ὑπόψηφος.
       - modern:
         - de: Die Majorität.
+          ja: 多数派。
         grc:
           - οἱ πλείονες.
       - modern:
         - de: Die Minorität.
+          ja: 少数派。
         grc:
           - οἱ μείονες.
       - modern:
         - de: Die Präsident.
+          ja: 議長。
         grc:
           - ὁ πρόεδρος.
       - modern:
         - de: Wer hat die meisten (wenigsten) \emph{Stimmen?}
+          ja: だれが最多（最少）の得票を得ましたか？
         grc:
           - τίνι πλεῖσται (ἐλάχισται) γεγόνασιν;
       - modern:
         - de: Abgeordneter ist, wer die meisten \emph{Stimmen} bekommen hat.
+          ja: 最も多く票を得た者が代議士です。
         grc:
           - βουλευτής ἐστιν, ᾧ ἂν πλεῖσται γένωνται.
       - modern:
         - de: Ist A.\ gewählt?
+          ja: Aは当選しましたか。
         grc:
           - πότερον Ἀ.\ ᾑρέθη;
       - modern:
         - de: Leider nicht!
+          ja: 残念ながら落選しました。
         grc:
           - εἰ γὰρ ὤφερε!
   - title:
       de: Opposition
+      ja: 反対派
     conversations:
       - modern:
         - de: Wir brauchen keine neuen \emph{Steuern!}
+          ja: 新しい税金など必要ありません！
         grc:
           - οὐ δεόμεθα καινῶν δασμῶν!
       - modern:
         - de: Wir \emph{brauchen} keine neuen Steuern!
+          ja: 私たちは本当に新税を要しません！
         grc:
           - καινῶν δασμῶν οὐ δεόμεθα!
       - modern:
         - de: Das wird uns ruiniren!
+          ja: それでは破滅してしまう！
         grc:
           - τοῦθ᾽ ἡμᾶς ἐπιτρίψει!
       - modern:
         - de: Ich denke, es giebt einen Mittelweg.
+          ja: 折衷案があると思います。
         grc:
           - ἀλλ᾽ εἶναί τί μοι δοκεῖ μέση τούτων ὁδός.
       - modern:
         - de: Jetzt ist Schonung der Steuerkraft nöthig!
+          ja: 今は租税負担を抑えるべきです！
         grc:
           - νῦν \emph{ἔργον} εὐτελείας!
       - modern:
         - de: Die Kolonialpolitik bringt keinen Nutzen.
+          ja: 植民政策は利益をもたらしません。
         grc:
           - τί \emph{πλέον ἐστὶν} ἔξω ἐποικεῖν;
       - modern:
         - de: Das gefällt mir nicht!
+          ja: それは気に入りません。
         grc:
           - τοῦτό μ᾽ οὐκ ἀρέσκει!
       - modern:
         - de: Dahinter steckt etwas!
+          ja: 何か裏があります！
         grc:
           - ἔστιν ἐνταῦθά τι κακόν!
       - modern:
         - de: Was hat man davon?
+          ja: それで何の得がありますか。
         grc:
           - τί κέρδος;
       - modern:
         - de: Was werden wir davon haben?
+          ja: 私たちにどんな利益がありますか。
         grc:
           - τί κερδανοῦμεν;
       - modern:
         - de: Was kann das nützen?
+          ja: 何の役に立つでしょうか。
         grc:
           - πῶς ξυνοίσει ταῦτα;
       - modern:
         - de: Ich weiß schon, wo man hinaus\textcompwordmark{}will!
+          ja: 何を狙っているかもう分かっています。
         grc:
           - οἶδα τὸν νοῦν!
       - modern:
         - de: Fort mit Bis\textcompwordmark{}marck!
+          ja: ビスマルクはもうたくさんだ！
         grc:
           - Βίσμαρκ ἐρρέτω!
       - modern:
         - de: Bravo! Bravo!
+          ja: ブラボー！ブラボー！
         grc:
           - εὖγε! εὖγε!
       - modern:
         - de: Wie gut ist es, einen so vortrefflichen Abgeordneten zu haben!
+          ja: こんな立派な代議士がいてありがたいことです！
         grc:
           - ὡς ἀγαθὸν τοιοῦτον ἔχειν βουλευτήν!
       - modern:
         - de: Unsinn!
+          ja: ばかげている！
         grc:
           - οὐδὲν λέγεις!
       - modern:
         - de: Wir hängen diese Tiraden zum Halse heraus!
+          ja: もうこんな長広舌にはうんざりだ！
         grc:
           - πάνυ μοι ἤδη ταῦτ᾽ ἐστὶ χολή.
       - modern:
         - de: Still!
+          ja: 静かに！
         grc:
           - σίγα!
   - title:
       de: Zum Schlutz
+      ja: 結びに
     conversations:
       - modern:
         - de: Wer wünscht das Wort?
+          ja: 誰か発言を希望しますか。
         grc:
           - τίς ἀγορεύειν βούλεται;
       - modern:
         - de: Ich.
+          ja: 私です。
         grc:
           - ἐγώ.
       - modern:
         - de: Ist noch Jemand, der zu sprechen wünscht?
+          ja: ほかに発言したい人はいますか。
         grc:
           - ἔσθ᾽ ὅστις ἕτερος βούλεται λέγειν;
       - modern:
         - de: Es wird wohl Niemand dagegen stimmen.
+          ja: 反対票を投じる人はいないでしょう。
         grc:
           - οὐ δεὶς ἀντιχειροτονήσειεν ἄν.
       - modern:
         - de: Ich stimme dagegen.
+          ja: 私は反対に投票します。
         grc:
           - ἐγὼ τἀναντία ψηφίζομαι.
       - modern:
         - de: "So ist's recht."
+          ja: それで結構。
         grc:
           - καλῶς γε ποιῶν.
       - modern:
-        - de: "Thu', was du \\emph{denkst!}"
+        - de: "Thu', was du \emph{denkst!}"
+          ja: 思うとおりにしなさい。
         grc:
           - ποίει, ὅτι ἄν σοι δοκῇ.
       - modern:
         - de: Was ist heute berathen worden?
+          ja: 今日は何が協議されましたか。
         grc:
           - τί βεβούλεται τήμερον;
       - modern:
         - de: Was hat man denn beschlossen?
+          ja: では何が決まりましたか。
         grc:
           - τί δῆτ᾽ ἔδοξεν;
       - modern:
         - de: Noch nichts; es war \emph{Stimmen}gleichheit.
+          ja: まだ何も決まっていません；票が同数でした。
         grc:
           - οὐδέν πω· ἶσαι γὰρ ἐγένοντο.
       - modern:
         - de: Eine so unsinnige Versammlung habe ich noch nicht erlebt.
+          ja: こんな馬鹿げた会合は初めてです。
         grc:
           - τοιοῦτον σύλλογον οὔπω \emph{ὄπωπα.}
+          - ὃ δοκεῖ σοι, ποίει.

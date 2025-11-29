@@ -1,43 +1,54 @@
 part:
   de: "Sprichwörtliches aus der Umgangs\\textcompwordmark{}sprache."
+  ja: 日常会話のことわざ
 indexTitle:
   de: "Sprichwörtliches aus der Umgangs\\textcompwordmark{}sprache Altgriechische Bezeichnungen für moderne Begriffe"
+  ja: 日常会話のことわざ　古代ギリシア語で現代語をどう言うか
 sections:
   - conversations:
       - modern:
         - de: Mensch, ärgere dich nicht!
+          ja: まあ腹を立てるなよ！
         grc:
           - μὴ σεαυτὸν ἔσθιε, ὦ ᾽γαθέ!
       - modern:
         - de: Eines Mannes Rede ist keine Rede.
+          ja: 一人の話だけでは判断にならない。
         grc:
           - πρὶν ἂν ἀμφοῖν μῦθον ἀκούσῃς, οὐκ ἂν δικάσαις.
       - modern:
         - de: Das hieße Eulen nach Athen tragen.
+          ja: それではアテナイにフクロウを運ぶようなものだ。
         grc:
           - τίς γλαῦκ᾽ Ἀθήναζε ἄγαγεν;
       - modern:
         - de: Vorsicht ist die Mutter der Weis\textcompwordmark{}heit.
+          ja: 用心は知恵の母だ。
         grc:
           - ἡ (γὰρ) εὐλάβεια πάντα σώζει.
       - modern:
         - de: Eine Schwalbe macht noch keinen Sommer.
+          ja: ツバメが一羽来ても夏とは言えない。
         grc:
           - μία χελιδὼν ἔαρ οὐ ποιεῖ.
       - modern:
         - de: Menge dich nicht in meine Sachen!
+          ja: 私のことに口を出すな！
         grc:
           - μὴ τὸν ἐμὸν οἴκει οἶκον!!
       - modern:
         - de: Der reine Menschenfeind (Timon)!
+          ja: まったくの人嫌いだ（ティモンだ）！
         grc:
           - Τίμων \emph{καθαρός!}
       - modern:
         - de: Immer das alte Lied!
+          ja: またいつもの決まり文句だ！
         grc:
           - ὁ Διὸς Κόρινθος!
       - modern: # ToDo: Latin
         - la: Hic Rhodus, hic salta!
+          ja: ここがロドスだ、ここで跳べ！
         grc:
           - |-
             ἰδοὺ ἡ Ῥόδος\footnote{\textlatin{%
@@ -45,59 +56,73 @@ sections:
             }, ἰδοὺ καὶ τὸ πήδημα!
       - modern:
         - de: Ein trauriger Peter (Japper)!
+          ja: しょんぼりしたやつだ！
         grc:
           - Μυσῶν ἔσχατος!
       - modern:
         - de: Das Gute ist rar.
+          ja: 良いものは稀だ。
         grc:
           - ὀλίγον τὸ χρηστόν ἐστιν.
       - modern:
         - de: Es ist kein Vorwärts\textcompwordmark{}kommen (für uns).
+          ja: （私たちには）前進の見込みがない。
         grc:
           - οὔτε θέομεν οὔτ᾽ ἐλαύνομεν.!
       - modern:
         - de: Geld regiert die Welt.
+          ja: 金が世を動かす。
         grc:
           - ἅπαντα (γὰρ) τῷ πλουτεῖν ὑπήκοα.!
       - modern: # ToDo latin
         - la: Donec eris felix, multos numerabis amicos.
+          ja: 幸運なうちは友も多い。
         grc:
           - ζεῖ χύτρα, ζῇ φιλία.!
       - modern:
         - de: Durch Schaden wird man klug!
+          ja: 痛い目を見て人は賢くなる！
         grc:
           - \quotedblbase παθὼν δέ τε νήπιος ἔγνω.``
       - modern: # ToDo latin
         - la: Tempi passati!
+          ja: 過ぎ去った時代だ！
         grc:
           - πάλαι ποτ᾽ ἦσαν ἄλκιμοι Μιλήσιοι.
       - modern: # ToD latin
         - la: Ubi bene, ibi patria!
+          ja: 住みよい所こそ祖国だ！
         grc:
           - πατρὶς γάρ ἐστι πᾶσ᾽, ἵν ἂν πράττῃ τις εὖ.
       - modern:
         - de: Er ist der beste Bruder auch nicht!
+          ja: 彼だって決して善人ではない！
         grc:
           - ἐστὶ τοῦ πονηροῦ κόμματος.
       - modern: # ToDo latin
         - la: Parturiunt montes etc.
+          ja: 山の胎動、産んだのは鼠一匹。
         grc:
           - ὤδινεν ὄρος, εἶτα μῦν ἀπέτεκεν.
       - modern:
         - de: Du giebst dir vergebliche Mühe.
+          ja: 骨折り損だ。
         grc:
           - λίθον ἕψεις.
       - modern:
         - de: Das Übel ärger machen.
+          ja: 災いに拍車をかける。
         grc:
           - πλέον θάτερον ποιεῖν.
       - modern:
         - de: Eile mit Weile.
+          ja: 急がば回れ。
         grc:
           - |-
             σπεῦδε βραδέως!\textgerman{ (Wahlspruch
             des Kaisers Augustus.)}
       - modern:
         - de: Laß dir genügen!
+          ja: 分をわきまえて満足せよ！
         grc:
           - πλέον ἥμισυ παντός!
