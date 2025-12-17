@@ -247,7 +247,7 @@ sections:
         grc:
           - καλῶς γε ποιῶν.
       - modern:
-        - de: "Thu', was du \emph{denkst!}"
+        - de: "Thu', was du \\emph{denkst!}"
           ja: 思うとおりにしなさい。
         grc:
           - ποίει, ὅτι ἄν σοι δοκῇ.

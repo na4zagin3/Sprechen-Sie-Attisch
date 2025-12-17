@@ -46,8 +46,9 @@ sections:
           ja: またいつもの決まり文句だ！
         grc:
           - ὁ Διὸς Κόρινθος!
-      - modern: # ToDo: Latin
-        - la: Hic Rhodus, hic salta!
+      - modern:
+        - de: |-
+            \textlatin{Hic Rhodus, hic salta!}
           ja: ここがロドスだ、ここで跳べ！
         grc:
           - |-
@@ -74,8 +75,9 @@ sections:
           ja: 金が世を動かす。
         grc:
           - ἅπαντα (γὰρ) τῷ πλουτεῖν ὑπήκοα.!
-      - modern: # ToDo latin
-        - la: Donec eris felix, multos numerabis amicos.
+      - modern:
+        - de: |-
+            \textlatin{Donec eris felix, multos numerabis amicos.}
           ja: 幸運なうちは友も多い。
         grc:
           - ζεῖ χύτρα, ζῇ φιλία.!
@@ -84,13 +86,15 @@ sections:
           ja: 痛い目を見て人は賢くなる！
         grc:
           - \quotedblbase παθὼν δέ τε νήπιος ἔγνω.``
-      - modern: # ToDo latin
-        - la: Tempi passati!
+      - modern:
+        - de: |-
+            \textlatin{Tempi passati!}
           ja: 過ぎ去った時代だ！
         grc:
           - πάλαι ποτ’ ἦσαν ἄλκιμοι Μιλήσιοι.
-      - modern: # ToD latin
-        - la: Ubi bene, ibi patria!
+      - modern:
+        - de: |-
+            \textlatin{Ubi bene, ibi patria!}
           ja: 住みよい所こそ祖国だ！
         grc:
           - πατρὶς γάρ ἐστι πᾶσ’, ἵν ἂν πράττῃ τις εὖ.
@@ -99,8 +103,9 @@ sections:
           ja: 彼だって決して善人ではない！
         grc:
           - ἐστὶ τοῦ πονηροῦ κόμματος.
-      - modern: # ToDo latin
-        - la: Parturiunt montes etc.
+      - modern:
+        - de: |-
+            \textlatin{Parturiunt montes etc.}
           ja: 山の胎動、産んだのは鼠一匹。
         grc:
           - ὤδινεν ὄρος, εἶτα μῦν ἀπέτεκεν.
