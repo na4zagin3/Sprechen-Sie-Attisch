@@ -1,6 +1,6 @@
 %% LyX 2.1.3 created this file.  For more info, see http://www.lyx.org/.
 %% Do not edit unless you really know what you are doing.
-\documentclass[english,french,latin,german,twoside,a4paper]{ltjsarticle}
+\documentclass[english,french,latin,german,twoside,b5j]{ltjsarticle}
 % \documentclass[english,french,latin,german,twoside,a4paper]{scrartcl}
 \usepackage{version}
 \usepackage{tabularx}
@@ -30,9 +30,12 @@
 \setotherlanguage{latin}
 \setmainlanguage{japanese}
 
-\newcommand{\trDE}[1]{}
+\newcommand{\trDE}[1]{#1}
 \newcommand{\trLA}[1]{}
 \newcommand{\trJA}[1]{#1}
+\newcommand{\switchcolumnde}{\switchcolumn}
+\newcommand{\switchcolumnla}{}
+\newcommand{\switchcolumnja}{\switchcolumn}
 
 \begin{document}
 \frontmatter
@@ -47,8 +50,12 @@
   現代（訳注：19世紀末ドイツ）日常会話\\
   \large
   \medskip
-  第A部 一般的事項\\
-  第B部 学校にて
+  日本語訳\\
+  \medskip
+  \begin{tabular}{@{第}c@{部\quad}l}
+  A&一般的事項\\
+  B&学校にて
+  \end{tabular}
 }
 
 
@@ -67,7 +74,8 @@
 
 
 \date{
-  コミックマーケット105（2024年冬）発行\\
+  発行 ヒュアリニオス\\
+  コミックマーケット105（2024年冬）\\
   原著 \textbf{Leipzig, 1889.} \emph{C.\ A.\ Koch's Verlag.}
   (J. Sengbusch)}
 
@@ -111,7 +119,7 @@ Ligaturesを有効にしました。
 }
 
 \pagestyle{plain}
-% \input{legend-ja.tex}
+\input{legend-ja.tex}
 % \begin{quote}
 %   
 % \end{quote}
@@ -133,37 +141,37 @@ Ligaturesを有効にしました。
 \pagebreak{}\mainmatter
 \end{quote}
 
-%\input{grammar.tex}
-%
-%\begin{center}
-%{\Huge{}\rule[1.2ex]{0.2\columnwidth}{1pt}}
-%\par\end{center}{\Huge \par}
-%
-%\clearpage{}
+\input{grammar-ja.tex}
+
+\begin{center}
+{\Huge{}\rule[1.2ex]{0.2\columnwidth}{1pt}}
+\par\end{center}{\Huge \par}
+
+\clearpage{}
 
 
 
 \leftskip=0.1in\parindent=-0.1in\tabcolsep=0pt
 %\hangindent=2em\hangafter=2
 %\titlespacing{\section}{0pt}{\parskip}{-\parskip}
-\begin{paracol}{2}
+\begin{paracol}{3}
 	\input{part-a.tex}
   %\setcounter{part}{1}
   %\setcounter{section}{20}
 	\input{part-b.tex}
-	%\input{part-c.tex}
-	%\input{part-d.tex}
-	%\input{part-e.tex}
-	%\input{part-f.tex}
-	%\input{part-g.tex}
-	%\input{part-h.tex}
-	%\input{part-i.tex}
-	%\input{lexicon.tex}
+	\input{part-c.tex}
+	\input{part-d.tex}
+	\input{part-e.tex}
+	\input{part-f.tex}
+	\input{part-g.tex}
+	\input{part-h.tex}
+	\input{part-i.tex}
+	\input{lexicon.tex}
 \end{paracol}
 
 %\input{quotes.tex}
 
-\clearpage{}
+\cleartoevenpage{}
 \pagestyle{empty}
 \setlength{\parindent}{1\zw}
 \setlength{\hangindent}{0pt}
@@ -184,7 +192,9 @@ Ligaturesを有効にしました。
     \\
     \kintou{6\zw}{発行責任者}&ざぎん\newline Twitter（現$\mathbb{X}$）: \textsf{@na4zagin3}%
     \\
-    \kintou{6\zw}{発行日}&初版2024年12月30日
+    \kintou{6\zw}{発行日}&初版\quad \phantom{第1刷\quad }2024年12月30日
+                           \newline
+                       初版\quad 第2刷\quad 2025年12月30日
     \\
     \kintou{6\zw}{印刷}&ちょ古っ都製本工房
     \\

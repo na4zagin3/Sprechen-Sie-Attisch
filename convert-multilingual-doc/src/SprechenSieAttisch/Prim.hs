@@ -1,6 +1,7 @@
 {-# LANGUAGE DeriveGeneric #-}
 module SprechenSieAttisch.Prim where
 
+import Control.Arrow (second)
 import Data.Aeson (ToJSON, FromJSON)
 import qualified Data.List as L
 import Data.Maybe
@@ -53,26 +54,26 @@ langLine lang text = error $ "langLine: lang: " ++ lang ++ " is not supported. t
 langLineFrag :: LangCode -> ModernSentence -> Maybe Document
 langLineFrag lang fg = langLine lang <$> lang `M.lookup` fg
 
-modernSentence :: ModernSentence -> Document
-modernSentence fg = concat $ catMaybes [textDe, textLa, textJa]
+modernSentence :: ModernSentence -> [(LangCode, Document)]
+modernSentence fg = catMaybes [textDe, textLa, textJa]
   where
-    textDe = (++ "%\n") <$> langLineFrag german fg
-    textLa = (++ "%\n") <$> langLineFrag latin fg
-    textJa = (++ "%\n") <$> langLineFrag japanese fg
+    textDe = (\x -> (german, x)) . (++ "%\n") <$> langLineFrag german fg
+    textLa = (\x -> (latin, x)) . (++ "%\n") <$> langLineFrag latin fg
+    textJa = (\x -> (japanese, x)) . (++ "%\n") <$> langLineFrag japanese fg
 
-modernSentences :: [ModernSentence] -> Document
+modernSentences :: [ModernSentence] -> [(LangCode, Document)]
 modernSentences [] = error "modernSentences: empty list"
 modernSentences [m] = modernSentence m
-modernSentences ms = concat ls
+modernSentences ms = modernSentence tableSentence
   where
-    ss = map modernSentence ms
-    ls = [ "\\begin{tabular}{lc}\n"
-         , head ss
-         , "& \\ldelim\\}{" ++ show (length ss) ++ "}{1em}[]\\tabularnewline\n"
-         ] ++ L.intersperse "& \\tabularnewline\n" (tail ss) ++ [
-           "& \\tabularnewline\n"
-         , "\\end{tabular}\n"
-         ]
+    tableSentence = M.map renderTable $ M.unionsWith (<>) $ map (M.map L.singleton) ms
+    renderTable ss = concat $ [ "\\begin{tabular}{lc}\n"
+                   , head ss
+                   , "& \\ldelim\\}{" ++ show (length ss) ++ "}{1em}[]\\tabularnewline\n"
+                   ] ++ L.intersperse "& \\tabularnewline\n" (tail ss) ++ [
+                     "& \\tabularnewline\n"
+                   , "\\end{tabular}\n"
+                   ]
 
 leftBraced :: [Document] -> Document
 leftBraced [] = error "leftBraced: empty list"
@@ -104,15 +105,19 @@ header headerCmd indexstr content = concat strs
 renderFragment :: Fragment -> Document
 renderFragment fg = concat ls
   where
-    ls = [ modernAlignment
-         , modernSentences $ modern fg
-         , "\\switchcolumn\n"
+    ls = [ concat $ map renderModernSentence $ modernSentences $ modern fg
          , grcAlignment
          , leftBraced . map (langLine greek) $ grc fg
          , "\\switchcolumn*"
          , if ruleAfter fg == Just True then "[\\centering\\rule{1.5in}{1pt}]" else ""
          , "\n"
          ]
+    renderModernSentence (lang, ms) = concat [ modernAlignment
+                                          , ms
+                                          , "\\switchcolumn"
+                                          , lang
+                                          , "\n"
+                                          ]
     grcAlignment = alignment . length $ modern fg
     modernAlignment = alignment . length $ grc fg
     alignment n = if n > 1 then "\\vspace{0.5em}\n" else ""
