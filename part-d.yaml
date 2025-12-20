@@ -483,62 +483,62 @@ sections:
             ἐστιν.
       - modern:
         - de: \myafterpagetrue\mysetaligntext{german}{Es ist{ }}\mysetalign{german}Fabrikant.
-          ja: \myafterpagetrue\mysetaligntext{german}{彼は{ }}\mysetalign{german}製造業者です。
+          ja: \myafterpagetrue\mysetaligntext{japanese}{彼は{ }}\mysetalign{japanese}製造業者です。
         grc:
           - ἐργαστήριον ἔχει.
       - modern:
         - de: \bgroup\mysetalign{german}Arbeiter.\par\egroup
-          ja: \bgroup\mysetalign{german}職工。\par\egroup
+          ja: \bgroup\mysetalign{japanese}職工。\par\egroup
         grc:
           - ἐργάτης
       - modern:
         - de: \bgroup\mysetalign{german}(Amts- etc.) Richter.\par\egroup
-          ja: \bgroup\mysetalign{german}（官職などの）裁判官。\par\egroup
+          ja: \bgroup\mysetalign{japanese}（官職などの）裁判官。\par\egroup
         grc:
           - δικαστής.
       - modern:
         - de: \bgroup\mysetalign{german}Unterbeamter.\par\egroup
-          ja: \bgroup\mysetalign{german}下級官吏。\par\egroup
+          ja: \bgroup\mysetalign{japanese}下級官吏。\par\egroup
         grc:
           - ὑπάλληλος.
       - modern:
         - de: \bgroup\mysetalign{german}Rechts\textcompwordmark{}anwalt.\par\egroup
-          ja: \bgroup\mysetalign{german}弁護士。\par\egroup
+          ja: \bgroup\mysetalign{japanese}弁護士。\par\egroup
         grc:
           - σύνδικος.
       - modern:
         - de: \bgroup\mysetalign{german}Apotheker.\par\egroup
-          ja: \bgroup\mysetalign{german}薬剤師。\par\egroup
+          ja: \bgroup\mysetalign{japanese}薬剤師。\par\egroup
         grc:
           - φαρμακοπώλης.
       - modern:
         - de: \bgroup\mysetalign{german}Banquier.\par\egroup
-          ja: \bgroup\mysetalign{german}銀行家。\par\egroup
+          ja: \bgroup\mysetalign{japanese}銀行家。\par\egroup
         grc:
           - τραπεζίτης.
       - modern:
         - de: \bgroup\mysetalign{german}Officier.\par\egroup
-          ja: \bgroup\mysetalign{german}士官。\par\egroup
+          ja: \bgroup\mysetalign{japanese}士官。\par\egroup
         grc:
           - ἀξιωματικός.
       - modern:
         - de: \bgroup\mysetalign{german}Schüler.\par\egroup
-          ja: \bgroup\mysetalign{german}生徒。\par\egroup
+          ja: \bgroup\mysetalign{japanese}生徒。\par\egroup
         grc:
           - μαθητής.
       - modern:
         - de: \bgroup\mysetalign{german}Student.\par\egroup
-          ja: \bgroup\mysetalign{german}学生。\par\egroup
+          ja: \bgroup\mysetalign{japanese}学生。\par\egroup
         grc:
           - φοιτητής.
       - modern:
         - de: \bgroup\mysetalign{german}Lehrer.\par\egroup
-          ja: \bgroup\mysetalign{german}教師。\par\egroup
+          ja: \bgroup\mysetalign{japanese}教師。\par\egroup
         grc:
           - διδάσκαλος.
       - modern:
         - de: \bgroup\mysetalign{german}Professor.\par\egroup
-          ja: \bgroup\mysetalign{german}教授。\par\egroup
+          ja: \bgroup\mysetalign{japanese}教授。\par\egroup
         grc:
           - καθηγητής.
       - modern:
