@@ -1,11 +1,12 @@
 %% LyX 2.1.3 created this file.  For more info, see http://www.lyx.org/.
 %% Do not edit unless you really know what you are doing.
-\documentclass[english,french,latin,german,twoside,b5j]{ltjsarticle}
+\documentclass[english,french,latin,german,twoside,a4paper]{ltjsarticle}
 % \documentclass[english,french,latin,german,twoside,a4paper]{scrartcl}
 \usepackage{version}
 \usepackage{tabularx}
 \usepackage{tcolorbox}
 \usepackage{amsfonts}
+\usepackage{todonotes}
 
 \includeversion{frakturfonttypesetting}
 \excludeversion{romanfonttypesetting}
@@ -41,6 +42,8 @@
 \frontmatter
 \renewcommand\thepart{\Alph{part}}
 
+\listoftodos
+\cleardoublepage
 
 \title{{\fontfamily\rmdefault\selectfont アッティカ方言で話しませんか?\\Sprechen Sie Attisch?}\\
   \rule[1.2ex]{0.2\columnwidth}{1pt}\\
@@ -159,6 +162,7 @@ Ligaturesを有効にしました。
   %\setcounter{part}{1}
   %\setcounter{section}{20}
 	\input{part-b.tex}
+  \todo{この部ここまで校了}%
 	\input{part-c.tex}
 	\input{part-d.tex}
 	\input{part-e.tex}
