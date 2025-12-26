@@ -1,6 +1,6 @@
 part:
   de: Handel und Wandel.
-  ja: 商売と取引。
+  ja: 商業活動
 sections:
   - title:
       de: Er will Geld
@@ -8,28 +8,28 @@ sections:
     conversations:
       - modern:
         - de: Er will etwas haben.
-          ja: 何か手に入れたい。
+          ja: 彼は何か買おうとしている。
         grc:
           - αἰτεῖ λαβεῖν τι.
       - modern:
         - de: Er hat Alles, was er braucht.
-          ja: 必要なものはすべて持っている。
+          ja: 彼は必要なものはすべて持っている。
         grc:
           - ἔχει ἅπαντα, ἃ δεῖ.
       - modern:
         - de: Was wünschen Sie?
-          ja: 何をご希望ですか。
+          ja: 何をご所望か。
         grc:
           - \emph{τοῦ δέει;}
       - modern:
         - de: Wes\textcompwordmark{}halb sind Sie hergekommen?
-          ja: なぜここに来られたのですか。
+          ja: 何の用件でここに来られたのですか。
         grc:
           - τοῦ δεόμενος ἦλθες ἐνθαδί;
           - ἥκεις κατὰ τί;
       - modern:
         - de: Was hat Sie hergeführt?
-          ja: 何の用でここへ？
+          ja: どういった目的でここに来られたのですか。
         grc:
           - ἐπὶ τί πάρει δεῦρο;
       - modern:
@@ -39,9 +39,11 @@ sections:
           - δάνεισόν μοι πρὸς τῶν θεῶν εἴκοσι μάρκας{*}!
       - modern:
         - de: Die Noth zwingt mich dazu.
-          ja: やむにやまれぬ事情なのです。
+          ja: やむにやまれぬ事情があるのです。
         grc:
           - ἡ ἀνάγκη με πιέζει.
+        citation:
+          - Ar.Nu.438
       - modern:
         - de: Nein!
           ja: いやだ！
@@ -49,7 +51,7 @@ sections:
           - "μὰ Δί' ἐγὼ μὲν οὔ!"
       - modern:
         - de: Sie haben, was Sie brauchen.
-          ja: 必要なものはもう持っていますよ。
+          ja: 必要なものはもう持っているでしょう。
         grc:
           - ἔχεις ὧν δέει.
       - modern:
@@ -59,7 +61,7 @@ sections:
           - οὐκ ἀρἠξεις;
       - modern:
         - de: Haben Sie Mitleid mit mir!
-          ja: どうか同情してください！
+          ja: どうかお慈悲を！
         grc:
           - οἴκτειρόν με!
       - modern:
@@ -74,7 +76,7 @@ sections:
           - ἀποδώσω τῷ σκυτοτόμῳ.
       - modern:
         - de: Woher soll ich das Geld bekommen?
-          ja: そのお金をどこで手に入れろというのですか。
+          ja: 一体どこでその金を手に入れろというのですか。
         grc:
           - πόθεν τὸ ἀργύριον λήψομαι;
       - modern:
@@ -89,22 +91,22 @@ sections:
           - "εὖ γ' ἐποίησας!"
       - modern:
         - de: Der Himmel segne Sie tausendmal!
-          ja: 天があなたに千回の祝福を！
+          ja: 天があなたに千回の祝福を！\todo{自然な表現にしたい}
         grc:
           - "πόλλ' ἀγαθὰ γένοιτό σοι!"
       - modern:
         - de: Seien sie nicht böse, mein Lieber!
-          ja: どうか怒らないで、お頼みです！
+          ja: 分かりましたから、落ち着いて下さい！
         grc:
           - "μὴ ἀγανάκτει, ὦ 'γαθέ!"
       - modern:
         - de: \emph{Seien sie so gut} und sprechen Sie nicht davon!
-          ja: どうかご親切に、このことは口にしないでください。
+          ja: お願いですから、もう静かにして下さい。
         grc:
-          - "\\emph{οἶσθ' ὁ δρᾶσον;} μὴ διαλέγου περι τούτοθ μηδέν!"
+          - "\\emph{οἶσθ' ὁ δρᾶσον;} μὴ διαλέγου περὶ τούτου μηδέν!"
       - modern:
         - de: Aber ich bitte Sie —!
-          ja: ですが、お願いします——！
+          ja: どうかお願いします——！
         grc:
           - "ἀλλ' ὦ 'γαθέ —!"
   - title:
@@ -113,27 +115,27 @@ sections:
     conversations:
       - modern:
         - de: Da kommt der Jude wieder!
-          ja: またあのユダヤ人が来た！
+          ja: またあのユダヤ人が来たぞ！
         grc:
           - καὶ μὴν ὁδὶ ἐκεῖνος ὁ Ἰουδαῖος!
       - modern:
-        - de: "Schöne Portemonnaies! Schlipfe\\footnote{Redacteur: \\quotedblbase Shlipfe`` wird im Original verwendet.}! Messer!"
+        - de: "Schöne Portemonnaies! Schlipse! Messer!"
           ja: 立派な財布！ ネクタイ！ ナイフだよ！
         grc:
           - βαλάντια καλά! λαιμοδέτια!{*} μαχαίρια!
       - modern:
         - de: Was soll ich für dies hier zahlen?
-          ja: これはいくら払えばいい？
+          ja: これはいくら払えばいいかね？
         grc:
           - τί δῆτα καταθῶ τουτοί;
       - modern:
         - de: Zwei Mark fünfzig.
-          ja: ２マルク５０だ。
+          ja: 2マルク50ペニヒです。
         grc:
           - δύο μάρκας{*} καὶ πεντήκοντα.
       - modern:
         - de: Nein, das ist zuviel.
-          ja: いや、それは高すぎる。
+          ja: いや、それは高すぎるね。
         grc:
           - "μὰ Δί', ἀλλ' ἔλαττον."
       - modern:
@@ -143,12 +145,12 @@ sections:
           - δύο μάρκας τελεῖς;
       - modern:
         - de: Hier haben Sie 1 Mark 50 Pf.
-          ja: ほら、１マルク５０ペニヒだ。
+          ja: はい、１マルク５０ペニヒだ。
         grc:
           - λαβὲ μάρκην καὶ ἡμίσειαν.
       - modern:
         - de: Was kosten die Portemonnaies?
-          ja: 財布はいくらですか。
+          ja: 財布はお幾ら？
         grc:
           - πῶς τὰ βαλάντια ὤνια;
       - modern:
@@ -157,23 +159,23 @@ sections:
         grc:
           - λήψει τεσσάρων μαρκῶν πάνυ καλόν.
       - modern: # ToDo: Fix
-        - de: Nehmen Sie es wieder mit, ich kaufe es nicht. — Sie wollen \emph{zu vie}l profitiren.
+        - de: Nehmen Sie es wieder mit, ich kaufe es nicht. — Sie wollen \emph{zu viel} profitiren.
           ja: 持って帰ってくれ、買わないよ。—あんたは儲けすぎだ。
         grc:
           - ἀπόφερε· οὐκ ὠνήσομαι. κερδαίνειν γὰρ βούλει \emph{πολύ.}
       - modern:
         - de: Was bieten Sie gutwillig?
-          ja: いくらなら気前よく出すんだい？
+          ja: 幾ら位なら出せますかね？
         grc:
           - \emph{αὐτὸς} σὺ τί δίδως;
       - modern:
         - de: Was ich biete? Zwei Mark würde ich geben.
-          ja: 出せるのは？ ２マルクなら払うよ。
+          ja: 幾ら出せるって？ ２マルクなら払えるよ。
         grc:
           - ὅτι δίδωμι; δοίην ἂν δύο μάρκας.
       - modern:
         - de: Da nehmen Sie es; denn es ist immer besser als nichts zu lösen.
-          ja: じゃあ持っていきなさい。何も売れないよりましだ。
+          ja: じゃあ持っていきなさい。何も売れないよりましです。
         grc:
           - ἔνεγκε τοίνυν· κρεῖττον γάρ ἐστιν ἢ μηδὲν λαβεῖν.
       - modern:
@@ -188,12 +190,12 @@ sections:
           - οὐδέν ἐστιν ἡ μάχαιρα· οὐκ ἂν πριαίμην οὐδὲ μιᾶς μάρκης.!
       - modern:
         - de: Ich habe selbst seiner Zeit 3 Mark dafür gegeben.
-          ja: これには私自身昔３マルク払ったんだ。
+          ja: これには私自身昔３マルク払ったのです。
         grc:
           - αὐτὸς ἀντέδωκα τούτου ποτὲ τρεῖς μάρκας.
       - modern:
         - de: Ich verdiene nichts daran.
-          ja: これでは儲けがない。
+          ja: これでは儲けはありませんね。
         grc:
           - οὐδέν μοι περιγίγνεται.
       - modern:
@@ -228,12 +230,12 @@ sections:
           - ἔχε δὴ τἀργύριον.
       - modern:
         - de: Das wäre abgemacht.
-          ja: それで話はついた。
+          ja: 承知しました。
         grc:
           - \emph{ταῦτα} δή.
       - modern:
         - de: Ich habe 3 Mark \emph{dafür} bezahlt.
-          ja: それに３マルク払った。
+          ja: 私はそれに３マルク払ったんですよ。
         grc:
           - ἀπέδοκα \emph{ὀφείλων} τρεῖς μάρκας.
       - modern:
@@ -243,7 +245,7 @@ sections:
           - ἐν Λειψίᾳ{*} πωλοῦνται κατὰ δώδεκα εἴκοσι μαρκῶν.
       - modern:
         - de: Das hier hat er für 1 Mark verkauft.
-          ja: これは１マルクで売った。
+          ja: これはあそこでは１マルクで売っていた。
         grc:
           - τοδὶ ἀπέδοτο μιᾶς μάρκης.
   - title:
@@ -257,7 +259,7 @@ sections:
           - χαῖρε!
       - modern:
         - de: Guten Tag, mein Herr!
-          ja: こんにちは、ご主人。
+          ja: いらっしゃいませ。
         grc:
           - χαῖρε καὶ σύ!
       - modern:
@@ -267,7 +269,7 @@ sections:
           - ἥκεις δὲ κατὰ τί;
       - modern:
         - de: Was wünschen Sie?
-          ja: 何をご要望ですか。
+          ja: 何をご所望ですか。
         grc:
           - τοῦ δέει;
       - modern:
@@ -292,7 +294,7 @@ sections:
           - τὸ ἐπάνω ἱμάτιον.
       - modern:
         - de: Die Stiefel.
-          ja: 長靴。
+          ja: 靴。
         grc:
           - τὰ ὑποδήματα.
       - modern:
@@ -317,7 +319,7 @@ sections:
           - "πεντήκοντα μάρκας{*} εἰς ἱμάτιον, εἴκοσι δ' εἰς βράκας."
       - modern:
         - de: Hier ist ein sehr schöner Rock nebst Beinkleidern.
-          ja: ここにとても立派な上着とズボンがあります。
+          ja: こちらにとても立派な上着とズボンがございます。
         grc:
           - κάλλιστον τοδὶ ἱμάτιον μετὰ βρακῶν.
       - modern:
@@ -338,17 +340,17 @@ sections:
           - βούλει ἀποδύεσθαι θοἰμάτιον;
       - modern:
         - de: Sie haben keinen neuen Rock an.
-          ja: あなたは新しい上着を着ていません。
+          ja: お召しの上着は新しくありませんねえ。
         grc:
           - οὐ καινὸν ἀμπέχει ἱμάτιον.
       - modern:
         - de: Nein, der alte Rock hat Löcher.
-          ja: いや、この古い上着には穴があるんです。
+          ja: そうなんです、この古い上着には穴があるんです。
         grc:
           - "οὐ μὰ Δί'· ἀλλ' ὀπὰς ἔχει τὸ τριβώνιον."
       - modern:
         - de: Was Sie nun für einen schönen Anzug haben!
-          ja: なんと立派な服装になったこと！
+          ja: なんと立派な服装になったことでしょう！
         grc:
           - ποίαν ἤδη ἔχεις σκευήν!
       - modern:
@@ -358,12 +360,12 @@ sections:
           - "ἄριστ' ἔχει τὸ καινὸν ἱμάτιον!"
       - modern:
         - de: Haben Sie etwas daran aus\textcompwordmark{}zusetzen?
-          ja: どこか気に入らないところはありますか。
+          ja: どこか気に召さないところはありますか。
         grc:
           - ἔχεις τι ψέγειν τούτου;
       - modern:
         - de: Er steht mir nicht.
-          ja: 似合いません。
+          ja: これは私に似合いません。
         grc:
           - οὐ \emph{πρέπει} μοι.
   - title:
@@ -372,7 +374,7 @@ sections:
     conversations:
       - modern:
         - de: Die Stiefel fehlen noch.
-          ja: まだ長靴が足りない。
+          ja: まだ靴が足りない。
         grc:
           - ὑποδημάτων δεῖ.
       - modern:
@@ -407,7 +409,7 @@ sections:
           - "ἆρ' ἁρμόττουσιν."
       - modern:
         - de: Ja, sie sitzen vortrefflich.
-          ja: ああ、とてもぴったりだ。
+          ja: ああ、ぴったりだ。
         grc:
           - "νὴ Δί', ἀλλ' ἄριστ' ἔχει."
       - modern:
@@ -432,7 +434,7 @@ sections:
           - ἑκκαίδεκα μαρκῶν{*}.
   - title:
       de: Vom Obstmarkt
-      ja: 果物市場で
+      ja: 果物市場にて
     conversations:
       - modern:
         - de: Ich muß auf \emph{den} Markt gehen.
@@ -451,7 +453,7 @@ sections:
           - χωρεῖ εἰς ἀγορὰν ἐπὶ βότρυς.
       - modern:
         - de: Ich will sie kaufen, wenn du mir das Geld giebst.
-          ja: お金をくれるなら、私がそれを買おう。
+          ja: お金をくれるなら、私がそれを買ってこよう。
         grc:
           - ὠνήσομαι, ἐὰν σύ μοι δῷς τἀργύριον.
       - modern:
@@ -476,7 +478,7 @@ sections:
           - \mysetaligntext{greek}{\textgreek{ἀγόρασόν μοι}{ }}\mysetalign*{greek}\textgreek{μῆλα.}
       - modern:
         - de: \bgroup\mysetalign{german}Aprikosen.\par\egroup
-          ja: アプリコットを。
+          ja: 杏子を。
         grc:
           - \bgroup\mysetalign*{greek}ἀρμενιακά (μῆλα).\par\egroup
       - modern:
@@ -496,17 +498,17 @@ sections:
           - \bgroup\mysetalign*{greek}λάχανα.\par\egroup
       - modern:
         - de: \bgroup\mysetalign{german}Kastanien.\par\egroup
-          ja: クリを。
+          ja: 栗を。
         grc:
           - \bgroup\mysetalign*{greek}κάστανα.\par\egroup
       - modern:
         - de: \bgroup\mysetalign{german}Kirschen.\par\egroup
-          ja: サクランボを。
+          ja: \ruby{桜桃}{サクランボ}を。
         grc:
           - \bgroup\mysetalign*{greek}κεράσια.\par\egroup
       - modern:
         - de: \bgroup\mysetalign{german}Wallnüsse.\par\egroup
-          ja: クルミを。
+          ja: 胡桃を。
         grc:
           - \bgroup\mysetalign*{greek}κάρυα.\par\egroup
       - modern:
@@ -521,12 +523,12 @@ sections:
           - \bgroup\mysetalign*{greek}περσικά (μῆλα).\par\egroup
       - modern:
         - de: \bgroup\mysetalign{german}Pflaumen.\par\egroup
-          ja: スモモを。
+          ja: \ruby{李}{スモモ}を。
         grc:
           - \bgroup\mysetalign*{greek}κοκκύμηλα (\textgerman{Kuckucks\textcompwordmark{}äpfel}).\par\egroup
       - modern:
         - de: \bgroup\mysetalign{german}Apfelsinen.\par\egroup
-          ja: オレンジを。
+          ja: 橙を。
         grc:
           - \bgroup\mysetalign*{greek}πορτοκάλια{*}. (\textgerman{Früchte aus Portugal.})\par\egroup
       - modern:
@@ -536,12 +538,12 @@ sections:
           - \bgroup\mysetalign*{greek}φραγγοστάφυλα{*}.\par\egroup
       - modern:
         - de: \bgroup\mysetalign{german}Radies\textcompwordmark{}chen.\par\egroup
-          ja: ラディッシュを。
+          ja: 大根を。
         grc:
           - \bgroup\mysetalign*{greek}ῥαφανίδια.\par\egroup
       - modern:
         - de: \bgroup\mysetalign{german}Alles Mögliche.\par\egroup
-          ja: いろいろなものを。
+          ja: 種々のものを。
         grc:
           - \bgroup\mysetalign*{greek}\emph{πάντα.}\par\egroup
       - modern:
@@ -553,14 +555,14 @@ sections:
         - de: Die Mandel für eine Mark.
           ja: １マルクで十五個だ。
         grc:
-          - πεντεκαίδεκα τῆς μάρκες.
+          - πεντεκαίδεκα τῆς μάρκης.
       - modern:
         - de: Was kostet jetzt die Butter?
-          ja: 今、バターはいくらですか。
+          ja: 今のバターはいくらですか。
         grc:
           - |-
-            πῶς ὁ βούτυρος (τὸ βούτυρον) το\footnote{\textlatin{%
-            ? sic. \textgreek{οὐκ οἶδα τί τὸ λέξις ἐστί.}}%
+            πῶς ὁ βούτυρος (τὸ βούτυρον) τὸ\footnote{\textlatin{%
+            orig. \textgreek{το}}%
             } νῦν ὤνιος.
       - modern:
         - de: Sie ist wohlfeil.
