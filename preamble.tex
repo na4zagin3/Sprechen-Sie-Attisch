@@ -1,7 +1,7 @@
 \usepackage{fontspec}
 %\setmainfont[Mapping=tex-text,Numbers=OldStyle]{Old Standard}
 \setmainfont[Ligatures=TeX]{Old Standard}
-\usepackage[b5paper]{geometry}
+\usepackage[b5j]{geometry}
 \geometry{verbose,lmargin=3cm}
 \pagestyle{plain}
 \usepackage{verbatim}
@@ -56,8 +56,22 @@
     \ltjsetparameter{xkanjiskip=\ltjgetparameter{kanjiskip}}
     #2}}
     \ltjsetruby{kenten=\raisebox{-0.3ex}[0.25ex][0ex]{\textbullet}}
-  \else
+    \def\cleartooddpage{\clearpage\if@twoside
+      \ifodd\c@page\else
+      \hbox{}\thispagestyle{empty}\newpage
+      \if@twocolumn\hbox{}\newpage\fi
+      \fi\fi}
+    \def\cleartoevenpage{\clearpage\if@twoside
+      \ifodd\c@page
+      \hbox{}\thispagestyle{empty}\newpage
+      \if@twocolumn\hbox{}\newpage\fi
+      \fi\fi}
     % \usepackage[pdftex]{hyperref}
+
+    % For Polyglossia
+    \newfontfamily{\cjkfont}{SourceSerifPro}
+    \newfontfamily{\cjkfontsf}{SourceSansPro}
+    \newfontfamily{\cjkfonttt}{SourceCodePro}
   \fi
 \else
   \ifxetex

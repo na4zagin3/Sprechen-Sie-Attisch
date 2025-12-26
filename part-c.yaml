@@ -86,12 +86,12 @@ sections:
           - ἰδοὺ τουτὶ λαβέ!
       - modern:
         - de: Haben Sie vielen Dank!
-          ja: 本当にありがとうございます。
+          ja: 有難き幸せ！
         grc:
           - "εὖ γ' ἐποίησας!"
       - modern:
         - de: Der Himmel segne Sie tausendmal!
-          ja: 天があなたに千回の祝福を！\todo{自然な表現にしたい}
+          ja: 天のご加護がありますように！
         grc:
           - "πόλλ' ἀγαθὰ γένοιτό σοι!"
       - modern:
@@ -106,7 +106,7 @@ sections:
           - "\\emph{οἶσθ' ὁ δρᾶσον;} μὴ διαλέγου περὶ τούτου μηδέν!"
       - modern:
         - de: Aber ich bitte Sie —!
-          ja: どうかお願いします——！
+          ja: どうか頼みます——！
         grc:
           - "ἀλλ' ὦ 'γαθέ —!"
   - title:
@@ -155,7 +155,7 @@ sections:
           - πῶς τὰ βαλάντια ὤνια;
       - modern:
         - de: Für 4 Mark können Sie ein ganz schönes bekommen.
-          ja: ４マルクならなかなか良いものが買えます。
+          ja: ４マルクならなかなか良いものが買えますよ。
         grc:
           - λήψει τεσσάρων μαρκῶν πάνυ καλόν.
       - modern: # ToDo: Fix
@@ -195,7 +195,7 @@ sections:
           - αὐτὸς ἀντέδωκα τούτου ποτὲ τρεῖς μάρκας.
       - modern:
         - de: Ich verdiene nichts daran.
-          ja: これでは儲けはありませんね。
+          ja: これでは儲けがありません。
         grc:
           - οὐδέν μοι περιγίγνεται.
       - modern:
@@ -210,7 +210,7 @@ sections:
           - ὄμοσον!
       - modern:
         - de: Bei Gott!
-          ja: 神にかけて！
+          ja: 神掛けて！
         grc:
           - οὐ μὰ τοὺς θεούς!
       - modern:
@@ -235,7 +235,7 @@ sections:
           - \emph{ταῦτα} δή.
       - modern:
         - de: Ich habe 3 Mark \emph{dafür} bezahlt.
-          ja: 私はそれに３マルク払ったんですよ。
+          ja: 私はそれに３マルク払ったんです。
         grc:
           - ἀπέδοκα \emph{ὀφείλων} τρεῖς μάρκας.
       - modern:
@@ -355,12 +355,12 @@ sections:
           - ποίαν ἤδη ἔχεις σκευήν!
       - modern:
         - de: Der neue Rock sitzt vortrefflich.
-          ja: 新しい上着は実によく合っている。
+          ja: 新しい上着は実によく合っています。
         grc:
           - "ἄριστ' ἔχει τὸ καινὸν ἱμάτιον!"
       - modern:
         - de: Haben Sie etwas daran aus\textcompwordmark{}zusetzen?
-          ja: どこか気に召さないところはありますか。
+          ja: どこかお気に召さないところはありますか。
         grc:
           - ἔχεις τι ψέγειν τούτου;
       - modern:
@@ -488,7 +488,7 @@ sections:
           - \bgroup\mysetalign*{greek}ἄπια.\par\egroup
       - modern:
         - de: \bgroup\mysetalign{german}Erdbeeren.\par\egroup
-          ja: イチゴを。
+          ja: 苺を。
         grc:
           - \bgroup\mysetalign*{greek}χαμοκέρασα{*}.\par\egroup
       - modern:
