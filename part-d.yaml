@@ -18,19 +18,19 @@ sections:
           - μάλιστα.
       - modern:
         - de: Ich bin ent\textcompwordmark{}zückt.
-          ja: とても感激しています。
+          ja: 大変感激しています。
         grc:
           - κεκήλημαι ἔγωγε.
       - modern:
         - de: Ich werde Polka mit ihr tanzen (Schottisch, Walzer, Française).
-          ja: 彼女とポルカ（スコティッシュ、ワルツ、フランセーズ）を踊ります。
+          ja: 彼女とポルカ（ショッティッシュ\footnote{小学館 独和大辞典Schottisch 「スコットランド舞踊」\\ランダムハウス英和大辞典schottisch「ショッティッシュ」}、ワルツ、フランセーズ）を踊ります。
         grc:
           - |-
             ὀρχήσομαι μετ' αὐτῆς τὸ Πολωνικόν (τὸ Καληδονικόν, τὸ Γερμανικόν,
             τὸ Γαλλικόν).
       - modern:
         - de: Erlauben Sie mir diesen Tanz, gnädige Frau? (— Fräulein?)
-          ja: 奥様、この曲をご一緒してもよろしいですか？（――お嬢さん？）
+          ja: 奥様（――お嬢さん）、一緒に躍りませんか。
         grc:
           - δὸς ὀρχεῖσθαι τοῦτο μετὰ σοῦ, ὦ γύναι! (--- ὦ κόρη!)
       - modern:
@@ -42,7 +42,7 @@ sections:
         - de: Bitte, hören Sie auf, ich kann nicht mehr.
           ja: すみません、もう踊れませんからやめてください。
         grc:
-          - "παῦε δῆτ' ὀρχούμενος, !"
+          - "παῦε δῆτ' ὀρχούμενος, !\\footnote{\\textlatin{sic}}}"
       - modern:
         - de: Ich bin müde.
           ja: 疲れました。
@@ -65,7 +65,7 @@ sections:
           - ὡς ἡδὺ μετὰ σοῦ ὀρχεῖσθαι!
       - modern:
         - de: Wer ist eigentlich der Herr dort, der hierher sieht? der an der Thür steht?
-          ja: あそこでこちらを見ている、ドアのところにいる紳士は誰ですか？
+          ja: あそこでこちらを見ている紳士は誰ですか？ドアのところにいる\ruby{方}{かた}です。
         grc:
           - "τίς ποθ' ὅδεὁ δεῦρο βλέπων; \\emph{ὁ ἐπὶ} ταῖς θύραις;"
       - modern:
@@ -118,7 +118,7 @@ sections:
           - εἰς τὸ ὀρχηστοδιδασκαλεῖον.
   - title:
       de: Eine Geschichte
-      ja: ひとつの話
+      ja: とある話
     conversations:
       - modern:
         - de: Hören Sie einmal zu, gnädige Frau, ich will Ihnen eine hübsche Geschichte erzählen.
@@ -155,7 +155,7 @@ sections:
           - τἀληθὲς γὰρ οὐκ ἐθέλεις φράσαι.
       - modern:
         - de: Wenn Sie wirklich die Wahrheit sprechen, so weiß ich nicht was ich sagen soll.
-          ja: もし本当に本当のことを言っているなら、何と言えばいいか分かりません。
+          ja: もし貴方が本当のことを言っているなら、私は何と言えばいいか分かりません。
         grc:
           - |-
             εἴπερ ὄντως σὺ\footnote{\textlatin{%
@@ -163,12 +163,12 @@ sections:
             } ταῦτ' ἀληθῆ λέγεις, οὐδὲν ἔχω εἰπεῖν.
       - modern:
         - de: Nach dem, was Sie sagen, muß man sie bewundern.
-          ja: あなたの話を聞くと、彼女は賞賛されるべきですね。
+          ja: あなたの言によれば、彼女は賞賛されるべきですね。
         grc:
           - κατὰ τὸν λόγον, ὃν σὺ λέγεις, ἀξία ἐστὶ θαυμάσαι.
       - modern:
         - de: Reden Sie mit ihr \emph{von} der Sache!
-          ja: その件について彼女に話してください！
+          ja: その件については彼女に話をしてください！
         grc:
           - "λέγ' αὐτῇ τὸ πρᾶγμα."
       - modern:
@@ -178,7 +178,7 @@ sections:
           - φράζειν.
       - modern:
         - de: Was hat sie darauf erwidert?
-          ja: それについて彼女は何と返事しましたか。
+          ja: それについて彼女は何と答えましましたか。
         grc:
           - τί πρὸς ταῦτα εἶπεν;
       - modern:
@@ -188,7 +188,7 @@ sections:
           - προφασίζεσται.
       - modern:
         - de: Ich will euch ein Märchen erzählen nämlich —
-          ja: ではおとぎ話を聞かせましょう、つまり——
+          ja: ではおとぎ話を聞かせましょう、——
         grc:
           - |-
             μῦθον ὑμῖν βούλομαι λέξαι οὕτως\footnote{\textlatin{%
@@ -200,7 +200,7 @@ sections:
     conversations:
       - modern:
         - de: Ich weiß es nicht.
-          ja: 知りません。
+          ja: それは知りません。
         grc:
           - οὐκ οἶδα.
       - modern:
@@ -210,7 +210,7 @@ sections:
           - οὐκ ἔχω φράσαι.
       - modern:
         - de: Worauf soll man rathen?
-          ja: 何を当てればいいのでしょうか。
+          ja: どういう帰結があるうるのでしょうか。
         grc:
           - ποῖ τις ἂν τράποιτο;
       - modern:
@@ -225,7 +225,7 @@ sections:
           - "οὐκ οἶδ' ἀκριβῶς."
       - modern:
         - de: Nein, soviel ich weiß.
-          ja: いいえ、私が知る限りでは。
+          ja: 私が知る限りでは、否です。
         grc:
           - "οὐχ, ὅσον γέ μ' εἰδέναι."
       - modern:
@@ -260,9 +260,9 @@ sections:
           - εἰ δὴ ἐπιθυμεῖς εἰδέναι, φράσω.
       - modern:
         - de: "Wär's möglich?"
-          ja: そんなことがあり得ますか？
+          ja: そんなまさか！
         grc:
-          - τί φής!
+          - τί φῄς\footnote{\textlatin{orig.} φής}!
       - modern:
         - de: Ich habe es aus bester Quelle.
           ja: 確かな筋から聞きました。
@@ -280,7 +280,7 @@ sections:
           - "τοῦτ' οὐκ ᾔδειν ἐγώ."
       - modern:
         - de: \emph{O, dann begreife ich, daß} Sie verstimmt sind.
-          ja: \emph{ああ、そうなら}ご機嫌ななめなのも分かります。
+          ja: \emph{なるほど}、ご機嫌ななめなのも\emph{ご尤もです}。
         grc:
           - \emph{οὐκ ἐτὸς ἄρα} λυπεῖ.
   - title:
@@ -289,7 +289,7 @@ sections:
     conversations:
       - modern:
         - de: Sehen Sie die hier an, wie \emph{schön} sie ist!
-          ja: ここにいる彼女をご覧なさい、なんて\emph{きれい}なんでしょう！
+          ja: ここにいる彼女をご覧なさい、なんて\emph{綺麗}なんでしょう！
         grc:
           - ὅρα ταυτηνὶ, ὡς καλή!
       - modern:
@@ -299,7 +299,7 @@ sections:
           - "τίς ποθ' αὑτηί;"
       - modern:
         - de: Die in dem grauen Kleide?
-          ja: 灰色の服を着ている人ですか？
+          ja: 灰色のドレスを着ている人ですか？
         grc:
           - ἡ τὸ φαιὸν ἔνδυμα ἀμπεχομένη;
       - modern:
@@ -319,22 +319,22 @@ sections:
           - \emph{γιγνώσκει} τις ὑμῶν;
       - modern:
         - de: Ja, ich.
-          ja: はい、私です。
+          ja: はい、私は（知っています）。
         grc:
           - νὴ Δία ἔγωγε.
       - modern:
         - de: Es ist meine Cousine.
-          ja: 彼女は私の従妹です。
+          ja: 彼女は私の従姉（又は従妹）です。
         grc:
           - ἐστὶν ἀνεψιά μου.
       - modern:
         - de: Wie schön sie aus\textcompwordmark{}sieht!
-          ja: なんて美しく見えるのでしょう！
+          ja: なんと美しい姿なのでしょう！
         grc:
           - οἷον τὸ κάλλος αὐτῆς φαίνεται!
       - modern:
         - de: Sie hat sehr gesunde Farbe.
-          ja: とても健康的な血色をしています。
+          ja: とても血色が良い。
         grc:
           - ὡς εὐχροεῖ!
       - modern:
@@ -359,22 +359,22 @@ sections:
           - ἔρως με εἴληφε τῆς κόρης ταύτης.
       - modern:
         - de: Aber sie hat wohl nichts?
-          ja: でも、持参金がないのでは？
+          ja: でも、貧乏\footnote{結婚持参金も用意できなさそう}なのでは？
         grc:
           - "ἀλλ' ἔχει οὐδέν;"
       - modern:
         - de: O nein, sie ist reich; sie hat ein respectables Vermögen.
-          ja: いいえ、彼女は裕福で、かなりの財産があります。
+          ja: いえ、実際、彼女は裕福で、かなりの財産があります。
         grc:
           - πλουτεῖ \emph{μὲν οὖν·} οὐσίαν γὰρ ἔχει συχνήν.
       - modern:
         - de: Weißt du, wem sie ganz ähnlich sieht? Der A.
-          ja: 彼女が誰にとてもよく似ているか分かる？　Aさんにそっくりです。
+          ja: 彼女が誰にとてもよく似ているか分かる？Aさんにそっくりです。
         grc:
           - "οὖσθ' ᾗ μάλιστ' ἔοικεν; τῇ Ἀ."
       - modern:
         - de: Dort ist ein schönes Mädchen! (Mädel!)
-          ja: あそこにきれいな娘さんがいる！（娘っ子だ！）
+          ja: あそこにきれいな\ruby{娘}{こ}がいる！
         grc:
           - ἐνταῦθα μείραξ ὡραία ἐστίν.
       - modern:
@@ -404,7 +404,7 @@ sections:
           - καὶ σιμή (ἐστιν).
       - modern:
         - de: Sie ist geschminkt.
-          ja: 化粧をしています。
+          ja: 化粧も済ませています。
         grc:
           - καὶ καταπεπλασμένη (ἐστίν).
       - modern:
@@ -428,7 +428,7 @@ sections:
     conversations:
       - modern:
         - de: Schulze heißt er? \emph{Was ist das für ein} Schulze?
-          ja: 彼はシュルツェというのですか？\emph{どんな}シュルツェ氏です？
+          ja: 彼はシュルツェというのですか？\emph{どの}シュルツェ氏ですか？
         grc:
           - Σχούλζιος αὐτῷ ὄνομα; ποῖος οὗτος ὁ Σχούλζιος;
       - modern:
@@ -438,7 +438,7 @@ sections:
           - οὐκ οἶσθα αὐτόν;
       - modern:
         - de: Nein, ich bin fremd hier und erst eben angekommen.
-          ja: いいえ、私はここではよそ者で、今着いたばかりです。
+          ja: いいえ、この町は初めてで、今しがた着いたばかりです。
         grc:
           - οὐ μὰ Δία ἔγωγε, ξένος γάρ εἰμι ἀρτίως ἀφιγμένος.
       - modern:
@@ -483,7 +483,7 @@ sections:
             ἐστιν.
       - modern:
         - de: \myafterpagetrue\mysetaligntext{german}{Es ist{ }}\mysetalign{german}Fabrikant.
-          ja: \myafterpagetrue\mysetaligntext{japanese}{彼は{ }}\mysetalign{japanese}製造業者です。
+          ja: \myafterpagetrue\mysetaligntext{japanese}{彼は{ }}\mysetalign{japanese}工場主です。
         grc:
           - ἐργαστήριον ἔχει.
       - modern:
@@ -548,7 +548,7 @@ sections:
           - ἐκ τῶν ἀγρῶν ἐστιν.
       - modern:
         - de: Er ist aus der Nachbarschaft.
-          ja: 近所の人です。
+          ja: 彼は近所の人です。
         grc:
           - ἐκ τῶν γειτόνων ἐστίν.
       - modern:
@@ -558,12 +558,12 @@ sections:
           - ἄχθομαι αὐτῷ συνὼν ἔγωγε.
       - modern:
         - de: Er ist nicht schlecht von Charakter.
-          ja: 性格は悪くありません。
+          ja: 彼は性格は悪くありません。
         grc:
           - οὐ πονηρός ἐστι τοὺς τρόπους.
       - modern:
         - de: (Seht nur) wie protzig er hereingekommen ist!
-          ja: （ごらん）なんと尊大に入ってきたことでしょう！
+          ja: （ご覧）なんと尊大に入ってきたことでしょう！
         grc:
           - \emph{ὡς σοβαρὸς} εἰσελήλυθεν!
       - modern:
@@ -592,7 +592,7 @@ sections:
           - πηλίκη ἐστίν;
       - modern:
         - de: Sie ist über ein Jahr älter als du.
-          ja: 彼女は君より一年以上年上です。
+          ja: 彼女は君より一歳以上年上です。
         grc:
           - "πλεῖν ἢ 'νιαυτῷ σου πρεσβυτέρα ἐστίν."
       - modern:
@@ -617,7 +617,7 @@ sections:
           - ἐνταῦτα κάθηται παρὰ ταῖς πρεσβυτέραις γυναιξίν.
       - modern:
         - de: "Wo? zeig' einmal!"
-          ja: どこ？　見せて！
+          ja: どこ？見せて！
         grc:
           - τοῦ; δεῖξον!
       - modern:
@@ -627,7 +627,7 @@ sections:
           - "ποίαν τιν' ἔχει σκευήν;"
       - modern:
         - de: Ihre Mutter ist \emph{seit} 10 Jahren todt.
-          ja: 彼女の母は10年前に亡くなりました。
+          ja: 彼女の母が亡くなって10年になりました。
         grc:
           - τέθνηκεν ἡ μήτηρ αὐτῆς ἔτη δέκα.
       - modern:

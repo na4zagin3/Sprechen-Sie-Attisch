@@ -34,7 +34,7 @@ sections:
           - ἐπὶ τί πάρει δεῦρο;
       - modern:
         - de: Ich bitte Sie, leihen Sie mir 20 Mark!
-          ja: ２０マルク貸してください！
+          ja: 20マルク貸してください！
         grc:
           - δάνεισόν μοι πρὸς τῶν θεῶν εἴκοσι μάρκας{*}!
       - modern:
@@ -139,13 +139,13 @@ sections:
         grc:
           - "μὰ Δί', ἀλλ' ἔλαττον."
       - modern:
-        - de: Geben Sie zwei Mark darür!
-          ja: ２マルクで譲ってくれ！
+        - de: Geben Sie zwei Mark dafür!
+          ja: 2マルクで譲ってくれ！
         grc:
           - δύο μάρκας τελεῖς;
       - modern:
         - de: Hier haben Sie 1 Mark 50 Pf.
-          ja: はい、１マルク５０ペニヒだ。
+          ja: はい、1マルク50ペニヒだ。
         grc:
           - λαβὲ μάρκην καὶ ἡμίσειαν.
       - modern:
@@ -155,7 +155,7 @@ sections:
           - πῶς τὰ βαλάντια ὤνια;
       - modern:
         - de: Für 4 Mark können Sie ein ganz schönes bekommen.
-          ja: ４マルクならなかなか良いものが買えますよ。
+          ja: 4マルクならなかなか良いものが買えますよ。
         grc:
           - λήψει τεσσάρων μαρκῶν πάνυ καλόν.
       - modern: # ToDo: Fix
@@ -170,7 +170,7 @@ sections:
           - \emph{αὐτὸς} σὺ τί δίδως;
       - modern:
         - de: Was ich biete? Zwei Mark würde ich geben.
-          ja: 幾ら出せるって？ ２マルクなら払えるよ。
+          ja: 幾ら出せるって？2マルクなら払えるよ。
         grc:
           - ὅτι δίδωμι; δοίην ἂν δύο μάρκας.
       - modern:
@@ -185,12 +185,12 @@ sections:
           - ἅνθρωπος οὐκ ἀπαλλαχθήσεται ἡμῶν.
       - modern:
         - de: Das Messer taugt nichts; ich würde nicht 1 Mark dafür geben.
-          ja: このナイフは駄目だ、１マルクでも買わないね。
+          ja: このナイフは駄目だ、1マルクでも買わないね。
         grc:
           - οὐδέν ἐστιν ἡ μάχαιρα· οὐκ ἂν πριαίμην οὐδὲ μιᾶς μάρκης.!
       - modern:
         - de: Ich habe selbst seiner Zeit 3 Mark dafür gegeben.
-          ja: これには私自身昔３マルク払ったのです。
+          ja: これには私自身昔3マルク払ったのです。
         grc:
           - αὐτὸς ἀντέδωκα τούτου ποτὲ τρεῖς μάρκας.
       - modern:
@@ -235,17 +235,17 @@ sections:
           - \emph{ταῦτα} δή.
       - modern:
         - de: Ich habe 3 Mark \emph{dafür} bezahlt.
-          ja: 私はそれに３マルク払ったんです。
+          ja: 私はそれに3マルク払ったんです。
         grc:
           - ἀπέδοκα \emph{ὀφείλων} τρεῖς μάρκας.
       - modern:
         - de: In Leipzig verkauft man das Dutzend für 20 Mark.
-          ja: ライプツィヒではダースで２０マルクで売っている。
+          ja: ライプツィヒではダースで20マルクで売っている。
         grc:
           - ἐν Λειψίᾳ{*} πωλοῦνται κατὰ δώδεκα εἴκοσι μαρκῶν.
       - modern:
         - de: Das hier hat er für 1 Mark verkauft.
-          ja: これはあそこでは１マルクで売っていた。
+          ja: これはあそこでは1マルクで売っていた。
         grc:
           - τοδὶ ἀπέδοτο μιᾶς μάρκης.
   - title:
@@ -309,12 +309,12 @@ sections:
           - τὸ ῥινόμακτρον.
       - modern:
         - de: Was soll ich \emph{dafür} zahlen?
-          ja: それにはいくら払えばいいですか。
+          ja: それには幾ら払えばいいですか。
         grc:
           - τί τελῶ ταῦτα \emph{ὠνούμενος;}
       - modern:
         - de: 50 Mark für einen Rock und 20 Mark für die Beinkleider.
-          ja: 上着５０マルク、ズボン２０マルクです。
+          ja: 上着50マルク、ズボン20マルクです。
         grc:
           - "πεντήκοντα μάρκας{*} εἰς ἱμάτιον, εἴκοσι δ' εἰς βράκας."
       - modern:
@@ -424,12 +424,12 @@ sections:
           - ἐν ἀγορᾷ.
       - modern:
         - de: Für wieviel?
-          ja: いくらで？
+          ja: お幾らで？
         grc:
           - καὶ πόσου;
       - modern:
         - de: Für 16 Mark.
-          ja: １６マルクで。
+          ja: 16マルクで。
         grc:
           - ἑκκαίδεκα μαρκῶν{*}.
   - title:
@@ -448,7 +448,7 @@ sections:
           - τίνος ἕνεκα;
       - modern:
         - de: Sie geht auf den Markt, um Trauben zu holen.
-          ja: 彼女はぶどうを買いに市場へ行く。
+          ja: 彼女は葡萄を買いに市場へ行く。
         grc:
           - χωρεῖ εἰς ἀγορὰν ἐπὶ βότρυς.
       - modern:
@@ -458,7 +458,7 @@ sections:
           - ὠνήσομαι, ἐὰν σύ μοι δῷς τἀργύριον.
       - modern:
         - de: Da hast du ein paar Groschen!
-          ja: ほら、小銭をいくつかやるよ。
+          ja: ほら、銭を幾らかやるよ。
         grc:
           - ἰδοὺ λαβὲ μικρὸν ἀργυρίδιον!
       - modern:
@@ -468,12 +468,12 @@ sections:
           - τί βούλει με πρίασθαι;
       - modern:
         - de: Wir wollen für dieses Geld Pfirsiche kaufen.
-          ja: このお金で桃を買おう。
+          ja: この金で桃を買おう。
         grc:
           - ὠνησόμεθα περσικὰ τούτου τοῦ ἀργυρίου.
       - modern:
         - de: \myafterpagetrue\mysetaligntext{german}{Kaufe mir{ }}\mysetalign{german}Äpfel.
-          ja: リンゴを私に買ってきて。
+          ja: \ruby{林檎}{リンゴ}を私に買ってきて。
         grc:
           - \mysetaligntext{greek}{\textgreek{ἀγόρασόν μοι}{ }}\mysetalign*{greek}\textgreek{μῆλα.}
       - modern:
@@ -513,7 +513,7 @@ sections:
           - \bgroup\mysetalign*{greek}κάρυα.\par\egroup
       - modern:
         - de: \bgroup\mysetalign{german}Haselnüsse.\par\egroup
-          ja: ヘーゼルナッツを。
+          ja: \ruby{榛実}{ヘーゼルナッツ}を。
         grc:
           - \bgroup\mysetalign*{greek}λεπτοκάρυα.\par\egroup
       - modern:
@@ -533,7 +533,7 @@ sections:
           - \bgroup\mysetalign*{greek}πορτοκάλια{*}. (\textgerman{Früchte aus Portugal.})\par\egroup
       - modern:
         - de: \bgroup\mysetalign{german}Johannis\textcompwordmark{}beeren.\par\egroup
-          ja: スグリを。
+          ja: \ruby{酸塊}{スグリ}を。
         grc:
           - \bgroup\mysetalign*{greek}φραγγοστάφυλα{*}.\par\egroup
       - modern:
@@ -553,12 +553,12 @@ sections:
           - πόσον δίδως δῆτα τἀργυρίου;
       - modern:
         - de: Die Mandel für eine Mark.
-          ja: １マルクで十五個だ。
+          ja: 1マルクで15個だ。
         grc:
           - πεντεκαίδεκα τῆς μάρκης.
       - modern:
         - de: Was kostet jetzt die Butter?
-          ja: 今のバターはいくらですか。
+          ja: 今の\ruby{牛酪}{バター}は幾らですか。
         grc:
           - |-
             πῶς ὁ βούτυρος (τὸ βούτυρον) τὸ\footnote{\textlatin{%
@@ -576,7 +576,7 @@ sections:
           - δεῖ τίμιον πρίασθαι αὐτόν.
       - modern:
         - de: Frische Butter, friesches Fleisch.
-          ja: 新鮮なバター、新鮮な肉だ。
+          ja: 新鮮な\ruby{牛酪}{バター}、新鮮な肉だ。
         grc:
           - \emph{χλωρὸς} βούτυρος, χλωρὸν κρέας.
       - modern:
