@@ -137,3 +137,13 @@ sympy-plots-for-*.tex/
 
 # Temporary files
 part-*.tex
+lexicon.tex
+
+.pdf-view-restore
+
+*.xdv
+*.ltjruby
+*.upa
+*.upb
+
+/auto

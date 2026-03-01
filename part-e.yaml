@@ -1,5 +1,5 @@
 part:
-  de: Liebes\textcompwordmark{}glück und Liebes\textcompwordmark{}meh.
+  de: Liebes\textcompwordmark{}glück und Liebes\textcompwordmark{}weh.
   ja: 恋の幸せと恋の苦しみ
 sections:
   - title:
@@ -16,29 +16,29 @@ sections:
             } ἐρεῖς περὶ τῆς μείρακος;
       - modern:
         - de: Alles nichts gegen meine Anna!
-          ja: うちのアンナに比べればたいしたことありませんよ。
+          ja: 我がアンナに比べれば大したことありませんよ。
         grc:
           - λῆρός ἐστι τἆλλα πρὸς Ἄνναν.
       - modern:
         - de: Die Sehnsucht nach Anna quält mich.
-          ja: アンナに会いたい気持ちが私を苦しめています。
+          ja: アンナに会いたい気持ちに\ruby{苛}{さいな}まれています。
         grc:
           - |-
             ἵμερός με (\textgerman{od.} πόθος
             με) διαλυμαίνεται Ἄννης.
       - modern:
         - de: Im Ernst?
-          ja: 本気ですか。
+          ja: \ruby{真実}{まこと}か？
         grc:
           - ὢ τί λέτεις;
       - modern:
         - de: Du wunderst dich?
-          ja: 驚きましたか。
+          ja: 驚いたか？
         grc:
           - ἐθαύ\emph{μασας};
       - modern:
         - de: Warum wunderst du dich?
-          ja: なぜ驚くのですか。
+          ja: なぜ驚くのだ。
         grc:
           - τί ἐθαύμασας;
       - modern:
@@ -48,14 +48,16 @@ sections:
           - ὡς ἄχθομαι αὐτῆς ἀπούσης!
       - modern:
         - de: Sei kein Thor!
-          ja: ばかなことを言わないで。
+          ja: ばかなことを言うな。
         grc:
           - μὴ ἄφρων γένῃ!
       - modern:
         - de: Die Zeit wird mir lang, weil ich das herrliche Mädchen nicht sehe.
           ja: あのすばらしい娘に会えないので時間が長く感じます。
         grc:
-          - πάνυ πολύς μοι δοκεῖ εἶναι χρόνος, ὅτι οὐχ ὁρῶ αὑτὴν τοιαύτην οὖσαν.
+          - πάνυ πολύς μοι δοκεῖ εἶναι χρόνος, ὅτι οὐχ ὁρῶ αὐτὴν τοιαύτην οὖσαν.
+        citation:
+          - Xenophontis _Institutio Cyri_ I.iv.28.11.  οὐκ οἶσθα, φάναι, ὦ Κῦρε, ὅτι καὶ ὅσον σκαρδαμύττω χρόνον, πάνυ πολύς μοι δοκεῖ εἶναι, ὅτι οὐχ ὁρῶ σε τότε τοιοῦτον ὄντα;
       - modern:
         - de: Sie ist nicht hier.
           ja: 彼女はここにいません。
@@ -91,12 +93,12 @@ sections:
           - ἄτοπον τουτὶ πρᾶγμα!
       - modern:
         - de: Was fällt dir ein?
-          ja: 何を考えているんだ。
+          ja: お前は一体何を考えているんだ。
         grc:
           - τί πάσχεις;
       - modern:
         - de: Siehst du nicht? N. lauft ihr nach. Er begrüßt sie angelegentlich!
-          ja: 見えませんか。Ｎが後を追って、丁寧に挨拶していますよ。
+          ja: 見えないか。Nが彼女の後を追って、懇ろに挨拶しているぞ。
         grc:
           - οὐχ ὁρᾶς; Ν. ἀκολουθεῖ κατόπιν αὐτῆς καὶ ἀσπάζεται!
       - modern:
@@ -111,12 +113,12 @@ sections:
           - ἡ δὲ δεξιοῦται αὐτόν.
       - modern:
         - de: Ach, ich Ärmster!
-          ja: ああ、かわいそうな私。
+          ja: ああ、惨めな私。
         grc:
           - οἴμοι κακοδαίμων.
       - modern:
         - de: Sie scheint dich nicht zu sehen.
-          ja: 彼女はあなたに気づいていないようです。
+          ja: 彼女は君に気づいていないようだ。
         grc:
           - οὐ δοκεῖ ὁρᾶν σε.
       - modern:
@@ -126,7 +128,7 @@ sections:
           - ἐνέβελε τὴν δεξιάν.
       - modern:
         - de: Kümmere dich nicht weiter um sie!
-          ja: 彼女のことはもう気にしないでください。
+          ja: 彼女のことはもう気にしないでくれ。
         grc:
           - ταύτην μὲν \emph{ἔα χαίρειν}!
       - modern:
@@ -143,7 +145,7 @@ sections:
         - de: |-
             Das ist gar \emph{nicht schön} von Ihnen, \emph{daß} Sie mich nicht
             begrüßt haben.
-          ja: 私に挨拶しなかったとは、本当にひどいことですよ。
+          ja: あなたが私に挨拶しなかったとは、本当にひどいことですよ。
         grc:
           - καλῶς γε οὐ προσεῖπάς με! \textgerman{(ironisch.)}
   - title:

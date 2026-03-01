@@ -369,7 +369,7 @@ sections:
           - πλουτεῖ \emph{μὲν οὖν·} οὐσίαν γὰρ ἔχει συχνήν.
       - modern:
         - de: Weißt du, wem sie ganz ähnlich sieht? Der A.
-          ja: 彼女が誰にとてもよく似ているか分かる？Aさんにそっくりです。
+          ja: 彼女が誰にそっくりか分かる？Aさんにそっくりだ。
         grc:
           - "οὖσθ' ᾗ μάλιστ' ἔοικεν; τῇ Ἀ."
       - modern:
@@ -414,7 +414,7 @@ sections:
           - ὄζει δὲ μύρου.
       - modern:
         - de: Riechst du etwas?
-          ja: 何か匂いますか。
+          ja: 何か匂うか？
         grc:
           - ὀσφραίνει τι;
       - modern:
@@ -563,7 +563,7 @@ sections:
           - οὐ πονηρός ἐστι τοὺς τρόπους.
       - modern:
         - de: (Seht nur) wie protzig er hereingekommen ist!
-          ja: （ご覧）なんと尊大に入ってきたことでしょう！
+          ja: （ご覧、）なんと尊大に入ってきたことでしょう！
         grc:
           - \emph{ὡς σοβαρὸς} εἰσελήλυθεν!
       - modern:
@@ -592,7 +592,7 @@ sections:
           - πηλίκη ἐστίν;
       - modern:
         - de: Sie ist über ein Jahr älter als du.
-          ja: 彼女は君より一歳以上年上です。
+          ja: 彼女は君より一歳以上年上だ。
         grc:
           - "πλεῖν ἢ 'νιαυτῷ σου πρεσβυτέρα ἐστίν."
       - modern:
@@ -602,12 +602,12 @@ sections:
           - ὑπὲρ εἴκοσιν ἔτη \emph{γεγονυῖα.}
       - modern:
         - de: Du bist ein junger Mann \emph{von} 19 Jahren.
-          ja: 君は\emph{19歳の}若者です。
+          ja: 君は\emph{19歳の}若者だ。
         grc:
           - σὺ δὲ ἀνὴρ νέος εἶ ἐννεακαίδεκα ἐτῶν.
       - modern:
         - de: Du mußt mit denen unter zwanzig tanzen.
-          ja: 20歳未満の人と踊らなければなりません。
+          ja: 君は20歳未満の人と踊らなければならないぞ。
         grc:
           - δεῖ οὖν ὀρχεῖσθαί σε μετὰ τῶν \emph{ἐντὸς} εἴκοσιν.
       - modern:

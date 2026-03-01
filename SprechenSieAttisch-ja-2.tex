@@ -7,6 +7,7 @@
 \usepackage{tcolorbox}
 \usepackage{amsfonts}
 \usepackage{todonotes}
+\usepackage{qrcode}
 
 \includeversion{frakturfonttypesetting}
 \excludeversion{romanfonttypesetting}
@@ -87,12 +88,12 @@
 \section*{まえがき}
 本書は、%
 第A部から第J部、並びに文法要項と単語集からなる原書1889年刊行版%
-\url{https://books.google.co.jp/books/about/Sprechen_Sie_Attisch.html?id=swUZAAAAYAAJ&redir_esc=y}%
+\hspace{0pt}{\marginpar{\setlength\normallineskiplimit{0pt}\qrcode[height=28pt]{https://books.google.co.jp/books/about/Sprechen_Sie_Attisch.html?id=swUZAAAAYAAJ&redir_esc=y}}}\url{https://books.google.co.jp/books/about/Sprechen_Sie_Attisch.html?id=swUZAAAAYAAJ&redir_esc=y}%
 のうち、第C部のドイツ語部分を、ギリシャ語部分も参考にして和訳したものです。
 
 オープンソースプロジェクトとして翻訳をしていきたいと思っているので、
 誤りや改善案等ございましたら、是非とも%
-\url{https://github.com/na4zagin3/Sprechen-Sie-Attisch}%
+\marginpar{\setlength\normallineskiplimit{0pt}\qrcode[height=28pt]{https://github.com/na4zagin3/Sprechen-Sie-Attisch}}\url{https://github.com/na4zagin3/Sprechen-Sie-Attisch}%
 にissueを立てるなり、pull requestを送るなりして下さると、幸甚です。
 
 ギリシャ語学習の一助になれば幸いです。一緒に古典語学習ブームを盛り上げていきましょう！
@@ -182,17 +183,21 @@ Ligaturesを有効にしました。
 \vspace*{\fill}
 
 \begin{tcolorbox}[width=0.85\columnwidth,before=\par\smallskip\centering,after=\par,colback=white,coltext=black,]
-  \begin{tabularx}{\columnwidth}{@{}r@{\hspace*{0.25\zw}：\hspace*{0.15\zw}}X@{}}
-    \kintou{6\zw}{書名}&アッティカ方言で話しませんか? 日本語訳 第C部
+  \begin{tabularx}{\columnwidth}{@{}r@{\hspace*{0.25\zw}}X@{}}
+    \kintou{6\zw}{書名}：&アッティカ方言で話しませんか? 日本語訳 第C部
     % \hfill{\includegraphics[trim={8cm 12cm 8cm 12cm},width=6em,valign=t]{./c100_logo_mono.png}}%
     \\
-    \kintou{6\zw}{発行サークル}&ヒュアリニオス\newline\url{https://hyalinios.hatenadiary.com}%
+    \kintou{6\zw}{発行サークル}：&ヒュアリニオス
+                                   \\
+                         &\url{https://hyalinios.hatenadiary.com}
+                           \\[2mm]
+                           &\multicolumn{1}{r}{\setlength\normallineskiplimit{0pt}\qrcode[height=36pt]{https://hyalinios.hatenadiary.comhttps://github.com/na4zagin3/Sprechen-Sie-Attisch}}%
+    \\[2mm]
+    \kintou{6\zw}{発行責任者}：&ざぎん\newline Twitter（現$\mathbb{X}$）: \textsf{@na4zagin3}%
     \\
-    \kintou{6\zw}{発行責任者}&ざぎん\newline Twitter（現$\mathbb{X}$）: \textsf{@na4zagin3}%
+    \kintou{6\zw}{発行日}：&初版\quad \phantom{第1刷\quad }2025年12月31日
     \\
-    \kintou{6\zw}{発行日}&初版\quad \phantom{第1刷\quad }2025年12月31日
-    \\
-    %\kintou{6\zw}{印刷}&ちょ古っ都製本工房
+    %\kintou{6\zw}{印刷}：&ちょ古っ都製本工房
     %\\
   \end{tabularx}
 \end{tcolorbox}
