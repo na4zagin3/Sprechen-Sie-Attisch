@@ -42,7 +42,7 @@ sections:
         - de: Bitte, hören Sie auf, ich kann nicht mehr.
           ja: すみません、もう踊れませんからやめてください。
         grc:
-          - "παῦε δῆτ' ὀρχούμενος, !\\footnote{\\textlatin{sic}}}"
+          - "παῦε δῆτ' ὀρχούμενος, !\\footnote{\\textlatin{sic}}"
       - modern:
         - de: Ich bin müde.
           ja: 疲れました。
