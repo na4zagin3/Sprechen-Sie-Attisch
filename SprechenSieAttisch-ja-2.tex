@@ -32,9 +32,9 @@
 \setotherlanguage{latin}
 \setmainlanguage{japanese}
 
-\newcommand{\trDE}[1]{\begin{german}{#1}\end{german}}
-\newcommand{\trLA}[1]{}
-\newcommand{\trJA}[1]{\begin{japanese}{#1}\end{japanese}}
+\newcommand{\trDE}[1]{\texorpdfstring{\begin{german}#1\end{german}}{#1}}
+\newcommand{\trLA}[1]{\texorpdfstring{}{}}
+\newcommand{\trJA}[1]{\texorpdfstring{\begin{japanese}#1\end{japanese}}{#1}}
 \newcommand{\switchcolumnde}{\switchcolumn}
 \newcommand{\switchcolumnla}{}
 \newcommand{\switchcolumnja}{\switchcolumn}

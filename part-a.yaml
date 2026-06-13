@@ -13,7 +13,7 @@ sections:
           - ὦ χαῖρε!
       - modern:
         - de: Guten Morgen, Karl!
-          ja: おはよう、カール\footnote{ΚάρολοςはKarlのラテン語形Carolusをギリシャ語化した形のようである。}！
+          ja: おはよう、カール\footnote{\textgreek[variant=ancient]{Κάρολος}はKarlのラテン語形Carolusをギリシャ語化した形のようである。}！
         grc:
           - "χαῖρ' ὦ Κάρολε!"
       - modern:
@@ -332,7 +332,7 @@ sections:
 
       - modern:
         - de: Geben Sie mir eine Hand!
-          ja: 右手\footnote{δεξιά, ἡは右手の意であるが、歓迎や挨拶の時にはδεξιὰν διδόναι [προτείνειν, ἐμβάλλειν]するものらしい。ホメーロスでは、差し出すものはδεξιάであってχείρは使われていなかったらしい。LSJ δεξιάを見よ。}を差し出して下さい！
+          ja: 右手\footnote{\textgreek[variant=ancient]{δεξιά, ἡ}は右手の意であるが、歓迎や挨拶の時には\textgreek[variant=ancient]{δεξιὰν διδόναι [προτείνειν, ἐμβάλλειν]}するものらしい。ホメーロスでは、差し出すものは\textgreek[variant=ancient]{δεξιά}であって\textgreek[variant=ancient]{χείρ}は使われていなかったらしい。LSJ \textgreek[variant=ancient]{δεξιά}を見よ。}を差し出して下さい！
         grc:
           - ἔμβαλέ μοι τὴν δεξιάν!
 
@@ -437,7 +437,7 @@ sections:
 
       - modern:
         - de: Gleich!
-          ja: はい、ただいま！\footnote{LSJ ``οὗτος, αὕτη, τοῦτο'' C VII 1 \textgreek{ταῦτ̓, ὦ δέσποτα} \emph{yes} Sir (i.e., \textgreek{ἔστι ταῦτα, ταῦτα δράσς,}, etc.), Ar.V142, Pax275, cf. Eq.III}
+          ja: はい、ただいま！\footnote{LSJ ``\textgreek[variant=ancient]{οὗτος, αὕτη, τοῦτο}'' C VII 1 \textgreek[variant=ancient]{ταῦτ̓, ὦ δέσποτα} \emph{yes} Sir (i.e., \textgreek[variant=ancient]{ἔστι ταῦτα, ταῦτα δράσς,}, etc.), Ar.V142, Pax275, cf. Eq.III}
         grc:
           - ταῦτα!
 
@@ -1067,7 +1067,7 @@ sections:
           - ὥσπερ καὶ πρὸ τοῦ.
       - modern:
         - de: Auf welchen Tag?
-          ja: 何日に\footnote{\textlatin{アッティカ方言では通常は\textgreek{«εἰς»}}}？
+          ja: 何日に\footnote{アッティカ方言では通常は\textgreek[variant=ancient]{«εἰς»}}？
         grc:
           - ἐς τίνα ἡμέραν.
           #- |-
@@ -1857,8 +1857,8 @@ sections:
         grc:
           - ἐπὶ ζῦθον εἶμι.
       - modern:
-        - de: Ich werde Sie nöthigenfalls rufen. (\textgreek{εἴ τι δέοι} = wenn es nötig werden \emph{sollte;} dagegen \textgreek{ἐάν τι δέη} = wenn es nötig wird)
-          ja: 万一必要なことがあったら呼ぶよ。（\textgreek{εἴ τι δέοι}＝万一必要なことがあったら。対して、\textgreek{ἐάν τι δέη}＝必要なことがあれば）
+        - de: Ich werde Sie nöthigenfalls rufen. (\textgreek[variant=ancient]{εἴ τι δέοι} = wenn es nötig werden \emph{sollte;} dagegen \textgreek[variant=ancient]{ἐάν τι δέη} = wenn es nötig wird)
+          ja: 万一必要なことがあったら呼ぶよ。（\textgreek[variant=ancient]{εἴ τι δέοι}＝万一必要なことがあったら。対して、\textgreek[variant=ancient]{ἐάν τι δέη}＝必要なことがあれば）
         grc:
           - καλῶ (καλέσω) σε, εἴ τι δέοι.
 #      - modern:
@@ -2215,7 +2215,7 @@ sections:
         grc:
           - λαβὲ καὶ πλακοῦντος πίονος τόμον.
         note:
-          ja: πλακοῦς, πλακοῦντος, ὁは丸いパンのようなもの。ドイツ語原文はSpeckkuchenでベーコン入りパンケーキのこと。
+          ja: \textgreek[variant=ancient]{πλακοῦς, πλακοῦντος, ὁ}は丸いパンのようなもの。ドイツ語原文はSpeckkuchenでベーコン入りパンケーキのこと。
       - modern:
         - de: "Ich danke bestens! (Nein!)"
           ja: ともあれ、どうもありがとう。（丁寧な拒絶）

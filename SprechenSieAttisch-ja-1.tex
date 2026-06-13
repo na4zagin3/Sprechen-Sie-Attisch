@@ -29,9 +29,9 @@
 \setotherlanguage{latin}
 \setmainlanguage{japanese}
 
-\newcommand{\trDE}[1]{}
-\newcommand{\trLA}[1]{}
-\newcommand{\trJA}[1]{\begin{japanese}{#1}\end{japanese}}
+\newcommand{\trDE}[1]{\texorpdfstring{}{#1}}
+\newcommand{\trLA}[1]{\texorpdfstring{}{}}
+\newcommand{\trJA}[1]{\texorpdfstring{\begin{japanese}#1\end{japanese}}{#1}}
 \newcommand{\switchcolumnde}{}
 \newcommand{\switchcolumnla}{}
 \newcommand{\switchcolumnja}{\switchcolumn}
@@ -172,7 +172,7 @@ Ligaturesを有効にしたものです。
     \\
     \kintou{4\zw}{発行}&ヒュアリニオス%
     \\
-    \kintou{4\zw}{ 訳 }&ざぎん\hspace{1em}\textsf{@na4zagin3}%
+    \makebox[4\zw][c]{訳}&ざぎん\hspace{1em}\textsf{@na4zagin3}%
     \\
   \end{tabularx}
 \end{tcolorbox}

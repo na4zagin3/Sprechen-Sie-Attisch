@@ -581,8 +581,8 @@ sections:
         grc:
           - σκόπει τὸ ῥῆμα τοῦτο!
       - modern:
-        - de: \textgreek{ἥκω} ist gleichbedeutend mit \textgreek{κατέρχομαι.}
-          ja: 「ἥκω」は「κατέρχομαι」と同義です。
+        - de: \textgreek[variant=ancient]{ἥκω} ist gleichbedeutend mit \textgreek[variant=ancient]{κατέρχομαι.}
+          ja: 「\textgreek[variant=ancient]{ἥκω}」は「\textgreek[variant=ancient]{κατέρχομαι}」と同義です。
         grc:
           - ἥκω ταὐτόν ἐστι τῷ κατέρχομαι.
       - modern:
