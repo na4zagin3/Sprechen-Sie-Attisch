@@ -37,7 +37,6 @@
 \usepackage{quoting}
 \usepackage{version}
 \usepackage{calc}
-\usepackage{everypage}
 \usepackage{multicol}
 % \usepackage{titlesec}
 \usepackage{tocloft}
@@ -233,7 +232,7 @@
 %\newcommand{\mysetalign}[1]{}
 \newcommand{\myaligntext}[1]{\ifmyafterpage\else\fi}
 %
-\AddEverypageHook{\global\myafterpagetrue}
+\AddToHook{shipout/background}{\put(1in,-1in){\global\myafterpagetrue}}
 %\rfoot{\global\myafterpagetrue}
 \newcommand{\StarOrnament}{\begin{center}\begin{minipage}{10em}\centering$\ast$\hspace{5em}$\ast$\\$\ast$\end{minipage}\end{center}\par}
 
@@ -274,4 +273,3 @@
 \newcommand{\jdb}[1]{#1\hspace*{-\zw}\rlap{\hspace{0.75\zw}^^^^0323}　}
 
 \makeatother
-
