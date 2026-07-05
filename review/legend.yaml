@@ -1,0 +1,1192 @@
+meta:
+  source: legend.tex
+  translation: legend-ja.tex
+  purpose: >
+    Working file for German-Japanese translation review. Preserve the German
+    source text as given, except for likely OCR or comparable transcription
+    errors. The review target is the Japanese translation.
+  status_values:
+    - needs-review
+    - source-checked
+    - ja-revised
+    - accepted
+
+terms:
+  Attiker_person:
+    de: Attiker
+    ja: ア\jdb{テ}ーナイ人
+    note: >
+      For persons, use the singular place-name based Japanese form requested
+      by the user. Avoid アッティカ人 unless the source clearly means an
+      inhabitant of Attica more broadly.
+  attische_Umgangssprache:
+    de: attische Umgangssprache
+    ja_options:
+      - アッティカ方言口語
+      - ア\jdb{テ}ーナイの日常語
+      - アッティカの日常口語
+    note: >
+      Decide by context. The phrase often means everyday spoken Attic, not
+      merely a formal dialect label.
+
+entries:
+  - id: legend-001-title
+    de_location: legend.tex:1
+    ja_location: legend-ja.tex:3-5
+    de: |-
+      Vorbemerkungen
+    ja_current: |-
+      前言
+    ja_revised: |-
+      前言
+    vocab:
+      - de: Vorbemerkungen
+        ja_options: ["前言", "序言", "前置き"]
+        note: "A prefatory remarks heading; not quite 凡例 unless the section is treated as editorial conventions."
+    notes:
+      - "Full German TOC title: Vorbemerkungen über die Bedeutung der attischen Umgangssprache für das Erlernen des Griechischen."
+      - "Japanese TOC title currently renders the full title."
+    status: needs-review
+    review_comments:
+      - "前言 is fine for a preface-like section. 凡例 would suggest editorial conventions more strongly than this passage does."
+
+  - id: legend-002-unlearnable-language
+    de_location: legend.tex:3-8
+    ja_location: legend-ja.tex:8-23
+    de: |-
+      Griechisch gilt den Allermeisten für eine im Grunde unlernbare Sprache,
+      deren man nimmermehr so mächtig werden könne, wie einer neueren, die
+      man leidlich beherrscht. Vorliegendes Büchlein, das fröhlicher Ferienlaune
+      seinen Ursprung verdankt, möchte den Gegenbeweis führen, indem es
+      einen ersten Versuch macht, attische Umgangs\textcompwordmark{}sprache
+      in ihren gebräuchlichsten Wendungen zu lehren.
+    ja_current: |-
+      ギリシャ語は、ほとんどの人にとり、基本的に学べない言語と考えられており、
+      まともに把握している現代言語ほどには決して習熟できないものと思われている。
+      本小書は、明るい休暇気分の気分がその発端となったもので、
+      アッティカ方言口語を最も一般的な言い囘しで教えることで、その反証を試みるものだ。
+    ja_revised: |-
+      ギリシャ語は、ほとんどの人にとり、根本的には習得できない言語と考えられており、
+      世人がそこそこ使いこなせる所の近代語ほどには決して習熟できないものと思われている。
+      本小書は、明るい休暇気分の気分がその発端となったもので、
+      アッティカ方言口語を最もよく用いられる言い回しで教えることで、その反証を試みるものである。
+    gloss:
+      - "den Allermeisten: to the great majority."
+      - "im Grunde unlernbare Sprache: basically/fundamentally unlearnable language."
+      - "nimmermehr so mächtig werden: never become as commandingly proficient in it."
+      - "fröhlicher Ferienlaune: cheerful holiday mood."
+      - "Gegenbeweis führen: furnish the counterproof."
+    vocab:
+      - de: Griechisch
+        ja_options: ["ギリシャ語"]
+        note: "Object of the whole pedagogical defense."
+      - de: den Allermeisten
+        ja_options: ["ほとんどの人にとって", "大多数の人には"]
+        note: "Dative of viewpoint."
+      - de: unlernbare Sprache
+        ja_options: ["習得できない言語", "学びえない言語"]
+        note: "Core polemical label repeated later as the source of Greek's opponents."
+      - de: mächtig werden
+        ja_options: ["自在に扱えるようになる", "習熟する"]
+        note: "Command/mastery, stronger than simply 知る."
+      - de: leidlich beherrscht
+        ja_options: ["そこそこ使いこなせる", "一応ものにしている"]
+        note: "Passable command of a modern language."
+      - de: fröhliche Ferienlaune
+        ja_options: ["明るい休暇気分", "楽しい休暇の気分"]
+        note: "Self-deprecating origin of the booklet."
+      - de: Gegenbeweis
+        ja_options: ["反証"]
+        note: "The booklet aims to refute the unlearnability claim."
+    notes:
+      - "Review まともに把握 for leidlich beherrscht; the German means 'reasonably/master passably'."
+      - "Keep German unchanged unless OCR issues appear."
+    status: needs-review
+    review_comments:
+      - 'Should I translate "wie einer neueren, die man leidlich beherrscht" like as "そこそこ学べるとされている現代言語ほどには"?'
+      - "I would use そこそこ使いこなせる近代語ほどには. The point is not that modern languages are considered learnable in theory, but that one may actually command one passably."
+      - "近代語 is closer to neueren than 現代言語 if you want the older philological register; 現代語 is also acceptable."
+      - "Fix typo: 明るい休暇気分の気分 repeats 気分. Use 明るい休暇気分から生まれたもので or 明るい休暇気分に発したもので."
+      - "世人がそこそこ使いこなせる所の近代語 is understandable but heavy; そこそこ使いこなせる近代語ほどには is cleaner and closer to wie einer neueren, die man leidlich beherrscht."
+
+  - id: legend-003-key-to-literature
+    de_location: legend.tex:10-12
+    ja_location: legend-ja.tex:26-36
+    de: |-
+      Wer die Umgangs\textcompwordmark{}sprache eines Volkes kennt, hat
+      den Schlüssel zum Verständniß seiner Schriftwerke gleich den Volks\textcompwordmark{}genossen
+      selbst.
+    ja_current: |-
+      ある民族の口語を知っている人は、その民族の書かれた作品をその民族同胞と同じように
+      理解する鍵を持っている。
+    ja_revised: |-
+      ある民族の口語を知る者は、その民族同胞と同じように、
+      その民族の著作を理解する鍵を手にしている。
+    gloss:
+      - "Schriftwerke: written works, literature."
+      - "gleich den Volksgenossen selbst: just like the members of that people themselves."
+    vocab:
+      - de: Umgangssprache
+        ja_options: ["口語", "日常口語"]
+        note: "Everyday spoken language; key term throughout."
+      - de: Volk
+        ja_options: ["民族", "国民"]
+        note: "Here a people/language community."
+      - de: Schlüssel
+        ja_options: ["鍵"]
+        note: "Metaphor: everyday speech unlocks written works."
+      - de: Verständniß
+        ja_options: ["理解"]
+        note: "Old spelling of Verständnis."
+      - de: Schriftwerke
+        ja_options: ["文献", "著作", "書かれた作品"]
+        note: "Broad written works, not necessarily only literary art."
+      - de: Volksgenossen
+        ja_options: ["同じ民族の人々", "民族同胞"]
+        note: "Members of the same people."
+    notes:
+      - "Current Japanese is accurate; consider 文献/著作 for Schriftwerke depending on register."
+    status: needs-review
+    review_comments:
+      - 'Maybe we should translate Schriftwerke as 文学作品 or 著作'
+      - "文献 is the safest here: broad enough for written works, less narrow than 文学作品, less author-centered than 著作."
+      - "If you want a more literary tone, 書かれた作品 is also fine, but it is a little explanatory."
+      - "その民族同胞 is a little compressed; その民族の同胞 or 同じ民族の人々 reads more naturally."
+
+  - id: legend-004-attic-boy-and-farmer
+    de_location: legend.tex:14-20
+    ja_location: legend-ja.tex:39-55
+    de: |-
+      Der attische Knabe brachte zur Lectüre griechischer Dichter, der attische
+      Bauer in sein Theater oder in die Volks\-ver\-samm\-lung nur die
+      Kenntniß der attischen Umgangs\textcompwordmark{}sprache in ihrer
+      einfachsten Form mit; \emph{sie} befähigte zum Verständniß sophokleïscher
+      Dramen und perikleïscher Reden. Die Sprache des Alltags\textcompwordmark{}lebens
+      lieferte diejenigen Analogien, welche zum Erfassen der höheren Erzeugnisse
+      in Rede und Schrift nothwendig waren.
+    ja_current: |-
+      アッティカの少年はギリシャ詩人の朗読に、また、アッティカの農民は劇場や公会に、アッ
+      ティカ方言口語の最も単純な形の知識だけを持っていった。
+      \emph{その}おかげで、ソ\jdb{ポ}クレースの劇やペリクレースの演説が理解できたのだ。
+      日常生活の言語は、演説や書物における高度な作品を理解するために必要な\ruby{類似}{アナロジー}を与えていたのだ。
+    ja_revised: |-
+      アッティカの少年はギリシャ詩人の読書に、また、アッティカの農民は劇場や民会に、アッティカ方言口語の最も素朴な形の知識だけを持っていった。
+      \emph{その知識}により、ソ\jdb{ポ}クレースの劇やペリクレースの演説が理解できたのだ。
+      日常生活の言語は、弁論や書物における高度な産物を理解するために必要な\ruby{類似}{アナロジー}を与えていたのだ。
+    gloss:
+      - "brachte ... mit: brought with him, had at hand as equipment."
+      - "Lectüre griechischer Dichter: reading Greek poets."
+      - "Volksversammlung: popular assembly."
+      - "höhere Erzeugnisse in Rede und Schrift: higher productions in speech and writing."
+    vocab:
+      - de: attischer Knabe
+        ja_options: ["アッティカの少年"]
+        note: "Native child as example of everyday language competence."
+      - de: Lectüre
+        ja_options: ["読解", "読むこと", "作品に接すること"]
+        note: "Educational/literary reading; not necessarily private silent reading."
+      - de: attischer Bauer
+        ja_options: ["アッティカの農民"]
+        note: "Ordinary native speaker in civic/theatrical settings."
+      - de: Volksversammlung
+        ja_options: ["民会"]
+        note: "Athenian assembly context."
+      - de: in ihrer einfachsten Form
+        ja_options: ["最も素朴な形で", "ごく基本的な形で"]
+        note: "Modifies Umgangssprache, not Kenntniß."
+      - de: befähigte
+        ja_options: ["可能にした", "理解する力を与えた"]
+        note: "The simple spoken language gives access to higher works."
+      - de: Analogien
+        ja_options: ["類推の手がかり", "類比"]
+        note: "Daily language supplies analogies for interpreting elevated expression."
+      - de: Erzeugnisse
+        ja_options: ["産物", "作品", "言語的産物"]
+        note: "Actual higher productions in speech/writing, e.g. dramas and speeches."
+    notes:
+      - "Review 公会 for Volksversammlung; 民会 may fit Athens better."
+      - "朗読 may be too narrow for Lectüre."
+    status: needs-review
+    review_comments:
+      - 'Yes, we should use 民会'
+      - 'Lectüre: Hmm, what Japanese phrases would fit better?'
+      - "For Lectüre, ギリシャ詩人を読むとき is better than 朗読 unless you specifically want oral reading. 読解に際して is more scholastic, but less natural here."
+      - "公会 should become 民会 in this Athenian political context."
+      - "Analogien is better as 類推の手がかり than bare 類似, because the sentence is about interpretive analogies supplied by daily speech."
+      - "ギリシャ詩人の読書 is awkward and can sound like 'the poet's reading'. Prefer ギリシャ詩人の作品に接するにあたって or ギリシャ詩人を読むにあたって."
+      - "持っていった is understandable, but 携えていた better matches brachte ... mit as an available equipment/background."
+
+  - id: legend-005-core-vocabulary
+    de_location: legend.tex:22-28
+    ja_location: legend-ja.tex:58-74
+    de: |-
+      Man hat oft behauptet, daß es erstaunlich wenig Worte und Wendungen
+      sind, mit denen der gemeine Mann in seiner Muttersprache aus\textcompwordmark{}kommt
+      und die ihn befähigen, auch das zu verstehen, was für ihn Neubildung
+      ist. Sollte es nicht möglich sein, dem Athener seinen verhältnißmäßig
+      kleinen Urvorrath abzulauschen, somit die Sprache in ihrem \emph{Kerne}
+      zu erfassen und diese Worte und Wendungen demjenigen, der Griechisch
+      wirklich lernen will, geläufig zu machen?
+    ja_current: |-
+      民衆が母語として獲得し、使いこなすことで新造語の意味すら理解できるようになる語や言いまわしの数は驚くほど少ないことがしばしば指摘される。
+      それならばア\jdb{テ}ーナイ人から比較的少数の根源的語彙を聴き写し、
+      言語の\emph{核心}を捉え、
+      ギリシャ語を本当に学びたい人にこれらの言辞や言いまわしを馴染ませることも不可能ではなかろう。
+    ja_revised: |-
+      大衆が母語として遣り繰りし、また、以って新造語の意味すら理解できるようになる所の言辞や言いまわしの数というのは驚くほど少ないことがしばしば指摘される。
+      それならば、ギリシャ語を本当に学びたい人に、ア\jdb{テ}ーナイ人から比較的少数の根源的語彙を聞き覚えることで、
+      言語の\emph{核心}を捉えさせ、
+      これらの語や言いまわしを馴染ませることも可能ではなかろうか。
+    gloss:
+      - "gemeine Mann: common man, ordinary person."
+      - "auskommt: gets by, manages."
+      - "Neubildung: new formation, newly formed expression."
+      - "Urvorrath: original/basic stock."
+      - "ablauschen: overhear/listen out from, learn by listening closely."
+      - "geläufig machen: make familiar/fluent."
+    vocab:
+      - de: gemeine Mann
+        ja_options: ["普通の人", "一般の人"]
+        note: "Socially ordinary person; avoid overly political 大衆 if not needed."
+      - de: auskommen mit
+        ja_options: ["それで用を足す", "それでやっていく"]
+        note: "Intransitive verb with mit + dative."
+      - de: Worte und Wendungen
+        ja_options: ["語や言い回し", "語と表現"]
+        note: "Core phrase inventory, not abstract diction."
+      - de: Neubildung
+        ja_options: ["新しい言い方", "新形成語"]
+        note: "New linguistic formation; not necessarily formal neologism only."
+      - de: dem Athener
+        ja_options: ["ア\\jdb{テ}ーナイ人から"]
+        note: "Dative with ablauschen; a native Athenian speaker, not literature itself."
+      - de: Urvorrath
+        ja_options: ["基礎語彙", "根源的語彙"]
+        note: "Basic original stock of words/phrases."
+      - de: in ihrem Kerne
+        ja_options: ["その核心において", "核心を"]
+        note: "The core of the language is found in basic everyday usage."
+    notes:
+      - "Current Japanese front-loads Neubildung and may obscure the syntax."
+      - "言辞 may be too literary for Worte here."
+    status: needs-review
+    review_comments:
+      - 'Could you please give some options to polish Japanese translations'
+      - "Option A, literal and clear: 普通の人が母語で用を足し、また自分にとって新しい言い方まで理解できるようになるために必要な語や言い回しは、驚くほど少ない。"
+      - "Option B, smoother: 普通の人は、驚くほど少ない語と表現だけで母語を使いこなし、自分にとって新しい言い方まで理解している。"
+      - "Avoid 言辞 here; 語や言い回し is more transparent and closer to Worte und Wendungen."
+      - "ablauschen is not exactly 聴き写す; 聞き取る or 聞き出す is better. 聞き取る keeps the observing/listening nuance."
+      - "大衆 is stronger and more collective than der gemeine Mann. 普通の人 or 一般の人 is safer."
+      - "母語として遣り繰りし is not idiomatic for auskommt. Use 母語で用を足している or 母語でやっていく."
+      - "The second sentence currently makes the learner do the listening to the Athenian. In German, the coordinated infinitives are the proposed task: 'to listen out the stock from the Athenian, grasp the core, and make these words familiar to the learner'."
+
+  - id: legend-006-aristophanes-material
+    de_location: legend.tex:30-36
+    ja_location: legend-ja.tex:77-93
+    de: |-
+      Aristophanes bietet für diesen Zweck in denjenigen Partien, wo er
+      den gemeinen Mann im volks\textcompwordmark{}thümlichen Verkehrs\textcompwordmark{}tone
+      reden läßt, sprachlichen Stoff genug, und auch in der übrigen Literatur
+      finden sich verstreut Stellen, welche für treue Nachahmungen der Sprache
+      des gemeinen Lebens gelten müssen. Die Aufgabe kann also nicht unlös\textcompwordmark{}bar
+      sein, wenn auch das vorliegende Schrift\textcompwordmark{}chen nur
+      erst einen kleinen Beitrag zu ihrer Lösung bringt.
+    ja_current: |-
+      アリスト\jdb{パ}ネースは、民衆を庶民的な調子で語らせる箇所で、この目的に十分な言
+      語資料を提供している。
+      その他の文学作品にも、庶民生活の言葉の忠実な模倣と見なせる箇所が散在している。\todo{この節ここまで校了}%
+      従って、この課題は解決不可能であるはずはない。もっとも、本小書がその解決に寄与するところは、まだほんの僅かに過ぎないのであるが。
+    ja_revised: |-
+      アリスト\jdb{パ}ネースは、市井の人々を庶民的な交際の調子で語らせる箇所で、
+      この目的に十分な言語資料を提供している。
+      その他の文学作品にも、市井の暮らしの言葉の忠実な模倣と見なせる箇所が散在している。
+      従って、この課題は解決不可能であるはずはない。もっとも、本小書がその解決に寄与するところは、まだほんの僅かに過ぎないのであるが。
+    gloss:
+      - "volksthümlicher Verkehrston: popular/everyday conversational tone."
+      - "sprachlicher Stoff genug: enough linguistic material."
+      - "treue Nachahmungen: faithful imitations."
+      - "nur erst: only as yet."
+    vocab:
+      - de: Aristophanes
+        ja_options: ["アリスト\\jdb{パ}ネース"]
+        note: "Primary source for colloquial Attic in the booklet."
+      - de: Partien
+        ja_options: ["箇所", "部分"]
+        note: "Passages in Aristophanes."
+      - de: volksthümlicher Verkehrston
+        ja_options: ["庶民的な交際の調子", "日常の会話調"]
+        note: "Popular interaction tone; useful for ordinary speech."
+      - de: sprachlicher Stoff
+        ja_options: ["言語資料"]
+        note: "Material for constructing/teaching expressions."
+      - de: übrige Literatur
+        ja_options: ["その他の文学", "他の文献"]
+        note: "Other Greek literature beyond Aristophanes."
+      - de: treue Nachahmungen
+        ja_options: ["忠実な模倣"]
+        note: "Attested literary imitations of everyday language."
+      - de: Aufgabe
+        ja_options: ["課題"]
+        note: "The project of recovering/teaching everyday Attic."
+      - de: Schriftchen
+        ja_options: ["本小書", "この小冊子"]
+        note: "Modest diminutive."
+    notes:
+      - "The queried sentence is translated correctly in broad sense."
+      - "The German contains line-break word marks in source; preserve unless normalizing only in review notes."
+    status: needs-review
+    review_comments:
+      - "庶民的な調子 is acceptable, but 庶民的な交際の調子 or 日常の会話調 makes Verkehrston more visible."
+      - "gelten müssen is stronger than 見なせる: 見なさねばならない or 見るべきである is closer."
+      - "only a small contribution: 小さな一寄与をなすにすぎない is stiffer but faithful; current ほんの僅かに過ぎない is smoother."
+      - "Current ja_revised still has 見なせる, which weakens gelten müssen. Consider 見なさねばならない or 見るべきである."
+
+  - id: legend-007-sources-of-words
+    de_location: legend.tex:38-42
+    ja_location: legend-ja.tex:96-109
+    de: |-
+      Die Worte und Wendungen in den nachstehenden Gesprächen sind in der
+      Hauptsache der aristophanischen Sprache entnommen. Einiges mußte aus
+      der späteren Gräcität beigefügt werden. Die dem Neugriechischen entlehnten
+      Ergänzungen, welche zur Bezeichnung moderner Begriffe verwandt wurden,
+      sind durch {*} besonders kenntlich gemacht.
+    ja_current: |-
+      以下の会話に出てくる語と表現は、おおむねアリスト\jdb{パ}ネースの言葉から採った。
+      いくらかは後代のギリシャ語から補わねばならなかった。
+      現代ギリシャ語から借り、近代的概念を表すために用いた補足語句は、特に {*} で示してある。
+    ja_revised: |-
+      以下の会話に出てくる語と表現は、主としてアリスト\jdb{パ}ネースの言葉から採ったものである。
+      いくらかは後代のギリシャ語から補わざるをえなかった。
+      近代的な概念を表すために用いた、現代ギリシャ語由来の補足語句は、特に {*} で示してある。
+    gloss:
+      - "in der Hauptsache: chiefly, for the most part."
+      - "spätere Gräcität: later Greek usage/Greekness."
+      - "kenntlich gemacht: marked, made recognizable."
+    vocab:
+      - de: nachstehende Gespräche
+        ja_options: ["以下の会話"]
+        note: "The dialogue sections following the preface."
+      - de: aristophanische Sprache
+        ja_options: ["アリスト\\jdb{パ}ネースの言葉", "アリストパネス的な語法"]
+        note: "Language/usage attested in Aristophanes."
+      - de: in der Hauptsache
+        ja_options: ["主として", "おおむね"]
+        note: "Chiefly, not exclusively."
+      - de: spätere Gräcität
+        ja_options: ["後代のギリシャ語", "後代ギリシャ語法"]
+        note: "Learned term for later Greek usage."
+      - de: mußte ... beigefügt werden
+        ja_options: ["補わざるをえなかった"]
+        note: "Necessity, not enthusiastic borrowing."
+      - de: Neugriechisch
+        ja_options: ["現代ギリシャ語"]
+        note: "Source for modern-concept supplements."
+      - de: Ergänzungen
+        ja_options: ["補足語句", "補足"]
+        note: "Marked with {*}."
+    notes:
+      - "Current Japanese is straightforward."
+    status: needs-review
+    review_comments:
+      - "おおむね is fine, but 主として mirrors in der Hauptsache a bit more formally."
+      - "補わねばならなかった is accurate; 補わざるをえなかった makes mußte clearer."
+      - "This entry looks solid. If you want to show mild reluctance in mußte, 不足する分はいくらか、後代のギリシャ語から補わざるをえなかった is a good option."
+
+  - id: legend-008-usefulness-beyond-conversation
+    de_location: legend.tex:44-57
+    ja_location: legend-ja.tex:112-138
+    de: |-
+      Auch wer nicht die Absicht hat, attisch conversiren zu lernen, wird
+      mit vielem Nutzen für sein Verständniß des Griechischen sich mit der
+      attischen Umgangs\textcompwordmark{}sprache beschäftigen. Denn während
+      man auf unseren Gymnasien im Lateinischen fast nur solche Schriften
+      liest, welche der höheren Kunst\textcompwordmark{}sprache angehören
+      --- man denke nur an Cicero und Tacitus --- und in welchen die Volks\textcompwordmark{}sprache
+      kaum hier und da er\textcompwordmark{}kennbar ist, werden wir im
+      Griechischen weit mehr auf die Sprache des gewöhnlichen Lebens hin\textcompwordmark{}gewiesen.
+      Im Griechischen lesen wir Gespräche bei den Dramatikern, Gespräche
+      bei Plato; die Redner sprechen nicht zu Senatoren, sondern werben um die Stimme
+      des gemeinsten Mannes, --- schon \emph{dies}
+      nöthigt sie, seiner Sprache nahe zu bleiben, und schon dies muß die
+      Kenntniß der Aus\textcompwordmark{}drucks\textcompwordmark{}weise
+      des täglichen Lebens im Griechischen nützlich machen zum feinfühligeren
+      Verständniß der Texte.
+    ja_current: |-
+      アッティカ語で会話できるようになるつもりのない人でも、ギリシャ語理解のためにアッティカ方言口語に取り組むことは大いに役立つ。
+      というのも、私たちのギムナジウムでは、ラテン語ではほとんど高尚な文語に属する著作ばかりを読む%
+      ——キケローやタキトゥスを思い起こせばよい——そしてそれらの中では民衆語はところどころにかすかに認められるだけである。
+      それに比べて、ギリシャ語では日常生活の言葉にずっと多く向き合わされる。
+      ギリシャ語では、劇作家の対話もプラトーンの対話も読む。弁論家たちは元老院議員に語りかけるのではなく、
+      ごく普通の人の声を得ようとする。
+      ごく普通の人の声を扱うこと自体が、彼らをその人の言葉遣いの近くにとどまらせる。
+      そしてこのことだけでも、ギリシャ語の日常的な表現法を知ることは、テキストをより繊細に理解するために有用なものとなる。
+    ja_revised: |-
+      アッティカ方言での会話を習うつもりのない人であっても、
+      ギリシャ語理解のためにアッティカ方言の日常口語に取り組むことは大いに役立つ。
+      我々のギムナジウムでは、ラテン語についてはほとんど高尚な文語に属する著作ばかり——キケローやタキトゥスを思い浮かべればよい——を読み、
+      そしてそれらの著作では、民衆語はせいぜい所々にかすかに認められるにすぎないが、
+      翻って、ギリシャ語では日常生活の言葉にずっと多く向き合わされるからである。
+      ギリシャ語では、劇作家の戯曲中の会話も、プラトーンの作品中の会話も読む。
+      弁論家は元老院議員に向かって語るのではなく、最もありふれた人の声を得ようとする。
+      このことは、彼らを最もありふれた人の言葉に近いところへ留めており、
+      そしてこのことは、ギリシャ語の日常生活の表現法を知ることを、
+      テキストを精緻に理解するために有用なものとするに違いない。
+    gloss:
+      - "conversiren: converse."
+      - "höhere Kunstsprache: elevated literary/art language."
+      - "hier und da erkennbar: recognizable here and there."
+      - "Redner: orators/speakers."
+      - "werben um die Stimme: canvass/solicit the vote/voice."
+      - "gemeinster Mann: the most ordinary/common man."
+      - "feinfühligeres Verständnis: more sensitive understanding."
+    vocab:
+      - de: attisch conversiren
+        ja_options: ["アッティカ方言で会話できるようになる"]
+        note: "lernen here is acquiring ability, not merely studying."
+      - de: sich beschäftigen mit
+        ja_options: ["取り組む"]
+        note: "Study/engage with."
+      - de: Kunstsprache
+        ja_options: ["高尚な文語", "人工的・文学的な高等語"]
+        note: "Elevated literary language, contrasted with Volkssprache."
+      - de: Volkssprache
+        ja_options: ["民衆語", "日常語"]
+        note: "Popular/common speech."
+      - de: hingewiesen werden auf
+        ja_options: ["目を向けさせられる", "向き合わされる"]
+        note: "Passive of hinweisen auf; not 'addressed to'."
+      - de: Gespräche bei den Dramatikern/bei Plato
+        ja_options: ["劇作家たち/プラトーンの作品における対話"]
+        note: "bei = in the works/passages of."
+      - de: Redner
+        ja_options: ["弁論家たち"]
+        note: "Greek orators read as texts; not fictional characters."
+      - de: Stimme
+        ja_options: ["票", "声", "支持"]
+        note: "Political pun/dual sense: voice and vote."
+      - de: feinfühliger
+        ja_options: ["より繊細な", "より細やかな"]
+        note: "Sensitive, discriminating textual understanding."
+    notes:
+      - "Review アッティカ語 for attisch conversiren against the term policy."
+      - "OCR correction in TeX source: Kedner -> Redner."
+      - "With the restored line, 'nöthigt sie' refers to the Redner, not to authors/texts."
+    status: needs-review
+    review_comments:
+      - "Replace アッティカ語 with アッティカ方言 or アッティカ方言で会話する to avoid sounding like a separate language."
+      - "The restored line changes the antecedent: 彼ら should refer to 弁論家たち. Do not use これらの著者 here."
+      - "werben um die Stimme des gemeinsten Mannes likely means soliciting/winning the vote or voice of the commonest man, i.e. democratic political rhetoric, not merely 'depicting his voice'."
+      - "feinfühligeren is better as より繊細に or より細やかに than simply 深く."
+      - "弁論家 is singular in ja_revised, but die Redner is plural/general. Use 弁論家たちは or 弁論家というものは."
+      - "声 can work because Stimme means both voice and vote, but here 票/支持 may better reveal the political point: 最もありふれた人の票を得ようとする."
+      - "このことは、彼らは... is ungrammatical. Use このことだけでも、彼らは...留まらざるをえない or このことだけでも、彼らを...留めておく."
+      - "有用なものとしてる is a typo/grammar issue. Use 有用なものとするに違いない or, more naturally, 有用なものとなるはずである."
+
+  - id: legend-009-coloring-and-style
+    de_location: legend.tex:59-67
+    ja_location: legend-ja.tex:141-158
+    de: |-
+      Zweitens aber ist die \emph{Färbung} der Sprache und die Stil\textcompwordmark{}gattung
+      eines Literatur\textcompwordmark{}werkes nur demjenigen recht erkennbar,
+      der ermessen kann, wie weit dessen Sprache sich \emph{abhebt} von
+      der Alltags\textcompwordmark{}sprache. Wer das Deutsche nur aus Schiller
+      gelernt hätte, dem würde das Verständniß ab\textcompwordmark{}gehen
+      für die Eigenart und die Höhe der Schiller'schen Diction. Erst wer
+      von der Sprache der \emph{Alltäglichkeit} aus an sie herantritt,
+      bringt den Maßstab für sie mit. Es wird im Griechischen nicht anders
+      sein.
+    ja_current: |-
+      第二に、言語の\emph{色合い}や文体の種類は、日常語からどれほど\emph{離れている}かを測れる者にしか本当にはわからない。
+      もしドイツ語をシラーだけで学んだなら、シラーの語法の独自性や高さを理解する感覚が欠けるだろう。
+      \emph{日常}の言葉から近づいてこそ、その尺度を持てるのであり、ギリシャ語でも同じである。
+    ja_revised: |-
+      第二に、文学作品における言語の\emph{色合い}や文体の種類は、
+      その言葉が日常語からどれほど\emph{隔っている}かを測りうる者にだけ、正しく見て取れる。
+      仮にドイツ語をシラーだけから学んだ人がいれば、その人にはシラーの語法の独自性と高みを理解する感覚が欠けているだろう。
+      \emph{日常性}の言葉から出発してそれに近づく者だけが、その尺度を携えている。
+      ギリシャ語でも相違なかろう。
+    syntax_tree: |-
+      S1
+      ├─ ADV: Zweitens aber
+      ├─ PRED: ist ... nur demjenigen recht erkennbar
+      │  ├─ SUBJ: die Färbung der Sprache
+      │  └─ SUBJ-COORD: und die Stilgattung eines Literaturwerkes
+      └─ REL(demjenigen): der ermessen kann
+         └─ OBJ-CONTENT: wie weit dessen Sprache sich abhebt von der Alltagssprache
+
+      S2
+      ├─ COND/SUBJ: Wer das Deutsche nur aus Schiller gelernt hätte
+      ├─ DAT: dem
+      └─ PRED: würde das Verständniß abgehen
+         └─ PP: für die Eigenart und die Höhe der Schiller'schen Diction
+
+      S3
+      ├─ SUBJ: Erst wer von der Sprache der Alltäglichkeit aus an sie herantritt
+      └─ PRED: bringt den Maßstab für sie mit
+
+      S4
+      ├─ EXPL: Es
+      ├─ PRED: wird ... nicht anders sein
+      └─ DOMAIN: im Griechischen
+    gloss:
+      - "Färbung: coloring, shade."
+      - "Stilgattung: type/category of style."
+      - "sich abhebt von: stands out from, differs from."
+      - "Diction: diction/style of expression."
+      - "Maßstab: standard, yardstick."
+    vocab:
+      - de: Färbung
+        ja_options: ["色合い", "彩り"]
+        note: "Metaphor for linguistic/stylistic coloration."
+      - de: Stilgattung
+        ja_options: ["文体の種類", "文体類型"]
+        note: "Genre/type of style in a literary work."
+      - de: recht erkennbar
+        ja_options: ["正しく認識できる", "本当に見て取れる"]
+        note: "Properly, not just vaguely."
+      - de: ermessen
+        ja_options: ["測り取る", "見積もる"]
+        note: "Evaluate the degree of distance/elevation."
+      - de: sich abheben von
+        ja_options: ["際立つ", "浮き立つ", "離れている"]
+        note: "Visual/evaluative metaphor; 'stand out from' everyday language."
+      - de: Alltäglichkeit
+        ja_options: ["日常性", "日常"]
+        note: "Baseline from which elevated style can be measured."
+      - de: Diction
+        ja_options: ["語法", "言いぶり", "文体"]
+        note: "Schiller's diction/style; French/Latinizing register."
+      - de: Maßstab
+        ja_options: ["尺度", "物差し"]
+        note: "Everyday language supplies the standard for judging elevation."
+    notes:
+      - "Current Japanese is concise and likely good; check whether 高さ captures Höhe."
+      - "OCR check: no likely OCR issue in this paragraph."
+    status: needs-review
+    review_comments:
+      - "離れている is fine semantically, but 際立っている captures abhebt and the evaluative contrast better."
+      - "高さ works, but 高み is slightly more natural for stylistic elevation."
+      - "Structure: main predicate is only demjenigen recht erkennbar; der ermessen kann... defines the required reader. Wer das Deutsche... gives a Schiller analogy."
+      - "Context: the paragraph argues for everyday speech as a baseline for perceiving elevated style, not for replacing literary reading."
+
+  - id: legend-010-comparison-of-expression
+    de_location: legend.tex:69-82
+    ja_location: legend-ja.tex:161-186
+    de: |-
+      Drittens zwingt ganz besonders die Beschäftigung mit der griechischen
+      Um\textcompwordmark{}gangs\textcompwordmark{}sprache zur \emph{Vergleichung}
+      des deutschen und griechischen Aus\textcompwordmark{}druckes und
+      fördert dadurch die Sicherheit und Natürlichkeit der Über\textcompwordmark{}setzungen
+      aus dem Griechischen, die auf der Leichtigkeit und Bereit\textcompwordmark{}schaft
+      der Wort\textcompwordmark{}ver\textcompwordmark{}gleichungen
+      beruht. Was man den \emph{Geist} der Sprache nennt, das zeigt sich
+      am Auf\textcompwordmark{}fallendsten da, wo die Vergleichung der
+      Sprachen unter einander \emph{leicht} und \emph{nahe}liegend ist:
+      das ist auf dem Gebiete des Alltäglichen. Den jocosen Ton, der sich
+      von selbst ergiebt, sobald man die alltägliche Aus\textcompwordmark{}drucks\textcompwordmark{}weise
+      des modernen Lebens mit der Sprechweise der Alten in Vergleich stellt,
+      wird man als bei diesem Studium unvermeidlich um der Sache willen
+      mit in den Kauf nehmen.
+    ja_current: |-
+      第三に、ギリシャ語の口語に取り組むことは、特にドイツ語とギリシャ語の\emph{表現の比較}を迫り、
+      語句の比較を容易にし、すぐ行えるようにすることで、ギリシャ語からの翻訳の確かさと自然さを高める。
+      人が言うところの言語の\emph{精神}とは、言語同士の比較が\emph{容易}で\emph{身近}なところ、
+      すなわち日常の領域で最も目立って現れる。
+      現代生活の日常的な表現を古代人の話し方と比べると自然に滑稽な調子が生まれるが、
+      この学習では、事柄そのもののために、それを避けがたいものとして受け入れねばならないだろう。
+    ja_revised: |-
+      第三に、ギリシャ語の日常口語に取り組むことは、
+      とりわけドイツ語とギリシャ語の\emph{表現の比較}を余儀なくさせ、
+      語句の比較が素早く容易に行えるようにすることで
+      ギリシャ語からの翻訳の確かさと自然さを高める。
+      言語の\emph{精神}と呼ばれるものは、諸言語相互の比較が\emph{容易}で\emph{自然に思いつく}ところに、
+      すなわち日常的なものの領域に、最もはっきり現れる。
+      現代生活の日常的な言い回しを古代人の話し方と比較してみれば、
+      おのずと滑稽味が生じる。
+      しかしこの探究では、それも避けがたい代償として
+      甘受しなければならない。
+    syntax_tree: |-
+      S1
+      ├─ ADV: Drittens
+      ├─ SUBJ: die Beschäftigung mit der griechischen Umgangssprache
+      ├─ PRED-1: zwingt ... zur Vergleichung
+      │  └─ OBJ: des deutschen und griechischen Ausdruckes
+      └─ PRED-2: und fördert dadurch die Sicherheit und Natürlichkeit
+         ├─ GEN: der Übersetzungen aus dem Griechischen
+         └─ REL(Sicherheit/Natürlichkeit): die auf der Leichtigkeit und Bereitschaft der Wortvergleichungen beruht
+
+      S2
+      ├─ TOPIC: Was man den Geist der Sprache nennt
+      ├─ RESUMPTIVE: das
+      └─ PRED: zeigt sich am Auffallendsten
+         └─ LOC: da, wo die Vergleichung der Sprachen unter einander leicht und naheliegend ist
+            └─ APPOSITION: das ist auf dem Gebiete des Alltäglichen
+
+      S3
+      ├─ OBJ: Den jocosen Ton
+      │  └─ REL: der sich von selbst ergibt, sobald man ... in Vergleich stellt
+      ├─ SUBJ: man
+      └─ PRED: wird ... mit in den Kauf nehmen
+         ├─ ADV: als bei diesem Studium unvermeidlich
+         └─ REASON: um der Sache willen
+    gloss:
+      - "Bereitschaft der Wortvergleichungen: readiness/availability of word comparisons."
+      - "naheliegend: obvious, close at hand."
+      - "jocoser Ton: jocular tone."
+      - "mit in den Kauf nehmen: accept as part of the bargain."
+    vocab:
+      - de: zwingt ... zur Vergleichung
+        ja_options: ["比較を余儀なくさせる", "突き合わせを迫る"]
+        note: "Practical phrase-by-phrase comparison, not abstract comparative linguistics."
+      - de: Ausdruck
+        ja_options: ["表現", "言い方"]
+        note: "German expression versus Greek expression."
+      - de: Sicherheit
+        ja_options: ["確かさ", "安定性"]
+        note: "Confidence/accuracy in translation."
+      - de: Natürlichkeit
+        ja_options: ["自然さ"]
+        note: "Natural idiomatic rendering."
+      - de: Wortvergleichungen
+        ja_options: ["語句の対応", "語の突き合わせ"]
+        note: "Readiness to map words/phrases across languages."
+      - de: Geist der Sprache
+        ja_options: ["言語の精神"]
+        note: "Potentially loaded 19c concept: distinctive character/genius of a language."
+      - de: leicht und naheliegend
+        ja_options: ["容易で自然に思いつく", "容易で身近な"]
+        note: "Close-at-hand comparison in daily expressions."
+      - de: jocoser Ton
+        ja_options: ["滑稽な調子", "冗談めいた調子"]
+        note: "Jocular side effect of putting modern daily life into ancient speech."
+      - de: um der Sache willen
+        ja_options: ["本来の目的のために", "この課題のためには"]
+        note: "For the sake of the undertaking, despite comic effects."
+      - de: mit in den Kauf nehmen
+        ja_options: ["甘受する", "代償として引き受ける"]
+        note: "Accept as part of the bargain."
+    notes:
+      - "Review 語句の比較 for Wortvergleichungen; it may mean word-by-word comparisons or lexical correspondences."
+      - "OCR check: 'jocosen' is an older/Latinizing spelling, not an OCR error."
+    status: needs-review
+    review_comments:
+      - "Wortvergleichungen is probably 'word comparisons' or 'lexical correspondences'; 語の対応 is more readable than 語句の比較 here."
+      - "naheliegend is not exactly 身近; すぐ近くにある or 自然に思いつく gives the argumentative sense."
+      - "Structure: die auf... beruht modifies Sicherheit und Natürlichkeit, not Übersetzungen alone. Splitting into a second Japanese sentence improves clarity."
+      - "jocos is not simply 'funny' but jocular; 滑稽な調子 is adequate and should not be over-explained."
+
+  - id: legend-011-opponents-of-greek
+    de_location: legend.tex:84-125
+    ja_location: legend-ja.tex:189-262
+    de: |-
+      Endlich aber sei darauf hingewiesen, daß nichts dem Erlernen des
+      Griechischen an unseren Gymnasien so viele \emph{Gegner} geschaffen,
+      als eben die Thatsache, daß Griechisch im Grunde für eine unlernbare
+      Sprache gilt. Was der belgische Professor Emil de Laveleye über die
+      von ihm beobachteten Ergebnisse des Gymnasial\textcompwordmark{}unter\textcompwordmark{}richtes
+      sagt: \quotedblbase \textfrench{résultat net et incontestable: on
+      sait peu le latin et point du tout le grec,}`` das, behaupten Viele,
+      trifft annähernd auch bei den deutschen Gymnasien zu. Erstaunlich
+      Wenige, die \quotedblbase Griechisch gelernt`` haben, wissen mit
+      einiger Bestimmt\textcompwordmark{}heit anzugeben, wie der Attiker
+      die einfachsten Begriffe, z.\,B. \quotedblbase Ich werde zu dir
+      kommen``, aus\textcompwordmark{}zudrücken pflegt. Wenn im Lateinischen
+      Jemand nicht sofort auf \quotedblbase \textlatin{veniam}`` käme,
+      würde man meinen, daß ihm die allerersten Anfangs\textcompwordmark{}gründe
+      mangeln, und wenn er nicht verstünde, \quotedblbase \textlatin{veniam}``
+      und \quotedblbase \textlatin{ibo}`` aus\textcompwordmark{}ein\textcompwordmark{}an\textcompwordmark{}der\textcompwordmark{}zu\textcompwordmark{}halten,
+      so würde man über Unzulänglichkeit des Unterrichtes mit vollem Rechte
+      Klage führen und glauben, daß solche Unsicherheit auch dem sicheren
+      Erfassen des \emph{Sinnes} lateinischer \emph{Schriftwerke Eintrag
+      }thun müsse. Aber  im Griechischen? Man mache den Versuch, und man
+      wird überraschend Wenige finden, die das im Gebrauche des Attikers
+      alltägliche \quotedblbase \textgreek[variant=ancient]{ἥξω παρὰ σέ}``
+      in Be\textcompwordmark{}reit\textcompwordmark{}schaft haben. Man
+      studirt im Griechischen eifrig die Sprach\emph{gesetze}, aber gar
+      wenig die \emph{Sprache}, und doch lernt man es nicht um der grammatischen
+      Schulung willen, --- für diese sorgt aus\textcompwordmark{}reichend
+      das Latein, --- sondern der Sprache wegen. Man setze einem jungen
+      Manne, der die Schule  mit dem Zeugniß der Reife im Griechischen
+      verlassen hat, ein Glas griechischen Weines vor: er wird schwerlich
+      im Stande sein, auf Griechisch mit nur einigermaßen passendem Worte
+      dafür zu danken, oder zu sagen, daß ihm der Wein gut schmeckt. Allerdings
+      ist solche Sprachfertigkeit nicht das Ziel und die Aufgabe des griechischen
+      Unterrichts im Gymnasium, aber daß sie bei den langen und angestrengten
+      Studien nicht nebenbei mit abfällt und so völlig fern zu bleiben
+      scheint, läßt das Gefühl des Griechischkönnens nicht aufkommen. Der
+      \quotedblbase Reife`` ist sich gar wohl bewußt, daß es ihm unsägliche
+      Mühe macht, ganz einfache Gedanken in wirklich griechischen Wendungen
+      wiederzugeben. Das macht unzufrieden und trägt viel dazu bei, dem
+      Griechischen Gegner zu schaffen. Auch aus diesem Grunde soll mein
+      Büchlein zeigen, daß es leicht angeht, sich mit den Kenntnissen,
+      die das Gymnasium bietet, des Griechischen so zu bemächtigen, daß
+      man sich darin verständlich machen könnte.
+    ja_current: |-
+      最後に指摘しておきたいのは、ギムナジウムでのギリシャ語学習にこれほど多くの\emph{反対者}を生んだのは、
+      ギリシャ語が本質的に習得不可能な言語だと見なされている事実にほかならないという点だ。
+      ベルギーのエミール・ド・ラヴェレイ教授が観察したギムナジウム教育の成果について
+      「\textfrench{résultat net et incontestable: on sait peu le latin et point du tout le grec,}」
+      と述べていることは、多くの人の主張ではドイツのギムナジウムにも大体当てはまる。
+      「ギリシャ語を学んだ」と言う人でも、ア\jdb{テ}ーナイ人が
+      「私は君のところへ行くだろう」のような最も単純な概念をどう表すか、
+      自信を持って答えられる人は驚くほど少ない。
+      ラテン語で「\textlatin{veniam}」がすぐに出てこなければ、
+      初歩の初歩が欠けていると考えられるし、
+      「\textlatin{veniam}」と「\textlatin{ibo}」を区別できないとなれば、
+      授業の不備だと正当に非難され、そのような不確かさはラテン語の\emph{文献}の\emph{意味}を確実に把握する上でも害になるとみなされる。
+      しかしギリシャ語ではどうか。
+      試してみれば、ア\jdb{テ}ーナイ人の日常語である
+      「\textgreek[variant=ancient]{ἥξω παρὰ σέ}」をすぐに口にできる人は驚くほど少ないだろう。
+      ギリシャ語では熱心に\emph{言語法則}を学ぶが、\emph{言語そのもの}はあまり学ばない。
+      しかもギリシャ語を学ぶのは文法訓練のためではなく——それならラテン語で十分で——言語そのもののためだ。
+      ギリシャ語履修を含む修了証を得て学校を出た若者に、ギリシャ産のワインを一杯差し出してみるといい。
+      ギリシャ語でそれに礼を言うことも、ワインが美味しいと伝えることも、まずできないだろう。
+      もちろん、そのような言語運用能力はギムナジウムのギリシャ語教育の目標でも課題でもない。
+      だが長く厳しい学習の中でそれが副産物としてさえ身につかず、まったく縁遠いままに見えるのでは、
+      ギリシャ語を使いこなせるという感覚は生まれない。
+      「修了生」は、ごく簡単な考えを本当にギリシャ語らしい言い回しで表すのに途方もない苦労をすることをよく自覚している。
+      それが不満を生み、ギリシャ語への敵意を育てる一因ともなる。
+      そうした理由からも、この小冊子は、ギムナジウムで得られる知識を手がかりにすれば、
+      意思疎通できる程度にギリシャ語を身につけることはたやすいと示したいのだ。
+    ja_revised: |-
+      最後に、次のことを指摘しておかねばならない。
+      わが国のギムナジウムにおけるギリシャ語学習に、これほど多くの\emph{敵}を作ったものは、
+      ほかならぬ、ギリシャ語が根本的には習得しえない言語と見なされているという事実である。
+      ベルギーのエミール・ド・ラヴェレイ教授は、自ら見聞したギムナジウム教育の成果について、
+      「\textfrench{résultat net et incontestable: on sait peu le latin et point du tout le grec,}」
+      ——「明白にして争う余地なき結論は、ラテン語を僅かに知り、ギリシャ語をまったく知らぬ、ということである」——
+      と述べている。これは、ドイツのギムナジウムにもほぼ当てはまる、と多くの人が主張する。
+      「ギリシャ語を学んだ」者のうち、
+      「私は君のもとへ行こう」といったごく簡単なことをア\jdb{テ}ーナイ人ならどう言い表すか、
+      多少なりとも確かに答えられる者は驚くほど少ない。
+      ラテン語ならば、「\textlatin{veniam}」（来よう）が即座に浮かばない者は、
+      初歩の初歩すら身につけていないと思われるであろう。
+      また、「\textlatin{veniam}」（来よう）と「\textlatin{ibo}」（行こう）との区別もつかないならば、
+      教育の不備を嘆くのはまったく当然であり、
+      かかる曖昧な知識は、ラテン語の\emph{文献}の\emph{意味}を確実に捉える妨げともならざるをえない、と考えられるであろう。
+      ところが、ギリシャ語ではどうか。
+      試みに尋ねてみれば、ア\jdb{テ}ーナイ人が日常用いる
+      「\textgreek[variant=ancient]{ἥξω παρὰ σέ}」をいつでも口にできる者は、驚くほど少ないとわかるであろう。
+      ギリシャ語については、言語の\emph{法則}を熱心に研究しながら、\emph{言語}そのものはほとんど学ばないのである。
+      しかも、ギリシャ語を学ぶのは文法的訓練のためではない——その訓練ならばラテン語で十分である——、
+      まさしく言語そのものを学ぶためなのである。
+      ギリシャ語の修了資格を得て学校を出た若者に、ギリシャの葡萄酒を一杯すすめてみるがよい。
+      彼はおそらく、多少なりともふさわしいギリシャ語で礼を述べることも、
+      その葡萄酒が口に合うと言うこともできまい。
+      むろん、かかる言語運用の力は、ギムナジウムにおけるギリシャ語教育の目的でも課題でもない。
+      しかし、長年にわたる刻苦の学習から、それが副産物としてさえ得られず、なおまったく縁遠いものに見えるならば、
+      ギリシャ語をものにしたという実感は生まれようがない。
+      「修了資格」を得た者自身、ごく簡単な考えを真にギリシャ語らしい言い回しで表すのに、
+      言い知れぬ苦労を要することをよく承知している。
+      これは不満を生み、ギリシャ語に敵を作る大きな一因となる。
+      この理由からも、わが小書は、ギムナジウムで授けられる知識をもとに、
+      少なくとも意思を通じうるほどにギリシャ語をわがものとするのは容易であることを示そうとするものである。
+    syntax_tree: |-
+      S1
+      ├─ FORMULA: Endlich aber sei darauf hingewiesen
+      └─ CONTENT(daß)
+         ├─ SUBJ: nichts
+         ├─ PRED: hat ... so viele Gegner geschaffen
+         ├─ DAT: dem Erlernen des Griechischen an unseren Gymnasien
+         └─ COMPARATIVE/FOCUS: als eben die Thatsache
+            └─ APPOSITION(daß): daß Griechisch im Grunde für eine unlernbare Sprache gilt
+
+      S2
+      ├─ TOPIC: Was de Laveleye ... sagt: "résultat ..."
+      ├─ RESUMPTIVE: das
+      ├─ PAREN: behaupten Viele
+      └─ PRED: trifft annähernd auch bei den deutschen Gymnasien zu
+
+      S3
+      ├─ SUBJ: Erstaunlich Wenige [REL: die "Griechisch gelernt" haben]
+      ├─ PRED: wissen ... anzugeben
+      ├─ MOD: mit einiger Bestimmtheit
+      └─ CONTENT: wie der Attiker die einfachsten Begriffe ... auszudrücken pflegt
+
+      S4
+      ├─ COND1: Wenn im Lateinischen Jemand nicht sofort auf "veniam" käme
+      ├─ MAIN1: würde man meinen, daß ihm die allerersten Anfangsgründe mangeln
+      ├─ COND2: und wenn er nicht verstünde, "veniam" und "ibo" auseinanderzuhalten
+      └─ MAIN2: so würde man ... Klage führen und glauben
+         └─ CONTENT(daß): solche Unsicherheit ... Eintrag thun müsse
+
+      S5
+      ├─ FRAGMENT: Aber im Griechischen?
+      ├─ IMPERATIVE: Man mache den Versuch
+      └─ MAIN: und man wird überraschend Wenige finden
+         └─ REL: die ... "ἥξω παρὰ σέ" in Bereitschaft haben
+
+      S6
+      ├─ SUBJ: Man
+      ├─ PRED-1: studirt ... die Sprachgesetze
+      ├─ CONTRAST: aber gar wenig die Sprache
+      └─ CONCESSIVE: und doch lernt man es nicht ... sondern der Sprache wegen
+
+      S7
+      ├─ IMPERATIVE: Man setze ... ein Glas griechischen Weines vor
+      └─ RESULT: er wird schwerlich im Stande sein
+         ├─ INF-1: dafür zu danken
+         └─ INF-2: oder zu sagen, daß ihm der Wein gut schmeckt
+
+      S8
+      ├─ CONCESSION: Allerdings ist solche Sprachfertigkeit nicht das Ziel...
+      └─ CONTRAST(aber): daß sie ... nicht nebenbei mit abfällt ... läßt das Gefühl ... nicht aufkommen
+
+      S9
+      ├─ SUBJ: Der "Reife"
+      ├─ PRED: ist sich gar wohl bewußt
+      └─ CONTENT(daß): es ihm unsägliche Mühe macht, ganz einfache Gedanken ... wiederzugeben
+
+      S10
+      ├─ SUBJ: Das
+      ├─ PRED-1: macht unzufrieden
+      └─ PRED-2: und trägt viel dazu bei, dem Griechischen Gegner zu schaffen
+
+      S11
+      ├─ SUBJ: mein Büchlein
+      ├─ PRED: soll ... zeigen
+      └─ CONTENT(daß): es leicht angeht, sich ... des Griechischen so zu bemächtigen
+         └─ RESULT(daß): daß man sich darin verständlich machen könnte
+    gloss:
+      - "Gegner geschaffen: created opponents."
+      - "mit einiger Bestimmtheit: with some definiteness/confidence."
+      - "im Gebrauche des Attikers alltäglich: everyday in Athenian/Attic usage."
+      - "in Bereitschaft haben: have ready at hand."
+      - "mit abfällt: falls out incidentally, comes along as a byproduct."
+      - "Gefühl des Griechischkönnens: feeling of being able to use/know Greek."
+    vocab:
+      - de: Gegner
+        ja_options: ["反対者"]
+        note: "Opponents of Greek instruction; pedagogical/political debate term."
+      - de: Thatsache
+        ja_options: ["事実"]
+        note: "Old spelling of Tatsache."
+      - de: unlernbare Sprache
+        ja_options: ["習得不可能な言語"]
+        note: "Reprises the first paragraph's polemical label."
+      - de: Ergebnis des Gymnasialunterrichtes
+        ja_options: ["ギムナジウム教育の成果"]
+        note: "Context: 19c critique of classical school outcomes."
+      - de: résultat net et incontestable
+        ja_options: ["明白で争いようのない結論"]
+        note: "French quote: a harsh external assessment."
+      - de: Attiker
+        ja_options: ["ア\\jdb{テ}ーナイ人"]
+        note: "Athenian/Attic speaker; use requested convention."
+      - de: auszudrücken pflegt
+        ja_options: ["ふつうどのように表すか"]
+        note: "Habitual idiomatic usage."
+      - de: veniam / ibo
+        ja_options: ["veniam / ibo"]
+        note: "Latin contrast: future of 'come' vs 'go'; elementary active command."
+      - de: Eintrag thun
+        ja_options: ["害を及ぼす", "損なう"]
+        note: "Old spelling for Eintrag tun; possible OCR/TeX awkwardness around emphasis."
+      - de: in Bereitschaft haben
+        ja_options: ["すぐに使える", "すぐ口にできる"]
+        note: "Active availability, not mere recognition."
+      - de: Sprachgesetze / Sprache
+        ja_options: ["言語の法則 / 言語そのもの"]
+        note: "Central antithesis; likely intentional rhetoric."
+      - de: Zeugniß der Reife
+        ja_options: ["修了資格", "成熟証明"]
+        note: "Abitur-like school leaving qualification; not just a certificate in one subject."
+      - de: Sprachfertigkeit
+        ja_options: ["言語運用能力"]
+        note: "Practical ability; author concedes it is not the official Gymnasium goal."
+      - de: mit abfällt
+        ja_options: ["副産物として生じる"]
+        note: "Comes along incidentally."
+      - de: Reife
+        ja_options: ["「修了資格」を得た者", "修了生"]
+        note: "Quoted term; related to Zeugniß der Reife. Preserve the mild irony if possible."
+      - de: Griechischkönnen
+        ja_options: ["ギリシャ語を使えるという感覚"]
+        note: "Compound conveying practical command, not just knowledge."
+    notes:
+      - "Long entry; likely split only if review becomes unwieldy."
+      - "Use ア\\jdb{テ}ーナイ人 consistently for Attiker."
+      - "Preserve the French quotation; the revised Japanese adds an inline gloss so that its argumentative force is not lost."
+      - "OCR check: 'Aber  im' and 'die Schule  mit' have double spaces; likely harmless transcription spacing."
+      - "OCR check: line break around '\\emph{Schriftwerke Eintrag }thun' is awkward but likely means the old spelling 'Eintrag thun' under emphasis, not a missing word."
+    status: ja-revised
+    review_comments:
+      - "The current translation is mostly accurate; the main issue is readability. I split several German periods into shorter Japanese sentences."
+      - "auszudrücken pflegt: ふつうどのように表すか is more precise than simply どう表すか."
+      - "in Bereitschaft haben: すぐに使える or すぐ口にできる. 口にできる is natural; 使える also covers written/mental readiness."
+      - "mit abfällt: 副産物として生じる is closer than 副産物として身につく, though both work."
+      - "sich darin verständlich machen könnte: 意思疎通できる程度 is good; 自分の考えをギリシャ語で通じるように表せる is fuller."
+      - "Background: de Laveleye is used as a contemporary critic of Gymnasium results; the French quote can remain untranslated in the text, since it functions as a cited judgment."
+      - "Structure: Was ... sagt: quote, das ... trifft...; render as 'the statement ... applies' rather than a literal left-dislocation if smoother."
+      - "Register: use restrained literary forms such as にほかならぬ／であろう／できまい, but avoid pseudo-classical constructions that obscure the argument."
+      - "veniam / ibo is the concrete contrast between 'come' and 'go'; the Japanese glosses 来よう／行こう make the pedagogical point explicit."
+      - "Gegner is deliberately strong and recurs at the end. 敵 preserves both the rhetoric and the repetition better than alternating 反対者 and 敵意."
+
+  - id: legend-012-main-point
+    de_location: legend.tex:127-133
+    ja_location: legend-ja.tex:265-280
+    de: |-
+      Die Hauptsache aber bleibt: die allergewöhnlichsten Wörter und Wendungen
+      in der Ver\textcompwordmark{}kehrs\textcompwordmark{}sprache des
+      täglichen Lebens sind der Urvorrath, der Krystallisations\textcompwordmark{}kern,
+      an den und um den sich die weiteren sprachlichen Bildungen angesetzt
+      und angeschlossen haben. Schon darum verdienen sie unsere Achtung.
+      \emph{Hier} gilt es, die Sprache zu fassen, für den, der sie wirklich
+      lernen will.
+    ja_current: |-
+      とはいえ肝心なのはこうだ。日常生活の交際語で使われるごくありふれた単語や言い回しこそが、
+      根本語彙であり、結晶化の核であり、その核に、またその周りに、さらに進んだ言語的形成物が付着し結びついてきたのである。
+      それだけでも、それらは私たちの尊重に値する。\emph{ここ}でこそ、本当に言語を学びたい者は言語を捉えなければならない。
+    ja_revised: |-
+      しかし、肝要なのはなお次の一点である。
+      日々の交わりの言葉におけるごくありふれた語と表現こそ、原初の蓄えであり、結晶の核なのである。
+      後に生じたさまざまな言語形式は、この核に、またその周囲に付着し、結びついてきた。
+      それゆえ、これらの語と表現は、それだけでも重んずるに値する。
+      真に言語を学ぼうとする者は、まさに\emph{ここ}でそれを捉えねばならない。
+    syntax_tree: |-
+      S1
+      ├─ TOPIC: Die Hauptsache aber
+      └─ PRED: bleibt
+         └─ CONTENT(after colon)
+            ├─ SUBJ: die allergewöhnlichsten Wörter und Wendungen
+            │  └─ PP: in der Verkehrssprache des täglichen Lebens
+            ├─ PRED-NOM-1: sind der Urvorrath
+            └─ PRED-NOM-2: der Krystallisationskern
+               └─ REL: an den und um den sich die weiteren sprachlichen Bildungen angesetzt und angeschlossen haben
+
+      S2
+      ├─ ADV: Schon darum
+      ├─ SUBJ: sie
+      └─ PRED: verdienen unsere Achtung
+
+      S3
+      ├─ LOC/FOCUS: Hier
+      ├─ IMPERSONAL: gilt es
+      ├─ INF-COMP: die Sprache zu fassen
+      └─ DAT/BENEFICIARY: für den, der sie wirklich lernen will
+    gloss:
+      - "Verkehrssprache: language of interaction/communication."
+      - "Urvorrath: original/basic stock."
+      - "Krystallisationskern: nucleus of crystallization."
+      - "die Sprache fassen: grasp the language."
+    vocab:
+      - de: Hauptsache
+        ja_options: ["肝心な点", "要点"]
+        note: "Programmatic summary."
+      - de: allergewöhnlichsten Wörter und Wendungen
+        ja_options: ["最もありふれた語と表現"]
+        note: "Everyday formulas as the true base."
+      - de: Verkehrssprache
+        ja_options: ["日常生活のやりとりの言葉", "交際語"]
+        note: "Language of everyday interaction."
+      - de: Urvorrath
+        ja_options: ["原初の語彙", "基礎語彙"]
+        note: "Original stock around which language develops."
+      - de: Krystallisationskern
+        ja_options: ["結晶化の核"]
+        note: "Scientific metaphor: higher formations attach around a nucleus."
+      - de: sprachliche Bildungen
+        ja_options: ["言語形成", "言語的形成物"]
+        note: "Later/larger linguistic formations."
+      - de: Achtung verdienen
+        ja_options: ["尊重に値する"]
+        note: "Defends ordinary words against contempt."
+      - de: Hier gilt es
+        ja_options: ["ここでこそ...しなければならない"]
+        note: "Impersonal imperative-like phrase."
+    notes:
+      - "交際語 may be acceptable but should be checked against broader term choices."
+      - "OCR check: no likely OCR issue in this paragraph."
+    status: ja-revised
+    review_comments:
+      - "Verkehrssprache can be 交際語, 交通語, or 日常のやりとりの言葉. Here 交際語 is compact but slightly old-fashioned, which may suit the text."
+      - "sprachliche Bildungen is broader than 語形成; 言語形成 or 言語的形成物 both work, but 言語形成 is smoother."
+      - "Context: this restates the whole program: everyday formulas are not trivial; they are the nucleus around which higher language crystallizes."
+      - "原初の蓄え preserves Urvorrath as a stock or store and avoids reducing it prematurely to a technical modern term such as 基礎語彙."
+      - "The relative clause belongs with 結晶の核: later linguistic forms adhere to and gather around that nucleus."
+
+  - id: legend-013-erasmus-and-learning
+    de_location: legend.tex:135-143
+    ja_location: legend-ja.tex:283-302
+    de: |-
+      Eras\textcompwordmark{}mus und die Leute seiner Zeit, deren Kenntniß
+      des Griechischen wir bewundern, lernten es durch Ver\textcompwordmark{}kehr
+      mit Griechisch sprechenden Lehrern aus den Gesprächen über Gegenstände
+      des gewöhnlichen Lebens. Aus der Grammatik und Lectüre allein hat
+      noch Niemand Griechisch wirklich gelernt. Aber die Sprache verdient
+      es, daß wer sie lernen will, sie wirklich und nicht bloß zum Scheine
+      zu lernen sucht; denn Griechisch ist, wie der treffliche Wilhelm
+      Roscher, der berühmte Leipziger Nationalökonom, in seinem Buche über
+      Thukydides einst gesagt hat,
+    ja_current: |-
+      私たちがそのギリシャ語力に感嘆する所のエラスムスやその同時代の人々は、
+      ギリシャ語を話す教師たちとの交流を通じ、日常の事柄についての会話から学んだ。
+      文法書と講読だけでギリシャ語を本当に身につけた人は一人もいない。
+      しかしギリシャ語は、それを学びたい人が、形だけでなく本当に学ぼうとする価値のある言語だ。
+      優れた人物であり、有名なライプツィヒの経済学者でもあるウィルヘルム・ロッシャーが\jdb{ト}ゥーキューディデース論でかつて述べたように、
+    ja_revised: |-
+      私たちがそのギリシャ語の知識に驚嘆するエラスムスとその同時代人は、
+      ギリシャ語を話す教師たちと交わり、日常の事柄を語り合ううちに、これを学んだのである。
+      文法と講読だけでギリシャ語を真に身につけた者は、いまだかつて一人もいない。
+      しかしギリシャ語は、これを学ぼうとする者が、形ばかりでなく真に学ぶべく努めるに値する言語である。
+      けだし、ライプツィヒの名高い国民経済学者、かの優れたヴィルヘルム・ロッシャーが、
+      著書『\jdb{ト}ゥーキューディデース論』においてかつて述べたごとく、ギリシャ語は、
+    syntax_tree: |-
+      S1
+      ├─ SUBJ: Erasmus und die Leute seiner Zeit
+      │  └─ REL: deren Kenntniß des Griechischen wir bewundern
+      ├─ PRED: lernten es
+      ├─ MEANS: durch Verkehr mit Griechisch sprechenden Lehrern
+      └─ SOURCE/CONTEXT: aus den Gesprächen über Gegenstände des gewöhnlichen Lebens
+
+      S2
+      ├─ ADV: Aus der Grammatik und Lectüre allein
+      ├─ SUBJ: noch Niemand
+      └─ PRED: hat Griechisch wirklich gelernt
+
+      S3
+      ├─ CONTRAST: Aber
+      ├─ SUBJ: die Sprache
+      ├─ PRED: verdient es
+      └─ CONTENT(daß): wer sie lernen will, sie wirklich und nicht bloß zum Scheine zu lernen sucht
+
+      S4
+      ├─ REASON: denn
+      ├─ SUBJ: Griechisch
+      ├─ PRED: ist
+      ├─ PAREN: wie Wilhelm Roscher ... einst gesagt hat
+      └─ COMPLEMENT: continued by Roscher quote in next entry
+    gloss:
+      - "Leute seiner Zeit: people of his time."
+      - "Verkehr mit ... Lehrern: interaction/contact with teachers."
+      - "zum Scheine: for appearance only, in seeming only."
+      - "Nationalökonom: political economist/economist."
+    vocab:
+      - de: Erasmus
+        ja_options: ["エラスムス"]
+        note: "Humanist model for learned Greek acquired through contact."
+      - de: Kenntniß des Griechischen
+        ja_options: ["ギリシャ語の知識"]
+        note: "Admired humanist competence."
+      - de: Verkehr
+        ja_options: ["交流", "交わり"]
+        note: "Contact/interaction with Greek-speaking teachers."
+      - de: Griechisch sprechende Lehrer
+        ja_options: ["ギリシャ語を話す教師たち"]
+        note: "Supports active/spoken learning, not grammar-only learning."
+      - de: Gegenstände des gewöhnlichen Lebens
+        ja_options: ["日常生活の事柄"]
+        note: "Everyday subject matter."
+      - de: Grammatik und Lectüre allein
+        ja_options: ["文法と講読だけ"]
+        note: "Rejected as insufficient by itself."
+      - de: zum Scheine
+        ja_options: ["見せかけだけで", "形だけで"]
+        note: "Real learning versus nominal learning."
+      - de: trefflich
+        ja_options: ["すぐれた"]
+        note: "Honorific adjective for Roscher."
+      - de: Nationalökonom
+        ja_options: ["国民経済学者", "経済学者"]
+        note: "19c term; 国民経済学者 preserves period flavor."
+    notes:
+      - "そのギリシャ語力に感嘆する所の is stiff; revise in Japanese pass."
+      - "OCR check: no likely OCR issue in this paragraph."
+    status: ja-revised
+    review_comments:
+      - "dessen Kenntniß des Griechischen wir bewundern modifies Erasmus and his contemporaries; そのギリシャ語の知識に感嘆する is enough."
+      - "Nationalökonom historically is 国民経済学者; 経済学者 is smoother but loses period flavor."
+      - "Because the next entry is a quotation completing 'Griechisch ist...', ending this entry with ギリシャ語は、 makes the handoff clearer."
+      - "Background: the Erasmus example supports practical spoken/contact learning against grammar-and-reading-only instruction."
+      - "aus den Gesprächen is rendered dynamically as 日常の事柄を語り合ううちに; this is more natural than 会話から while retaining conversation as the means of learning."
+      - "The final ギリシャ語は、 deliberately remains syntactically open because the predicate is the quotation in the following entry."
+
+  - id: legend-014-roscher-quote
+    de_location: legend.tex:145-151
+    ja_location: legend-ja.tex:305-320
+    de: |-
+      \begin{quotedquotation}\noindent die Sprache aller Sprachen, worin
+      die köstlichsten Menschenworte geredet sind. Die feierliche Grandezza
+      des Spaniers, die feine Süßigkeit des Italieners, des Franzosen geläufige
+      Anmuth, des Engländers pathetische Kraft, des Deutschen unergründlicher
+      Reichthum, ja selbst die Würde der römischen Senatorensprache, hier
+      sind sie vereinigt, sind geläutert im Feuer des Geistes und zum edelsten
+      Erze zusammengeschmolzen.\unskip``\end{quotedquotation}
+    ja_current: |-
+      \begin{quotedquotation}\noindent それはありとあらゆる言語のうち、最も尊い人間の言葉が語られた言語である。
+      スペイン語の荘重な威厳、イタリア語の繊細な甘美さ、フランス語の軽やかな優雅さ、
+      英語の情感に満ちた力強さ、ドイツ語の底知れぬ豊かさ、さらにはローマ元老院の言葉の威厳さえも、
+      ここに一つとなり、精神の火で精錬され、最も高貴な金属へと溶け合っているのだ。\end{quotedquotation}
+    ja_revised: |-
+      \begin{quotedquotation}\noindent あらゆる言語の中の言語、
+      そこにおいて人間の最も貴い言葉が語られてきた言語である。
+      スペイン人の荘重なグランデッツァ、イタリア人の繊細な甘美、
+      フランス人の流麗な優美、イギリス人の情感あふれる力、
+      ドイツ人の底知れぬ豊かさ、さらにはローマ元老院の言葉の威厳さえも、
+      ここに一つに結ばれ、精神の火に精錬され、最も貴い金属へと溶け合っている。\end{quotedquotation}
+    syntax_tree: |-
+      S1
+      ├─ PRED-COMP: die Sprache aller Sprachen
+      └─ REL(worin): die köstlichsten Menschenworte geredet sind
+
+      S2
+      ├─ LIST-SUBJ:
+      │  ├─ die feierliche Grandezza des Spaniers
+      │  ├─ die feine Süßigkeit des Italieners
+      │  ├─ des Franzosen geläufige Anmuth
+      │  ├─ des Engländers pathetische Kraft
+      │  ├─ des Deutschen unergründlicher Reichthum
+      │  └─ ja selbst die Würde der römischen Senatorensprache
+      ├─ LOC: hier
+      ├─ PRED-1: sind sie vereinigt
+      ├─ PRED-2: sind geläutert im Feuer des Geistes
+      └─ PRED-3: und zum edelsten Erze zusammengeschmolzen
+    gloss:
+      - "Sprache aller Sprachen: language of all languages."
+      - "köstlichsten Menschenworte: most precious human words."
+      - "Grandezza: grandeur."
+      - "geläufige Anmuth: fluent/easy grace."
+      - "pathetische Kraft: pathos-laden/emotional force."
+      - "Erz: ore/metal."
+    vocab:
+      - de: Sprache aller Sprachen
+        ja_options: ["あらゆる言語の中の言語"]
+        note: "Superlative praise, completing 'Griechisch ist...'."
+      - de: köstlichsten Menschenworte
+        ja_options: ["最も貴い人間の言葉"]
+        note: "Precious human utterances."
+      - de: Grandezza
+        ja_options: ["グランデッツァ", "威厳"]
+        note: "Italian loan left foreign in German; preserve or gloss."
+      - de: feine Süßigkeit
+        ja_options: ["繊細な甘美"]
+        note: "Italian-associated sweetness."
+      - de: geläufige Anmuth
+        ja_options: ["流麗な優美"]
+        note: "Fluent/easy grace."
+      - de: pathetische Kraft
+        ja_options: ["情感に満ちた力"]
+        note: "Pathetic/pathos-laden, not pathetic in modern negative English."
+      - de: unergründlicher Reichthum
+        ja_options: ["底知れぬ豊かさ"]
+        note: "Old spelling Reichthum."
+      - de: Würde der römischen Senatorensprache
+        ja_options: ["ローマ元老院の言葉の威厳"]
+        note: "Links back loosely to earlier contrast with senators/orators."
+      - de: geläutert im Feuer des Geistes
+        ja_options: ["精神の火によって浄化され"]
+        note: "Metallurgical/spiritual purification metaphor."
+      - de: zum edelsten Erze zusammengeschmolzen
+        ja_options: ["最も高貴な金属へと鋳合わされている"]
+        note: "Metal fusion metaphor; all listed qualities unite in Greek."
+    notes:
+      - "Quote style should remain faithful; Japanese can be polished but avoid over-modernizing."
+      - "OCR check: no likely OCR issue in this quotation; Grandezza is intentionally Italian."
+    status: ja-revised
+    review_comments:
+      - "The quote grammatically continues the previous entry after 'Griechisch ist'; starting with それは is acceptable, but あらゆる言語の中の言語であり is closer."
+      - "Grandezza is intentionally Italian/foreign in German; leaving グランデッツァ or adding 威厳 both work. 荘重なグランデッツァ preserves the foreignness."
+      - "geläutert is more 浄化され than 精錬され, though 精錬 works well with the metal metaphor."
+      - "Structure: hier sind sie vereinigt refers back to all the national-language qualities just listed."
+      - "The German uses singular national persons (des Spaniers, des Italieners, etc.), not the language names themselves; the revision preserves that personification consistently."
+      - "精錬 and 溶け合う retain the single metallurgical image running through geläutert and zusammengeschmolzen."
