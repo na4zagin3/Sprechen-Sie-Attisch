@@ -11,9 +11,30 @@ I added additional material “Redaktionalle Hinweise zur Digitaliserung und Set
 
 I appreciate any comments, especially corrections of typographical and grammatical errors.
 
+## Building with Nix
+
+Build the generated TeX and all three Japanese PDFs reproducibly:
+
+```console
+nix build
+```
+
+The PDFs are written to `result/`. For an interactive environment containing
+the converter, LuaLaTeX, and the required fonts, run:
+
+```console
+nix develop
+./build.sh
+```
+
+If flakes are not enabled globally, add
+`--extra-experimental-features 'nix-command flakes'` immediately after `nix`
+in those commands.
+
 ## Dependency
 
-- XeLaTeX
+- Nix (recommended), or Stack plus a LuaLaTeX installation and the fonts used
+  in `preamble.tex`
 
 ## License
 
