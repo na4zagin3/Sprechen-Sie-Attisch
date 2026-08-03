@@ -55,7 +55,10 @@ sections:
       - modern:
           - de: Das Ministerium des Aus\textcompwordmark{}wärtigen.
         grc:
-          - τὸ ἡπουργεῖον{*} τῶν ἐξωτερικῶν.
+          - |-
+            τὸ ὑπουργεῖον{*}\footnote{\textlatin{%
+            orig. \textgreek{ἡπουργεῖον}}%
+            } τῶν ἐξωτερικῶν.
       - modern:
           - de: \qquad{}des Innern.
         grc:
@@ -104,9 +107,9 @@ sections:
           - de: Die Times.
         grc:
           - |-
-            οἰ καιροί\footnote{\textlatin{%
-            orig. \textgreek{Καιροί}}%
-            }.
+            οἱ\footnote{\textlatin{%
+            orig. \textgreek{οἰ}}%
+            } Καιροί.
   - entries:
       - modern:
           - de: Das Dampf\textcompwordmark{}schiff.
@@ -138,11 +141,11 @@ sections:
       - modern:
           - de: Der Omnibus.
         grc:
-          - τὸ λεωφορεῖον.
+          - τὸ λεωφορεῖον.{*}
       - modern:
           - de: Der Fahrplan.
         grc:
-          - τὸ δρομολόγιον.
+          - τὸ δρομολόγιον.{*}
   - entries:
       - modern:
           - de: Der Apotheker.
@@ -217,7 +220,7 @@ sections:
         grc:
           - ὁ καθηγητής.
       - modern:
-          - de: Der Redacterur.
+          - de: Der Redacteur.
         grc:
           - ὁ συντάκτης.{*}
       - modern:
@@ -291,11 +294,11 @@ sections:
       - modern:
           - de: Die Post.
         grc:
-          - τὸ ταχυδρομεῖον.
+          - τὸ ταχυδρομεῖον.{*}
       - modern:
           - de: Die Freimarke.
         grc:
-          - τὸ γραμματόσημον.
+          - τὸ γραμματόσημον.{*}
       - modern:
           - de: Die Postkarte.
         grc:
@@ -307,7 +310,7 @@ sections:
       - modern:
           - de: Das Rathhaus.
         grc:
-          - τὸ δημαρχεῖον.
+          - τὸ δημαρχεῖον.{*}
       - modern:
           - de: Die Straße.
         grc:
@@ -384,7 +387,7 @@ sections:
       - modern:
           - de: Das Pianoforte.
         grc:
-          - τὸ κλειδοκύμβαλον.
+          - τὸ κλειδοκύμβαλον.{*}
       - modern:
           - de: Der Saal.
         grc:
@@ -447,9 +450,15 @@ sections:
           - ἡ ὀδοντογλυφίς.
   - entries:
       - modern:
-          - de: Der Keiser.
+          - de: |-
+              Der Kaiser.\footnote{\textlatin{%
+              orig. \textgerman{Keiser.}}%
+              }
         grc:
-          - ὁ αὐτοκράτως.
+          - |-
+            ὁ αὐτοκράτωρ\footnote{\textlatin{%
+            orig. \textgreek{αὐτοκράτως}}%
+            }.
       - modern:
           - de: Deutschland.
         grc:
@@ -473,7 +482,7 @@ sections:
       - modern:
           - de: Die Engländer.
         grc:
-          - οἱ Ἄγγλοι.
+          - οἱ Ἄγγλοι.{*}
       - modern:
           - de: Rußland.
         grc:
