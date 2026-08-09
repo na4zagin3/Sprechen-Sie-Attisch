@@ -63,12 +63,12 @@ entries:
     ja_current: |-
       ギリシャ語は、ほとんどの人にとり、基本的に学べない言語と考えられており、
       まともに把握している現代言語ほどには決して習熟できないものと思われている。
-      本小書は、明るい休暇気分の気分がその発端となったもので、
+      本小書は、明るい休日の気分がその発端となったもので、
       アッティカ方言口語を最も一般的な言い囘しで教えることで、その反証を試みるものだ。
     ja_revised: |-
       ギリシャ語は、ほとんどの人にとり、根本的には習得できない言語と考えられており、
       世人がそこそこ使いこなせる所の近代語ほどには決して習熟できないものと思われている。
-      本小書は、明るい休暇気分の気分がその発端となったもので、
+      本小書は、明るい休暇気分がその発端となったもので、
       アッティカ方言口語を最もよく用いられる言い回しで教えることで、その反証を試みるものである。
     gloss:
       - "den Allermeisten: to the great majority."
@@ -170,9 +170,9 @@ entries:
       \emph{その}おかげで、ソ\jdb{ポ}クレースの劇やペリクレースの演説が理解できたのだ。
       日常生活の言語は、演説や書物における高度な作品を理解するために必要な\ruby{類似}{アナロジー}を与えていたのだ。
     ja_revised: |-
-      アッティカの少年はギリシャ詩人の読書に、また、アッティカの農民は劇場や民会に、アッティカ方言口語の最も素朴な形の知識だけを持っていった。
+      アッティカの少年はギリシャ詩人の読書に、また、アッティカの農民は劇場や民会に、アッティカ方言口語の最も素朴な形の知識だけを携えていった。
       \emph{その知識}により、ソ\jdb{ポ}クレースの劇やペリクレースの演説が理解できたのだ。
-      日常生活の言語は、弁論や書物における高度な産物を理解するために必要な\ruby{類似}{アナロジー}を与えていたのだ。
+      日常生活の言語は、弁論や書物における高度な産物を理解するために必要な類比を与えていたのだ。
     gloss:
       - "brachte ... mit: brought with him, had at hand as equipment."
       - "Lectüre griechischer Dichter: reading Greek poets."
@@ -299,7 +299,7 @@ entries:
     ja_revised: |-
       アリスト\jdb{パ}ネースは、市井の人々を庶民的な交際の調子で語らせる箇所で、
       この目的に十分な言語資料を提供している。
-      その他の文学作品にも、市井の暮らしの言葉の忠実な模倣と見なせる箇所が散在している。
+      その他の文学作品にも、市井の暮らしの言葉の忠実な模倣と見なさねばならない箇所が散在している。
       従って、この課題は解決不可能であるはずはない。もっとも、本小書がその解決に寄与するところは、まだほんの僅かに過ぎないのであるが。
     gloss:
       - "volksthümlicher Verkehrston: popular/everyday conversational tone."
@@ -418,16 +418,16 @@ entries:
       それに比べて、ギリシャ語では日常生活の言葉にずっと多く向き合わされる。
       ギリシャ語では、劇作家の対話もプラトーンの対話も読む。弁論家たちは元老院議員に語りかけるのではなく、
       ごく普通の人の声を得ようとする。
-      ごく普通の人の声を扱うこと自体が、彼らをその人の言葉遣いの近くにとどまらせる。
+      ごく普通の人の声を扱うこと自体が、彼らにその人の言葉遣いの近くに留まることを余儀無くさせる。
       そしてこのことだけでも、ギリシャ語の日常的な表現法を知ることは、テキストをより繊細に理解するために有用なものとなる。
     ja_revised: |-
       アッティカ方言での会話を習うつもりのない人であっても、
-      ギリシャ語理解のためにアッティカ方言の日常口語に取り組むことは大いに役立つ。
+      ギリシャ語理解のためにアッティカ方言の日常口語に取り組むことは大いに役立つものである。
       我々のギムナジウムでは、ラテン語についてはほとんど高尚な文語に属する著作ばかり——キケローやタキトゥスを思い浮かべればよい——を読み、
       そしてそれらの著作では、民衆語はせいぜい所々にかすかに認められるにすぎないが、
       翻って、ギリシャ語では日常生活の言葉にずっと多く向き合わされるからである。
       ギリシャ語では、劇作家の戯曲中の会話も、プラトーンの作品中の会話も読む。
-      弁論家は元老院議員に向かって語るのではなく、最もありふれた人の声を得ようとする。
+      弁論家は元老院議員に向かって語るのではなく、ごく普通の庶民の一票を得ようとする——
       このことは、彼らを最もありふれた人の言葉に近いところへ留めており、
       そしてこのことは、ギリシャ語の日常生活の表現法を知ることを、
       テキストを精緻に理解するために有用なものとするに違いない。
@@ -501,9 +501,9 @@ entries:
       \emph{日常}の言葉から近づいてこそ、その尺度を持てるのであり、ギリシャ語でも同じである。
     ja_revised: |-
       第二に、文学作品における言語の\emph{色合い}や文体の種類は、
-      その言葉が日常語からどれほど\emph{隔っている}かを測りうる者にだけ、正しく見て取れる。
-      仮にドイツ語をシラーだけから学んだ人がいれば、その人にはシラーの語法の独自性と高みを理解する感覚が欠けているだろう。
-      \emph{日常性}の言葉から出発してそれに近づく者だけが、その尺度を携えている。
+      その言葉が日常語からどれほど\emph{隔たっている}かを測りうる者にだけ、正しく見て取れるものである。
+      仮にドイツ語をシラーだけから学んだ人がいれば、その人にはシラーの語法の独自性や高みを理解する感覚が欠けていよう。
+      \emph{日常性}の言葉から出発して近づく者だけが、その尺度を携えている。
       ギリシャ語でも相違なかろう。
     syntax_tree: |-
       S1
@@ -598,12 +598,13 @@ entries:
       第三に、ギリシャ語の日常口語に取り組むことは、
       とりわけドイツ語とギリシャ語の\emph{表現の比較}を余儀なくさせ、
       語句の比較が素早く容易に行えるようにすることで
-      ギリシャ語からの翻訳の確かさと自然さを高める。
-      言語の\emph{精神}と呼ばれるものは、諸言語相互の比較が\emph{容易}で\emph{自然に思いつく}ところに、
-      すなわち日常的なものの領域に、最もはっきり現れる。
+      ギリシャ語からの翻訳の確かさや
+      自然さを高めるものである。
+      言語の\emph{精神}と呼ばれるものは、諸言語相互の比較が\emph{容易}で\emph{自然に思いつく}ところ、
+      即ち日常的なものの領域に、最もはっきり現れる。
       現代生活の日常的な言い回しを古代人の話し方と比較してみれば、
-      おのずと滑稽味が生じる。
-      しかしこの探究では、それも避けがたい代償として
+      おのずと滑稽味が生じるが、
+      しかしこの探究では、それも避けがたいものとして
       甘受しなければならない。
     syntax_tree: |-
       S1
@@ -749,38 +750,37 @@ entries:
       そうした理由からも、この小冊子は、ギムナジウムで得られる知識を手がかりにすれば、
       意思疎通できる程度にギリシャ語を身につけることはたやすいと示したいのだ。
     ja_revised: |-
-      最後に、次のことを指摘しておかねばならない。
-      わが国のギムナジウムにおけるギリシャ語学習に、これほど多くの\emph{敵}を作ったものは、
+      最後に、なお一つ指摘しておかねばならないのは、
+      わが国のギムナジウムにおけるギリシャ語の学習に、これほど多くの\emph{反対者}を生んだものは、
       ほかならぬ、ギリシャ語が根本的には習得しえない言語と見なされているという事実である。
-      ベルギーのエミール・ド・ラヴェレイ教授は、自ら見聞したギムナジウム教育の成果について、
-      「\textfrench{résultat net et incontestable: on sait peu le latin et point du tout le grec,}」
-      ——「明白にして争う余地なき結論は、ラテン語を僅かに知り、ギリシャ語をまったく知らぬ、ということである」——
-      と述べている。これは、ドイツのギムナジウムにもほぼ当てはまる、と多くの人が主張する。
+      ベルギーのエミール・ド・ラヴェレイ教授は、自ら観察したギムナジウム教育の成果を、
+      「\textfrench{résultat net et incontestable: on sait peu le latin et point du tout le grec,}\footnote{「明白にして争う余地なき結論、すなわちラテン語は僅かに知るが、ギリシャ語はまるで知らない」}」
+      と評している。これはドイツのギムナジウムにもほぼ当てはまる、と主張する者は多い。
       「ギリシャ語を学んだ」者のうち、
-      「私は君のもとへ行こう」といったごく簡単なことをア\jdb{テ}ーナイ人ならどう言い表すか、
-      多少なりとも確かに答えられる者は驚くほど少ない。
-      ラテン語ならば、「\textlatin{veniam}」（来よう）が即座に浮かばない者は、
-      初歩の初歩すら身につけていないと思われるであろう。
-      また、「\textlatin{veniam}」（来よう）と「\textlatin{ibo}」（行こう）との区別もつかないならば、
+      「私は君のところに行こう」といったごく簡単な考えをア\jdb{テ}ーナイ人ならふつうどう言い表すか、
+      多少なりとも確かに答えられる者は、驚くほど少ない。
+      ラテン語ならば、「\textlatin{veniam}\footnote{話者や直示中心に近付いて来る}」が即座に浮かばぬ者は、
+      初歩の初歩さえ身についていないと思われるであろう。
+      さらに、「\textlatin{veniam}」と「\textlatin{ibo}\footnote{目的地へ向けて離れて行く}」とを区別できぬのなら、
       教育の不備を嘆くのはまったく当然であり、
-      かかる曖昧な知識は、ラテン語の\emph{文献}の\emph{意味}を確実に捉える妨げともならざるをえない、と考えられるであろう。
+      かかる不確かさは、ラテン語の\emph{著作}の\emph{意味}を確実に捉えることの上でも害になるとみなされよう。
       ところが、ギリシャ語ではどうか。
-      試みに尋ねてみれば、ア\jdb{テ}ーナイ人が日常用いる
-      「\textgreek[variant=ancient]{ἥξω παρὰ σέ}」をいつでも口にできる者は、驚くほど少ないとわかるであろう。
-      ギリシャ語については、言語の\emph{法則}を熱心に研究しながら、\emph{言語}そのものはほとんど学ばないのである。
-      しかも、ギリシャ語を学ぶのは文法的訓練のためではない——その訓練ならばラテン語で十分である——、
-      まさしく言語そのものを学ぶためなのである。
-      ギリシャ語の修了資格を得て学校を出た若者に、ギリシャの葡萄酒を一杯すすめてみるがよい。
-      彼はおそらく、多少なりともふさわしいギリシャ語で礼を述べることも、
-      その葡萄酒が口に合うと言うこともできまい。
-      むろん、かかる言語運用の力は、ギムナジウムにおけるギリシャ語教育の目的でも課題でもない。
-      しかし、長年にわたる刻苦の学習から、それが副産物としてさえ得られず、なおまったく縁遠いものに見えるならば、
-      ギリシャ語をものにしたという実感は生まれようがない。
-      「修了資格」を得た者自身、ごく簡単な考えを真にギリシャ語らしい言い回しで表すのに、
+      試してみれば、ア\jdb{テ}ーナイ人の日常の言い回しである
+      「\textgreek[variant=ancient]{ἥξω παρὰ σέ}」がすぐ口をついて出る者は、驚くほど少なかろう。
+      ギリシャ語では、言語の\emph{法則}を熱心に研究しながら、\emph{言語}そのものはほとんど学ばない。
+      しかもギリシャ語を学ぶのは、文法的訓練のためではなく——それならばラテン語で十分に足りる——、
+      ほかならぬ言語そのもののためなのである。
+      ギリシャ語の修了資格を得て学校を出た青年に、ギリシャの葡萄酒を一杯すすめてみるがよい。
+      彼はおそらく、それに礼を述べるに多少なりともふさわしいギリシャ語も口にできず、
+      その葡萄酒が旨いと言うことさえできまい。
+      無論、かかる言語運用の力は、ギムナジウムにおけるギリシャ語教育の目的でも課題でもない。
+      しかし、長年にわたり苦しい勉学を重ねても、その力が副産物としてさえ得られず、かくも縁遠いままに見えるならば、
+      ギリシャ語をものにしたという実感は生じようがない。
+      この「修了者」自身、ごく簡単な考えを真にギリシャ語らしい言い回しで表すのに、
       言い知れぬ苦労を要することをよく承知している。
-      これは不満を生み、ギリシャ語に敵を作る大きな一因となる。
+      これが不満を募らせ、ギリシャ語に反対する者を生む大きな一因となる。
       この理由からも、わが小書は、ギムナジウムで授けられる知識をもとに、
-      少なくとも意思を通じうるほどにギリシャ語をわがものとするのは容易であることを示そうとするものである。
+      自らの意を通じられる程度にギリシャ語を身につけるのは容易であることを示そうとするものである。
     syntax_tree: |-
       S1
       ├─ FORMULA: Endlich aber sei darauf hingewiesen
@@ -920,7 +920,9 @@ entries:
       - "Structure: Was ... sagt: quote, das ... trifft...; render as 'the statement ... applies' rather than a literal left-dislocation if smoother."
       - "Register: use restrained literary forms such as にほかならぬ／であろう／できまい, but avoid pseudo-classical constructions that obscure the argument."
       - "veniam / ibo is the concrete contrast between 'come' and 'go'; the Japanese glosses 来よう／行こう make the pedagogical point explicit."
-      - "Gegner is deliberately strong and recurs at the end. 敵 preserves both the rhetoric and the repetition better than alternating 反対者 and 敵意."
+      - "Gegner is deliberately strong and recurs at the end, but bare 敵 makes the Japanese more polemical than this educational context requires. 反対者／反対する者 preserves the recurrence without becoming melodramatic."
+      - "Ich werde zu dir kommen must retain the come/go contrast that motivates veniam versus ibo; therefore use 私は君のところへ来よう, despite the slight markedness of Japanese deixis."
+      - "Der ‘Reife’ is ironic wordplay on Zeugnis der Reife. この「修了者」 is not fully literal, but it preserves the quotation marks and reads more naturally than 「修了資格」を得た者."
 
   - id: legend-012-main-point
     de_location: legend.tex:127-133
@@ -938,11 +940,11 @@ entries:
       根本語彙であり、結晶化の核であり、その核に、またその周りに、さらに進んだ言語的形成物が付着し結びついてきたのである。
       それだけでも、それらは私たちの尊重に値する。\emph{ここ}でこそ、本当に言語を学びたい者は言語を捉えなければならない。
     ja_revised: |-
-      しかし、肝要なのはなお次の一点である。
-      日々の交わりの言葉におけるごくありふれた語と表現こそ、原初の蓄えであり、結晶の核なのである。
-      後に生じたさまざまな言語形式は、この核に、またその周囲に付着し、結びついてきた。
-      それゆえ、これらの語と表現は、それだけでも重んずるに値する。
-      真に言語を学ぼうとする者は、まさに\emph{ここ}でそれを捉えねばならない。
+      しかし、肝心なことは変わらない。
+      日々の交わりに用いる言葉のごくありふれた語や表現こそが言語の根源をなす蓄えであり、結晶核なのであり、
+      そこから生じたさまざまな言語形式は、この核に、またその周囲に付着し、連なってきたのだ。
+      そのことだけからでも、これらの語や表現は、注目に値する。
+      真に言語を学ぼうとする者は、まさに\emph{\ruby{ここ}{日常語}}において言語を捉えねばならない。
     syntax_tree: |-
       S1
       ├─ TOPIC: Die Hauptsache aber
@@ -1004,6 +1006,8 @@ entries:
       - "Context: this restates the whole program: everyday formulas are not trivial; they are the nucleus around which higher language crystallizes."
       - "原初の蓄え preserves Urvorrath as a stock or store and avoids reducing it prematurely to a technical modern term such as 基礎語彙."
       - "The relative clause belongs with 結晶の核: later linguistic forms adhere to and gather around that nucleus."
+      - "肝要なのはなお次の一点 is stiff and slightly changes bleibt. 肝要なことは変わらない conveys that the main point remains."
+      - "原初の蓄え is close to Urvorrath but opaque in Japanese. 言語の根源をなす蓄え keeps the stock metaphor while making its function immediately intelligible."
 
   - id: legend-013-erasmus-and-learning
     de_location: legend.tex:135-143
@@ -1025,12 +1029,12 @@ entries:
       しかしギリシャ語は、それを学びたい人が、形だけでなく本当に学ぼうとする価値のある言語だ。
       優れた人物であり、有名なライプツィヒの経済学者でもあるウィルヘルム・ロッシャーが\jdb{ト}ゥーキューディデース論でかつて述べたように、
     ja_revised: |-
-      私たちがそのギリシャ語の知識に驚嘆するエラスムスとその同時代人は、
+      我々がギリシャ語の知識に驚嘆する所のエラスムスやその同時代人は、
       ギリシャ語を話す教師たちと交わり、日常の事柄を語り合ううちに、これを学んだのである。
-      文法と講読だけでギリシャ語を真に身につけた者は、いまだかつて一人もいない。
-      しかしギリシャ語は、これを学ぼうとする者が、形ばかりでなく真に学ぶべく努めるに値する言語である。
-      けだし、ライプツィヒの名高い国民経済学者、かの優れたヴィルヘルム・ロッシャーが、
-      著書『\jdb{ト}ゥーキューディデース論』においてかつて述べたごとく、ギリシャ語は、
+      文法書と講読だけでギリシャ語を真に身につけた者は、いまだかつて一人もいない。
+      しかしこの言語は、学ぼうとする者が、形ばかりでなく真に学ばんと努めるに値するものだ。
+      というのも、ギリシャ語というのは、優れた人物であり高名な国民経済学者であるライプツィヒのヴィルヘルム・ロッシャーが
+      \jdb{ト}ゥーキューディデースに関する著書でかつて述べたように、
     syntax_tree: |-
       S1
       ├─ SUBJ: Erasmus und die Leute seiner Zeit
@@ -1100,6 +1104,8 @@ entries:
       - "Background: the Erasmus example supports practical spoken/contact learning against grammar-and-reading-only instruction."
       - "aus den Gesprächen is rendered dynamically as 日常の事柄を語り合ううちに; this is more natural than 会話から while retaining conversation as the means of learning."
       - "The final ギリシャ語は、 deliberately remains syntactically open because the predicate is the quotation in the following entry."
+      - "The source gives only in seinem Buche über Thukydides, not a title. 『トゥーキューディデース論』 looks like a supplied formal title, so トゥーキューディデースに関する著書 is safer."
+      - "学ぶべく努めるに値する言語 is grammatically heavy. この言語は……努めるに値する preserves the German personification and reads more cleanly."
 
   - id: legend-014-roscher-quote
     de_location: legend.tex:145-151
@@ -1118,12 +1124,12 @@ entries:
       英語の情感に満ちた力強さ、ドイツ語の底知れぬ豊かさ、さらにはローマ元老院の言葉の威厳さえも、
       ここに一つとなり、精神の火で精錬され、最も高貴な金属へと溶け合っているのだ。\end{quotedquotation}
     ja_revised: |-
-      \begin{quotedquotation}\noindent あらゆる言語の中の言語、
-      そこにおいて人間の最も貴い言葉が語られてきた言語である。
-      スペイン人の荘重なグランデッツァ、イタリア人の繊細な甘美、
-      フランス人の流麗な優美、イギリス人の情感あふれる力、
-      ドイツ人の底知れぬ豊かさ、さらにはローマ元老院の言葉の威厳さえも、
-      ここに一つに結ばれ、精神の火に精錬され、最も貴い金属へと溶け合っている。\end{quotedquotation}
+      \begin{quotedquotation}\noindent 言語の中の言語であり、
+      そこにおいて、人間の最も尊い言葉が語られてきた言語である。
+      スペイン人の言葉の荘重なる威容、イタリア人の言葉の繊細な甘美さ、
+      フランス人の言葉のよどみなき優美、イギリス人の言葉の激越なる力、
+      ドイツ人の言葉の底知れぬ豊かさ、さらにはローマの元老院弁論の威厳さえも、
+      ここに一つに集められ、精神の火に精錬され、こよなく貴い\ruby{金属}{かね}へと溶け合っているのだ。\end{quotedquotation}
     syntax_tree: |-
       S1
       ├─ PRED-COMP: die Sprache aller Sprachen
@@ -1190,3 +1196,6 @@ entries:
       - "Structure: hier sind sie vereinigt refers back to all the national-language qualities just listed."
       - "The German uses singular national persons (des Spaniers, des Italieners, etc.), not the language names themselves; the revision preserves that personification consistently."
       - "精錬 and 溶け合う retain the single metallurgical image running through geläutert and zusammengeschmolzen."
+      - "Sprache aller Sprachen is more forceful and idiomatic as 言語の中の言語 than あらゆる言語の中の言語."
+      - "pathetische Kraft is elevated, pathos-laden force; 悲壮なる力 better preserves that older rhetorical sense than the softer 情感あふれる力."
+      - "Senatorensprache denotes senatorial speech rather than merely words used in the Senate. ローマの元老院弁論 makes the rhetorical register explicit."
