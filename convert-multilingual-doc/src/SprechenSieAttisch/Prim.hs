@@ -61,6 +61,31 @@ modernSentence fg = catMaybes [textDe, textLa, textJa]
     textLa = (\x -> (latin, x)) . (++ "%\n") <$> langLineFrag latin fg
     textJa = (\x -> (japanese, x)) . (++ "%\n") <$> langLineFrag japanese fg
 
+languageText :: LangCode -> ModernSentence -> String
+languageText lang = fromMaybe "" . M.lookup lang
+
+attischSectionHeader :: ModernSentence -> Document
+attischSectionHeader title = concat [ "\\AttischSection{"
+                                    , languageText german title
+                                    , "}{"
+                                    , languageText japanese title
+                                    , "}\n"
+                                    ]
+
+attischPartHeader :: ModernSentence -> Maybe ModernSentence -> Document
+attischPartHeader title indexTitle = concat [ "\\AttischPart{"
+                                            , languageText german title
+                                            , "}{"
+                                            , languageText japanese title
+                                            , "}{"
+                                            , languageText german tocTitle
+                                            , "}{"
+                                            , languageText japanese tocTitle
+                                            , "}\n"
+                                            ]
+  where
+    tocTitle = fromMaybe title indexTitle
+
 modernSentences :: [ModernSentence] -> [(LangCode, Document)]
 modernSentences [] = error "modernSentences: empty list"
 modernSentences [m] = modernSentence m

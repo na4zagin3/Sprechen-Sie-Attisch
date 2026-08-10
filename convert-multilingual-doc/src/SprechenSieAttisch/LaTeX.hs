@@ -18,13 +18,13 @@ modernSentenceForHeader ms = concat ["{", ss, "}"]
 renderPartSection :: Part.Section -> Document
 renderPartSection s = concat $ catMaybes [docTitle, Just docConvs]
   where
-    docTitle = sectionHeader Nothing . modernSentenceForHeader <$> title s
+    docTitle = attischSectionHeader <$> title s
     docConvs = concatMap renderFragment $ conversations s
 
 convertPart :: Part -> Document
 convertPart p = L.intercalate "\n" $ docTitle : docSections
   where
-    docTitle = partHeader (modernSentenceForHeader <$> Part.indexTitle p) . modernSentenceForHeader $ part p
+    docTitle = attischPartHeader (part p) (Part.indexTitle p)
     docSections = map renderPartSection $ Part.sections p
 
 renderLexiconSection :: Lexicon.Section -> (Maybe Document, Document)

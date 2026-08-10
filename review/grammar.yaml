@@ -700,8 +700,8 @@ entries:
     de_location: grammar.tex:105-116
     ja_location: grammar-ja.tex:264-289
     ja_revised: |-
-      ギリシャ語にもラテン語にも、近代諸語に見られる次のような強調構文はない\footnote{非人称主語を用いる構文は日本語にも無い。以下の例文はドイツ語の構造を保とうとしたものものであるが、日本語として苦しい。}。
-      ドイツ語では、他の近代諸語と同じく、強調したい概念を、多くは非人称主語「\ruby{それ}{\textgerman{es}」を伴う新たな文の述語とし、
+      ギリシャ語にもラテン語にも、近代諸語に見られる次のような強調構文はない\footnote{非人称主語を用いる構文は日本語にも無い。以下の例文はドイツ語の構造を保とうとしたものであるが、日本語として苦しい。}。
+      ドイツ語では、他の近代諸語と同じく、強調したい概念を、多くは非人称主語「\ruby{それ}{\textgerman{es}}」を伴う新たな文の述語とし、
       残りの文成分を関係詞または接続詞で導かれる従属節として添える。
       \emph{ギリシャ語では、ある概念を強調するために一つの文を二つに分けるような構文を用いてはならない。}
       例えば、
@@ -905,15 +905,19 @@ entries:
           Vorausgehende is the complement of anschließen.
         grammar: >
           sein + zu-infinitive expresses obligation. das Vorausgehende is a
-          substantivized participle meaning the preceding discourse, not
-          necessarily only the immediately preceding sentence.
+          substantivized participle, literally “what precedes.” In this context,
+          jeder neue Satz supplies the relevant unit, so it points primarily to
+          the preceding sentence. Since the German does not say der unmittelbar
+          vorausgehende Satz, it should not be narrowed explicitly to “the
+          immediately preceding sentence.”
         nuance: >
           ununterbrochene Rede means connected discourse rather than isolated
           exercises. passend requires a connective matching the intended
           discourse relation.
         ja_note: >
-          「連続した談話では、新しい文を一つ一つ、適切な接続詞で先行する談話に
-          つなげる」makes the setting explicit.
+          「連続した談話では、新しい文は一つ一つ、適切な接続詞によって先行する文に
+          接続せねばならない」preserves Satz as the grammatical unit and
+          renders das Vorausgehende contextually as 「先行する文」.
       - segment: "Der Lernende ist davor zu warnen, μέν für eine ... Conjunction zu halten."
         syntax: >
           ist ... zu warnen is passive-modal. davor anticipates the infinitive
@@ -922,8 +926,10 @@ entries:
           Conjunction.
         grammar: >
           The allegedly replaced Verbindung is the backward link to the
-          preceding discourse. The warning concerns the learner’s classification
-          of μέν, not merely a poor Japanese gloss.
+          preceding sentence. The warning concerns the learner’s classification
+          of μέν, not merely a poor Japanese gloss. The repeated das
+          Vorausgehende has the same contextual referent as in the preceding
+          sentence of the source.
         nuance: >
           μέν is not being denied all connective function; the author contrasts
           its forward-pointing role with particles that explicitly relate the
@@ -1059,8 +1065,8 @@ entries:
 
   - id: grammar-005-discourse-particles
     title: 談話標識と小辞の対応
-    de_location: grammar.tex:157-214
-    ja_location: grammar-ja.tex:398-557
+    de_location: grammar.tex:156-227
+    ja_location: grammar-ja.tex:398-608
     de_original: |-
       Man merke: Nun so ... denn = \textgreek[variant=ancient]{ἀλλά,}
 
@@ -1105,25 +1111,27 @@ entries:
       daß umgekehrt \textgreek[variant=ancient]{ἄρα} sich überall passend
       durch „o dann ...“ übersetzen lasse.
     ja_revised: |-
-      次の対応に注意すること。
+      次の言い方に注意せよ。
 
-      では、さあ……：\textgreek[variant=ancient]{ἀλλά}\\
-      ああ、それなら……／なるほど、では……：\textgreek[variant=ancient]{ἄρα}\\
-      すると彼は来た、そして言った：\textgreek[variant=ancient]{καὶ ἦλθε, καὶ εἶπεν}\\
-      しかしながら／とはいえ：\textgreek[variant=ancient]{μέντοι}\\
+      さて、それでは……：\textgreek[variant=ancient]{ἀλλά}\\
+      ああ、それなら……：\textgreek[variant=ancient]{ἄρα}\\
+      すると彼は来た／すると彼は言った：\textgreek[variant=ancient]{καὶ ἦλθε / καὶ εἶπεν}\\
+      しかしながら：\textgreek[variant=ancient]{μέντοι}\\
       というのも、さもなければ……：\textgreek[variant=ancient]{γάρ}\\
-      では／そこで／こうして（先行内容を受けて）：\textgreek[variant=ancient]{δή}\\
+      そして・では（推論）。例えば、「\emph{では}、聞きたまえ」、
+      「\emph{こうして}彼は……となったのである」：\textgreek[variant=ancient]{δή}\\
       きっと……だろう（疑いなく）：\textgreek[variant=ancient]{δήπου}\\
-      するともう……／そして早くも……：\textgreek[variant=ancient]{καὶ δή}\\
-      例：\textgreek[variant=ancient]{πάλαι δή}「もうとっくに」、
-      \textgreek[variant=ancient]{νῦν δή}「今まさに／たった今」\\
+      すると、もう……：\textgreek[variant=ancient]{καὶ δή}
+      （ここでは\textgreek[variant=ancient]{δή}＝\textgreek[variant=ancient]{ἤδη}）。
+      比較：\textgreek[variant=ancient]{πάλαι δή}「もうとうに」、
+      \textgreek[variant=ancient]{νῦν δή}「たった今」\\
       しかし……ではある：\textgreek[variant=ancient]{δέ}\\
-      その時になって初めて／そうして初めて：\textgreek[variant=ancient]{οὕτω δή}\\
-      確かに……ではある／……なのは確かだ：\textgreek[variant=ancient]{\ldots{} μήν}\\
-      とはいえ……／しかし、それでも……：\textgreek[variant=ancient]{οὐ μὴν ἀλλά}\\
+      そうして初めて／その時になって初めて：\textgreek[variant=ancient]{οὕτω δή}\\
+      ……であることは確かだ：\textgreek[variant=ancient]{\ldots{} μήν}\\
+      とはいえ……：\textgreek[variant=ancient]{οὐ μὴν ἀλλά}\\
       おそらく……だろう：\textgreek[variant=ancient]{ἦ που}\\
-      （否定のあとで）また……もない／……でもない：\textgreek[variant=ancient]{οὐδέ, μηδέ}\\
-      どうか／ねえ（問いでは「いったい」；ラテン語\textlatin{quaeso}）：\textgreek[variant=ancient]{δῆτα}\\
+      （否定文に続けて）また……もない／……でもない：\textgreek[variant=ancient]{οὐδέ, μηδέ}\\
+      依頼などを強める「どうか／ねえ」（ラテン語\textlatin{quaeso}の意の\textgerman{doch}）：\textgreek[variant=ancient]{δῆτα}\\
       Xというよりも、むしろY：
       \textgreek[variant=ancient]{οὐ τοσοῦτον ὅσον \ldots{};
       οὐ τὸ πλέον \ldots{} ἀλλὰ \ldots{}}
@@ -1132,11 +1140,15 @@ entries:
       逆に\textgreek[variant=ancient]{ἄρα}がどの場合にも「ああ、それなら……」と適切に訳せるということには、決してならない。
     reference_availability:
       local_resources: >
-        The LSJ, canonical-greekLit, and ancient-greek-texts paths recorded in
-        meta.resource_roots were not present when this entry was rechecked.
+        The LSJ, canonical-greekLit, and ancient-greek-texts resources recorded
+        in meta.resource_roots are present. The local LSJ TEI and Perseus
+        canonical corpus are the primary lexical and text-checking resources;
+        ancient-greek-texts is used only for discovery because its editions and
+        citation structure are less controlled.
       lsj: >
-        LSJ entries were checked through the Scaife ATLAS publication of the
-        Perseus lexicon.
+        Relevant LSJ entries are available locally in
+        LSJ_GreekUnicode/grc.lsj.perseus-eng*.xml. The Scaife ATLAS links below
+        are retained as convenient human-readable counterparts.
       denniston: >
         No locally readable or openly searchable full text of Denniston was
         available. Open Library supplied bibliographic access only. Denniston's
@@ -1152,6 +1164,20 @@ entries:
           Expresses consequence or succession: “then,” “there and then,” and
           derived inferential uses. This supports 「それなら／すると」, but the
           exclamation 「ああ」 comes from German o, not from ἄρα itself.
+      - title: "LSJ: γάρ I.3.c"
+        finding: >
+          Describes γάρ in conditional propositions whose condition is omitted,
+          with the resulting force “else.” This is the specific construction
+          represented by German denn sonst, rather than merely a general causal
+          or explanatory use of γάρ.
+      - title: "LSJ: δή"
+        finding: >
+          Defines δή originally as temporal (“at this or that point,” hence
+          “now, then, already, at length”), then distinguishes emphatic use
+          (II) and transition with or without inference, “so, then” (III).
+          Under III.2.b it expressly records δή with imperatives, including
+          ἄγε δή, σκόπει δή, and λέγε δή. These categories account separately
+          for the handbook's höre denn and so ward er denn examples.
       - title: "LSJ: δήπου"
         url: "https://atlas.perseus.tufts.edu/dictionaries/entry/urn%3Acite2%3Ascaife-viewer%3Adictionaries.v1%3Alsj-n24493/"
         finding: >
@@ -1203,6 +1229,15 @@ entries:
           Here ἄρα advances a consequence or narrative succession without an
           exclamation. This confirms the author's final warning against always
           translating ἄρα as 「ああ、それなら」.
+      - greek_expression: γάρ
+        passage: "Xenophon, Anabasis 7.6.33 (cited by LSJ I.3.c)"
+        text_grc: "οὐ γὰρ ἄν με ἔπεμπον πάλιν"
+        translation_ja: "さもなければ、彼らが私を再び遣わすはずはなかった。"
+        finding: >
+          LSJ supplies the omitted condition εἰ μὴ ἐπίστευον (“if they did not
+          trust me”). The γάρ-clause states what would follow under that
+          unexpressed condition, giving γάρ the contextual force “else / for
+          otherwise.” This directly supports the handbook's denn sonst.
       - greek_expression: δή
         passage: "Xenophon, Anabasis 4.4.10 (cited by Smyth 2846)"
         text_grc: "ἐδόκει δὴ τοῖς στρατηγοῖς οὐκ ἀσφαλὲς εἶναι διασκηνοῦν"
@@ -1310,17 +1345,20 @@ entries:
           Contextual options include 「ああ、それなら」「なるほど、では」「すると」.
       - segment: "da kam, da sagte = καὶ ἦλθε, καὶ εἶπεν"
         syntax: >
-          German da is narrative “then/thereupon,” not locative “there.”
-          Greek repeats καί before each finite verb.
+          The German gives two parallel examples, da kam and da sagte, not two
+          successive actions in a single sentence. In both, da is narrative
+          “then/thereupon,” not locative “there.” Each Greek example places καί
+          before its finite verb.
         grammar: >
           Narrative καί advances successive events and can correspond to German
           da rather than merely additive “and.”
         nuance: >
-          Repeated καί creates event-by-event progression; Japanese need not
-          mechanically repeat the same conjunction.
+          In context, narrative καί can create event-by-event progression, but
+          the handbook's two isolated examples do not themselves constitute
+          such a sequence.
         ja_note: >
-          Possible renderings are 「すると彼は来た、そして言った」or, by context,
-          「そこで来て、こう言った」.
+          Preserve the parallel examples as 「すると彼は来た／すると彼は言った」;
+          do not combine them into 「彼は来て、そして言った」.
       - segment: "jedoch = μέντοι"
         syntax: >
           Both function at discourse level. μέντοι is normally postpositive.
@@ -1338,28 +1376,38 @@ entries:
           consequence. Greek γάρ is postpositive and links its clause
           explanatorily to the preceding one.
         grammar: >
-          γάρ does not lexically mean sonst. The “otherwise” force comes from
-          the proposition’s relation to a preceding instruction or claim.
+          This corresponds specifically to the elliptical conditional use
+          described in LSJ I.3.c: the condition is left unexpressed, and the
+          γάρ-clause gives the consequence, so that γάρ has the contextual
+          force “else / for otherwise.”
         nuance: >
-          This is a discourse equivalence: an explanatory Greek clause may
-          motivate an injunction as German “for otherwise” does.
+          The conditional relation must be recoverable from context. This does
+          not make “otherwise” a general gloss for γάρ outside this construction.
         ja_note: >
-          Translate the whole relation, often 「というのも、さもなければ…」;
-          do not gloss γάρ alone as 「さもなければ」.
+          「というのも、さもなければ……」preserves both German denn and sonst.
+          In an actual Greek sentence, 「さもなければ……」may suffice when the
+          omitted condition is clear.
       - segment: "denn (folgernd) ... = δή"
         syntax: >
           folgernd distinguishes inferential or resumptive denn from causal
           denn. Greek δή attaches pragmatically to the salient word or
           proposition.
         grammar: >
-          δή marks something as evident, now established, emphatically relevant,
-          or consequential in the discourse.
+          LSJ III describes δή as marking transition, with or without inference,
+          “so, then,” and III.2 as continuing a narrative. LSJ III.2.b separately
+          records it with imperatives. Thus the two German examples illustrate
+          related but distinguishable uses: an urged continuation in höre denn
+          and a resumptive or consequential transition in so ward er denn.
         nuance: >
-          Its Japanese force may be 「では」「それゆえ」「まさに」「いよいよ」,
+          The handbook's folgernd highlights consequential progression, but
+          LSJ's broader category expressly allows transition without inference.
+          Its Japanese force may be 「では」「そこで」「こうして」「まさに」,
           or may remain implicit. Scope must be decided in each sentence.
         ja_note: >
-          Annotate what δή emphasizes instead of routinely inserting
-          「それゆえ」.
+          Translate the complete examples rather than presenting 「では／こうして」
+          as fixed glosses of δή. In 「こうして彼は……となったのである」,
+          「こうして」renders so, while 「のである」helps convey the resumptive
+          and confirmatory force of denn.
       - segment: "doch wohl (ohne Zweifel) = δήπου"
         syntax: >
           German doch wohl combines appeal to shared expectation with epistemic
@@ -1535,11 +1583,11 @@ entries:
       - "μνδέ is a Greek typo for μηδέ."
       - "brohen later in the same printed table is a source typo for drohen, but lies outside this entry’s particle list."
       - >
-        The Japanese table currently replaces the Greek expressions inside the
-        final brace with Japanese text, destroying the bilingual evidence. The
-        Greek οὐ τοσοῦτον ὅσον / οὐ τὸ πλέον ... ἀλλά must remain visible.
+        The earlier Japanese table replaced the Greek expressions inside the
+        final brace with Japanese text, destroying the bilingual evidence. This
+        has been corrected: οὐ τοσοῦτον ὅσον / οὐ τὸ πλέον ... ἀλλά remain visible.
     review_comments:
       - "Equal signs suggest one-to-one equivalence too strongly; colons are safer in the revised Japanese."
       - "きっと……だろう（疑いなく）faithfully renders the German prompt doch wohl (ohne Zweifel); it is not a reversible or universal gloss of δήπου, whose force ranges from presumption to irony."
       - "οὐδέ and μηδέ after a negative usually continue the negation; translating them as bare あるいは is misleading."
-    status: needs-review
+    status: ja-revised

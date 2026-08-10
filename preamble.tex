@@ -1,7 +1,7 @@
 \usepackage{fontspec}
 %\setmainfont[Mapping=tex-text,Numbers=OldStyle]{Old Standard}
 \setmainfont[Ligatures=TeX]{Old Standard}
-\usepackage[b5j]{geometry}
+\usepackage{geometry}
 \geometry{verbose,lmargin=3cm}
 \pagestyle{plain}
 \usepackage{verbatim}
@@ -113,6 +113,8 @@
     \newfontfamily\germanfontsf[Script=Latin,Language=German,Mapping=tex-text,CharacterVariant={11,13,14}]{UnifrakturCook}
     \setsansfont[Script=Latin,Language=German,Mapping=tex-text,CharacterVariant={11,13,14}]{UnifrakturCook}
 
+    % LuaTeX-ja provides \emshape, but current XeLaTeX does not.
+    \providecommand\emshape{\itshape}
     \let\origemshape=\emshape
     \let\origemph=\emph
     % orig:

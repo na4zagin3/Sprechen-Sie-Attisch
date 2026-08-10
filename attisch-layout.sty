@@ -1,0 +1,127 @@
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{attisch-layout}[2026/08/11 Profile-aware section headings]
+
+\newif\ifattisch@german
+\newif\ifattisch@japanese
+
+\DeclareOption{de-grc}{%
+  \attisch@germantrue
+  \attisch@japanesefalse
+}
+\DeclareOption{ja-grc}{%
+  \attisch@germanfalse
+  \attisch@japanesetrue
+}
+\DeclareOption{de-ja-grc}{%
+  \attisch@germantrue
+  \attisch@japanesetrue
+}
+\DeclareOption*{%
+  \PackageError{attisch-layout}{Unknown layout option `\CurrentOption'}%
+    {Use de-grc, ja-grc, or de-ja-grc.}%
+}
+\ExecuteOptions{de-ja-grc}
+\ProcessOptions\relax
+
+% Heading numbers belong to the document, rather than to an individual
+% paracol column.  This also makes the German and Japanese headings share
+% exactly one counter value in the three-column edition.
+\globalcounter{part}
+\globalcounter{section}
+
+\newcommand{\AttischGermanBilingualPart}[2]{%
+  \let\attisch@saved@partname\partname
+  \let\attisch@saved@prepartname\prepartname
+  \let\attisch@saved@postpartname\postpartname
+  \renewcommand{\partname}{\textgerman{Gespräche}}%
+  \renewcommand{\prepartname}{\textgerman{Gespräche\space}}%
+  \renewcommand{\postpartname}{.}%
+  \part[{#1}]{#2}%
+  \let\partname\attisch@saved@partname
+  \let\prepartname\attisch@saved@prepartname
+  \let\postpartname\attisch@saved@postpartname
+}
+
+\newcommand{\AttischJapaneseBilingualPart}[1]{%
+  \part*{\trJA{第\Alph{part}部\\#1}}%
+}
+
+\newcommand{\AttischJapaneseSectionHeading}[2]{%
+  \section*{\trJA{第#1節\quad #2}}%
+}
+
+\newcommand{\AttischGermanNumberedSection}[2]{%
+  \let\attisch@saved@seccntformat\@seccntformat
+  \def\@seccntformat##1{\textgerman{\arabic{##1}}.\quad}%
+  \section[{#1}]{#2}%
+  \let\@seccntformat\attisch@saved@seccntformat
+}
+
+\newcommand{\AttischJapaneseNumberedSection}[1]{%
+  \let\attisch@saved@seccntformat\@seccntformat
+  \def\@seccntformat##1{\csname the##1\endcsname\quad}%
+  \section{#1}%
+  \let\@seccntformat\attisch@saved@seccntformat
+}
+
+\ifattisch@german
+  \ifattisch@japanese
+    \newcommand{\AttischPart}[4]{%
+      \ensurevspace{9\baselineskip}%
+      \switchcolumn[0]*%
+      \AttischGermanBilingualPart
+        {\texorpdfstring{\trDE{#3}\enspace/\enspace\trJA{#4}}{#3 / #4}}%
+        {\trDE{#1}}%
+      \switchcolumn[1]%
+      \AttischJapaneseBilingualPart{#2}%
+      \switchcolumn[0]*%
+    }
+    \renewcommand{\thesection}{\arabic{section}}%
+    \newcommand{\AttischSection}[2]{%
+      \ensurevspace{6\baselineskip}%
+      \switchcolumn[0]*%
+      \AttischGermanNumberedSection
+        {\texorpdfstring{\trDE{#1}\enspace/\enspace\trJA{#2}}{#1 / #2}}%
+        {\trDE{#1}}%
+      \switchcolumn[1]%
+      \AttischJapaneseSectionHeading{\arabic{section}}{#2}%
+      \switchcolumn[0]*%
+    }
+  \else
+    \newcommand{\AttischPart}[4]{%
+      \ensurevspace{9\baselineskip}%
+      \switchcolumn[0]*%
+      \part[{\trDE{#3}}]{\trDE{#1}}%
+      \switchcolumn[0]*%
+    }
+    \renewcommand{\thesection}{\arabic{section}}%
+    \newcommand{\AttischSection}[2]{%
+      \ensurevspace{6\baselineskip}%
+      \switchcolumn[0]*%
+      \AttischGermanNumberedSection{\trDE{#1}}{\trDE{#1}}%
+      \switchcolumn[0]*%
+    }
+  \fi
+\else
+  \ifattisch@japanese
+    \newcommand{\AttischPart}[4]{%
+      \ensurevspace{9\baselineskip}%
+      \switchcolumn[0]*%
+      \part[{\trJA{#4}}]{\trJA{#2}}%
+      \switchcolumn[0]*%
+    }
+    \renewcommand{\thesection}{第\arabic{section}節}%
+    \@ifundefined{cftsecnumwidth}{}{\setlength{\cftsecnumwidth}{4em}}%
+    \newcommand{\AttischSection}[2]{%
+      \ensurevspace{6\baselineskip}%
+      \switchcolumn[0]*%
+      \AttischJapaneseNumberedSection{\trJA{#2}}%
+      \switchcolumn[0]*%
+    }
+  \else
+    \PackageError{attisch-layout}{No modern language enabled}%
+      {Choose de-grc, ja-grc, or de-ja-grc.}%
+  \fi
+\fi
+
+\endinput
