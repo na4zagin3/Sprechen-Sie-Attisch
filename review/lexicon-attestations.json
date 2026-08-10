@@ -1,0 +1,2640 @@
+{
+  "meta": {
+    "method": "exact unaccented surface-form match in local Perseus Greek XML; this does not prove semantic identity",
+    "query_count": 97,
+    "matched_entry_count": 66
+  },
+  "entries": {
+    "lexicon-01-001": {
+      "occurrence_count": 1252,
+      "examples": [
+        {
+          "entry_id": "lexicon-01-001",
+          "grc_index": 1,
+          "grc": "ἡ βουλή.",
+          "query": "boulh",
+          "author": "Aeschines",
+          "work": "aeschin_gk",
+          "reference": null,
+          "speaker": null,
+          "local_file": "/home/mrty/Documents/Perseus/Classics/Aeschines/opensource/aeschin_gk.xml",
+          "xml_body_line": 103,
+          "beta_context": null
+        },
+        {
+          "entry_id": "lexicon-01-001",
+          "grc_index": 1,
+          "grc": "ἡ βουλή.",
+          "query": "boulh",
+          "author": "Aeschylus",
+          "work": "Eumenides",
+          "reference": "620",
+          "speaker": null,
+          "local_file": "/home/mrty/Documents/Perseus/Classics/Aeschylus/opensource/aesch.eum_gk.xml",
+          "xml_body_line": 1120,
+          "beta_context": null
+        },
+        {
+          "entry_id": "lexicon-01-001",
+          "grc_index": 1,
+          "grc": "ἡ βουλή.",
+          "query": "boulh",
+          "author": "Andocides",
+          "work": "andoc_gk",
+          "reference": "15",
+          "speaker": null,
+          "local_file": "/home/mrty/Documents/Perseus/Classics/Andocides/opensource/andoc_gk.xml",
+          "xml_body_line": 84,
+          "beta_context": null
+        }
+      ]
+    },
+    "lexicon-01-002": {
+      "occurrence_count": 17,
+      "examples": [
+        {
+          "entry_id": "lexicon-01-002",
+          "grc_index": 1,
+          "grc": "ὁ βουλευτής.",
+          "query": "bouleuths",
+          "author": "Aeschines",
+          "work": "aeschin_gk",
+          "reference": null,
+          "speaker": null,
+          "local_file": "/home/mrty/Documents/Perseus/Classics/Aeschines/opensource/aeschin_gk.xml",
+          "xml_body_line": 187,
+          "beta_context": null
+        },
+        {
+          "entry_id": "lexicon-01-002",
+          "grc_index": 1,
+          "grc": "ὁ βουλευτής.",
+          "query": "bouleuths",
+          "author": "Anth",
+          "work": "04_gk",
+          "reference": "10",
+          "speaker": null,
+          "local_file": "/home/mrty/Documents/Perseus/Classics/Anth/opensource/04_gk.xml",
+          "xml_body_line": 1319,
+          "beta_context": null
+        },
+        {
+          "entry_id": "lexicon-01-002",
+          "grc_index": 1,
+          "grc": "ὁ βουλευτής.",
+          "query": "bouleuths",
+          "author": "Appian",
+          "work": "appian.cw_gk",
+          "reference": "98",
+          "speaker": null,
+          "local_file": "/home/mrty/Documents/Perseus/Classics/Appian/opensource/appian.cw_gk.xml",
+          "xml_body_line": 233,
+          "beta_context": null
+        }
+      ]
+    },
+    "lexicon-01-003": {
+      "occurrence_count": 340,
+      "examples": [
+        {
+          "entry_id": "lexicon-01-003",
+          "grc_index": 1,
+          "grc": "ὁ στρατός.",
+          "query": "stratos",
+          "author": "Aeschylus",
+          "work": "Agamemnon",
+          "reference": "345",
+          "speaker": null,
+          "local_file": "/home/mrty/Documents/Perseus/Classics/Aeschylus/opensource/aesch.ag_gk.xml",
+          "xml_body_line": 586,
+          "beta_context": null
+        },
+        {
+          "entry_id": "lexicon-01-003",
+          "grc_index": 1,
+          "grc": "ὁ στρατός.",
+          "query": "stratos",
+          "author": "Aeschylus",
+          "work": "Agamemnon",
+          "reference": "985",
+          "speaker": null,
+          "local_file": "/home/mrty/Documents/Perseus/Classics/Aeschylus/opensource/aesch.ag_gk.xml",
+          "xml_body_line": 1445,
+          "beta_context": null
+        },
+        {
+          "entry_id": "lexicon-01-003",
+          "grc_index": 1,
+          "grc": "ὁ στρατός.",
+          "query": "stratos",
+          "author": "Aeschylus",
+          "work": "Prometheus Bound",
+          "reference": "420",
+          "speaker": null,
+          "local_file": "/home/mrty/Documents/Perseus/Classics/Aeschylus/opensource/aesch.pb_gk.xml",
+          "xml_body_line": 845,
+          "beta_context": null
+        }
+      ]
+    },
+    "lexicon-01-004": {
+      "occurrence_count": 55,
+      "examples": [
+        {
+          "entry_id": "lexicon-01-004",
+          "grc_index": 1,
+          "grc": "ὁ δήμαρχος.",
+          "query": "dhmarxos",
+          "author": "Appian",
+          "work": "appian.cw_gk",
+          "reference": "12",
+          "speaker": null,
+          "local_file": "/home/mrty/Documents/Perseus/Classics/Appian/opensource/appian.cw_gk.xml",
+          "xml_body_line": 91,
+          "beta_context": null
+        },
+        {
+          "entry_id": "lexicon-01-004",
+          "grc_index": 1,
+          "grc": "ὁ δήμαρχος.",
+          "query": "dhmarxos",
+          "author": "Appian",
+          "work": "appian.cw_gk",
+          "reference": "14",
+          "speaker": null,
+          "local_file": "/home/mrty/Documents/Perseus/Classics/Appian/opensource/appian.cw_gk.xml",
+          "xml_body_line": 95,
+          "beta_context": null
+        },
+        {
+          "entry_id": "lexicon-01-004",
+          "grc_index": 1,
+          "grc": "ὁ δήμαρχος.",
+          "query": "dhmarxos",
+          "author": "Appian",
+          "work": "appian.cw_gk",
+          "reference": "21",
+          "speaker": null,
+          "local_file": "/home/mrty/Documents/Perseus/Classics/Appian/opensource/appian.cw_gk.xml",
+          "xml_body_line": 105,
+          "beta_context": null
+        }
+      ]
+    },
+    "lexicon-01-005": {
+      "occurrence_count": 5,
+      "examples": [
+        {
+          "entry_id": "lexicon-01-005",
+          "grc_index": 1,
+          "grc": "τὸ γραφεῖον.",
+          "query": "grafeion",
+          "author": "Athenaeus",
+          "work": "ath13_gk",
+          "reference": "45",
+          "speaker": null,
+          "local_file": "/home/mrty/Documents/Perseus/Classics/Athenaeus/opensource/ath13_gk.xml",
+          "xml_body_line": 1161,
+          "beta_context": null
+        },
+        {
+          "entry_id": "lexicon-01-005",
+          "grc_index": 1,
+          "grc": "τὸ γραφεῖον.",
+          "query": "grafeion",
+          "author": "Diogenes Laertius",
+          "work": "dl_gk",
+          "reference": "109",
+          "speaker": null,
+          "local_file": "/home/mrty/Documents/Perseus/Classics/Diogenes/opensource/dl_gk.xml",
+          "xml_body_line": 12132,
+          "beta_context": null
+        },
+        {
+          "entry_id": "lexicon-01-005",
+          "grc_index": 1,
+          "grc": "τὸ γραφεῖον.",
+          "query": "grafeion",
+          "author": "Plutarch",
+          "work": "plut.101_loeb_gk",
+          "reference": "514d",
+          "speaker": null,
+          "local_file": "/home/mrty/Documents/Perseus/Classics/Plutarch/opensource/plut.101_loeb_gk.xml",
+          "xml_body_line": 644,
+          "beta_context": null
+        }
+      ]
+    },
+    "lexicon-01-007": {
+      "occurrence_count": 293,
+      "examples": [
+        {
+          "entry_id": "lexicon-01-007",
+          "grc_index": 1,
+          "grc": "τὸ δικαστήριον.",
+          "query": "dikasthrion",
+          "author": "Aeschines",
+          "work": "aeschin_gk",
+          "reference": null,
+          "speaker": null,
+          "local_file": "/home/mrty/Documents/Perseus/Classics/Aeschines/opensource/aeschin_gk.xml",
+          "xml_body_line": 99,
+          "beta_context": null
+        },
+        {
+          "entry_id": "lexicon-01-007",
+          "grc_index": 1,
+          "grc": "τὸ δικαστήριον.",
+          "query": "dikasthrion",
+          "author": "Andocides",
+          "work": "andoc_gk",
+          "reference": "23",
+          "speaker": null,
+          "local_file": "/home/mrty/Documents/Perseus/Classics/Andocides/opensource/andoc_gk.xml",
+          "xml_body_line": 92,
+          "beta_context": null
+        },
+        {
+          "entry_id": "lexicon-01-007",
+          "grc_index": 1,
+          "grc": "τὸ δικαστήριον.",
+          "query": "dikasthrion",
+          "author": "Andocides",
+          "work": "andoc_gk",
+          "reference": "78",
+          "speaker": null,
+          "local_file": "/home/mrty/Documents/Perseus/Classics/Andocides/opensource/andoc_gk.xml",
+          "xml_body_line": 147,
+          "beta_context": null
+        }
+      ]
+    },
+    "lexicon-01-008": {
+      "occurrence_count": 4,
+      "examples": [
+        {
+          "entry_id": "lexicon-01-008",
+          "grc_index": 1,
+          "grc": "τὸ κόμμα.",
+          "query": "komma",
+          "author": "Aristides, Aelius",
+          "work": "aristid.rhet_gk",
+          "reference": "2",
+          "speaker": null,
+          "local_file": "/home/mrty/Documents/Perseus/Classics/Aristides/opensource/aristid.rhet_gk.xml",
+          "xml_body_line": 1227,
+          "beta_context": null
+        },
+        {
+          "entry_id": "lexicon-01-008",
+          "grc_index": 1,
+          "grc": "τὸ κόμμα.",
+          "query": "komma",
+          "author": "Aristophanes",
+          "work": "Frogs",
+          "reference": "890",
+          "speaker": null,
+          "local_file": "/home/mrty/Documents/Perseus/Classics/Aristophanes/opensource/aristoph.frogs_gk.xml",
+          "xml_body_line": 2154,
+          "beta_context": null
+        },
+        {
+          "entry_id": "lexicon-01-008",
+          "grc_index": 1,
+          "grc": "τὸ κόμμα.",
+          "query": "komma",
+          "author": "Elegy",
+          "work": "2_gk",
+          "reference": "10",
+          "speaker": null,
+          "local_file": "/home/mrty/Documents/Perseus/Classics/Elegy/opensource/2_gk.xml",
+          "xml_body_line": 5153,
+          "beta_context": null
+        }
+      ]
+    },
+    "lexicon-01-010": {
+      "occurrence_count": 4,
+      "examples": [
+        {
+          "entry_id": "lexicon-01-010",
+          "grc_index": 1,
+          "grc": "φιλελεύθερος.",
+          "query": "fileleuqeros",
+          "author": "Appian",
+          "work": "appian.cw_gk",
+          "reference": "112",
+          "speaker": null,
+          "local_file": "/home/mrty/Documents/Perseus/Classics/Appian/opensource/appian.cw_gk.xml",
+          "xml_body_line": 429,
+          "beta_context": null
+        },
+        {
+          "entry_id": "lexicon-01-010",
+          "grc_index": 1,
+          "grc": "φιλελεύθερος.",
+          "query": "fileleuqeros",
+          "author": "Appian",
+          "work": "appian.cw_gk",
+          "reference": "67",
+          "speaker": null,
+          "local_file": "/home/mrty/Documents/Perseus/Classics/Appian/opensource/appian.cw_gk.xml",
+          "xml_body_line": 729,
+          "beta_context": null
+        },
+        {
+          "entry_id": "lexicon-01-010",
+          "grc_index": 1,
+          "grc": "φιλελεύθερος.",
+          "query": "fileleuqeros",
+          "author": "Flavius Josephus",
+          "work": "De bello Judaico libri vii",
+          "reference": "356",
+          "speaker": null,
+          "local_file": "/home/mrty/Documents/Perseus/Classics/Josephus/opensource/j.bj_gk.xml",
+          "xml_body_line": 4864,
+          "beta_context": null
+        }
+      ]
+    },
+    "lexicon-01-012": {
+      "occurrence_count": 1,
+      "examples": [
+        {
+          "entry_id": "lexicon-01-012",
+          "grc_index": 1,
+          "grc": "ὁ ὑπουργός.",
+          "query": "upourgos",
+          "author": "Plutarch",
+          "work": "plut.070_teubner_gk",
+          "reference": "20",
+          "speaker": null,
+          "local_file": "/home/mrty/Documents/Perseus/Classics/Plutarch/opensource/plut.070_teubner_gk.xml",
+          "xml_body_line": 869,
+          "beta_context": null
+        }
+      ]
+    },
+    "lexicon-01-015": {
+      "occurrence_count": 5,
+      "examples": [
+        {
+          "entry_id": "lexicon-01-015",
+          "grc_index": 1,
+          "grc": "\\qquad{}\\textgreek{τῶν οἰκονομικῶν.}",
+          "query": "oikonomikwn",
+          "author": "Aristotle",
+          "work": "aristot.pol_gk",
+          "reference": "1256b",
+          "speaker": null,
+          "local_file": "/home/mrty/Documents/Perseus/Classics/Aristotle/opensource/aristot.pol_gk.xml",
+          "xml_body_line": 94,
+          "beta_context": null
+        },
+        {
+          "entry_id": "lexicon-01-015",
+          "grc_index": 1,
+          "grc": "\\qquad{}\\textgreek{τῶν οἰκονομικῶν.}",
+          "query": "oikonomikwn",
+          "author": "Plato",
+          "work": "plat.laws_gk",
+          "reference": "808b",
+          "speaker": null,
+          "local_file": "/home/mrty/Documents/Perseus/Classics/Plato/opensource/plat.laws_gk.xml",
+          "xml_body_line": 930,
+          "beta_context": null
+        },
+        {
+          "entry_id": "lexicon-01-015",
+          "grc_index": 1,
+          "grc": "\\qquad{}\\textgreek{τῶν οἰκονομικῶν.}",
+          "query": "oikonomikwn",
+          "author": "Xenophon",
+          "work": "xen.mem_gk",
+          "reference": "12",
+          "speaker": null,
+          "local_file": "/home/mrty/Documents/Perseus/Classics/Xenophon/opensource/xen.mem_gk.xml",
+          "xml_body_line": 404,
+          "beta_context": null
+        }
+      ]
+    },
+    "lexicon-01-016": {
+      "occurrence_count": 354,
+      "examples": [
+        {
+          "entry_id": "lexicon-01-016",
+          "grc_index": 1,
+          "grc": "\\qquad{}\\textgreek{τῆς δικαιοσύνης.}",
+          "query": "dikaiosunhs",
+          "author": "Aeschines",
+          "work": "aeschin_gk",
+          "reference": null,
+          "speaker": null,
+          "local_file": "/home/mrty/Documents/Perseus/Classics/Aeschines/opensource/aeschin_gk.xml",
+          "xml_body_line": 478,
+          "beta_context": null
+        },
+        {
+          "entry_id": "lexicon-01-016",
+          "grc_index": 1,
+          "grc": "\\qquad{}\\textgreek{τῆς δικαιοσύνης.}",
+          "query": "dikaiosunhs",
+          "author": "Anth",
+          "work": "02_gk",
+          "reference": "5",
+          "speaker": null,
+          "local_file": "/home/mrty/Documents/Perseus/Classics/Anth/opensource/02_gk.xml",
+          "xml_body_line": 4704,
+          "beta_context": null
+        },
+        {
+          "entry_id": "lexicon-01-016",
+          "grc_index": 1,
+          "grc": "\\qquad{}\\textgreek{τῆς δικαιοσύνης.}",
+          "query": "dikaiosunhs",
+          "author": "Appian",
+          "work": "appian.fw_gk",
+          "reference": "104",
+          "speaker": null,
+          "local_file": "/home/mrty/Documents/Perseus/Classics/Appian/opensource/appian.fw_gk.xml",
+          "xml_body_line": 1043,
+          "beta_context": null
+        }
+      ]
+    },
+    "lexicon-01-017": {
+      "occurrence_count": 30,
+      "examples": [
+        {
+          "entry_id": "lexicon-01-017",
+          "grc_index": 1,
+          "grc": "\\qquad{}\\textgreek{τῶν στρατιωτικῶν.}",
+          "query": "stratiwtikwn",
+          "author": "Aristotle",
+          "work": "aristot.ath.pol_gk",
+          "reference": "1",
+          "speaker": null,
+          "local_file": "/home/mrty/Documents/Perseus/Classics/Aristotle/opensource/aristot.ath.pol_gk.xml",
+          "xml_body_line": 490,
+          "beta_context": null
+        },
+        {
+          "entry_id": "lexicon-01-017",
+          "grc_index": 1,
+          "grc": "\\qquad{}\\textgreek{τῶν στρατιωτικῶν.}",
+          "query": "stratiwtikwn",
+          "author": "Aristotle",
+          "work": "aristot.ath.pol_gk",
+          "reference": "2",
+          "speaker": null,
+          "local_file": "/home/mrty/Documents/Perseus/Classics/Aristotle/opensource/aristot.ath.pol_gk.xml",
+          "xml_body_line": 525,
+          "beta_context": null
+        },
+        {
+          "entry_id": "lexicon-01-017",
+          "grc_index": 1,
+          "grc": "\\qquad{}\\textgreek{τῶν στρατιωτικῶν.}",
+          "query": "stratiwtikwn",
+          "author": "Aristotle",
+          "work": "aristot.ath.pol_gk",
+          "reference": "3",
+          "speaker": null,
+          "local_file": "/home/mrty/Documents/Perseus/Classics/Aristotle/opensource/aristot.ath.pol_gk.xml",
+          "xml_body_line": 544,
+          "beta_context": null
+        }
+      ]
+    },
+    "lexicon-01-020": {
+      "occurrence_count": 24,
+      "examples": [
+        {
+          "entry_id": "lexicon-01-020",
+          "grc_index": 1,
+          "grc": "ὁ ἔπαρχος.",
+          "query": "eparxos",
+          "author": "Diodorus Siculus",
+          "work": "diod_gk",
+          "reference": "2",
+          "speaker": null,
+          "local_file": "/home/mrty/Documents/Perseus/Classics/Diodorus/opensource/diod_gk.xml",
+          "xml_body_line": 14376,
+          "beta_context": null
+        },
+        {
+          "entry_id": "lexicon-01-020",
+          "grc_index": 1,
+          "grc": "ὁ ἔπαρχος.",
+          "query": "eparxos",
+          "author": "Dionysius of Halicarnassus",
+          "work": "dh.hist03_gk",
+          "reference": "3",
+          "speaker": null,
+          "local_file": "/home/mrty/Documents/Perseus/Classics/Dionysius/opensource/dh.hist03_gk.xml",
+          "xml_body_line": 6278,
+          "beta_context": null
+        },
+        {
+          "entry_id": "lexicon-01-020",
+          "grc_index": 1,
+          "grc": "ὁ ἔπαρχος.",
+          "query": "eparxos",
+          "author": "Dionysius of Halicarnassus",
+          "work": "dh.hist04_gk",
+          "reference": "4",
+          "speaker": null,
+          "local_file": "/home/mrty/Documents/Perseus/Classics/Dionysius/opensource/dh.hist04_gk.xml",
+          "xml_body_line": 1292,
+          "beta_context": null
+        }
+      ]
+    },
+    "lexicon-01-021": {
+      "occurrence_count": 6,
+      "examples": [
+        {
+          "entry_id": "lexicon-01-021",
+          "grc_index": 1,
+          "grc": "ὁ πρόεδρος.",
+          "query": "proedros",
+          "author": "Aeschines",
+          "work": "aeschin_gk",
+          "reference": null,
+          "speaker": null,
+          "local_file": "/home/mrty/Documents/Perseus/Classics/Aeschines/opensource/aeschin_gk.xml",
+          "xml_body_line": 375,
+          "beta_context": null
+        },
+        {
+          "entry_id": "lexicon-01-021",
+          "grc_index": 1,
+          "grc": "ὁ πρόεδρος.",
+          "query": "proedros",
+          "author": "Anth",
+          "work": "01_gk",
+          "reference": "10",
+          "speaker": null,
+          "local_file": "/home/mrty/Documents/Perseus/Classics/Anth/opensource/01_gk.xml",
+          "xml_body_line": 1377,
+          "beta_context": null
+        },
+        {
+          "entry_id": "lexicon-01-021",
+          "grc_index": 1,
+          "grc": "ὁ πρόεδρος.",
+          "query": "proedros",
+          "author": "Appian",
+          "work": "appian.fw_gk",
+          "reference": "1",
+          "speaker": null,
+          "local_file": "/home/mrty/Documents/Perseus/Classics/Appian/opensource/appian.fw_gk.xml",
+          "xml_body_line": 723,
+          "beta_context": null
+        }
+      ]
+    },
+    "lexicon-01-022": {
+      "occurrence_count": 2,
+      "examples": [
+        {
+          "entry_id": "lexicon-01-022",
+          "grc_index": 1,
+          "grc": "ἡ κυβέρνησις.",
+          "query": "kubernhsis",
+          "author": "Plutarch",
+          "work": "plut.129_teubner_gk",
+          "reference": "15",
+          "speaker": null,
+          "local_file": "/home/mrty/Documents/Perseus/Classics/Plutarch/opensource/plut.129_teubner_gk.xml",
+          "xml_body_line": 462,
+          "beta_context": null
+        },
+        {
+          "entry_id": "lexicon-01-022",
+          "grc_index": 1,
+          "grc": "ἡ κυβέρνησις.",
+          "query": "kubernhsis",
+          "author": "Plutarch",
+          "work": "plut.phoc_gk",
+          "reference": "5",
+          "speaker": null,
+          "local_file": "/home/mrty/Documents/Perseus/Classics/Plutarch/opensource/plut.phoc_gk.xml",
+          "xml_body_line": 110,
+          "beta_context": null
+        }
+      ]
+    },
+    "lexicon-01-024": {
+      "occurrence_count": 2,
+      "examples": [
+        {
+          "entry_id": "lexicon-01-024",
+          "grc_index": 1,
+          "grc": "ἡ ἐφημερίς.",
+          "query": "efhmeris",
+          "author": "Diogenes Laertius",
+          "work": "dl_gk",
+          "reference": "86",
+          "speaker": null,
+          "local_file": "/home/mrty/Documents/Perseus/Classics/Diogenes/opensource/dl_gk.xml",
+          "xml_body_line": 10003,
+          "beta_context": null
+        },
+        {
+          "entry_id": "lexicon-01-024",
+          "grc_index": 1,
+          "grc": "ἡ ἐφημερίς.",
+          "query": "efhmeris",
+          "author": "Elegy",
+          "work": "2_gk",
+          "reference": "4",
+          "speaker": null,
+          "local_file": "/home/mrty/Documents/Perseus/Classics/Elegy/opensource/2_gk.xml",
+          "xml_body_line": 1561,
+          "beta_context": null
+        }
+      ]
+    },
+    "lexicon-01-025": {
+      "occurrence_count": 46,
+      "examples": [
+        {
+          "entry_id": "lexicon-01-025",
+          "grc_index": 1,
+          "grc": "οἱ\\footnote{\\textlatin{%\norig. \\textgreek{οἰ}}%\n} Καιροί.",
+          "query": "kairoi",
+          "author": "Aeschines",
+          "work": "aeschin_gk",
+          "reference": null,
+          "speaker": null,
+          "local_file": "/home/mrty/Documents/Perseus/Classics/Aeschines/opensource/aeschin_gk.xml",
+          "xml_body_line": 356,
+          "beta_context": null
+        },
+        {
+          "entry_id": "lexicon-01-025",
+          "grc_index": 1,
+          "grc": "οἱ\\footnote{\\textlatin{%\norig. \\textgreek{οἰ}}%\n} Καιροί.",
+          "query": "kairoi",
+          "author": "Appian",
+          "work": "appian.fw_gk",
+          "reference": "2",
+          "speaker": null,
+          "local_file": "/home/mrty/Documents/Perseus/Classics/Appian/opensource/appian.fw_gk.xml",
+          "xml_body_line": 161,
+          "beta_context": null
+        },
+        {
+          "entry_id": "lexicon-01-025",
+          "grc_index": 1,
+          "grc": "οἱ\\footnote{\\textlatin{%\norig. \\textgreek{οἰ}}%\n} Καιροί.",
+          "query": "kairoi",
+          "author": "Aristides, Aelius",
+          "work": "aristid.orat_gk",
+          "reference": "236",
+          "speaker": null,
+          "local_file": "/home/mrty/Documents/Perseus/Classics/Aristides/opensource/aristid.orat_gk.xml",
+          "xml_body_line": 6355,
+          "beta_context": null
+        }
+      ]
+    },
+    "lexicon-02-003": {
+      "occurrence_count": 17,
+      "examples": [
+        {
+          "entry_id": "lexicon-02-003",
+          "grc_index": 1,
+          "grc": "ὁ σταθμός.",
+          "query": "staqmos",
+          "author": "Aretaeus",
+          "work": "aret_gk",
+          "reference": null,
+          "speaker": null,
+          "local_file": "/home/mrty/Documents/Perseus/Classics/Aretaeus/opensource/aret_gk.xml",
+          "xml_body_line": 7835,
+          "beta_context": null
+        },
+        {
+          "entry_id": "lexicon-02-003",
+          "grc_index": 1,
+          "grc": "ὁ σταθμός.",
+          "query": "staqmos",
+          "author": "Aristotle",
+          "work": "aristot.met_gk",
+          "reference": "1087b",
+          "speaker": null,
+          "local_file": "/home/mrty/Documents/Perseus/Classics/Aristotle/opensource/aristot.met_gk.xml",
+          "xml_body_line": 350,
+          "beta_context": null
+        },
+        {
+          "entry_id": "lexicon-02-003",
+          "grc_index": 1,
+          "grc": "ὁ σταθμός.",
+          "query": "staqmos",
+          "author": "Aristotle",
+          "work": "aristot.pol_gk",
+          "reference": "1261a",
+          "speaker": null,
+          "local_file": "/home/mrty/Documents/Perseus/Classics/Aristotle/opensource/aristot.pol_gk.xml",
+          "xml_body_line": 106,
+          "beta_context": null
+        }
+      ]
+    },
+    "lexicon-03-001": {
+      "occurrence_count": 1,
+      "examples": [
+        {
+          "entry_id": "lexicon-03-001",
+          "grc_index": 1,
+          "grc": "ὁ φαρμακοπώλης.",
+          "query": "farmakopwlhs",
+          "author": "Athenaeus",
+          "work": "ath08_gk",
+          "reference": "354b",
+          "speaker": null,
+          "local_file": "/home/mrty/Documents/Perseus/Classics/Athenaeus/opensource/ath08_gk.xml",
+          "xml_body_line": 801,
+          "beta_context": null
+        }
+      ]
+    },
+    "lexicon-03-002": {
+      "occurrence_count": 14,
+      "examples": [
+        {
+          "entry_id": "lexicon-03-002",
+          "grc_index": 1,
+          "grc": "ὁ ἐργάτης.",
+          "query": "ergaths",
+          "author": "Aretaeus",
+          "work": "aret_gk",
+          "reference": null,
+          "speaker": null,
+          "local_file": "/home/mrty/Documents/Perseus/Classics/Aretaeus/opensource/aret_gk.xml",
+          "xml_body_line": 2226,
+          "beta_context": null
+        },
+        {
+          "entry_id": "lexicon-03-002",
+          "grc_index": 1,
+          "grc": "ὁ ἐργάτης.",
+          "query": "ergaths",
+          "author": "Aristotle",
+          "work": "aristot.econ_gk",
+          "reference": "1344a",
+          "speaker": null,
+          "local_file": "/home/mrty/Documents/Perseus/Classics/Aristotle/opensource/aristot.econ_gk.xml",
+          "xml_body_line": 97,
+          "beta_context": null
+        },
+        {
+          "entry_id": "lexicon-03-002",
+          "grc_index": 1,
+          "grc": "ὁ ἐργάτης.",
+          "query": "ergaths",
+          "author": "Athenaeus",
+          "work": "ath15_gk",
+          "reference": "686a",
+          "speaker": null,
+          "local_file": "/home/mrty/Documents/Perseus/Classics/Athenaeus/opensource/ath15_gk.xml",
+          "xml_body_line": 736,
+          "beta_context": null
+        }
+      ]
+    },
+    "lexicon-03-004": {
+      "occurrence_count": 12,
+      "examples": [
+        {
+          "entry_id": "lexicon-03-004",
+          "grc_index": 1,
+          "grc": "ὁ κουρεύς.",
+          "query": "koureus",
+          "author": "Anth",
+          "work": "04_gk",
+          "reference": "5",
+          "speaker": null,
+          "local_file": "/home/mrty/Documents/Perseus/Classics/Anth/opensource/04_gk.xml",
+          "xml_body_line": 4066,
+          "beta_context": null
+        },
+        {
+          "entry_id": "lexicon-03-004",
+          "grc_index": 1,
+          "grc": "ὁ κουρεύς.",
+          "query": "koureus",
+          "author": "Flavius Josephus",
+          "work": "Antiquitates Judaicae",
+          "reference": "6",
+          "speaker": null,
+          "local_file": "/home/mrty/Documents/Perseus/Classics/Josephus/opensource/j.aj_gk.xml",
+          "xml_body_line": 28197,
+          "beta_context": null
+        },
+        {
+          "entry_id": "lexicon-03-004",
+          "grc_index": 1,
+          "grc": "ὁ κουρεύς.",
+          "query": "koureus",
+          "author": "Plutarch",
+          "work": "plut.101_loeb_gk",
+          "reference": "508f",
+          "speaker": null,
+          "local_file": "/home/mrty/Documents/Perseus/Classics/Plutarch/opensource/plut.101_loeb_gk.xml",
+          "xml_body_line": 389,
+          "beta_context": null
+        }
+      ]
+    },
+    "lexicon-03-005": {
+      "occurrence_count": 30,
+      "examples": [
+        {
+          "entry_id": "lexicon-03-005",
+          "grc_index": 1,
+          "grc": "ὁ ἀρχιτέκτων.",
+          "query": "arxitektwn",
+          "author": "Apollodorus",
+          "work": "apollod_gk",
+          "reference": "4",
+          "speaker": null,
+          "local_file": "/home/mrty/Documents/Perseus/Classics/Apollodorus/opensource/apollod_gk.xml",
+          "xml_body_line": 213,
+          "beta_context": null
+        },
+        {
+          "entry_id": "lexicon-03-005",
+          "grc_index": 1,
+          "grc": "ὁ ἀρχιτέκτων.",
+          "query": "arxitektwn",
+          "author": "Apollodorus",
+          "work": "apollod_gk",
+          "reference": "8",
+          "speaker": null,
+          "local_file": "/home/mrty/Documents/Perseus/Classics/Apollodorus/opensource/apollod_gk.xml",
+          "xml_body_line": 291,
+          "beta_context": null
+        },
+        {
+          "entry_id": "lexicon-03-005",
+          "grc_index": 1,
+          "grc": "ὁ ἀρχιτέκτων.",
+          "query": "arxitektwn",
+          "author": "Apollodorus",
+          "work": "apollod_gk",
+          "reference": "14",
+          "speaker": null,
+          "local_file": "/home/mrty/Documents/Perseus/Classics/Apollodorus/opensource/apollod_gk.xml",
+          "xml_body_line": 397,
+          "beta_context": null
+        }
+      ]
+    },
+    "lexicon-03-006": {
+      "occurrence_count": 4,
+      "examples": [
+        {
+          "entry_id": "lexicon-03-006",
+          "grc_index": 1,
+          "grc": "ὁ γραμματοφόρος.",
+          "query": "grammatoforos",
+          "author": "Plutarch",
+          "work": "plut.cim_gk",
+          "reference": "3",
+          "speaker": null,
+          "local_file": "/home/mrty/Documents/Perseus/Classics/Plutarch/opensource/plut.cim_gk.xml",
+          "xml_body_line": 341,
+          "beta_context": null
+        },
+        {
+          "entry_id": "lexicon-03-006",
+          "grc_index": 1,
+          "grc": "ὁ γραμματοφόρος.",
+          "query": "grammatoforos",
+          "author": "Plutarch",
+          "work": "plut.pel_gk",
+          "reference": "4",
+          "speaker": null,
+          "local_file": "/home/mrty/Documents/Perseus/Classics/Plutarch/opensource/plut.pel_gk.xml",
+          "xml_body_line": 231,
+          "beta_context": null
+        },
+        {
+          "entry_id": "lexicon-03-006",
+          "grc_index": 1,
+          "grc": "ὁ γραμματοφόρος.",
+          "query": "grammatoforos",
+          "author": "Polybius",
+          "work": "hist_gk",
+          "reference": "14",
+          "speaker": null,
+          "local_file": "/home/mrty/Documents/Perseus/Classics/Polybius/opensource/hist_gk.xml",
+          "xml_body_line": 3803,
+          "beta_context": null
+        }
+      ]
+    },
+    "lexicon-03-009": {
+      "occurrence_count": 1,
+      "examples": [
+        {
+          "entry_id": "lexicon-03-009",
+          "grc_index": 1,
+          "grc": "ὁ βιβλιοπώλης.",
+          "query": "bibliopwlhs",
+          "author": "Diogenes Laertius",
+          "work": "dl_gk",
+          "reference": "3",
+          "speaker": null,
+          "local_file": "/home/mrty/Documents/Perseus/Classics/Diogenes/opensource/dl_gk.xml",
+          "xml_body_line": 10374,
+          "beta_context": null
+        }
+      ]
+    },
+    "lexicon-03-011": {
+      "occurrence_count": 39,
+      "examples": [
+        {
+          "entry_id": "lexicon-03-011",
+          "grc_index": 1,
+          "grc": "ὁ τεχνίτης.",
+          "query": "texniths",
+          "author": "Anth",
+          "work": "03_gk",
+          "reference": "5",
+          "speaker": null,
+          "local_file": "/home/mrty/Documents/Perseus/Classics/Anth/opensource/03_gk.xml",
+          "xml_body_line": 9794,
+          "beta_context": null
+        },
+        {
+          "entry_id": "lexicon-03-011",
+          "grc_index": 1,
+          "grc": "ὁ τεχνίτης.",
+          "query": "texniths",
+          "author": "Anth",
+          "work": "05_gk",
+          "reference": "5",
+          "speaker": null,
+          "local_file": "/home/mrty/Documents/Perseus/Classics/Anth/opensource/05_gk.xml",
+          "xml_body_line": 4774,
+          "beta_context": null
+        },
+        {
+          "entry_id": "lexicon-03-011",
+          "grc_index": 1,
+          "grc": "ὁ τεχνίτης.",
+          "query": "texniths",
+          "author": "Anth",
+          "work": "05_gk",
+          "reference": "10",
+          "speaker": null,
+          "local_file": "/home/mrty/Documents/Perseus/Classics/Anth/opensource/05_gk.xml",
+          "xml_body_line": 7189,
+          "beta_context": null
+        }
+      ]
+    },
+    "lexicon-03-012": {
+      "occurrence_count": 3,
+      "examples": [
+        {
+          "entry_id": "lexicon-03-012",
+          "grc_index": 1,
+          "grc": "ὁ μηχανικός.",
+          "query": "mhxanikos",
+          "author": "Athenaeus",
+          "work": "ath05_gk",
+          "reference": "207b",
+          "speaker": null,
+          "local_file": "/home/mrty/Documents/Perseus/Classics/Athenaeus/opensource/ath05_gk.xml",
+          "xml_body_line": 662,
+          "beta_context": null
+        },
+        {
+          "entry_id": "lexicon-03-012",
+          "grc_index": 1,
+          "grc": "ὁ μηχανικός.",
+          "query": "mhxanikos",
+          "author": "Athenaeus",
+          "work": "ath05_gk",
+          "reference": "208f",
+          "speaker": null,
+          "local_file": "/home/mrty/Documents/Perseus/Classics/Athenaeus/opensource/ath05_gk.xml",
+          "xml_body_line": 681,
+          "beta_context": null
+        },
+        {
+          "entry_id": "lexicon-03-012",
+          "grc_index": 1,
+          "grc": "ὁ μηχανικός.",
+          "query": "mhxanikos",
+          "author": "Lucian",
+          "work": "02_gk",
+          "reference": "2",
+          "speaker": null,
+          "local_file": "/home/mrty/Documents/Perseus/Classics/Lucian/opensource/02_gk.xml",
+          "xml_body_line": 71,
+          "beta_context": null
+        }
+      ]
+    },
+    "lexicon-03-015": {
+      "occurrence_count": 151,
+      "examples": [
+        {
+          "entry_id": "lexicon-03-015",
+          "grc_index": 1,
+          "grc": "ὁ διδάσκαλος.",
+          "query": "didaskalos",
+          "author": "Aeschines",
+          "work": "aeschin_gk",
+          "reference": null,
+          "speaker": null,
+          "local_file": "/home/mrty/Documents/Perseus/Classics/Aeschines/opensource/aeschin_gk.xml",
+          "xml_body_line": 255,
+          "beta_context": null
+        },
+        {
+          "entry_id": "lexicon-03-015",
+          "grc_index": 1,
+          "grc": "ὁ διδάσκαλος.",
+          "query": "didaskalos",
+          "author": "Aeschylus",
+          "work": "Eumenides",
+          "reference": "580",
+          "speaker": null,
+          "local_file": "/home/mrty/Documents/Perseus/Classics/Aeschylus/opensource/aesch.eum_gk.xml",
+          "xml_body_line": 1014,
+          "beta_context": null
+        },
+        {
+          "entry_id": "lexicon-03-015",
+          "grc_index": 1,
+          "grc": "ὁ διδάσκαλος.",
+          "query": "didaskalos",
+          "author": "Aeschylus",
+          "work": "Prometheus Bound",
+          "reference": "110",
+          "speaker": null,
+          "local_file": "/home/mrty/Documents/Perseus/Classics/Aeschylus/opensource/aesch.pb_gk.xml",
+          "xml_body_line": 341,
+          "beta_context": null
+        }
+      ]
+    },
+    "lexicon-03-016": {
+      "occurrence_count": 3,
+      "examples": [
+        {
+          "entry_id": "lexicon-03-016",
+          "grc_index": 1,
+          "grc": "ὁ ἀξιωματικός.",
+          "query": "aciwmatikos",
+          "author": "Dionysius of Halicarnassus",
+          "work": "dh.012_gk",
+          "reference": null,
+          "speaker": null,
+          "local_file": "/home/mrty/Documents/Perseus/Classics/Dionysius/opensource/dh.012_gk.xml",
+          "xml_body_line": 1021,
+          "beta_context": null
+        },
+        {
+          "entry_id": "lexicon-03-016",
+          "grc_index": 1,
+          "grc": "ὁ ἀξιωματικός.",
+          "query": "aciwmatikos",
+          "author": "Polybius",
+          "work": "hist_gk",
+          "reference": "1",
+          "speaker": null,
+          "local_file": "/home/mrty/Documents/Perseus/Classics/Polybius/opensource/hist_gk.xml",
+          "xml_body_line": 51780,
+          "beta_context": null
+        }
+      ]
+    },
+    "lexicon-03-018": {
+      "occurrence_count": 6,
+      "examples": [
+        {
+          "entry_id": "lexicon-03-018",
+          "grc_index": 1,
+          "grc": "ὁ καθηγητής.",
+          "query": "kaqhghths",
+          "author": "Bible",
+          "work": "nt_gk",
+          "reference": "1",
+          "speaker": null,
+          "local_file": "/home/mrty/Documents/Perseus/Classics/Bible/opensource/nt_gk.xml",
+          "xml_body_line": 5994,
+          "beta_context": null
+        },
+        {
+          "entry_id": "lexicon-03-018",
+          "grc_index": 1,
+          "grc": "ὁ καθηγητής.",
+          "query": "kaqhghths",
+          "author": "Pseudo-Plutarch",
+          "work": "plut.0094.003_teubner_gk",
+          "reference": "886c",
+          "speaker": null,
+          "local_file": "/home/mrty/Documents/Perseus/Classics/Plutarch/opensource/plut.0094.003_teubner_gk.xml",
+          "xml_body_line": 926,
+          "beta_context": null
+        },
+        {
+          "entry_id": "lexicon-03-018",
+          "grc_index": 1,
+          "grc": "ὁ καθηγητής.",
+          "query": "kaqhghths",
+          "author": "Plutarch",
+          "work": "plut.070_teubner_gk",
+          "reference": "15",
+          "speaker": null,
+          "local_file": "/home/mrty/Documents/Perseus/Classics/Plutarch/opensource/plut.070_teubner_gk.xml",
+          "xml_body_line": 1249,
+          "beta_context": null
+        }
+      ]
+    },
+    "lexicon-03-020": {
+      "occurrence_count": 83,
+      "examples": [
+        {
+          "entry_id": "lexicon-03-020",
+          "grc_index": 1,
+          "grc": "ὁ δικαστής.",
+          "query": "dikasths",
+          "author": "Aeschylus",
+          "work": "Agamemnon",
+          "reference": "1420",
+          "speaker": null,
+          "local_file": "/home/mrty/Documents/Perseus/Classics/Aeschylus/opensource/aesch.ag_gk.xml",
+          "xml_body_line": 2150,
+          "beta_context": null
+        },
+        {
+          "entry_id": "lexicon-03-020",
+          "grc_index": 1,
+          "grc": "ὁ δικαστής.",
+          "query": "dikasths",
+          "author": "Aristides, Aelius",
+          "work": "aristid.orat_gk",
+          "reference": "73",
+          "speaker": null,
+          "local_file": "/home/mrty/Documents/Perseus/Classics/Aristides/opensource/aristid.orat_gk.xml",
+          "xml_body_line": 1994,
+          "beta_context": null
+        },
+        {
+          "entry_id": "lexicon-03-020",
+          "grc_index": 1,
+          "grc": "ὁ δικαστής.",
+          "query": "dikasths",
+          "author": "Aristides, Aelius",
+          "work": "aristid.orat_gk",
+          "reference": "188",
+          "speaker": null,
+          "local_file": "/home/mrty/Documents/Perseus/Classics/Aristides/opensource/aristid.orat_gk.xml",
+          "xml_body_line": 5108,
+          "beta_context": null
+        }
+      ]
+    },
+    "lexicon-04-003": {
+      "occurrence_count": 8,
+      "examples": [
+        {
+          "entry_id": "lexicon-04-003",
+          "grc_index": 1,
+          "grc": "ἡ ἅμαξα.",
+          "query": "amaca",
+          "author": "Arrian",
+          "work": "arrian.anab_gk",
+          "reference": "5",
+          "speaker": null,
+          "local_file": "/home/mrty/Documents/Perseus/Classics/Arrian/opensource/arrian.anab_gk.xml",
+          "xml_body_line": 2246,
+          "beta_context": null
+        },
+        {
+          "entry_id": "lexicon-04-003",
+          "grc_index": 1,
+          "grc": "ἡ ἅμαξα.",
+          "query": "amaca",
+          "author": "Arrian",
+          "work": "arrian.anab_gk",
+          "reference": "6",
+          "speaker": null,
+          "local_file": "/home/mrty/Documents/Perseus/Classics/Arrian/opensource/arrian.anab_gk.xml",
+          "xml_body_line": 2253,
+          "beta_context": null
+        },
+        {
+          "entry_id": "lexicon-04-003",
+          "grc_index": 1,
+          "grc": "ἡ ἅμαξα.",
+          "query": "amaca",
+          "author": "Diogenes Laertius",
+          "work": "dl_gk",
+          "reference": "187",
+          "speaker": null,
+          "local_file": "/home/mrty/Documents/Perseus/Classics/Diogenes/opensource/dl_gk.xml",
+          "xml_body_line": 13529,
+          "beta_context": null
+        }
+      ]
+    },
+    "lexicon-04-004": {
+      "occurrence_count": 1,
+      "examples": [
+        {
+          "entry_id": "lexicon-04-004",
+          "grc_index": 1,
+          "grc": "τὸ κοιμητήριον.",
+          "query": "koimhthrion",
+          "author": "Athenaeus",
+          "work": "ath04_gk",
+          "reference": "143c",
+          "speaker": null,
+          "local_file": "/home/mrty/Documents/Perseus/Classics/Athenaeus/opensource/ath04_gk.xml",
+          "xml_body_line": 615,
+          "beta_context": null
+        }
+      ]
+    },
+    "lexicon-04-005": {
+      "occurrence_count": 8,
+      "examples": [
+        {
+          "entry_id": "lexicon-04-005",
+          "grc_index": 1,
+          "grc": "ἡ λέσχη.",
+          "query": "lesxh",
+          "author": "Anth",
+          "work": "02_gk",
+          "reference": "5",
+          "speaker": null,
+          "local_file": "/home/mrty/Documents/Perseus/Classics/Anth/opensource/02_gk.xml",
+          "xml_body_line": 1131,
+          "beta_context": null
+        },
+        {
+          "entry_id": "lexicon-04-005",
+          "grc_index": 1,
+          "grc": "ἡ λέσχη.",
+          "query": "lesxh",
+          "author": "Athenaeus",
+          "work": "ath05_gk",
+          "reference": "192a",
+          "speaker": null,
+          "local_file": "/home/mrty/Documents/Perseus/Classics/Athenaeus/opensource/ath05_gk.xml",
+          "xml_body_line": 466,
+          "beta_context": null
+        },
+        {
+          "entry_id": "lexicon-04-005",
+          "grc_index": 1,
+          "grc": "ἡ λέσχη.",
+          "query": "lesxh",
+          "author": "Diogenes Laertius",
+          "work": "dl_gk",
+          "reference": "17",
+          "speaker": null,
+          "local_file": "/home/mrty/Documents/Perseus/Classics/Diogenes/opensource/dl_gk.xml",
+          "xml_body_line": 15597,
+          "beta_context": null
+        }
+      ]
+    },
+    "lexicon-04-007": {
+      "occurrence_count": 15,
+      "examples": [
+        {
+          "entry_id": "lexicon-04-007",
+          "grc_index": 1,
+          "grc": "ἡ συμφωνία.",
+          "query": "sumfwnia",
+          "author": "Aristides, Aelius",
+          "work": "aristid.orat_gk",
+          "reference": "101",
+          "speaker": null,
+          "local_file": "/home/mrty/Documents/Perseus/Classics/Aristides/opensource/aristid.orat_gk.xml",
+          "xml_body_line": 2706,
+          "beta_context": null
+        },
+        {
+          "entry_id": "lexicon-04-007",
+          "grc_index": 1,
+          "grc": "ἡ συμφωνία.",
+          "query": "sumfwnia",
+          "author": "Aristotle",
+          "work": "aristot.met_gk",
+          "reference": "991b",
+          "speaker": null,
+          "local_file": "/home/mrty/Documents/Perseus/Classics/Aristotle/opensource/aristot.met_gk.xml",
+          "xml_body_line": 108,
+          "beta_context": null
+        },
+        {
+          "entry_id": "lexicon-04-007",
+          "grc_index": 1,
+          "grc": "ἡ συμφωνία.",
+          "query": "sumfwnia",
+          "author": "Aristotle",
+          "work": "aristot.met_gk",
+          "reference": "1043a",
+          "speaker": null,
+          "local_file": "/home/mrty/Documents/Perseus/Classics/Aristotle/opensource/aristot.met_gk.xml",
+          "xml_body_line": 237,
+          "beta_context": null
+        }
+      ]
+    },
+    "lexicon-04-008": {
+      "occurrence_count": 6,
+      "examples": [
+        {
+          "entry_id": "lexicon-04-008",
+          "grc_index": 1,
+          "grc": "τὰ ἀνάκτορα.",
+          "query": "anaktora",
+          "author": "Aeschylus",
+          "work": "Persians",
+          "reference": "650",
+          "speaker": null,
+          "local_file": "/home/mrty/Documents/Perseus/Classics/Aeschylus/opensource/aesch.pers_gk.xml",
+          "xml_body_line": 1050,
+          "beta_context": null
+        },
+        {
+          "entry_id": "lexicon-04-008",
+          "grc_index": 1,
+          "grc": "τὰ ἀνάκτορα.",
+          "query": "anaktora",
+          "author": "Anth",
+          "work": "01_gk",
+          "reference": "5",
+          "speaker": null,
+          "local_file": "/home/mrty/Documents/Perseus/Classics/Anth/opensource/01_gk.xml",
+          "xml_body_line": 8858,
+          "beta_context": null
+        },
+        {
+          "entry_id": "lexicon-04-008",
+          "grc_index": 1,
+          "grc": "τὰ ἀνάκτορα.",
+          "query": "anaktora",
+          "author": "Anth",
+          "work": "03_gk",
+          "reference": "20",
+          "speaker": null,
+          "local_file": "/home/mrty/Documents/Perseus/Classics/Anth/opensource/03_gk.xml",
+          "xml_body_line": 9147,
+          "beta_context": null
+        }
+      ]
+    },
+    "lexicon-04-009": {
+      "occurrence_count": 3,
+      "examples": [
+        {
+          "entry_id": "lexicon-04-009",
+          "grc_index": 1,
+          "grc": "ἡ ἔπαυλις.",
+          "query": "epaulis",
+          "author": "Bible",
+          "work": "nt_gk",
+          "reference": "11",
+          "speaker": null,
+          "local_file": "/home/mrty/Documents/Perseus/Classics/Bible/opensource/nt_gk.xml",
+          "xml_body_line": 29137,
+          "beta_context": null
+        },
+        {
+          "entry_id": "lexicon-04-009",
+          "grc_index": 1,
+          "grc": "ἡ ἔπαυλις.",
+          "query": "epaulis",
+          "author": "Demades",
+          "work": "demad_gk",
+          "reference": "14",
+          "speaker": null,
+          "local_file": "/home/mrty/Documents/Perseus/Classics/Demades/opensource/demad_gk.xml",
+          "xml_body_line": 65,
+          "beta_context": null
+        },
+        {
+          "entry_id": "lexicon-04-009",
+          "grc_index": 1,
+          "grc": "ἡ ἔπαυλις.",
+          "query": "epaulis",
+          "author": "Plutarch",
+          "work": "plut.cat.ma_gk",
+          "reference": "1",
+          "speaker": null,
+          "local_file": "/home/mrty/Documents/Perseus/Classics/Plutarch/opensource/plut.cat.ma_gk.xml",
+          "xml_body_line": 105,
+          "beta_context": null
+        }
+      ]
+    },
+    "lexicon-04-014": {
+      "occurrence_count": 12,
+      "examples": [
+        {
+          "entry_id": "lexicon-04-014",
+          "grc_index": 1,
+          "grc": "ὁ περίπατος.",
+          "query": "peripatos",
+          "author": "Aretaeus",
+          "work": "aret_gk",
+          "reference": null,
+          "speaker": null,
+          "local_file": "/home/mrty/Documents/Perseus/Classics/Aretaeus/opensource/aret_gk.xml",
+          "xml_body_line": 8075,
+          "beta_context": null
+        },
+        {
+          "entry_id": "lexicon-04-014",
+          "grc_index": 1,
+          "grc": "ὁ περίπατος.",
+          "query": "peripatos",
+          "author": "Aristophanes",
+          "work": "Frogs",
+          "reference": "950",
+          "speaker": null,
+          "local_file": "/home/mrty/Documents/Perseus/Classics/Aristophanes/opensource/aristoph.frogs_gk.xml",
+          "xml_body_line": 2274,
+          "beta_context": null
+        },
+        {
+          "entry_id": "lexicon-04-014",
+          "grc_index": 1,
+          "grc": "ὁ περίπατος.",
+          "query": "peripatos",
+          "author": "Arrian",
+          "work": "arrian.cuneg_gk",
+          "reference": "2",
+          "speaker": null,
+          "local_file": "/home/mrty/Documents/Perseus/Classics/Arrian/opensource/arrian.cuneg_gk.xml",
+          "xml_body_line": 359,
+          "beta_context": null
+        }
+      ]
+    },
+    "lexicon-04-016": {
+      "occurrence_count": 301,
+      "examples": [
+        {
+          "entry_id": "lexicon-04-016",
+          "grc_index": 1,
+          "grc": "ἡ ὁδός.",
+          "query": "odos",
+          "author": "Aeschines",
+          "work": "aeschin_gk",
+          "reference": null,
+          "speaker": null,
+          "local_file": "/home/mrty/Documents/Perseus/Classics/Aeschines/opensource/aeschin_gk.xml",
+          "xml_body_line": 173,
+          "beta_context": null
+        },
+        {
+          "entry_id": "lexicon-04-016",
+          "grc_index": 1,
+          "grc": "ἡ ὁδός.",
+          "query": "odos",
+          "author": "Anth",
+          "work": "02_gk",
+          "reference": "10",
+          "speaker": null,
+          "local_file": "/home/mrty/Documents/Perseus/Classics/Anth/opensource/02_gk.xml",
+          "xml_body_line": 6411,
+          "beta_context": null
+        },
+        {
+          "entry_id": "lexicon-04-016",
+          "grc_index": 1,
+          "grc": "ἡ ὁδός.",
+          "query": "odos",
+          "author": "Anth",
+          "work": "03_gk",
+          "reference": "5",
+          "speaker": null,
+          "local_file": "/home/mrty/Documents/Perseus/Classics/Anth/opensource/03_gk.xml",
+          "xml_body_line": 7235,
+          "beta_context": null
+        }
+      ]
+    },
+    "lexicon-04-017": {
+      "occurrence_count": 39,
+      "examples": [
+        {
+          "entry_id": "lexicon-04-017",
+          "grc_index": 1,
+          "grc": "τὸ προάστειον.",
+          "query": "proasteion",
+          "author": "Anth",
+          "work": "03_gk",
+          "reference": "5",
+          "speaker": null,
+          "local_file": "/home/mrty/Documents/Perseus/Classics/Anth/opensource/03_gk.xml",
+          "xml_body_line": 9275,
+          "beta_context": null
+        },
+        {
+          "entry_id": "lexicon-04-017",
+          "grc_index": 1,
+          "grc": "τὸ προάστειον.",
+          "query": "proasteion",
+          "author": "Appian",
+          "work": "appian.fw_gk",
+          "reference": "84",
+          "speaker": null,
+          "local_file": "/home/mrty/Documents/Perseus/Classics/Appian/opensource/appian.fw_gk.xml",
+          "xml_body_line": 1016,
+          "beta_context": null
+        },
+        {
+          "entry_id": "lexicon-04-017",
+          "grc_index": 1,
+          "grc": "τὸ προάστειον.",
+          "query": "proasteion",
+          "author": "Diodorus Siculus",
+          "work": "diod_gk",
+          "reference": "3",
+          "speaker": null,
+          "local_file": "/home/mrty/Documents/Perseus/Classics/Diodorus/opensource/diod_gk.xml",
+          "xml_body_line": 6032,
+          "beta_context": null
+        }
+      ]
+    },
+    "lexicon-05-002": {
+      "occurrence_count": 7,
+      "examples": [
+        {
+          "entry_id": "lexicon-05-002",
+          "grc_index": 1,
+          "grc": "ὁ κάδος.",
+          "query": "kados",
+          "author": "Athenaeus",
+          "work": "ath04_gk",
+          "reference": "142d",
+          "speaker": null,
+          "local_file": "/home/mrty/Documents/Perseus/Classics/Athenaeus/opensource/ath04_gk.xml",
+          "xml_body_line": 602,
+          "beta_context": null
+        },
+        {
+          "entry_id": "lexicon-05-002",
+          "grc_index": 1,
+          "grc": "ὁ κάδος.",
+          "query": "kados",
+          "author": "Athenaeus",
+          "work": "ath11_gk",
+          "reference": "45",
+          "speaker": null,
+          "local_file": "/home/mrty/Documents/Perseus/Classics/Athenaeus/opensource/ath11_gk.xml",
+          "xml_body_line": 752,
+          "beta_context": null
+        },
+        {
+          "entry_id": "lexicon-05-002",
+          "grc_index": 1,
+          "grc": "ὁ κάδος.",
+          "query": "kados",
+          "author": "Athenaeus",
+          "work": "ath11_gk",
+          "reference": "503b",
+          "speaker": null,
+          "local_file": "/home/mrty/Documents/Perseus/Classics/Athenaeus/opensource/ath11_gk.xml",
+          "xml_body_line": 2029,
+          "beta_context": null
+        }
+      ]
+    },
+    "lexicon-05-004": {
+      "occurrence_count": 1,
+      "examples": [
+        {
+          "entry_id": "lexicon-05-004",
+          "grc_index": 1,
+          "grc": "τὸ κωδώνιον.",
+          "query": "kwdwnion",
+          "author": "Flavius Josephus",
+          "work": "Antiquitates Judaicae",
+          "reference": "161",
+          "speaker": null,
+          "local_file": "/home/mrty/Documents/Perseus/Classics/Josephus/opensource/j.aj_gk.xml",
+          "xml_body_line": 4144,
+          "beta_context": null
+        }
+      ]
+    },
+    "lexicon-05-007": {
+      "occurrence_count": 24,
+      "examples": [
+        {
+          "entry_id": "lexicon-05-007",
+          "grc_index": 1,
+          "grc": "τὰ ἔπιπλα.",
+          "query": "epipla",
+          "author": "Aeschines",
+          "work": "aeschin_gk",
+          "reference": null,
+          "speaker": null,
+          "local_file": "/home/mrty/Documents/Perseus/Classics/Aeschines/opensource/aeschin_gk.xml",
+          "xml_body_line": 180,
+          "beta_context": null
+        },
+        {
+          "entry_id": "lexicon-05-007",
+          "grc_index": 1,
+          "grc": "τὰ ἔπιπλα.",
+          "query": "epipla",
+          "author": "Aristides, Aelius",
+          "work": "aristid.orat_gk",
+          "reference": "545",
+          "speaker": null,
+          "local_file": "/home/mrty/Documents/Perseus/Classics/Aristides/opensource/aristid.orat_gk.xml",
+          "xml_body_line": 15323,
+          "beta_context": null
+        },
+        {
+          "entry_id": "lexicon-05-007",
+          "grc_index": 1,
+          "grc": "τὰ ἔπιπλα.",
+          "query": "epipla",
+          "author": "Demosthenes",
+          "work": "dem21-30_gk",
+          "reference": "10",
+          "speaker": null,
+          "local_file": "/home/mrty/Documents/Perseus/Classics/Demosthenes/opensource/dem21-30_gk.xml",
+          "xml_body_line": 958,
+          "beta_context": null
+        }
+      ]
+    },
+    "lexicon-05-008": {
+      "occurrence_count": 69,
+      "examples": [
+        {
+          "entry_id": "lexicon-05-008",
+          "grc_index": 1,
+          "grc": "ἡ ἑστία.",
+          "query": "estia",
+          "author": "Aeschylus",
+          "work": "Eumenides",
+          "reference": "280",
+          "speaker": null,
+          "local_file": "/home/mrty/Documents/Perseus/Classics/Aeschylus/opensource/aesch.eum_gk.xml",
+          "xml_body_line": 540,
+          "beta_context": null
+        },
+        {
+          "entry_id": "lexicon-05-008",
+          "grc_index": 1,
+          "grc": "ἡ ἑστία.",
+          "query": "estia",
+          "author": "Aeschylus",
+          "work": "Libation Bearers",
+          "reference": "45",
+          "speaker": null,
+          "local_file": "/home/mrty/Documents/Perseus/Classics/Aeschylus/opensource/aesch.lib_gk.xml",
+          "xml_body_line": 183,
+          "beta_context": null
+        },
+        {
+          "entry_id": "lexicon-05-008",
+          "grc_index": 1,
+          "grc": "ἡ ἑστία.",
+          "query": "estia",
+          "author": "Appian",
+          "work": "appian.fw_gk",
+          "reference": "69",
+          "speaker": null,
+          "local_file": "/home/mrty/Documents/Perseus/Classics/Appian/opensource/appian.fw_gk.xml",
+          "xml_body_line": 901,
+          "beta_context": null
+        }
+      ]
+    },
+    "lexicon-05-010": {
+      "occurrence_count": 1,
+      "examples": [
+        {
+          "entry_id": "lexicon-05-010",
+          "grc_index": 1,
+          "grc": "ἡ αἴθουσα.",
+          "query": "aiqousa",
+          "author": "Apollonius Rhodius",
+          "work": "argo_gk",
+          "reference": "235",
+          "speaker": null,
+          "local_file": "/home/mrty/Documents/Perseus/Classics/Apollonius/opensource/argo_gk.xml",
+          "xml_body_line": 3006,
+          "beta_context": null
+        }
+      ]
+    },
+    "lexicon-05-011": {
+      "occurrence_count": 3,
+      "examples": [
+        {
+          "entry_id": "lexicon-05-011",
+          "grc_index": 1,
+          "grc": "ὁ κοιτών.",
+          "query": "koitwn",
+          "author": "Athenaeus",
+          "work": "ath05_gk",
+          "reference": "205c",
+          "speaker": null,
+          "local_file": "/home/mrty/Documents/Perseus/Classics/Athenaeus/opensource/ath05_gk.xml",
+          "xml_body_line": 642,
+          "beta_context": null
+        },
+        {
+          "entry_id": "lexicon-05-011",
+          "grc_index": 1,
+          "grc": "ὁ κοιτών.",
+          "query": "koitwn",
+          "author": "Athenaeus",
+          "work": "ath05_gk",
+          "reference": "205d",
+          "speaker": null,
+          "local_file": "/home/mrty/Documents/Perseus/Classics/Athenaeus/opensource/ath05_gk.xml",
+          "xml_body_line": 643,
+          "beta_context": null
+        },
+        {
+          "entry_id": "lexicon-05-011",
+          "grc_index": 1,
+          "grc": "ὁ κοιτών.",
+          "query": "koitwn",
+          "author": "Plutarch",
+          "work": "plut.125_teubner_gk",
+          "reference": "20",
+          "speaker": null,
+          "local_file": "/home/mrty/Documents/Perseus/Classics/Plutarch/opensource/plut.125_teubner_gk.xml",
+          "xml_body_line": 488,
+          "beta_context": null
+        }
+      ]
+    },
+    "lexicon-05-012": {
+      "occurrence_count": 1,
+      "examples": [
+        {
+          "entry_id": "lexicon-05-012",
+          "grc_index": 1,
+          "grc": "ἡ σκευοθήκη.",
+          "query": "skeuoqhkh",
+          "author": "Athenaeus",
+          "work": "ath11_gk",
+          "reference": "3",
+          "speaker": null,
+          "local_file": "/home/mrty/Documents/Perseus/Classics/Athenaeus/opensource/ath11_gk.xml",
+          "xml_body_line": 103,
+          "beta_context": null
+        }
+      ]
+    },
+    "lexicon-05-014": {
+      "occurrence_count": 5,
+      "examples": [
+        {
+          "entry_id": "lexicon-05-014",
+          "grc_index": 1,
+          "grc": "τὸ γραφεῖον.",
+          "query": "grafeion",
+          "author": "Athenaeus",
+          "work": "ath13_gk",
+          "reference": "45",
+          "speaker": null,
+          "local_file": "/home/mrty/Documents/Perseus/Classics/Athenaeus/opensource/ath13_gk.xml",
+          "xml_body_line": 1161,
+          "beta_context": null
+        },
+        {
+          "entry_id": "lexicon-05-014",
+          "grc_index": 1,
+          "grc": "τὸ γραφεῖον.",
+          "query": "grafeion",
+          "author": "Diogenes Laertius",
+          "work": "dl_gk",
+          "reference": "109",
+          "speaker": null,
+          "local_file": "/home/mrty/Documents/Perseus/Classics/Diogenes/opensource/dl_gk.xml",
+          "xml_body_line": 12132,
+          "beta_context": null
+        },
+        {
+          "entry_id": "lexicon-05-014",
+          "grc_index": 1,
+          "grc": "τὸ γραφεῖον.",
+          "query": "grafeion",
+          "author": "Plutarch",
+          "work": "plut.101_loeb_gk",
+          "reference": "514d",
+          "speaker": null,
+          "local_file": "/home/mrty/Documents/Perseus/Classics/Plutarch/opensource/plut.101_loeb_gk.xml",
+          "xml_body_line": 644,
+          "beta_context": null
+        }
+      ]
+    },
+    "lexicon-05-016": {
+      "occurrence_count": 1,
+      "examples": [
+        {
+          "entry_id": "lexicon-05-016",
+          "grc_index": 1,
+          "grc": "ὁ σάπων.",
+          "query": "sapwn",
+          "author": "Aretaeus",
+          "work": "aret_gk",
+          "reference": null,
+          "speaker": null,
+          "local_file": "/home/mrty/Documents/Perseus/Classics/Aretaeus/opensource/aret_gk.xml",
+          "xml_body_line": 8812,
+          "beta_context": null
+        }
+      ]
+    },
+    "lexicon-05-019": {
+      "occurrence_count": 4,
+      "examples": [
+        {
+          "entry_id": "lexicon-05-019",
+          "grc_index": 1,
+          "grc": "τὸ παραπέτασμα.",
+          "query": "parapetasma",
+          "author": "Pausanias",
+          "work": "paus_gk",
+          "reference": "4",
+          "speaker": null,
+          "local_file": "/home/mrty/Documents/Perseus/Classics/Pausanias/opensource/paus_gk.xml",
+          "xml_body_line": 1391,
+          "beta_context": null
+        },
+        {
+          "entry_id": "lexicon-05-019",
+          "grc_index": 1,
+          "grc": "τὸ παραπέτασμα.",
+          "query": "parapetasma",
+          "author": "Plutarch",
+          "work": "plut.096_loeb_gk",
+          "reference": "471a",
+          "speaker": null,
+          "local_file": "/home/mrty/Documents/Perseus/Classics/Plutarch/opensource/plut.096_loeb_gk.xml",
+          "xml_body_line": 395,
+          "beta_context": null
+        },
+        {
+          "entry_id": "lexicon-05-019",
+          "grc_index": 1,
+          "grc": "τὸ παραπέτασμα.",
+          "query": "parapetasma",
+          "author": "Plutarch",
+          "work": "plut.096_teubner_gk",
+          "reference": "25",
+          "speaker": null,
+          "local_file": "/home/mrty/Documents/Perseus/Classics/Plutarch/opensource/plut.096_teubner_gk.xml",
+          "xml_body_line": 442,
+          "beta_context": null
+        }
+      ]
+    },
+    "lexicon-05-020": {
+      "occurrence_count": 8,
+      "examples": [
+        {
+          "entry_id": "lexicon-05-020",
+          "grc_index": 1,
+          "grc": "ἡ λεκάνη.",
+          "query": "lekanh",
+          "author": "Anth",
+          "work": "01_gk",
+          "reference": "5",
+          "speaker": null,
+          "local_file": "/home/mrty/Documents/Perseus/Classics/Anth/opensource/01_gk.xml",
+          "xml_body_line": 836,
+          "beta_context": null
+        },
+        {
+          "entry_id": "lexicon-05-020",
+          "grc_index": 1,
+          "grc": "ἡ λεκάνη.",
+          "query": "lekanh",
+          "author": "Anth",
+          "work": "02_gk",
+          "reference": "5",
+          "speaker": null,
+          "local_file": "/home/mrty/Documents/Perseus/Classics/Anth/opensource/02_gk.xml",
+          "xml_body_line": 1397,
+          "beta_context": null
+        },
+        {
+          "entry_id": "lexicon-05-020",
+          "grc_index": 1,
+          "grc": "ἡ λεκάνη.",
+          "query": "lekanh",
+          "author": "Athenaeus",
+          "work": "ath11_gk",
+          "reference": "485c",
+          "speaker": null,
+          "local_file": "/home/mrty/Documents/Perseus/Classics/Athenaeus/opensource/ath11_gk.xml",
+          "xml_body_line": 1271,
+          "beta_context": null
+        }
+      ]
+    },
+    "lexicon-05-022": {
+      "occurrence_count": 43,
+      "examples": [
+        {
+          "entry_id": "lexicon-05-022",
+          "grc_index": 1,
+          "grc": "τὸ δωμάτιον.",
+          "query": "dwmation",
+          "author": "Appian",
+          "work": "appian.cw_gk",
+          "reference": "19",
+          "speaker": null,
+          "local_file": "/home/mrty/Documents/Perseus/Classics/Appian/opensource/appian.cw_gk.xml",
+          "xml_body_line": 662,
+          "beta_context": null
+        },
+        {
+          "entry_id": "lexicon-05-022",
+          "grc_index": 1,
+          "grc": "τὸ δωμάτιον.",
+          "query": "dwmation",
+          "author": "Aristides, Aelius",
+          "work": "aristid.orat_gk",
+          "reference": "313",
+          "speaker": null,
+          "local_file": "/home/mrty/Documents/Perseus/Classics/Aristides/opensource/aristid.orat_gk.xml",
+          "xml_body_line": 8587,
+          "beta_context": null
+        },
+        {
+          "entry_id": "lexicon-05-022",
+          "grc_index": 1,
+          "grc": "τὸ δωμάτιον.",
+          "query": "dwmation",
+          "author": "Aristides, Aelius",
+          "work": "aristid.orat_gk",
+          "reference": "329",
+          "speaker": null,
+          "local_file": "/home/mrty/Documents/Perseus/Classics/Aristides/opensource/aristid.orat_gk.xml",
+          "xml_body_line": 9071,
+          "beta_context": null
+        }
+      ]
+    },
+    "lexicon-06-001": {
+      "occurrence_count": 115,
+      "examples": [
+        {
+          "entry_id": "lexicon-06-001",
+          "grc_index": 1,
+          "grc": "ὁ αὐτοκράτωρ\\footnote{\\textlatin{%\norig. \\textgreek{αὐτοκράτως}}%\n}.",
+          "query": "autokratwr",
+          "author": "Andocides",
+          "work": "andoc_gk",
+          "reference": "15",
+          "speaker": null,
+          "local_file": "/home/mrty/Documents/Perseus/Classics/Andocides/opensource/andoc_gk.xml",
+          "xml_body_line": 84,
+          "beta_context": null
+        },
+        {
+          "entry_id": "lexicon-06-001",
+          "grc_index": 1,
+          "grc": "ὁ αὐτοκράτωρ\\footnote{\\textlatin{%\norig. \\textgreek{αὐτοκράτως}}%\n}.",
+          "query": "autokratwr",
+          "author": "Andocides",
+          "work": "andoc_gk",
+          "reference": "18",
+          "speaker": null,
+          "local_file": "/home/mrty/Documents/Perseus/Classics/Andocides/opensource/andoc_gk.xml",
+          "xml_body_line": 87,
+          "beta_context": null
+        },
+        {
+          "entry_id": "lexicon-06-001",
+          "grc_index": 1,
+          "grc": "ὁ αὐτοκράτωρ\\footnote{\\textlatin{%\norig. \\textgreek{αὐτοκράτως}}%\n}.",
+          "query": "autokratwr",
+          "author": "Anth",
+          "work": "01_gk",
+          "reference": "15",
+          "speaker": null,
+          "local_file": "/home/mrty/Documents/Perseus/Classics/Anth/opensource/01_gk.xml",
+          "xml_body_line": 1396,
+          "beta_context": null
+        }
+      ]
+    },
+    "lexicon-06-002": {
+      "occurrence_count": 16,
+      "examples": [
+        {
+          "entry_id": "lexicon-06-002",
+          "grc_index": 1,
+          "grc": "Γερμανία.",
+          "query": "germania",
+          "author": "Dionysius of Halicarnassus",
+          "work": "dh.hist04_gk",
+          "reference": "3",
+          "speaker": null,
+          "local_file": "/home/mrty/Documents/Perseus/Classics/Dionysius/opensource/dh.hist04_gk.xml",
+          "xml_body_line": 6933,
+          "beta_context": null
+        },
+        {
+          "entry_id": "lexicon-06-002",
+          "grc_index": 1,
+          "grc": "Γερμανία.",
+          "query": "germania",
+          "author": "HistAugust",
+          "work": "sha01_gk",
+          "reference": "5",
+          "speaker": null,
+          "local_file": "/home/mrty/Documents/Perseus/Classics/HistAugust/opensource/sha01_gk.xml",
+          "xml_body_line": 3999,
+          "beta_context": null
+        },
+        {
+          "entry_id": "lexicon-06-002",
+          "grc_index": 1,
+          "grc": "Γερμανία.",
+          "query": "germania",
+          "author": "HistAugust",
+          "work": "sha01_gk",
+          "reference": "7",
+          "speaker": null,
+          "local_file": "/home/mrty/Documents/Perseus/Classics/HistAugust/opensource/sha01_gk.xml",
+          "xml_body_line": 4813,
+          "beta_context": null
+        }
+      ]
+    },
+    "lexicon-06-003": {
+      "occurrence_count": 12,
+      "examples": [
+        {
+          "entry_id": "lexicon-06-003",
+          "grc_index": 1,
+          "grc": "οἱ Γερμανοί.",
+          "query": "germanoi",
+          "author": "Appian",
+          "work": "appian.cw_gk",
+          "reference": "64",
+          "speaker": null,
+          "local_file": "/home/mrty/Documents/Perseus/Classics/Appian/opensource/appian.cw_gk.xml",
+          "xml_body_line": 366,
+          "beta_context": null
+        },
+        {
+          "entry_id": "lexicon-06-003",
+          "grc_index": 1,
+          "grc": "οἱ Γερμανοί.",
+          "query": "germanoi",
+          "author": "Athenaeus",
+          "work": "ath04_gk",
+          "reference": "153e",
+          "speaker": null,
+          "local_file": "/home/mrty/Documents/Perseus/Classics/Athenaeus/opensource/ath04_gk.xml",
+          "xml_body_line": 787,
+          "beta_context": null
+        },
+        {
+          "entry_id": "lexicon-06-003",
+          "grc_index": 1,
+          "grc": "οἱ Γερμανοί.",
+          "query": "germanoi",
+          "author": "Flavius Josephus",
+          "work": "Antiquitates Judaicae",
+          "reference": "152",
+          "speaker": null,
+          "local_file": "/home/mrty/Documents/Perseus/Classics/Josephus/opensource/j.aj_gk.xml",
+          "xml_body_line": 32350,
+          "beta_context": null
+        }
+      ]
+    },
+    "lexicon-06-010": {
+      "occurrence_count": 29,
+      "examples": [
+        {
+          "entry_id": "lexicon-06-010",
+          "grc_index": 1,
+          "grc": "Γαλλία.",
+          "query": "gallia",
+          "author": "HistAugust",
+          "work": "sha01_gk",
+          "reference": "1",
+          "speaker": null,
+          "local_file": "/home/mrty/Documents/Perseus/Classics/HistAugust/opensource/sha01_gk.xml",
+          "xml_body_line": 1251,
+          "beta_context": null
+        },
+        {
+          "entry_id": "lexicon-06-010",
+          "grc_index": 1,
+          "grc": "Γαλλία.",
+          "query": "gallia",
+          "author": "HistAugust",
+          "work": "sha01_gk",
+          "reference": "7",
+          "speaker": null,
+          "local_file": "/home/mrty/Documents/Perseus/Classics/HistAugust/opensource/sha01_gk.xml",
+          "xml_body_line": 6035,
+          "beta_context": null
+        },
+        {
+          "entry_id": "lexicon-06-010",
+          "grc_index": 1,
+          "grc": "Γαλλία.",
+          "query": "gallia",
+          "author": "HistAugust",
+          "work": "sha01_gk",
+          "reference": "2",
+          "speaker": null,
+          "local_file": "/home/mrty/Documents/Perseus/Classics/HistAugust/opensource/sha01_gk.xml",
+          "xml_body_line": 6240,
+          "beta_context": null
+        }
+      ]
+    },
+    "lexicon-06-011": {
+      "occurrence_count": 11,
+      "examples": [
+        {
+          "entry_id": "lexicon-06-011",
+          "grc_index": 1,
+          "grc": "οἱ Γάλλοι.",
+          "query": "galloi",
+          "author": "Appian",
+          "work": "appian.fw_gk",
+          "reference": "1",
+          "speaker": null,
+          "local_file": "/home/mrty/Documents/Perseus/Classics/Appian/opensource/appian.fw_gk.xml",
+          "xml_body_line": 281,
+          "beta_context": null
+        },
+        {
+          "entry_id": "lexicon-06-011",
+          "grc_index": 1,
+          "grc": "οἱ Γάλλοι.",
+          "query": "galloi",
+          "author": "Aretaeus",
+          "work": "aret_gk",
+          "reference": null,
+          "speaker": null,
+          "local_file": "/home/mrty/Documents/Perseus/Classics/Aretaeus/opensource/aret_gk.xml",
+          "xml_body_line": 8810,
+          "beta_context": null
+        },
+        {
+          "entry_id": "lexicon-06-011",
+          "grc_index": 1,
+          "grc": "οἱ Γάλλοι.",
+          "query": "galloi",
+          "author": "Diogenes Laertius",
+          "work": "dl_gk",
+          "reference": "43",
+          "speaker": null,
+          "local_file": "/home/mrty/Documents/Perseus/Classics/Diogenes/opensource/dl_gk.xml",
+          "xml_body_line": 6505,
+          "beta_context": null
+        }
+      ]
+    },
+    "lexicon-06-013": {
+      "occurrence_count": 163,
+      "examples": [
+        {
+          "entry_id": "lexicon-06-013",
+          "grc_index": 1,
+          "grc": "Ἰταλία.",
+          "query": "italia",
+          "author": "Appian",
+          "work": "appian.cw_gk",
+          "reference": "12",
+          "speaker": null,
+          "local_file": "/home/mrty/Documents/Perseus/Classics/Appian/opensource/appian.cw_gk.xml",
+          "xml_body_line": 92,
+          "beta_context": null
+        },
+        {
+          "entry_id": "lexicon-06-013",
+          "grc_index": 1,
+          "grc": "Ἰταλία.",
+          "query": "italia",
+          "author": "Appian",
+          "work": "appian.cw_gk",
+          "reference": "13",
+          "speaker": null,
+          "local_file": "/home/mrty/Documents/Perseus/Classics/Appian/opensource/appian.cw_gk.xml",
+          "xml_body_line": 93,
+          "beta_context": null
+        },
+        {
+          "entry_id": "lexicon-06-013",
+          "grc_index": 1,
+          "grc": "Ἰταλία.",
+          "query": "italia",
+          "author": "Appian",
+          "work": "appian.cw_gk",
+          "reference": "34",
+          "speaker": null,
+          "local_file": "/home/mrty/Documents/Perseus/Classics/Appian/opensource/appian.cw_gk.xml",
+          "xml_body_line": 126,
+          "beta_context": null
+        }
+      ]
+    },
+    "lexicon-06-021": {
+      "occurrence_count": 220,
+      "examples": [
+        {
+          "entry_id": "lexicon-06-021",
+          "grc_index": 1,
+          "grc": "τὸ συνέδριον.",
+          "query": "sunedrion",
+          "author": "Aeschines",
+          "work": "aeschin_gk",
+          "reference": null,
+          "speaker": null,
+          "local_file": "/home/mrty/Documents/Perseus/Classics/Aeschines/opensource/aeschin_gk.xml",
+          "xml_body_line": 175,
+          "beta_context": null
+        },
+        {
+          "entry_id": "lexicon-06-021",
+          "grc_index": 1,
+          "grc": "τὸ συνέδριον.",
+          "query": "sunedrion",
+          "author": "Appian",
+          "work": "appian.cw_gk",
+          "reference": "23",
+          "speaker": null,
+          "local_file": "/home/mrty/Documents/Perseus/Classics/Appian/opensource/appian.cw_gk.xml",
+          "xml_body_line": 855,
+          "beta_context": null
+        },
+        {
+          "entry_id": "lexicon-06-021",
+          "grc_index": 1,
+          "grc": "τὸ συνέδριον.",
+          "query": "sunedrion",
+          "author": "Appian",
+          "work": "appian.fw_gk",
+          "reference": "3",
+          "speaker": null,
+          "local_file": "/home/mrty/Documents/Perseus/Classics/Appian/opensource/appian.fw_gk.xml",
+          "xml_body_line": 129,
+          "beta_context": null
+        }
+      ]
+    },
+    "lexicon-06-022": {
+      "occurrence_count": 6,
+      "examples": [
+        {
+          "entry_id": "lexicon-06-022",
+          "grc_index": 1,
+          "grc": "ἡ ἐπιτροπή.",
+          "query": "epitroph",
+          "author": "Demosthenes",
+          "work": "dem31-40_gk",
+          "reference": "16",
+          "speaker": null,
+          "local_file": "/home/mrty/Documents/Perseus/Classics/Demosthenes/opensource/dem31-40_gk.xml",
+          "xml_body_line": 123,
+          "beta_context": null
+        },
+        {
+          "entry_id": "lexicon-06-022",
+          "grc_index": 1,
+          "grc": "ἡ ἐπιτροπή.",
+          "query": "epitroph",
+          "author": "Demosthenes",
+          "work": "dem31-40_gk",
+          "reference": "19",
+          "speaker": null,
+          "local_file": "/home/mrty/Documents/Perseus/Classics/Demosthenes/opensource/dem31-40_gk.xml",
+          "xml_body_line": 126,
+          "beta_context": null
+        },
+        {
+          "entry_id": "lexicon-06-022",
+          "grc_index": 1,
+          "grc": "ἡ ἐπιτροπή.",
+          "query": "epitroph",
+          "author": "Demosthenes",
+          "work": "dem31-40_gk",
+          "reference": "23",
+          "speaker": null,
+          "local_file": "/home/mrty/Documents/Perseus/Classics/Demosthenes/opensource/dem31-40_gk.xml",
+          "xml_body_line": 130,
+          "beta_context": null
+        }
+      ]
+    },
+    "lexicon-07-001": {
+      "occurrence_count": 1,
+      "examples": [
+        {
+          "entry_id": "lexicon-07-001",
+          "grc_index": 1,
+          "grc": "(ἡ\\footnote{\\textlatin{%\norig. \\textgreek{ὴ}}%\n}) κυριακή.",
+          "query": "kuriakh",
+          "author": "Bible",
+          "work": "nt_gk",
+          "reference": "9",
+          "speaker": null,
+          "local_file": "/home/mrty/Documents/Perseus/Classics/Bible/opensource/nt_gk.xml",
+          "xml_body_line": 57989,
+          "beta_context": null
+        }
+      ]
+    },
+    "lexicon-07-002": {
+      "occurrence_count": 489,
+      "examples": [
+        {
+          "entry_id": "lexicon-07-002",
+          "grc_index": 1,
+          "grc": "ἡ δευτέρα.",
+          "query": "deutera",
+          "author": "Aeschines",
+          "work": "aeschin_gk",
+          "reference": null,
+          "speaker": null,
+          "local_file": "/home/mrty/Documents/Perseus/Classics/Aeschines/opensource/aeschin_gk.xml",
+          "xml_body_line": 495,
+          "beta_context": null
+        },
+        {
+          "entry_id": "lexicon-07-002",
+          "grc_index": 1,
+          "grc": "ἡ δευτέρα.",
+          "query": "deutera",
+          "author": "Aeschylus",
+          "work": "Eumenides",
+          "reference": "1",
+          "speaker": null,
+          "local_file": "/home/mrty/Documents/Perseus/Classics/Aeschylus/opensource/aesch.eum_gk.xml",
+          "xml_body_line": 115,
+          "beta_context": null
+        },
+        {
+          "entry_id": "lexicon-07-002",
+          "grc_index": 1,
+          "grc": "ἡ δευτέρα.",
+          "query": "deutera",
+          "author": "Andocides",
+          "work": "andoc_gk",
+          "reference": "15",
+          "speaker": null,
+          "local_file": "/home/mrty/Documents/Perseus/Classics/Andocides/opensource/andoc_gk.xml",
+          "xml_body_line": 84,
+          "beta_context": null
+        }
+      ]
+    },
+    "lexicon-07-003": {
+      "occurrence_count": 427,
+      "examples": [
+        {
+          "entry_id": "lexicon-07-003",
+          "grc_index": 1,
+          "grc": "ἡ τρίτη.",
+          "query": "trith",
+          "author": "Aeschines",
+          "work": "aeschin_gk",
+          "reference": null,
+          "speaker": null,
+          "local_file": "/home/mrty/Documents/Perseus/Classics/Aeschines/opensource/aeschin_gk.xml",
+          "xml_body_line": 374,
+          "beta_context": null
+        },
+        {
+          "entry_id": "lexicon-07-003",
+          "grc_index": 1,
+          "grc": "ἡ τρίτη.",
+          "query": "trith",
+          "author": "Andocides",
+          "work": "andoc_gk",
+          "reference": "16",
+          "speaker": null,
+          "local_file": "/home/mrty/Documents/Perseus/Classics/Andocides/opensource/andoc_gk.xml",
+          "xml_body_line": 85,
+          "beta_context": null
+        },
+        {
+          "entry_id": "lexicon-07-003",
+          "grc_index": 1,
+          "grc": "ἡ τρίτη.",
+          "query": "trith",
+          "author": "Anth",
+          "work": "05_gk",
+          "reference": "5",
+          "speaker": null,
+          "local_file": "/home/mrty/Documents/Perseus/Classics/Anth/opensource/05_gk.xml",
+          "xml_body_line": 1096,
+          "beta_context": null
+        }
+      ]
+    },
+    "lexicon-07-004": {
+      "occurrence_count": 209,
+      "examples": [
+        {
+          "entry_id": "lexicon-07-004",
+          "grc_index": 1,
+          "grc": "ἡ τετάρτη.",
+          "query": "tetarth",
+          "author": "Anth",
+          "work": "05_gk",
+          "reference": "5",
+          "speaker": null,
+          "local_file": "/home/mrty/Documents/Perseus/Classics/Anth/opensource/05_gk.xml",
+          "xml_body_line": 7289,
+          "beta_context": null
+        },
+        {
+          "entry_id": "lexicon-07-004",
+          "grc_index": 1,
+          "grc": "ἡ τετάρτη.",
+          "query": "tetarth",
+          "author": "Appian",
+          "work": "appian.cw_gk",
+          "reference": "1",
+          "speaker": null,
+          "local_file": "/home/mrty/Documents/Perseus/Classics/Appian/opensource/appian.cw_gk.xml",
+          "xml_body_line": 639,
+          "beta_context": null
+        },
+        {
+          "entry_id": "lexicon-07-004",
+          "grc_index": 1,
+          "grc": "ἡ τετάρτη.",
+          "query": "tetarth",
+          "author": "Appian",
+          "work": "appian.cw_gk",
+          "reference": "103",
+          "speaker": null,
+          "local_file": "/home/mrty/Documents/Perseus/Classics/Appian/opensource/appian.cw_gk.xml",
+          "xml_body_line": 772,
+          "beta_context": null
+        }
+      ]
+    },
+    "lexicon-07-005": {
+      "occurrence_count": 154,
+      "examples": [
+        {
+          "entry_id": "lexicon-07-005",
+          "grc_index": 1,
+          "grc": "ἡ πέμπτη.",
+          "query": "pempth",
+          "author": "Aeschylus",
+          "work": "Prometheus Bound",
+          "reference": "850",
+          "speaker": null,
+          "local_file": "/home/mrty/Documents/Perseus/Classics/Aeschylus/opensource/aesch.pb_gk.xml",
+          "xml_body_line": 1541,
+          "beta_context": null
+        },
+        {
+          "entry_id": "lexicon-07-005",
+          "grc_index": 1,
+          "grc": "ἡ πέμπτη.",
+          "query": "pempth",
+          "author": "Anth",
+          "work": "03_gk",
+          "reference": "5",
+          "speaker": null,
+          "local_file": "/home/mrty/Documents/Perseus/Classics/Anth/opensource/03_gk.xml",
+          "xml_body_line": 8886,
+          "beta_context": null
+        },
+        {
+          "entry_id": "lexicon-07-005",
+          "grc_index": 1,
+          "grc": "ἡ πέμπτη.",
+          "query": "pempth",
+          "author": "Anth",
+          "work": "05_gk",
+          "reference": "5",
+          "speaker": null,
+          "local_file": "/home/mrty/Documents/Perseus/Classics/Anth/opensource/05_gk.xml",
+          "xml_body_line": 727,
+          "beta_context": null
+        }
+      ]
+    },
+    "lexicon-07-006": {
+      "occurrence_count": 160,
+      "examples": [
+        {
+          "entry_id": "lexicon-07-006",
+          "grc_index": 1,
+          "grc": "(ἡ) παρασκευή \\textgerman{(Küst\\textcompwordmark{}tag)}.",
+          "query": "paraskeuh",
+          "author": "Aeschines",
+          "work": "aeschin_gk",
+          "reference": null,
+          "speaker": null,
+          "local_file": "/home/mrty/Documents/Perseus/Classics/Aeschines/opensource/aeschin_gk.xml",
+          "xml_body_line": 385,
+          "beta_context": null
+        },
+        {
+          "entry_id": "lexicon-07-006",
+          "grc_index": 1,
+          "grc": "(ἡ) παρασκευή \\textgerman{(Küst\\textcompwordmark{}tag)}.",
+          "query": "paraskeuh",
+          "author": "Appian",
+          "work": "appian.cw_gk",
+          "reference": "10",
+          "speaker": null,
+          "local_file": "/home/mrty/Documents/Perseus/Classics/Appian/opensource/appian.cw_gk.xml",
+          "xml_body_line": 89,
+          "beta_context": null
+        },
+        {
+          "entry_id": "lexicon-07-006",
+          "grc_index": 1,
+          "grc": "(ἡ) παρασκευή \\textgerman{(Küst\\textcompwordmark{}tag)}.",
+          "query": "paraskeuh",
+          "author": "Appian",
+          "work": "appian.cw_gk",
+          "reference": "16",
+          "speaker": null,
+          "local_file": "/home/mrty/Documents/Perseus/Classics/Appian/opensource/appian.cw_gk.xml",
+          "xml_body_line": 97,
+          "beta_context": null
+        }
+      ]
+    },
+    "lexicon-07-007": {
+      "occurrence_count": 25,
+      "examples": [
+        {
+          "entry_id": "lexicon-07-007",
+          "grc_index": 1,
+          "grc": "(τὸ) σάββατον.",
+          "query": "sabbaton",
+          "author": "Bible",
+          "work": "nt_gk",
+          "reference": "2",
+          "speaker": null,
+          "local_file": "/home/mrty/Documents/Perseus/Classics/Bible/opensource/nt_gk.xml",
+          "xml_body_line": 2734,
+          "beta_context": null
+        },
+        {
+          "entry_id": "lexicon-07-007",
+          "grc_index": 1,
+          "grc": "(τὸ) σάββατον.",
+          "query": "sabbaton",
+          "author": "Bible",
+          "work": "nt_gk",
+          "reference": "1",
+          "speaker": null,
+          "local_file": "/home/mrty/Documents/Perseus/Classics/Bible/opensource/nt_gk.xml",
+          "xml_body_line": 8677,
+          "beta_context": null
+        },
+        {
+          "entry_id": "lexicon-07-007",
+          "grc_index": 1,
+          "grc": "(τὸ) σάββατον.",
+          "query": "sabbaton",
+          "author": "Bible",
+          "work": "nt_gk",
+          "reference": "53",
+          "speaker": null,
+          "local_file": "/home/mrty/Documents/Perseus/Classics/Bible/opensource/nt_gk.xml",
+          "xml_body_line": 21788,
+          "beta_context": null
+        }
+      ]
+    }
+  }
+}

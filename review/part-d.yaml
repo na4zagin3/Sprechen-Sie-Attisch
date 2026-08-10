@@ -1,0 +1,5685 @@
+meta:
+  source: part-d.yaml
+  part_title:
+    de: In Gesellschaft.
+    ja: 交際にて
+  translation_style:
+    basis:
+    - part-a.yaml
+    - part-b.yaml
+    - part-c.yaml
+    principles:
+    - Prefer natural spoken Japanese appropriate to the reconstructed relationship.
+    - Preserve the German wording except for explicitly identified source or OCR errors.
+    - Distinguish the German prompt from the literal and pragmatic force of the Greek.
+    - Preserve nineteenth-century objects, institutions, and social conventions where relevant.
+    - Do not add politeness, intimacy, gender, or aggression without contextual evidence.
+    - Use Japanese punctuation and sentence endings to make turn-taking natural.
+  corpus_roots:
+    perseus: /home/mrty/Documents/Perseus/Classics
+    lsj: /home/mrty/Documents/Perseus/Classics/LSJ
+  attestation_match_types:
+  - exact
+  - near-exact
+  - adapted
+  - syntactic-parallel
+  - formulaic-parallel
+  - lexical-only
+  - not-found
+  status_values:
+  - unreviewed
+  - scene-reviewed
+  - source-researched
+  - ja-proposed
+  - accepted
+scenes:
+- id: d-01
+  title:
+    de: Tanz
+    ja: ダンス
+  scene_type: mixed
+  setting:
+    situation: nineteenth-century social dance
+  cast:
+  - id: guest-a
+    description: null
+    evidence: null
+    confidence: candidate
+  - id: guest-b
+    description: null
+    evidence: null
+    confidence: candidate
+  - id: spouse
+    description: null
+    evidence: null
+    confidence: candidate
+  - id: observer
+    description: null
+    evidence: null
+    confidence: candidate
+  reconstruction:
+    confidence: unreviewed
+    note: Ordering may combine a continuous exchange with reusable model phrases; turn continuity must
+      be justified entry by entry.
+  entries:
+  - id: d-01-001
+    source_locator:
+      file: part-d.yaml
+      section_index: 1
+      conversation_index: 1
+      fingerprint: df325e9e51050fb3
+    source:
+      modern:
+      - de: Sie tanzt gut; \emph{nicht wahr?}
+        ja: 彼女は上手に踊りますね？
+      grc:
+      - καλῶς ὀρχεῖται· ἦ γάρ;
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: Sie tanzt gut; \emph{nicht wahr?}
+        ja_current: 彼女は上手に踊りますね？
+        ja_proposed: 彼女は上手に踊りますね？
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations: []
+    textual_issues: []
+    review_comments: []
+    status: unreviewed
+  - id: d-01-002
+    source_locator:
+      file: part-d.yaml
+      section_index: 1
+      conversation_index: 2
+      fingerprint: bac3c83f8e511f2c
+    source:
+      modern:
+      - de: Allerdings.
+        ja: そのとおり。
+      grc:
+      - μάλιστα.
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: Allerdings.
+        ja_current: そのとおり。
+        ja_proposed: そのとおり。
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations: []
+    textual_issues: []
+    review_comments: []
+    status: unreviewed
+  - id: d-01-003
+    source_locator:
+      file: part-d.yaml
+      section_index: 1
+      conversation_index: 3
+      fingerprint: 64118eb134d72f86
+    source:
+      modern:
+      - de: Ich bin ent\textcompwordmark{}zückt.
+        ja: 大変感激しています。
+      grc:
+      - κεκήλημαι ἔγωγε.
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: Ich bin ent\textcompwordmark{}zückt.
+        ja_current: 大変感激しています。
+        ja_proposed: 大変感激しています。
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations: []
+    textual_issues: []
+    review_comments: []
+    status: unreviewed
+  - id: d-01-004
+    source_locator:
+      file: part-d.yaml
+      section_index: 1
+      conversation_index: 4
+      fingerprint: 61499389665c9a55
+    source:
+      modern:
+      - de: Ich werde Polka mit ihr tanzen (Schottisch, Walzer, Française).
+        ja: 彼女とポルカ（ショッティッシュ\footnote{小学館 独和大辞典Schottisch 「スコットランド舞踊」\\ランダムハウス英和大辞典schottisch「ショッティッシュ」}、ワルツ、フランセーズ）を踊ります。
+      grc:
+      - 'ὀρχήσομαι μετ'' αὐτῆς τὸ Πολωνικόν (τὸ Καληδονικόν, τὸ Γερμανικόν,
+
+        τὸ Γαλλικόν).'
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: Ich werde Polka mit ihr tanzen (Schottisch, Walzer, Française).
+        ja_current: 彼女とポルカ（ショッティッシュ\footnote{小学館 独和大辞典Schottisch 「スコットランド舞踊」\\ランダムハウス英和大辞典schottisch「ショッティッシュ」}、ワルツ、フランセーズ）を踊ります。
+        ja_proposed: 彼女とポルカ（ショッティッシュ\footnote{小学館 独和大辞典Schottisch 「スコットランド舞踊」\\ランダムハウス英和大辞典schottisch「ショッティッシュ」}、ワルツ、フランセーズ）を踊ります。
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations: []
+    textual_issues: []
+    review_comments: []
+    status: unreviewed
+  - id: d-01-005
+    source_locator:
+      file: part-d.yaml
+      section_index: 1
+      conversation_index: 5
+      fingerprint: 39ed12b0fcf08be5
+    source:
+      modern:
+      - de: Erlauben Sie mir diesen Tanz, gnädige Frau? (— Fräulein?)
+        ja: 奥様（――お嬢さん）、一緒に躍りませんか。
+      grc:
+      - δὸς ὀρχεῖσθαι τοῦτο μετὰ σοῦ, ὦ γύναι! (--- ὦ κόρη!)
+    dialogue:
+      speaker:
+        candidate: guest-a
+        confidence: medium
+      addressee:
+        candidate: guest-b
+        confidence: medium
+      speech_act: invitation-to-dance
+      tone:
+      - courteous
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: Erlauben Sie mir diesen Tanz, gnädige Frau? (— Fräulein?)
+        ja_current: 奥様（――お嬢さん）、一緒に躍りませんか。
+        ja_proposed: 奥様（――お嬢さん）、この曲をご一緒していただけますか。
+        decision: revise
+        rationale: >
+          “Allow me this dance” is a conventional invitation at a social dance. 「この曲をご一緒」
+          sounds more scene-specific than the generic 「一緒に踊りませんか」 and also corrects 躍り to 踊り.
+        alternatives: []
+      register: courteous-social
+      scene_dependency: assumes a formal dance invitation
+    attestations: []
+    textual_issues: []
+    review_comments: []
+    status: ja-proposed
+  - id: d-01-006
+    source_locator:
+      file: part-d.yaml
+      section_index: 1
+      conversation_index: 6
+      fingerprint: 5406e7b5ce81c770
+    source:
+      modern:
+      - de: Recht gern!
+        ja: ええ、喜んで！
+      grc:
+      - \emph{φθόνος οὐδείς.}
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: Recht gern!
+        ja_current: ええ、喜んで！
+        ja_proposed: ええ、喜んで！
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations: []
+    textual_issues: []
+    review_comments: []
+    status: unreviewed
+  - id: d-01-007
+    source_locator:
+      file: part-d.yaml
+      section_index: 1
+      conversation_index: 7
+      fingerprint: 5dd93ca6f8839bdb
+    source:
+      modern:
+      - de: Bitte, hören Sie auf, ich kann nicht mehr.
+        ja: すみません、もう踊れませんからやめてください。
+      grc:
+      - παῦε δῆτ' ὀρχούμενος, !\footnote{\textlatin{sic}}
+    dialogue:
+      speaker:
+        candidate: guest-b
+        confidence: medium
+      addressee:
+        candidate: guest-a
+        confidence: medium
+      speech_act: request-to-stop
+      tone:
+      - fatigued
+      - insistent
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: >
+        παῦε is a present imperative; ὀρχούμενος is a supplementary participle with παύομαι/παύω,
+        “stop dancing.” δῆτα adds pressing or emphatic force.
+      literal_gloss: ではもう、踊るのをやめてください。
+      particles_and_idioms:
+      - form: δῆτα
+        function: reinforces the request; not inherently polite
+      pragmatic_force: >
+        The Greek expresses the request to stop, while German “ich kann nicht mehr” separately supplies
+        the speaker’s reason.
+    translation:
+      variants:
+      - de: Bitte, hören Sie auf, ich kann nicht mehr.
+        ja_current: すみません、もう踊れませんからやめてください。
+        ja_proposed: もうおやめください。これ以上は踊れません。
+        decision: revise
+        rationale: >
+          Separating the request from the reason avoids making 「踊れませんからやめてください」 sound as
+          though the addressee alone should stop for an unexplained reason.
+        alternatives: []
+      register: polite-but-firm
+      scene_dependency: dance partner asking the other partner to stop
+    attestations: []
+    textual_issues:
+    - type: punctuation
+      source_text: "παῦε δῆτ' ὀρχούμενος, !"
+      proposed_reading: "παῦε δῆτ’ ὀρχούμενος!"
+      confidence: high
+    review_comments: []
+    status: ja-proposed
+  - id: d-01-008
+    source_locator:
+      file: part-d.yaml
+      section_index: 1
+      conversation_index: 8
+      fingerprint: 2c03c123c90602b1
+    source:
+      modern:
+      - de: Ich bin müde.
+        ja: 疲れました。
+      grc:
+      - κέκμηκα.
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: Ich bin müde.
+        ja_current: 疲れました。
+        ja_proposed: 疲れました。
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations: []
+    textual_issues: []
+    review_comments: []
+    status: unreviewed
+  - id: d-01-009
+    source_locator:
+      file: part-d.yaml
+      section_index: 1
+      conversation_index: 9
+      fingerprint: a28772538801153a
+    source:
+      modern:
+      - de: Nur dies \emph{eine} Mal erlauben Sie mir noch!
+        ja: せめてあと\emph{一度}だけ許してください！
+      grc:
+      - ἓν μὲν οὖν τουτί μ' ἔασον ὀρχήσασθαι.
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: Nur dies \emph{eine} Mal erlauben Sie mir noch!
+        ja_current: せめてあと\emph{一度}だけ許してください！
+        ja_proposed: せめてあと\emph{一度}だけ許してください！
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations: []
+    textual_issues: []
+    review_comments: []
+    status: unreviewed
+  - id: d-01-010
+    source_locator:
+      file: part-d.yaml
+      section_index: 1
+      conversation_index: 10
+      fingerprint: 7a6f4c6f7b892913
+    source:
+      modern:
+      - de: Nun denn noch dies \emph{eine} Mal und nicht weiter!
+        ja: ではこれ\emph{一度}だけですよ、もうこれきりです！
+      grc:
+      - τοῖτό νυν καὶ μηκέτ' ἄλλο μηδέν.
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: Nun denn noch dies \emph{eine} Mal und nicht weiter!
+        ja_current: ではこれ\emph{一度}だけですよ、もうこれきりです！
+        ja_proposed: ではこれ\emph{一度}だけですよ、もうこれきりです！
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations: []
+    textual_issues: []
+    review_comments: []
+    status: unreviewed
+  - id: d-01-011
+    source_locator:
+      file: part-d.yaml
+      section_index: 1
+      conversation_index: 11
+      fingerprint: e245a8d2b95a6554
+    source:
+      modern:
+      - de: Das ist eine Lust, mit Ihnen zu tanzen!
+        ja: あなたと踊るのは本当に楽しいですね！
+      grc:
+      - ὡς ἡδὺ μετὰ σοῦ ὀρχεῖσθαι!
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: Das ist eine Lust, mit Ihnen zu tanzen!
+        ja_current: あなたと踊るのは本当に楽しいですね！
+        ja_proposed: あなたと踊るのは本当に楽しいですね！
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations: []
+    textual_issues: []
+    review_comments: []
+    status: unreviewed
+  - id: d-01-012
+    source_locator:
+      file: part-d.yaml
+      section_index: 1
+      conversation_index: 12
+      fingerprint: 1897cc9bd61804bb
+    source:
+      modern:
+      - de: Wer ist eigentlich der Herr dort, der hierher sieht? der an der Thür steht?
+        ja: あそこでこちらを見ている紳士は誰ですか？ドアのところにいる\ruby{方}{かた}です。
+      grc:
+      - τίς ποθ' ὅδεὁ δεῦρο βλέπων; \emph{ὁ ἐπὶ} ταῖς θύραις;
+    dialogue:
+      speaker:
+        candidate: guest-a
+        confidence: medium
+      addressee:
+        candidate: guest-b
+        confidence: medium
+      speech_act: identify-person
+      tone:
+      - curious
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: Wer ist eigentlich der Herr dort, der hierher sieht? der an der Thür steht?
+        ja_current: あそこでこちらを見ている紳士は誰ですか？ドアのところにいる\ruby{方}{かた}です。
+        ja_proposed: あそこでこちらを見ている紳士はどなたですか。扉のところに立っている方です。
+        decision: revise
+        rationale: >
+          The second German fragment clarifies which man is meant. Japanese can state that clarification
+          naturally; the current wording is acceptable in force but should use 扉 consistently with the scene.
+        alternatives: []
+      register: polite-social
+      scene_dependency: guest-a points out the observing man; d-01-013 identifies him as guest-b's husband
+    attestations: []
+    textual_issues: []
+    review_comments: []
+    status: ja-proposed
+  - id: d-01-013
+    source_locator:
+      file: part-d.yaml
+      section_index: 1
+      conversation_index: 13
+      fingerprint: fa3ac0a91f20c040
+    source:
+      modern:
+      - de: Es ist mein Mann.
+        ja: 私の夫です。
+      grc:
+      - ἐστὶν οὑμὸς ἀνήρ.
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: Es ist mein Mann.
+        ja_current: 私の夫です。
+        ja_proposed: 私の夫です。
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations: []
+    textual_issues: []
+    review_comments: []
+    status: unreviewed
+  - id: d-01-014
+    source_locator:
+      file: part-d.yaml
+      section_index: 1
+      conversation_index: 14
+      fingerprint: 347eacaaf79d63bf
+    source:
+      modern:
+      - de: Warum macht er ein so verdrießliches Gesicht?
+        ja: なぜあんな不機嫌そうな顔をしているのですか？
+      grc:
+      - τί σκυθρωπάζει;
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: Warum macht er ein so verdrießliches Gesicht?
+        ja_current: なぜあんな不機嫌そうな顔をしているのですか？
+        ja_proposed: なぜあんな不機嫌そうな顔をしているのですか？
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations: []
+    textual_issues: []
+    review_comments: []
+    status: unreviewed
+  - id: d-01-015
+    source_locator:
+      file: part-d.yaml
+      section_index: 1
+      conversation_index: 15
+      fingerprint: f44fa87d89b7252a
+    source:
+      modern:
+      - de: Er ist sehr eifersüchtig.
+        ja: とてもやきもち焼きなんです。
+      grc:
+      - σφόδρα ζηλότυπός ἐστιν.
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: Er ist sehr eifersüchtig.
+        ja_current: とてもやきもち焼きなんです。
+        ja_proposed: とてもやきもち焼きなんです。
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations: []
+    textual_issues: []
+    review_comments: []
+    status: unreviewed
+  - id: d-01-016
+    source_locator:
+      file: part-d.yaml
+      section_index: 1
+      conversation_index: 16
+      fingerprint: 6a7c956ea642f741
+    source:
+      modern:
+      - de: Wir wollen gar nicht thun, als sähen wir ihn.
+        ja: 見えていないふりをしていましょう。
+      grc:
+      - μὴ ὁρᾶν δοκῶμεν αὐτόν.
+    dialogue:
+      speaker:
+        candidate: guest-a
+        confidence: medium
+      addressee:
+        candidate: guest-b
+        confidence: medium
+      speech_act: propose-pretense
+      tone:
+      - conspiratorial
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: >
+        μὴ ὁρᾶν is the content of δοκῶμεν: “let us appear not to see him.” The first-person plural
+        subjunctive is hortatory.
+      literal_gloss: 彼を見ていないように見せかけよう。
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: Wir wollen gar nicht thun, als sähen wir ihn.
+        ja_current: 見えていないふりをしていましょう。
+        ja_proposed: 彼には気づいていないふりをしましょう。
+        decision: revise
+        rationale: >
+          「見えていない」suggests a failure of vision. The intended social pretense is not acknowledging
+          or noticing the husband.
+        alternatives: []
+      register: polite-conspiratorial
+      scene_dependency: follows identification of the jealous husband
+    attestations: []
+    textual_issues: []
+    review_comments: []
+    status: ja-proposed
+  - id: d-01-017
+    source_locator:
+      file: part-d.yaml
+      section_index: 1
+      conversation_index: 17
+      fingerprint: 0bc1aa3e55abdfd1
+    source:
+      modern:
+      - de: Ich werde mich hüten!
+        ja: 気をつけます！
+      grc:
+      - 'φυλάξομαι\footnote{\textlatin{%
+
+        orig. \textgreek{φυλάξομαί}}%
+
+        }!'
+    dialogue:
+      speaker:
+        candidate: guest-b
+        confidence: medium
+      addressee:
+        candidate: guest-a
+        confidence: medium
+      speech_act: reject-proposal
+      tone:
+      - wary
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: >
+        φυλάξομαι is future middle, literally “I shall guard myself / be on my guard.” German
+        ich werde mich hüten can likewise be literal, but idiomatically often means “I certainly
+        will not do that.”
+      literal_gloss: 用心します／そんなことはしません。
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: Ich werde mich hüten!
+        ja_current: 気をつけます！
+        ja_proposed: そんなことはしませんよ。
+        decision: revise
+        rationale: >
+          As a response to pretending not to notice the jealous husband, German ich werde mich hüten
+          is an emphatic refusal, not a promise merely to “be careful.”
+        alternatives: []
+      register: polite-but-emphatic
+      scene_dependency: rejects d-01-016 because the speaker does not trust men
+    attestations: []
+    textual_issues: []
+    review_comments: []
+    status: ja-proposed
+  - id: d-01-018
+    source_locator:
+      file: part-d.yaml
+      section_index: 1
+      conversation_index: 18
+      fingerprint: 68aae36dc16b8c3a
+    source:
+      modern:
+      - de: Den Männern ist ja nicht zu trauen!
+        ja: 男の人は信用できませんからね！
+      grc:
+      - οὐδὲν γὰρ πιστὸν τοῖς ἀνδράσιν.
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: Den Männern ist ja nicht zu trauen!
+        ja_current: 男の人は信用できませんからね！
+        ja_proposed: 男の人は信用できませんからね！
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations: []
+    textual_issues: []
+    review_comments: []
+    status: unreviewed
+  - id: d-01-019
+    source_locator:
+      file: part-d.yaml
+      section_index: 1
+      conversation_index: 19
+      fingerprint: e93fcbe97a13cb0e
+    source:
+      modern:
+      - de: Sie ist erst 3 Monate verheirathet.
+        ja: 彼女は結婚してまだ三か月です。
+      grc:
+      - νύμφη ἐστὶ τρεῖς μῆνας.
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: Sie ist erst 3 Monate verheirathet.
+        ja_current: 彼女は結婚してまだ三か月です。
+        ja_proposed: 彼女は結婚してまだ三か月です。
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations: []
+    textual_issues: []
+    review_comments: []
+    status: unreviewed
+  - id: d-01-020
+    source_locator:
+      file: part-d.yaml
+      section_index: 1
+      conversation_index: 20
+      fingerprint: dd6ba1d6fc03b713
+    source:
+      modern:
+      - de: Der Tanzlehrer.
+        ja: ダンスの先生。
+      grc:
+      - ὁ ὀρχηστοδιδάσκαλος.
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: Der Tanzlehrer.
+        ja_current: ダンスの先生。
+        ja_proposed: ダンスの先生。
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations: []
+    textual_issues: []
+    review_comments: []
+    status: unreviewed
+  - id: d-01-021
+    source_locator:
+      file: part-d.yaml
+      section_index: 1
+      conversation_index: 21
+      fingerprint: bba1d6d3927a213b
+    source:
+      modern:
+      - de: In die Tanzstunde.
+        ja: ダンスの授業へ。
+      grc:
+      - εἰς τὸ ὀρχηστοδιδασκαλεῖον.
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: In die Tanzstunde.
+        ja_current: ダンスの授業へ。
+        ja_proposed: ダンスの授業へ。
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations: []
+    textual_issues: []
+    review_comments: []
+    status: unreviewed
+- id: d-02
+  title:
+    de: Eine Geschichte
+    ja: とある話
+  scene_type: mixed
+  setting:
+    situation: one guest tells a story to another
+  cast:
+  - id: storyteller
+    description: null
+    evidence: null
+    confidence: candidate
+  - id: listener
+    description: null
+    evidence: null
+    confidence: candidate
+  reconstruction:
+    confidence: medium
+    note: >
+      Entries 1-2 form a plausible opening exchange, but the rest shift among reactions, accusations,
+      reported speech, and model vocabulary. They should not all be assigned to one continuous story.
+  entries:
+  - id: d-02-001
+    source_locator:
+      file: part-d.yaml
+      section_index: 2
+      conversation_index: 1
+      fingerprint: d002e8aa5529cba8
+    source:
+      modern:
+      - de: Hören Sie einmal zu, gnädige Frau, ich will Ihnen eine hübsche Geschichte erzählen.
+        ja: 奥様、ちょっとお聞きください、面白い話をいたしましょう。
+      grc:
+      - ἄκουσον, ὦ γύναι, λόγον σοι βούλομαι λέξαι χαρίεντα.
+    dialogue:
+      speaker:
+        candidate: storyteller
+        confidence: high
+      addressee:
+        candidate: listener
+        confidence: high
+      speech_act: announce-story
+      tone:
+      - courteous
+      - engaging
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: >
+        ἄκουσον is an aorist imperative opening the appeal; ὦ γύναι is direct address. λόγον
+        χαρίεντα is the object of λέξαι, while σοι is the beneficiary/addressee and βούλομαι
+        governs the infinitive.
+      literal_gloss: お聞きください、奥さん。あなたに面白い話をしたい。
+      particles_and_idioms:
+      - form: λόγος χαρίεις
+        function: an amusing, witty, or pleasing tale rather than merely a “pretty” story
+      pragmatic_force: requests attention and promises an entertaining story
+    translation:
+      variants:
+      - de: Hören Sie einmal zu, gnädige Frau, ich will Ihnen eine hübsche Geschichte erzählen.
+        ja_current: 奥様、ちょっとお聞きください、面白い話をいたしましょう。
+        ja_proposed: 奥様、ちょっとお聞きください。面白い話をひとついたしましょう。
+        decision: revise
+        rationale: >
+          The sentence is a conversational opening. Separating the appeal from the announcement gives
+          it a more natural Japanese rhythm.
+        alternatives: []
+      register: courteous-social
+      scene_dependency: opening turn addressed to a woman
+    attestations:
+    - target: ἄκουσον, ὦ γύναι, λόγον σοι βούλομαι λέξαι χαρίεντα.
+      status: source-context-checked
+      match_type: exact
+      reference_as_given: null
+      source:
+        author: Aristophanes
+        work: Wasps
+        passage: '1399'
+        local_file: /home/mrty/Documents/Perseus/Classics/Aristophanes/opensource/aristoph.wasps_gk.xml
+      text_grc: ἄκουσον, ὦ γύναι, λόγον σοι βούλομαι λέξαι χαρίεντα.
+      original_speakers:
+      - Φιλοκλεων
+      original_speaker_beta: '*filokle/wn'
+      original_scene: >
+        Wasps 1399-1400. The drunken Philocleon addresses a bread-seller whose wares he has damaged.
+        Hoping to settle the dispute with witty talk, he offers to tell her an amusing Aesopic story;
+        she immediately refuses to listen.
+      beta_context: murtias ths agkuliwnos qugateros kai swstraths outw diafqeiras emou ta fortia filoklewn
+        akouson w gunai logon soi boulomai lecai xarienta artopwlis ma dia mh moi g w mele filoklewn aiswpon
+        apo deipnou
+      relationship_to_handbook: >
+        Verbatim wording. The handbook neutralizes a comic attempt to placate an angry tradeswoman
+        into a polite social invitation to hear a story.
+      adaptations:
+      - original conflict and the speaker's drunken state omitted
+      - gnädige Frau raises the social register beyond the original ὦ γύναι
+      confidence: high
+      research_method: exact normalized token search
+    textual_issues: []
+    review_comments: []
+    status: ja-proposed
+  - id: d-02-002
+    source_locator:
+      file: part-d.yaml
+      section_index: 2
+      conversation_index: 2
+      fingerprint: 516e4227a6098f37
+    source:
+      modern:
+      - de: Nur zu, erzählen Sie!
+        ja: さあ、話してください！
+      grc:
+      - 'ἴθι\footnote{\textlatin{%
+
+        orig. \textgreek{ιθι}}%
+
+        } δὴ, λέξον.'
+    dialogue:
+      speaker:
+        candidate: listener
+        confidence: high
+      addressee:
+        candidate: storyteller
+        confidence: high
+      speech_act: encourage-continuation
+      tone:
+      - receptive
+      responds_to: d-02-001
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: >
+        ἴθι is literally an imperative of εἶμι, “go on/come now,” used as a conversational
+        encouragement. δή adds immediacy; λέξον is an aorist imperative, “tell.”
+      literal_gloss: さあ、それでは話してください。
+      particles_and_idioms:
+      - form: ἴθι δή
+        function: urges the interlocutor to proceed
+      pragmatic_force: gives the storyteller the floor
+    translation:
+      variants:
+      - de: Nur zu, erzählen Sie!
+        ja_current: さあ、話してください！
+        ja_proposed: では、どうぞお話しください。
+        decision: revise
+        rationale: >
+          As the reply to a polite offer, 「どうぞ」better conveys permission and encouragement than
+          an abrupt 「さあ」.
+        alternatives: []
+      register: courteous-social
+      scene_dependency: response to d-02-001
+    attestations:
+    - target: 'ἴθι\footnote{\textlatin{%
+
+        orig. \textgreek{ιθι}}%
+
+        } δὴ, λέξον.'
+      status: source-context-checked
+      match_type: adapted
+      reference_as_given: null
+      source:
+        author: Xenophon
+        work: xen.cyrop_gk
+        passage: '33'
+        local_file: /home/mrty/Documents/Perseus/Classics/Xenophon/opensource/xen.cyrop_gk.xml
+      text_grc: 'ἴθι\footnote{\textlatin{%
+
+        orig. \textgreek{ιθι}}%
+
+        } δὴ, λέξον.'
+      original_speakers: []
+      original_speaker_beta: null
+      original_scene: >
+        Cyropaedia 3.1.33. Cyrus tells the Armenian king to state the size of his military force
+        and then his financial resources.
+      beta_context: an boulh feresqai kai oposa an boulh katalipein kai o kuros eipen iqi dh lecon moi
+        posh soi dunamis esti lecon de kai posa xrhmata entauqa dh
+      relationship_to_handbook: >
+        The source has ἴθι δὴ λέξον μοι “come then, tell me ...” followed by explicit questions.
+        The handbook extracts the urging formula, drops μοι and the complements, and applies it to storytelling.
+      adaptations:
+      - μοι and the following questions omitted
+      - military questioning recast as encouragement to tell a story
+      confidence: high
+      research_method: exact normalized token search
+    - target: 'ἴθι\footnote{\textlatin{%
+
+        orig. \textgreek{ιθι}}%
+
+        } δὴ, λέξον.'
+      status: source-context-checked
+      match_type: adapted
+      reference_as_given: null
+      source:
+        author: Xenophon
+        work: xen.mem_gk
+        passage: '3'
+        local_file: /home/mrty/Documents/Perseus/Classics/Xenophon/opensource/xen.mem_gk.xml
+      text_grc: 'ἴθι\footnote{\textlatin{%
+
+        orig. \textgreek{ιθι}}%
+
+        } δὴ, λέξον.'
+      original_speakers: []
+      original_speaker_beta: null
+      original_scene: >
+        Memorabilia 3.3.3. Socrates asks a newly elected cavalry commander how he intends to improve
+        the horses under his command.
+      beta_context: ef hs hrhsai ippwn te kai ambatwn estin esti gar oun efh iqi dh lecon hmin touto prwton
+        opws dianoh tous ippous beltious poihsai kai os alla
+      relationship_to_handbook: >
+        The source has ἴθι δὴ λέξον ἡμῖν τοῦτο πρῶτον. The handbook again extracts the general
+        “come, tell” formula and removes the dative and question.
+      adaptations:
+      - ἡμῖν τοῦτο πρῶτον and the following question omitted
+      - Socratic examination recast as encouragement to narrate
+      confidence: high
+      research_method: exact normalized token search
+    textual_issues: []
+    review_comments: []
+    status: ja-proposed
+  - id: d-02-003
+    source_locator:
+      file: part-d.yaml
+      section_index: 2
+      conversation_index: 3
+      fingerprint: 76239f501c07fc16
+    source:
+      modern:
+      - de: Ist das wahr?
+        ja: 本当ですか。
+      grc:
+      - τί λέγεις;
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: Ist das wahr?
+        ja_current: 本当ですか。
+        ja_proposed: 本当ですか。
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations: []
+    textual_issues: []
+    review_comments: []
+    status: unreviewed
+  - id: d-02-004
+    source_locator:
+      file: part-d.yaml
+      section_index: 2
+      conversation_index: 4
+      fingerprint: c7f2e08290095962
+    source:
+      modern:
+      - de: Sie wundern sich?
+        ja: 驚きましたか？
+      grc:
+      - ἐθαύ\textit{μασας;}
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: Sie wundern sich?
+        ja_current: 驚きましたか？
+        ja_proposed: 驚きましたか？
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations: []
+    textual_issues: []
+    review_comments: []
+    status: unreviewed
+  - id: d-02-005
+    source_locator:
+      file: part-d.yaml
+      section_index: 2
+      conversation_index: 5
+      fingerprint: 8fd0c7b5440d4a53
+    source:
+      modern:
+      - de: Sie erzählen mir (erfundene) Geschichten!
+        ja: 作り話をしているのですね！
+      grc:
+      - μύθους μοι λέγεις!
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: Sie erzählen mir (erfundene) Geschichten!
+        ja_current: 作り話をしているのですね！
+        ja_proposed: 作り話をしているのですね！
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations: []
+    textual_issues: []
+    review_comments: []
+    status: unreviewed
+  - id: d-02-006
+    source_locator:
+      file: part-d.yaml
+      section_index: 2
+      conversation_index: 6
+      fingerprint: 6f00793398acc01e
+    source:
+      modern:
+      - de: Die Wahrheit wollen Sie doch nicht sagen!
+        ja: 本当のことを言いたくないのですね！
+      grc:
+      - τἀληθὲς γὰρ οὐκ ἐθέλεις φράσαι.
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: Die Wahrheit wollen Sie doch nicht sagen!
+        ja_current: 本当のことを言いたくないのですね！
+        ja_proposed: 本当のことを言いたくないのですね！
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations: []
+    textual_issues: []
+    review_comments: []
+    status: unreviewed
+  - id: d-02-007
+    source_locator:
+      file: part-d.yaml
+      section_index: 2
+      conversation_index: 7
+      fingerprint: 4b0b4e9d0479fdbd
+    source:
+      modern:
+      - de: Wenn Sie wirklich die Wahrheit sprechen, so weiß ich nicht was ich sagen soll.
+        ja: もし貴方が本当のことを言っているなら、私は何と言えばいいか分かりません。
+      grc:
+      - 'εἴπερ ὄντως σὺ\footnote{\textlatin{%
+
+        orig. \textgreek{συ}}%
+
+        } ταῦτ'' ἀληθῆ λέγεις, οὐδὲν ἔχω εἰπεῖν.'
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: Wenn Sie wirklich die Wahrheit sprechen, so weiß ich nicht was ich sagen soll.
+        ja_current: もし貴方が本当のことを言っているなら、私は何と言えばいいか分かりません。
+        ja_proposed: もし貴方が本当のことを言っているなら、私は何と言えばいいか分かりません。
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations: []
+    textual_issues: []
+    review_comments: []
+    status: unreviewed
+  - id: d-02-008
+    source_locator:
+      file: part-d.yaml
+      section_index: 2
+      conversation_index: 8
+      fingerprint: 14caa349f999ff97
+    source:
+      modern:
+      - de: Nach dem, was Sie sagen, muß man sie bewundern.
+        ja: あなたの言によれば、彼女は賞賛されるべきですね。
+      grc:
+      - κατὰ τὸν λόγον, ὃν σὺ λέγεις, ἀξία ἐστὶ θαυμάσαι.
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: Nach dem, was Sie sagen, muß man sie bewundern.
+        ja_current: あなたの言によれば、彼女は賞賛されるべきですね。
+        ja_proposed: あなたの言によれば、彼女は賞賛されるべきですね。
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations: []
+    textual_issues: []
+    review_comments: []
+    status: unreviewed
+  - id: d-02-009
+    source_locator:
+      file: part-d.yaml
+      section_index: 2
+      conversation_index: 9
+      fingerprint: 014ac8d18c68babe
+    source:
+      modern:
+      - de: Reden Sie mit ihr \emph{von} der Sache!
+        ja: その件については彼女に話をしてください！
+      grc:
+      - λέγ' αὐτῇ τὸ πρᾶγμα.
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: Reden Sie mit ihr \emph{von} der Sache!
+        ja_current: その件については彼女に話をしてください！
+        ja_proposed: その件については彼女に話をしてください！
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations: []
+    textual_issues: []
+    review_comments: []
+    status: unreviewed
+  - id: d-02-010
+    source_locator:
+      file: part-d.yaml
+      section_index: 2
+      conversation_index: 10
+      fingerprint: 30f54785cc27d0b2
+    source:
+      modern:
+      - de: Sagen = angeben.
+        ja: 伝える＝述べる。
+      grc:
+      - φράζειν.
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: Sagen = angeben.
+        ja_current: 伝える＝述べる。
+        ja_proposed: 伝える＝述べる。
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations: []
+    textual_issues: []
+    review_comments: []
+    status: unreviewed
+  - id: d-02-011
+    source_locator:
+      file: part-d.yaml
+      section_index: 2
+      conversation_index: 11
+      fingerprint: 7111849c752592af
+    source:
+      modern:
+      - de: Was hat sie darauf erwidert?
+        ja: それについて彼女は何と答えましましたか。
+      grc:
+      - τί πρὸς ταῦτα εἶπεν;
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: Was hat sie darauf erwidert?
+        ja_current: それについて彼女は何と答えましましたか。
+        ja_proposed: それについて彼女は何と答えましましたか。
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations: []
+    textual_issues: []
+    review_comments: []
+    status: unreviewed
+  - id: d-02-012
+    source_locator:
+      file: part-d.yaml
+      section_index: 2
+      conversation_index: 12
+      fingerprint: f3290febb3f83e83
+    source:
+      modern:
+      - de: Sie macht Aus\textcompwordmark{}flüchte.
+        ja: 彼女は言い訳をします。
+      grc:
+      - προφασίζεσται.
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: Sie macht Aus\textcompwordmark{}flüchte.
+        ja_current: 彼女は言い訳をします。
+        ja_proposed: 彼女は言い訳をします。
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations: []
+    textual_issues: []
+    review_comments: []
+    status: unreviewed
+  - id: d-02-013
+    source_locator:
+      file: part-d.yaml
+      section_index: 2
+      conversation_index: 13
+      fingerprint: c9b80d098d9dce81
+    source:
+      modern:
+      - de: Ich will euch ein Märchen erzählen nämlich —
+        ja: ではおとぎ話を聞かせましょう、——
+      grc:
+      - 'μῦθον ὑμῖν βούλομαι λέξαι οὕτως\footnote{\textlatin{%
+
+        orig. \textgreek{ουτως}}%
+
+        }.'
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: Ich will euch ein Märchen erzählen nämlich —
+        ja_current: ではおとぎ話を聞かせましょう、——
+        ja_proposed: ではおとぎ話を聞かせましょう、——
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations: []
+    textual_issues: []
+    review_comments: []
+    status: unreviewed
+- id: d-03
+  title:
+    de: Ich weiß nicht
+    ja: 知らない
+  scene_type: phrase_inventory
+  setting:
+    situation: social conversation about uncertainty and knowledge
+  cast:
+  - id: speaker
+    description: null
+    evidence: null
+    confidence: candidate
+  - id: interlocutor
+    description: null
+    evidence: null
+    confidence: candidate
+  reconstruction:
+    confidence: unreviewed
+    note: Ordering may combine a continuous exchange with reusable model phrases; turn continuity must
+      be justified entry by entry.
+  entries:
+  - id: d-03-001
+    source_locator:
+      file: part-d.yaml
+      section_index: 3
+      conversation_index: 1
+      fingerprint: 0a6a8768bf5e5577
+    source:
+      modern:
+      - de: Ich weiß es nicht.
+        ja: それは知りません。
+      grc:
+      - οὐκ οἶδα.
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: Ich weiß es nicht.
+        ja_current: それは知りません。
+        ja_proposed: それは知りません。
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations: []
+    textual_issues: []
+    review_comments: []
+    status: unreviewed
+  - id: d-03-002
+    source_locator:
+      file: part-d.yaml
+      section_index: 3
+      conversation_index: 2
+      fingerprint: 0fb616ea5ad15ebd
+    source:
+      modern:
+      - de: Ich kann es nicht sagen.
+        ja: それは言えません。
+      grc:
+      - οὐκ ἔχω φράσαι.
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: Ich kann es nicht sagen.
+        ja_current: それは言えません。
+        ja_proposed: それは言えません。
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations: []
+    textual_issues: []
+    review_comments: []
+    status: unreviewed
+  - id: d-03-003
+    source_locator:
+      file: part-d.yaml
+      section_index: 3
+      conversation_index: 3
+      fingerprint: a6e83b77ab8ad8ef
+    source:
+      modern:
+      - de: Worauf soll man rathen?
+        ja: どういう帰結があるうるのでしょうか。
+      grc:
+      - ποῖ τις ἂν τράποιτο;
+    dialogue:
+      speaker:
+        candidate: speaker
+        confidence: high
+      addressee:
+        candidate: interlocutor
+        confidence: high
+      speech_act: express-bafflement
+      tone:
+      - uncertain
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: >
+        ποῖ is a directional interrogative, “where/to what point”; τις is generic “one”; the
+        optative τράποιτο with ἄν expresses potentiality, “where could one turn?”
+      literal_gloss: いったい、どちらへ向けばよいのだろう。
+      particles_and_idioms:
+      - form: ποῖ τις ἂν τράποιτο;
+        function: expresses being at a loss about what explanation or course remains
+      pragmatic_force: asks what conclusion or explanation is still available
+    translation:
+      variants:
+      - de: Worauf soll man rathen?
+        ja_current: どういう帰結があるうるのでしょうか。
+        ja_proposed: いったい何と見当をつければよいのでしょう。
+        decision: revise
+        rationale: >
+          The current 「あるうる」is erroneous, and 「帰結」is too abstract. German rathen and the
+          Greek metaphor both concern finding a plausible explanation when one is at a loss.
+        alternatives: []
+      register: neutral-conversational
+      scene_dependency: reusable phrase; no fixed scene role beyond speaker and interlocutor
+    attestations:
+    - target: ποῖ τις ἂν τράποιτο;
+      status: source-context-checked
+      match_type: exact
+      reference_as_given: null
+      source:
+        author: Aristophanes
+        work: Plutus
+        passage: '374'
+        local_file: /home/mrty/Documents/Perseus/Classics/Aristophanes/opensource/aristoph.pl_gk.xml
+      text_grc: ποῖ τις ἂν τράποιτο;
+      original_speakers:
+      - Βλεψιδημος
+      original_speaker_beta: '*bleyi/dhmos'
+      original_scene: >
+        Plutus 374. Blepsidemus has repeatedly guessed that Chremylus committed theft or robbery.
+        When Chremylus rejects those guesses but still refuses to tell the truth, Blepsidemus asks
+        in exasperation where else one could turn.
+      beta_context: mhn apesterhkas g oudena xremulos ou dht egwg bleyidhmos w hrakleis fere poi tis an
+        trapoito talhqes gar ouk eqelei frasai xremulos kathgoreis gar prin maqein to pragma
+      relationship_to_handbook: >
+        Verbatim rhetorical question. The handbook correctly generalizes the original metaphorical
+        “where could one turn?” as not knowing what to guess or conclude.
+      adaptations:
+      - original suspicion of theft omitted
+      confidence: high
+      research_method: exact normalized token search
+    textual_issues: []
+    review_comments: []
+    status: ja-proposed
+  - id: d-03-004
+    source_locator:
+      file: part-d.yaml
+      section_index: 3
+      conversation_index: 4
+      fingerprint: 2cfd764985db75d8
+    source:
+      modern:
+      - de: Ich will es schon heraus\textcompwordmark{}bekommen.
+        ja: きっと突き止めてみせます。
+      grc:
+      - γνώσομαι ἔγωγε.
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: Ich will es schon heraus\textcompwordmark{}bekommen.
+        ja_current: きっと突き止めてみせます。
+        ja_proposed: きっと突き止めてみせます。
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations: []
+    textual_issues: []
+    review_comments: []
+    status: unreviewed
+  - id: d-03-005
+    source_locator:
+      file: part-d.yaml
+      section_index: 3
+      conversation_index: 5
+      fingerprint: 90651df81c3c4117
+    source:
+      modern:
+      - de: Ich weiß es nicht genau.
+        ja: 正確には知りません。
+      grc:
+      - οὐκ οἶδ' ἀκριβῶς.
+    dialogue:
+      speaker:
+        candidate: speaker
+        confidence: high
+      addressee:
+        candidate: interlocutor
+        confidence: high
+      speech_act: qualify-knowledge
+      tone:
+      - cautious
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: >
+        οὐ negates οἶδα; ἀκριβῶς is an adverb, “exactly/precisely.” The object is omitted in the
+        handbook phrase and supplied by context.
+      literal_gloss: 正確には知りません。
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: Ich weiß es nicht genau.
+        ja_current: 正確には知りません。
+        ja_proposed: 正確には知りません。
+        decision: retain
+        rationale: The current Japanese closely matches both German and the extracted Greek formula.
+        alternatives: []
+      register: neutral-conversational
+      scene_dependency: object of knowledge must be supplied by context
+    attestations:
+    - target: οὐκ οἶδ' ἀκριβῶς.
+      status: source-context-checked
+      match_type: adapted
+      reference_as_given: null
+      source:
+        author: Aristophanes
+        work: Clouds
+        passage: '100'
+        local_file: /home/mrty/Documents/Perseus/Classics/Aristophanes/opensource/aristoph.cl_gk.xml
+      text_grc: οὐκ οἶδ' ἀκριβῶς.
+      original_speakers:
+      - Στρεψιαδης
+      original_speaker_beta: '*streyia/dhs'
+      original_scene: >
+        Clouds 100-101. Pheidippides asks who the men in the Thinkery are. Strepsiades answers,
+        “I do not know the name exactly,” and then characterizes them.
+      beta_context: tis didw legonta nikan kai dikaia kadika feidippidhs eisin de tines streyiadhs ouk
+        oid akribws tounoma merimnofrontistai kaloi te kagaqoi feidippidhs aiboi ponhroi g oida tous alazonas
+      relationship_to_handbook: >
+        The handbook extracts οὐκ οἶδ’ ἀκριβῶς from οὐκ οἶδ’ ἀκριβῶς τοὔνομα,
+        omitting the specific object “the name.”
+      adaptations:
+      - τοὔνομα omitted to make the phrase reusable
+      confidence: high
+      research_method: exact normalized token search
+    - target: οὐκ οἶδ' ἀκριβῶς.
+      status: source-context-checked
+      match_type: adapted
+      reference_as_given: null
+      source:
+        author: Euripides
+        work: Rhesus
+        passage: '285'
+        local_file: /home/mrty/Documents/Perseus/Classics/Euripides/opensource/eur.rh_gk.xml
+      text_grc: οὐκ οἶδ' ἀκριβῶς.
+      original_speakers:
+      - Αγγελος
+      original_speaker_beta: '*)/aggelos'
+      original_scene: >
+        Rhesus 285-286. Hector asks a messenger by which route the approaching force is travelling.
+        The messenger says he does not know precisely, though he can make an inference in the dark.
+      beta_context: kai pws pros idhs orgadas poreuetai plagxqeis plateias pediados q amacitou aggelos
+        ouk oid akribws eikasai ge mhn para nuktos gar outi faulon embalein straton kluonta plhrh
+      relationship_to_handbook: >
+        The handbook extracts the opening οὐκ οἶδ’ ἀκριβῶς and omits the messenger’s qualification
+        εἰκάσαι γε μήν.
+      adaptations:
+      - following statement of a tentative inference omitted
+      confidence: high
+      research_method: exact normalized token search
+    textual_issues: []
+    review_comments: []
+    status: ja-proposed
+  - id: d-03-006
+    source_locator:
+      file: part-d.yaml
+      section_index: 3
+      conversation_index: 6
+      fingerprint: 068383f0c283cd60
+    source:
+      modern:
+      - de: Nein, soviel ich weiß.
+        ja: 私が知る限りでは、否です。
+      grc:
+      - οὐχ, ὅσον γέ μ' εἰδέναι.
+    dialogue:
+      speaker:
+        candidate: speaker
+        confidence: high
+      addressee:
+        candidate: interlocutor
+        confidence: high
+      speech_act: qualified-denial
+      tone:
+      - guarded
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: >
+        οὐχ is an elliptical negative answer. ὅσον γε μ’ εἰδέναι is an accusative-of-respect-like
+        limiting formula, literally “as far as it is for me to know”; γε emphasizes the limitation.
+      literal_gloss: いや、少なくとも私の知るかぎりでは。
+      particles_and_idioms:
+      - form: ὅσον γε ἐμὲ εἰδέναι
+        function: limits a claim to the speaker's present knowledge
+      pragmatic_force: qualified denial, potentially evasive or ironic in context
+    translation:
+      variants:
+      - de: Nein, soviel ich weiß.
+        ja_current: 私が知る限りでは、否です。
+        ja_proposed: いや、少なくとも私の知るかぎりでは。
+        decision: revise
+        rationale: >
+          「否です」is stiff for a conversational answer. Fronting 「いや」preserves the elliptical
+          negative and 「少なくとも」reflects γε.
+        alternatives: []
+      register: neutral-conversational
+      scene_dependency: may become evasive or sarcastic depending on the preceding question
+    attestations:
+    - target: οὐχ, ὅσον γέ μ' εἰδέναι.
+      status: source-context-checked
+      match_type: exact
+      reference_as_given: null
+      source:
+        author: Aristophanes
+        work: Clouds
+        passage: '1252'
+        local_file: /home/mrty/Documents/Perseus/Classics/Aristophanes/opensource/aristoph.cl_gk.xml
+      text_grc: οὐχ, ὅσον γέ μ' εἰδέναι.
+      original_speakers:
+      - Στρεψιαδης
+      original_speaker_beta: '*streyia/dhs'
+      original_scene: >
+        Clouds 1252. The creditor Pasias asks Strepsiades whether he is therefore refusing repayment.
+        Strepsiades replies, “Not as far as I know,” then orders him away from the door.
+      beta_context: obolon oudeni ostis kaleseie kardopon thn kardophn pasias ouk ar apodwseis streyiadhs
+        oux oson ge m eidenai oukoun anusas ti qatton apolitargieis apo ths quras pasias apeimi kai tout
+      relationship_to_handbook: >
+        Verbatim reply. In the comedy it is deliberately evasive and insolent; the handbook presents
+        it as a general qualified “no.”
+      adaptations:
+      - comic debt dispute omitted
+      confidence: high
+      research_method: exact normalized token search
+    textual_issues: []
+    review_comments: []
+    status: ja-proposed
+  - id: d-03-007
+    source_locator:
+      file: part-d.yaml
+      section_index: 3
+      conversation_index: 7
+      fingerprint: 3b55b467b5a05c19
+    source:
+      modern:
+      - de: Ich weiß nicht sicher, wie es steht.
+        ja: どうなっているのか確かには知りません。
+      grc:
+      - οὐ σάφ' οἶδα, ὅπως ἔχει.
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: Ich weiß nicht sicher, wie es steht.
+        ja_current: どうなっているのか確かには知りません。
+        ja_proposed: どうなっているのか確かには知りません。
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations: []
+    textual_issues: []
+    review_comments: []
+    status: unreviewed
+  - id: d-03-008
+    source_locator:
+      file: part-d.yaml
+      section_index: 3
+      conversation_index: 8
+      fingerprint: 361ee531761ee456
+    source:
+      modern:
+      - de: Ich kann es nicht glauben.
+        ja: 信じられません。
+      grc:
+      - οὐ πείθομαι.
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: Ich kann es nicht glauben.
+        ja_current: 信じられません。
+        ja_proposed: 信じられません。
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations: []
+    textual_issues: []
+    review_comments: []
+    status: unreviewed
+  - id: d-03-009
+    source_locator:
+      file: part-d.yaml
+      section_index: 3
+      conversation_index: 9
+      fingerprint: c5fa246503bcc928
+    source:
+      modern:
+      - de: Ich weiß es ja.
+        ja: それは知っています。
+      grc:
+      - οἶδά τοι.
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: Ich weiß es ja.
+        ja_current: それは知っています。
+        ja_proposed: それは知っています。
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations: []
+    textual_issues: []
+    review_comments: []
+    status: unreviewed
+  - id: d-03-010
+    source_locator:
+      file: part-d.yaml
+      section_index: 3
+      conversation_index: 10
+      fingerprint: 6d6a59e657aadd70
+    source:
+      modern:
+      - de: Ist mir bekannt!
+        ja: 承知しています！
+      grc:
+      - μεμνήμεθα!
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: Ist mir bekannt!
+        ja_current: 承知しています！
+        ja_proposed: 承知しています！
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations: []
+    textual_issues: []
+    review_comments: []
+    status: unreviewed
+  - id: d-03-011
+    source_locator:
+      file: part-d.yaml
+      section_index: 3
+      conversation_index: 11
+      fingerprint: 088d30d59c75fc7f
+    source:
+      modern:
+      - de: Freilich weiß ich es!
+        ja: もちろん知っています！
+      grc:
+      - οἶδα μέντοι!
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: Freilich weiß ich es!
+        ja_current: もちろん知っています！
+        ja_proposed: もちろん知っています！
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations: []
+    textual_issues: []
+    review_comments: []
+    status: unreviewed
+  - id: d-03-012
+    source_locator:
+      file: part-d.yaml
+      section_index: 3
+      conversation_index: 12
+      fingerprint: 2af2bd16c0a55312
+    source:
+      modern:
+      - de: Da Sie es denn zu wissen verlangen, so will ich es sagen.
+        ja: 知りたいとおっしゃるならお話ししましょう。
+      grc:
+      - εἰ δὴ ἐπιθυμεῖς εἰδέναι, φράσω.
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: Da Sie es denn zu wissen verlangen, so will ich es sagen.
+        ja_current: 知りたいとおっしゃるならお話ししましょう。
+        ja_proposed: 知りたいとおっしゃるならお話ししましょう。
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations: []
+    textual_issues: []
+    review_comments: []
+    status: unreviewed
+  - id: d-03-013
+    source_locator:
+      file: part-d.yaml
+      section_index: 3
+      conversation_index: 13
+      fingerprint: fb5c8d9486ca6720
+    source:
+      modern:
+      - de: Wär's möglich?
+        ja: そんなまさか！
+      grc:
+      - τί φῄς\footnote{\textlatin{orig.} φής}!
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: Wär's möglich?
+        ja_current: そんなまさか！
+        ja_proposed: そんなまさか！
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations: []
+    textual_issues: []
+    review_comments: []
+    status: unreviewed
+  - id: d-03-014
+    source_locator:
+      file: part-d.yaml
+      section_index: 3
+      conversation_index: 14
+      fingerprint: 7e963df633dce051
+    source:
+      modern:
+      - de: Ich habe es aus bester Quelle.
+        ja: 確かな筋から聞きました。
+      grc:
+      - πέπυσμαι τοῦτο τῶν σάφ' εἰδότων.
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: Ich habe es aus bester Quelle.
+        ja_current: 確かな筋から聞きました。
+        ja_proposed: 確かな筋から聞きました。
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations: []
+    textual_issues: []
+    review_comments: []
+    status: unreviewed
+  - id: d-03-015
+    source_locator:
+      file: part-d.yaml
+      section_index: 3
+      conversation_index: 15
+      fingerprint: 82a9f05f978811fa
+    source:
+      modern:
+      - de: Haben Sie bereits etwas von der Sache gehört?
+        ja: この件についてもう何か聞きましたか。
+      grc:
+      - ἆρ' ἀκήκοάς τι τοῦ πράγματος;
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: Haben Sie bereits etwas von der Sache gehört?
+        ja_current: この件についてもう何か聞きましたか。
+        ja_proposed: この件についてもう何か聞きましたか。
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations: []
+    textual_issues: []
+    review_comments: []
+    status: unreviewed
+  - id: d-03-016
+    source_locator:
+      file: part-d.yaml
+      section_index: 3
+      conversation_index: 16
+      fingerprint: ef2a263bb2e95a7d
+    source:
+      modern:
+      - de: Das mußte ich (bis\textcompwordmark{}her noch) nicht.
+        ja: それはこれまで知りませんでした。
+      grc:
+      - τοῦτ' οὐκ ᾔδειν ἐγώ.
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: Das mußte ich (bis\textcompwordmark{}her noch) nicht.
+        ja_current: それはこれまで知りませんでした。
+        ja_proposed: それはこれまで知りませんでした。
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations: []
+    textual_issues: []
+    review_comments: []
+    status: unreviewed
+  - id: d-03-017
+    source_locator:
+      file: part-d.yaml
+      section_index: 3
+      conversation_index: 17
+      fingerprint: 3bd40a4dca991d44
+    source:
+      modern:
+      - de: \emph{O, dann begreife ich, daß} Sie verstimmt sind.
+        ja: \emph{なるほど}、ご機嫌ななめなのも\emph{ご尤もです}。
+      grc:
+      - \emph{οὐκ ἐτὸς ἄρα} λυπεῖ.
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: \emph{O, dann begreife ich, daß} Sie verstimmt sind.
+        ja_current: \emph{なるほど}、ご機嫌ななめなのも\emph{ご尤もです}。
+        ja_proposed: \emph{なるほど}、ご機嫌ななめなのも\emph{ご尤もです}。
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations: []
+    textual_issues: []
+    review_comments: []
+    status: unreviewed
+- id: d-04
+  title:
+    de: Die Schöne und die Häßliche
+    ja: 美人と醜女
+  scene_type: mixed
+  setting:
+    situation: guests comment on two women at a social gathering
+  cast:
+  - id: guest-a
+    description: null
+    evidence: null
+    confidence: candidate
+  - id: guest-b
+    description: null
+    evidence: null
+    confidence: candidate
+  - id: woman-a
+    description: null
+    evidence: null
+    confidence: candidate
+  - id: woman-b
+    description: null
+    evidence: null
+    confidence: candidate
+  reconstruction:
+    confidence: unreviewed
+    note: Ordering may combine a continuous exchange with reusable model phrases; turn continuity must
+      be justified entry by entry.
+  entries:
+  - id: d-04-001
+    source_locator:
+      file: part-d.yaml
+      section_index: 4
+      conversation_index: 1
+      fingerprint: 1fcbce2bc725221a
+    source:
+      modern:
+      - de: Sehen Sie die hier an, wie \emph{schön} sie ist!
+        ja: ここにいる彼女をご覧なさい、なんて\emph{綺麗}なんでしょう！
+      grc:
+      - ὅρα ταυτηνὶ, ὡς καλή!
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: Sehen Sie die hier an, wie \emph{schön} sie ist!
+        ja_current: ここにいる彼女をご覧なさい、なんて\emph{綺麗}なんでしょう！
+        ja_proposed: ここにいる彼女をご覧なさい、なんて\emph{綺麗}なんでしょう！
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations: []
+    textual_issues: []
+    review_comments: []
+    status: unreviewed
+  - id: d-04-002
+    source_locator:
+      file: part-d.yaml
+      section_index: 4
+      conversation_index: 2
+      fingerprint: b7aa72b054804ed7
+    source:
+      modern:
+      - de: Wer ist wohl dort die Dame?
+        ja: あちらのご婦人はどなたでしょう？
+      grc:
+      - τίς ποθ' αὑτηί;
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: Wer ist wohl dort die Dame?
+        ja_current: あちらのご婦人はどなたでしょう？
+        ja_proposed: あちらのご婦人はどなたでしょう？
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations: []
+    textual_issues: []
+    review_comments: []
+    status: unreviewed
+  - id: d-04-003
+    source_locator:
+      file: part-d.yaml
+      section_index: 4
+      conversation_index: 3
+      fingerprint: 967f5dda7b2e3643
+    source:
+      modern:
+      - de: Die in dem grauen Kleide?
+        ja: 灰色のドレスを着ている人ですか？
+      grc:
+      - ἡ τὸ φαιὸν ἔνδυμα ἀμπεχομένη;
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: Die in dem grauen Kleide?
+        ja_current: 灰色のドレスを着ている人ですか？
+        ja_proposed: 灰色のドレスを着ている人ですか？
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations: []
+    textual_issues: []
+    review_comments: []
+    status: unreviewed
+  - id: d-04-004
+    source_locator:
+      file: part-d.yaml
+      section_index: 4
+      conversation_index: 4
+      fingerprint: d4135b5d724db5fe
+    source:
+      modern:
+      - de: Sie ist die schönste (= blühendste) von allen.
+        ja: 彼女は皆の中でいちばん美しい（＝花盛り）です。
+      grc:
+      - πασῶν \emph{ὡραιοτάτη} ἐστίν.
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: Sie ist die schönste (= blühendste) von allen.
+        ja_current: 彼女は皆の中でいちばん美しい（＝花盛り）です。
+        ja_proposed: 彼女は皆の中でいちばん美しい（＝花盛り）です。
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations: []
+    textual_issues: []
+    review_comments: []
+    status: unreviewed
+  - id: d-04-005
+    source_locator:
+      file: part-d.yaml
+      section_index: 4
+      conversation_index: 5
+      fingerprint: ae57859b7025c702
+    source:
+      modern:
+      - de: Wer mag sie nur sein?
+        ja: いったい誰なのでしょう。
+      grc:
+      - τίς καί ἐστί ποτε;
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: Wer mag sie nur sein?
+        ja_current: いったい誰なのでしょう。
+        ja_proposed: いったい誰なのでしょう。
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations: []
+    textual_issues: []
+    review_comments: []
+    status: unreviewed
+  - id: d-04-006
+    source_locator:
+      file: part-d.yaml
+      section_index: 4
+      conversation_index: 6
+      fingerprint: cb5677194666782e
+    source:
+      modern:
+      - de: Kennt sie Jemand von Ihnen?
+        ja: どなたか彼女をご存じですか。
+      grc:
+      - \emph{γιγνώσκει} τις ὑμῶν;
+    dialogue:
+      speaker:
+        candidate: guest-a
+        confidence: high
+      addressee:
+        candidate: assembled-guests
+        confidence: high
+      speech_act: ask-for-identification
+      tone:
+      - curious
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: >
+        τις is the subject of γιγνώσκει and ὑμῶν a partitive genitive, “does anyone among you
+        recognize [the person]?” Greek leaves the object unexpressed and recoverable from the scene.
+      literal_gloss: あなたがたのうち、誰か知っていますか。
+      particles_and_idioms:
+      - form: τις ὑμῶν
+        function: anyone among a group of addressees
+      pragmatic_force: asks a group to identify a visible third person
+    translation:
+      variants:
+      - de: Kennt sie Jemand von Ihnen?
+        ja_current: どなたか彼女をご存じですか。
+        ja_proposed: どなたか彼女をご存じですか。
+        decision: retain
+        rationale: >
+          The feminine object comes from the handbook's German scene, not from the Greek words.
+          It is nevertheless necessary in natural Japanese.
+        alternatives: []
+      register: polite-social
+      scene_dependency: handbook context supplies a female referent; ancient context supplies a male referent
+    attestations:
+    - target: \emph{γιγνώσκει} τις ὑμῶν;
+      status: source-context-checked
+      match_type: exact
+      reference_as_given: null
+      source:
+        author: Aristophanes
+        work: Lysistrata
+        passage: '837'
+        local_file: /home/mrty/Documents/Perseus/Classics/Aristophanes/opensource/aristoph.lys_gk.xml
+      text_grc: \emph{γιγνώσκει} τις ὑμῶν;
+      original_speakers:
+      - Λυσιστρατη
+      original_speaker_beta: '*lusistra/th'
+      original_scene: >
+        Lysistrata 837. Lysistrata sees an erotically desperate man approaching and asks the assembled
+        women whether any of them recognizes him. Myrrhine identifies him as her husband Cinesias.
+      beta_context: xlohs gunh w nh di esti dhta tis kastin pote lusistrath orate gignwskei tis umwn murrinh
+        nh dia egwge kastin oumos anhr kinhsias lusistrath son ergon hdh
+      relationship_to_handbook: >
+        Verbatim, but the handbook German changes the understood object from the male Cinesias to
+        a woman being observed at a social gathering. Greek itself expresses no object or gender.
+      adaptations:
+      - implicit male referent changed to a female referent
+      - wartime sexual plot recast as polite social identification
+      confidence: high
+      research_method: exact normalized token search
+    textual_issues: []
+    review_comments: []
+    status: ja-proposed
+  - id: d-04-007
+    source_locator:
+      file: part-d.yaml
+      section_index: 4
+      conversation_index: 7
+      fingerprint: 7f3103e8d61dd539
+    source:
+      modern:
+      - de: Ja, ich.
+        ja: はい、私は（知っています）。
+      grc:
+      - νὴ Δία ἔγωγε.
+    dialogue:
+      speaker:
+        candidate: guest-b
+        confidence: high
+      addressee:
+        candidate: guest-a
+        confidence: high
+      speech_act: claim-recognition
+      tone:
+      - emphatic
+      responds_to: d-04-006
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: >
+        νὴ Δία is an affirmative oath, “yes, by Zeus”; ἔγωγε is emphatic “I, at any rate.”
+        The verb “recognize” is understood from the preceding question.
+      literal_gloss: ええ、ゼウスにかけて、私は知っています。
+      particles_and_idioms:
+      - form: ἔγωγε
+        function: emphatically selects the speaker, “I for one”
+      pragmatic_force: strong affirmative self-selection in answer to a group question
+    translation:
+      variants:
+      - de: Ja, ich.
+        ja_current: はい、私は（知っています）。
+        ja_proposed: ええ、私は知っています。
+        decision: revise
+        rationale: >
+          Parentheses make an ordinary spoken reply look metalinguistic. Japanese can restore the
+          understood verb directly; the oath need not be literal in this modern scene.
+        alternatives: []
+      register: polite-social
+      scene_dependency: direct reply to d-04-006
+    attestations:
+    - target: νὴ Δία ἔγωγε.
+      status: source-context-checked
+      match_type: exact
+      reference_as_given: null
+      source:
+        author: Aristophanes
+        work: Lysistrata
+        passage: '837'
+        local_file: /home/mrty/Documents/Perseus/Classics/Aristophanes/opensource/aristoph.lys_gk.xml
+      text_grc: νὴ Δία ἔγωγε.
+      original_speakers:
+      - Μυρρινη
+      original_speaker_beta: '*murri/nh'
+      original_scene: >
+        Lysistrata 837-839. Myrrhine answers Lysistrata’s question and immediately says that the man
+        is her husband Cinesias.
+      beta_context: di esti dhta tis kastin pote lusistrath orate gignwskei tis umwn murrinh nh dia egwge
+        kastin oumos anhr kinhsias lusistrath son ergon hdh touton optan kai strefein
+      relationship_to_handbook: >
+        Verbatim response and preserved adjacency with the preceding source line. The handbook changes
+        the identified person from Myrrhine’s husband to the speaker’s female cousin.
+      adaptations:
+      - original identification of husband Cinesias replaced by identification of a female cousin
+      confidence: high
+      research_method: exact normalized token search
+    textual_issues: []
+    review_comments: []
+    status: ja-proposed
+  - id: d-04-008
+    source_locator:
+      file: part-d.yaml
+      section_index: 4
+      conversation_index: 8
+      fingerprint: 43759ed23ba09c51
+    source:
+      modern:
+      - de: Es ist meine Cousine.
+        ja: 彼女は私の従姉（又は従妹）です。
+      grc:
+      - ἐστὶν ἀνεψιά μου.
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: Es ist meine Cousine.
+        ja_current: 彼女は私の従姉（又は従妹）です。
+        ja_proposed: 彼女は私の従姉（又は従妹）です。
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations: []
+    textual_issues: []
+    review_comments: []
+    status: unreviewed
+  - id: d-04-009
+    source_locator:
+      file: part-d.yaml
+      section_index: 4
+      conversation_index: 9
+      fingerprint: 4f5956ffa73097ed
+    source:
+      modern:
+      - de: Wie schön sie aus\textcompwordmark{}sieht!
+        ja: なんと美しい姿なのでしょう！
+      grc:
+      - οἷον τὸ κάλλος αὐτῆς φαίνεται!
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: Wie schön sie aus\textcompwordmark{}sieht!
+        ja_current: なんと美しい姿なのでしょう！
+        ja_proposed: なんと美しい姿なのでしょう！
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations: []
+    textual_issues: []
+    review_comments: []
+    status: unreviewed
+  - id: d-04-010
+    source_locator:
+      file: part-d.yaml
+      section_index: 4
+      conversation_index: 10
+      fingerprint: 89bec25eb63d76a6
+    source:
+      modern:
+      - de: Sie hat sehr gesunde Farbe.
+        ja: とても血色が良い。
+      grc:
+      - ὡς εὐχροεῖ!
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: Sie hat sehr gesunde Farbe.
+        ja_current: とても血色が良い。
+        ja_proposed: とても血色が良い。
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations: []
+    textual_issues: []
+    review_comments: []
+    status: unreviewed
+  - id: d-04-011
+    source_locator:
+      file: part-d.yaml
+      section_index: 4
+      conversation_index: 11
+      fingerprint: 4b2a8f1830e3c008
+    source:
+      modern:
+      - de: Sie hat ein sanftes, schönes Auge.
+        ja: 優しく美しい眼差しですね。
+      grc:
+      - καὶ τὸ βλέμμα ἔχει μαλακὸν καὶ καλόν.
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: Sie hat ein sanftes, schönes Auge.
+        ja_current: 優しく美しい眼差しですね。
+        ja_proposed: 優しく美しい眼差しですね。
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations: []
+    textual_issues: []
+    review_comments: []
+    status: unreviewed
+  - id: d-04-012
+    source_locator:
+      file: part-d.yaml
+      section_index: 4
+      conversation_index: 12
+      fingerprint: 928f94d9e6926b42
+    source:
+      modern:
+      - de: Und allerliebste Hände hat sie.
+        ja: それに本当に愛らしい手をしています。
+      grc:
+      - καὶ \emph{τὰς} χεῖρας παγκάλας ἔχει.
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: Und allerliebste Hände hat sie.
+        ja_current: それに本当に愛らしい手をしています。
+        ja_proposed: それに本当に愛らしい手をしています。
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations: []
+    textual_issues: []
+    review_comments: []
+    status: unreviewed
+  - id: d-04-013
+    source_locator:
+      file: part-d.yaml
+      section_index: 4
+      conversation_index: 13
+      fingerprint: 4b37a7f2136506ab
+    source:
+      modern:
+      - de: Sie lacht \emph{gern.}
+        ja: 彼女は\emph{よく}笑います。
+      grc:
+      - καὶ ἡδέως γελᾷ.
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: Sie lacht \emph{gern.}
+        ja_current: 彼女は\emph{よく}笑います。
+        ja_proposed: 彼女は\emph{よく}笑います。
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations: []
+    textual_issues: []
+    review_comments: []
+    status: unreviewed
+  - id: d-04-014
+    source_locator:
+      file: part-d.yaml
+      section_index: 4
+      conversation_index: 14
+      fingerprint: 54faf1e780fcd09a
+    source:
+      modern:
+      - de: Ich bin in das Mädchen (die Dame) verliebt.
+        ja: その娘（ご婦人）に恋をしています。
+      grc:
+      - ἔρως με εἴληφε τῆς κόρης ταύτης.
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: Ich bin in das Mädchen (die Dame) verliebt.
+        ja_current: その娘（ご婦人）に恋をしています。
+        ja_proposed: その娘（ご婦人）に恋をしています。
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations: []
+    textual_issues: []
+    review_comments: []
+    status: unreviewed
+  - id: d-04-015
+    source_locator:
+      file: part-d.yaml
+      section_index: 4
+      conversation_index: 15
+      fingerprint: 94f19b0ba6045630
+    source:
+      modern:
+      - de: Aber sie hat wohl nichts?
+        ja: でも、貧乏\footnote{結婚持参金も用意できなさそう}なのでは？
+      grc:
+      - ἀλλ' ἔχει οὐδέν;
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: Aber sie hat wohl nichts?
+        ja_current: でも、貧乏\footnote{結婚持参金も用意できなさそう}なのでは？
+        ja_proposed: でも、貧乏\footnote{結婚持参金も用意できなさそう}なのでは？
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations: []
+    textual_issues: []
+    review_comments: []
+    status: unreviewed
+  - id: d-04-016
+    source_locator:
+      file: part-d.yaml
+      section_index: 4
+      conversation_index: 16
+      fingerprint: 19ea8bef771d8452
+    source:
+      modern:
+      - de: O nein, sie ist reich; sie hat ein respectables Vermögen.
+        ja: いえ、実際、彼女は裕福で、かなりの財産があります。
+      grc:
+      - πλουτεῖ \emph{μὲν οὖν·} οὐσίαν γὰρ ἔχει συχνήν.
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: O nein, sie ist reich; sie hat ein respectables Vermögen.
+        ja_current: いえ、実際、彼女は裕福で、かなりの財産があります。
+        ja_proposed: いえ、実際、彼女は裕福で、かなりの財産があります。
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations: []
+    textual_issues: []
+    review_comments: []
+    status: unreviewed
+  - id: d-04-017
+    source_locator:
+      file: part-d.yaml
+      section_index: 4
+      conversation_index: 17
+      fingerprint: 0abda0ad647aa5c6
+    source:
+      modern:
+      - de: Weißt du, wem sie ganz ähnlich sieht? Der A.
+        ja: 彼女が誰にそっくりか分かる？Aさんにそっくりだ。
+      grc:
+      - οὖσθ' ᾗ μάλιστ' ἔοικεν; τῇ Ἀ.
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: Weißt du, wem sie ganz ähnlich sieht? Der A.
+        ja_current: 彼女が誰にそっくりか分かる？Aさんにそっくりだ。
+        ja_proposed: 彼女が誰にそっくりか分かる？Aさんにそっくりだ。
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations: []
+    textual_issues: []
+    review_comments: []
+    status: unreviewed
+  - id: d-04-018
+    source_locator:
+      file: part-d.yaml
+      section_index: 4
+      conversation_index: 18
+      fingerprint: 2db4ab3ace880d44
+    source:
+      modern:
+      - de: Dort ist ein schönes Mädchen! (Mädel!)
+        ja: あそこにきれいな\ruby{娘}{こ}がいる！
+      grc:
+      - ἐνταῦθα μείραξ ὡραία ἐστίν.
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: Dort ist ein schönes Mädchen! (Mädel!)
+        ja_current: あそこにきれいな\ruby{娘}{こ}がいる！
+        ja_proposed: あそこにきれいな\ruby{娘}{こ}がいる！
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations: []
+    textual_issues: []
+    review_comments: []
+    status: unreviewed
+  - id: d-04-019
+    source_locator:
+      file: part-d.yaml
+      section_index: 4
+      conversation_index: 19
+      fingerprint: 386a94a8e3513672
+    source:
+      modern:
+      - de: Wer ist denn die hinter ihr?
+        ja: では、その後ろにいる人は誰ですか。
+      grc:
+      - τίς γάρ ἐσθ' ἡ ὄπισθεν αὐτῆς.
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: Wer ist denn die hinter ihr?
+        ja_current: では、その後ろにいる人は誰ですか。
+        ja_proposed: では、その後ろにいる人は誰ですか。
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations: []
+    textual_issues: []
+    review_comments: []
+    status: unreviewed
+  - id: d-04-020
+    source_locator:
+      file: part-d.yaml
+      section_index: 4
+      conversation_index: 20
+      fingerprint: 4b57614629590141
+    source:
+      modern:
+      - de: Wer die ist? Frau Schulze.
+        ja: あの人ですか？　シュルツェ夫人ですよ。
+      grc:
+      - ἥτις ἐστίν; Σχουλζίου γυνή.
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: Wer die ist? Frau Schulze.
+        ja_current: あの人ですか？　シュルツェ夫人ですよ。
+        ja_proposed: あの人ですか？　シュルツェ夫人ですよ。
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations: []
+    textual_issues: []
+    review_comments: []
+    status: unreviewed
+  - id: d-04-021
+    source_locator:
+      file: part-d.yaml
+      section_index: 4
+      conversation_index: 21
+      fingerprint: e3a060b46f121e8c
+    source:
+      modern:
+      - de: Die Andere interessirt mich weniger.
+        ja: もう一人の方にはあまり興味がありません。
+      grc:
+      - τῆς ἑτέρας μοι ἧττον μέλει.
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: Die Andere interessirt mich weniger.
+        ja_current: もう一人の方にはあまり興味がありません。
+        ja_proposed: もう一人の方にはあまり興味がありません。
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations: []
+    textual_issues: []
+    review_comments: []
+    status: unreviewed
+  - id: d-04-022
+    source_locator:
+      file: part-d.yaml
+      section_index: 4
+      conversation_index: 22
+      fingerprint: 87f69c2f0bdf6c57
+    source:
+      modern:
+      - de: Sie ist häßlich.
+        ja: 彼女は醜いです。
+      grc:
+      - αἰσχρὰ γάρ ἐστιν.
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: Sie ist häßlich.
+        ja_current: 彼女は醜いです。
+        ja_proposed: 彼女は醜いです。
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations: []
+    textual_issues: []
+    review_comments: []
+    status: unreviewed
+  - id: d-04-023
+    source_locator:
+      file: part-d.yaml
+      section_index: 4
+      conversation_index: 23
+      fingerprint: 21346fd50b64fc37
+    source:
+      modern:
+      - de: Und hat eine stumpfe (kolbige) Nase.
+        ja: しかも団子鼻です。
+      grc:
+      - καὶ σιμή (ἐστιν).
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: Und hat eine stumpfe (kolbige) Nase.
+        ja_current: しかも団子鼻です。
+        ja_proposed: しかも団子鼻です。
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations: []
+    textual_issues: []
+    review_comments: []
+    status: unreviewed
+  - id: d-04-024
+    source_locator:
+      file: part-d.yaml
+      section_index: 4
+      conversation_index: 24
+      fingerprint: a95cea8ecbddedb0
+    source:
+      modern:
+      - de: Sie ist geschminkt.
+        ja: 化粧も済ませています。
+      grc:
+      - καὶ καταπεπλασμένη (ἐστίν).
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: Sie ist geschminkt.
+        ja_current: 化粧も済ませています。
+        ja_proposed: 化粧も済ませています。
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations: []
+    textual_issues: []
+    review_comments: []
+    status: unreviewed
+  - id: d-04-025
+    source_locator:
+      file: part-d.yaml
+      section_index: 4
+      conversation_index: 25
+      fingerprint: 63586942f442eea9
+    source:
+      modern:
+      - de: sie riecht nach Pomade.
+        ja: ポマードの匂いがします。
+      grc:
+      - ὄζει δὲ μύρου.
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: sie riecht nach Pomade.
+        ja_current: ポマードの匂いがします。
+        ja_proposed: ポマードの匂いがします。
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations: []
+    textual_issues: []
+    review_comments: []
+    status: unreviewed
+  - id: d-04-026
+    source_locator:
+      file: part-d.yaml
+      section_index: 4
+      conversation_index: 26
+      fingerprint: f3554586776ef823
+    source:
+      modern:
+      - de: Riechst du etwas?
+        ja: 何か匂うか？
+      grc:
+      - ὀσφραίνει τι;
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: Riechst du etwas?
+        ja_current: 何か匂うか？
+        ja_proposed: 何か匂うか？
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations: []
+    textual_issues: []
+    review_comments: []
+    status: unreviewed
+  - id: d-04-027
+    source_locator:
+      file: part-d.yaml
+      section_index: 4
+      conversation_index: 27
+      fingerprint: fcde083ed06b3b4a
+    source:
+      modern:
+      - de: Die Pomade riecht nicht gut.
+        ja: このポマードはあまりいい香りではありません。
+      grc:
+      - οὐχ ἡδὺ τὸ μύρον τουτί.
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: Die Pomade riecht nicht gut.
+        ja_current: このポマードはあまりいい香りではありません。
+        ja_proposed: このポマードはあまりいい香りではありません。
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations: []
+    textual_issues: []
+    review_comments: []
+    status: unreviewed
+- id: d-05
+  title:
+    de: Herr Schulze
+    ja: シュルツェ氏
+  scene_type: mixed
+  setting:
+    situation: conversation about or with Herr Schulze
+  cast:
+  - id: guest-a
+    description: null
+    evidence: null
+    confidence: candidate
+  - id: guest-b
+    description: null
+    evidence: null
+    confidence: candidate
+  - id: Herr Schulze
+    description: null
+    evidence: null
+    confidence: candidate
+  reconstruction:
+    confidence: unreviewed
+    note: Ordering may combine a continuous exchange with reusable model phrases; turn continuity must
+      be justified entry by entry.
+  entries:
+  - id: d-05-001
+    source_locator:
+      file: part-d.yaml
+      section_index: 5
+      conversation_index: 1
+      fingerprint: dabaf5b6730f9d3b
+    source:
+      modern:
+      - de: Schulze heißt er? \emph{Was ist das für ein} Schulze?
+        ja: 彼はシュルツェというのですか？\emph{どの}シュルツェ氏ですか？
+      grc:
+      - Σχούλζιος αὐτῷ ὄνομα; ποῖος οὗτος ὁ Σχούλζιος;
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: Schulze heißt er? \emph{Was ist das für ein} Schulze?
+        ja_current: 彼はシュルツェというのですか？\emph{どの}シュルツェ氏ですか？
+        ja_proposed: 彼はシュルツェというのですか？\emph{どの}シュルツェ氏ですか？
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations: []
+    textual_issues: []
+    review_comments: []
+    status: unreviewed
+  - id: d-05-002
+    source_locator:
+      file: part-d.yaml
+      section_index: 5
+      conversation_index: 2
+      fingerprint: e39ee8a896050638
+    source:
+      modern:
+      - de: Kennen Sie ihn nicht?
+        ja: ご存じありませんか。
+      grc:
+      - οὐκ οἶσθα αὐτόν;
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: Kennen Sie ihn nicht?
+        ja_current: ご存じありませんか。
+        ja_proposed: ご存じありませんか。
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations: []
+    textual_issues: []
+    review_comments: []
+    status: unreviewed
+  - id: d-05-003
+    source_locator:
+      file: part-d.yaml
+      section_index: 5
+      conversation_index: 3
+      fingerprint: c618bb6af151b025
+    source:
+      modern:
+      - de: Nein, ich bin fremd hier und erst eben angekommen.
+        ja: いいえ、この町は初めてで、今しがた着いたばかりです。
+      grc:
+      - οὐ μὰ Δία ἔγωγε, ξένος γάρ εἰμι ἀρτίως ἀφιγμένος.
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: Nein, ich bin fremd hier und erst eben angekommen.
+        ja_current: いいえ、この町は初めてで、今しがた着いたばかりです。
+        ja_proposed: いいえ、この町は初めてで、今しがた着いたばかりです。
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations: []
+    textual_issues: []
+    review_comments: []
+    status: unreviewed
+  - id: d-05-004
+    source_locator:
+      file: part-d.yaml
+      section_index: 5
+      conversation_index: 4
+      fingerprint: cc6a1f2486047ead
+    source:
+      modern:
+      - de: Er spielt die erste Rolle in der Stadt.
+        ja: 彼はこの街で重要人物です。
+      grc:
+      - πράττει τὰ μέγιστα ἐν τῇ πόλει.
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: Er spielt die erste Rolle in der Stadt.
+        ja_current: 彼はこの街で重要人物です。
+        ja_proposed: 彼はこの街で重要人物です。
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations: []
+    textual_issues: []
+    review_comments: []
+    status: unreviewed
+  - id: d-05-005
+    source_locator:
+      file: part-d.yaml
+      section_index: 5
+      conversation_index: 5
+      fingerprint: 02a3f3f27c2074f5
+    source:
+      modern:
+      - de: Er hat einen \emph{großen} Bart.
+        ja: 立派な髭を蓄えています。
+      grc:
+      - ἔχει δὲ πώγωνα.
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: Er hat einen \emph{großen} Bart.
+        ja_current: 立派な髭を蓄えています。
+        ja_proposed: 立派な髭を蓄えています。
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations: []
+    textual_issues: []
+    review_comments: []
+    status: unreviewed
+  - id: d-05-006
+    source_locator:
+      file: part-d.yaml
+      section_index: 5
+      conversation_index: 6
+      fingerprint: 1cd843c379dbabcb
+    source:
+      modern:
+      - de: Und graues Haar?
+        ja: それに白髪ですか。
+      grc:
+      - καὶ πολιός ἐστιν;
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: Und graues Haar?
+        ja_current: それに白髪ですか。
+        ja_proposed: それに白髪ですか。
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations: []
+    textual_issues: []
+    review_comments: []
+    status: unreviewed
+  - id: d-05-007
+    source_locator:
+      file: part-d.yaml
+      section_index: 5
+      conversation_index: 7
+      fingerprint: 6e34920a9c6ca579
+    source:
+      modern:
+      - de: Wovon lebt er?
+        ja: 何で生計を立てているのですか。
+      grc:
+      - πόθεν διαζῇ;
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: Wovon lebt er?
+        ja_current: 何で生計を立てているのですか。
+        ja_proposed: 何で生計を立てているのですか。
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations: []
+    textual_issues: []
+    review_comments: []
+    status: unreviewed
+  - id: d-05-008
+    source_locator:
+      file: part-d.yaml
+      section_index: 5
+      conversation_index: 8
+      fingerprint: 9f5a75500c523c31
+    source:
+      modern:
+      - de: Der Mann ist schnell reich geworben.
+        ja: 彼はあっという間に金持ちになりました。
+      grc:
+      - ταχέως ὁ ἀνὴρ γεγένηται πλούσιος.
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: Der Mann ist schnell reich geworben.
+        ja_current: 彼はあっという間に金持ちになりました。
+        ja_proposed: 彼はあっという間に金持ちになりました。
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations: []
+    textual_issues: []
+    review_comments: []
+    status: unreviewed
+  - id: d-05-009
+    source_locator:
+      file: part-d.yaml
+      section_index: 5
+      conversation_index: 9
+      fingerprint: 279527908e1e0bbc
+    source:
+      modern:
+      - de: Wodurch?
+        ja: どうやって？
+      grc:
+      - τί δρῶν;
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: Wodurch?
+        ja_current: どうやって？
+        ja_proposed: どうやって？
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations: []
+    textual_issues: []
+    review_comments: []
+    status: unreviewed
+  - id: d-05-010
+    source_locator:
+      file: part-d.yaml
+      section_index: 5
+      conversation_index: 10
+      fingerprint: 472d1ee2cc06acce
+    source:
+      modern:
+      - de: 'Er hat ursprünglich ein Handwerk gelernt, dann wurde er Landwirth
+
+          und jetzt ist er Kaufmann.'
+        ja: 彼はもともと職人の技を学び、その後農夫になり、今は商人です。
+      grc:
+      - 'πρῶτον μὲν γὰρ τέχνην τιν'' ἔμαθεν· εἶτα γεωργὸς ἐγένετο, νῦν δὲ ἔμπορός
+
+        ἐστιν.'
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: 'Er hat ursprünglich ein Handwerk gelernt, dann wurde er Landwirth
+
+          und jetzt ist er Kaufmann.'
+        ja_current: 彼はもともと職人の技を学び、その後農夫になり、今は商人です。
+        ja_proposed: 彼はもともと職人の技を学び、その後農夫になり、今は商人です。
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations: []
+    textual_issues: []
+    review_comments: []
+    status: unreviewed
+  - id: d-05-011
+    source_locator:
+      file: part-d.yaml
+      section_index: 5
+      conversation_index: 11
+      fingerprint: d06cf948e4c2b189
+    source:
+      modern:
+      - de: \myafterpagetrue\mysetaligntext{german}{Es ist{ }}\mysetalign{german}Fabrikant.
+        ja: \myafterpagetrue\mysetaligntext{japanese}{彼は{ }}\mysetalign{japanese}工場主です。
+      grc:
+      - ἐργαστήριον ἔχει.
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: \myafterpagetrue\mysetaligntext{german}{Es ist{ }}\mysetalign{german}Fabrikant.
+        ja_current: \myafterpagetrue\mysetaligntext{japanese}{彼は{ }}\mysetalign{japanese}工場主です。
+        ja_proposed: \myafterpagetrue\mysetaligntext{japanese}{彼は{ }}\mysetalign{japanese}工場主です。
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations: []
+    textual_issues: []
+    review_comments: []
+    status: unreviewed
+  - id: d-05-012
+    source_locator:
+      file: part-d.yaml
+      section_index: 5
+      conversation_index: 12
+      fingerprint: 5ab61ad101ba9659
+    source:
+      modern:
+      - de: \bgroup\mysetalign{german}Arbeiter.\par\egroup
+        ja: \bgroup\mysetalign{japanese}職工。\par\egroup
+      grc:
+      - ἐργάτης
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: \bgroup\mysetalign{german}Arbeiter.\par\egroup
+        ja_current: \bgroup\mysetalign{japanese}職工。\par\egroup
+        ja_proposed: \bgroup\mysetalign{japanese}職工。\par\egroup
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations: []
+    textual_issues: []
+    review_comments: []
+    status: unreviewed
+  - id: d-05-013
+    source_locator:
+      file: part-d.yaml
+      section_index: 5
+      conversation_index: 13
+      fingerprint: b9f313b16695529a
+    source:
+      modern:
+      - de: \bgroup\mysetalign{german}(Amts- etc.) Richter.\par\egroup
+        ja: \bgroup\mysetalign{japanese}（官職などの）裁判官。\par\egroup
+      grc:
+      - δικαστής.
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: \bgroup\mysetalign{german}(Amts- etc.) Richter.\par\egroup
+        ja_current: \bgroup\mysetalign{japanese}（官職などの）裁判官。\par\egroup
+        ja_proposed: \bgroup\mysetalign{japanese}（官職などの）裁判官。\par\egroup
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations: []
+    textual_issues: []
+    review_comments: []
+    status: unreviewed
+  - id: d-05-014
+    source_locator:
+      file: part-d.yaml
+      section_index: 5
+      conversation_index: 14
+      fingerprint: 7094cd050104f2f5
+    source:
+      modern:
+      - de: \bgroup\mysetalign{german}Unterbeamter.\par\egroup
+        ja: \bgroup\mysetalign{japanese}下級官吏。\par\egroup
+      grc:
+      - ὑπάλληλος.
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: \bgroup\mysetalign{german}Unterbeamter.\par\egroup
+        ja_current: \bgroup\mysetalign{japanese}下級官吏。\par\egroup
+        ja_proposed: \bgroup\mysetalign{japanese}下級官吏。\par\egroup
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations: []
+    textual_issues: []
+    review_comments: []
+    status: unreviewed
+  - id: d-05-015
+    source_locator:
+      file: part-d.yaml
+      section_index: 5
+      conversation_index: 15
+      fingerprint: 2e5cc5c40101d556
+    source:
+      modern:
+      - de: \bgroup\mysetalign{german}Rechts\textcompwordmark{}anwalt.\par\egroup
+        ja: \bgroup\mysetalign{japanese}弁護士。\par\egroup
+      grc:
+      - σύνδικος.
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: \bgroup\mysetalign{german}Rechts\textcompwordmark{}anwalt.\par\egroup
+        ja_current: \bgroup\mysetalign{japanese}弁護士。\par\egroup
+        ja_proposed: \bgroup\mysetalign{japanese}弁護士。\par\egroup
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations: []
+    textual_issues: []
+    review_comments: []
+    status: unreviewed
+  - id: d-05-016
+    source_locator:
+      file: part-d.yaml
+      section_index: 5
+      conversation_index: 16
+      fingerprint: 03b0d8fe1c53b411
+    source:
+      modern:
+      - de: \bgroup\mysetalign{german}Apotheker.\par\egroup
+        ja: \bgroup\mysetalign{japanese}薬剤師。\par\egroup
+      grc:
+      - φαρμακοπώλης.
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: \bgroup\mysetalign{german}Apotheker.\par\egroup
+        ja_current: \bgroup\mysetalign{japanese}薬剤師。\par\egroup
+        ja_proposed: \bgroup\mysetalign{japanese}薬剤師。\par\egroup
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations: []
+    textual_issues: []
+    review_comments: []
+    status: unreviewed
+  - id: d-05-017
+    source_locator:
+      file: part-d.yaml
+      section_index: 5
+      conversation_index: 17
+      fingerprint: 7707c7780f21f339
+    source:
+      modern:
+      - de: \bgroup\mysetalign{german}Banquier.\par\egroup
+        ja: \bgroup\mysetalign{japanese}銀行家。\par\egroup
+      grc:
+      - τραπεζίτης.
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: \bgroup\mysetalign{german}Banquier.\par\egroup
+        ja_current: \bgroup\mysetalign{japanese}銀行家。\par\egroup
+        ja_proposed: \bgroup\mysetalign{japanese}銀行家。\par\egroup
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations: []
+    textual_issues: []
+    review_comments: []
+    status: unreviewed
+  - id: d-05-018
+    source_locator:
+      file: part-d.yaml
+      section_index: 5
+      conversation_index: 18
+      fingerprint: 658a50d4d9aa612a
+    source:
+      modern:
+      - de: \bgroup\mysetalign{german}Officier.\par\egroup
+        ja: \bgroup\mysetalign{japanese}士官。\par\egroup
+      grc:
+      - ἀξιωματικός.
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: \bgroup\mysetalign{german}Officier.\par\egroup
+        ja_current: \bgroup\mysetalign{japanese}士官。\par\egroup
+        ja_proposed: \bgroup\mysetalign{japanese}士官。\par\egroup
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations: []
+    textual_issues: []
+    review_comments: []
+    status: unreviewed
+  - id: d-05-019
+    source_locator:
+      file: part-d.yaml
+      section_index: 5
+      conversation_index: 19
+      fingerprint: 1b377a457a7f24ac
+    source:
+      modern:
+      - de: \bgroup\mysetalign{german}Schüler.\par\egroup
+        ja: \bgroup\mysetalign{japanese}生徒。\par\egroup
+      grc:
+      - μαθητής.
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: \bgroup\mysetalign{german}Schüler.\par\egroup
+        ja_current: \bgroup\mysetalign{japanese}生徒。\par\egroup
+        ja_proposed: \bgroup\mysetalign{japanese}生徒。\par\egroup
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations: []
+    textual_issues: []
+    review_comments: []
+    status: unreviewed
+  - id: d-05-020
+    source_locator:
+      file: part-d.yaml
+      section_index: 5
+      conversation_index: 20
+      fingerprint: 0a778e3beb5adaa3
+    source:
+      modern:
+      - de: \bgroup\mysetalign{german}Student.\par\egroup
+        ja: \bgroup\mysetalign{japanese}学生。\par\egroup
+      grc:
+      - φοιτητής.
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: \bgroup\mysetalign{german}Student.\par\egroup
+        ja_current: \bgroup\mysetalign{japanese}学生。\par\egroup
+        ja_proposed: \bgroup\mysetalign{japanese}学生。\par\egroup
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations: []
+    textual_issues: []
+    review_comments: []
+    status: unreviewed
+  - id: d-05-021
+    source_locator:
+      file: part-d.yaml
+      section_index: 5
+      conversation_index: 21
+      fingerprint: fdfcba33a2fc7a5f
+    source:
+      modern:
+      - de: \bgroup\mysetalign{german}Lehrer.\par\egroup
+        ja: \bgroup\mysetalign{japanese}教師。\par\egroup
+      grc:
+      - διδάσκαλος.
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: \bgroup\mysetalign{german}Lehrer.\par\egroup
+        ja_current: \bgroup\mysetalign{japanese}教師。\par\egroup
+        ja_proposed: \bgroup\mysetalign{japanese}教師。\par\egroup
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations: []
+    textual_issues: []
+    review_comments: []
+    status: unreviewed
+  - id: d-05-022
+    source_locator:
+      file: part-d.yaml
+      section_index: 5
+      conversation_index: 22
+      fingerprint: 6fb864db40909416
+    source:
+      modern:
+      - de: \bgroup\mysetalign{german}Professor.\par\egroup
+        ja: \bgroup\mysetalign{japanese}教授。\par\egroup
+      grc:
+      - καθηγητής.
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: \bgroup\mysetalign{german}Professor.\par\egroup
+        ja_current: \bgroup\mysetalign{japanese}教授。\par\egroup
+        ja_proposed: \bgroup\mysetalign{japanese}教授。\par\egroup
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations: []
+    textual_issues: []
+    review_comments: []
+    status: unreviewed
+  - id: d-05-023
+    source_locator:
+      file: part-d.yaml
+      section_index: 5
+      conversation_index: 23
+      fingerprint: a139c70b7c2f339c
+    source:
+      modern:
+      - de: Er ist vom Lande.
+        ja: 彼は田舎出身です。
+      grc:
+      - ἐκ τῶν ἀγρῶν ἐστιν.
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: Er ist vom Lande.
+        ja_current: 彼は田舎出身です。
+        ja_proposed: 彼は田舎出身です。
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations: []
+    textual_issues: []
+    review_comments: []
+    status: unreviewed
+  - id: d-05-024
+    source_locator:
+      file: part-d.yaml
+      section_index: 5
+      conversation_index: 24
+      fingerprint: c38792eb74b4b896
+    source:
+      modern:
+      - de: Er ist aus der Nachbarschaft.
+        ja: 彼は近所の人です。
+      grc:
+      - ἐκ τῶν γειτόνων ἐστίν.
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: Er ist aus der Nachbarschaft.
+        ja_current: 彼は近所の人です。
+        ja_proposed: 彼は近所の人です。
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations: []
+    textual_issues: []
+    review_comments: []
+    status: unreviewed
+  - id: d-05-025
+    source_locator:
+      file: part-d.yaml
+      section_index: 5
+      conversation_index: 25
+      fingerprint: e7c622a9de1ffebf
+    source:
+      modern:
+      - de: Mir ist er langweilig.
+        ja: 彼と一緒にいると退屈です。
+      grc:
+      - ἄχθομαι αὐτῷ συνὼν ἔγωγε.
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: Mir ist er langweilig.
+        ja_current: 彼と一緒にいると退屈です。
+        ja_proposed: 彼と一緒にいると退屈です。
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations: []
+    textual_issues: []
+    review_comments: []
+    status: unreviewed
+  - id: d-05-026
+    source_locator:
+      file: part-d.yaml
+      section_index: 5
+      conversation_index: 26
+      fingerprint: 75a4de815519529d
+    source:
+      modern:
+      - de: Er ist nicht schlecht von Charakter.
+        ja: 彼は性格は悪くありません。
+      grc:
+      - οὐ πονηρός ἐστι τοὺς τρόπους.
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: Er ist nicht schlecht von Charakter.
+        ja_current: 彼は性格は悪くありません。
+        ja_proposed: 彼は性格は悪くありません。
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations: []
+    textual_issues: []
+    review_comments: []
+    status: unreviewed
+  - id: d-05-027
+    source_locator:
+      file: part-d.yaml
+      section_index: 5
+      conversation_index: 27
+      fingerprint: 7036e26fdcbed7a8
+    source:
+      modern:
+      - de: (Seht nur) wie protzig er hereingekommen ist!
+        ja: （ご覧、）なんと尊大に入ってきたことでしょう！
+      grc:
+      - \emph{ὡς σοβαρὸς} εἰσελήλυθεν!
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: (Seht nur) wie protzig er hereingekommen ist!
+        ja_current: （ご覧、）なんと尊大に入ってきたことでしょう！
+        ja_proposed: （ご覧、）なんと尊大に入ってきたことでしょう！
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations: []
+    textual_issues: []
+    review_comments: []
+    status: unreviewed
+  - id: d-05-028
+    source_locator:
+      file: part-d.yaml
+      section_index: 5
+      conversation_index: 28
+      fingerprint: c3ec7e18a07af785
+    source:
+      modern:
+      - de: Es scheint mir nicht guter Ton zu sein, sich so zu betragen.
+        ja: あんな振る舞いは品がないと思います。
+      grc:
+      - οὐκ ἀστεῖόν μοι δοκεῖ εἶναι τοιτοῦτον ἑαυτὸν παρέχειν.
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: Es scheint mir nicht guter Ton zu sein, sich so zu betragen.
+        ja_current: あんな振る舞いは品がないと思います。
+        ja_proposed: あんな振る舞いは品がないと思います。
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations: []
+    textual_issues: []
+    review_comments: []
+    status: unreviewed
+  - id: d-05-029
+    source_locator:
+      file: part-d.yaml
+      section_index: 5
+      conversation_index: 29
+      fingerprint: 06a4bf0d54b9edfd
+    source:
+      modern:
+      - de: Aber N. N. ist wirklich ein Gentleman.
+        ja: でも○○氏は本当に紳士です。
+      grc:
+      - ὁ δὲ Ν. Ν. νὴ Δία γεννάδας ἀνήρ!
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: Aber N. N. ist wirklich ein Gentleman.
+        ja_current: でも○○氏は本当に紳士です。
+        ja_proposed: でも○○氏は本当に紳士です。
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations: []
+    textual_issues: []
+    review_comments: []
+    status: unreviewed
+- id: d-06
+  title:
+    de: Wie alt?
+    ja: 何歳？
+  scene_type: mixed
+  setting:
+    situation: guests discuss age and dance partners
+  cast:
+  - id: guest-a
+    description: null
+    evidence: null
+    confidence: candidate
+  - id: guest-b
+    description: null
+    evidence: null
+    confidence: candidate
+  - id: woman-discussed
+    description: null
+    evidence: null
+    confidence: candidate
+  reconstruction:
+    confidence: unreviewed
+    note: Ordering may combine a continuous exchange with reusable model phrases; turn continuity must
+      be justified entry by entry.
+  entries:
+  - id: d-06-001
+    source_locator:
+      file: part-d.yaml
+      section_index: 6
+      conversation_index: 1
+      fingerprint: d6a0c65d36caf4e5
+    source:
+      modern:
+      - de: Er hat nur eine einzige Tochter.
+        ja: 彼には一人娘しかいません。
+      grc:
+      - θυγάτηρ αὐτῷ μόνη οὖσα τυγχάνει.
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: Er hat nur eine einzige Tochter.
+        ja_current: 彼には一人娘しかいません。
+        ja_proposed: 彼には一人娘しかいません。
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations: []
+    textual_issues: []
+    review_comments: []
+    status: unreviewed
+  - id: d-06-002
+    source_locator:
+      file: part-d.yaml
+      section_index: 6
+      conversation_index: 2
+      fingerprint: 1bee33b4d0a8f3b1
+    source:
+      modern:
+      - de: Wie alt ist sie?
+        ja: 彼女は何歳ですか。
+      grc:
+      - πηλίκη ἐστίν;
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: Wie alt ist sie?
+        ja_current: 彼女は何歳ですか。
+        ja_proposed: 彼女は何歳ですか。
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations: []
+    textual_issues: []
+    review_comments: []
+    status: unreviewed
+  - id: d-06-003
+    source_locator:
+      file: part-d.yaml
+      section_index: 6
+      conversation_index: 3
+      fingerprint: 8f77426a144dc35b
+    source:
+      modern:
+      - de: Sie ist über ein Jahr älter als du.
+        ja: 彼女は君より一歳以上年上だ。
+      grc:
+      - πλεῖν ἢ 'νιαυτῷ σου πρεσβυτέρα ἐστίν.
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: Sie ist über ein Jahr älter als du.
+        ja_current: 彼女は君より一歳以上年上だ。
+        ja_proposed: 彼女は君より一歳以上年上だ。
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations: []
+    textual_issues: []
+    review_comments: []
+    status: unreviewed
+  - id: d-06-004
+    source_locator:
+      file: part-d.yaml
+      section_index: 6
+      conversation_index: 4
+      fingerprint: 43037c2bbb103388
+    source:
+      modern:
+      - de: Über 20 Jahre \emph{alt}.
+        ja: 20歳を\emph{超えています}。
+      grc:
+      - ὑπὲρ εἴκοσιν ἔτη \emph{γεγονυῖα.}
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: Über 20 Jahre \emph{alt}.
+        ja_current: 20歳を\emph{超えています}。
+        ja_proposed: 20歳を\emph{超えています}。
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations: []
+    textual_issues: []
+    review_comments: []
+    status: unreviewed
+  - id: d-06-005
+    source_locator:
+      file: part-d.yaml
+      section_index: 6
+      conversation_index: 5
+      fingerprint: 92664462a13d7929
+    source:
+      modern:
+      - de: Du bist ein junger Mann \emph{von} 19 Jahren.
+        ja: 君は\emph{19歳の}若者だ。
+      grc:
+      - σὺ δὲ ἀνὴρ νέος εἶ ἐννεακαίδεκα ἐτῶν.
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: Du bist ein junger Mann \emph{von} 19 Jahren.
+        ja_current: 君は\emph{19歳の}若者だ。
+        ja_proposed: 君は\emph{19歳の}若者だ。
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations: []
+    textual_issues: []
+    review_comments: []
+    status: unreviewed
+  - id: d-06-006
+    source_locator:
+      file: part-d.yaml
+      section_index: 6
+      conversation_index: 6
+      fingerprint: d90109b62403b201
+    source:
+      modern:
+      - de: Du mußt mit denen unter zwanzig tanzen.
+        ja: 君は20歳未満の人と踊らなければならないぞ。
+      grc:
+      - δεῖ οὖν ὀρχεῖσθαί σε μετὰ τῶν \emph{ἐντὸς} εἴκοσιν.
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: Du mußt mit denen unter zwanzig tanzen.
+        ja_current: 君は20歳未満の人と踊らなければならないぞ。
+        ja_proposed: 君は20歳未満の人と踊らなければならないぞ。
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations: []
+    textual_issues: []
+    review_comments: []
+    status: unreviewed
+  - id: d-06-007
+    source_locator:
+      file: part-d.yaml
+      section_index: 6
+      conversation_index: 7
+      fingerprint: 8ea37e27b0ebf30c
+    source:
+      modern:
+      - de: Sie sitzt dort bei den älteren Damen.
+        ja: 彼女はあそこで年配のご婦人たちのそばに座っています。
+      grc:
+      - ἐνταῦτα κάθηται παρὰ ταῖς πρεσβυτέραις γυναιξίν.
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: Sie sitzt dort bei den älteren Damen.
+        ja_current: 彼女はあそこで年配のご婦人たちのそばに座っています。
+        ja_proposed: 彼女はあそこで年配のご婦人たちのそばに座っています。
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations: []
+    textual_issues: []
+    review_comments: []
+    status: unreviewed
+  - id: d-06-008
+    source_locator:
+      file: part-d.yaml
+      section_index: 6
+      conversation_index: 8
+      fingerprint: b7ce835b970e480e
+    source:
+      modern:
+      - de: Wo? zeig' einmal!
+        ja: どこ？見せて！
+      grc:
+      - τοῦ; δεῖξον!
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: Wo? zeig' einmal!
+        ja_current: どこ？見せて！
+        ja_proposed: どこ？見せて！
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations: []
+    textual_issues: []
+    review_comments: []
+    status: unreviewed
+  - id: d-06-009
+    source_locator:
+      file: part-d.yaml
+      section_index: 6
+      conversation_index: 9
+      fingerprint: 84333c7d5a0b1e16
+    source:
+      modern:
+      - de: Was hat sie für Toilette?
+        ja: どんな身なりをしていますか。
+      grc:
+      - ποίαν τιν' ἔχει σκευήν;
+    dialogue:
+      speaker:
+        candidate: guest-a
+        confidence: high
+      addressee:
+        candidate: guest-b
+        confidence: high
+      speech_act: request-visual-description
+      tone:
+      - curious
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: >
+        ποίαν modifies σκευήν, the object of ἔχει. Indefinite τιν’ softens or generalizes the
+        interrogative: “what sort of appearance or outfit does [the person] have?”
+      literal_gloss: どのような身なりをしていますか。
+      particles_and_idioms:
+      - form: σκευή
+        function: equipment, costume, dress, or outward get-up according to context
+      pragmatic_force: asks how an unseen or distant person is dressed or presented
+    translation:
+      variants:
+      - de: Was hat sie für Toilette?
+        ja_current: どんな身なりをしていますか。
+        ja_proposed: どんな装いをしていますか。
+        decision: revise
+        rationale: >
+          German Toilette here means a woman’s attire or ensemble. 「装い」fits the dance setting
+          more specifically than the broader 「身なり」.
+        alternatives: []
+      register: polite-social
+      scene_dependency: asks for identifying clothing after d-06-008 “Where? Show me.”
+    attestations:
+    - target: ποίαν τιν' ἔχει σκευήν;
+      status: source-context-checked
+      match_type: exact
+      reference_as_given: null
+      source:
+        author: Aristophanes
+        work: Knights
+        passage: '1324'
+        local_file: /home/mrty/Documents/Perseus/Classics/Aristophanes/opensource/aristoph.kn_gk.xml
+      text_grc: ποίαν τιν' ἔχει σκευήν;
+      original_speakers:
+      - Χορος
+      original_speaker_beta: '*xoro/s'
+      original_scene: >
+        Knights 1324. After the Sausage-seller announces that he has rejuvenated Demos, the chorus
+        asks how they may see him, what appearance or costume he has, and what sort of man he has become.
+      beta_context: allantopwlhs en taisin iostefanois oikei tais arxaiaisin aqhnais xoros pws an idoimen
+        poian tin exei skeuhn poios gegenhtai allantopwlhs oios per aristeidh proteron kai miltiadh cunesitei
+        oyesqe de
+      relationship_to_handbook: >
+        The handbook extracts the middle question from a longer sequence and applies it to identifying
+        a woman by her attire. The Greek phrase itself contains no expressed subject or gender.
+      adaptations:
+      - Demos replaced by a woman at a dance
+      - surrounding questions omitted
+      confidence: high
+      research_method: exact normalized token search
+    textual_issues: []
+    review_comments: []
+    status: ja-proposed
+  - id: d-06-010
+    source_locator:
+      file: part-d.yaml
+      section_index: 6
+      conversation_index: 10
+      fingerprint: e0af95b05f85c1d6
+    source:
+      modern:
+      - de: Ihre Mutter ist \emph{seit} 10 Jahren todt.
+        ja: 彼女の母が亡くなって10年になりました。
+      grc:
+      - τέθνηκεν ἡ μήτηρ αὐτῆς ἔτη δέκα.
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: Ihre Mutter ist \emph{seit} 10 Jahren todt.
+        ja_current: 彼女の母が亡くなって10年になりました。
+        ja_proposed: 彼女の母が亡くなって10年になりました。
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations: []
+    textual_issues: []
+    review_comments: []
+    status: unreviewed
+  - id: d-06-011
+    source_locator:
+      file: part-d.yaml
+      section_index: 6
+      conversation_index: 11
+      fingerprint: 049068ebcec12ef7
+    source:
+      modern:
+      - de: Ihr Vater ist ein Sechziger.
+        ja: 父親は60代です。
+      grc:
+      - ἑξηκοντέτης ἐστὶν αὐτῆς ὁ πατήρ.
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: Ihr Vater ist ein Sechziger.
+        ja_current: 父親は60代です。
+        ja_proposed: 父親は60代です。
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations: []
+    textual_issues: []
+    review_comments: []
+    status: unreviewed
+  - id: d-06-012
+    source_locator:
+      file: part-d.yaml
+      section_index: 6
+      conversation_index: 12
+      fingerprint: af309f26ff9464e2
+    source:
+      modern:
+      - de: Die Familie.
+        ja: 家族。
+      grc:
+      - ὁ οἶκος.
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: Die Familie.
+        ja_current: 家族。
+        ja_proposed: 家族。
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations: []
+    textual_issues: []
+    review_comments: []
+    status: unreviewed

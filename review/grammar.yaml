@@ -1,0 +1,1545 @@
+meta:
+  source: grammar.tex
+  translation: grammar-ja.tex
+  purpose: >
+    Item-by-item philological and Japanese review of Kleine Regeln und
+    Beobachtungen. Translation fidelity and the validity of the author's
+    grammatical claims are assessed separately; historically dated or
+    overstated claims are not silently corrected.
+  translation_policy: >
+    In bilingual example lists, Japanese first translates the German label.
+    When the Greek expression reaches that meaning through a lexical converse
+    or contextual inference, its more literal force is added after a slash or
+    explained in phrase_notes; the German and Greek are not conflated.
+  analysis_granularity: >
+    Each analysis_unit treats one sentence, clause, or construction separately.
+    syntax identifies dependencies and scope; grammar names the construction;
+    nuance explains its discourse force or semantic limitation; ja_note records
+    the consequence for Japanese translation. These notes supplement rather
+    than silently normalize the historically dated German claims.
+  resource_roots:
+    lsj: /home/mrty/Documents/Resources/LSJ_GreekUnicode
+    canonical_corpus: /home/mrty/Documents/Resources/canonical-greekLit
+    discovery_corpus: /home/mrty/Documents/Resources/ancient-greek-texts
+  assessment_values:
+    - sound
+    - broadly-sound-but-overstated
+    - stylistic-generalization
+    - disputed
+    - source-error
+  status_values:
+    - needs-review
+    - source-checked
+    - ja-revised
+    - accepted
+
+terms:
+  Passivum: 受動態
+  Medium: 中動態
+  Object: 目的語
+  Casus: 格
+  Satzteil: 文成分
+  Konjunktion: 接続詞
+  Asyndeton: 接続詞省略
+  Sprachgesetz: 言語法則
+
+entries:
+  - id: grammar-001-passive-avoidance
+    title: 受動態とその言い換え
+    de_location: grammar.tex:8-87
+    ja_location: grammar-ja.tex:14-225
+    ja_revised: |-
+      言語をわがものとするうえで、その言語の\emph{弱点}を見抜くことほど助けになるものはない。
+      何がその言語に欠けているかが分かって初めて、なぜある言い回しを選び、ある概念の結びつきを好み、
+      また、なぜわれわれ自身の言語とは異なる仕方で表現するのかが、正しく理解できるようになる。
+      そうしてわれわれは、その言語の\emph{精神}——即ち特殊性の総体——の肝が掴めるようになるのだ。
+
+      さて、ギリシャ語の顕著な弱点の一は、形態の豊かさにもかかわらず、
+      \emph{使いやすい受動態形が欠けている}ことだ。
+      受動態形の多くが中動態形と同形であることは——明確さは言語の第一原理である故——応用を難しくしている。どの道、多くの動詞には受動専用の形がそもそも存在しないのだ。
+
+      したがって、ギリシャ語に特有の色調を写そうとするなら、何よりまず次の点に注意せねばならない。
+      \emph{中動態と同形の受動態形はできるかぎり避け、ギリシャ人が一般にこれをどのように言い換えるかに注意すること。}
+      この種の受動態形のうち、安心して用いうるのは、文脈からただちに受動と分かるものと、
+      頻用されて慣用となった一定のものに限られる。
+
+      受動表現は、次のように言い換えられる。
+
+      1. 能動態形の動詞による。例えば、
+
+      教えられる \textgreek[variant=ancient]{μανθάνειν,}\\
+      称賛される \textgreek[variant=ancient]{εὐδοκιμεῖν,}\\
+      苦しめられる \textgreek[variant=ancient]{κάμνειν,}\\
+      法廷に立たされる \textgreek[variant=ancient]{εἰσιέναι εἰς δικαστήριον,}\\
+      訴追される \textgreek[variant=ancient]{φεύγειν,}\\
+      ……と思われる \textgreek[variant=ancient]{δοκεῖν,}\\
+      何か（害・苦痛などが）私に与えられる \textgreek[variant=ancient]{πάσχω τι,}\\
+      追放される \textgreek[variant=ancient]{ἐκπίπτειν,}\\
+      あるものを奪われる \textgreek[variant=ancient]{ἀπολλύναι τι,}\\
+      殺される \textgreek[variant=ancient]{ἀποθνήσκειν,}\\
+      彼らは追放された \textgreek[variant=ancient]{ἀνέστησαν,}\\
+      返答された \textgreek[variant=ancient]{ἤκουσα,}\\
+      よくしてもらう \textgreek[variant=ancient]{εὖ πάσχω,}\\
+      くじで選ばれた \textgreek[variant=ancient]{ἔλαχον,}\\
+      無罪となった \textgreek[variant=ancient]{ἀπέφυγον,}\\
+      悪しざまに言われた \textgreek[variant=ancient]{κακῶς ἤκουσα,}\\
+      （憐れみに）心を捉えられた \textgreek[variant=ancient]{(ἔλεός) με εἰσῄει.}
+
+      2. 多くの場合、\textgreek[variant=ancient]{γίγνεσθαι}による。
+      これは「作られる」「催される」「成し遂げられる」「移される」「授けられる」「買い取られる」
+      「獲得される」「（悪事が）犯される」「（祭が）祝われる」「生まれる」などの受動表現に代えて用いられる。
+
+      3. 名詞と動詞との組み合わせによる。例えば、
+
+      称賛を受ける \textgreek[variant=ancient]{ἔπαινον ἔχειν,}\\
+      （盛んに）取り沙汰される \textgreek[variant=ancient]{λόγος ἐστὶ (πολύς),}\\
+      罰を受ける \textgreek[variant=ancient]{δίκην διδόναι,}\\
+      怒りが生じる \textgreek[variant=ancient]{ὀργὴ γίγνεται}、など。
+
+      4. 形容詞と\textgreek[variant=ancient]{εἶναι}との組み合わせによる。例えば、
+
+      はっきり見える \textgreek[variant=ancient]{καταφανῆ εἶναι,}\\
+      君の言うことは信じてもらえない \textgreek[variant=ancient]{ἄπιστος εἶ}、など。
+    analysis_units:
+      - segment: "Nichts erleichtert es so sehr, eine Sprache zu beherrschen, als wenn man ihre Schwächen erspäht."
+        syntax: >
+          Nichts is the subject of erleichtert. The unstressed es anticipates
+          the infinitival content eine Sprache zu beherrschen; als wenn man ...
+          erspäht supplies the comparison after so sehr. beherrschen governs
+          eine Sprache, and erspäht governs ihre Schwächen.
+        grammar: >
+          The sentence combines a negative superlative-like comparison
+          (nichts ... so sehr ... als) with anticipatory es and an infinitive
+          clause. als wenn is comparative here, not an unreal conditional.
+        nuance: >
+          erspähen is more deliberate and vivid than erkennen: it suggests
+          detecting something not immediately obvious. beherrschen means
+          gaining command of the language, not merely studying it.
+        ja_note: >
+          「見抜く」preserves erspähen. For beherrschen, 「わがものとする」is
+          interpretive; the more literal 「自在に使いこなす」is also possible.
+      - segment: "Erst wenn wir ermittelt haben, was einer Sprache fehlt, verstehen wir recht, warum ..."
+        syntax: >
+          The fronted Erst-wenn clause causes inversion in the main clause:
+          verstehen wir. ermittelt haben governs the interrogative content
+          clause was einer Sprache fehlt. Within that clause, was is the subject
+          of fehlt, while einer Sprache is dative.
+        grammar: >
+          erst wenn gives the condition a threshold reading: proper
+          understanding is possible only after the deficiency has been
+          established. The perfect ermittelt haben marks that investigation as
+          completed before verstehen.
+        nuance: >
+          ermitteln suggests methodical determination. recht is the adverb
+          “properly/correctly,” not the adjective “right.”
+        ja_note: >
+          「何がその言語に欠けているかが分かって初めて」correctly conveys both
+          the dative relation and the restrictive force of erst.
+      - segment: "warum sie gerade diese oder jene Wendung vorzieht, diese oder jene Verbindung von Begriffen liebt"
+        syntax: >
+          Two coordinated predicates share sie, whose antecedent is einer
+          Sprache: sie zieht ... vor and [sie] liebt .... Their accusative
+          objects are diese oder jene Wendung and diese oder jene Verbindung;
+          von Begriffen depends on Verbindung.
+        grammar: >
+          gerade focuses the choices made by the language. diese oder jene is
+          not a strict binary; it means “this or that particular ...” among
+          recurrent alternatives.
+        nuance: >
+          liebt personifies the language and means “has a predilection for.”
+          Verbindung von Begriffen concerns ways of linking concepts, not merely
+          combinations of words.
+        ja_note: >
+          「概念同士のある種の結びつきを好む」would expose the structure of
+          Verbindung von Begriffen more clearly.
+      - segment: "warum sie in dieser oder jener Weise von der Ausdrucksweise unserer eigenen Sprache abweicht"
+        syntax: >
+          This is a third interrogative content clause. abweichen selects
+          von + dative; in dieser oder jener Weise is an adverbial of manner.
+          unserer eigenen Sprache is a genitive dependent on Ausdrucksweise.
+        grammar: >
+          The repeated warum resumes the interrogative frame after the two
+          preceding coordinated predicates and gives the final contrast weight.
+        nuance: >
+          unserer eigenen Sprache says “our own language”; it does not
+          explicitly mean “mother tongue.”
+        ja_note: "Keep 「われわれ自身の言語」rather than narrowing it to 「母語」."
+      - segment: "Wir erfassen alsdann ein gutes Theil von ihrem 'Geiste', wie man den Inbegriff ihrer Besonderheiten so gern nennt."
+        syntax: >
+          ein gutes Theil is the object of erfassen; von ihrem Geiste is a
+          partitive complement. The wie clause is a metalinguistic aside about
+          the label Geist. den Inbegriff is the object of nennt, and ihrer
+          Besonderheiten defines Inbegriff.
+        grammar: >
+          wie man ... nennt does not modify the manner of erfassen. It means
+          “as people are so fond of calling the sum of its peculiarities.”
+        nuance: >
+          so gern introduces mild distance toward the fashionable word Geist.
+          Inbegriff means the totality or sum; ein gutes Theil means a
+          substantial part, not the complete “core.”
+        ja_note: >
+          「肝が掴める」overstates the claim. Closer is 「その特殊性の総体を人が
+          好んで『精神』と呼ぶものの、かなりの部分を捉えられる」.
+      - segment: "Eine bemerkenswerthe Schwäche ... ist es, daß ihr bei allem Formenreichthum doch ein bequem zu verwendendes Passivum fehlt."
+        syntax: >
+          Eine ... Schwäche is the predicative nominative in an identifying
+          construction with anticipatory es. The daß clause supplies its
+          content. Within that clause, ein ... Passivum is the subject of fehlt
+          and ihr, referring to Greek, is dative.
+        grammar: >
+          bei allem Formenreichthum is concessive (“despite/for all its wealth
+          of forms”), reinforced by doch. bequem modifies zu verwendendes, so
+          the claim concerns ease of use rather than existence of morphology.
+        nuance: >
+          nun moves from the general method to the Greek example. fehlt sounds
+          categorical, but bequem zu verwendendes already narrows the claim.
+        ja_note: >
+          「形態の豊かさにもかかわらず、使いやすい受動態を欠く」preserves that
+          qualification.
+      - segment: "Die Übereinstimmung eines großen Theiles der passiven Formen mit den medialen erschwert ihre Anwendung."
+        syntax: >
+          Übereinstimmung is the head of the subject. eines großen Theiles der
+          passiven Formen is a nested genitive; mit den medialen complements
+          Übereinstimmung, with Formen omitted after medialen. ihre refers to
+          the passive forms.
+        grammar: >
+          Übereinstimmung means formal identity or syncretism here.
+          Anwendung is their practical use, not abstract “application.”
+        nuance: >
+          The pedagogical concern is ambiguity in production: a middle-passive
+          form may fail to signal the intended voice clearly.
+        ja_note: >
+          「中動態形との同形性が、それらを用いることを難しくする」makes the
+          antecedent of ihre explicit.
+      - segment: "weil Deutlichkeit das erste Gesetz der Sprache ist, und vielen Zeitwörtern fehlen überdies die allein dem Passivum eigenen Formen."
+        syntax: >
+          weil introduces the first reason. und then coordinates a second
+          reason at main-clause word order: vielen Zeitwörtern is dative, die
+          ... Formen is subject, and fehlen is finite. dem Passivum is dative
+          with eigen.
+        grammar: >
+          allein dem Passivum eigenen means forms exclusive to the passive.
+          überdies adds an independent further reason.
+        nuance: >
+          das erste Gesetz is a normative “foremost principle,” not a
+          descriptive linguistic law.
+        ja_note: >
+          Keep the reasons coordinate: 「明確さは言語の第一原理であり、さらに
+          多くの動詞では受動態だけに固有の形が欠ける」.
+      - segment: "Um die eigenthümliche Färbung ... nachzuahmen, hat man daher zu allererst Folgendes zu beachten."
+        syntax: >
+          Um ... nachzuahmen is a purpose infinitive whose understood subject is
+          generic man. Folgendes is the object of zu beachten in the modal
+          construction hat ... zu beachten.
+        grammar: >
+          haben + zu-infinitive expresses obligation. daher derives the rule
+          from the preceding diagnosis; zu allererst marks first priority.
+        nuance: >
+          Färbung is the language’s idiomatic coloring or cast. nachahmen means
+          reproducing it in one’s own Greek composition.
+        ja_note: >
+          「特有の色調を写そうとするなら、何よりまず次の点に注意せねばならない」
+          preserves purpose and obligation.
+      - segment: "Man meide thunlichst ... und achte darauf, wie der Grieche diese zu ersetzen pflegt."
+        syntax: >
+          meide and achte are coordinated present subjunctives used as formal
+          instructions. den medialen is dative with gleichlautend. darauf
+          anticipates the wie clause; diese refers to the passive forms, and
+          zu ersetzen depends on pflegt.
+        grammar: >
+          pflegen + zu-infinitive expresses customary practice. wie concerns
+          the manner of replacement. thunlichst means “as far as practicable.”
+        nuance: >
+          The instruction is not an absolute ban; thunlichst and the following
+          paragraph both leave a controlled class of acceptable passives.
+        ja_note: >
+          「できるかぎり避け、通常どのように言い換えるかに注意せよ」keeps
+          the qualification and the habitual force.
+      - segment: "Nur die durch den Zusammenhang sofort als solche erkennbaren und gewisse in häufigen Gebrauch gekommene Passiva ... sind unbedenklich anzuwenden."
+        syntax: >
+          The subject contains two groups: die ... erkennbaren [Passiva] and
+          gewisse ... Passiva. als solche means recognizable “as passive.”
+          der bezeichneten Art modifies Passiva. sind ... anzuwenden is
+          sein + zu-infinitive with passive-modal force.
+        grammar: >
+          durch den Zusammenhang gives the basis for recognizing the first
+          group; in häufigen Gebrauch gekommen describes the second group as
+          established through frequent usage.
+        nuance: >
+          unbedenklich means usable without misgiving or likely ambiguity, not
+          automatically idiomatic in every context.
+        ja_note: >
+          「文脈から直ちに受動と分かるものと、頻用によって定着した一定のもの
+          だけは、安心して用いられる」keeps the two conditions distinct.
+      - segment: "Umschreibungen des Passivums geschehen ..."
+        syntax: >
+          Umschreibungen is the subject and des Passivums an objective genitive:
+          paraphrases for passive expressions. The following durch phrases
+          classify the means by which paraphrase is effected.
+        grammar: >
+          geschehen is impersonal in tone and introduces a taxonomy, not one
+          uniform syntactic construction.
+        nuance: >
+          The four classes mix lexical converse, change of viewpoint,
+          intransitive result, eventive γίγνεσθαι, and nominal or adjectival
+          predication.
+        ja_note: >
+          「受動表現は次のように言い換えられる」is natural, but the commentary
+          should retain that the mechanisms differ.
+    grammatical_assessment: broadly-sound-but-overstated
+    evidence:
+      - >
+        The present, imperfect, and perfect systems commonly use syncretic
+        middle-passive forms, but Classical Greek does possess a productive
+        passive, especially distinct aorist and future formations. “Lacks an
+        easily usable passive” is therefore a stylistic teaching claim, not a
+        description of the morphological system.
+      - >
+        LSJ confirms the relevant idiomatic senses of μανθάνω, εὐδοκιμέω,
+        κάμνω, φεύγω, πάσχω, ἀποφεύγω, καταφανής, and ἄπιστος. The list mixes
+        lexical converses, intransitive result verbs, and genuinely periphrastic
+        expressions; they are not one grammatical construction.
+      - >
+        δίκην διδόναι is well attested in the canonical corpus. Several other
+        strings have no exact match because inflection and word order vary;
+        absence of an exact string is not negative evidence.
+      - >
+        For ὀργὴ γίγνεται compare Aristotle, Rhetoric 2.3, 1380b:
+        οὐ γίγνεται [ἡ] ὀργὴ πρὸς τὸ δίκαιον (“anger does not arise toward
+        what is just”), canonical CTS urn:cts:greekLit:tlg0086.tlg038.perseus-grc2:2.3.
+        This directly attests ὀργή as the subject of γίγνεσθαι, though with
+        verb-first word order. The German es wird gezürnt is correspondingly
+        an impersonal passive of intransitive zürnen (“people are angry/anger
+        is expressed”), not a personal passive meaning “someone is scolded.”
+    phrase_notes:
+      - greek: μανθάνειν
+        finding: >
+          Common from Homer onward in the active sense “learn, ascertain.” It
+          translates German belehrt werden by changing viewpoint: “learn” rather
+          than literally “be taught.” LSJ s.v. μανθάνω.
+      - greek: εὐδοκιμεῖν
+        finding: >
+          Attested with the sense “be held in good repute, enjoy esteem.” Thus
+          gerühmt werden is a lexical converse, not a passive paraphrase in the
+          narrow grammatical sense. LSJ s.v. εὐδοκιμέω.
+      - greek: κάμνειν
+        finding: >
+          Attested as “be weary, suffer, be ill.” geplagt werden is possible in
+          context but too broad as an equation. LSJ s.v. κάμνω.
+      - greek: εἰσιέναι εἰς δικαστήριον
+        finding: >
+          Directly attested in Attic oratory, e.g. Demosthenes 40.1 and 40.5
+          (tlg0014.tlg040). It means “go/come into court”; the surrounding
+          necessity or compulsion supplies the German “be brought to court.”
+        attestations:
+          - author: Demosthenes
+            work: Against Boeotus II
+            citation: "40.1"
+            date_register: "Classical Attic oratory, fourth century BCE"
+            text_grc: |-
+              καὶ ἀναγκάζηται πολλὰ καὶ δεινὰ παθὼν ὑπ᾽ αὐτῶν
+              εἰσιέναι εἰς δικαστήριον
+            translation_en: >
+              and, after suffering many grievous wrongs at their hands, is
+              compelled to go into court
+            urn: "urn:cts:greekLit:tlg0014.tlg040.perseus-grc2:1"
+            local_file: >-
+              canonical-greekLit/data/tlg0014/tlg040/tlg0014.tlg040.perseus-grc2.xml
+            relevance: >
+              The infinitive itself means “go into court”; ἀναγκάζηται supplies
+              the coercive force represented by German “be brought before court.”
+      - greek: φεύγειν
+        finding: >
+          Well-attested legal use, “be defendant, be prosecuted,” opposed to
+          διώκειν. This is one of the strongest examples in the list. LSJ s.v.
+          φεύγω, legal senses.
+      - greek: δοκεῖν
+        finding: >
+          Regularly means “seem, be thought/reputed”; with a complement it can
+          render “be considered ...”. The complement and construction must be
+          supplied; bare δοκεῖν is not by itself equivalent to the whole phrase.
+      - greek: πάσχω τι
+        finding: >
+          Productive Classical construction “undergo/suffer something,” often
+          paired with ποιεῖν. This is an active-form experiential verb and a
+          genuine alternative to many German passives. LSJ s.v. πάσχω.
+      - greek: ἐκπίπτειν
+        finding: >
+          Attested intransitively of being driven out, banished, or losing one's
+          position. The cause of removal is backgrounded, matching German
+          vertrieben werden in suitable contexts. LSJ s.v. ἐκπίπτω.
+      - greek: ἀπολλύναι τι
+        finding: >
+          Active “lose/destroy something.” For einer Sache beraubt werden the
+          relevant reading is “lose something”; this is a lexical converse and
+          should remain active in Japanese.
+      - greek: ἀποθνήσκειν
+        finding: >
+          Intransitive “die.” It may correspond pragmatically to “be killed”
+          when agency is irrelevant, but it does not itself encode killing.
+      - greek: ἀνέστησαν
+        finding: >
+          The isolated form is ambiguous: it may be intransitive “they stood
+          up/moved away” or transitive “they caused [others] to rise/remove.”
+          The gloss “they were driven out” requires a cited context and should
+          not be accepted from the form alone.
+      - greek: ἤκουσα
+        finding: >
+          Literally “I heard.” “I was answered” is a contextual inference—one
+          hears the reply—not a lexical meaning of the isolated aorist.
+      - greek: εὖ πάσχω
+        finding: >
+          Securely attested as “be well treated/receive benefits,” including
+          Aristotle, Rhetoric 1365b and 1371b (tlg0086.tlg038), and Xenophon.
+        attestations:
+          - author: Aristotle
+            work: Rhetoric
+            citation: "1.9, 1365b"
+            date_register: "Classical Attic philosophical prose, fourth century BCE"
+            text_grc: |-
+              τὸ εὖ πάσχειν τοῦ εὖ ποιεῖν δόξειεν ἂν αἱρετώτερον εἶναι
+            translation_en: >
+              receiving good treatment might seem more desirable than doing good
+            urn: "urn:cts:greekLit:tlg0086.tlg038.perseus-grc2:1.9"
+            local_file: >-
+              canonical-greekLit/data/tlg0086/tlg038/tlg0086.tlg038.perseus-grc2.xml
+            relevance: "Directly attests εὖ πάσχειν as the converse of εὖ ποιεῖν."
+      - greek: ἔλαχον
+        finding: >
+          Aorist of λαγχάνω, “obtain by lot/be allotted.” The passive Japanese
+          “くじで選ばれた” is contextually possible, but “くじで当たった／割り当てられた”
+          reflects the verb itself more exactly.
+      - greek: ἀπέφυγον
+        finding: >
+          Secure legal use “escape conviction, be acquitted,” e.g. Demosthenes
+          40.19 (ἀπέφυγον ... τὰς δίκας; tlg0014.tlg040). The proposed Japanese
+          無罪となった is appropriate.
+        attestations:
+          - author: Demosthenes
+            work: Against Boeotus II
+            citation: "40.19"
+            date_register: "Classical Attic oratory, fourth century BCE"
+            text_grc: |-
+              ὅτι ἀπέφυγον αὐτοὺς τὰς δίκας ἅς μοι ἐνεκάλουν
+            translation_en: >
+              that I was acquitted in the suits they brought against me
+            urn: "urn:cts:greekLit:tlg0014.tlg040.perseus-grc2:19"
+            local_file: >-
+              canonical-greekLit/data/tlg0014/tlg040/tlg0014.tlg040.perseus-grc2.xml
+            relevance: "Directly attests the legal sense ‘be acquitted.’"
+      - greek: κακῶς ἤκουσα
+        finding: >
+          κακῶς ἀκούειν is the established idiom “be ill spoken of, have a bad
+          reputation.” Exact tense and word order naturally vary. LSJ s.v. ἀκούω.
+      - greek: (ἔλεός) με εἰσῄει
+        finding: >
+          Literally “pity entered/came over me.” The construction is plausible
+          and idiomatic, but a secure Classical citation for this exact example
+          has not yet been identified in the local canonical corpus; retain as
+          requiring-source-check rather than claiming an attestation.
+      - greek: γίγνεσθαι
+        finding: >
+          Extremely common “become, come into being, take place.” It supports
+          result/event formulations, but the long German catalogue cannot be
+          treated as a list of automatic translations without individual nouns
+          and contexts. LSJ s.v. γίγνομαι.
+      - greek: ἔπαινον ἔχειν
+        finding: >
+          Attested, including Sophocles, Ajax 817 (κλεινὴ καὶ ἔπαινον ἔχουσ᾽;
+          tlg0011.tlg002), and Xenophontic material. “Have/receive praise” is
+          preferable to a mechanically passive “be praised.”
+        attestations:
+          - author: Sophocles
+            work: Ajax
+            citation: "817"
+            date_register: "Classical Attic tragedy, fifth century BCE"
+            text_grc: |-
+              οὐκοῦν κλεινὴ καὶ ἔπαινον ἔχουσ᾽
+            translation_en: "therefore renowned and possessing praise"
+            urn: "urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:817"
+            local_file: >-
+              canonical-greekLit/data/tlg0011/tlg002/tlg0011.tlg002.perseus-grc2.xml
+            relevance: >
+              Directly attests ἔπαινον ἔχειν, though in elevated tragic verse
+              rather than ordinary prose.
+      - greek: λόγος ἐστὶ (πολύς)
+        finding: >
+          The existential pattern “there is talk/a report” is well formed.
+          A near-exact λόγος ἦν ... πολύς occurs in Dionysius of Halicarnassus
+          (tlg0081.tlg001); this verifies the construction but is later than
+          Classical Attic prose.
+        attestations:
+          - author: Dionysius of Halicarnassus
+            work: Roman Antiquities
+            citation: "8.89.3"
+            date_register: "Hellenistic/early Imperial literary prose, first century BCE"
+            text_grc: |-
+              ἔδοξε μέντοι καὶ λόγος ἦν ἐν τῇ Ῥώμῃ πολύς
+            translation_en: "so it was believed, and there was much talk in Rome"
+            urn: "urn:cts:greekLit:tlg0081.tlg001.perseus-grc2:8.89.3"
+            local_file: >-
+              canonical-greekLit/data/tlg0081/tlg001/tlg0081.tlg001.perseus-grc2.xml
+            relevance: >
+              Attests the same existential λόγος + copula + πολύς construction,
+              but is not evidence for fifth-/fourth-century Attic usage.
+      - greek: δίκην διδόναι
+        finding: >
+          Abundantly attested Classical idiom “pay the penalty/be punished,”
+          e.g. Plato, Gorgias (tlg0059.tlg023) and Attic oratory.
+        attestations:
+          - author: Plato
+            work: Gorgias
+            citation: "472e"
+            date_register: "Classical Attic philosophical dialogue, fourth century BCE"
+            text_grc: |-
+              τὸ δίκην διδόναι πότερον πάσχειν τί ἐστιν ἢ ποιεῖν;
+            translation_en: "Is paying the penalty a kind of undergoing or of doing?"
+            urn: "urn:cts:greekLit:tlg0059.tlg023.perseus-grc2:472e"
+            local_file: >-
+              canonical-greekLit/data/tlg0059/tlg023/tlg0059.tlg023.perseus-grc2.xml
+            relevance: >
+              Directly attests the idiom and explicitly treats it as something
+              undergone, supporting the German passive paraphrase.
+      - greek: ὀργὴ γίγνεται
+        finding: >
+          Compare Aristotle, Rhetoric 1380b, οὐ γίγνεται [ἡ] ὀργὴ πρὸς τὸ
+          δίκαιον. This supports 怒りが生じる, not 怒られる.
+        attestations:
+          - author: Aristotle
+            work: Rhetoric
+            citation: "2.3, 1380b"
+            date_register: "Classical Attic philosophical prose, fourth century BCE"
+            text_grc: |-
+              οὐ γίγνεται [ἡ] ὀργὴ πρὸς τὸ δίκαιον
+            translation_en: "anger does not arise toward what is just"
+            urn: "urn:cts:greekLit:tlg0086.tlg038.perseus-grc2:2.3"
+            local_file: >-
+              canonical-greekLit/data/tlg0086/tlg038/tlg0086.tlg038.perseus-grc2.xml
+            relevance: >
+              Directly attests ὀργή as subject of γίγνεσθαι; only the word order
+              differs from the handbook’s phrase.
+      - greek: καταφανῆ εἶναι
+        finding: >
+          Directly attested with the sense “be manifest/clearly visible,” e.g.
+          Isaeus 2 (καταφανὲς ὑμῖν ἅπασι ... εἶναι; tlg0017.tlg002) and Plato,
+          Protagoras 317a (tlg0059.tlg022). “Be seen” is too unspecific.
+        attestations:
+          - author: Isaeus
+            work: On the Estate of Menecleus
+            citation: "2.40"
+            date_register: "Classical Attic oratory, fourth century BCE"
+            text_grc: |-
+              ἐγὼ δ᾽ οἶμαι καταφανὲς ὑμῖν ἅπασι τοῦτ᾽ εἶναι
+            translation_en: "I think this is manifest to all of you"
+            urn: "urn:cts:greekLit:tlg0017.tlg002.perseus-grc2:40"
+            local_file: >-
+              canonical-greekLit/data/tlg0017/tlg002/tlg0017.tlg002.perseus-grc2.xml
+            relevance: >
+              Direct Attic prose attestation for καταφανές + εἶναι in the sense
+              “be manifest,” not merely “be looked at.”
+      - greek: ἄπιστος εἶ
+        finding: >
+          ἄπιστος is well attested as “untrustworthy, incredible” and also
+          “unbelieving.” No exact Classical occurrence of the two-word string
+          was found locally. Without context, “you are not believed” suppresses
+          the adjective's ambiguity; “君は信用されない” is safer.
+    source_issues:
+      - "Gesets is an OCR/transcription error for Gesetz."
+      - "Greek εἰναι should be accented εἶναι."
+      - >
+        einer Sache beraubt werden → ἀπολλύναι τι is literally an active
+        lexical converse, “lose something,” not a passive expression. Japanese
+        should not retain an artificial passive merely to mirror the German.
+      - >
+        καταφανῆ εἶναι means “be clearly visible/apparent”; 見られる is too
+        broad and can mean merely “be seen.”
+      - >
+        ἄπιστος εἶ is person-oriented (“you are not credible/untrustworthy”),
+        so 君の言うことは信じてもらえない is clearer than あなたは信じてもらえない.
+    review_comments:
+      - "母語 is not explicit in unserer eigenen Sprache; われわれ自身の言語 is closer."
+      - "応用を難しくする is unnatural here; Verwendung means actual use."
+      - "置き換えるのが常であったか incorrectly shifts the habitual present pflegt into the past."
+      - "The original’s provocative Schwäche should remain 弱点, but the modern assessment must qualify it."
+    status: ja-revised
+
+  - id: grammar-002-object-ellipsis
+    title: 共通目的語の省略
+    de_location: grammar.tex:89-103
+    ja_location: grammar-ja.tex:229-260
+    ja_revised: |-
+      ギリシャ語には、近代諸語に見られるような、目的語を明示するうえでの厳密さがない。
+      近代語では、結び合わされた二つの動詞が同じ目的語を異なる格で要求するとき、
+      第二の動詞のところでは名詞を繰り返さず、これに代えて人称代名詞を目的語として置く。
+      \emph{これに対してギリシャ人は、第二の動詞がいかなる格を要求しようとも、共通の目的語に当たる項を明示しない。}
+
+      また、フランス語の\textfrench{en}に相当する目的語（「そのうちのもの」「それを」）も、
+      ギリシャ語では表されない。例えば、
+      「彼らが（\ruby{それ}{金}を）欲するなら、彼らはリュディアから金を取り寄せさせねばなるまい」
+      \textgreek[variant=ancient]{ἐκ Λυδίας μεταστέλλεσθαι τὸ χρυσίον δεήσει αὐτοὺς, ἢν ἐπιθυμήσωσιν.}\footnote{ルーキーアーノス『神々の対話』15.2}
+    analysis_units:
+      - segment: "Im Griechischen fehlt die Genauigkeit in der Bezeichnung des Objectes, wie sie den modernen Sprachen eigen ist."
+        syntax: >
+          die Genauigkeit is the subject of fehlt; im Griechischen marks the
+          linguistic domain. in der Bezeichnung des Objectes specifies the
+          respect in which precision is said to be lacking. In the wie clause,
+          sie refers to die Genauigkeit and den modernen Sprachen is dative
+          with eigen.
+        grammar: >
+          jemandem eigen sein means “to be characteristic of something.”
+          wie is comparative, not interrogative.
+        nuance: >
+          Bezeichnung here means overt marking or expression, not “naming.”
+          The claim concerns explicit complement realization.
+        ja_note: >
+          「目的語を明示するうえでの厳密さ」is more precise than a literal
+          「目的語の名称の正確さ」.
+      - segment: "wenn zwei verbundene Verba das gleiche Object in verschiedenem Casus erfordern"
+        syntax: >
+          zwei verbundene Verba is the subject, das gleiche Object the object
+          of erfordern, and in verschiedenem Casus specifies the case form
+          governed by each verb.
+        grammar: >
+          gleiche denotes one and the same referent; verschiedenem Casus is
+          distributive in sense, since the two verbs require different cases.
+        nuance: >
+          One semantic participant belongs to both predicates, but its overt
+          form would not satisfy both patterns of case government.
+        ja_note: >
+          「同一の対象をそれぞれ異なる格で要求する」makes the distributive
+          relation explicit.
+      - segment: "zum zweiten Verbum anstatt der Wiederholung des Nomens das persönliche Pronomen (...) als Object [setzen]"
+        syntax: >
+          setzen is inherited from die letzteren setzen. das persönliche
+          Pronomen is its object; zum zweiten Verbum indicates where it is
+          supplied. anstatt der Wiederholung des Nomens gives the alternative,
+          and als Object states its function.
+        grammar: >
+          zum zweiten Verbum describes resumptive expression alongside the
+          second coordinated verb. The parenthetical cases illustrate the forms
+          required by different constructions.
+        nuance: >
+          The list seiner, ihm, ihn ... is grammatical evidence, not a sequence
+          that Japanese must reproduce mechanically.
+        ja_note: >
+          「第二の動詞のところでは、名詞を繰り返す代わりに人称代名詞を目的語
+          として置く」is structurally faithful.
+      - segment: "der Grieche läßt die Stelle des gemeinsamen Objectes beim zweiten Verbum unbezeichnet, gleichviel in welchem Casus es stehen müßte."
+        syntax: >
+          die Stelle des gemeinsamen Objectes is the object of läßt and
+          unbezeichnet its object complement. beim zweiten Verbum locates the
+          position. gleichviel introduces a concessive free-choice clause; es
+          refers to the common object.
+        grammar: >
+          lassen + object + adjective means “leave X in a state.” müßte is
+          subjunctive II because it describes the case in which the omitted
+          expression would have to stand if it were present.
+        nuance: >
+          Stelle is an abstract syntactic slot, not a literal blank. gleichviel
+          makes the handbook rule categorical despite differing case government.
+        ja_note: >
+          A fully explicit version is 「第二の動詞に対応する共通目的語の位置を、
+          もし表せばどの格になるはずであっても、明示しない」.
+      - segment: "Das dem französischen en entsprechende Object (...) wird im Griechischen nicht ausgedrückt."
+        syntax: >
+          Das ... Object is the subject. dem französischen en is dative with
+          entsprechend; entsprechende is an attributive participle. The
+          predicate is passive wird ... ausgedrückt.
+        grammar: >
+          The German welcher forms imitate French partitive/anaphoric en and
+          stand for a previously introduced noun: approximately “some of
+          it/them.”
+        nuance: >
+          This is narrower than saying that Greek never expresses pronominal
+          objects. It concerns a recoverable partitive or anaphoric complement.
+        ja_note: >
+          Japanese naturally omits such complements too, so 「そのうちのもの／
+          それを」must be supplied in the explanation to expose the contrast.
+      - segment: "Sie werden das Gold aus Lydien holen lassen müssen, wenn sie welches haben wollen."
+        syntax: >
+          werden ... müssen is future-oriented modal syntax; holen lassen is a
+          causative infinitive cluster, “have someone fetch.” welches is an
+          anaphoric accusative referring to Gold. The wenn clause gives the
+          condition; haben wollen means “want to have.”
+        grammar: >
+          German welches overtly resumes Gold. Greek ἐπιθυμήσωσιν “if they
+          desire” has an understood object; δεήσει αὐτούς governs the infinitive
+          μεταστέλλεσθαι.
+        nuance: >
+          German and Greek are not lexically exact: German says “want to have
+          some,” Greek only “desire [it].” The omitted complement nevertheless
+          illustrates the intended point.
+        ja_note: >
+          Keep 「それを」when translating the German, then note that Greek leaves
+          the corresponding object unspoken.
+    grammatical_assessment: broadly-sound-but-overstated
+    evidence:
+      - >
+        Ancient Greek freely omits contextually recoverable complements, but
+        this is a strong discourse tendency rather than an inability to express
+        an object pronoun. The categorical fehlt/nicht ausgedrückt should be
+        preserved as the author’s rule and qualified in commentary.
+      - >
+        The cited sentence occurs in Lucian, Dialogues of the Gods 15.2
+        (canonical corpus tlg0062.tlg023). It is Imperial Greek, not direct
+        evidence from a fifth- or fourth-century Attic author.
+    source_issues:
+      - >
+        The German paraphrase says “das Gold ... wenn sie welches haben wollen,”
+        but Greek ἐπιθυμήσωσιν has no “have”: it means “if they desire [gold].”
+        Japanese should translate the German paraphrase faithfully by retaining
+        それを; commentary can then point out that Greek leaves this object
+        unexpressed. Silently following the Greek would erase the contrast.
+    review_comments:
+      - "目的語の指示の精密さ is intelligible; 目的語を明示するうえでの厳密さ is more natural."
+      - "The long list of German pronoun cases need not be mechanically reproduced in Japanese."
+    status: ja-revised
+
+  - id: grammar-003-cleft-and-focus
+    title: 強調構文と文の分割
+    de_location: grammar.tex:105-116
+    ja_location: grammar-ja.tex:264-289
+    ja_revised: |-
+      ギリシャ語にもラテン語にも、近代諸語に見られる次のような強調構文はない\footnote{非人称主語を用いる構文は日本語にも無い。以下の例文はドイツ語の構造を保とうとしたものものであるが、日本語として苦しい。}。
+      ドイツ語では、他の近代諸語と同じく、強調したい概念を、多くは非人称主語「\ruby{それ}{\textgerman{es}」を伴う新たな文の述語とし、
+      残りの文成分を関係詞または接続詞で導かれる従属節として添える。
+      \emph{ギリシャ語では、ある概念を強調するために一つの文を二つに分けるような構文を用いてはならない。}
+      例えば、
+
+      「これを言うのは同じ者である」\textgreek[variant=ancient]{ὁ αὐτὸς ταῦτα λέγει}.\\
+      「君が呼んでいる男は誰か」\textgreek[variant=ancient]{τίνα τὸν ἄνδρα καλεῖς;}\\
+      「君がこれをしたということ、それは本当か」\textgreek[variant=ancient]{ἆρ᾽ ἀληθῶς τοῦτ᾽ ἐποίησας;}\\
+      「……するということ、どうしてそれが可能なのか」「……するということ、どうしてそうなるのか」\textgreek[variant=ancient]{πῶς\ldots{};}
+    analysis_units:
+      - segment: "Dem Griechen fehlt, wie dem Lateiner, das Mittel zur Hervorhebung einzelner Satztheile ..."
+        syntax: >
+          das Mittel is the subject of fehlt; dem Griechen and the inserted
+          comparison wie dem Lateiner are datives. zur Hervorhebung einzelner
+          Satztheile is a purpose complement to Mittel.
+        grammar: >
+          The generic singular dem Griechen/dem Lateiner denotes Greek/Latin
+          speakers or their languages. wie dem Lateiner is elliptical for wie
+          es dem Lateiner fehlt.
+        nuance: >
+          The broad das Mittel is restricted by the following relative clause
+          to one modern clefting device. It does not deny Greek every means of
+          focus.
+        ja_note: >
+          「次のような強調手段」is safer than an initially unqualified
+          「強調する手段」.
+      - segment: "welches unsere Sprache ... darin besitzt, daß sie den hervorzuhebenden Begriff zum Prädicate eines neuen Satzes ... macht"
+        syntax: >
+          welches refers to das Mittel and is the object of besitzt. darin
+          anticipates the daß clause. In that clause, sie refers to unsere
+          Sprache, den ... Begriff is the object of macht, and zum Prädicate
+          its predicative complement.
+        grammar: >
+          etwas darin besitzen, daß ... means “possess something in the device
+          that ...”. machen + object + zu + dative means “make X into Y.”
+        nuance: >
+          meist mit dem unpersönlichen Subject es describes the new matrix
+          clause, as in Es ist X, der/das ....
+        ja_note: >
+          「強調対象を、多くは非人称主語 es を伴う新しい文の述語とする」
+          correctly exposes the mechanics.
+      - segment: "während die übrigen Satztheile in einem abhängigen Satze vermittelst eines Relativs oder einer Conjunction angefügt werden"
+        syntax: >
+          während coordinates the structural counterpart rather than a
+          temporal event. die übrigen Satztheile is the passive subject; in
+          einem abhängigen Satze gives their location, and vermittelst ... gives
+          the linking means.
+        grammar: >
+          eines Relativs uses substantivized Relativ, meaning a relative word.
+          angefügt werden means that the remaining proposition is attached to
+          the newly made matrix clause.
+        nuance: >
+          The focus construction redistributes one proposition over a matrix
+          predication and a dependent relative or conjunctional clause.
+        ja_note: >
+          「残りの文成分を従属節に入れ、関係詞または接続詞によって主節に添える」
+          makes the attachment relation explicit.
+      - segment: "Im Griechischen muß die ... Zerlegung eines Satzes in zwei unterbleiben."
+        syntax: >
+          Zerlegung is the head of the subject. eines Satzes is an objective
+          genitive, in zwei means “into two [sentences/clauses],” and die der
+          Hervorhebung ... dienende is an attributive participial phrase.
+          der Hervorhebung is dative with dienen.
+        grammar: >
+          unterbleiben means “not take place/remain undone”; muß therefore
+          states a composition prohibition.
+        nuance: >
+          The scope is sentence-splitting specifically used for focus, not
+          every construction containing two clauses.
+        ja_note: >
+          「強調のために一文を二つに分ける、この構文は用いない」is less open
+          to an overbroad reading.
+      - segment: "Es ist derselbe, der dies sagt / ὁ αὐτὸς ταῦτα λέγει."
+        syntax: >
+          German makes derselbe the predicate of an es ist matrix clause and
+          places the original predication in der dies sagt. Greek has one
+          clause: ὁ αὐτός is subject, ταῦτα object, and λέγει predicate.
+        grammar: >
+          The article plus αὐτός forms the identity expression “the same
+          person.” Greek focus is not encoded by a separate matrix clause.
+        nuance: >
+          Greek may still focus ὁ αὐτός by order, context, and prosody; only the
+          dedicated German frame disappears.
+        ja_note: >
+          Gloss the Greek separately as 「同じ者がこれを言う」to display the
+          structural contrast.
+      - segment: "Wer ist der Mann, den du rufst? / τίνα τὸν ἄνδρα καλεῖς;"
+        syntax: >
+          German has a matrix identification question and a relative clause.
+          Greek has one clause: τίνα modifies τὸν ἄνδρα, and the entire noun
+          phrase is the accusative object of καλεῖς.
+        grammar: >
+          τίνα τὸν ἄνδρα asks “which man?” rather than splitting “who?” from
+          “the man whom ...”.
+        nuance: >
+          καλεῖν may mean call, summon, or call by name; the isolated example
+          does not decide among these.
+        ja_note: "The Greek-side syntax is 「君はどの男を呼んでいるのか」."
+      - segment: "Ist es wahr, daß du das gethan hast? / ἆρ᾽ ἀληθῶς τοῦτ᾽ ἐποίησας;"
+        syntax: >
+          German uses anticipatory es and evaluates the daß proposition as
+          wahr. Greek asks one direct polar question: ἆρα marks the question,
+          ἀληθῶς modifies ἐποίησας, and τοῦτο is its object.
+        grammar: >
+          Greek is literally “Did you really do this?” It replaces biclausal
+          truth evaluation with a one-clause question about actuality.
+        nuance: >
+          ἀληθῶς may challenge confirmation and can be more pointed than a
+          neutral “is it true?”
+        ja_note: >
+          Contrast German 「君がこれをしたというのは本当か」with Greek
+          「君は本当にこれをしたのか」.
+      - segment: "Wie ist es möglich, daß ... / wie kommt es, daß ... / πῶς ...;"
+        syntax: >
+          Both German formulas use anticipatory es and a daß clause. Greek πῶς
+          directly modifies the predicate that follows, leaving one clause.
+        grammar: >
+          wie kommt es, daß asks for an explanation, while wie ist es möglich,
+          daß asks about possibility. Bare πῶς can serve either function only
+          when its predicate and context disambiguate it.
+        nuance: >
+          These are examples of structural compression, not proof that the two
+          German formulas and πῶς are exact lexical synonyms.
+        ja_note: >
+          Choose 「どうして」「どうして可能なのか」or 「どのように」according
+          to the actual predicate.
+    grammatical_assessment: stylistic-generalization
+    evidence:
+      - >
+        Greek lacks the Germanic/Romance expletive cleft pattern described here,
+        but it has abundant focus strategies: word order, αὐτός, particles,
+        predicative structures, and prosody. “Lacks a means of emphasis” is false
+        if read generally; the rule concerns one particular cleft construction.
+    source_issues:
+      - "prädivcte is a transcription error for prädicate."
+      - >
+        A Japanese translation of the German must preserve its cleft-like
+        formulation, while a literal rendering of the Greek must display the
+        un-split syntax. Giving both makes the intended contrast visible.
+      - >
+        τίνα τὸν ἄνδρα καλεῖς means “which man are you calling?”, not “who is
+        the man whom you are calling?”; the latter is the German cleft-like prompt.
+    status: ja-revised
+
+  - id: grammar-004-connectives-and-asyndeton
+    title: 接続詞と接続詞省略
+    de_location: grammar.tex:118-156
+    ja_location: grammar-ja.tex:293-394
+    ja_revised: |-
+      ギリシャ語では、並列された文や文成分を接続のないままにしておくことはできない。
+      文成分を接続詞省略によって並べることはまれであり、とりわけ激しい感情を表す場合に用いられる。
+
+      連続した談話では、\emph{新しい文は一つ一つ}、適切な接続詞
+      （\textgreek[variant=ancient]{δέ, καί οὖν, γάρ}など）によって先行する文に\emph{接続せねばならない}。
+      学習者は、\textgreek[variant=ancient]{μέν}を、先行文との接続そのものを担う接続詞だと考えぬように注意すべきである。
+      \textgreek[variant=ancient]{μέν}は、後続するものを予告するにすぎないからである。
+
+      連続した談話において、接続詞を伴わず新しい文が付け加えられるのは、次の場合に限られる。
+
+      1. ドイツ語であれば句読記号としてコロンを置くだろうところ。
+      2. 新しい文が、強く強調された指示詞で始まるとき。
+      3. 新しい文が\textgreek[variant=ancient]{εἶτα}（「それから」）または\textgreek[variant=ancient]{ἔπειτα}で始まるとき。
+      4. ドイツ語なら\textgerman{nicht aber}「しかし……ではない」の如く対照的に否定するところ。この場合、\textgreek[variant=ancient]{οὐ}
+      （または\textgreek[variant=ancient]{μή}）だけを置くことが多い。\textgreek[variant=ancient]{οὐδέ}は
+      「……でもない」または「……さえない」を意味するからである。ただし、\textgreek[variant=ancient]{οὐ μέντοι}も多く用いられる。
+    analysis_units:
+      - segment: "Coordinirte Sätze und coordinirte Satztheile kann der Grieche nicht unverbunden lassen."
+        syntax: >
+          Coordinirte Sätze und coordinirte Satztheile is the fronted object of
+          lassen; der Grieche is the subject. lassen + object + adjective
+          unverbunden means “leave them unconnected.”
+        grammar: >
+          Fronting gives the two domains of the rule prominence. nicht has
+          scope over unverbunden lassen, not over coordination itself.
+        nuance: >
+          kann ... nicht is a categorical composition rule. It describes a
+          strong norm of overt discourse linkage, not an absolute impossibility
+          of encountering juxtaposition.
+        ja_note: >
+          「並列された文や文成分を無接続のままにしておくことはできない」
+          preserves the scope of nicht.
+      - segment: "Asyndetisches Nebeneinanderstellen von Satztheilen kommt nur selten und zwar als Ausdruck lebhafter Erregung zur Anwendung."
+        syntax: >
+          Asyndetisches Nebeneinanderstellen is the subject; von Satztheilen
+          specifies what is juxtaposed. kommt ... zur Anwendung is a light-verb
+          construction meaning “is employed.” nur selten and als Ausdruck ...
+          restrict its use.
+        grammar: >
+          und zwar specifies the preceding statement: the author assigns the
+          rare use the function that follows.
+        nuance: >
+          lebhafte Erregung is heightened emotional agitation or excitement,
+          not merely stylistic “liveliness.” The historical generalization is
+          too narrow.
+        ja_note: >
+          「まれであり、とりわけ激しい感情の表出として用いられる」shows the
+          explicative force of und zwar.
+      - segment: "In ununterbrochener Rede ist jeder neue Satz ... an das Vorausgehende anzuschließen."
+        syntax: >
+          jeder neue Satz is the subject of passive-modal ist ... anzuschließen.
+          durch eine passende Conjunction gives the means, and an das
+          Vorausgehende is the complement of anschließen.
+        grammar: >
+          sein + zu-infinitive expresses obligation. das Vorausgehende is a
+          substantivized participle meaning the preceding discourse, not
+          necessarily only the immediately preceding sentence.
+        nuance: >
+          ununterbrochene Rede means connected discourse rather than isolated
+          exercises. passend requires a connective matching the intended
+          discourse relation.
+        ja_note: >
+          「連続した談話では、新しい文を一つ一つ、適切な接続詞で先行する談話に
+          つなげる」makes the setting explicit.
+      - segment: "Der Lernende ist davor zu warnen, μέν für eine ... Conjunction zu halten."
+        syntax: >
+          ist ... zu warnen is passive-modal. davor anticipates the infinitive
+          phrase μέν ... zu halten. X für Y halten means “regard X as Y.”
+          The participial phrase diese Verbindung ... ersetzende modifies
+          Conjunction.
+        grammar: >
+          The allegedly replaced Verbindung is the backward link to the
+          preceding discourse. The warning concerns the learner’s classification
+          of μέν, not merely a poor Japanese gloss.
+        nuance: >
+          μέν is not being denied all connective function; the author contrasts
+          its forward-pointing role with particles that explicitly relate the
+          sentence to what precedes.
+        ja_note: >
+          「μέν を、先行文との接続そのものを担う接続詞だと見なさないように」
+          states the error clearly.
+      - segment: "da es nur zum Hinweis auf das Folgende dient."
+        syntax: >
+          da introduces the reason. es refers to μέν. zum Hinweis is a function
+          complement of dient, and auf das Folgende depends on Hinweis.
+        grammar: >
+          zu etwas dienen means “serve for/as.” das Folgende is substantivized
+          and denotes the coming balancing or contrasting member.
+        nuance: >
+          nur is restrictive: in this simplified account, μέν announces what
+          follows but does not by itself specify a backward relation.
+        ja_note: >
+          「後続する対照項を予告するだけだからである」is more informative than
+          simply 「後続するもの」.
+      - segment: "Anfügung ohne Bindewort ist ... nur gestattet."
+        syntax: >
+          Anfügung is the subject, ohne Bindewort qualifies it, and ist ...
+          gestattet is a passive predicate. The colon introduces four
+          conditions restricted by nur.
+        grammar: >
+          Anfügung means adjoining or adding a new sentence. It does not denote
+          parenthetical insertion.
+        nuance: >
+          nur gestattet presents the following list as exhaustive permission
+          within the author’s composition system.
+        ja_note: >
+          「接続詞を伴わず新しい文を付け加えられるのは次の場合だけである」
+          is concrete and structurally exact.
+      - segment: "an den Stellen, wo wir im Deutschen den Doppelpunkt als Interpunctionszeichen setzen"
+        syntax: >
+          an den Stellen is selected by the understood gestattet. wo introduces
+          a relative clause; den Doppelpunkt is the object of setzen, and als
+          Interpunctionszeichen states its role.
+        grammar: >
+          German punctuation serves as a practical diagnostic for relations
+          such as explanation, specification, or quotation in Greek.
+        nuance: >
+          The direction is “where a German formulation would use a colon,” not
+          “where Greek punctuation contains a colon.”
+        ja_note: >
+          「ドイツ語に訳せばコロンを置く関係にある箇所」makes that direction clear.
+      - segment: "wenn der neue Satz mit stark betontem Demonstrativum beginnt"
+        syntax: >
+          wenn introduces a licensing condition. mit ... Demonstrativum is the
+          complement of beginnt; stark betontem marks discourse stress/focus.
+        grammar: >
+          Demonstrativum includes demonstrative pronouns or expressions. Strong
+          deixis can itself mark a discourse break or resumption.
+        nuance: >
+          The licensing factor is not the mere presence of a demonstrative but
+          its strong emphasis.
+        ja_note: "Keep both elements: 「強勢を置いた指示語で始まるとき」."
+      - segment: "wenn der neue Satz mit εἶτα (= und dann) oder ἔπειτα beginnt"
+        syntax: >
+          This repeats the preceding wenn ... beginnt frame, with εἶτα or
+          ἔπειτα as the complement of mit.
+        grammar: >
+          These adverbs themselves encode temporal or sequential progression,
+          so no additional coordinating conjunction need precede them.
+        nuance: >
+          Both can mean “then/next” and may also introduce a pointed subsequent
+          question or objection. They are not semantically empty “and.”
+        ja_note: >
+          「それから／次に」is the default; 「そして」alone loses sequence.
+      - segment: "wo wir im Deutschen mit 'nicht aber' fortfahren; es steht dann häufig bloßes οὐ (beziehentlich μή)"
+        syntax: >
+          wo refers to discourse positions. mit nicht aber fortfahren means
+          “continue with ‘not, however ...’.” bloßes οὐ is the subject of
+          steht; es is an impersonal placeholder. beziehentlich means
+          “respectively/as applicable,” assigning μή to μή-contexts.
+        grammar: >
+          Greek may express corrective negation by οὐ or μή alone, with the
+          adversative relation inferred from juxtaposition.
+        nuance: >
+          German nicht aber is corrective “but not X,” not merely continuation
+          of a prior negation.
+        ja_note: >
+          「『しかし…ではない』と対照的に否定する箇所では、οὐ（必要に応じて μή）
+          だけを置くことが多い」makes bloßes explicit.
+      - segment: "weil οὐ mit δέ 'und nicht' oder 'nicht einmal' bedeutet"
+        syntax: >
+          The print separates οὐ and δέ, but the meanings stated belong to the
+          single particle οὐδέ. The weil clause explains why οὐδέ is not the
+          desired equivalent of German nicht aber.
+        grammar: >
+          οὐδέ continues/adds negation (“and not/nor”) or has scalar force
+          (“not even”); it does not normally mark corrective “but not.”
+        nuance: >
+          This is best treated as a source spacing or formulation problem, not
+          as instruction to combine independent οὐ with δέ.
+        ja_note: >
+          Give the transparent correction: 「οὐδέ は『そして…ない／…さえない』
+          を意味するため」.
+      - segment: "oft jedoch auch οὐ μέντοι"
+        syntax: >
+          This elliptically continues es steht: “[there is used] often, however,
+          also οὐ μέντοι.” auch adds a fuller alternative to bare οὐ/μή.
+        grammar: >
+          μέντοι supplies an overt adversative or corrective transition; οὐ
+          negates the proposition that follows.
+        nuance: >
+          The fuller alternative shows that bare corrective negation is not the
+          only available formulation.
+        ja_note: >
+          「ただし、より明示的な οὐ μέντοι も多く用いられる」clarifies its role.
+    grammatical_assessment: broadly-sound-but-overstated
+    evidence:
+      - >
+        Sentence-initial particles and connectives are a central feature of
+        Greek discourse, and μέν normally anticipates a following contrast.
+        Nevertheless, asyndeton is not confined to emotional excitement; it
+        also occurs in lists, summaries, transitions, commands, and rhetorical
+        structures. The author presents a useful composition heuristic as an
+        absolute rule.
+      - >
+        The parenthesis in the source almost certainly intends οὐδέ, not οὐ with
+        δέ. The current Japanese follows the malformed wording and should be
+        corrected transparently.
+    source_issues:
+      - "Verbin- dung contains an accidental space/hyphenation artifact."
+      - "fortsahren is a source typo for fortfahren, already noted in grammar-ja.tex."
+      - "εἶτα is ‘then/next’, not merely ‘and’; それから is more exact than そして."
+      - >
+        “接続語なしの挿入” is misleading: Anfügung here is the attachment or
+        addition of a new sentence, not parenthetical insertion.
+    status: ja-revised
+
+  - id: grammar-005-discourse-particles
+    title: 談話標識と小辞の対応
+    de_location: grammar.tex:157-214
+    ja_location: grammar-ja.tex:398-557
+    de_original: |-
+      Man merke: Nun so ... denn = \textgreek[variant=ancient]{ἀλλά,}
+
+      o dann ... = \textgreek[variant=ancient]{ἄρα,}
+
+      da kam, da sagte = \textgreek[variant=ancient]{καὶ ἦλθε, καὶ εἰπεν,}
+
+      jedoch = \textgreek[variant=ancient]{μέντοι,}
+
+      denn sonst \ldots{} = \textgreek[variant=ancient]{γάρ,}
+
+      denn (folgernd), z.B. höre \emph{denn, so} ward er \emph{denn} ..
+      = \textgreek[variant=ancient]{δή,}
+
+      doch wohl (ohne Zweifel) = \textgreek[variant=ancient]{δήπου,}
+
+      und schon = \textgreek[variant=ancient]{καὶ δή}
+      (\textgreek[variant=ancient]{δή} = \textgreek[variant=ancient]{ἤδη}),
+      vgl. \textgreek[variant=ancient]{πάλαι δή} schon längst,
+      \textgreek[variant=ancient]{νῦν δή} jetzt eben,
+
+      wohl aber = \textgreek[variant=ancient]{δέ,}
+
+      dann erst / erst dann = \textgreek[variant=ancient]{οὕτω δή,}
+
+      \ldots{} allerdings = \textgreek[variant=ancient]{\ldots{} μήν,}
+
+      indessen \ldots{} = \textgreek[variant=ancient]{οὐ μὴν ἀλλά,}
+
+      wahrscheinlich (adv.) = \textgreek[variant=ancient]{ἦ που \ldots{}}
+
+      oder (nach Negationen) = \textgreek[variant=ancient]{οὐδέ, μνδέ,}
+
+      doch (lat. \textlatin{quaeso}) = \textgreek[variant=ancient]{δῆτα,}
+
+      nicht sowohl \ldots{} als vielmehr =
+      \textgreek[variant=ancient]{οὐ τοσοῦτον ὅσον \ldots{};
+      οὐ τὸ πλέον \ldots{} ἀλλὰ \ldots{}}
+
+      Aus der Thatsache, daß „o dann ...“ sich überall passend durch
+      \textgreek[variant=ancient]{ἄρα} geben läßt, folgt noch keineswegs,
+      daß umgekehrt \textgreek[variant=ancient]{ἄρα} sich überall passend
+      durch „o dann ...“ übersetzen lasse.
+    ja_revised: |-
+      次の対応に注意すること。
+
+      では、さあ……：\textgreek[variant=ancient]{ἀλλά}\\
+      ああ、それなら……／なるほど、では……：\textgreek[variant=ancient]{ἄρα}\\
+      すると彼は来た、そして言った：\textgreek[variant=ancient]{καὶ ἦλθε, καὶ εἶπεν}\\
+      しかしながら／とはいえ：\textgreek[variant=ancient]{μέντοι}\\
+      というのも、さもなければ……：\textgreek[variant=ancient]{γάρ}\\
+      では／そこで／こうして（先行内容を受けて）：\textgreek[variant=ancient]{δή}\\
+      きっと……だろう（疑いなく）：\textgreek[variant=ancient]{δήπου}\\
+      するともう……／そして早くも……：\textgreek[variant=ancient]{καὶ δή}\\
+      例：\textgreek[variant=ancient]{πάλαι δή}「もうとっくに」、
+      \textgreek[variant=ancient]{νῦν δή}「今まさに／たった今」\\
+      しかし……ではある：\textgreek[variant=ancient]{δέ}\\
+      その時になって初めて／そうして初めて：\textgreek[variant=ancient]{οὕτω δή}\\
+      確かに……ではある／……なのは確かだ：\textgreek[variant=ancient]{\ldots{} μήν}\\
+      とはいえ……／しかし、それでも……：\textgreek[variant=ancient]{οὐ μὴν ἀλλά}\\
+      おそらく……だろう：\textgreek[variant=ancient]{ἦ που}\\
+      （否定のあとで）また……もない／……でもない：\textgreek[variant=ancient]{οὐδέ, μηδέ}\\
+      どうか／ねえ（問いでは「いったい」；ラテン語\textlatin{quaeso}）：\textgreek[variant=ancient]{δῆτα}\\
+      Xというよりも、むしろY：
+      \textgreek[variant=ancient]{οὐ τοσοῦτον ὅσον \ldots{};
+      οὐ τὸ πλέον \ldots{} ἀλλὰ \ldots{}}
+
+      ただし、「ああ、それなら……」がどの場合にも\textgreek[variant=ancient]{ἄρα}で適切に表せるからといって、
+      逆に\textgreek[variant=ancient]{ἄρα}がどの場合にも「ああ、それなら……」と適切に訳せるということには、決してならない。
+    reference_availability:
+      local_resources: >
+        The LSJ, canonical-greekLit, and ancient-greek-texts paths recorded in
+        meta.resource_roots were not present when this entry was rechecked.
+      lsj: >
+        LSJ entries were checked through the Scaife ATLAS publication of the
+        Perseus lexicon.
+      denniston: >
+        No locally readable or openly searchable full text of Denniston was
+        available. Open Library supplied bibliographic access only. Denniston's
+        account of δή was checked indirectly through Tomaka 2022, which quotes
+        The Greek Particles pp. 203-204, 237, and 248.
+      supplementary_grammar: >
+        Smyth, Greek Grammar for Colleges, sections 2784 and 2846-2851,
+        2917-2921, was used for descriptions and cited Classical examples.
+    reference_sources:
+      - title: "LSJ: ἄρα"
+        url: "https://atlas.perseus.tufts.edu/dictionaries/entry/urn%3Acite2%3Ascaife-viewer%3Adictionaries.v1%3Alsj-n14639/"
+        finding: >
+          Expresses consequence or succession: “then,” “there and then,” and
+          derived inferential uses. This supports 「それなら／すると」, but the
+          exclamation 「ああ」 comes from German o, not from ἄρα itself.
+      - title: "LSJ: δήπου"
+        url: "https://atlas.perseus.tufts.edu/dictionaries/entry/urn%3Acite2%3Ascaife-viewer%3Adictionaries.v1%3Alsj-n24493/"
+        finding: >
+          Gives “perhaps” in some usage and, especially in tragedy and Attic,
+          “doubtless, I presume.” Thus 「きっと……だろう」 fits the German doch
+          wohl, while 「おそらく」 remains possible in less confident contexts.
+      - title: "LSJ: δῆτα"
+        url: "https://atlas.perseus.tufts.edu/dictionaries/entry/urn%3Acite2%3Ascaife-viewer%3Adictionaries.v1%3Alsj-n24506/"
+        finding: >
+          Treats δῆτα as a more emphatic form of δή, chiefly Attic and tragic;
+          its force includes strong affirmation, inference, and insistence, not
+          lexical politeness.
+      - title: "LSJ: μέντοι"
+        url: "https://atlas.perseus.tufts.edu/dictionaries/entry/urn%3Acite2%3Ascaife-viewer%3Adictionaries.v1%3Alsj-n66291a/"
+        finding: >
+          Records both adversative “however, nevertheless” and asseverative
+          “of course” in answers. German jedoch selects only the adversative
+          side of this range.
+      - title: "LSJ: οὐδέ"
+        url: "https://atlas.perseus.tufts.edu/dictionaries/headword/%CE%BF%E1%BD%90%CE%B4%CE%AD/"
+        finding: >
+          Gives the negative continuative and scalar values “and/but not” and
+          “not even,” supporting Japanese 「……もない／……さえない」rather than
+          an ordinary disjunctive 「あるいは」.
+      - title: "Smyth: Greek particles"
+        url: "https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.04.0007%3Apart%3D4%3Achapter%3D60&force=y"
+        finding: >
+          Confirms the discourse uses of ἀλλά, δή, καὶ δή, δήπου, δῆτα,
+          μέντοι, and μήν and supplies the Classical examples checked below.
+      - title: "Tomaka 2022: account of δή and Denniston"
+        url: "https://ojs.tnkul.pl/index.php/rh/article/download/17388/16253/"
+        finding: >
+          Reports Denniston's core affirmative-emphatic sense “indeed,” his
+          proposed looser connective use, and his warning that καὶ δή can be
+          either connective or non-connective depending on context.
+    text_checks:
+      - greek_expression: ἀλλά
+        passage: "Plato, Protagoras 311a"
+        text_grc: "ἀλλ᾽ ἴωμεν"
+        translation_ja: "では、行こう。"
+        finding: >
+          A proposal that turns the dialogue toward action. It directly supports
+          「では／さあ」for German Nun so ... denn in this compositional use.
+      - greek_expression: ἄρα
+        passage: "Xenophon, Cyropaedia 1.3.2 (cited by LSJ)"
+        text_grc: "ἐρωτώσης τῆς μητρὸς ἀπεκρίνατο ἄρα"
+        translation_ja: "母が尋ねると、そこで彼は答えた。"
+        finding: >
+          Here ἄρα advances a consequence or narrative succession without an
+          exclamation. This confirms the author's final warning against always
+          translating ἄρα as 「ああ、それなら」.
+      - greek_expression: δή
+        passage: "Xenophon, Anabasis 4.4.10 (cited by Smyth 2846)"
+        text_grc: "ἐδόκει δὴ τοῖς στρατηγοῖς οὐκ ἀσφαλὲς εἶναι διασκηνοῦν"
+        translation_ja: "そこで将軍たちは、分散して宿営するのは安全でないと判断した。"
+        finding: >
+          δή presents the judgment as following from the preceding observation.
+          「そこで」works here; 「まさに」or 「それゆえ」cannot be inserted
+          mechanically in every occurrence.
+      - greek_expression: δήπου
+        passage: "Xenophon, Anabasis 5.7.6 (cited by Smyth 2850)"
+        text_grc: "ἴστε δήπου ὅθεν ἥλιος ἀνίσχει"
+        translation_ja: "太陽がどこから昇るかは、もちろんご存じでしょう。"
+        finding: >
+          Appeals to something presumed obvious and expects agreement. This is
+          closer to 「きっと……だろう／もちろん……でしょう」than neutral 「たぶん」.
+      - greek_expression: καὶ δή
+        passage: "Aristophanes, Birds 175"
+        text_grc: "βλέψον κάτω· καὶ δὴ βλέπω"
+        translation_ja: "「下を見ろ」「はい、もう見ています。」"
+        finding: >
+          In this reply καὶ δή signals prompt compliance, so German und schon
+          and Japanese 「するともう」are defensible. Smyth also records climax
+          and supposition uses, so this is not a general gloss of καὶ δή.
+      - greek_expression: μέντοι
+        passage: "Plato, Apology 29c"
+        text_grc: "ἀφίεμέν σε, ἐπὶ τούτῳ μέντοι"
+        translation_ja: "われわれは君を放免する。ただし、この条件でだ。"
+        finding: >
+          Clearly adversative and restrictive. It supports 「しかしながら／ただし」;
+          elsewhere μέντοι can instead be asseverative “certainly.”
+      - greek_expression: μήν
+        passage: "Plato, Laws 663e (cited by Smyth 2920)"
+        text_grc: "καλὸν μὲν ἡ ἀλήθεια, ἔοικε μὴν οὐ ῥᾴδιον πείθειν"
+        translation_ja: "真実は立派なものだが、人を説得するのは容易でないらしい。"
+        finding: >
+          This occurrence is adversative, while Smyth also records assertive
+          μήν “indeed, surely.” German allerdings and Japanese 「確かに……ではある」
+          fit only the latter use.
+      - greek_expression: οὐ μὴν ἀλλά
+        passage: "Plato, Gorgias 449c"
+        text_grc: "οὐ μὴν ἀλλὰ πειράσομαί γε ὡς διὰ βραχυτάτων"
+        translation_ja: "とはいえ、できるかぎり手短に答えてみよう。"
+        finding: >
+          Directly supports compact adversative 「とはいえ／しかし、それでも」.
+      - greek_expression: ἦ που
+        passage: "Plato, Gorgias 469b"
+        text_grc: "ἦ που ὅ γε ἀποθνῄσκων ἀδίκως ἐλεεινός τε καὶ ἄθλιός ἐστιν"
+        translation_ja: "不当に殺される者は、きっと哀れで不幸なのでしょう。"
+        finding: >
+          A confidently proposed inference inviting assent. German wahrscheinlich
+          and Japanese 「おそらく……だろう」are serviceable but somewhat weaker.
+      - greek_expression: δῆτα
+        passage: "Plato, Gorgias 452c"
+        text_grc: "σκόπει δῆτα, ὦ Σώκρατες"
+        translation_ja: "では考えてみたまえ、ソクラテス。"
+        finding: >
+          Strengthens a prompt. Depending on tone Japanese may use 「では」,
+          「さあ」, or a sentence-final form; polite 「どうか」is not inherent.
+      - greek_expression: "οὐ τοσοῦτον ὅσον ... / οὐ τὸ πλέον ... ἀλλὰ ..."
+        passage: "No exact source supplied by the handbook"
+        finding: >
+          The first is the familiar scalar correction “not so much X as Y.”
+          Both printed formulas are schematic and context-dependent; the second
+          especially should not be treated as a self-sufficient fixed phrase
+          without an attested sentence.
+    analysis_units:
+      - segment: "Man merke"
+        syntax: >
+          merke is a present subjunctive used as a third-person imperative with
+          generic man: literally “one should note.”
+        grammar: >
+          The formula introduces correspondences for active composition, not
+          lexical definitions of the Greek particles.
+        nuance: >
+          The table proceeds from German discourse needs to possible Greek
+          renderings. Its direction is essential to the final warning.
+        ja_note: >
+          「次の対応に注意すること」is appropriate; avoid implying a reversible
+          dictionary equation.
+      - segment: "Nun so ... denn = ἀλλά"
+        syntax: >
+          The German is a discourse formula, not one continuous lexical phrase:
+          nun/so launches a response or conclusion, while denn may add urging
+          or conversational linkage to what follows.
+        grammar: >
+          ἀλλά can mark a turn from the preceding point, introduce an objection,
+          resume action, or urge movement in dialogue.
+        nuance: >
+          「さて、それでは」fits deliberative transitions, but elsewhere ἀλλά
+          may require 「しかし」「いや」「さあ」.
+        ja_note: >
+          Record a directional prompt: German 「さて／それなら」may be rendered
+          by ἀλλά; ἀλλά does not lexically mean 「さて」.
+      - segment: "o dann ... = ἄρα"
+        syntax: >
+          o is the German interjection; dann is inferential or temporal. The
+          ellipsis represents the proposition newly recognized as a consequence.
+        grammar: >
+          ἄρα is postpositive and marks inference, realization, or a conclusion
+          drawn from what has become evident.
+        nuance: >
+          German o dramatizes sudden recognition. Many occurrences of ἄρα are
+          quieter and require no exclamation.
+        ja_note: >
+          Contextual options include 「ああ、それなら」「なるほど、では」「すると」.
+      - segment: "da kam, da sagte = καὶ ἦλθε, καὶ εἶπεν"
+        syntax: >
+          German da is narrative “then/thereupon,” not locative “there.”
+          Greek repeats καί before each finite verb.
+        grammar: >
+          Narrative καί advances successive events and can correspond to German
+          da rather than merely additive “and.”
+        nuance: >
+          Repeated καί creates event-by-event progression; Japanese need not
+          mechanically repeat the same conjunction.
+        ja_note: >
+          Possible renderings are 「すると彼は来た、そして言った」or, by context,
+          「そこで来て、こう言った」.
+      - segment: "jedoch = μέντοι"
+        syntax: >
+          Both function at discourse level. μέντοι is normally postpositive.
+        grammar: >
+          μέντοι confirms or concedes one point while marking contrast,
+          correction, or insistence toward another.
+        nuance: >
+          It may be stronger than neutral 「しかし」and can mean “nevertheless,”
+          “mind you,” or “certainly, however.”
+        ja_note: >
+          Choose 「しかし」「とはいえ」「もっとも」「確かに…だが」from context.
+      - segment: "denn sonst ... = γάρ"
+        syntax: >
+          German denn introduces a reason, while sonst supplies an alternative
+          consequence. Greek γάρ is postpositive and links its clause
+          explanatorily to the preceding one.
+        grammar: >
+          γάρ does not lexically mean sonst. The “otherwise” force comes from
+          the proposition’s relation to a preceding instruction or claim.
+        nuance: >
+          This is a discourse equivalence: an explanatory Greek clause may
+          motivate an injunction as German “for otherwise” does.
+        ja_note: >
+          Translate the whole relation, often 「というのも、さもなければ…」;
+          do not gloss γάρ alone as 「さもなければ」.
+      - segment: "denn (folgernd) ... = δή"
+        syntax: >
+          folgernd distinguishes inferential or resumptive denn from causal
+          denn. Greek δή attaches pragmatically to the salient word or
+          proposition.
+        grammar: >
+          δή marks something as evident, now established, emphatically relevant,
+          or consequential in the discourse.
+        nuance: >
+          Its Japanese force may be 「では」「それゆえ」「まさに」「いよいよ」,
+          or may remain implicit. Scope must be decided in each sentence.
+        ja_note: >
+          Annotate what δή emphasizes instead of routinely inserting
+          「それゆえ」.
+      - segment: "doch wohl (ohne Zweifel) = δήπου"
+        syntax: >
+          German doch wohl combines appeal to shared expectation with epistemic
+          probability. ohne Zweifel is the author’s parenthetical
+          characterization, not another phrase in the example.
+        grammar: >
+          δήπου presents an inference as presumably obvious or likely; it can
+          become ironic when that alleged obviousness is challenged.
+        nuance: >
+          Its force ranges from confident 「きっと」to tentative 「おそらく」and
+          sarcastic “presumably.” ohne Zweifel is too absolute.
+        ja_note: >
+          Keep a graded gloss: 「きっと／おそらく（文脈によって反語的）」.
+      - segment: "und schon = καὶ δή; δή = ἤδη; πάλαι δή; νῦν δή"
+        syntax: >
+          καί advances or coordinates; δή marks arrival or salience. In πάλαι
+          δή and νῦν δή, δή modifies the temporal expression pragmatically
+          rather than simply replacing ἤδη.
+        grammar: >
+          δή = ἤδη is contextual, not lexical. καὶ δή can introduce an
+          anticipated next event, vivid culmination, or example.
+        nuance: >
+          πάλαι δή emphasizes that something has long been so; νῦν δή may mean
+          “just now,” “now at last,” or emphatic “now.”
+        ja_note: >
+          For German und schon use 「するともう／そして早くも」. In actual
+          Greek, καὶ δή may instead require 「さらに」「では」or no explicit
+          particle; render πάλαι δή and νῦν δή separately as 「もうとっくに」
+          and 「今まさに／たった今」.
+      - segment: "wohl aber = δέ"
+        syntax: >
+          German wohl affirms or concedes a positive counterpart after a
+          negation, while aber marks contrast. Greek δέ marks the new contrasting
+          member and is postpositive.
+        grammar: >
+          δέ supplies contrast; the affirmative force of wohl generally comes
+          from polarity and parallel structure, not from δέ itself.
+        nuance: >
+          The pattern often means “not X, but certainly Y,” more than bare
+          「しかし一方」.
+        ja_note: >
+          Use 「Xではないが、Yではある」where appropriate; do not assign
+          「ではある」to every δέ.
+      - segment: "dann erst / erst dann = οὕτω δή"
+        syntax: >
+          German erst scopes over dann. Greek οὕτω means “thus/in this way,”
+          while δή marks the resulting point as now evident or reached.
+        grammar: >
+          The Greek is literally “thus, then/only so.” Temporal succession often
+          follows inferentially from a preceding condition or method.
+        nuance: >
+          The important force may be conditional exclusivity, “only in this
+          way,” rather than merely later time.
+        ja_note: >
+          Prefer 「そうして初めて／そのようにしてこそ」when manner is salient;
+          reserve 「その時になって初めて」for temporal contexts.
+      - segment: "... allerdings = ... μήν"
+        syntax: >
+          μήν is postpositive within the clause represented by the preceding
+          ellipsis. German allerdings may affirm, concede, or reinforce.
+        grammar: >
+          μήν marks strong confirmation, insistence, or transition and often
+          combines with other particles.
+        nuance: >
+          Its possible force includes “indeed,” “certainly,” “however,” and
+          “what is more”; it is not fixed as concessive “admittedly.”
+        ja_note: >
+          「もっとも」is only one option; actual occurrences may need 「確かに」
+          「実に」or 「とはいえ」.
+      - segment: "indessen ... = οὐ μὴν ἀλλά"
+        syntax: >
+          οὐ rejects or negates an inference, μήν reinforces the transition,
+          and ἀλλά introduces the replacement or countervailing proposition.
+        grammar: >
+          The sequence can mean “not however that ...; rather ...” or more
+          compactly “nevertheless/but still.”
+        nuance: >
+          German indessen is only a cue. Japanese may need to expose the
+          internal rejection when the Greek construction is expanded.
+        ja_note: >
+          Use 「とはいえ／しかしそれでも」compactly, or preserve the logic as
+          「だからといって…ではなく、むしろ…」.
+      - segment: "wahrscheinlich (adv.) = ἦ που"
+        syntax: >
+          ἦ is asseverative and που is an enclitic marker of indefiniteness or
+          qualified inference. Together they modify speaker commitment.
+        grammar: >
+          The combination often means “surely, I suppose/probably,” balancing
+          assertion with epistemic qualification.
+        nuance: >
+          It can sound more confidently inferential than neutral German
+          wahrscheinlich and appeal to expected agreement.
+        ja_note: >
+          Depending on context: 「おそらく」「きっと…だろう」「たしか…のはずだ」.
+      - segment: "oder (nach Negationen) = οὐδέ, μηδέ"
+        syntax: >
+          nach Negationen specifies the environment of German oder. οὐδέ is
+          associated with οὐ-type negation and μηδέ with μή-type negation,
+          subject to the construction.
+        grammar: >
+          These particles continue a negative series: “and not/nor/not even.”
+          German may use oder where Japanese prefers “also not.”
+        nuance: >
+          The correspondence concerns alternatives under negative scope, not
+          ordinary free-choice “or.”
+        ja_note: "Use 「また…ない／…もない」or scalar 「…さえない」."
+      - segment: "doch (lat. quaeso) = δῆτα"
+        syntax: >
+          German doch is modal here in a request or question; Latin quaeso
+          identifies the intended conversational function. δῆτα is postpositive.
+        grammar: >
+          δῆτα can strengthen a question, inference, challenge, or request.
+          Politeness comes from the speech act, not a lexical meaning “please.”
+        nuance: >
+          It may be coaxing, impatient, incredulous, or insistent, so neutral
+          「どうか」can be too polite.
+        ja_note: >
+          For German doch (quaeso), use 「どうか／ねえ」. In an actual Greek
+          question, δῆτα may instead require 「いったい」「では」or an
+          appropriate sentence-final expression.
+      - segment: "nicht sowohl ... als vielmehr = οὐ τοσοῦτον ὅσον ... / οὐ τὸ πλέον ... ἀλλὰ ..."
+        syntax: >
+          Both Greek patterns compare and correct relative characterization.
+          οὐ τοσοῦτον ὅσον is “not so much X as Y”; the second rejects “the
+          more/greater X” and replaces it with Y through οὐ ... ἀλλά.
+        grammar: >
+          This is corrective focus: X need not be denied outright, but is
+          demoted relative to a more accurate or important Y.
+        nuance: >
+          Japanese 「XというよりむしろY」usually preserves scalar correction
+          better than categorical 「XではなくYだ」.
+        ja_note: >
+          Keep the two Greek formulas distinct: their discourse function is
+          similar, but their internal syntax is not identical.
+      - segment: "Aus der Thatsache, daß 'o dann ...' sich überall passend durch ἄρα geben läßt, folgt keineswegs, daß umgekehrt ἄρα sich überall passend durch 'o dann ...' übersetzen lasse."
+        syntax: >
+          Aus der Thatsache is a fronted source-of-inference phrase whose
+          content is the first daß clause. The second daß clause is the subject
+          of folgt. sich durch X geben/übersetzen lassen means “admit of being
+          rendered by X.” lasse is subjunctive I; umgekehrt reverses direction.
+        grammar: >
+          The logical form is non-convertible implication: if German A can be
+          rendered by Greek B, it does not follow that every B can be
+          translated by A.
+        nuance: >
+          keineswegs strongly rejects the converse. Methodologically, the
+          warning applies to nearly every equation in the table.
+        ja_note: >
+          「AをBで表せることから、逆にBを常にAで訳せるとは決して帰結しない」
+          should remain explicit rather than being softened to a vague caution.
+    grammatical_assessment: stylistic-generalization
+    evidence:
+      - >
+        These are context-sensitive discourse particles, not stable bilingual
+        equations. The author himself warns against reversing the ἄρα mapping;
+        that warning applies to almost every line in the list.
+      - >
+        Exact οὐ μὴν ἀλλά occurs in multiple canonical works and is a stable
+        adversative sequence, but its Japanese realization still depends on
+        discourse context.
+      - >
+        δήπου often marks an inference presented as likely or expected and can
+        be ironic; “without doubt” is too strong as a universal gloss. δῆτα is
+        likewise strongly context-sensitive and is not simply a polite “please.”
+    source_issues:
+      - >
+        The corrected first formula is Nun so ... denn. In the next formula,
+        o is not damaged text: it is the German interjection o, stranded at
+        the end of the preceding TeX formatting line. The source prints o dann
+        ... without a comma; this punctuation is retained. In sense, the
+        formula is approximately “oh, then ... / oh, in that case ...” = ἄρα.
+      - "εἰπεν should be εἶπεν."
+      - "μνδέ is a Greek typo for μηδέ."
+      - "brohen later in the same printed table is a source typo for drohen, but lies outside this entry’s particle list."
+      - >
+        The Japanese table currently replaces the Greek expressions inside the
+        final brace with Japanese text, destroying the bilingual evidence. The
+        Greek οὐ τοσοῦτον ὅσον / οὐ τὸ πλέον ... ἀλλά must remain visible.
+    review_comments:
+      - "Equal signs suggest one-to-one equivalence too strongly; colons are safer in the revised Japanese."
+      - "きっと……だろう（疑いなく）faithfully renders the German prompt doch wohl (ohne Zweifel); it is not a reversible or universal gloss of δήπου, whose force ranges from presumption to irony."
+      - "οὐδέ and μηδέ after a negative usually continue the negation; translating them as bare あるいは is misleading."
+    status: needs-review

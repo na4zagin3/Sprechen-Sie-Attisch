@@ -1,0 +1,1512 @@
+meta:
+  source: part-i.yaml
+  part_title:
+    de: Sprichwörtliches aus der Umgangs\textcompwordmark{}sprache.
+    ja: 日常会話のことわざ
+  translation_style:
+    basis:
+    - part-a.yaml
+    - part-b.yaml
+    - part-c.yaml
+    principles:
+    - Prefer natural spoken Japanese appropriate to the reconstructed relationship.
+    - Preserve the German wording except for explicitly identified source or OCR errors.
+    - Distinguish the German prompt from the literal and pragmatic force of the Greek.
+    - Preserve nineteenth-century objects, institutions, and social conventions where relevant.
+    - Do not add politeness, intimacy, gender, or aggression without contextual evidence.
+    - Use Japanese punctuation and sentence endings to make turn-taking natural.
+  corpus_roots:
+    perseus: /home/mrty/Documents/Perseus/Classics
+    lsj: /home/mrty/Documents/Perseus/Classics/LSJ
+  attestation_match_types:
+  - exact
+  - near-exact
+  - adapted
+  - syntactic-parallel
+  - formulaic-parallel
+  - lexical-only
+  - not-found
+  status_values:
+  - unreviewed
+  - scene-reviewed
+  - source-researched
+  - ja-proposed
+  - accepted
+scenes:
+- id: i-01
+  title:
+    de: null
+    ja: null
+  scene_type: phrase_inventory
+  setting:
+    situation: independent proverbial or idiomatic expressions
+  cast:
+  - id: speaker
+    description: null
+    evidence: null
+    confidence: candidate
+  - id: interlocutor
+    description: null
+    evidence: null
+    confidence: candidate
+  reconstruction:
+    confidence: high
+    note: >
+      This section is an inventory of independent proverbs and proverbial expressions, not a continuous
+      dialogue. Imperatives imply a speaker and addressee; declarative maxims have no recoverable fixed
+      social roles. Role and register must therefore be assigned from each future use rather than from
+      the ordering here.
+  role_policy:
+    declarative_maxims:
+      speaker: generic-speaker
+      addressee: context-dependent
+    second_person_imperatives:
+      speaker: adviser-or-rebuker
+      addressee: interlocutor
+    confidence: high
+  entries:
+  - id: i-01-001
+    source_locator:
+      file: part-i.yaml
+      section_index: 1
+      conversation_index: 1
+      fingerprint: d79e8529fe481eb2
+    source:
+      modern:
+      - de: Mensch, ärgere dich nicht!
+        ja: まあ腹を立てるなよ！
+      grc:
+      - μὴ σεαυτὸν ἔσθιε, ὦ ’γαθέ!
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: Mensch, ärgere dich nicht!
+        ja_current: まあ腹を立てるなよ！
+        ja_proposed: まあ腹を立てるなよ！
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations: []
+    textual_issues: []
+    review_comments: []
+    status: unreviewed
+  - id: i-01-002
+    source_locator:
+      file: part-i.yaml
+      section_index: 1
+      conversation_index: 2
+      fingerprint: 826c9b7e6a39244c
+    source:
+      modern:
+      - de: Eines Mannes Rede ist keine Rede.
+        ja: 一人の話だけでは判断にならない。
+      grc:
+      - πρὶν ἂν ἀμφοῖν μῦθον ἀκούσῃς, οὐκ ἂν δικάσαις.
+    dialogue:
+      speaker:
+        candidate: generic-speaker
+        confidence: high
+      addressee:
+        candidate: prospective-judge
+        confidence: high
+      speech_act: advise-hearing-both-sides
+      tone:
+      - cautionary
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: >
+        πρὶν ἂν with the subjunctive ἀκούσῃς sets a future condition, “before you have heard.”
+        ἀμφοῖν is dual genitive, “from both”; μῦθον is the account of each side. The potential
+        optative δικάσαις with ἄν means “you could not judge.”
+      literal_gloss: 両者の言い分を聞くまでは、裁きを下すことはできない。
+      particles_and_idioms:
+      - form: ἀμφοῖν
+        function: explicitly requires both parties, not merely more than one report
+      pragmatic_force: warns against judgment based on only one party's account
+    translation:
+      variants:
+      - de: Eines Mannes Rede ist keine Rede.
+        ja_current: 一人の話だけでは判断にならない。
+        ja_proposed: 一人の話だけでは判断にならない。
+        decision: retain
+        rationale: >
+          The current Japanese naturally conveys the German proverb. The literal Greek should be retained
+          in commentary because it explicitly says to hear both parties before judging.
+        alternatives: []
+      register: proverbial-neutral
+      scene_dependency: independent maxim
+    attestations:
+    - target: πρὶν ἂν ἀμφοῖν μῦθον ἀκούσῃς, οὐκ ἂν δικάσαις.
+      status: source-context-checked
+      match_type: exact
+      reference_as_given: null
+      source:
+        author: Aristophanes
+        work: Wasps
+        passage: '725'
+        local_file: /home/mrty/Documents/Perseus/Classics/Aristophanes/opensource/aristoph.wasps_gk.xml
+      text_grc: πρὶν ἂν ἀμφοῖν μῦθον ἀκούσῃς, οὐκ ἂν δικάσαις.
+      original_speakers:
+      - Χορος
+      original_speaker_beta: '*xoro/s'
+      original_scene: >
+        Wasps 725-726. After hearing Bdelycleon’s rebuttal of his father Philocleon’s praise of jury
+        service, the chorus concedes that one should not judge before hearing both sides and says
+        Bdelycleon now appears clearly to have won.
+      beta_context: soi plhn kwlakretou gala pinein xoros h pou sofos hn ostis efasken prin an amfoin
+        muqon akoushs ouk an dikasais su gar oun nun moi nikan pollw dedokhsai wst hdh thn orghn
+      relationship_to_handbook: >
+        Verbatim maxim. German Eines Mannes Rede ist keine Rede compresses the explicit legal image
+        “hear both accounts before judging.”
+      adaptations:
+      - second-person judicial formulation recast as an impersonal German proverb
+      confidence: high
+      research_method: exact normalized token search
+    textual_issues: []
+    review_comments: []
+    status: ja-proposed
+  - id: i-01-003
+    source_locator:
+      file: part-i.yaml
+      section_index: 1
+      conversation_index: 3
+      fingerprint: f7c9e9a29c3ad2ef
+    source:
+      modern:
+      - de: Das hieße Eulen nach Athen tragen.
+        ja: それではアテナイにフクロウを運ぶようなものだ。
+      grc:
+      - τίς γλαῦκ’ Ἀθήναζε ἄγαγεν;
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: >
+        τίς is the interrogative subject; γλαῦκα the object; Ἀθήναζε is directional “to Athens.”
+        The expected Classical indicative in the source is ἤγαγεν, “brought.”
+      literal_gloss: 誰がアテナイへ梟を運んできたのか。
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: Das hieße Eulen nach Athen tragen.
+        ja_current: それではアテナイにフクロウを運ぶようなものだ。
+        ja_proposed: それではアテナイにフクロウを運ぶようなものだ。
+        decision: retain
+        rationale: The current Japanese preserves the conventional image and proverbial force.
+        alternatives: []
+      register: proverbial
+      scene_dependency: used of bringing something to a place where it is already abundant
+    attestations:
+    - target: τίς γλαῦκ’ Ἀθήναζε ἄγαγεν;
+      status: source-context-checked
+      match_type: near-exact
+      reference_as_given: null
+      source:
+        author: Aristophanes
+        work: Birds
+        passage: "301"
+        local_file: /home/mrty/Documents/Perseus/Classics/Aristophanes/opensource/aristoph.birds_gk.xml
+      text_grc: τί φῄς; τίς γλαῦκ’ Ἀθήναζ’ ἤγαγεν;
+      original_speakers:
+      - Εὐελπίδης
+      original_scene: >
+        A huge crowd of birds is assembling. When the Hoopoe points out that one of them is an owl,
+        Euelpides jokes, “Who brought an owl to Athens?”, where owls were already emblematic and abundant.
+      relationship_to_handbook: >
+        Direct source of the proverb. The handbook omits τί φῄς and prints ἄγαγεν where the source
+        has the regular indicative ἤγαγεν.
+      adaptations:
+      - introductory τί φῄς omitted
+      confidence: high
+      research_method: distinctive phrase search in local Perseus corpus
+    textual_issues:
+    - type: likely-transcription-or-form-error
+      source_text: ἄγαγεν
+      proposed_reading: ἤγαγεν
+      evidence: Aristophanes, Birds 301 and regular aorist indicative morphology
+      confidence: high
+    review_comments: []
+    status: ja-proposed
+  - id: i-01-004
+    source_locator:
+      file: part-i.yaml
+      section_index: 1
+      conversation_index: 4
+      fingerprint: 4d43dfe26141a3fb
+    source:
+      modern:
+      - de: Vorsicht ist die Mutter der Weis\textcompwordmark{}heit.
+        ja: 用心は知恵の母だ。
+      grc:
+      - ἡ (γὰρ) εὐλάβεια πάντα σώζει.
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: Vorsicht ist die Mutter der Weis\textcompwordmark{}heit.
+        ja_current: 用心は知恵の母だ。
+        ja_proposed: 用心は知恵の母だ。
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations: []
+    textual_issues: []
+    review_comments: []
+    status: unreviewed
+  - id: i-01-005
+    source_locator:
+      file: part-i.yaml
+      section_index: 1
+      conversation_index: 5
+      fingerprint: 4ece5876559a66ca
+    source:
+      modern:
+      - de: Eine Schwalbe macht noch keinen Sommer.
+        ja: ツバメが一羽来ても夏とは言えない。
+      grc:
+      - μία χελιδὼν ἔαρ οὐ ποιεῖ.
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: >
+        μία χελιδών is the subject; ἔαρ the object of ποιεῖ. The proverb denies that one isolated
+        sign establishes the whole season.
+      literal_gloss: 一羽の燕は春をもたらさない。
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: Eine Schwalbe macht noch keinen Sommer.
+        ja_current: ツバメが一羽来ても夏とは言えない。
+        ja_proposed: ツバメが一羽来ても夏とは言えない。
+        decision: retain
+        rationale: >
+          The current Japanese uses 夏, following the familiar modern proverb and German Sommer.
+          The Greek text itself says 春, which should be noted rather than silently conflated.
+        alternatives: []
+      register: proverbial
+      scene_dependency: warns against inferring a lasting state from one favorable instance
+    attestations:
+    - target: μία χελιδὼν ἔαρ οὐ ποιεῖ.
+      status: source-context-checked
+      match_type: exact
+      reference_as_given: null
+      source:
+        author: Aristotle
+        work: Nicomachean Ethics
+        passage: "1098a18-20"
+        local_file: /home/mrty/Documents/Perseus/Classics/Aristotle/opensource/aristot.nic.eth_gk.xml
+      text_grc: μία γὰρ χελιδὼν ἔαρ οὐ ποιεῖ, οὐδὲ μία ἡμέρα
+      original_speakers: []
+      original_scene: >
+        Aristotle argues that happiness requires virtuous activity over a complete life. One swallow
+        does not make spring, nor does one day or a short time make a person blessed and happy.
+      relationship_to_handbook: >
+        The handbook extracts the first proverb, omits explanatory γάρ and the continuation about one day,
+        and pairs Greek spring with the German proverb’s summer.
+      adaptations:
+      - γάρ and the continuation οὐδὲ μία ἡμέρα omitted
+      - Greek spring rendered by German summer
+      confidence: high
+      research_method: distinctive phrase search in local Perseus corpus
+    textual_issues: []
+    review_comments: []
+    status: ja-proposed
+  - id: i-01-006
+    source_locator:
+      file: part-i.yaml
+      section_index: 1
+      conversation_index: 6
+      fingerprint: ea85eb92ac3b3aae
+    source:
+      modern:
+      - de: Menge dich nicht in meine Sachen!
+        ja: 私のことに口を出すな！
+      grc:
+      - μὴ τὸν ἐμὸν οἴκει οἶκον!!
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: Menge dich nicht in meine Sachen!
+        ja_current: 私のことに口を出すな！
+        ja_proposed: 私のことに口を出すな！
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations: []
+    textual_issues: []
+    review_comments: []
+    status: unreviewed
+  - id: i-01-007
+    source_locator:
+      file: part-i.yaml
+      section_index: 1
+      conversation_index: 7
+      fingerprint: e6cfd7d13b90914a
+    source:
+      modern:
+      - de: Der reine Menschenfeind (Timon)!
+        ja: まったくの人嫌いだ（ティモンだ）！
+      grc:
+      - Τίμων \emph{καθαρός!}
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: Der reine Menschenfeind (Timon)!
+        ja_current: まったくの人嫌いだ（ティモンだ）！
+        ja_proposed: まったくの人嫌いだ（ティモンだ）！
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations: []
+    textual_issues: []
+    review_comments: []
+    status: unreviewed
+  - id: i-01-008
+    source_locator:
+      file: part-i.yaml
+      section_index: 1
+      conversation_index: 8
+      fingerprint: e21541da6193a482
+    source:
+      modern:
+      - de: Immer das alte Lied!
+        ja: またいつもの決まり文句だ！
+      grc:
+      - ὁ Διὸς Κόρινθος!
+    dialogue:
+      speaker:
+        candidate: frustrated-speaker
+        confidence: high
+      addressee:
+        candidate: interlocutor
+        confidence: high
+      speech_act: complain-of-repetition
+      tone:
+      - impatient
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: >
+        Literally “Zeus’s Corinth,” with Διός as possessive genitive. The phrase functions as an
+        allusive proverb rather than a compositionally interpretable statement.
+      literal_gloss: 「ゼウスのコリントス」だ。
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: Immer das alte Lied!
+        ja_current: またいつもの決まり文句だ！
+        ja_proposed: またいつもの決まり文句だ！
+        decision: retain
+        rationale: >
+          The current Japanese correctly renders the attested pragmatic force rather than translating
+          the opaque words. 「また同じ話か」is a possible more conversational alternative.
+        alternatives: []
+      register: proverbial-impatient
+      scene_dependency: used when an argument or difficulty returns to the same point
+    attestations:
+    - target: ὁ Διὸς Κόρινθος!
+      status: source-context-checked
+      match_type: exact
+      reference_as_given: null
+      source:
+        author: Aristophanes
+        work: Ecclesiazusae
+        passage: '828'
+        local_file: /home/mrty/Documents/Perseus/Classics/Aristophanes/opensource/aristoph.eccl_gk.xml
+      text_grc: ὁ Διὸς Κόρινθος!
+      original_speakers:
+      - Ανηρ Β
+      original_speaker_beta: '*)anh\r *b'
+      original_scene: >
+        Ecclesiazusae 828. Two men review a financial proposal once enthusiastically attributed to
+        Euripides. On closer examination it turned into “Zeus’s Corinth” and proved inadequate, so
+        public praise reversed into abuse.
+      beta_context: eporis euripidhs keuqus katexrusou pas anhr euripidhn ote dh d anaskopoumenois efaineto
+        o dios korinqos kai to pragm ouk hrkesen palin katepittou pas anhr euripidhn anhr a
+      relationship_to_handbook: The comic passage uses the opaque proverb for a familiar recurring snag or old story.
+      adaptations:
+      - specific failed political-financial proposal omitted
+      confidence: high
+      research_method: exact normalized token search
+    - target: ὁ Διὸς Κόρινθος!
+      status: source-context-checked
+      match_type: exact
+      reference_as_given: null
+      source:
+        author: Plato
+        work: plat.tet6_gk
+        passage: 292e
+        local_file: /home/mrty/Documents/Perseus/Classics/Plato/opensource/plat.tet6_gk.xml
+      text_grc: ὁ Διὸς Κόρινθος!
+      original_speakers:
+      - Κριτων
+      original_speaker_beta: '*kri/twn'
+      original_scene: >
+        Plato, Euthydemus 292e. Crito and Socrates’ reported inquiry into the political or royal art
+        circles back to the same unresolved point. Crito says that “Zeus’s Corinth” has happened:
+        they are back where they began and still lack the answer.
+      beta_context: ta erga ta legomena einai ths politikhs htimasamen all atexnws to legomenon o dios
+        korinqos gignetai kai oper elegon tou isou hmin endei h eti pleonos pros
+      relationship_to_handbook: >
+        This context directly supports German Immer das alte Lied: the inquiry has gone in a circle
+        and produced the same old difficulty.
+      adaptations: []
+      confidence: high
+      research_method: exact normalized token search
+    - target: ὁ Διὸς Κόρινθος!
+      status: later-proverb-use-located
+      match_type: formulaic-parallel
+      reference_as_given: null
+      source:
+        author: Plutarch
+        work: plut.138_teubner_gk
+        passage: 1072b
+        local_file: /home/mrty/Documents/Perseus/Classics/Plutarch/opensource/plut.138_teubner_gk.xml
+      text_grc: ὁ Διὸς Κόρινθος!
+      original_speakers: []
+      original_speaker_beta: null
+      original_scene: null
+      beta_context: d h fronhsis diadoum ouden all h agaqwn episthmh lampr polus oun o dios korinqos epi
+        ton logon autwn afiktai thn gar uperou peritrophn ina mh skwptein
+      relationship_to_handbook: Plutarch also uses the expression for an argument returning repeatedly to the same point.
+      adaptations: []
+      confidence: medium
+      research_method: exact normalized token search
+    textual_issues: []
+    review_comments: []
+    status: ja-proposed
+  - id: i-01-009
+    source_locator:
+      file: part-i.yaml
+      section_index: 1
+      conversation_index: 9
+      fingerprint: 9827ca54b24a7f79
+    source:
+      modern:
+      - de: \textlatin{Hic Rhodus, hic salta!}
+        ja: ここがロドスだ、ここで跳べ！
+      grc:
+      - 'ἰδοὺ ἡ Ῥόδος\footnote{\textlatin{%
+
+        orig. \textgreek{ʼΡόδος}}%
+
+        }, ἰδοὺ καὶ τὸ πήδημα!'
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: \textlatin{Hic Rhodus, hic salta!}
+        ja_current: ここがロドスだ、ここで跳べ！
+        ja_proposed: ここがロドスだ、ここで跳べ！
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations: []
+    textual_issues: []
+    review_comments: []
+    status: unreviewed
+  - id: i-01-010
+    source_locator:
+      file: part-i.yaml
+      section_index: 1
+      conversation_index: 10
+      fingerprint: 3c9a1c68f715c9be
+    source:
+      modern:
+      - de: Ein trauriger Peter (Japper)!
+        ja: しょんぼりしたやつだ！
+      grc:
+      - Μυσῶν ἔσχατος!
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: Ein trauriger Peter (Japper)!
+        ja_current: しょんぼりしたやつだ！
+        ja_proposed: しょんぼりしたやつだ！
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations: []
+    textual_issues: []
+    review_comments: []
+    status: unreviewed
+  - id: i-01-011
+    source_locator:
+      file: part-i.yaml
+      section_index: 1
+      conversation_index: 11
+      fingerprint: 754bfecb162cb134
+    source:
+      modern:
+      - de: Das Gute ist rar.
+        ja: 良いものは稀だ。
+      grc:
+      - ὀλίγον τὸ χρηστόν ἐστιν.
+    dialogue:
+      speaker:
+        candidate: generic-speaker
+        confidence: high
+      addressee:
+        candidate: context-dependent
+        confidence: high
+      speech_act: proverbial-observation
+      tone:
+      - resigned
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: >
+        τὸ χρηστόν is a substantivized adjective, “the good/decent element.” ὀλίγον is predicative:
+        it is small in number or quantity.
+      literal_gloss: 善良なものは少ない。
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: Das Gute ist rar.
+        ja_current: 良いものは稀だ。
+        ja_proposed: 良いものは稀だ。
+        decision: retain
+        rationale: >
+          「稀だ」naturally conveys the proverbial German. A literal note should preserve that Greek
+          says the good or decent contingent is small.
+        alternatives: []
+      register: proverbial-neutral
+      scene_dependency: independent maxim
+    attestations:
+    - target: ὀλίγον τὸ χρηστόν ἐστιν.
+      status: source-context-checked
+      match_type: exact
+      reference_as_given: null
+      source:
+        author: Aristophanes
+        work: Frogs
+        passage: '783'
+        local_file: /home/mrty/Documents/Perseus/Classics/Aristophanes/opensource/aristoph.frogs_gk.xml
+      text_grc: ὀλίγον τὸ χρηστόν ἐστιν.
+      original_speakers:
+      - Αιακος
+      original_speaker_beta: '*)/aiakos'
+      original_scene: >
+        Frogs 783. Xanthias asks whether Aeschylus had other allies among the dead. Aeacus answers
+        that the decent people are few, “just as they are here,” before describing the coming contest.
+      beta_context: ouranion g oson canqias met aisxulou d ouk hsan eteroi summaxoi aiakos oligon to xrhston
+        estin wsper enqade canqias ti dhq o ploutwn dran paraskeuazetai aiakos agwna poiein
+      relationship_to_handbook: >
+        The handbook extracts the first clause verbatim and omits ὥσπερ ἐνθάδε, “just as here.”
+      adaptations:
+      - ὥσπερ ἐνθάδε omitted
+      - scarcity of decent souls generalized into a proverb about good things
+      confidence: high
+      research_method: exact normalized token search
+    textual_issues: []
+    review_comments: []
+    status: ja-proposed
+  - id: i-01-012
+    source_locator:
+      file: part-i.yaml
+      section_index: 1
+      conversation_index: 12
+      fingerprint: 9ef6219fbbc95162
+    source:
+      modern:
+      - de: Es ist kein Vorwärts\textcompwordmark{}kommen (für uns).
+        ja: （私たちには）前進の見込みがない。
+      grc:
+      - οὔτε θέομεν οὔτ’ ἐλαύνομεν.!
+    dialogue:
+      speaker:
+        candidate: generic-speaker
+        confidence: high
+      addressee:
+        candidate: context-dependent
+        confidence: high
+      speech_act: complain-of-stagnation
+      tone:
+      - frustrated
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: >
+        οὔτε ... οὔτε coordinates two negated first-person plural verbs. θέομεν is “we run” and
+        ἐλαύνομεν “we drive/row/press onward”; together they form a vivid image of no progress.
+      literal_gloss: 私たちは走ってもいなければ、進んでもいない。
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: Es ist kein Vorwärts\textcompwordmark{}kommen (für uns).
+        ja_current: （私たちには）前進の見込みがない。
+        ja_proposed: （私たちは）いっこうに前へ進めない。
+        decision: revise
+        rationale: >
+          German describes failure to get forward, not merely poor future prospects. The proposal
+          retains the active image of stalled movement.
+        alternatives: []
+      register: proverbial-conversational
+      scene_dependency: may describe a stalled undertaking shared by the speaker and others
+    attestations:
+    - target: οὔτε θέομεν οὔτ’ ἐλαύνομεν.!
+      status: source-context-checked
+      match_type: exact
+      reference_as_given: null
+      source:
+        author: Aristophanes
+        work: Ecclesiazusae
+        passage: '109'
+        local_file: /home/mrty/Documents/Perseus/Classics/Aristophanes/opensource/aristoph.eccl_gk.xml
+      text_grc: οὔτε θέομεν οὔτ’ ἐλαύνομεν.!
+      original_speakers:
+      - Πραξαγορα
+      original_speaker_beta: '*praca/gora'
+      original_scene: >
+        Ecclesiazusae 109. Praxagora argues that the women should take control of Athenian government
+        so they can benefit the city, because under the present order the city is going nowhere.
+      beta_context: ta pragmata dunwmeq wst agaqon ti pracai thn polin nun men gar oute qeomen out elaunomen
+        gunh a kai pws gunaikwn qhlufrwn cunousia dhmhgorhsei pracagora polu men oun
+      relationship_to_handbook: >
+        Verbatim image generalized from political stagnation in Athens to any failure to make progress.
+      adaptations:
+      - Athenian political referent omitted
+      confidence: high
+      research_method: exact normalized token search
+    textual_issues:
+    - type: punctuation
+      source_text: "οὔτε θέομεν οὔτ’ ἐλαύνομεν.!"
+      proposed_reading: "οὔτε θέομεν οὔτ’ ἐλαύνομεν."
+      confidence: high
+    review_comments: []
+    status: ja-proposed
+  - id: i-01-013
+    source_locator:
+      file: part-i.yaml
+      section_index: 1
+      conversation_index: 13
+      fingerprint: 1f2e9171cc46e3e2
+    source:
+      modern:
+      - de: Geld regiert die Welt.
+        ja: 金が世を動かす。
+      grc:
+      - ἅπαντα (γὰρ) τῷ πλουτεῖν ὑπήκοα.!
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: Geld regiert die Welt.
+        ja_current: 金が世を動かす。
+        ja_proposed: 金が世を動かす。
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations: []
+    textual_issues: []
+    review_comments: []
+    status: unreviewed
+  - id: i-01-014
+    source_locator:
+      file: part-i.yaml
+      section_index: 1
+      conversation_index: 14
+      fingerprint: 56e99915abc1e7bf
+    source:
+      modern:
+      - de: \textlatin{Donec eris felix, multos numerabis amicos.}
+        ja: 幸運なうちは友も多い。
+      grc:
+      - ζεῖ χύτρα, ζῇ φιλία.!
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: \textlatin{Donec eris felix, multos numerabis amicos.}
+        ja_current: 幸運なうちは友も多い。
+        ja_proposed: 幸運なうちは友も多い。
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations: []
+    textual_issues: []
+    review_comments: []
+    status: unreviewed
+  - id: i-01-015
+    source_locator:
+      file: part-i.yaml
+      section_index: 1
+      conversation_index: 15
+      fingerprint: f83beecb51140d38
+    source:
+      modern:
+      - de: Durch Schaden wird man klug!
+        ja: 痛い目を見て人は賢くなる！
+      grc:
+      - \quotedblbase παθὼν δέ τε νήπιος ἔγνω.``
+    dialogue:
+      speaker:
+        candidate: adviser-or-moralizer
+        confidence: high
+      addressee:
+        candidate: interlocutor
+        confidence: high
+      speech_act: warn-through-proverb
+      tone:
+      - admonitory
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: >
+        παθών is an aorist participle, “having suffered”; νήπιος is the subject of ἔγνω,
+        “even the fool learned.” τε gives the statement gnomic force.
+      literal_gloss: 愚かな者も、痛い目を見て初めて悟る。
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: Durch Schaden wird man klug!
+        ja_current: 痛い目を見て人は賢くなる！
+        ja_proposed: 痛い目を見て人は賢くなる！
+        decision: retain
+        rationale: >
+          The current Japanese naturally renders the German proverb. The Greek is sharper: it explicitly
+          calls the learner a fool and says that knowledge comes only after suffering.
+        alternatives: []
+      register: proverbial-admonitory
+      scene_dependency: independent warning; can sound reproachful when aimed directly at someone
+    attestations:
+    - target: \quotedblbase παθὼν δέ τε νήπιος ἔγνω.``
+      status: source-context-checked
+      match_type: exact
+      reference_as_given: null
+      source:
+        author: Hesiod
+        work: hes.wd_gk
+        passage: '218'
+        local_file: /home/mrty/Documents/Perseus/Classics/Hesiod/opensource/hes.wd_gk.xml
+      text_grc: \quotedblbase παθὼν δέ τε νήπιος ἔγνω.``
+      original_speakers: []
+      original_speaker_beta: null
+      original_scene: >
+        Hesiod, Works and Days 218. Addressing Perses, Hesiod contrasts the better path of justice
+        with violence and says that Justice ultimately prevails over hubris: even a fool learns
+        after suffering the consequences.
+      beta_context: kreisswn es ta dikaia dikh d uper ubrios isxei es telos ecelqousa paqwn de te nhpios
+        egnw autika gar trexei orkos ama skolihsi dikhsin ths de dikhs roqos elkomenhs
+      relationship_to_handbook: >
+        Verbatim gnomic clause. German removes the explicit “fool” and turns the moral warning into
+        the general proverb “one learns through loss.”
+      adaptations:
+      - νήπιος “fool/naive person” generalized to impersonal man
+      - justice-versus-hubris context omitted
+      confidence: high
+      research_method: exact normalized token search
+    textual_issues: []
+    review_comments: []
+    status: ja-proposed
+  - id: i-01-016
+    source_locator:
+      file: part-i.yaml
+      section_index: 1
+      conversation_index: 16
+      fingerprint: bc49950b02ff4adc
+    source:
+      modern:
+      - de: \textlatin{Tempi passati!}
+        ja: 過ぎ去った時代だ！
+      grc:
+      - πάλαι ποτ’ ἦσαν ἄλκιμοι Μιλήσιοι.
+    dialogue:
+      speaker:
+        candidate: nostalgic-or-dismissive-speaker
+        confidence: medium
+      addressee:
+        candidate: context-dependent
+        confidence: medium
+      speech_act: contrast-past-with-present
+      tone:
+      - rueful
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: >
+        πάλαι ποτέ sets the remote past, “once long ago.” ἄλκιμοι is predicative, “valiant/strong,”
+        and Μιλήσιοι the subject.
+      literal_gloss: 昔、ミレトス人は勇ましかった。
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: \textlatin{Tempi passati!}
+        ja_current: 過ぎ去った時代だ！
+        ja_proposed: 昔はよかったものだ！
+        decision: revise
+        rationale: >
+          Italian tempi passati evokes former days now gone. The current nominal sentence is unnatural
+          Japanese and misses the rueful or dismissive contrast with the present.
+        alternatives: []
+      register: proverbial-rueful
+      scene_dependency: may be nostalgic, or dismissive of someone whose former attractions or power have passed
+    attestations:
+    - target: πάλαι ποτ’ ἦσαν ἄλκιμοι Μιλήσιοι.
+      status: source-context-checked
+      match_type: exact
+      reference_as_given: null
+      source:
+        author: Aristophanes
+        work: Plutus
+        passage: '1003'
+        local_file: /home/mrty/Documents/Perseus/Classics/Aristophanes/opensource/aristoph.pl_gk.xml
+      text_grc: πάλαι ποτ’ ἦσαν ἄλκιμοι Μιλήσιοι.
+      original_speakers:
+      - Γραυς
+      original_speaker_beta: '*grau=s'
+      original_scene: >
+        Plutus 1002-1004. An old woman complains that her former young lover, now enriched, told her
+        never to visit him again and added the proverb “once long ago the Milesians were valiant,”
+        cruelly implying that her attractive days are past.
+      beta_context: ekeise mhdepote m elqein eti kai pros epi toutois eipen apopempwn oti palai pot hsan
+        alkimoi milhsioi xremulos dhlon oti tous tropous tis ou moxqhros hn epeita ploutwn oukeq
+      relationship_to_handbook: >
+        Verbatim proverb. The Italian heading generalizes the original sexual and age-related insult
+        into nostalgia for days gone by.
+      adaptations:
+      - insult about the old woman's lost attractiveness omitted
+      confidence: high
+      research_method: exact normalized token search
+    - target: πάλαι ποτ’ ἦσαν ἄλκιμοι Μιλήσιοι.
+      status: source-context-checked
+      match_type: exact
+      reference_as_given: null
+      source:
+        author: Aristophanes
+        work: Plutus
+        passage: '1075'
+        local_file: /home/mrty/Documents/Perseus/Classics/Aristophanes/opensource/aristoph.pl_gk.xml
+      text_grc: πάλαι ποτ’ ἦσαν ἄλκιμοι Μιλήσιοι.
+      original_speakers:
+      - Χρεμυλος
+      original_speaker_beta: '*xremu/los'
+      original_scene: >
+        Plutus 1075. Chremylus confronts the young man with the old woman’s accusation that he called
+        her overbearing and quoted this proverb. The young man does not deny that part of her complaint.
+      beta_context: sou neanias ti kathgorei xremulos einai s ubristhn fhsi kai legein oti palai pot hsan
+        alkimoi milhsioi neanias egw peri tauths ou maxoumai soi xremulos to ti neanias aisxunomenos
+      relationship_to_handbook: Second occurrence within the same comic episode, explicitly reported as the young man's taunt.
+      adaptations: []
+      confidence: high
+      research_method: exact normalized token search
+    - target: πάλαι ποτ’ ἦσαν ἄλκιμοι Μιλήσιοι.
+      status: later-proverb-discussion-located
+      match_type: formulaic-parallel
+      reference_as_given: null
+      source:
+        author: Athenaeus
+        work: ath12_gk
+        passage: 523f
+        local_file: /home/mrty/Documents/Perseus/Classics/Athenaeus/opensource/ath12_gk.xml
+      text_grc: πάλαι ποτ’ ἦσαν ἄλκιμοι Μιλήσιοι.
+      original_speakers: []
+      original_speaker_beta: null
+      original_scene: null
+      beta_context: ths polews andreion fhsin o aristotelhs kai paroimia tis egennhqh ep autwn palai pot
+        hsan alkimoi milhsioi hrakleidhs d o pontikos en deuterw peri dikaiosunhs fhsin h milhsiwn polis
+      relationship_to_handbook: Athenaeus explicitly identifies the expression as a proverb about former Milesian valor.
+      adaptations: []
+      confidence: medium
+      research_method: exact normalized token search
+    - target: πάλαι ποτ’ ἦσαν ἄλκιμοι Μιλήσιοι.
+      status: later-proverb-discussion-located
+      match_type: formulaic-parallel
+      reference_as_given: null
+      source:
+        author: Diodorus Siculus
+        work: diod_gk
+        passage: '3'
+        local_file: /home/mrty/Documents/Perseus/Classics/Diodorus/opensource/diod_gk.xml
+      text_grc: πάλαι ποτ’ ἦσαν ἄλκιμοι Μιλήσιοι.
+      original_speakers: []
+      original_speaker_beta: null
+      original_scene: null
+      beta_context: perswn kataponoumenoi ephrwthsan peri summaxias ei proslabointo milhsious summaxous
+        o de aneilen palai pot hsan alkimoi milhsioi ou mhn all o fobos eggus keimenos epoihsen autous
+        epilaqesqai ths pros
+      relationship_to_handbook: Diodorus quotes the saying as an oracular response about lost Milesian strength.
+      adaptations: []
+      confidence: medium
+      research_method: exact normalized token search
+    textual_issues: []
+    review_comments: []
+    status: ja-proposed
+  - id: i-01-017
+    source_locator:
+      file: part-i.yaml
+      section_index: 1
+      conversation_index: 17
+      fingerprint: e25104f0c062f624
+    source:
+      modern:
+      - de: \textlatin{Ubi bene, ibi patria!}
+        ja: 住みよい所こそ祖国だ！
+      grc:
+      - πατρὶς γάρ ἐστι πᾶσ’, ἵν ἂν πράττῃ τις εὖ.
+    dialogue:
+      speaker:
+        candidate: self-justifying-speaker
+        confidence: medium
+      addressee:
+        candidate: interlocutor
+        confidence: medium
+      speech_act: justify-change-of-allegiance
+      tone:
+      - pragmatic
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: >
+        πᾶσα πατρίς is predicative, “every place is a homeland.” ἵν’ is ἵνα used locally,
+        “where,” with ἄν and subjunctive πράττῃ. εὖ πράττειν means fare or prosper well.
+      literal_gloss: 人がうまくやっていける所なら、どこでも祖国である。
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: \textlatin{Ubi bene, ibi patria!}
+        ja_current: 住みよい所こそ祖国だ！
+        ja_proposed: 住みよい所こそ祖国だ！
+        decision: retain
+        rationale: >
+          「住みよい所」is an idiomatic rendering of εὖ πράττειν. Commentary should preserve that
+          the ancient line can sound opportunistic rather than warmly cosmopolitan.
+        alternatives: []
+      register: proverbial-pragmatic
+      scene_dependency: may justify relocation, defection, or choosing the place where one prospers
+    attestations:
+    - target: πατρὶς γάρ ἐστι πᾶσ’, ἵν ἂν πράττῃ τις εὖ.
+      status: source-context-checked
+      match_type: exact
+      reference_as_given: null
+      source:
+        author: Aristophanes
+        work: Plutus
+        passage: '1151'
+        local_file: /home/mrty/Documents/Perseus/Classics/Aristophanes/opensource/aristoph.pl_gk.xml
+      text_grc: πατρὶς γάρ ἐστι πᾶσ’, ἵν ἂν πράττῃ τις εὖ.
+      original_speakers:
+      - Ερμης
+      original_speaker_beta: '*(ermh=s'
+      original_scene: >
+        Plutus 1151. Hermes asks to be admitted into Chremylus’s prosperous household because things
+        there are much better than among the gods. When Cario calls this desertion, Hermes replies
+        that every place where one fares well is a homeland.
+      beta_context: esti beltiw polu kariwn ti de tautomolein asteion einai soi dokei ermhs patris gar
+        esti pas in an pratth tis eu kariwn ti dht an eihs ofelos hmin enqad wn ermhs para thn
+      relationship_to_handbook: >
+        Verbatim comic maxim. The Latin and German presentation suppress the opportunistic joke:
+        Hermes is rationalizing his defection to the newly wealthy household.
+      adaptations:
+      - comic divine defection omitted
+      confidence: high
+      research_method: exact normalized token search
+    textual_issues: []
+    review_comments: []
+    status: ja-proposed
+  - id: i-01-018
+    source_locator:
+      file: part-i.yaml
+      section_index: 1
+      conversation_index: 18
+      fingerprint: 832fbc1abd423472
+    source:
+      modern:
+      - de: Er ist der beste Bruder auch nicht!
+        ja: 彼だって決して善人ではない！
+      grc:
+      - ἐστὶ τοῦ πονηροῦ κόμματος.
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: Er ist der beste Bruder auch nicht!
+        ja_current: 彼だって決して善人ではない！
+        ja_proposed: 彼だって決して善人ではない！
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations: []
+    textual_issues: []
+    review_comments: []
+    status: unreviewed
+  - id: i-01-019
+    source_locator:
+      file: part-i.yaml
+      section_index: 1
+      conversation_index: 19
+      fingerprint: 58307d4b96ac6bdb
+    source:
+      modern:
+      - de: \textlatin{Parturiunt montes etc.}
+        ja: 山の胎動、産んだのは鼠一匹。
+      grc:
+      - ὤδινεν ὄρος, εἶτα μῦν ἀπέτεκεν.
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: \textlatin{Parturiunt montes etc.}
+        ja_current: 山の胎動、産んだのは鼠一匹。
+        ja_proposed: 山の胎動、産んだのは鼠一匹。
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations: []
+    textual_issues: []
+    review_comments: []
+    status: unreviewed
+  - id: i-01-020
+    source_locator:
+      file: part-i.yaml
+      section_index: 1
+      conversation_index: 20
+      fingerprint: b746b8c473eea6fd
+    source:
+      modern:
+      - de: Du giebst dir vergebliche Mühe.
+        ja: 骨折り損だ。
+      grc:
+      - λίθον ἕψεις.
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: Du giebst dir vergebliche Mühe.
+        ja_current: 骨折り損だ。
+        ja_proposed: 骨折り損だ。
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations: []
+    textual_issues: []
+    review_comments: []
+    status: unreviewed
+  - id: i-01-021
+    source_locator:
+      file: part-i.yaml
+      section_index: 1
+      conversation_index: 21
+      fingerprint: a580a977fa498f9b
+    source:
+      modern:
+      - de: Das Übel ärger machen.
+        ja: 災いに拍車をかける。
+      grc:
+      - πλέον θάτερον ποιεῖν.
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: Das Übel ärger machen.
+        ja_current: 災いに拍車をかける。
+        ja_proposed: 災いに拍車をかける。
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations: []
+    textual_issues: []
+    review_comments: []
+    status: unreviewed
+  - id: i-01-022
+    source_locator:
+      file: part-i.yaml
+      section_index: 1
+      conversation_index: 22
+      fingerprint: f036c76beb62e131
+    source:
+      modern:
+      - de: Eile mit Weile.
+        ja: 急がば回れ。
+      grc:
+      - 'σπεῦδε βραδέως!\textgerman{ (Wahlspruch
+
+        des Kaisers Augustus.)}'
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: Eile mit Weile.
+        ja_current: 急がば回れ。
+        ja_proposed: 急がば回れ。
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations: []
+    textual_issues: []
+    review_comments: []
+    status: unreviewed
+  - id: i-01-023
+    source_locator:
+      file: part-i.yaml
+      section_index: 1
+      conversation_index: 23
+      fingerprint: ba6a2ac817179c4a
+    source:
+      modern:
+      - de: Laß dir genügen!
+        ja: 分をわきまえて満足せよ！
+      grc:
+      - πλέον ἥμισυ παντός!
+    dialogue:
+      speaker:
+        candidate: adviser-or-rebuker
+        confidence: high
+      addressee:
+        candidate: interlocutor
+        confidence: high
+      speech_act: counsel-contentment
+      tone:
+      - admonitory
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: >
+        ἥμισυ is the subject, παντός a genitive of comparison or whole, and πλέον the comparative
+        predicate: “the half is more than the whole.”
+      literal_gloss: 半分のほうが全体よりも多い。
+      particles_and_idioms:
+      - form: πλέον ἥμισυ παντός
+        function: paradoxical maxim that a modest secure share may be worth more than grasping at everything
+      pragmatic_force: warns against greed and counsels accepting less
+    translation:
+      variants:
+      - de: Laß dir genügen!
+        ja_current: 分をわきまえて満足せよ！
+        ja_proposed: 足るを知りなさい。
+        decision: revise
+        rationale: >
+          「分をわきまえる」adds social rank or prescribed station, which neither German nor Greek
+          requires. 「足るを知る」preserves the counsel against grasping for more.
+        alternatives: []
+      register: proverbial-admonitory
+      scene_dependency: addressed to someone dissatisfied with a sufficient share
+    attestations:
+    - target: πλέον ἥμισυ παντός!
+      status: source-context-checked
+      match_type: exact
+      reference_as_given: null
+      source:
+        author: Hesiod
+        work: hes.wd_gk
+        passage: '40'
+        local_file: /home/mrty/Documents/Perseus/Classics/Hesiod/opensource/hes.wd_gk.xml
+      text_grc: πλέον ἥμισυ παντός!
+      original_speakers: []
+      original_speaker_beta: null
+      original_scene: >
+        Hesiod, Works and Days 40. Hesiod rebukes his brother Perses for seizing more than his share
+        of their inheritance and courting corrupt “gift-eating” judges. Such fools do not know how
+        much more the half can be than the whole, nor the nourishment in simple food.
+      beta_context: kudainwn basilhas dwrofagous oi thnde dikhn eqelousi dikassai nhpioi oude isasin osw
+        pleon hmisu pantos oud oson en malaxh te kai asfodelw meg oneiar kruyantes gar exousi
+      relationship_to_handbook: >
+        The handbook extracts the central Hesiodic paradox and translates its practical lesson rather
+        than its literal wording.
+      adaptations:
+      - inheritance dispute and criticism of greedy judges omitted
+      - paradox converted into a direct imperative of contentment
+      confidence: high
+      research_method: exact normalized token search
+    - target: πλέον ἥμισυ παντός!
+      status: secondary-quotation-located
+      match_type: formulaic-parallel
+      reference_as_given: null
+      source:
+        author: Plutarch
+        work: plut.068_teubner_gk
+        passage: '21'
+        local_file: /home/mrty/Documents/Perseus/Classics/Plutarch/opensource/plut.068_teubner_gk.xml
+      text_grc: πλέον ἥμισυ παντός!
+      original_speakers: []
+      original_speaker_beta: null
+      original_scene: null
+      beta_context: alla thn authn exei dianoian ekeinw to de nhpioi oud isasin osw pleon hmisu pantos
+        kai to h de kakh boulh tw bouleusanti kakisth tauton esti tois
+      relationship_to_handbook: Plutarch explicitly discusses the Hesiodic maxim; this is reception evidence, not its origin.
+      adaptations: []
+      confidence: medium
+      research_method: exact normalized token search
+    - target: πλέον ἥμισυ παντός!
+      status: secondary-quotation-located
+      match_type: formulaic-parallel
+      reference_as_given: null
+      source:
+        author: Polybius
+        work: hist_gk
+        passage: '8'
+        local_file: /home/mrty/Documents/Perseus/Classics/Polybius/opensource/hist_gk.xml
+      text_grc: πλέον ἥμισυ παντός!
+      original_speakers: []
+      original_speaker_beta: null
+      original_scene: null
+      beta_context: pragma poiwn fronimou kai nounexous andros to gnwnai kata ton hsiodon osw pleon hmisu
+        pantos cod urbin margo fol to gar manqanein ayeustein pros tous qeous upoquyis
+      relationship_to_handbook: Polybius explicitly attributes the maxim to Hesiod; this is reception evidence.
+      adaptations: []
+      confidence: medium
+      research_method: exact normalized token search
+    textual_issues: []
+    review_comments: []
+    status: ja-proposed

@@ -1,0 +1,6146 @@
+meta:
+  source: part-f.yaml
+  part_title:
+    de: Im Hause.
+    ja: 家の中で
+  translation_style:
+    basis:
+    - part-a.yaml
+    - part-b.yaml
+    - part-c.yaml
+    principles:
+    - Prefer natural spoken Japanese appropriate to the reconstructed relationship.
+    - Preserve the German wording except for explicitly identified source or OCR errors.
+    - Distinguish the German prompt from the literal and pragmatic force of the Greek.
+    - Preserve nineteenth-century objects, institutions, and social conventions where relevant.
+    - Do not add politeness, intimacy, gender, or aggression without contextual evidence.
+    - Use Japanese punctuation and sentence endings to make turn-taking natural.
+  corpus_roots:
+    perseus: /home/mrty/Documents/Perseus/Classics
+    lsj: /home/mrty/Documents/Perseus/Classics/LSJ
+  attestation_match_types:
+  - exact
+  - near-exact
+  - adapted
+  - syntactic-parallel
+  - formulaic-parallel
+  - lexical-only
+  - not-found
+  status_values:
+  - unreviewed
+  - scene-reviewed
+  - source-researched
+  - ja-proposed
+  - accepted
+scenes:
+- id: f-01
+  title:
+    de: Da wohnt er
+    ja: そこに彼は住んでいる
+  scene_type: reconstructed_dialogue
+  setting:
+    situation: a visitor asks for a resident and enters the house
+  cast:
+  - id: visitor
+    description: null
+    evidence: null
+    confidence: candidate
+  - id: resident
+    description: null
+    evidence: null
+    confidence: candidate
+  - id: household-member
+    description: null
+    evidence: null
+    confidence: candidate
+  reconstruction:
+    confidence: unreviewed
+    note: Ordering may combine a continuous exchange with reusable model phrases; turn continuity must
+      be justified entry by entry.
+  entries:
+  - id: f-01-001
+    source_locator:
+      file: part-f.yaml
+      section_index: 1
+      conversation_index: 1
+      fingerprint: 56a88d815f87d500
+    source:
+      modern:
+      - de: Werden Sie mir wohl sagen können, wo hier Herr M. wohnt?
+        ja: こちらでM氏がどこに住んでいるか教えていただけますか？
+      grc:
+      - ἔχοις ἂν φράσαι μοι (τόν κύριον{*}) Μύλλερον, ὅπου ἐνθάδε οἰκεῖ;
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: Werden Sie mir wohl sagen können, wo hier Herr M. wohnt?
+        ja_current: こちらでM氏がどこに住んでいるか教えていただけますか？
+        ja_proposed: こちらでM氏がどこに住んでいるか教えていただけますか？
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations: []
+    textual_issues: []
+    review_comments: []
+    status: unreviewed
+  - id: f-01-002
+    source_locator:
+      file: part-f.yaml
+      section_index: 1
+      conversation_index: 2
+      fingerprint: e07af7a42a6e4ed6
+    source:
+      modern:
+      - de: Ich möchte gern erfahren, wo Müller wohnt.
+        ja: ミュラーがどこに住んでいるか知りたいのですが。
+      grc:
+      - ἡδέως ἂν μάθοιμι, ποῦ Μύλλερος οἰκεῖ.
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: Ich möchte gern erfahren, wo Müller wohnt.
+        ja_current: ミュラーがどこに住んでいるか知りたいのですが。
+        ja_proposed: ミュラーがどこに住んでいるか知りたいのですが。
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations: []
+    textual_issues: []
+    review_comments: []
+    status: unreviewed
+  - id: f-01-003
+    source_locator:
+      file: part-f.yaml
+      section_index: 1
+      conversation_index: 3
+      fingerprint: e34ff743247e6e3b
+    source:
+      modern:
+      - de: Das möchte ich gern wissen.
+        ja: それを知りたいのです。
+      grc:
+      - τοῦτ’ με δίδαξον!
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: Das möchte ich gern wissen.
+        ja_current: それを知りたいのです。
+        ja_proposed: それを知りたいのです。
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations: []
+    textual_issues: []
+    review_comments: []
+    status: unreviewed
+  - id: f-01-004
+    source_locator:
+      file: part-f.yaml
+      section_index: 1
+      conversation_index: 4
+      fingerprint: a1cae23d936d63ed
+    source:
+      modern:
+      - de: In der Leipziger Straße.
+        ja: ライプツィヒ通りです。
+      grc:
+      - ἐν τῇ Λειψιανῇ{*} ὁδῷ.
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: In der Leipziger Straße.
+        ja_current: ライプツィヒ通りです。
+        ja_proposed: ライプツィヒ通りです。
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations: []
+    textual_issues: []
+    review_comments: []
+    status: unreviewed
+  - id: f-01-005
+    source_locator:
+      file: part-f.yaml
+      section_index: 1
+      conversation_index: 5
+      fingerprint: 59f365d684c0c9e7
+    source:
+      modern:
+      - de: Er zieht aus.
+        ja: 彼は引っ越します。
+      grc:
+      - μετοικίζεται.
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: Er zieht aus.
+        ja_current: 彼は引っ越します。
+        ja_proposed: 彼は引っ越します。
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations: []
+    textual_issues: []
+    review_comments: []
+    status: unreviewed
+  - id: f-01-006
+    source_locator:
+      file: part-f.yaml
+      section_index: 1
+      conversation_index: 6
+      fingerprint: 1fafd3edc405e3ba
+    source:
+      modern:
+      - de: Er ist aus\textcompwordmark{}gezogen.
+        ja: 彼はもう引っ越していきました。
+      grc:
+      - φροῦδός ἐστιν ἐξῳκισμένος.
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: Er ist aus\textcompwordmark{}gezogen.
+        ja_current: 彼はもう引っ越していきました。
+        ja_proposed: 彼はもう引っ越していきました。
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations: []
+    textual_issues: []
+    review_comments: []
+    status: unreviewed
+  - id: f-01-007
+    source_locator:
+      file: part-f.yaml
+      section_index: 1
+      conversation_index: 7
+      fingerprint: fbf58a63b630d5f5
+    source:
+      modern:
+      - de: Da sieht er zum Fenster heraus!
+        ja: ほら、窓から顔を出しています！
+      grc:
+      - ὁδὶ ἐκ θυρίδος παρακύπτει.
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: Da sieht er zum Fenster heraus!
+        ja_current: ほら、窓から顔を出しています！
+        ja_proposed: ほら、窓から顔を出しています！
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations: []
+    textual_issues: []
+    review_comments: []
+    status: unreviewed
+  - id: f-01-008
+    source_locator:
+      file: part-f.yaml
+      section_index: 1
+      conversation_index: 8
+      fingerprint: f47d4c34e2e295d7
+    source:
+      modern:
+      - de: Das ist er.
+        ja: 彼だ。
+      grc:
+      - \emph{οὗτός ἐστ’ ἐκεῖνος.}
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: Das ist er.
+        ja_current: 彼だ。
+        ja_proposed: 彼だ。
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations:
+    - target: \emph{οὗτός ἐστ’ ἐκεῖνος.}
+      status: exact-string-located-context-pending
+      match_type: exact
+      reference_as_given: null
+      source:
+        author: Aristophanes
+        work: Peace
+        passage: '240'
+        local_file: /home/mrty/Documents/Perseus/Classics/Aristophanes/opensource/aristoph.peace_gk.xml
+      text_grc: \emph{οὗτός ἐστ’ ἐκεῖνος.}
+      original_speakers:
+      - Τρυγαιος
+      original_speaker_beta: '*trugai=os'
+      original_scene: null
+      beta_context: ths queias tou platous oson kakon kai tou polemou tou blemmatos ar outos est ekeinos
+        on kai feugomen o deinos o talaurinos o kata toin skeloin polemos
+      relationship_to_handbook: The complete handbook string matches after removing accents and normalizing
+        Perseus Beta Code. Dramatic or prose context still needs manual comparison.
+      adaptations: []
+      confidence: candidate
+      research_method: exact normalized token search
+    textual_issues: []
+    review_comments: []
+    status: source-researched
+  - id: f-01-009
+    source_locator:
+      file: part-f.yaml
+      section_index: 1
+      conversation_index: 9
+      fingerprint: b5c7cb1c70b7868e
+    source:
+      modern:
+      - de: Wer klopft?
+        ja: 誰がノックしている？
+      grc:
+      - τίς ἐσθ’ ὁ τὴν θύραν κόπτων;
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: Wer klopft?
+        ja_current: 誰がノックしている？
+        ja_proposed: 誰がノックしている？
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations: []
+    textual_issues: []
+    review_comments: []
+    status: unreviewed
+  - id: f-01-010
+    source_locator:
+      file: part-f.yaml
+      section_index: 1
+      conversation_index: 10
+      fingerprint: 1c3bb2e30335a2b8
+    source:
+      modern:
+      - de: Mach' die Thür auf!
+        ja: ドアを開けろ！
+      grc:
+      - ἄνοιγε τὴν θύραν!
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: Mach' die Thür auf!
+        ja_current: ドアを開けろ！
+        ja_proposed: ドアを開けろ！
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations:
+    - target: ἄνοιγε τὴν θύραν!
+      status: exact-string-located-context-pending
+      match_type: exact
+      reference_as_given: null
+      source:
+        author: Aristophanes
+        work: Acharnians
+        passage: '1189'
+        local_file: /home/mrty/Documents/Perseus/Classics/Aristophanes/opensource/aristoph.ach_gk.xml
+      text_grc: ἄνοιγε τὴν θύραν!
+      original_speakers:
+      - Θεραπων Λαμαχου
+      original_speaker_beta: '*qera/pwn *lama/xou'
+      original_scene: null
+      beta_context: kai cunanta drapetais lhstas elaunwn kai katasperxwn dori odi de kautos all anoige
+        thn quran lamaxos attatai attatai stugera tade ge kruera paqea talas egw diollumai doros
+      relationship_to_handbook: The complete handbook string matches after removing accents and normalizing
+        Perseus Beta Code. Dramatic or prose context still needs manual comparison.
+      adaptations: []
+      confidence: candidate
+      research_method: exact normalized token search
+    - target: ἄνοιγε τὴν θύραν!
+      status: exact-string-located-context-pending
+      match_type: exact
+      reference_as_given: null
+      source:
+        author: Aristophanes
+        work: Clouds
+        passage: '183'
+        local_file: /home/mrty/Documents/Perseus/Classics/Aristophanes/opensource/aristoph.cl_gk.xml
+      text_grc: ἄνοιγε τὴν θύραν!
+      original_speakers:
+      - Στρεψιαδης
+      original_speaker_beta: '*streyia/dhs'
+      original_scene: null
+      beta_context: to frontisthrion kai deicon ws taxista moi ton swkrath maqhtiw gar all anoige thn
+        quran w hrakleis tauti podapa ta qhria maqhths ti eqaumasas tw soi dokousin
+      relationship_to_handbook: The complete handbook string matches after removing accents and normalizing
+        Perseus Beta Code. Dramatic or prose context still needs manual comparison.
+      adaptations: []
+      confidence: candidate
+      research_method: exact normalized token search
+    - target: ἄνοιγε τὴν θύραν!
+      status: exact-string-located-context-pending
+      match_type: exact
+      reference_as_given: null
+      source:
+        author: Aristophanes
+        work: Lysistrata
+        passage: '1217'
+        local_file: /home/mrty/Documents/Perseus/Classics/Aristophanes/opensource/aristoph.lys_gk.xml
+      text_grc: ἄνοιγε τὴν θύραν!
+      original_speakers:
+      - Αθηναιος Α
+      original_speaker_beta: '*)aqhnai=os *a.'
+      original_scene: null
+      beta_context: quran proagoreuw mh badizein thn emhn all eulabeisqai thn kuna aqhnaios a anoige thn
+        quran paraxwrein ou qeleis umeis ti kaqhsqe mwn egw th lampadi umas katakausw
+      relationship_to_handbook: The complete handbook string matches after removing accents and normalizing
+        Perseus Beta Code. Dramatic or prose context still needs manual comparison.
+      adaptations: []
+      confidence: candidate
+      research_method: exact normalized token search
+    - target: ἄνοιγε τὴν θύραν!
+      status: exact-string-located-context-pending
+      match_type: exact
+      reference_as_given: null
+      source:
+        author: Athenaeus
+        work: ath13_gk
+        passage: 590b
+        local_file: /home/mrty/Documents/Perseus/Classics/Athenaeus/opensource/ath13_gk.xml
+      text_grc: ἄνοιγε τὴν θύραν!
+      original_speakers: []
+      original_speaker_beta: null
+      original_scene: null
+      beta_context: maqe oun oti arsenikws eirhke ton tigrin alecis en puraunw outws anoig anoige thn
+        quran elanqanon palai peripatwn andrias aletwn onos potamios ippos toixos o seleukou tigris
+      relationship_to_handbook: The complete handbook string matches after removing accents and normalizing
+        Perseus Beta Code. Dramatic or prose context still needs manual comparison.
+      adaptations: []
+      confidence: candidate
+      research_method: exact normalized token search
+    textual_issues: []
+    review_comments: []
+    status: source-researched
+  - id: f-01-011
+    source_locator:
+      file: part-f.yaml
+      section_index: 1
+      conversation_index: 11
+      fingerprint: 625284debcf0a1ec
+    source:
+      modern:
+      - de: Mach' doch auf!
+        ja: さっさと開けて！
+      grc:
+      - οὐκ ἀνοίξεις;
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: Mach' doch auf!
+        ja_current: さっさと開けて！
+        ja_proposed: さっさと開けて！
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations: []
+    textual_issues: []
+    review_comments: []
+    status: unreviewed
+  - id: f-01-012
+    source_locator:
+      file: part-f.yaml
+      section_index: 1
+      conversation_index: 12
+      fingerprint: 2c7850a401fb9032
+    source:
+      modern:
+      - de: Mach' endlich die Thür auf!
+        ja: いい加減ドアを開けろ！
+      grc:
+      - ἄνοιγ’ \emph{ἀνύσας} τὴν θύραν.
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: Mach' endlich die Thür auf!
+        ja_current: いい加減ドアを開けろ！
+        ja_proposed: いい加減ドアを開けろ！
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations: []
+    textual_issues: []
+    review_comments: []
+    status: unreviewed
+  - id: f-01-013
+    source_locator:
+      file: part-f.yaml
+      section_index: 1
+      conversation_index: 13
+      fingerprint: 32300476d7835167
+    source:
+      modern:
+      - de: Wer ist da?
+        ja: 誰だ？
+      grc:
+      - τίς οὗτος;
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: Wer ist da?
+        ja_current: 誰だ？
+        ja_proposed: 誰だ？
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations: []
+    textual_issues: []
+    review_comments: []
+    status: unreviewed
+  - id: f-01-014
+    source_locator:
+      file: part-f.yaml
+      section_index: 1
+      conversation_index: 14
+      fingerprint: 517ea31e16cd4302
+    source:
+      modern:
+      - de: Melden Sie mich!
+        ja: 私が来たと取り次いでください。
+      grc:
+      - εἰσάγγειλον.
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: Melden Sie mich!
+        ja_current: 私が来たと取り次いでください。
+        ja_proposed: 私が来たと取り次いでください。
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations: []
+    textual_issues: []
+    review_comments: []
+    status: unreviewed
+  - id: f-01-015
+    source_locator:
+      file: part-f.yaml
+      section_index: 1
+      conversation_index: 15
+      fingerprint: c8fdec08adadf715
+    source:
+      modern:
+      - de: Ich weiß Ihren Namen nicht genau.
+        ja: お名前をはっきり存じ上げません。
+      grc:
+      - οὐκ οἶδ’ ἀκριβῶς σου τοὔνομα.
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: Ich weiß Ihren Namen nicht genau.
+        ja_current: お名前をはっきり存じ上げません。
+        ja_proposed: お名前をはっきり存じ上げません。
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations: []
+    textual_issues: []
+    review_comments: []
+    status: unreviewed
+  - id: f-01-016
+    source_locator:
+      file: part-f.yaml
+      section_index: 1
+      conversation_index: 16
+      fingerprint: 52ac806b9c78e2e9
+    source:
+      modern:
+      - de: Ist Müller zu Hause?
+        ja: ミュラーは家にいますか？
+      grc:
+      - \emph{ἔνδον} ἐστὶ Μύλλερος;
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: Ist Müller zu Hause?
+        ja_current: ミュラーは家にいますか？
+        ja_proposed: ミュラーは家にいますか？
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations: []
+    textual_issues: []
+    review_comments: []
+    status: unreviewed
+  - id: f-01-017
+    source_locator:
+      file: part-f.yaml
+      section_index: 1
+      conversation_index: 17
+      fingerprint: 6548d404e902282f
+    source:
+      modern:
+      - de: Nein, er ist nicht zu Hause.
+        ja: いいえ、留守です。
+      grc:
+      - οὐκ ἔνδον ἐστίν.
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: Nein, er ist nicht zu Hause.
+        ja_current: いいえ、留守です。
+        ja_proposed: いいえ、留守です。
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations: []
+    textual_issues: []
+    review_comments: []
+    status: unreviewed
+  - id: f-01-018
+    source_locator:
+      file: part-f.yaml
+      section_index: 1
+      conversation_index: 18
+      fingerprint: 273e7c66fe8c05db
+    source:
+      modern:
+      - de: \emph{Augenblicklich} ist er nicht zu Hause.
+        ja: ちょうど今は家にいません。
+      grc:
+      - οὐκ ἔνδον ὢν τυγχάνει.
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: \emph{Augenblicklich} ist er nicht zu Hause.
+        ja_current: ちょうど今は家にいません。
+        ja_proposed: ちょうど今は家にいません。
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations: []
+    textual_issues: []
+    review_comments: []
+    status: unreviewed
+  - id: f-01-019
+    source_locator:
+      file: part-f.yaml
+      section_index: 1
+      conversation_index: 19
+      fingerprint: 204d58cfeb345229
+    source:
+      modern:
+      - de: Er ist spazieren.
+        ja: 彼は散歩に出ています。
+      grc:
+      - περίπατον ποιεῖται.
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: Er ist spazieren.
+        ja_current: 彼は散歩に出ています。
+        ja_proposed: 彼は散歩に出ています。
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations: []
+    textual_issues: []
+    review_comments: []
+    status: unreviewed
+  - id: f-01-020
+    source_locator:
+      file: part-f.yaml
+      section_index: 1
+      conversation_index: 20
+      fingerprint: 543490ac911b0c12
+    source:
+      modern:
+      - de: So?
+        ja: そうですか？
+      grc:
+      - ἄληρες;
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: So?
+        ja_current: そうですか？
+        ja_proposed: そうですか？
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations: []
+    textual_issues: []
+    review_comments: []
+    status: unreviewed
+  - id: f-01-021
+    source_locator:
+      file: part-f.yaml
+      section_index: 1
+      conversation_index: 21
+      fingerprint: 25ef21a7e7828dd9
+    source:
+      modern:
+      - de: Er steht an der Thür.
+        ja: 彼は戸口に立っています。
+      grc:
+      - ἐπὶ ταῖς θύραις ἕστηκεν.
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: Er steht an der Thür.
+        ja_current: 彼は戸口に立っています。
+        ja_proposed: 彼は戸口に立っています。
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations: []
+    textual_issues: []
+    review_comments: []
+    status: unreviewed
+  - id: f-01-022
+    source_locator:
+      file: part-f.yaml
+      section_index: 1
+      conversation_index: 22
+      fingerprint: 18cbbba173d84cde
+    source:
+      modern:
+      - de: Er ist im Begriff aus\textcompwordmark{}zugehen.
+        ja: 彼は今まさに出かけようとしています。
+      grc:
+      - μέλλει \emph{θύραζε βαδίζειν.}
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: Er ist im Begriff aus\textcompwordmark{}zugehen.
+        ja_current: 彼は今まさに出かけようとしています。
+        ja_proposed: 彼は今まさに出かけようとしています。
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations: []
+    textual_issues: []
+    review_comments: []
+    status: unreviewed
+- id: f-02
+  title:
+    de: Am Morgen
+    ja: 朝
+  scene_type: mixed
+  setting:
+    situation: morning routine in a household
+  cast:
+  - id: adult-a
+    description: null
+    evidence: null
+    confidence: candidate
+  - id: adult-b
+    description: null
+    evidence: null
+    confidence: candidate
+  - id: child-or-servant
+    description: null
+    evidence: null
+    confidence: candidate
+  reconstruction:
+    confidence: unreviewed
+    note: Ordering may combine a continuous exchange with reusable model phrases; turn continuity must
+      be justified entry by entry.
+  entries:
+  - id: f-02-001
+    source_locator:
+      file: part-f.yaml
+      section_index: 2
+      conversation_index: 1
+      fingerprint: 06db3b928475cb02
+    source:
+      modern:
+      - de: Er ist im Schlafzimmer.
+        ja: 彼は寝室にいます。
+      grc:
+      - ἐστὶν ἐν τῷ δωματίῳ.
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: Er ist im Schlafzimmer.
+        ja_current: 彼は寝室にいます。
+        ja_proposed: 彼は寝室にいます。
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations: []
+    textual_issues: []
+    review_comments: []
+    status: unreviewed
+  - id: f-02-002
+    source_locator:
+      file: part-f.yaml
+      section_index: 2
+      conversation_index: 2
+      fingerprint: 1c354431bc9e46ee
+    source:
+      modern:
+      - de: Das Bett.
+        ja: ベッド。
+      grc:
+      - τὰ \emph{στρώματα.}
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: Das Bett.
+        ja_current: ベッド。
+        ja_proposed: ベッド。
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations: []
+    textual_issues: []
+    review_comments: []
+    status: unreviewed
+  - id: f-02-003
+    source_locator:
+      file: part-f.yaml
+      section_index: 2
+      conversation_index: 3
+      fingerprint: ee07e1002aed97cb
+    source:
+      modern:
+      - de: Im Bette.
+        ja: ベッドの中で。
+      grc:
+      - ἐν τοῖς στρώμασιν.
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: Im Bette.
+        ja_current: ベッドの中で。
+        ja_proposed: ベッドの中で。
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations:
+    - target: ἐν τοῖς στρώμασιν.
+      status: exact-string-located-context-pending
+      match_type: exact
+      reference_as_given: null
+      source:
+        author: Aristophanes
+        work: Clouds
+        passage: '1070'
+        local_file: /home/mrty/Documents/Perseus/Classics/Aristophanes/opensource/aristoph.cl_gk.xml
+      text_grc: ἐν τοῖς στρώμασιν.
+      original_speakers:
+      - Αδικος Λογος
+      original_speaker_beta: '*)/adikos *lo/gos'
+      original_scene: null
+      beta_context: logos kat apolipousa g auton wxet ou gar hn ubrisths oud hdus en tois strwmasin thn
+        nukta pannuxizein gunh de sinamwroumenh xairei su d ei kronippos skeyai
+      relationship_to_handbook: The complete handbook string matches after removing accents and normalizing
+        Perseus Beta Code. Dramatic or prose context still needs manual comparison.
+      adaptations: []
+      confidence: candidate
+      research_method: exact normalized token search
+    - target: ἐν τοῖς στρώμασιν.
+      status: exact-string-located-context-pending
+      match_type: exact
+      reference_as_given: null
+      source:
+        author: Aristophanes
+        work: Ecclesiazusae
+        passage: '39'
+        local_file: /home/mrty/Documents/Perseus/Classics/Aristophanes/opensource/aristoph.eccl_gk.xml
+      text_grc: ἐν τοῖς στρώμασιν.
+      original_speakers:
+      - Γυνη Β
+      original_speaker_beta: '*gunh\ *b'
+      original_scene: null
+      beta_context: filtath salaminios gar estin w cuneim egw thn nuxq olhn hlaune m en tois strwmasin
+        wst arti touti qoimation autou labon gunh a kai mhn orw kai
+      relationship_to_handbook: The complete handbook string matches after removing accents and normalizing
+        Perseus Beta Code. Dramatic or prose context still needs manual comparison.
+      adaptations: []
+      confidence: candidate
+      research_method: exact normalized token search
+    - target: ἐν τοῖς στρώμασιν.
+      status: exact-string-located-context-pending
+      match_type: exact
+      reference_as_given: null
+      source:
+        author: Aristophanes
+        work: Ecclesiazusae
+        passage: '334'
+        local_file: /home/mrty/Documents/Perseus/Classics/Aristophanes/opensource/aristoph.eccl_gk.xml
+      text_grc: ἐν τοῖς στρώμασιν.
+      original_speakers:
+      - Βλεπυρος
+      original_speaker_beta: '*ble/puros'
+      original_scene: null
+      beta_context: sou pou stin blepuros ouk exw frasai zhtwn gar aut oux huron en tois strwmasin anhr
+        eit oude thn gunaik ekeleusas soi frasai blepuros ma ton di
+      relationship_to_handbook: The complete handbook string matches after removing accents and normalizing
+        Perseus Beta Code. Dramatic or prose context still needs manual comparison.
+      adaptations: []
+      confidence: candidate
+      research_method: exact normalized token search
+    - target: ἐν τοῖς στρώμασιν.
+      status: exact-string-located-context-pending
+      match_type: exact
+      reference_as_given: null
+      source:
+        author: Aristophanes
+        work: Frogs
+        passage: '443'
+        local_file: /home/mrty/Documents/Perseus/Classics/Aristophanes/opensource/aristoph.frogs_gk.xml
+      text_grc: ἐν τοῖς στρώμασιν.
+      original_speakers:
+      - Ξανθιας
+      original_speaker_beta: '*canqi/as'
+      original_scene: null
+      beta_context: w pai canqias touti ti hn to pragma all h dios korinqos en tois strwmasin xoros xwreite
+        nun ieron ana kuklon qeas anqoforon an alsos paizontes ois
+      relationship_to_handbook: The complete handbook string matches after removing accents and normalizing
+        Perseus Beta Code. Dramatic or prose context still needs manual comparison.
+      adaptations: []
+      confidence: candidate
+      research_method: exact normalized token search
+    - target: ἐν τοῖς στρώμασιν.
+      status: exact-string-located-context-pending
+      match_type: exact
+      reference_as_given: null
+      source:
+        author: Aristophanes
+        work: Wasps
+        passage: '1213'
+        local_file: /home/mrty/Documents/Perseus/Classics/Aristophanes/opensource/aristoph.wasps_gk.xml
+      text_grc: ἐν τοῖς στρώμασιν.
+      original_speakers:
+      - Βδελυκλεων
+      original_speaker_beta: '*bdelukle/wn'
+      original_scene: null
+      beta_context: filoklewn pws dai bdeluklewn ta gonat ekteine kai gumnastikws ugron xutlason seauton
+        en tois strwmasin epeit epaineson ti twn xalkwmatwn orofhn qeasai krekadi aulhs qaumason udwr
+        kata
+      relationship_to_handbook: The complete handbook string matches after removing accents and normalizing
+        Perseus Beta Code. Dramatic or prose context still needs manual comparison.
+      adaptations: []
+      confidence: candidate
+      research_method: exact normalized token search
+    textual_issues: []
+    review_comments: []
+    status: source-researched
+  - id: f-02-004
+    source_locator:
+      file: part-f.yaml
+      section_index: 2
+      conversation_index: 4
+      fingerprint: 35b7a3acc3ff925f
+    source:
+      modern:
+      - de: Er schläft eben.
+        ja: 彼はいま寝ています。
+      grc:
+      - ἀρτίως εὕδει.
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: Er schläft eben.
+        ja_current: 彼はいま寝ています。
+        ja_proposed: 彼はいま寝ています。
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations: []
+    textual_issues: []
+    review_comments: []
+    status: unreviewed
+  - id: f-02-005
+    source_locator:
+      file: part-f.yaml
+      section_index: 2
+      conversation_index: 5
+      fingerprint: b1a65e8061d290ca
+    source:
+      modern:
+      - de: Du, wach' auf!
+        ja: おい、起きろ！
+      grc:
+      - οὗτος, ἐγείρου!
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: Du, wach' auf!
+        ja_current: おい、起きろ！
+        ja_proposed: おい、起きろ！
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations: []
+    textual_issues: []
+    review_comments: []
+    status: unreviewed
+  - id: f-02-006
+    source_locator:
+      file: part-f.yaml
+      section_index: 2
+      conversation_index: 6
+      fingerprint: edc5152c64c5b858
+    source:
+      modern:
+      - de: Steh' auf!
+        ja: 起きなさい！
+      grc:
+      - ἀνίστασο!
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: Steh' auf!
+        ja_current: 起きなさい！
+        ja_proposed: 起きなさい！
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations: []
+    textual_issues: []
+    review_comments: []
+    status: unreviewed
+  - id: f-02-007
+    source_locator:
+      file: part-f.yaml
+      section_index: 2
+      conversation_index: 7
+      fingerprint: fb896500dc868de8
+    source:
+      modern:
+      - de: Zünde Licht an!
+        ja: 明かりをつけて！
+      grc:
+      - ἅπτε λύχνον!
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: Zünde Licht an!
+        ja_current: 明かりをつけて！
+        ja_proposed: 明かりをつけて！
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations: []
+    textual_issues: []
+    review_comments: []
+    status: unreviewed
+  - id: f-02-008
+    source_locator:
+      file: part-f.yaml
+      section_index: 2
+      conversation_index: 8
+      fingerprint: 1e01642a820dec15
+    source:
+      modern:
+      - de: Sehr wohl.
+        ja: わかりました。
+      grc:
+      - ταῦτα.
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: Sehr wohl.
+        ja_current: わかりました。
+        ja_proposed: わかりました。
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations: []
+    textual_issues: []
+    review_comments: []
+    status: unreviewed
+  - id: f-02-009
+    source_locator:
+      file: part-f.yaml
+      section_index: 2
+      conversation_index: 9
+      fingerprint: 2ce8ddcd2feb6ce7
+    source:
+      modern:
+      - de: Hast du dich gewaschen?
+        ja: もう洗ったかい？
+      grc:
+      - ἆρ’ ἀπονένιψαι;
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: Hast du dich gewaschen?
+        ja_current: もう洗ったかい？
+        ja_proposed: もう洗ったかい？
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations: []
+    textual_issues: []
+    review_comments: []
+    status: unreviewed
+  - id: f-02-010
+    source_locator:
+      file: part-f.yaml
+      section_index: 2
+      conversation_index: 10
+      fingerprint: 45b652c801cd0063
+    source:
+      modern:
+      - de: Kannst du \emph{ohne} Handtuch zurechtkommen?
+        ja: タオルなしでやっていけるか？
+      grc:
+      - ἀνύτεις χειρόμακτρον οὐκ ἔχων;
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: Kannst du \emph{ohne} Handtuch zurechtkommen?
+        ja_current: タオルなしでやっていけるか？
+        ja_proposed: タオルなしでやっていけるか？
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations: []
+    textual_issues: []
+    review_comments: []
+    status: unreviewed
+  - id: f-02-011
+    source_locator:
+      file: part-f.yaml
+      section_index: 2
+      conversation_index: 11
+      fingerprint: 00a304cde04e62b5
+    source:
+      modern:
+      - de: Du siehst schrecklich schmutzig aus.
+        ja: ひどく汚れて見えるよ。
+      grc:
+      - αὐχμεῖς αἰσχρῶς.
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: Du siehst schrecklich schmutzig aus.
+        ja_current: ひどく汚れて見えるよ。
+        ja_proposed: ひどく汚れて見えるよ。
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations: []
+    textual_issues: []
+    review_comments: []
+    status: unreviewed
+  - id: f-02-012
+    source_locator:
+      file: part-f.yaml
+      section_index: 2
+      conversation_index: 12
+      fingerprint: 4c20b7edfea2a1b8
+    source:
+      modern:
+      - de: Er hat sich nicht gebadet.
+        ja: 彼は風呂に入らなかった。
+      grc:
+      - οὐκ ἐλούσατο.
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: Er hat sich nicht gebadet.
+        ja_current: 彼は風呂に入らなかった。
+        ja_proposed: 彼は風呂に入らなかった。
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations: []
+    textual_issues: []
+    review_comments: []
+    status: unreviewed
+  - id: f-02-013
+    source_locator:
+      file: part-f.yaml
+      section_index: 2
+      conversation_index: 13
+      fingerprint: 544b2cc5445cdb74
+    source:
+      modern:
+      - de: Wisch' den Tisch ab!
+        ja: テーブルを拭け！
+      grc:
+      - ἀποκάθαιρε τὴν τράπεζαν!
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: Wisch' den Tisch ab!
+        ja_current: テーブルを拭け！
+        ja_proposed: テーブルを拭け！
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations: []
+    textual_issues: []
+    review_comments: []
+    status: unreviewed
+  - id: f-02-014
+    source_locator:
+      file: part-f.yaml
+      section_index: 2
+      conversation_index: 14
+      fingerprint: 06e011c9c1b528a8
+    source:
+      modern:
+      - de: Ich will zu hause bleiben.
+        ja: 家にいたい。
+      grc:
+      - οἴκοι μενῶ.
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: Ich will zu hause bleiben.
+        ja_current: 家にいたい。
+        ja_proposed: 家にいたい。
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations: []
+    textual_issues: []
+    review_comments: []
+    status: unreviewed
+  - id: f-02-015
+    source_locator:
+      file: part-f.yaml
+      section_index: 2
+      conversation_index: 15
+      fingerprint: beb47df624c08bd3
+    source:
+      modern:
+      - de: Wir wollen zu Hause bei mir studiren.
+        ja: 今日は私の家で勉強しよう。
+      grc:
+      - ἔνδον παρ’ ἐμοὶ διατρίψομεν (περὶ τὰ μαθήματα).
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: Wir wollen zu Hause bei mir studiren.
+        ja_current: 今日は私の家で勉強しよう。
+        ja_proposed: 今日は私の家で勉強しよう。
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations: []
+    textual_issues: []
+    review_comments: []
+    status: unreviewed
+  - id: f-02-016
+    source_locator:
+      file: part-f.yaml
+      section_index: 2
+      conversation_index: 16
+      fingerprint: 8cad66841f029983
+    source:
+      modern:
+      - de: Bei dir?
+        ja: 君の家で？
+      grc:
+      - παρὰ σοί;
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: Bei dir?
+        ja_current: 君の家で？
+        ja_proposed: 君の家で？
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations: []
+    textual_issues: []
+    review_comments: []
+    status: unreviewed
+  - id: f-02-017
+    source_locator:
+      file: part-f.yaml
+      section_index: 2
+      conversation_index: 17
+      fingerprint: f119d638a0e70026
+    source:
+      modern:
+      - de: Ganz recht.
+        ja: そうだ。
+      grc:
+      - πάνυ.
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: Ganz recht.
+        ja_current: そうだ。
+        ja_proposed: そうだ。
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations: []
+    textual_issues: []
+    review_comments: []
+    status: unreviewed
+  - id: f-02-018
+    source_locator:
+      file: part-f.yaml
+      section_index: 2
+      conversation_index: 18
+      fingerprint: 0f836c12537c5f14
+    source:
+      modern:
+      - de: Du warst gestern bei mir.
+        ja: 昨日はうちにいたね。
+      grc:
+      - παρ’ ἐμοὶ χθὲς ἦσθα.
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: Du warst gestern bei mir.
+        ja_current: 昨日はうちにいたね。
+        ja_proposed: 昨日はうちにいたね。
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations: []
+    textual_issues: []
+    review_comments: []
+    status: unreviewed
+  - id: f-02-019
+    source_locator:
+      file: part-f.yaml
+      section_index: 2
+      conversation_index: 19
+      fingerprint: 2a28725462c31c49
+    source:
+      modern:
+      - de: Kommt heute in meine Wohnung!
+        ja: 今日は私の家においで！
+      grc:
+      - ἥκετ’ \emph{εἰς ἐμοῦ} τήμερον!
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: Kommt heute in meine Wohnung!
+        ja_current: 今日は私の家においで！
+        ja_proposed: 今日は私の家においで！
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations: []
+    textual_issues: []
+    review_comments: []
+    status: unreviewed
+- id: f-03
+  title:
+    de: Sitzen. Stehen
+    ja: 座る・立つ
+  scene_type: phrase_inventory
+  setting:
+    situation: directions and remarks about sitting and standing
+  cast:
+  - id: speaker
+    description: null
+    evidence: null
+    confidence: candidate
+  - id: interlocutor
+    description: null
+    evidence: null
+    confidence: candidate
+  reconstruction:
+    confidence: unreviewed
+    note: Ordering may combine a continuous exchange with reusable model phrases; turn continuity must
+      be justified entry by entry.
+  entries:
+  - id: f-03-001
+    source_locator:
+      file: part-f.yaml
+      section_index: 3
+      conversation_index: 1
+      fingerprint: 17d2beb79764ad0d
+    source:
+      modern:
+      - de: Leg' ab!
+        ja: 脱げ！
+      grc:
+      - ἀποδύου!
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: Leg' ab!
+        ja_current: 脱げ！
+        ja_proposed: 脱げ！
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations: []
+    textual_issues: []
+    review_comments: []
+    status: unreviewed
+  - id: f-03-002
+    source_locator:
+      file: part-f.yaml
+      section_index: 3
+      conversation_index: 2
+      fingerprint: e374347af00d613f
+    source:
+      modern:
+      - de: Ich ziehe mich schon aus.
+        ja: もう脱いでいるよ。
+      grc:
+      - καὶ δὴ ἐκδύομαι.
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: Ich ziehe mich schon aus.
+        ja_current: もう脱いでいるよ。
+        ja_proposed: もう脱いでいるよ。
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations: []
+    textual_issues: []
+    review_comments: []
+    status: unreviewed
+  - id: f-03-003
+    source_locator:
+      file: part-f.yaml
+      section_index: 3
+      conversation_index: 3
+      fingerprint: 37dae1db5b215ab5
+    source:
+      modern:
+      - de: Wohin wollen wir uns setzen?
+        ja: どこに座ろうか？
+      grc:
+      - \emph{ποῦ} καθιζησόμεθα;
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: Wohin wollen wir uns setzen?
+        ja_current: どこに座ろうか？
+        ja_proposed: どこに座ろうか？
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations: []
+    textual_issues: []
+    review_comments: []
+    status: unreviewed
+  - id: f-03-004
+    source_locator:
+      file: part-f.yaml
+      section_index: 3
+      conversation_index: 4
+      fingerprint: d6c2c71105f093b6
+    source:
+      modern:
+      - de: Nehmt Platz!
+        ja: 座ってください！
+      grc:
+      - κάθησθε!
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: Nehmt Platz!
+        ja_current: 座ってください！
+        ja_proposed: 座ってください！
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations: []
+    textual_issues: []
+    review_comments: []
+    status: unreviewed
+  - id: f-03-005
+    source_locator:
+      file: part-f.yaml
+      section_index: 3
+      conversation_index: 5
+      fingerprint: c52682d448d81754
+    source:
+      modern:
+      - de: Setzen Sie sich!
+        ja: お掛けください！
+      - de: Setz' dich nieder!
+        ja: 座りなさい！
+      grc:
+      - κάθιζε!
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: Setzen Sie sich!
+        ja_current: お掛けください！
+        ja_proposed: お掛けください！
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      - de: Setz' dich nieder!
+        ja_current: 座りなさい！
+        ja_proposed: 座りなさい！
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations: []
+    textual_issues: []
+    review_comments: []
+    status: unreviewed
+  - id: f-03-006
+    source_locator:
+      file: part-f.yaml
+      section_index: 3
+      conversation_index: 6
+      fingerprint: eeb10e171e0d9a70
+    source:
+      modern:
+      - de: Wenn du erlaubst!
+        ja: 君がよければ。
+      grc:
+      - εἰ ταῦτα \emph{δοκεῖ!}
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: Wenn du erlaubst!
+        ja_current: 君がよければ。
+        ja_proposed: 君がよければ。
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations:
+    - target: εἰ ταῦτα \emph{δοκεῖ!}
+      status: exact-string-located-context-pending
+      match_type: exact
+      reference_as_given: null
+      source:
+        author: Aristophanes
+        work: Peace
+        passage: '1103'
+        local_file: /home/mrty/Documents/Perseus/Classics/Aristophanes/opensource/aristoph.peace_gk.xml
+      text_grc: εἰ ταῦτα \emph{δοκεῖ!}
+      original_speakers:
+      - Ιεροκλης
+      original_speaker_beta: '*(ieroklh=s'
+      original_scene: null
+      beta_context: o xrhsmos egxei dh spondhn kai twn splagxnwn fere deuri ieroklhs all ei tauta dokei
+        kagw mautw balaneusw trugaios spondh spondh ieroklhs egxei dh kamoi kai splagxnwn
+      relationship_to_handbook: The complete handbook string matches after removing accents and normalizing
+        Perseus Beta Code. Dramatic or prose context still needs manual comparison.
+      adaptations: []
+      confidence: candidate
+      research_method: exact normalized token search
+    textual_issues: []
+    review_comments: []
+    status: source-researched
+  - id: f-03-007
+    source_locator:
+      file: part-f.yaml
+      section_index: 3
+      conversation_index: 7
+      fingerprint: 76a392d4b34dbe23
+    source:
+      modern:
+      - de: So, ich sitze.
+        ja: よし、座った。
+      grc:
+      - ἰδού· κάθημαι.
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: So, ich sitze.
+        ja_current: よし、座った。
+        ja_proposed: よし、座った。
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations: []
+    textual_issues: []
+    review_comments: []
+    status: unreviewed
+  - id: f-03-008
+    source_locator:
+      file: part-f.yaml
+      section_index: 3
+      conversation_index: 8
+      fingerprint: 475a6f7941c9e33e
+    source:
+      modern:
+      - de: Ich sitze schon!
+        ja: もう座っているよ。
+      grc:
+      - κάθημαι ’γὼ πάλαι.
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: Ich sitze schon!
+        ja_current: もう座っているよ。
+        ja_proposed: もう座っているよ。
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations:
+    - target: κάθημαι ’γὼ πάλαι.
+      status: exact-string-located-context-pending
+      match_type: exact
+      reference_as_given: null
+      source:
+        author: Aristophanes
+        work: Wasps
+        passage: '826'
+        local_file: /home/mrty/Documents/Perseus/Classics/Aristophanes/opensource/aristoph.wasps_gk.xml
+      text_grc: κάθημαι ’γὼ πάλαι.
+      original_speakers:
+      - Φιλοκλεων
+      original_speaker_beta: '*filokle/wn'
+      original_scene: null
+      beta_context: ei qatton ekaqizou su qatton an dikhn ekaloun filoklewn kalei nun ws kaqhmai gw palai
+        bdeluklewn fere nun tin autw prwton eisagagw dikhn ti tis kakon dedrake
+      relationship_to_handbook: The complete handbook string matches after removing accents and normalizing
+        Perseus Beta Code. Dramatic or prose context still needs manual comparison.
+      adaptations: []
+      confidence: candidate
+      research_method: exact normalized token search
+    textual_issues: []
+    review_comments: []
+    status: source-researched
+  - id: f-03-009
+    source_locator:
+      file: part-f.yaml
+      section_index: 3
+      conversation_index: 9
+      fingerprint: fa7610a657bb0cba
+    source:
+      modern:
+      - de: Du hast keinen guten Platz.
+        ja: いい場所に座っていないね。
+      grc:
+      - οὐ καθίζεις ἐν καλῷ.
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: Du hast keinen guten Platz.
+        ja_current: いい場所に座っていないね。
+        ja_proposed: いい場所に座っていないね。
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations: []
+    textual_issues: []
+    review_comments: []
+    status: unreviewed
+  - id: f-03-010
+    source_locator:
+      file: part-f.yaml
+      section_index: 3
+      conversation_index: 10
+      fingerprint: 72cdac9d25a7fd47
+    source:
+      modern:
+      - de: Hast du nichts zu essen?
+        ja: 食べるものがないの？
+      grc:
+      - οὐκ ἔχεις καταφαγεῖν;
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: Hast du nichts zu essen?
+        ja_current: 食べるものがないの？
+        ja_proposed: 食べるものがないの？
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations: []
+    textual_issues: []
+    review_comments: []
+    status: unreviewed
+  - id: f-03-011
+    source_locator:
+      file: part-f.yaml
+      section_index: 3
+      conversation_index: 11
+      fingerprint: 0d71e575933ac5d6
+    source:
+      modern:
+      - de: \emph{Darf ich} dir ein Abendbrot vorsetzen?
+        ja: 夕食を出してもいいかい？
+      grc:
+      - βούλει παραθῶ σοι δόρπον.
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: \emph{Darf ich} dir ein Abendbrot vorsetzen?
+        ja_current: 夕食を出してもいいかい？
+        ja_proposed: 夕食を出してもいいかい？
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations:
+    - target: βούλει παραθῶ σοι δόρπον.
+      status: exact-string-located-context-pending
+      match_type: exact
+      reference_as_given: null
+      source:
+        author: Aristophanes
+        work: Knights
+        passage: '52'
+        local_file: /home/mrty/Documents/Perseus/Classics/Aristophanes/opensource/aristoph.kn_gk.xml
+      text_grc: βούλει παραθῶ σοι δόρπον.
+      original_speakers:
+      - Δημοσθενης
+      original_speaker_beta: '*dhmosqe/nhs'
+      original_scene: null
+      beta_context: legwn w dhme lousai prwton ekdikasas mian enqou rofhson entrag exe triwbolon boulei
+        paraqw soi dorpon eit anarpasas o ti an tis hmwn skeuash tw despoth paflagwn kexaristai
+      relationship_to_handbook: The complete handbook string matches after removing accents and normalizing
+        Perseus Beta Code. Dramatic or prose context still needs manual comparison.
+      adaptations: []
+      confidence: candidate
+      research_method: exact normalized token search
+    textual_issues: []
+    review_comments: []
+    status: source-researched
+  - id: f-03-012
+    source_locator:
+      file: part-f.yaml
+      section_index: 3
+      conversation_index: 12
+      fingerprint: 5366bdad333beed3
+    source:
+      modern:
+      - de: Ich bitte nur um ein Stück Brot und Fleisch.
+        ja: パンと肉を少しだけいただければ十分です。
+      grc:
+      - αἰτῶ λαβεῖν τιν’ ἄρτον καὶ κρέας.!
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: Ich bitte nur um ein Stück Brot und Fleisch.
+        ja_current: パンと肉を少しだけいただければ十分です。
+        ja_proposed: パンと肉を少しだけいただければ十分です。
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations: []
+    textual_issues: []
+    review_comments: []
+    status: unreviewed
+  - id: f-03-013
+    source_locator:
+      file: part-f.yaml
+      section_index: 3
+      conversation_index: 13
+      fingerprint: 3c0360dcbf8cb79e
+    source:
+      modern:
+      - de: Ich habe mir zu trinken \emph{mitgebracht}.
+        ja: 飲み物は持ってきました。
+      grc:
+      - \emph{ἥκω φέρων} πιεῖν.
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: Ich habe mir zu trinken \emph{mitgebracht}.
+        ja_current: 飲み物は持ってきました。
+        ja_proposed: 飲み物は持ってきました。
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations: []
+    textual_issues: []
+    review_comments: []
+    status: unreviewed
+  - id: f-03-014
+    source_locator:
+      file: part-f.yaml
+      section_index: 3
+      conversation_index: 14
+      fingerprint: 9f1c4cb3efc8dea3
+    source:
+      modern:
+      - de: Gieb mir einmal zu trinken!
+        ja: ちょっと飲み物をください。
+      grc:
+      - δός μοι πιεῖν.
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: Gieb mir einmal zu trinken!
+        ja_current: ちょっと飲み物をください。
+        ja_proposed: ちょっと飲み物をください。
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations: []
+    textual_issues: []
+    review_comments: []
+    status: unreviewed
+  - id: f-03-015
+    source_locator:
+      file: part-f.yaml
+      section_index: 3
+      conversation_index: 15
+      fingerprint: 7369269c3343d1e9
+    source:
+      modern:
+      - de: Gleich.
+        ja: すぐ。
+      grc:
+      - ἰδού.
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: Gleich.
+        ja_current: すぐ。
+        ja_proposed: すぐ。
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations: []
+    textual_issues: []
+    review_comments: []
+    status: unreviewed
+  - id: f-03-016
+    source_locator:
+      file: part-f.yaml
+      section_index: 3
+      conversation_index: 16
+      fingerprint: daa9c54e2f27f9ed
+    source:
+      modern:
+      - de: Es ist unrecht, daß du hier sitzest.
+        ja: ここに座っているのはよくない。
+      grc:
+      - ἀδικεῖς ἐνθάδε καθήμενος.
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: Es ist unrecht, daß du hier sitzest.
+        ja_current: ここに座っているのはよくない。
+        ja_proposed: ここに座っているのはよくない。
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations: []
+    textual_issues: []
+    review_comments: []
+    status: unreviewed
+  - id: f-03-017
+    source_locator:
+      file: part-f.yaml
+      section_index: 3
+      conversation_index: 17
+      fingerprint: 4ade924b61d2d2a3
+    source:
+      modern:
+      - de: Steh' \emph{wieder} auf!
+        ja: もう一度立て！
+      grc:
+      - ἀνίστασο!
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: Steh' \emph{wieder} auf!
+        ja_current: もう一度立て！
+        ja_proposed: もう一度立て！
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations: []
+    textual_issues: []
+    review_comments: []
+    status: unreviewed
+  - id: f-03-018
+    source_locator:
+      file: part-f.yaml
+      section_index: 3
+      conversation_index: 18
+      fingerprint: 93f37f9b3b3e9fbe
+    source:
+      modern:
+      - de: So steh' doch schnell auf, ehe dich jemand sieht!
+        ja: 誰かに見られる前に早く立て！
+      grc:
+      - ούκουν ἀναστήσει ταχύ, πρίν τινά σ’ ἰδεῖν;
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: So steh' doch schnell auf, ehe dich jemand sieht!
+        ja_current: 誰かに見られる前に早く立て！
+        ja_proposed: 誰かに見られる前に早く立て！
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations:
+    - target: ούκουν ἀναστήσει ταχύ, πρίν τινά σ’ ἰδεῖν;
+      status: exact-string-located-context-pending
+      match_type: exact
+      reference_as_given: null
+      source:
+        author: Aristophanes
+        work: Frogs
+        passage: '480'
+        local_file: /home/mrty/Documents/Perseus/Classics/Aristophanes/opensource/aristoph.frogs_gk.xml
+      text_grc: ούκουν ἀναστήσει ταχύ, πρίν τινά σ’ ἰδεῖν;
+      original_speakers:
+      - Ξανθιας
+      original_speaker_beta: '*canqi/as'
+      original_scene: null
+      beta_context: poda canqias outos ti dedrakas dionusos egkexoda kalei qeon canqias w katagelast oukoun
+        anasthsei taxu prin tina s idein allotrion dionusos all wrakiw all oise pros thn kardian mou sfoggian
+        canqias
+      relationship_to_handbook: The complete handbook string matches after removing accents and normalizing
+        Perseus Beta Code. Dramatic or prose context still needs manual comparison.
+      adaptations: []
+      confidence: candidate
+      research_method: exact normalized token search
+    textual_issues: []
+    review_comments: []
+    status: source-researched
+  - id: f-03-019
+    source_locator:
+      file: part-f.yaml
+      section_index: 3
+      conversation_index: 19
+      fingerprint: a13580322e02866c
+    source:
+      modern:
+      - de: Steh' gerade!
+        ja: まっすぐ立て！
+      grc:
+      - ἀνίστασο ὀρθός.
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: Steh' gerade!
+        ja_current: まっすぐ立て！
+        ja_proposed: まっすぐ立て！
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations: []
+    textual_issues: []
+    review_comments: []
+    status: unreviewed
+  - id: f-03-020
+    source_locator:
+      file: part-f.yaml
+      section_index: 3
+      conversation_index: 20
+      fingerprint: 4afd39a97cffc1b9
+    source:
+      modern:
+      - de: \emph{Bleib'} stehen!
+        ja: そのまま立っていろ！
+      grc:
+      - στῆθι.
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: \emph{Bleib'} stehen!
+        ja_current: そのまま立っていろ！
+        ja_proposed: そのまま立っていろ！
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations: []
+    textual_issues: []
+    review_comments: []
+    status: unreviewed
+  - id: f-03-021
+    source_locator:
+      file: part-f.yaml
+      section_index: 3
+      conversation_index: 21
+      fingerprint: c198957d0f676d78
+    source:
+      modern:
+      - de: Zu Befehl, Herr Hauptmann!
+        ja: 了解しました、隊長！
+      grc:
+      - ταῦτα, ὦ λοχαγέ!
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: Zu Befehl, Herr Hauptmann!
+        ja_current: 了解しました、隊長！
+        ja_proposed: 了解しました、隊長！
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations: []
+    textual_issues: []
+    review_comments: []
+    status: unreviewed
+- id: f-04
+  title:
+    de: Frau und Kinder
+    ja: 妻と子ども
+  scene_type: mixed
+  setting:
+    situation: conversation about a wife and children
+  cast:
+  - id: adult-a
+    description: null
+    evidence: null
+    confidence: candidate
+  - id: adult-b
+    description: null
+    evidence: null
+    confidence: candidate
+  - id: family-member
+    description: null
+    evidence: null
+    confidence: candidate
+  reconstruction:
+    confidence: unreviewed
+    note: Ordering may combine a continuous exchange with reusable model phrases; turn continuity must
+      be justified entry by entry.
+  entries:
+  - id: f-04-001
+    source_locator:
+      file: part-f.yaml
+      section_index: 4
+      conversation_index: 1
+      fingerprint: 4e618bb1e7c1f691
+    source:
+      modern:
+      - de: Sie hat einen kleinen Jungen bekommen.
+        ja: 彼女は男の赤ちゃんを産んだ。
+      grc:
+      - ἄρρεν ἔτεκε παιδίον.
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: Sie hat einen kleinen Jungen bekommen.
+        ja_current: 彼女は男の赤ちゃんを産んだ。
+        ja_proposed: 彼女は男の赤ちゃんを産んだ。
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations: []
+    textual_issues: []
+    review_comments: []
+    status: unreviewed
+  - id: f-04-002
+    source_locator:
+      file: part-f.yaml
+      section_index: 4
+      conversation_index: 2
+      fingerprint: 81a70a73bdb72ea0
+    source:
+      modern:
+      - de: Er hat viele kleine Kinder zu ernähren.
+        ja: 彼には養うべき小さな子がたくさんいる。
+      grc:
+      - βόσκει μικρὰ πολλὰ παιδία.
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: Er hat viele kleine Kinder zu ernähren.
+        ja_current: 彼には養うべき小さな子がたくさんいる。
+        ja_proposed: 彼には養うべき小さな子がたくさんいる。
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations: []
+    textual_issues: []
+    review_comments: []
+    status: unreviewed
+  - id: f-04-003
+    source_locator:
+      file: part-f.yaml
+      section_index: 4
+      conversation_index: 3
+      fingerprint: 70d856c1bf221056
+    source:
+      modern:
+      - de: Wo sind die Kinder?
+        ja: 子どもたちはどこだ？
+      grc:
+      - ποῦ τὰ παιδία;
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: Wo sind die Kinder?
+        ja_current: 子どもたちはどこだ？
+        ja_proposed: 子どもたちはどこだ？
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations:
+    - target: ποῦ τὰ παιδία;
+      status: exact-string-located-context-pending
+      match_type: exact
+      reference_as_given: null
+      source:
+        author: Aristophanes
+        work: Wasps
+        passage: '976'
+        local_file: /home/mrty/Documents/Perseus/Classics/Aristophanes/opensource/aristoph.wasps_gk.xml
+      text_grc: ποῦ τὰ παιδία;
+      original_speakers:
+      - Βδελυκλεων
+      original_speaker_beta: '*bdelukle/wn'
+      original_scene: null
+      beta_context: kanapeiqomai bdeluklewn iq antibolw s oiktirat auton w patere kai mh diafqeirhte pou
+        ta paidia anabainet w ponhra kai knuzoumena aiteite kantiboleite kai dakruete filoklewn kataba
+        kataba
+      relationship_to_handbook: The complete handbook string matches after removing accents and normalizing
+        Perseus Beta Code. Dramatic or prose context still needs manual comparison.
+      adaptations: []
+      confidence: candidate
+      research_method: exact normalized token search
+    textual_issues: []
+    review_comments: []
+    status: source-researched
+  - id: f-04-004
+    source_locator:
+      file: part-f.yaml
+      section_index: 4
+      conversation_index: 4
+      fingerprint: b41ba6df16829cb5
+    source:
+      modern:
+      - de: Wo ist meine Frau hin?
+        ja: 私の妻はどこへ行った？
+      grc:
+      - ποῖ ἡ γυνὴ φρούδη ’στίν;
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: Wo ist meine Frau hin?
+        ja_current: 私の妻はどこへ行った？
+        ja_proposed: 私の妻はどこへ行った？
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations: []
+    textual_issues: []
+    review_comments: []
+    status: unreviewed
+  - id: f-04-005
+    source_locator:
+      file: part-f.yaml
+      section_index: 4
+      conversation_index: 5
+      fingerprint: 4700d37e9390d3a3
+    source:
+      modern:
+      - de: Wer kann mir sagen, wo meine Frau ist?
+        ja: 妻がどこにいるか誰か教えてくれませんか？
+      grc:
+      - τίς ἂν φράσειε, ποῦ ’στι ἡ γυνή;
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: Wer kann mir sagen, wo meine Frau ist?
+        ja_current: 妻がどこにいるか誰か教えてくれませんか？
+        ja_proposed: 妻がどこにいるか誰か教えてくれませんか？
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations: []
+    textual_issues: []
+    review_comments: []
+    status: unreviewed
+  - id: f-04-006
+    source_locator:
+      file: part-f.yaml
+      section_index: 4
+      conversation_index: 6
+      fingerprint: 4e184cea6f7e7507
+    source:
+      modern:
+      - de: Sie wäscht und päppelt das Kind.
+        ja: 彼女は子どもを洗って世話している。
+      grc:
+      - λούει καὶ ψωμίζει τὸ παιδίον.
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: Sie wäscht und päppelt das Kind.
+        ja_current: 彼女は子どもを洗って世話している。
+        ja_proposed: 彼女は子どもを洗って世話している。
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations: []
+    textual_issues: []
+    review_comments: []
+    status: unreviewed
+  - id: f-04-007
+    source_locator:
+      file: part-f.yaml
+      section_index: 4
+      conversation_index: 7
+      fingerprint: 6f9c6a6496ab654d
+    source:
+      modern:
+      - de: Die Kinder sind gewaschen.
+        ja: 子どもたちは洗われている。
+      grc:
+      - ἀπονενιμμένα ἐστὶ τὰ παιδία.
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: Die Kinder sind gewaschen.
+        ja_current: 子どもたちは洗われている。
+        ja_proposed: 子どもたちは洗われている。
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations: []
+    textual_issues: []
+    review_comments: []
+    status: unreviewed
+  - id: f-04-008
+    source_locator:
+      file: part-f.yaml
+      section_index: 4
+      conversation_index: 8
+      fingerprint: 998ed14d4e866916
+    source:
+      modern:
+      - de: Sie bringt die Kinder zu Bette.
+        ja: 彼女は子どもたちを寝かしつける。
+      grc:
+      - κατακλίνει τὰ παιδία.
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: Sie bringt die Kinder zu Bette.
+        ja_current: 彼女は子どもたちを寝かしつける。
+        ja_proposed: 彼女は子どもたちを寝かしつける。
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations: []
+    textual_issues: []
+    review_comments: []
+    status: unreviewed
+  - id: f-04-009
+    source_locator:
+      file: part-f.yaml
+      section_index: 4
+      conversation_index: 9
+      fingerprint: 0526ce5bf1c286c5
+    source:
+      modern:
+      - de: Es ist \emph{höchste} Zeit.
+        ja: もういい時間だ。
+      grc:
+      - καιρὸς δέ.
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: Es ist \emph{höchste} Zeit.
+        ja_current: もういい時間だ。
+        ja_proposed: もういい時間だ。
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations: []
+    textual_issues: []
+    review_comments: []
+    status: unreviewed
+  - id: f-04-010
+    source_locator:
+      file: part-f.yaml
+      section_index: 4
+      conversation_index: 10
+      fingerprint: 6c2743560316f42d
+    source:
+      modern:
+      - de: Ihr habt lange genug gespielt.
+        ja: もう十分長く遊んだよ。
+      grc:
+      - ἱκανὸν κρόνον ἐπαίζετε.
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: Ihr habt lange genug gespielt.
+        ja_current: もう十分長く遊んだよ。
+        ja_proposed: もう十分長く遊んだよ。
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations: []
+    textual_issues: []
+    review_comments: []
+    status: unreviewed
+  - id: f-04-011
+    source_locator:
+      file: part-f.yaml
+      section_index: 4
+      conversation_index: 11
+      fingerprint: ee8d560ab113dc6b
+    source:
+      modern:
+      - de: Sie würfeln. — Um was?
+        ja: 彼らはサイコロを振っている――何を賭けているの？
+      grc:
+      - κυβεύουσιν. — περὶ τοῦ;
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: Sie würfeln. — Um was?
+        ja_current: 彼らはサイコロを振っている――何を賭けているの？
+        ja_proposed: 彼らはサイコロを振っている――何を賭けているの？
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations: []
+    textual_issues: []
+    review_comments: []
+    status: unreviewed
+  - id: f-04-012
+    source_locator:
+      file: part-f.yaml
+      section_index: 4
+      conversation_index: 12
+      fingerprint: f7fb40cab5f472ed
+    source:
+      modern:
+      - de: Sei artig!
+        ja: 行儀よくしなさい！
+      grc:
+      - κοσμίως ἔχε!
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: Sei artig!
+        ja_current: 行儀よくしなさい！
+        ja_proposed: 行儀よくしなさい！
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations: []
+    textual_issues: []
+    review_comments: []
+    status: unreviewed
+  - id: f-04-013
+    source_locator:
+      file: part-f.yaml
+      section_index: 4
+      conversation_index: 13
+      fingerprint: aeff59263242331f
+    source:
+      modern:
+      - de: Thu' das ja nicht!
+        ja: 絶対それをするな！
+      grc:
+      - μηδαμῶς τοῦτ’ ἐργάσῃ!
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: Thu' das ja nicht!
+        ja_current: 絶対それをするな！
+        ja_proposed: 絶対それをするな！
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations:
+    - target: μηδαμῶς τοῦτ’ ἐργάσῃ!
+      status: exact-string-located-context-pending
+      match_type: exact
+      reference_as_given: null
+      source:
+        author: Aristophanes
+        work: Plutus
+        passage: '116'
+        local_file: /home/mrty/Documents/Perseus/Classics/Aristophanes/opensource/aristoph.pl_gk.xml
+      text_grc: μηδαμῶς τοῦτ’ ἐργάσῃ!
+      original_speakers:
+      - Πλουτος
+      original_speaker_beta: '*plou=tos'
+      original_scene: null
+      beta_context: sun qew d eirhsetai tauths apallacein se ths ofqalmias bleyai poihsas ploutos mhdamws
+        tout ergash ou boulomai gar palin anableyai xremulos ti fhs kariwn anqrwpos outos estin
+      relationship_to_handbook: The complete handbook string matches after removing accents and normalizing
+        Perseus Beta Code. Dramatic or prose context still needs manual comparison.
+      adaptations: []
+      confidence: candidate
+      research_method: exact normalized token search
+    textual_issues: []
+    review_comments: []
+    status: source-researched
+  - id: f-04-014
+    source_locator:
+      file: part-f.yaml
+      section_index: 4
+      conversation_index: 14
+      fingerprint: 543e9b6624476481
+    source:
+      modern:
+      - de: Da, schau' einmal!
+        ja: ほら、見てごらん！
+      grc:
+      - ἰδού· θέασαι!
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: Da, schau' einmal!
+        ja_current: ほら、見てごらん！
+        ja_proposed: ほら、見てごらん！
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations: []
+    textual_issues: []
+    review_comments: []
+    status: unreviewed
+  - id: f-04-015
+    source_locator:
+      file: part-f.yaml
+      section_index: 4
+      conversation_index: 15
+      fingerprint: f523317b72f7a5f9
+    source:
+      modern:
+      - de: Der Onkel hat hübsche Geschenke mitgebracht.
+        ja: おじさんが素敵な贈り物を持ってきた。
+      grc:
+      - ὁ θεῖος ἥκει φέρων δῶρα χαρίεντα.!
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: Der Onkel hat hübsche Geschenke mitgebracht.
+        ja_current: おじさんが素敵な贈り物を持ってきた。
+        ja_proposed: おじさんが素敵な贈り物を持ってきた。
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations: []
+    textual_issues: []
+    review_comments: []
+    status: unreviewed
+  - id: f-04-016
+    source_locator:
+      file: part-f.yaml
+      section_index: 4
+      conversation_index: 16
+      fingerprint: 6b630603b4f5a10e
+    source:
+      modern:
+      - de: Lies\textcompwordmark{}chen klatscht vor Freude in die Hände.
+        ja: リジヒェンは喜んで手を打っている。
+      grc:
+      - Λουίσιον{*} τὼ χεῖρ’ ἀνακροτεῖ ὑφ’ ἡδονῆς.!
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: Lies\textcompwordmark{}chen klatscht vor Freude in die Hände.
+        ja_current: リジヒェンは喜んで手を打っている。
+        ja_proposed: リジヒェンは喜んで手を打っている。
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations: []
+    textual_issues: []
+    review_comments: []
+    status: unreviewed
+  - id: f-04-017
+    source_locator:
+      file: part-f.yaml
+      section_index: 4
+      conversation_index: 17
+      fingerprint: adb81a4e9f711f2f
+    source:
+      modern:
+      - de: Meine Frau ist nicht zu sehen.
+        ja: 妻の姿が見えない。
+      grc:
+      - ἡ δὲ γυνὴ \emph{φαίνεται.}
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: Meine Frau ist nicht zu sehen.
+        ja_current: 妻の姿が見えない。
+        ja_proposed: 妻の姿が見えない。
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations: []
+    textual_issues: []
+    review_comments: []
+    status: unreviewed
+  - id: f-04-018
+    source_locator:
+      file: part-f.yaml
+      section_index: 4
+      conversation_index: 18
+      fingerprint: 158100dc559c5374
+    source:
+      modern:
+      - de: Suchst du mich etwa?
+        ja: もしかして私を探しているのか？
+      grc:
+      - μῶν ἐμὲ ζητεῖς;
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: Suchst du mich etwa?
+        ja_current: もしかして私を探しているのか？
+        ja_proposed: もしかして私を探しているのか？
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations:
+    - target: μῶν ἐμὲ ζητεῖς;
+      status: exact-string-located-context-pending
+      match_type: exact
+      reference_as_given: null
+      source:
+        author: Aristophanes
+        work: Ecclesiazusae
+        passage: '976'
+        local_file: /home/mrty/Documents/Perseus/Classics/Aristophanes/opensource/aristoph.eccl_gk.xml
+      text_grc: μῶν ἐμὲ ζητεῖς;
+      original_speakers:
+      - Γραυς Α
+      original_speaker_beta: '*grau=s *a'
+      original_scene: null
+      beta_context: aspazou me dia toi se ponous exw graus a outos ti kopteis mwn eme zhteis neanias poqen
+        graus a kai thn quran g hrattes neanias apoqanoim ara
+      relationship_to_handbook: The complete handbook string matches after removing accents and normalizing
+        Perseus Beta Code. Dramatic or prose context still needs manual comparison.
+      adaptations: []
+      confidence: candidate
+      research_method: exact normalized token search
+    textual_issues: []
+    review_comments: []
+    status: source-researched
+  - id: f-04-019
+    source_locator:
+      file: part-f.yaml
+      section_index: 4
+      conversation_index: 19
+      fingerprint: 7bf1fd3849eb7f98
+    source:
+      modern:
+      - de: Komm her, mein goldiger Schatz!
+        ja: こっちへおいで、かわいい宝物！
+      grc:
+      - δεῦρό νυν, ὦ χρυσίον.
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: Komm her, mein goldiger Schatz!
+        ja_current: こっちへおいで、かわいい宝物！
+        ja_proposed: こっちへおいで、かわいい宝物！
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations:
+    - target: δεῦρό νυν, ὦ χρυσίον.
+      status: exact-string-located-context-pending
+      match_type: exact
+      reference_as_given: null
+      source:
+        author: Aristophanes
+        work: Lysistrata
+        passage: '930'
+        local_file: /home/mrty/Documents/Perseus/Classics/Aristophanes/opensource/aristoph.lys_gk.xml
+      text_grc: δεῦρό νυν, ὦ χρυσίον.
+      original_speakers:
+      - Κινησιας
+      original_speaker_beta: '*kinhsi/as'
+      original_scene: null
+      beta_context: tod hraklhs cenizetai murrinh anistas anaphdhson hdh pant exw kinhsias apanta dhta
+        deuro nun w xrusion murrinh to strofion hdh luomai memnhso nun mh m ecapathshs ta peri
+      relationship_to_handbook: The complete handbook string matches after removing accents and normalizing
+        Perseus Beta Code. Dramatic or prose context still needs manual comparison.
+      adaptations: []
+      confidence: candidate
+      research_method: exact normalized token search
+    textual_issues: []
+    review_comments: []
+    status: source-researched
+- id: f-05
+  title:
+    de: Kinderkrawall
+    ja: 子どもたちの騒ぎ
+  scene_type: reconstructed_dialogue
+  setting:
+    situation: adults respond to noisy children
+  cast:
+  - id: adult-a
+    description: null
+    evidence: null
+    confidence: candidate
+  - id: adult-b
+    description: null
+    evidence: null
+    confidence: candidate
+  - id: child
+    description: null
+    evidence: null
+    confidence: candidate
+  reconstruction:
+    confidence: unreviewed
+    note: Ordering may combine a continuous exchange with reusable model phrases; turn continuity must
+      be justified entry by entry.
+  entries:
+  - id: f-05-001
+    source_locator:
+      file: part-f.yaml
+      section_index: 5
+      conversation_index: 1
+      fingerprint: c462516fdb81ed37
+    source:
+      modern:
+      - de: Das ist Unrecht von dir.
+        ja: それはお前が悪い。
+      grc:
+      - ταῦτ’ οὐκ ὀρθῶς ποιεῖς.
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: Das ist Unrecht von dir.
+        ja_current: それはお前が悪い。
+        ja_proposed: それはお前が悪い。
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations: []
+    textual_issues: []
+    review_comments: []
+    status: unreviewed
+  - id: f-05-002
+    source_locator:
+      file: part-f.yaml
+      section_index: 5
+      conversation_index: 2
+      fingerprint: de8824758fc3989f
+    source:
+      modern:
+      - de: Das ist unrecht, daß du mir das thust.
+        ja: そんなことを私にするのは間違っている。
+      grc:
+      - ἀδικεῖς γέ με τοῦτο ποιῶν.
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: Das ist unrecht, daß du mir das thust.
+        ja_current: そんなことを私にするのは間違っている。
+        ja_proposed: そんなことを私にするのは間違っている。
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations: []
+    textual_issues: []
+    review_comments: []
+    status: unreviewed
+  - id: f-05-003
+    source_locator:
+      file: part-f.yaml
+      section_index: 5
+      conversation_index: 3
+      fingerprint: d60b71c818897ccb
+    source:
+      modern:
+      - de: Wenn du mich ärgern willst, so soll dir's schlecht gehen!
+        ja: もし私を怒らせるなら、ただでは済まないぞ！
+      grc:
+      - ἤν τι λυπῇς με, οὐ χαιρήσεις!
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: Wenn du mich ärgern willst, so soll dir's schlecht gehen!
+        ja_current: もし私を怒らせるなら、ただでは済まないぞ！
+        ja_proposed: もし私を怒らせるなら、ただでは済まないぞ！
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations: []
+    textual_issues: []
+    review_comments: []
+    status: unreviewed
+  - id: f-05-004
+    source_locator:
+      file: part-f.yaml
+      section_index: 5
+      conversation_index: 4
+      fingerprint: 2aac2664533e731b
+    source:
+      modern:
+      - de: Gieb mir's wieder!
+        ja: それを返せ！
+      grc:
+      - ἀλλ’ ἀπόδος αὐτό!
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: Gieb mir's wieder!
+        ja_current: それを返せ！
+        ja_proposed: それを返せ！
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations:
+    - target: ἀλλ’ ἀπόδος αὐτό!
+      status: exact-string-located-context-pending
+      match_type: exact
+      reference_as_given: null
+      source:
+        author: Aristophanes
+        work: Thesmophoriazusae
+        passage: '748'
+        local_file: /home/mrty/Documents/Perseus/Classics/Aristophanes/opensource/aristoph.thes_gk.xml
+      text_grc: ἀλλ’ ἀπόδος αὐτό!
+      original_speakers:
+      - Γυνη Α
+      original_speaker_beta: '*gunh\ *a'
+      original_scene: null
+      beta_context: gegone treis xoas h tettaras gunh a sxedon tosouton xwson ek dionusiwn all apodos
+        auto mnhsiloxos ma ton apollw toutoni gunh a emprhsomen toinun se mnhsiloxos panu
+      relationship_to_handbook: The complete handbook string matches after removing accents and normalizing
+        Perseus Beta Code. Dramatic or prose context still needs manual comparison.
+      adaptations: []
+      confidence: candidate
+      research_method: exact normalized token search
+    textual_issues: []
+    review_comments: []
+    status: source-researched
+  - id: f-05-005
+    source_locator:
+      file: part-f.yaml
+      section_index: 5
+      conversation_index: 5
+      fingerprint: 8f7119b66a534213
+    source:
+      modern:
+      - de: Oder du sollst sehen (= ich ergreife andere Maßregeln)!
+        ja: さもないと痛い目にあわせるぞ！
+      grc:
+      - ἢ τἀπὶ τούτοις δρῶ.
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: Oder du sollst sehen (= ich ergreife andere Maßregeln)!
+        ja_current: さもないと痛い目にあわせるぞ！
+        ja_proposed: さもないと痛い目にあわせるぞ！
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations:
+    - target: ἢ τἀπὶ τούτοις δρῶ.
+      status: exact-string-located-context-pending
+      match_type: exact
+      reference_as_given: null
+      source:
+        author: Aristophanes
+        work: Plutus
+        passage: '57'
+        local_file: /home/mrty/Documents/Perseus/Classics/Aristophanes/opensource/aristoph.pl_gk.xml
+      text_grc: ἢ τἀπὶ τούτοις δρῶ.
+      original_speakers:
+      - Καριων
+      original_speaker_beta: '*kari/wn'
+      original_scene: null
+      beta_context: o ti noei kariwn age dh su poteron sauton ostis ei fraseis h tapi toutois drw legein
+        xrh taxu panu ploutos egw men oimwzein legw soi kariwn manaqaneis
+      relationship_to_handbook: The complete handbook string matches after removing accents and normalizing
+        Perseus Beta Code. Dramatic or prose context still needs manual comparison.
+      adaptations: []
+      confidence: candidate
+      research_method: exact normalized token search
+    textual_issues: []
+    review_comments: []
+    status: source-researched
+  - id: f-05-006
+    source_locator:
+      file: part-f.yaml
+      section_index: 5
+      conversation_index: 6
+      fingerprint: 6bdc707b3619d0fe
+    source:
+      modern:
+      - de: Soll ich dir eine Ohrfeige geben?
+        ja: 頬を張ってやろうか？
+      grc:
+      - τὴν γνάθον βούλει θένω;
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: Soll ich dir eine Ohrfeige geben?
+        ja_current: 頬を張ってやろうか？
+        ja_proposed: 頬を張ってやろうか？
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations:
+    - target: τὴν γνάθον βούλει θένω;
+      status: exact-string-located-context-pending
+      match_type: exact
+      reference_as_given: null
+      source:
+        author: Aristophanes
+        work: Lysistrata
+        passage: '821'
+        local_file: /home/mrty/Documents/Perseus/Classics/Aristophanes/opensource/aristoph.lys_gk.xml
+      text_grc: τὴν γνάθον βούλει θένω;
+      original_speakers:
+      - Γυνη
+      original_speaker_beta: '*gunh/'
+      original_scene: null
+      beta_context: umwn antemisei tous ponhrous andras aei taisi de gunaicin hn filtatos gunh thn gnaqon
+        boulei qenw gerwn mhdamws edeisa ge gunh alla krousw tw skelei gerwn ton sakandron
+      relationship_to_handbook: The complete handbook string matches after removing accents and normalizing
+        Perseus Beta Code. Dramatic or prose context still needs manual comparison.
+      adaptations: []
+      confidence: candidate
+      research_method: exact normalized token search
+    textual_issues: []
+    review_comments: []
+    status: source-researched
+  - id: f-05-007
+    source_locator:
+      file: part-f.yaml
+      section_index: 5
+      conversation_index: 7
+      fingerprint: 9eaee432d5a0201c
+    source:
+      modern:
+      - de: Das sollst du nicht umsonst gesagt haben!
+        ja: ただでそんなことを言ったと思うなよ！
+      grc:
+      - οὐ μὰ ∆ία σὺ καταπροίξει τοῦτο \emph{λέγων!}
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: Das sollst du nicht umsonst gesagt haben!
+        ja_current: ただでそんなことを言ったと思うなよ！
+        ja_proposed: ただでそんなことを言ったと思うなよ！
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations: []
+    textual_issues: []
+    review_comments: []
+    status: unreviewed
+  - id: f-05-008
+    source_locator:
+      file: part-f.yaml
+      section_index: 5
+      conversation_index: 8
+      fingerprint: 849342a28c701f1d
+    source:
+      modern:
+      - de: Was hast du vor?
+        ja: 何をしようとしている？
+      grc:
+      - τί μέλλεις δρᾶν;
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: Was hast du vor?
+        ja_current: 何をしようとしている？
+        ja_proposed: 何をしようとしている？
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations:
+    - target: τί μέλλεις δρᾶν;
+      status: exact-string-located-context-pending
+      match_type: exact
+      reference_as_given: null
+      source:
+        author: Aristophanes
+        work: Thesmophoriazusae
+        passage: '215'
+        local_file: /home/mrty/Documents/Perseus/Classics/Aristophanes/opensource/aristoph.thes_gk.xml
+      text_grc: τί μέλλεις δρᾶν;
+      original_speakers:
+      - Μνησιλοχος
+      original_speaker_beta: '*mnhsi/loxos'
+      original_scene: null
+      beta_context: epeidh sauton epididws emoi apoduqi touti qoimation mnhsiloxos kai dh xamai atar ti
+        melleis dran m euripidhs apocurein tadi ta katw d afeuein mnhsiloxos alla pratt ei
+      relationship_to_handbook: The complete handbook string matches after removing accents and normalizing
+        Perseus Beta Code. Dramatic or prose context still needs manual comparison.
+      adaptations: []
+      confidence: candidate
+      research_method: exact normalized token search
+    - target: τί μέλλεις δρᾶν;
+      status: exact-string-located-context-pending
+      match_type: exact
+      reference_as_given: null
+      source:
+        author: Aristophanes
+        work: Wasps
+        passage: '1379'
+        local_file: /home/mrty/Documents/Perseus/Classics/Aristophanes/opensource/aristoph.wasps_gk.xml
+      text_grc: τί μέλλεις δρᾶν;
+      original_speakers:
+      - Φιλοκλεων
+      original_speaker_beta: '*filokle/wn'
+      original_scene: null
+      beta_context: ti legeis su poios ozos ouk ei deuro su filoklewn a a ti melleis dran bdeluklewn agein
+        tauthn labwn afelomenos se kai nomisas einai sapron kouden dunasqai
+      relationship_to_handbook: The complete handbook string matches after removing accents and normalizing
+        Perseus Beta Code. Dramatic or prose context still needs manual comparison.
+      adaptations: []
+      confidence: candidate
+      research_method: exact normalized token search
+    textual_issues: []
+    review_comments: []
+    status: source-researched
+  - id: f-05-009
+    source_locator:
+      file: part-f.yaml
+      section_index: 5
+      conversation_index: 9
+      fingerprint: 1b2309738983d415
+    source:
+      modern:
+      - de: Du sollst gehörige Prügel bekommen.
+        ja: たっぷり叩いてやるからな。
+      grc:
+      - κλαύσει μακρά.
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: Du sollst gehörige Prügel bekommen.
+        ja_current: たっぷり叩いてやるからな。
+        ja_proposed: たっぷり叩いてやるからな。
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations: []
+    textual_issues: []
+    review_comments: []
+    status: unreviewed
+  - id: f-05-010
+    source_locator:
+      file: part-f.yaml
+      section_index: 5
+      conversation_index: 10
+      fingerprint: d1e202fd1e24d7c0
+    source:
+      modern:
+      - de: (Daß du berstest!) Hol' dich der Kuckuck!
+        ja: くたばってしまえ！
+      grc:
+      - διαρραγείης!
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: (Daß du berstest!) Hol' dich der Kuckuck!
+        ja_current: くたばってしまえ！
+        ja_proposed: くたばってしまえ！
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations: []
+    textual_issues: []
+    review_comments: []
+    status: unreviewed
+  - id: f-05-011
+    source_locator:
+      file: part-f.yaml
+      section_index: 5
+      conversation_index: 11
+      fingerprint: 855e5a1d04de1bab
+    source:
+      modern:
+      - de: Da hast du eine Backpfeife!
+        ja: ほら、ビンタだ！
+      grc:
+      - οὑτοσί σοι κόνδυλος!
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: Da hast du eine Backpfeife!
+        ja_current: ほら、ビンタだ！
+        ja_proposed: ほら、ビンタだ！
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations:
+    - target: οὑτοσί σοι κόνδυλος!
+      status: exact-string-located-context-pending
+      match_type: exact
+      reference_as_given: null
+      source:
+        author: Aristophanes
+        work: Peace
+        passage: '256'
+        local_file: /home/mrty/Documents/Perseus/Classics/Aristophanes/opensource/aristoph.peace_gk.xml
+      text_grc: οὑτοσί σοι κόνδυλος!
+      original_speakers:
+      - Πολεμος
+      original_speaker_beta: '*po/lemos'
+      original_scene: null
+      beta_context: pai pai kudoime kudoimos ti me kaleis polemos klausei makra esthkas argos outosi soi
+        kondulos kudoimos ws drimus oimoi moi talas w despota mwn twn skorodwn enebales
+      relationship_to_handbook: The complete handbook string matches after removing accents and normalizing
+        Perseus Beta Code. Dramatic or prose context still needs manual comparison.
+      adaptations: []
+      confidence: candidate
+      research_method: exact normalized token search
+    textual_issues: []
+    review_comments: []
+    status: source-researched
+  - id: f-05-012
+    source_locator:
+      file: part-f.yaml
+      section_index: 5
+      conversation_index: 12
+      fingerprint: d29d8efc1f15919c
+    source:
+      modern:
+      - de: Zum Donnerwetter!Immer hau' ihn!
+        ja: ちくしょう！どんどん殴れ！
+      grc:
+      - ἐς κόρακας!
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: Zum Donnerwetter!Immer hau' ihn!
+        ja_current: ちくしょう！どんどん殴れ！
+        ja_proposed: ちくしょう！どんどん殴れ！
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations: []
+    textual_issues: []
+    review_comments: []
+    status: unreviewed
+  - id: f-05-013
+    source_locator:
+      file: part-f.yaml
+      section_index: 5
+      conversation_index: 13
+      fingerprint: b7077a91817750de
+    source:
+      modern:
+      - de: Wart', ich will dir's weisen!
+        ja: 待て、思い知らせてやる！
+      grc:
+      - παῖε παῖε!
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: Wart', ich will dir's weisen!
+        ja_current: 待て、思い知らせてやる！
+        ja_proposed: 待て、思い知らせてやる！
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations: []
+    textual_issues: []
+    review_comments: []
+    status: unreviewed
+  - id: f-05-014
+    source_locator:
+      file: part-f.yaml
+      section_index: 5
+      conversation_index: 14
+      fingerprint: 309a3177089f5ae1
+    source:
+      modern:
+      - de: Kommt mir nicht zu nahe!
+        ja: 近寄るな！
+      grc:
+      - μὴ πρόσιτε.
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: Kommt mir nicht zu nahe!
+        ja_current: 近寄るな！
+        ja_proposed: 近寄るな！
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations: []
+    textual_issues: []
+    review_comments: []
+    status: unreviewed
+  - id: f-05-015
+    source_locator:
+      file: part-f.yaml
+      section_index: 5
+      conversation_index: 15
+      fingerprint: e0c38ce5119e963c
+    source:
+      modern:
+      - de: Hurrah!
+        ja: 万歳！
+      grc:
+      - ἀλαλαί!
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: Hurrah!
+        ja_current: 万歳！
+        ja_proposed: 万歳！
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations: []
+    textual_issues: []
+    review_comments: []
+    status: unreviewed
+  - id: f-05-016
+    source_locator:
+      file: part-f.yaml
+      section_index: 5
+      conversation_index: 16
+      fingerprint: 1fc2a9dd011a240b
+    source:
+      modern:
+      - de: Jetzt haben wir ihn!
+        ja: これで捕まえたぞ！
+      grc:
+      - νῦν ἔχεται μέσος!
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: Jetzt haben wir ihn!
+        ja_current: これで捕まえたぞ！
+        ja_proposed: これで捕まえたぞ！
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations: []
+    textual_issues: []
+    review_comments: []
+    status: unreviewed
+  - id: f-05-017
+    source_locator:
+      file: part-f.yaml
+      section_index: 5
+      conversation_index: 17
+      fingerprint: c786e841ba18de48
+    source:
+      modern:
+      - de: Wollt ihr weg!
+        ja: 出て行け！
+      grc:
+      - οὐχὶ σοῦσθε;
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: Wollt ihr weg!
+        ja_current: 出て行け！
+        ja_proposed: 出て行け！
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations: []
+    textual_issues: []
+    review_comments: []
+    status: unreviewed
+  - id: f-05-018
+    source_locator:
+      file: part-f.yaml
+      section_index: 5
+      conversation_index: 18
+      fingerprint: 860e34e3c405879a
+    source:
+      modern:
+      - de: Wir sollt ihr nicht wieder kommen!
+        ja: 二度と戻ってくるな！
+      grc:
+      - οὐδὲν ἄν με φλαῦρον ἔτι ἐργάσαισθε.
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: Wir sollt ihr nicht wieder kommen!
+        ja_current: 二度と戻ってくるな！
+        ja_proposed: 二度と戻ってくるな！
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations: []
+    textual_issues: []
+    review_comments: []
+    status: unreviewed
+- id: f-06
+  title:
+    de: Kinderzucht
+    ja: 子どものしつけ
+  scene_type: mixed
+  setting:
+    situation: an adult corrects or disciplines children
+  cast:
+  - id: parent-or-teacher
+    description: null
+    evidence: null
+    confidence: candidate
+  - id: child
+    description: null
+    evidence: null
+    confidence: candidate
+  reconstruction:
+    confidence: unreviewed
+    note: Ordering may combine a continuous exchange with reusable model phrases; turn continuity must
+      be justified entry by entry.
+  entries:
+  - id: f-06-001
+    source_locator:
+      file: part-f.yaml
+      section_index: 6
+      conversation_index: 1
+      fingerprint: cf9dd7578468e7d2
+    source:
+      modern:
+      - de: Was ist das für ein Lärm da drin?
+        ja: 中で何の騒ぎだ？
+      grc:
+      - τίς οὗτος ὁ ἔνδον θόρυβος;
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: Was ist das für ein Lärm da drin?
+        ja_current: 中で何の騒ぎだ？
+        ja_proposed: 中で何の騒ぎだ？
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations: []
+    textual_issues: []
+    review_comments: []
+    status: unreviewed
+  - id: f-06-002
+    source_locator:
+      file: part-f.yaml
+      section_index: 6
+      conversation_index: 2
+      fingerprint: 15be60ffdaa09456
+    source:
+      modern:
+      - de: Schreit nicht so!
+        ja: そんなに騒ぐな！
+      grc:
+      - μὴ βοᾶτε! — μὴ βοᾶτε μηδαμῶς! — μὴ κεκράγατε!
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: Schreit nicht so!
+        ja_current: そんなに騒ぐな！
+        ja_proposed: そんなに騒ぐな！
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations: []
+    textual_issues: []
+    review_comments: []
+    status: unreviewed
+  - id: f-06-003
+    source_locator:
+      file: part-f.yaml
+      section_index: 6
+      conversation_index: 3
+      fingerprint: 9021979bc0af3c8d
+    source:
+      modern:
+      - de: So hört doch endlich!
+        ja: もう黙りなさい！
+      grc:
+      - οὐκ ἄκούσεσθε ἐτεόν;
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: So hört doch endlich!
+        ja_current: もう黙りなさい！
+        ja_proposed: もう黙りなさい！
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations: []
+    textual_issues: []
+    review_comments: []
+    status: unreviewed
+  - id: f-06-004
+    source_locator:
+      file: part-f.yaml
+      section_index: 6
+      conversation_index: 4
+      fingerprint: ed25f59eb86c777f
+    source:
+      modern:
+      - de: Was giebt's?
+        ja: 何があった？
+      grc:
+      - τί ἔστιν;
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: Was giebt's?
+        ja_current: 何があった？
+        ja_proposed: 何があった？
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations: []
+    textual_issues: []
+    review_comments: []
+    status: unreviewed
+  - id: f-06-005
+    source_locator:
+      file: part-f.yaml
+      section_index: 6
+      conversation_index: 5
+      fingerprint: cc783d87abff2a94
+    source:
+      modern:
+      - de: Was ist los? Um was handelt es sich?
+        ja: どうしたんだ、何の用だ？
+      grc:
+      - τί τὸ πρᾶγμα;
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: Was ist los? Um was handelt es sich?
+        ja_current: どうしたんだ、何の用だ？
+        ja_proposed: どうしたんだ、何の用だ？
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations:
+    - target: τί τὸ πρᾶγμα;
+      status: exact-string-located-context-pending
+      match_type: exact
+      reference_as_given: null
+      source:
+        author: Aristophanes
+        work: Birds
+        passage: '1171'
+        local_file: /home/mrty/Documents/Perseus/Classics/Aristophanes/opensource/aristoph.birds_gk.xml
+      text_grc: τί τὸ πρᾶγμα;
+      original_speakers:
+      - Πισθεταιρος
+      original_speaker_beta: '*pisqe/tairos'
+      original_scene: null
+      beta_context: deuro purrixhn blepwn aggelos b iou iou iou iou iou iou pisqetairos ti to pragma touti
+        aggelos b deinotata peponqamen twn gar qewn tis arti twn para
+      relationship_to_handbook: The complete handbook string matches after removing accents and normalizing
+        Perseus Beta Code. Dramatic or prose context still needs manual comparison.
+      adaptations: []
+      confidence: candidate
+      research_method: exact normalized token search
+    - target: τί τὸ πρᾶγμα;
+      status: exact-string-located-context-pending
+      match_type: exact
+      reference_as_given: null
+      source:
+        author: Aristophanes
+        work: Ecclesiazusae
+        passage: '312'
+        local_file: /home/mrty/Documents/Perseus/Classics/Aristophanes/opensource/aristoph.eccl_gk.xml
+      text_grc: τί τὸ πρᾶγμα;
+      original_speakers:
+      - Βλεπυρος
+      original_speaker_beta: '*ble/puros'
+      original_scene: null
+      beta_context: de triwbolon zhtousi labein otan prattwsi ti koinon ws per phloforountes blepuros
+        ti to pragma poi poq h gunh froudh sti moi epei pros ew nun g
+      relationship_to_handbook: The complete handbook string matches after removing accents and normalizing
+        Perseus Beta Code. Dramatic or prose context still needs manual comparison.
+      adaptations: []
+      confidence: candidate
+      research_method: exact normalized token search
+    - target: τί τὸ πρᾶγμα;
+      status: exact-string-located-context-pending
+      match_type: exact
+      reference_as_given: null
+      source:
+        author: Aristophanes
+        work: Frogs
+        passage: '658'
+        local_file: /home/mrty/Documents/Perseus/Classics/Aristophanes/opensource/aristoph.frogs_gk.xml
+      text_grc: τί τὸ πρᾶγμα;
+      original_speakers:
+      - Αιακος
+      original_speaker_beta: '*)/aiakos'
+      original_scene: null
+      beta_context: tondi palin canqias oimoi aiakos ti esti canqias thn akanqan ecele aiakos ti to pragma
+        touti deuro palin badisteon dionusos apollon os pou dhlon h puqwn exeis
+      relationship_to_handbook: The complete handbook string matches after removing accents and normalizing
+        Perseus Beta Code. Dramatic or prose context still needs manual comparison.
+      adaptations: []
+      confidence: candidate
+      research_method: exact normalized token search
+    - target: τί τὸ πρᾶγμα;
+      status: exact-string-located-context-pending
+      match_type: exact
+      reference_as_given: null
+      source:
+        author: Aristophanes
+        work: Lysistrata
+        passage: '23'
+        local_file: /home/mrty/Documents/Perseus/Classics/Aristophanes/opensource/aristoph.lys_gk.xml
+      text_grc: τί τὸ πρᾶγμα;
+      original_speakers:
+      - Καλονικη
+      original_speaker_beta: '*kaloni/kh'
+      original_scene: null
+      beta_context: estin w filh lusistrath ef o ti poq hmas tas gunaikas sugkaleis ti to pragma phlikon
+        ti lusistrath mega kalonikh mwn kai paxu lusistrath kai nh dia
+      relationship_to_handbook: The complete handbook string matches after removing accents and normalizing
+        Perseus Beta Code. Dramatic or prose context still needs manual comparison.
+      adaptations: []
+      confidence: candidate
+      research_method: exact normalized token search
+    - target: τί τὸ πρᾶγμα;
+      status: exact-string-located-context-pending
+      match_type: exact
+      reference_as_given: null
+      source:
+        author: Aristophanes
+        work: Thesmophoriazusae
+        passage: '73'
+        local_file: /home/mrty/Documents/Perseus/Classics/Aristophanes/opensource/aristoph.thes_gk.xml
+      text_grc: τί τὸ πρᾶγμα;
+      original_speakers:
+      - Μνησιλοχος
+      original_speaker_beta: '*mnhsi/loxos'
+      original_scene: null
+      beta_context: ti drasai dianoei me thmeron mnhsiloxos nh tous qeous egw puqesqai boulomai ti to
+        pragma touti ti steneis ti dusforeis ou xrhn se kruptein onta khdesthn emon
+      relationship_to_handbook: The complete handbook string matches after removing accents and normalizing
+        Perseus Beta Code. Dramatic or prose context still needs manual comparison.
+      adaptations: []
+      confidence: candidate
+      research_method: exact normalized token search
+    - target: τί τὸ πρᾶγμα;
+      status: exact-string-located-context-pending
+      match_type: exact
+      reference_as_given: null
+      source:
+        author: Aristotle
+        work: aristot.met_gk
+        passage: 996b
+        local_file: /home/mrty/Documents/Perseus/Classics/Aristotle/opensource/aristot.met_gk.xml
+      text_grc: τί τὸ πρᾶγμα;
+      original_speakers: []
+      original_speaker_beta: null
+      original_scene: null
+      beta_context: gar epistamenwn to auto mallon men eidenai famen ton tw einai gnwrizonta ti to pragma
+        h tw mh einai autwn de toutwn eteron eterou mallon kai malista
+      relationship_to_handbook: The complete handbook string matches after removing accents and normalizing
+        Perseus Beta Code. Dramatic or prose context still needs manual comparison.
+      adaptations: []
+      confidence: candidate
+      research_method: exact normalized token search
+    - target: τί τὸ πρᾶγμα;
+      status: exact-string-located-context-pending
+      match_type: exact
+      reference_as_given: null
+      source:
+        author: Lucian
+        work: 67_gk
+        passage: '1'
+        local_file: /home/mrty/Documents/Perseus/Classics/Lucian/opensource/67_gk.xml
+      text_grc: τί τὸ πρᾶγμα;
+      original_speakers:
+      - Αλφειος
+      original_speaker_beta: '*)alfeio/s'
+      original_scene: null
+      beta_context: kai erwdioi kai eoikas anakuyein pou kai auqis anafanein seauton alfeios erwtikon
+        ti to pragma estin w poseidon wste mh elegxe hrasqhs de kai autos pollakis poseidwn
+      relationship_to_handbook: The complete handbook string matches after removing accents and normalizing
+        Perseus Beta Code. Dramatic or prose context still needs manual comparison.
+      adaptations: []
+      confidence: candidate
+      research_method: exact normalized token search
+    - target: τί τὸ πρᾶγμα;
+      status: exact-string-located-context-pending
+      match_type: exact
+      reference_as_given: null
+      source:
+        author: Lucian
+        work: 69_gk
+        passage: '1'
+        local_file: /home/mrty/Documents/Perseus/Classics/Lucian/opensource/69_gk.xml
+      text_grc: τί τὸ πρᾶγμα;
+      original_speakers:
+      - Κλωναριον
+      original_speaker_beta: '*klwna/rion'
+      original_scene: null
+      beta_context: w klwnarion aisxunomai de allokoton gar ti esti klwnarion pros ths kourotrofou ti
+        to pragma h ti bouletai h gunh ti de kai prattete otan sunhte oras
+      relationship_to_handbook: The complete handbook string matches after removing accents and normalizing
+        Perseus Beta Code. Dramatic or prose context still needs manual comparison.
+      adaptations: []
+      confidence: candidate
+      research_method: exact normalized token search
+    - target: τί τὸ πρᾶγμα;
+      status: exact-string-located-context-pending
+      match_type: exact
+      reference_as_given: null
+      source:
+        author: Lucian
+        work: 69_gk
+        passage: '3'
+        local_file: /home/mrty/Documents/Perseus/Classics/Lucian/opensource/69_gk.xml
+      text_grc: τί τὸ πρᾶγμα;
+      original_speakers:
+      - Λεαινα
+      original_speaker_beta: '*le/aina'
+      original_scene: null
+      beta_context: dhmwnassa de kai edakne metacu katafilousa egw de ouk eixon eikasai o ti to pragma
+        eih xronw de h megilla upoqermos hdh ousa thn men phnhkhn afeileto
+      relationship_to_handbook: The complete handbook string matches after removing accents and normalizing
+        Perseus Beta Code. Dramatic or prose context still needs manual comparison.
+      adaptations: []
+      confidence: candidate
+      research_method: exact normalized token search
+    textual_issues: []
+    review_comments: []
+    status: source-researched
+  - id: f-06-006
+    source_locator:
+      file: part-f.yaml
+      section_index: 6
+      conversation_index: 6
+      fingerprint: 2aadb08f858e22fd
+    source:
+      modern:
+      - de: Wer schreit \emph{nach mir?}
+        ja: 誰が私を呼んで叫んでいるんだ？
+      grc:
+      - τίς ὁ βοῶν με;
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: Wer schreit \emph{nach mir?}
+        ja_current: 誰が私を呼んで叫んでいるんだ？
+        ja_proposed: 誰が私を呼んで叫んでいるんだ？
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations: []
+    textual_issues: []
+    review_comments: []
+    status: unreviewed
+  - id: f-06-007
+    source_locator:
+      file: part-f.yaml
+      section_index: 6
+      conversation_index: 7
+      fingerprint: 21a849b6c15213cf
+    source:
+      modern:
+      - de: Soll ich's sagen?
+        ja: 言いましょうか？
+      grc:
+      - εἴπω;
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: Soll ich's sagen?
+        ja_current: 言いましょうか？
+        ja_proposed: 言いましょうか？
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations: []
+    textual_issues: []
+    review_comments: []
+    status: unreviewed
+  - id: f-06-008
+    source_locator:
+      file: part-f.yaml
+      section_index: 6
+      conversation_index: 8
+      fingerprint: ab8d6a083841a4ab
+    source:
+      modern:
+      - de: Erzähle es mir!
+        ja: 私に話してごらん。
+      grc:
+      - κάτειπέ μοι.
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: Erzähle es mir!
+        ja_current: 私に話してごらん。
+        ja_proposed: 私に話してごらん。
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations: []
+    textual_issues: []
+    review_comments: []
+    status: unreviewed
+  - id: f-06-009
+    source_locator:
+      file: part-f.yaml
+      section_index: 6
+      conversation_index: 9
+      fingerprint: 3f9955827751c483
+    source:
+      modern:
+      - de: Karl hat uns geprügelt.
+        ja: カールが僕たちを殴った。
+      grc:
+      - Κάρολος πληγὰς ἡμῖν ἐνέβαλλεν.
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: Karl hat uns geprügelt.
+        ja_current: カールが僕たちを殴った。
+        ja_proposed: カールが僕たちを殴った。
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations: []
+    textual_issues: []
+    review_comments: []
+    status: unreviewed
+  - id: f-06-010
+    source_locator:
+      file: part-f.yaml
+      section_index: 6
+      conversation_index: 10
+      fingerprint: 9d8a8ceff1fb2947
+    source:
+      modern:
+      - de: Ist's möglich?
+        ja: 本当か？
+      grc:
+      - τί φής!
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: Ist's möglich?
+        ja_current: 本当か？
+        ja_proposed: 本当か？
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations: []
+    textual_issues: []
+    review_comments: []
+    status: unreviewed
+  - id: f-06-011
+    source_locator:
+      file: part-f.yaml
+      section_index: 6
+      conversation_index: 11
+      fingerprint: 6de2c679d99214b2
+    source:
+      modern:
+      - de: Und was war dir Ursache davon?
+        ja: それで原因は何だったんだ？
+      grc:
+      - ἡ δ’ αἰτία τίς ἦν;
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: Und was war dir Ursache davon?
+        ja_current: それで原因は何だったんだ？
+        ja_proposed: それで原因は何だったんだ？
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations: []
+    textual_issues: []
+    review_comments: []
+    status: unreviewed
+  - id: f-06-012
+    source_locator:
+      file: part-f.yaml
+      section_index: 6
+      conversation_index: 12
+      fingerprint: eda48b62a011db4b
+    source:
+      modern:
+      - de: Warum?
+        ja: なぜだ？
+      grc:
+      - τιή;
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: Warum?
+        ja_current: なぜだ？
+        ja_proposed: なぜだ？
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations: []
+    textual_issues: []
+    review_comments: []
+    status: unreviewed
+  - id: f-06-013
+    source_locator:
+      file: part-f.yaml
+      section_index: 6
+      conversation_index: 13
+      fingerprint: 93833631ecae6aa6
+    source:
+      modern:
+      - de: So hitzig?
+        ja: そんなに短気なのか？
+      grc:
+      - ὡς ὀξύθυμος!
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: So hitzig?
+        ja_current: そんなに短気なのか？
+        ja_proposed: そんなに短気なのか？
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations: []
+    textual_issues: []
+    review_comments: []
+    status: unreviewed
+  - id: f-06-014
+    source_locator:
+      file: part-f.yaml
+      section_index: 6
+      conversation_index: 14
+      fingerprint: 1941b8daa5bf0a29
+    source:
+      modern:
+      - de: Das ist immer so deine Art!
+        ja: それがいつもの君のやり方だ。
+      grc:
+      - οὗτος ὁ τρόπος πανταχοῦ!
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: Das ist immer so deine Art!
+        ja_current: それがいつもの君のやり方だ。
+        ja_proposed: それがいつもの君のやり方だ。
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations:
+    - target: οὗτος ὁ τρόπος πανταχοῦ!
+      status: exact-string-located-context-pending
+      match_type: exact
+      reference_as_given: null
+      source:
+        author: Aristophanes
+        work: Frogs
+        passage: '563'
+        local_file: /home/mrty/Documents/Perseus/Classics/Aristophanes/opensource/aristoph.frogs_gk.xml
+      text_grc: οὗτος ὁ τρόπος πανταχοῦ!
+      original_speakers:
+      - Ξανθιας
+      original_speaker_beta: '*canqi/as'
+      original_scene: null
+      beta_context: targurion eprattomhn ebleyen es me drimu kamukato ge canqias toutou panu tourgon outos
+        o tropos pantaxou pandokeutria kai to cifos g espato mainesqai dokwn plaqanh nh dia talaina
+      relationship_to_handbook: The complete handbook string matches after removing accents and normalizing
+        Perseus Beta Code. Dramatic or prose context still needs manual comparison.
+      adaptations: []
+      confidence: candidate
+      research_method: exact normalized token search
+    textual_issues: []
+    review_comments: []
+    status: source-researched
+  - id: f-06-015
+    source_locator:
+      file: part-f.yaml
+      section_index: 6
+      conversation_index: 15
+      fingerprint: afa4b51e8f9f8870
+    source:
+      modern:
+      - de: Ich bin nicht schuld daran.
+        ja: 私のせいではない。
+      grc:
+      - οὐκ ἐγὼ τούτων αἴτιος.
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: Ich bin nicht schuld daran.
+        ja_current: 私のせいではない。
+        ja_proposed: 私のせいではない。
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations: []
+    textual_issues: []
+    review_comments: []
+    status: unreviewed
+  - id: f-06-016
+    source_locator:
+      file: part-f.yaml
+      section_index: 6
+      conversation_index: 16
+      fingerprint: da16456e362800f9
+    source:
+      modern:
+      - de: Ja mit mir hat er es ebenso gemacht.
+        ja: ああ、私にも同じことをした。
+      grc:
+      - νὴ ∆ία, κἀμὲ τοῦτ’ ἔδρασε ταὐτόν.
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: Ja mit mir hat er es ebenso gemacht.
+        ja_current: ああ、私にも同じことをした。
+        ja_proposed: ああ、私にも同じことをした。
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations: []
+    textual_issues: []
+    review_comments: []
+    status: unreviewed
+  - id: f-06-017
+    source_locator:
+      file: part-f.yaml
+      section_index: 6
+      conversation_index: 17
+      fingerprint: bf2cbf8d02d3f5db
+    source:
+      modern:
+      - de: Du willst es in Abrede stellen?
+        ja: 否定するつもりか？
+      grc:
+      - ἀρνεῖ;
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: Du willst es in Abrede stellen?
+        ja_current: 否定するつもりか？
+        ja_proposed: 否定するつもりか？
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations: []
+    textual_issues: []
+    review_comments: []
+    status: unreviewed
+  - id: f-06-018
+    source_locator:
+      file: part-f.yaml
+      section_index: 6
+      conversation_index: 18
+      fingerprint: 0e8fc64183385fb2
+    source:
+      modern:
+      - de: Nicht gemuckst!
+        ja: 黙っていろ！
+      grc:
+      - μὴ γρύξῃς!
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: Nicht gemuckst!
+        ja_current: 黙っていろ！
+        ja_proposed: 黙っていろ！
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations: []
+    textual_issues: []
+    review_comments: []
+    status: unreviewed
+  - id: f-06-019
+    source_locator:
+      file: part-f.yaml
+      section_index: 6
+      conversation_index: 19
+      fingerprint: adfdb0b627841c11
+    source:
+      modern:
+      - de: Daß du mir keine Lügen sagst!
+        ja: 嘘は言うなよ！
+      grc:
+      - ὅπως ἐρεῖς μηδὲν ψεῦδος!
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: Daß du mir keine Lügen sagst!
+        ja_current: 嘘は言うなよ！
+        ja_proposed: 嘘は言うなよ！
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations: []
+    textual_issues: []
+    review_comments: []
+    status: unreviewed
+  - id: f-06-020
+    source_locator:
+      file: part-f.yaml
+      section_index: 6
+      conversation_index: 20
+      fingerprint: 261ad91085fcc057
+    source:
+      modern:
+      - de: Du verdienst Schläge.
+        ja: お前は殴られて当然だ。
+      grc:
+      - ἄξιος εἶ πληγὰς λαβεῖν.
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: Du verdienst Schläge.
+        ja_current: お前は殴られて当然だ。
+        ja_proposed: お前は殴られて当然だ。
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations: []
+    textual_issues: []
+    review_comments: []
+    status: unreviewed
+  - id: f-06-021
+    source_locator:
+      file: part-f.yaml
+      section_index: 6
+      conversation_index: 21
+      fingerprint: e25d71a49329fb14
+    source:
+      modern:
+      - de: Du, halt' einmal! Wo rennst du hin?
+        ja: おい、ちょっと待て！どこへ走っていく？
+      grc:
+      - ἐπίσχες, οὗτος! ποῖ θεῖς;
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: Du, halt' einmal! Wo rennst du hin?
+        ja_current: おい、ちょっと待て！どこへ走っていく？
+        ja_proposed: おい、ちょっと待て！どこへ走っていく？
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations: []
+    textual_issues: []
+    review_comments: []
+    status: unreviewed
+  - id: f-06-022
+    source_locator:
+      file: part-f.yaml
+      section_index: 6
+      conversation_index: 22
+      fingerprint: ed7c5190118f8158
+    source:
+      modern:
+      - de: Sei nicht böse, lieber Vater!
+        ja: 怒らないで、お父さん！
+      grc:
+      - μηδὲν ἀγανάακτει, ὦ πάτερ!
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: Sei nicht böse, lieber Vater!
+        ja_current: 怒らないで、お父さん！
+        ja_proposed: 怒らないで、お父さん！
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations: []
+    textual_issues: []
+    review_comments: []
+    status: unreviewed
+  - id: f-06-023
+    source_locator:
+      file: part-f.yaml
+      section_index: 6
+      conversation_index: 23
+      fingerprint: 0617a94ba3009fa5
+    source:
+      modern:
+      - de: Man muß sich todtärgern!
+        ja: もう腹が立ってたまらない！
+      grc:
+      - οἴμοι, διαρραγήσομαι.
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: Man muß sich todtärgern!
+        ja_current: もう腹が立ってたまらない！
+        ja_proposed: もう腹が立ってたまらない！
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations: []
+    textual_issues: []
+    review_comments: []
+    status: unreviewed

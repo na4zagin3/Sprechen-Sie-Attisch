@@ -1,0 +1,2450 @@
+meta:
+  source: part-g.yaml
+  part_title:
+    de: Aus dem politischen Leben.
+    ja: 政治生活より
+  translation_style:
+    basis:
+    - part-a.yaml
+    - part-b.yaml
+    - part-c.yaml
+    principles:
+    - Prefer natural spoken Japanese appropriate to the reconstructed relationship.
+    - Preserve the German wording except for explicitly identified source or OCR errors.
+    - Distinguish the German prompt from the literal and pragmatic force of the Greek.
+    - Preserve nineteenth-century objects, institutions, and social conventions where relevant.
+    - Do not add politeness, intimacy, gender, or aggression without contextual evidence.
+    - Use Japanese punctuation and sentence endings to make turn-taking natural.
+  corpus_roots:
+    perseus: /home/mrty/Documents/Perseus/Classics
+    lsj: /home/mrty/Documents/Perseus/Classics/LSJ
+  attestation_match_types:
+  - exact
+  - near-exact
+  - adapted
+  - syntactic-parallel
+  - formulaic-parallel
+  - lexical-only
+  - not-found
+  status_values:
+  - unreviewed
+  - scene-reviewed
+  - source-researched
+  - ja-proposed
+  - accepted
+scenes:
+- id: g-01
+  title:
+    de: Parteibewegung
+    ja: 政党運動
+  scene_type: mixed
+  setting:
+    situation: political associates arrange attendance at a meeting
+  cast:
+  - id: organizer
+    description: null
+    evidence: null
+    confidence: candidate
+  - id: associate
+    description: null
+    evidence: null
+    confidence: candidate
+  - id: politician
+    description: null
+    evidence: null
+    confidence: candidate
+  reconstruction:
+    confidence: unreviewed
+    note: Ordering may combine a continuous exchange with reusable model phrases; turn continuity must
+      be justified entry by entry.
+  entries:
+  - id: g-01-001
+    source_locator:
+      file: part-g.yaml
+      section_index: 1
+      conversation_index: 1
+      fingerprint: 89ec908714f82c57
+    source:
+      modern:
+      - de: Eugen ist da?
+        ja: オイゲンは来ていますか？
+      grc:
+      - ὁ Εὐγενὴς ἐπιδεδήμεκεν;
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: Eugen ist da?
+        ja_current: オイゲンは来ていますか？
+        ja_proposed: オイゲンは来ていますか？
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations: []
+    textual_issues: []
+    review_comments: []
+    status: unreviewed
+  - id: g-01-002
+    source_locator:
+      file: part-g.yaml
+      section_index: 1
+      conversation_index: 2
+      fingerprint: ee5c156119ce389d
+    source:
+      modern:
+      - de: Schon seit vorgestern.
+        ja: おとといからもう来ています。
+      grc:
+      - τρίτην ἤδη ἡμέραν.
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: Schon seit vorgestern.
+        ja_current: おとといからもう来ています。
+        ja_proposed: おとといからもう来ています。
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations: []
+    textual_issues: []
+    review_comments: []
+    status: unreviewed
+  - id: g-01-003
+    source_locator:
+      file: part-g.yaml
+      section_index: 1
+      conversation_index: 3
+      fingerprint: 45f6f23f4cb91032
+    source:
+      modern:
+      - de: Er wird doch wohl eine Rede halten?
+        ja: 彼は演説をするのでしょう？
+      grc:
+      - \emph{οὐκοῦν} δημηγορήσει;
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: Er wird doch wohl eine Rede halten?
+        ja_current: 彼は演説をするのでしょう？
+        ja_proposed: 彼は演説をするのでしょう？
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations: []
+    textual_issues: []
+    review_comments: []
+    status: unreviewed
+  - id: g-01-004
+    source_locator:
+      file: part-g.yaml
+      section_index: 1
+      conversation_index: 4
+      fingerprint: 21b79fe6c65d0f20
+    source:
+      modern:
+      - de: Versteht sich! Heute Abend.
+        ja: もちろんです。今晩に。
+      grc:
+      - εὖ ἴσθ’ ὅτι εἰς ἑσπέραν.
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: Versteht sich! Heute Abend.
+        ja_current: もちろんです。今晩に。
+        ja_proposed: もちろんです。今晩に。
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations: []
+    textual_issues: []
+    review_comments: []
+    status: unreviewed
+  - id: g-01-005
+    source_locator:
+      file: part-g.yaml
+      section_index: 1
+      conversation_index: 5
+      fingerprint: 23441c836c55a915
+    source:
+      modern:
+      - de: Worüber? Über alles Mögliche.
+        ja: 何について？あらゆることについてです。
+      grc:
+      - περὶ τοῦ; περὶ \emph{ἁπάντων} πραγμάτων.
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: Worüber? Über alles Mögliche.
+        ja_current: 何について？あらゆることについてです。
+        ja_proposed: 何について？あらゆることについてです。
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations: []
+    textual_issues: []
+    review_comments: []
+    status: unreviewed
+  - id: g-01-006
+    source_locator:
+      file: part-g.yaml
+      section_index: 1
+      conversation_index: 6
+      fingerprint: 0ecdce4cf538a003
+    source:
+      modern:
+      - de: Ich will Sie mit in die Versammlung nehmen.
+        ja: 会合にご一緒しましょう。
+      grc:
+      - \emph{ἄξω} σε μετ’ ἐμαυτοῦ εἰς τὸν σύλλογον.
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: Ich will Sie mit in die Versammlung nehmen.
+        ja_current: 会合にご一緒しましょう。
+        ja_proposed: 会合にご一緒しましょう。
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations: []
+    textual_issues: []
+    review_comments: []
+    status: unreviewed
+  - id: g-01-007
+    source_locator:
+      file: part-g.yaml
+      section_index: 1
+      conversation_index: 7
+      fingerprint: b2d053c7658e5622
+    source:
+      modern:
+      - de: Ich danke, ich weiß den Weg.
+        ja: ありがとう、道は知っています。
+      grc:
+      - καλῶς· ἀλλ’ οἶδα τὴν ὁδόν.
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: Ich danke, ich weiß den Weg.
+        ja_current: ありがとう、道は知っています。
+        ja_proposed: ありがとう、道は知っています。
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations: []
+    textual_issues: []
+    review_comments: []
+    status: unreviewed
+  - id: g-01-008
+    source_locator:
+      file: part-g.yaml
+      section_index: 1
+      conversation_index: 8
+      fingerprint: 1992ff8d7fec529f
+    source:
+      modern:
+      - de: 'Nun, so machen Sie denn, daß Sie \emph{auch} hinkommen und bringen
+
+          Sie noch ein paar Andere mit!'
+        ja: ではあなたもぜひ来て、ほかの人も何人か連れてきてください。
+      grc:
+      - ἀλλ’ ὅπως παρέσει καὶ αὐτὸς καὶ ἄλλους \emph{ἄξεις!}
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: 'Nun, so machen Sie denn, daß Sie \emph{auch} hinkommen und bringen
+
+          Sie noch ein paar Andere mit!'
+        ja_current: ではあなたもぜひ来て、ほかの人も何人か連れてきてください。
+        ja_proposed: ではあなたもぜひ来て、ほかの人も何人か連れてきてください。
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations: []
+    textual_issues: []
+    review_comments: []
+    status: unreviewed
+  - id: g-01-009
+    source_locator:
+      file: part-g.yaml
+      section_index: 1
+      conversation_index: 9
+      fingerprint: c29b21e78a8ffca4
+    source:
+      modern:
+      - de: Die Fort\textcompwordmark{}schrittler.
+        ja: 進歩派。
+      grc:
+      - οἱ καινοτομοῦντες.
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: Die Fort\textcompwordmark{}schrittler.
+        ja_current: 進歩派。
+        ja_proposed: 進歩派。
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations: []
+    textual_issues: []
+    review_comments: []
+    status: unreviewed
+  - id: g-01-010
+    source_locator:
+      file: part-g.yaml
+      section_index: 1
+      conversation_index: 10
+      fingerprint: 029511473000e8ca
+    source:
+      modern:
+      - de: Die Conservativen.
+        ja: 保守派。
+      grc:
+      - οἱ συντηρητικοί.{*}
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: Die Conservativen.
+        ja_current: 保守派。
+        ja_proposed: 保守派。
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations: []
+    textual_issues: []
+    review_comments: []
+    status: unreviewed
+  - id: g-01-011
+    source_locator:
+      file: part-g.yaml
+      section_index: 1
+      conversation_index: 11
+      fingerprint: 972169e22e7d9a11
+    source:
+      modern:
+      - de: Die Rothen.
+        ja: 急進派（赤）。
+      grc:
+      - οἱ δημοκρατικοί.
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: Die Rothen.
+        ja_current: 急進派（赤）。
+        ja_proposed: 急進派（赤）。
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations: []
+    textual_issues: []
+    review_comments: []
+    status: unreviewed
+  - id: g-01-012
+    source_locator:
+      file: part-g.yaml
+      section_index: 1
+      conversation_index: 12
+      fingerprint: 8329ab1956f582b0
+    source:
+      modern:
+      - de: Das Parlament.
+        ja: 議会。
+      grc:
+      - ἡ βουλή.
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: Das Parlament.
+        ja_current: 議会。
+        ja_proposed: 議会。
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations: []
+    textual_issues: []
+    review_comments: []
+    status: unreviewed
+  - id: g-01-013
+    source_locator:
+      file: part-g.yaml
+      section_index: 1
+      conversation_index: 13
+      fingerprint: cb3e4be75fd2132b
+    source:
+      modern:
+      - de: Die Commission.
+        ja: 委員会。
+      grc:
+      - οἱ ἐπίτροποι.
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: Die Commission.
+        ja_current: 委員会。
+        ja_proposed: 委員会。
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations: []
+    textual_issues: []
+    review_comments: []
+    status: unreviewed
+  - id: g-01-014
+    source_locator:
+      file: part-g.yaml
+      section_index: 1
+      conversation_index: 14
+      fingerprint: 4076b8dfe1e1b2b1
+    source:
+      modern:
+      - de: Der Abgeordnete.
+        ja: 代議士。
+      grc:
+      - ὁ βουλευτής.
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: Der Abgeordnete.
+        ja_current: 代議士。
+        ja_proposed: 代議士。
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations: []
+    textual_issues: []
+    review_comments: []
+    status: unreviewed
+  - id: g-01-015
+    source_locator:
+      file: part-g.yaml
+      section_index: 1
+      conversation_index: 15
+      fingerprint: 8d11c70568bf8cf8
+    source:
+      modern:
+      - de: Der Wahlkandidat.
+        ja: 立候補者。
+      grc:
+      - ὁ ὑπόψηφος.
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: Der Wahlkandidat.
+        ja_current: 立候補者。
+        ja_proposed: 立候補者。
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations: []
+    textual_issues: []
+    review_comments: []
+    status: unreviewed
+  - id: g-01-016
+    source_locator:
+      file: part-g.yaml
+      section_index: 1
+      conversation_index: 16
+      fingerprint: 0f8fd3bc0302e9a3
+    source:
+      modern:
+      - de: Die Majorität.
+        ja: 多数派。
+      grc:
+      - οἱ πλείονες.
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: Die Majorität.
+        ja_current: 多数派。
+        ja_proposed: 多数派。
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations: []
+    textual_issues: []
+    review_comments: []
+    status: unreviewed
+  - id: g-01-017
+    source_locator:
+      file: part-g.yaml
+      section_index: 1
+      conversation_index: 17
+      fingerprint: 921f980dee06d14a
+    source:
+      modern:
+      - de: Die Minorität.
+        ja: 少数派。
+      grc:
+      - οἱ μείονες.
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: Die Minorität.
+        ja_current: 少数派。
+        ja_proposed: 少数派。
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations: []
+    textual_issues: []
+    review_comments: []
+    status: unreviewed
+  - id: g-01-018
+    source_locator:
+      file: part-g.yaml
+      section_index: 1
+      conversation_index: 18
+      fingerprint: f7acb53b0d0cc944
+    source:
+      modern:
+      - de: Die Präsident.
+        ja: 議長。
+      grc:
+      - ὁ πρόεδρος.
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: Die Präsident.
+        ja_current: 議長。
+        ja_proposed: 議長。
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations: []
+    textual_issues: []
+    review_comments: []
+    status: unreviewed
+  - id: g-01-019
+    source_locator:
+      file: part-g.yaml
+      section_index: 1
+      conversation_index: 19
+      fingerprint: 4325f1914c565589
+    source:
+      modern:
+      - de: Wer hat die meisten (wenigsten) \emph{Stimmen?}
+        ja: だれが最多（最少）の得票を得ましたか？
+      grc:
+      - τίνι πλεῖσται (ἐλάχισται) γεγόνασιν;
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: Wer hat die meisten (wenigsten) \emph{Stimmen?}
+        ja_current: だれが最多（最少）の得票を得ましたか？
+        ja_proposed: だれが最多（最少）の得票を得ましたか？
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations: []
+    textual_issues: []
+    review_comments: []
+    status: unreviewed
+  - id: g-01-020
+    source_locator:
+      file: part-g.yaml
+      section_index: 1
+      conversation_index: 20
+      fingerprint: 7b94e77ec5e2c88e
+    source:
+      modern:
+      - de: Abgeordneter ist, wer die meisten \emph{Stimmen} bekommen hat.
+        ja: 最も多く票を得た者が代議士です。
+      grc:
+      - βουλευτής ἐστιν, ᾧ ἂν πλεῖσται γένωνται.
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: Abgeordneter ist, wer die meisten \emph{Stimmen} bekommen hat.
+        ja_current: 最も多く票を得た者が代議士です。
+        ja_proposed: 最も多く票を得た者が代議士です。
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations: []
+    textual_issues: []
+    review_comments: []
+    status: unreviewed
+  - id: g-01-021
+    source_locator:
+      file: part-g.yaml
+      section_index: 1
+      conversation_index: 21
+      fingerprint: 4623c0ccc2e46b9f
+    source:
+      modern:
+      - de: Ist A.\ gewählt?
+        ja: Aは当選しましたか。
+      grc:
+      - πότερον Ἀ.\ ᾑρέθη;
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: Ist A.\ gewählt?
+        ja_current: Aは当選しましたか。
+        ja_proposed: Aは当選しましたか。
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations: []
+    textual_issues: []
+    review_comments: []
+    status: unreviewed
+  - id: g-01-022
+    source_locator:
+      file: part-g.yaml
+      section_index: 1
+      conversation_index: 22
+      fingerprint: e380bf4d553500dc
+    source:
+      modern:
+      - de: Leider nicht!
+        ja: 残念ながら落選しました。
+      grc:
+      - εἰ γὰρ ὤφερε!
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: Leider nicht!
+        ja_current: 残念ながら落選しました。
+        ja_proposed: 残念ながら落選しました。
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations: []
+    textual_issues: []
+    review_comments: []
+    status: unreviewed
+- id: g-02
+  title:
+    de: Opposition
+    ja: 反対派
+  scene_type: mixed
+  setting:
+    situation: political opponents debate policy and tactics
+  cast:
+  - id: government-supporter
+    description: null
+    evidence: null
+    confidence: candidate
+  - id: opponent
+    description: null
+    evidence: null
+    confidence: candidate
+  - id: observer
+    description: null
+    evidence: null
+    confidence: candidate
+  reconstruction:
+    confidence: unreviewed
+    note: Ordering may combine a continuous exchange with reusable model phrases; turn continuity must
+      be justified entry by entry.
+  entries:
+  - id: g-02-001
+    source_locator:
+      file: part-g.yaml
+      section_index: 2
+      conversation_index: 1
+      fingerprint: 469e914edd705ea5
+    source:
+      modern:
+      - de: Wir brauchen keine neuen \emph{Steuern!}
+        ja: 新しい税金など必要ありません！
+      grc:
+      - οὐ δεόμεθα καινῶν δασμῶν!
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: Wir brauchen keine neuen \emph{Steuern!}
+        ja_current: 新しい税金など必要ありません！
+        ja_proposed: 新しい税金など必要ありません！
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations: []
+    textual_issues: []
+    review_comments: []
+    status: unreviewed
+  - id: g-02-002
+    source_locator:
+      file: part-g.yaml
+      section_index: 2
+      conversation_index: 2
+      fingerprint: 36612a9cecf753de
+    source:
+      modern:
+      - de: Wir \emph{brauchen} keine neuen Steuern!
+        ja: 私たちは本当に新税を要しません！
+      grc:
+      - καινῶν δασμῶν οὐ δεόμεθα!
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: Wir \emph{brauchen} keine neuen Steuern!
+        ja_current: 私たちは本当に新税を要しません！
+        ja_proposed: 私たちは本当に新税を要しません！
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations: []
+    textual_issues: []
+    review_comments: []
+    status: unreviewed
+  - id: g-02-003
+    source_locator:
+      file: part-g.yaml
+      section_index: 2
+      conversation_index: 3
+      fingerprint: a084e291c59d1299
+    source:
+      modern:
+      - de: Das wird uns ruiniren!
+        ja: それでは破滅してしまう！
+      grc:
+      - τοῦθ’ ἡμᾶς ἐπιτρίψει!
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: Das wird uns ruiniren!
+        ja_current: それでは破滅してしまう！
+        ja_proposed: それでは破滅してしまう！
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations: []
+    textual_issues: []
+    review_comments: []
+    status: unreviewed
+  - id: g-02-004
+    source_locator:
+      file: part-g.yaml
+      section_index: 2
+      conversation_index: 4
+      fingerprint: c3d05ab6ddf3fae9
+    source:
+      modern:
+      - de: Ich denke, es giebt einen Mittelweg.
+        ja: 折衷案があると思います。
+      grc:
+      - ἀλλ’ εἶναί τί μοι δοκεῖ μέση τούτων ὁδός.
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: Ich denke, es giebt einen Mittelweg.
+        ja_current: 折衷案があると思います。
+        ja_proposed: 折衷案があると思います。
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations: []
+    textual_issues: []
+    review_comments: []
+    status: unreviewed
+  - id: g-02-005
+    source_locator:
+      file: part-g.yaml
+      section_index: 2
+      conversation_index: 5
+      fingerprint: aa5016af5b7f9f19
+    source:
+      modern:
+      - de: Jetzt ist Schonung der Steuerkraft nöthig!
+        ja: 今は租税負担を抑えるべきです！
+      grc:
+      - νῦν \emph{ἔργον} εὐτελείας!
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: Jetzt ist Schonung der Steuerkraft nöthig!
+        ja_current: 今は租税負担を抑えるべきです！
+        ja_proposed: 今は租税負担を抑えるべきです！
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations: []
+    textual_issues: []
+    review_comments: []
+    status: unreviewed
+  - id: g-02-006
+    source_locator:
+      file: part-g.yaml
+      section_index: 2
+      conversation_index: 6
+      fingerprint: 61bfc2b0754a59ca
+    source:
+      modern:
+      - de: Die Kolonialpolitik bringt keinen Nutzen.
+        ja: 植民政策は利益をもたらしません。
+      grc:
+      - τί \emph{πλέον ἐστὶν} ἔξω ἐποικεῖν;
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: Die Kolonialpolitik bringt keinen Nutzen.
+        ja_current: 植民政策は利益をもたらしません。
+        ja_proposed: 植民政策は利益をもたらしません。
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations: []
+    textual_issues: []
+    review_comments: []
+    status: unreviewed
+  - id: g-02-007
+    source_locator:
+      file: part-g.yaml
+      section_index: 2
+      conversation_index: 7
+      fingerprint: 05c78d9f097d57aa
+    source:
+      modern:
+      - de: Das gefällt mir nicht!
+        ja: それは気に入りません。
+      grc:
+      - τοῦτό μ’ οὐκ ἀρέσκει!
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: Das gefällt mir nicht!
+        ja_current: それは気に入りません。
+        ja_proposed: それは気に入りません。
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations:
+    - target: τοῦτό μ’ οὐκ ἀρέσκει!
+      status: exact-string-located-context-pending
+      match_type: exact
+      reference_as_given: null
+      source:
+        author: Aristophanes
+        work: Thesmophoriazusae
+        passage: '406'
+        local_file: /home/mrty/Documents/Perseus/Classics/Aristophanes/opensource/aristoph.thes_gk.xml
+      text_grc: τοῦτό μ’ οὐκ ἀρέσκει!
+      original_speakers:
+      - Γυνη Α
+      original_speaker_beta: '*gunh\ *a'
+      original_scene: null
+      beta_context: ou tw korinqiw cenw kamnei korh tis euqus adelfos legei to xrwma touto m ouk areskei
+        ths korhs eien gunh tis upobalesqai bouletai aporousa paidwn oude tout estin
+      relationship_to_handbook: The complete handbook string matches after removing accents and normalizing
+        Perseus Beta Code. Dramatic or prose context still needs manual comparison.
+      adaptations: []
+      confidence: candidate
+      research_method: exact normalized token search
+    textual_issues: []
+    review_comments: []
+    status: source-researched
+  - id: g-02-008
+    source_locator:
+      file: part-g.yaml
+      section_index: 2
+      conversation_index: 8
+      fingerprint: 9fe24e832055b09c
+    source:
+      modern:
+      - de: Dahinter steckt etwas!
+        ja: 何か裏があります！
+      grc:
+      - ἔστιν ἐνταῦθά τι κακόν!
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: Dahinter steckt etwas!
+        ja_current: 何か裏があります！
+        ja_proposed: 何か裏があります！
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations:
+    - target: ἔστιν ἐνταῦθά τι κακόν!
+      status: exact-string-located-context-pending
+      match_type: exact
+      reference_as_given: null
+      source:
+        author: Aristophanes
+        work: Ecclesiazusae
+        passage: '532'
+        local_file: /home/mrty/Documents/Perseus/Classics/Aristophanes/opensource/aristoph.eccl_gk.xml
+      text_grc: ἔστιν ἐνταῦθά τι κακόν!
+      original_speakers:
+      - Βλεπυρος
+      original_speaker_beta: '*ble/puros'
+      original_scene: null
+      beta_context: lexous d ou frontisai outws exoushs wner blepuros eipousan ge moi all estin entauqa
+        ti kakon pracagora ma tw qew all wsper eixon wxomhn edeito de hper meqhke
+      relationship_to_handbook: The complete handbook string matches after removing accents and normalizing
+        Perseus Beta Code. Dramatic or prose context still needs manual comparison.
+      adaptations: []
+      confidence: candidate
+      research_method: exact normalized token search
+    textual_issues: []
+    review_comments: []
+    status: source-researched
+  - id: g-02-009
+    source_locator:
+      file: part-g.yaml
+      section_index: 2
+      conversation_index: 9
+      fingerprint: 51df959119d0cd69
+    source:
+      modern:
+      - de: Was hat man davon?
+        ja: それで何の得がありますか。
+      grc:
+      - τί κέρδος;
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: Was hat man davon?
+        ja_current: それで何の得がありますか。
+        ja_proposed: それで何の得がありますか。
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations: []
+    textual_issues: []
+    review_comments: []
+    status: unreviewed
+  - id: g-02-010
+    source_locator:
+      file: part-g.yaml
+      section_index: 2
+      conversation_index: 10
+      fingerprint: e541ec1a8ecc7cb6
+    source:
+      modern:
+      - de: Was werden wir davon haben?
+        ja: 私たちにどんな利益がありますか。
+      grc:
+      - τί κερδανοῦμεν;
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: Was werden wir davon haben?
+        ja_current: 私たちにどんな利益がありますか。
+        ja_proposed: 私たちにどんな利益がありますか。
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations: []
+    textual_issues: []
+    review_comments: []
+    status: unreviewed
+  - id: g-02-011
+    source_locator:
+      file: part-g.yaml
+      section_index: 2
+      conversation_index: 11
+      fingerprint: 2e9530a5c40a2a3a
+    source:
+      modern:
+      - de: Was kann das nützen?
+        ja: 何の役に立つでしょうか。
+      grc:
+      - πῶς ξυνοίσει ταῦτα;
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: Was kann das nützen?
+        ja_current: 何の役に立つでしょうか。
+        ja_proposed: 何の役に立つでしょうか。
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations: []
+    textual_issues: []
+    review_comments: []
+    status: unreviewed
+  - id: g-02-012
+    source_locator:
+      file: part-g.yaml
+      section_index: 2
+      conversation_index: 12
+      fingerprint: 1b365139b9636c97
+    source:
+      modern:
+      - de: Ich weiß schon, wo man hinaus\textcompwordmark{}will!
+        ja: 何を狙っているかもう分かっています。
+      grc:
+      - οἶδα τὸν νοῦν!
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: Ich weiß schon, wo man hinaus\textcompwordmark{}will!
+        ja_current: 何を狙っているかもう分かっています。
+        ja_proposed: 何を狙っているかもう分かっています。
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations:
+    - target: οἶδα τὸν νοῦν!
+      status: exact-string-located-context-pending
+      match_type: exact
+      reference_as_given: null
+      source:
+        author: Aristophanes
+        work: Frogs
+        passage: '580'
+        local_file: /home/mrty/Documents/Perseus/Classics/Aristophanes/opensource/aristoph.frogs_gk.xml
+      text_grc: οἶδα τὸν νοῦν!
+      original_speakers:
+      - Ξανθιας
+      original_speaker_beta: '*canqi/as'
+      original_scene: null
+      beta_context: ekphnieitai tauta proskaloumenos dionusos kakist apoloimhn canqian ei mh filw canqias
+        oid oida ton noun paue paue tou logou ouk an genoimhn hraklhs an dionusos mhdamws w
+      relationship_to_handbook: The complete handbook string matches after removing accents and normalizing
+        Perseus Beta Code. Dramatic or prose context still needs manual comparison.
+      adaptations: []
+      confidence: candidate
+      research_method: exact normalized token search
+    - target: οἶδα τὸν νοῦν!
+      status: exact-string-located-context-pending
+      match_type: exact
+      reference_as_given: null
+      source:
+        author: Aristophanes
+        work: Plutus
+        passage: '1080'
+        local_file: /home/mrty/Documents/Perseus/Classics/Aristophanes/opensource/aristoph.pl_gk.xml
+      text_grc: οἶδα τὸν νοῦν!
+      original_speakers:
+      - Χρεμυλος
+      original_speaker_beta: '*xremu/los'
+      original_scene: null
+      beta_context: epetrey egw poiein nun d apiqi xairwn sullabwn thn meiraka xremulos oid oida ton noun
+        ouket aciois isws einai met auths graus o d epitreywn esti tis
+      relationship_to_handbook: The complete handbook string matches after removing accents and normalizing
+        Perseus Beta Code. Dramatic or prose context still needs manual comparison.
+      adaptations: []
+      confidence: candidate
+      research_method: exact normalized token search
+    textual_issues: []
+    review_comments: []
+    status: source-researched
+  - id: g-02-013
+    source_locator:
+      file: part-g.yaml
+      section_index: 2
+      conversation_index: 13
+      fingerprint: ea2381bdc893e4df
+    source:
+      modern:
+      - de: Fort mit Bis\textcompwordmark{}marck!
+        ja: ビスマルクはもうたくさんだ！
+      grc:
+      - Βίσμαρκ ἐρρέτω!
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: Fort mit Bis\textcompwordmark{}marck!
+        ja_current: ビスマルクはもうたくさんだ！
+        ja_proposed: ビスマルクはもうたくさんだ！
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations: []
+    textual_issues: []
+    review_comments: []
+    status: unreviewed
+  - id: g-02-014
+    source_locator:
+      file: part-g.yaml
+      section_index: 2
+      conversation_index: 14
+      fingerprint: f11cbc39b5f913a9
+    source:
+      modern:
+      - de: Bravo! Bravo!
+        ja: ブラボー！ブラボー！
+      grc:
+      - εὖγε! εὖγε!
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: Bravo! Bravo!
+        ja_current: ブラボー！ブラボー！
+        ja_proposed: ブラボー！ブラボー！
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations: []
+    textual_issues: []
+    review_comments: []
+    status: unreviewed
+  - id: g-02-015
+    source_locator:
+      file: part-g.yaml
+      section_index: 2
+      conversation_index: 15
+      fingerprint: 57881b6c5de215c7
+    source:
+      modern:
+      - de: Wie gut ist es, einen so vortrefflichen Abgeordneten zu haben!
+        ja: こんな立派な代議士がいてありがたいことです！
+      grc:
+      - ὡς ἀγαθὸν τοιοῦτον ἔχειν βουλευτήν!
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: Wie gut ist es, einen so vortrefflichen Abgeordneten zu haben!
+        ja_current: こんな立派な代議士がいてありがたいことです！
+        ja_proposed: こんな立派な代議士がいてありがたいことです！
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations: []
+    textual_issues: []
+    review_comments: []
+    status: unreviewed
+  - id: g-02-016
+    source_locator:
+      file: part-g.yaml
+      section_index: 2
+      conversation_index: 16
+      fingerprint: 20fe5f8d8de8a3fc
+    source:
+      modern:
+      - de: Unsinn!
+        ja: ばかげている！
+      grc:
+      - οὐδὲν λέγεις!
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: Unsinn!
+        ja_current: ばかげている！
+        ja_proposed: ばかげている！
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations: []
+    textual_issues: []
+    review_comments: []
+    status: unreviewed
+  - id: g-02-017
+    source_locator:
+      file: part-g.yaml
+      section_index: 2
+      conversation_index: 17
+      fingerprint: 400f1b216c9bd9de
+    source:
+      modern:
+      - de: Wir hängen diese Tiraden zum Halse heraus!
+        ja: もうこんな長広舌にはうんざりだ！
+      grc:
+      - πάνυ μοι ἤδη ταῦτ’ ἐστὶ χολή.
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: Wir hängen diese Tiraden zum Halse heraus!
+        ja_current: もうこんな長広舌にはうんざりだ！
+        ja_proposed: もうこんな長広舌にはうんざりだ！
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations: []
+    textual_issues: []
+    review_comments: []
+    status: unreviewed
+  - id: g-02-018
+    source_locator:
+      file: part-g.yaml
+      section_index: 2
+      conversation_index: 18
+      fingerprint: 1973e83472c1d48c
+    source:
+      modern:
+      - de: Still!
+        ja: 静かに！
+      grc:
+      - σίγα!
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: Still!
+        ja_current: 静かに！
+        ja_proposed: 静かに！
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations: []
+    textual_issues: []
+    review_comments: []
+    status: unreviewed
+- id: g-03
+  title:
+    de: Zum Schlutz
+    ja: 結びに
+  scene_type: phrase_inventory
+  setting:
+    situation: closing formulas for a political meeting or speech
+  cast:
+  - id: chair-or-speaker
+    description: null
+    evidence: null
+    confidence: candidate
+  - id: audience-member
+    description: null
+    evidence: null
+    confidence: candidate
+  reconstruction:
+    confidence: unreviewed
+    note: Ordering may combine a continuous exchange with reusable model phrases; turn continuity must
+      be justified entry by entry.
+  entries:
+  - id: g-03-001
+    source_locator:
+      file: part-g.yaml
+      section_index: 3
+      conversation_index: 1
+      fingerprint: d93fbf0a18c77489
+    source:
+      modern:
+      - de: Wer wünscht das Wort?
+        ja: 誰か発言を希望しますか。
+      grc:
+      - τίς ἀγορεύειν βούλεται;
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: Wer wünscht das Wort?
+        ja_current: 誰か発言を希望しますか。
+        ja_proposed: 誰か発言を希望しますか。
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations: []
+    textual_issues: []
+    review_comments: []
+    status: unreviewed
+  - id: g-03-002
+    source_locator:
+      file: part-g.yaml
+      section_index: 3
+      conversation_index: 2
+      fingerprint: adeabadcd0638357
+    source:
+      modern:
+      - de: Ich.
+        ja: 私です。
+      grc:
+      - ἐγώ.
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: Ich.
+        ja_current: 私です。
+        ja_proposed: 私です。
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations: []
+    textual_issues: []
+    review_comments: []
+    status: unreviewed
+  - id: g-03-003
+    source_locator:
+      file: part-g.yaml
+      section_index: 3
+      conversation_index: 3
+      fingerprint: 9def588c7045e09d
+    source:
+      modern:
+      - de: Ist noch Jemand, der zu sprechen wünscht?
+        ja: ほかに発言したい人はいますか。
+      grc:
+      - ἔσθ’ ὅστις ἕτερος βούλεται λέγειν;
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: Ist noch Jemand, der zu sprechen wünscht?
+        ja_current: ほかに発言したい人はいますか。
+        ja_proposed: ほかに発言したい人はいますか。
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations: []
+    textual_issues: []
+    review_comments: []
+    status: unreviewed
+  - id: g-03-004
+    source_locator:
+      file: part-g.yaml
+      section_index: 3
+      conversation_index: 4
+      fingerprint: aaf4295deaab672e
+    source:
+      modern:
+      - de: Es wird wohl Niemand dagegen stimmen.
+        ja: 反対票を投じる人はいないでしょう。
+      grc:
+      - οὐ δεὶς ἀντιχειροτονήσειεν ἄν.
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: Es wird wohl Niemand dagegen stimmen.
+        ja_current: 反対票を投じる人はいないでしょう。
+        ja_proposed: 反対票を投じる人はいないでしょう。
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations: []
+    textual_issues: []
+    review_comments: []
+    status: unreviewed
+  - id: g-03-005
+    source_locator:
+      file: part-g.yaml
+      section_index: 3
+      conversation_index: 5
+      fingerprint: 886ed04a794184de
+    source:
+      modern:
+      - de: Ich stimme dagegen.
+        ja: 私は反対に投票します。
+      grc:
+      - ἐγὼ τἀναντία ψηφίζομαι.
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: Ich stimme dagegen.
+        ja_current: 私は反対に投票します。
+        ja_proposed: 私は反対に投票します。
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations: []
+    textual_issues: []
+    review_comments: []
+    status: unreviewed
+  - id: g-03-006
+    source_locator:
+      file: part-g.yaml
+      section_index: 3
+      conversation_index: 6
+      fingerprint: 3c136f7704c08195
+    source:
+      modern:
+      - de: So ist's recht.
+        ja: それで結構。
+      grc:
+      - καλῶς γε ποιῶν.
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: So ist's recht.
+        ja_current: それで結構。
+        ja_proposed: それで結構。
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations:
+    - target: καλῶς γε ποιῶν.
+      status: exact-string-located-context-pending
+      match_type: exact
+      reference_as_given: null
+      source:
+        author: Aristides, Aelius
+        work: aristid.orat_gk
+        passage: '122'
+        local_file: /home/mrty/Documents/Perseus/Classics/Aristides/opensource/aristid.orat_gk.xml
+      text_grc: καλῶς γε ποιῶν.
+      original_speakers: []
+      original_speaker_beta: null
+      original_scene: null
+      beta_context: to hdu tou agaqou xrhnai diwkein ou tauta kukleis anw kai katw kalws ge poiwn w etaire
+        to son dh touto kai talhqh legwn oudeis anterei mexri
+      relationship_to_handbook: The complete handbook string matches after removing accents and normalizing
+        Perseus Beta Code. Dramatic or prose context still needs manual comparison.
+      adaptations: []
+      confidence: candidate
+      research_method: exact normalized token search
+    - target: καλῶς γε ποιῶν.
+      status: exact-string-located-context-pending
+      match_type: exact
+      reference_as_given: null
+      source:
+        author: Aristophanes
+        work: Acharnians
+        passage: '1050'
+        local_file: /home/mrty/Documents/Perseus/Classics/Aristophanes/opensource/aristoph.ach_gk.xml
+      text_grc: καλῶς γε ποιῶν.
+      original_speakers:
+      - Δικαιοπολις
+      original_speaker_beta: '*dikaio/polis'
+      original_scene: null
+      beta_context: outosi paranumfos epemye tis soi numfios tauti krea ek twn gamwn dikaiopolis kalws
+        ge poiwn ostis hn paranumfos ekeleue d egxeai se twn krewn xarin ina mh
+      relationship_to_handbook: The complete handbook string matches after removing accents and normalizing
+        Perseus Beta Code. Dramatic or prose context still needs manual comparison.
+      adaptations: []
+      confidence: candidate
+      research_method: exact normalized token search
+    textual_issues: []
+    review_comments: []
+    status: source-researched
+  - id: g-03-007
+    source_locator:
+      file: part-g.yaml
+      section_index: 3
+      conversation_index: 7
+      fingerprint: ac31ad6f31ea8654
+    source:
+      modern:
+      - de: Thu', was du \emph{denkst!}
+        ja: 思うとおりにしなさい。
+      grc:
+      - ποίει, ὅτι ἄν σοι δοκῇ.
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: Thu', was du \emph{denkst!}
+        ja_current: 思うとおりにしなさい。
+        ja_proposed: 思うとおりにしなさい。
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations: []
+    textual_issues: []
+    review_comments: []
+    status: unreviewed
+  - id: g-03-008
+    source_locator:
+      file: part-g.yaml
+      section_index: 3
+      conversation_index: 8
+      fingerprint: 7a935469e17057e2
+    source:
+      modern:
+      - de: Was ist heute berathen worden?
+        ja: 今日は何が協議されましたか。
+      grc:
+      - τί βεβούλεται τήμερον;
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: Was ist heute berathen worden?
+        ja_current: 今日は何が協議されましたか。
+        ja_proposed: 今日は何が協議されましたか。
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations: []
+    textual_issues: []
+    review_comments: []
+    status: unreviewed
+  - id: g-03-009
+    source_locator:
+      file: part-g.yaml
+      section_index: 3
+      conversation_index: 9
+      fingerprint: 980e66c2ec1f2994
+    source:
+      modern:
+      - de: Was hat man denn beschlossen?
+        ja: では何が決まりましたか。
+      grc:
+      - τί δῆτ’ ἔδοξεν;
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: Was hat man denn beschlossen?
+        ja_current: では何が決まりましたか。
+        ja_proposed: では何が決まりましたか。
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations:
+    - target: τί δῆτ’ ἔδοξεν;
+      status: exact-string-located-context-pending
+      match_type: exact
+      reference_as_given: null
+      source:
+        author: Aristophanes
+        work: Ecclesiazusae
+        passage: '455'
+        local_file: /home/mrty/Documents/Perseus/Classics/Aristophanes/opensource/aristoph.eccl_gk.xml
+      text_grc: τί δῆτ’ ἔδοξεν;
+      original_speakers:
+      - Βλεπυρος
+      original_speaker_beta: '*ble/puros'
+      original_scene: null
+      beta_context: dhmon kataluein alla polla kagaqa etera te pleista tas gunaikas hulogei blepuros ti
+        dht edocen xremhs epitrepein ge thn polin tautais edokei gar touto monon en th
+      relationship_to_handbook: The complete handbook string matches after removing accents and normalizing
+        Perseus Beta Code. Dramatic or prose context still needs manual comparison.
+      adaptations: []
+      confidence: candidate
+      research_method: exact normalized token search
+    textual_issues: []
+    review_comments: []
+    status: source-researched
+  - id: g-03-010
+    source_locator:
+      file: part-g.yaml
+      section_index: 3
+      conversation_index: 10
+      fingerprint: 3dc530802853f1d2
+    source:
+      modern:
+      - de: Noch nichts; es war \emph{Stimmen}gleichheit.
+        ja: まだ何も決まっていません；票が同数でした。
+      grc:
+      - οὐδέν πω· ἶσαι γὰρ ἐγένοντο.
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: Noch nichts; es war \emph{Stimmen}gleichheit.
+        ja_current: まだ何も決まっていません；票が同数でした。
+        ja_proposed: まだ何も決まっていません；票が同数でした。
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations: []
+    textual_issues: []
+    review_comments: []
+    status: unreviewed
+  - id: g-03-011
+    source_locator:
+      file: part-g.yaml
+      section_index: 3
+      conversation_index: 11
+      fingerprint: 7d59a60893b19ae7
+    source:
+      modern:
+      - de: Eine so unsinnige Versammlung habe ich noch nicht erlebt.
+        ja: こんな馬鹿げた会合は初めてです。
+      grc:
+      - τοιοῦτον σύλλογον οὔπω \emph{ὄπωπα.}
+      - ὃ δοκεῖ σοι, ποίει.
+    dialogue:
+      speaker:
+        candidate: null
+        confidence: unassigned
+      addressee:
+        candidate: null
+        confidence: unassigned
+      speech_act: null
+      tone: []
+      responds_to: null
+      followed_by: null
+      alternatives: []
+    grammar:
+      syntax: null
+      literal_gloss: null
+      particles_and_idioms: []
+      pragmatic_force: null
+    translation:
+      variants:
+      - de: Eine so unsinnige Versammlung habe ich noch nicht erlebt.
+        ja_current: こんな馬鹿げた会合は初めてです。
+        ja_proposed: こんな馬鹿げた会合は初めてです。
+        decision: pending-review
+        rationale: null
+        alternatives: []
+      register: null
+      scene_dependency: null
+    attestations: []
+    textual_issues: []
+    review_comments: []
+    status: unreviewed
