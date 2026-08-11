@@ -137,6 +137,7 @@ sympy-plots-for-*.tex/
 
 # Temporary files
 part-*.tex
+!part-h-appendix.tex
 lexicon.tex
 
 .pdf-view-restore
@@ -148,3 +149,6 @@ lexicon.tex
 
 /auto
 /result
+
+# Python review tooling
+__pycache__/

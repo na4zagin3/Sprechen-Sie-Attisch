@@ -8,22 +8,22 @@ sections:
     conversations:
       - modern:
         - de: Wollen wir nicht ein Spielchen machen?
-          ja: 一局やりませんか。
+          ja: 一局やりませんか？
         grc:
           - βούλεσθε παιδιὰν παίζωμεν;
       - modern:
         - de: Meinetwegen.
-          ja: いいですよ。
+          ja: かまいませんよ。
         grc:
           - \emph{οὐδὲν κωλύει.}
       - modern:
         - de: Was wollen wir spielen?
-          ja: 何をしましょうか。
+          ja: 何をやりましょうか？
         grc:
           - παιδιὰν τίνα;
       - modern:
         - de: Einen Skat wollen wir machen.
-          ja: スカートをやりましょう。
+          ja: スカートを一局やりましょう。
         grc:
           - (σκατιούμεθα).
       - modern:
@@ -33,22 +33,22 @@ sections:
           - τίς ὁ διαδώσων;
       - modern:
         - de: Ich frage.
-          ja: 私が声をかけます。
+          ja: 私から競りましょう。
         grc:
           - ἐμὸν τὸ ἐρωτᾶν.
       - modern:
         - de: Eichel, Grün, Roth, Schellen.
-          ja: どんぐり、葉、赤（ハート）、鈴だ。
+          ja: アイヒェル（団栗）、グリューン（葉）、ロート（赤）、シェレン（鈴）。
         grc:
           - τὰ βαλάνια, τὰ φυλλεῖα, τὰ ἐρυθρά, τά κρόταλα.
       - modern:
         - de: Eichel sticht.
-          ja: どんぐりが切り札だ。
+          ja: アイヒェルが切り札だ。
         grc:
           - κρατεῖ τὰ βαλάνια.
       - modern:
         - de: Geben Sie Grün zu!
-          ja: 葉の札を出してください！
+          ja: グリューンを出してください！
         grc:
           - ἀπόδος φυλλεῖα!
       - modern:
@@ -58,54 +58,54 @@ sections:
           - ἐγώ;
       - modern:
         - de: Freilich (Sie)!
-          ja: もちろん、あなたです！
+          ja: そう、あなたですよ！
         grc:
           - σὺ μέντοι!
       - modern:
         - de: Was habe ich davon?
-          ja: それで私は何の得がありますか。
+          ja: それで、私に何の得があるのです？
         grc:
           - τί κερδανῶ;
       - modern:
         - de: Was ich für ein Pech habe!
-          ja: なんてついてないんだ！
+          ja: なんという不運だ！
         grc:
           - ὡς δυστυκής εἰμι!
       - modern:
         - de: Nur nicht ängstlich!
-          ja: おどおどするな！
+          ja: そう心配するな！
         grc:
           - μὴ δέδιθι!
       - modern:
         - de: Sehen Sie sich vor, daß Ihnen der rothe Wenzel nicht entgeht!
-          ja: 赤のヴェンツェルを取り逃がさないよう気をつけて！
+          ja: ロートのヴェンツェルを取り逃がさぬよう、気をつけてください！
         grc:
           - εὐλαβοῦ, μὴ ἐκφύγῃ σε τῶν ἐρυθρῶν ὁ κράτιστος!
       - modern:
         - de: "Jetzt ist's an Ihnen, zu sehen, wie wir gewinnen!"
-          ja: さあ、どうやって勝つか考えるのはあなたの役目です！
+          ja: 今度はあなたが、どうすれば勝てるか考える番です！
         grc:
           - σὸν \emph{ἔργον} φροντίζειν, ὅπως κρατήσομεν.
       - modern:
         - de: Jetzt gilt es!
-          ja: 今が勝負どころです！
+          ja: 今こそ勝負どころだ！
         grc:
           - νῶν ὁ καιρός!
       - modern:
         - de: Jetzt haben wir ihn!
-          ja: これで押さえたぞ！
+          ja: よし、これで取ったぞ！
         grc:
           - νῶν ἔχεται μέσος!
       - modern:
         - de: "Hau' ihm, Lucas!"
-          ja: やっちまえ、ルーカス！
+          ja: やれ、ルーカス！
         grc:
           - παῖε, παῖε τὸν πανοῦργον!
       - modern:
         - de: |-
             Das soll Ihnen schlecht bekommen, daß Sie das rothe Daus gestochen
             haben!
-          ja: 赤のダウスを取ったのだから、ただではすみませんよ！
+          ja: ロートのダウスを切り札で取った報いは、きっと受けてもらいますよ！
         grc:
           - οὔ τοι μὰ Δία χαιρήσεις, ὁτιὴ τοῦτ’ ἔδρασας.!
       - modern:
@@ -115,12 +115,12 @@ sections:
           - οἴμοι, διαρραγήσομαι!
       - modern:
         - de: Ich weiß schon, wie Sie es machen.
-          ja: あなたの手口は分かっています。
+          ja: あなたの手口は、もうわかっています。
         grc:
           - τοὺς τρόπους σου ἐπίσταμαι.
       - modern:
         - de: Feine Nase!
-          ja: 見事な差し方だ！
+          ja: 見事な読みだ！
         grc:
           - εὖ γε ξυνέβαλες!
       - modern:
@@ -130,17 +130,17 @@ sections:
           - ἐθαύμασας;!
       - modern:
         - de: Darin bin ich Meister.
-          ja: それはお手のものだ。
+          ja: それなら私の得意とするところだ。
         grc:
           - ταύτεῃ κράτιστός εἰμι.
       - modern:
         - de: Sie spielen falsch!
-          ja: 反則をしていますね！
+          ja: イカサマをしていますね！
         grc:
           - ἀδικεῖς!
       - modern:
         - de: Du hast die Mogelei nicht bemerkt.
-          ja: ごまかしに気づかなかったろう。
+          ja: イカサマに気づかなかったろう。
         grc:
           - τὸ πραττόμενόν σε λέληθεν.
       - modern:
@@ -150,118 +150,118 @@ sections:
           - τί λέγεις;
       - modern:
         - de: Ent\textcompwordmark{}schuldigen Sie!
-          ja: 失礼！
+          ja: どうかご容赦を！
         grc:
           - σύγγνωθί μοι!
       - modern:
         - de: Kellner, zünden Sie Licht an!
-          ja: ウェイター、灯りをつけて！
+          ja: 給仕さん、灯りをつけてください！
         grc:
           - ἅπτε, παῖ, λύχνον!
       - modern:
         - de: Was fällt Ihnen denn ein, daß Sie die Zehn aus\textcompwordmark{}spielen?
-          ja: どうして十を切ったんですか。
+          ja: 十を出すとは、一体何を考えているのです？
         grc:
           - τί δὴ μαθὼν τοῦτο ποιεῖς;
       - modern:
         - de: Die Noth zwingt mich dazu.
-          ja: それしか手がなかったんです。
+          ja: ほかに打つ手がないのです。
         grc:
           - ἡ ἀνάγκη με πιέζει.
       - modern:
         - de: Verwünscht! was soll ich thun?
-          ja: ちくしょう、どうしたらいい？
+          ja: ちくしょう、どうすればよいのだ。
         grc:
           - οἴ μοι, τί δράςω;
       - modern:
         - de: Geben Sie mir einen guten Rath!
-          ja: いい助言をください！
+          ja: 何かよい知恵を貸してください！
         grc:
           - χρηστόν τι συμβούλευσον.
       - modern:
         - de: "Er will's gewinnen."
-          ja: 彼はそれを取りに行くつもりだ。
+          ja: 彼は勝つつもりだ。
         grc:
           - ἐθέλει οὗτος κρατῆσαι.
       - modern:
         - de: Geben Sie sich keine vergebliche Mühe!
-          ja: むだな努力はやめなさい！
+          ja: 無駄な骨折りは、およしなさい！
         grc:
           - λίθον ἕψεις!
       - modern:
         - de: Hilf Himmel!
-          ja: 天よ助けて！
+          ja: 天よ、お助けを！
         grc:
           - Ἄπολλον ἀποτρόπαιε!
       - modern:
         - de: "O weh! Jetzt geht's uns (zweien) schlecht!"
-          ja: うわぁ、これで俺たち二人はまずいぞ！
+          ja: ああ、これでわれわれ二人ともおしまいだ！
         grc:
           - ἒ ἔ, παρὰ νῷν στενάζειν!
       - modern:
         - de: Gerade das will ich ja!
-          ja: それこそ望むところだ。
+          ja: それこそ、こちらの望むところだ！
         grc:
           - τοῦτ’ αὐτὸ γὰρ καὶ βούλομαι!
       - modern:
         - de: Zähle einmal!
-          ja: 点を数えてみて！
+          ja: さあ、点を数えてみて！
         grc:
           - λόγισαι!
       - modern:
         - de: Wir haben verspielt!
-          ja: 私たちは負けてしまった！
+          ja: われわれの負けだ！
         grc:
           - \emph{ἀπολώλαμεν} ἡμεῖς.
       - modern:
         - de: Bitte, bezahlen Sie!
-          ja: お支払いください！
+          ja: どうぞ、お支払いください！
         grc:
           - ἀπότισον \emph{δῆτα!}
       - modern:
         - de: Mein Geld ist futsch!
-          ja: 私の金が消えた！
+          ja: 私の金が消えてしまった！
         grc:
           - φροῦδα τὰ χρήματα!
       - modern:
         - de: Es steht schlecht mit mir.
-          ja: 私の状況はひどいです。
+          ja: こちらは、どうも分が悪い。
         grc:
           - φαῦλόν ἐστι τὸ ἐμὸν πρᾶγμα.
       - modern:
         - de: Wir machen miserable Geschäfte.
-          ja: 私たちはひどい結果でした。
+          ja: われわれは散々な結果に終わった。
         grc:
           - ἀθλίως πεπράγαμεν.
   - title:
       de: Ein Grand
-      ja: グランドの一局
+      ja: グランの一局
     conversations:
       - modern:
         - de: (Ein Grand.)
-          ja: （グランドのゲーム。）
+          ja: （グラン。）
         grc:
           - (τὸ παμμέγιστον.)
       - modern:
         - de: A. Wer giebt denn?
-          ja: さて誰が札を配る？
+          ja: A. ところで、誰が札を配るんだ。
         grc:
           - τίς ὁ διαδώσων;
       - modern:
         - de: B. Du selbst.
-          ja: お前だよ。
+          ja: B. 君だよ。
         grc:
           - αὐτὸς σύ.
       - modern:
         - de: C. Immer, wer fragt.
-          ja: いつだって、言い出した人間が配るんだ。
+          ja: C. いつだって、訊いた本人だ。
         grc:
           - ὁ ἀεὶ ἐρωτήσας.
       - modern:
         - de: |-
             B. Nun gieb mir aber einmal anständige Karten; ich habe den ganzen
             Abend noch kein Spiel gehabt!
-          ja: B. じゃあ今度こそまともな札をくれよ。今夜は一度もまともな手がなかったんだ！
+          ja: B. では今度こそ、まともな札を配ってくれよ。今夜はまだ一度も勝負になる手が来ていないんだ！
         grc:
           - |-
             δός τι δῆτ’ ἐμοὶ· οὐδὲν γὰρ πώποτ’ ἔλαβον ἔγωγε τῇδε τῇ\footnote{\textgreek{%
@@ -269,7 +269,7 @@ sections:
             } ἑσπέρᾳ!
       - modern:
         - de: C. Ich frage. Grün Solo!
-          ja: C. 俺が入札する。グリューンのソロだ！
+          ja: C. 私から競るぞ。グリューン・ソロ！
         grc:
           - |-
             ἐμὸν τὸ ἐρωτᾶν. τὰ φυλλεῖα αὐτὰ\footnote{\textgreek{τὸ ῥῆμα οὐ δύναμαι διαγνῶναι.}%
@@ -281,7 +281,7 @@ sections:
           - ἔχω ἔγωγε!
       - modern:
         - de: C. Null?
-          ja: C. ヌルはどうだ？
+          ja: C. ヌルは？
         grc:
           - τὸ μηδέν;
       - modern:
@@ -296,22 +296,22 @@ sections:
           - παραχωρῶ ἔγωγε.
       - modern:
         - de: A. Ich auch.
-          ja: A. 俺もパスだ。
+          ja: A. 私もパスだ。
         grc:
           - κἀγώ.
       - modern:
         - de: B. Grand.
-          ja: B. グランドで行く。
+          ja: B. グラン。
         grc:
           - τὸ παμμέγιστον.
       - modern:
         - de: "B. Ich spiele selbst aus. Hier! Wenzel 'raus!"
-          ja: B. 親は俺だ。さあ、ヴェンツェルを出すぞ！
+          ja: B. 私が最初の札を出すぞ。ほら、ヴェンツェルを出せ！
         grc:
           - ἐμὸν τὸ ἐξάρχειν. ἰδού. ἀπόδοτε δὴ τοὺς κρατίστους!
       - modern:
         - de: C. Ja, den kann ich nicht!
-          ja: C. その札には合わせられない！
+          ja: C. そいつには勝てない！
         grc:
           - οὐ δυνατὸς ἐγὼ μὰ Δία ὑπὲρ τοῦτον.
       - modern:
@@ -321,12 +321,12 @@ sections:
           - τί φής;
       - modern:
         - de: B. Hurrah! Der Alte liegt im Skat! Hier!
-          ja: B. やった！長老札（オーバーのジャック）がスカートにあったぞ！ほら！
+          ja: B. やった！　アルテ――最強のアイヒェル・ヴェンツェル――は、スカートに入っているぞ！　ほら！
         grc:
           - βαβαιάξ! ἀπόκειται ὁ παγκράτιστος! ἰδού
       - modern:
         - de: C. Himmeldonnerwetter!
-          ja: C. ちくしょうめ！
+          ja: C. ちくしょう！
         grc:
           - ἐς κόρακας!
       - modern:
@@ -336,68 +336,68 @@ sections:
           - Ἄπολλον ἀποτρόπαιε!
       - modern:
         - de: "C. Ih, da soll doch der Deiwel 'reinfahren!"
-          ja: C. くそ、悪魔でも持っていけ！
+          ja: C. くそっ、悪魔にでも持っていかれろ！
         grc:
           - οἴμοι κακοδαίμων!
       - modern:
         - de: A. Heiliges Gewitter! Hast du denn gar nichts?
-          ja: A. 何てこった！お前、本当に何も持ってないのか？
+          ja: A. なんたることだ！　君は本当に何も持っていないのか？
         grc:
           - |-
             ὦ Ζεῦ βασιλεῦ! οὐκ ἄρ’ ἔχεις\footnote{\textgreek{τὸ ῥῆμα οὐ δύναμαι διαγνῶναι.}%
             } οὐδέν;
       - modern:
         - de: "C. Dieser ist unser! 'rin, was Beine hat!"
-          ja: C. これは俺たちの取り分だ！動ける札は全部突っ込め！
+          ja: C. これはこちらが取った！　点になる札はみな放り込め！
         grc:
           - ἀλλὰ τοῦτό γε γίγνεται ἥμῖν. νῦν ὁ καιρὸς ἐπιδοῦναι!
       - modern:
         - de: B. Halt! Gesprochen wird nicht beim Spiel!
-          ja: B. やめろ！プレイ中はしゃべらない！
+          ja: B. 待て！　勝負の最中に口をきくな！
         grc:
           - μὴ δῆτα — οὐ γὰρ ἔστι λαλεῖν τῷ παίζοντι!
       - modern:
         - de: C. So, das ist auch unser!
-          ja: C. よし、これもこっちのものだ！
+          ja: C. よし、これも取った！
         grc:
           - ἰδοὺ καὶ τοῦτο ἡμῖν!
       - modern:
         - de: Gottlob! Aus dem Schneider wären wir!
-          ja: やれやれ、シュナイダーは免れたぞ！
+          ja: 助かった！　これでシュナイダーは免れた！
         grc:
           - τὸ μέσον καλῶς τετμήκαμεν!
       - modern:
         - de: A. Oh, wir kriegen noch viel mehr!
-          ja: A. まだまだもっと取れるさ！
+          ja: A. いや、まだまだ取れるぞ！
         grc:
           - ἕξομεν ἔτι πολλῷ πλέον, ὦ τάν.
       - modern:
         - de: B. Keinen Stich! Der Rest ist mein!
-          ja: B. もう一つも取らせない。残りは全部私のものだ！
+          ja: B. もう一度も取らせん！　残りは全部、私のものだ！
         grc:
           - οὐκ ἄλλ’ οὐδὲ ἕν. ἐμὰ γὰρ τὰ λοιπά!
       - modern:
         - de: A. u. C. Oho! — Wahrhaftig!
-          ja: A・C. なんだと！——本当に？
+          ja: A・C. ほう！――本当かよ！
         grc:
           - οὐδὲν λέγεις! — μὰ τὸν Δί’ οὐ τοίνυν!
       - modern:
         - de: |-
             A. Ja wie konntest du aber auch \emph{die} Farbe spielen? Wir mußten
             ja dicke gewinnen!
-          ja: A. どうしてそこでそのスートを出したんだ？ こっちは大勝ちできたはずなのに！
+          ja: A. しかし、どうしてよりによって\emph{あの組}を出したんだ。こちらは大勝できたはずなのに！
         grc:
           - πῶς ἄρ’ οὖν ἐπὶ ταῦτα ἦλθες; ἐμέλλομεν γάρ τοι σφοδρῶς ὑπερέχειν!
       - modern:
         - de: Ich sitze hier mit der ganzen Grün.
-          ja: こっちは葉の札を全部抱えてるんだ。
+          ja: こちらはグリューンを全部抱えていたんだぞ。
         grc:
           - ἐγὼ δὲ κάθημαι οὕτω πάντα τὰ φυλλεῖα ἔχων.
       - modern:
         - de: |-
             C. So? Warum stichst du denn nicht? Ich habe ganz richtig aus\textcompwordmark{}gespielt.
             — du bist schuld!
-          ja: C. そうか？ じゃあなぜ切らなかった？ 俺は正しくリードしたぞ。——お前のせいだ！
+          ja: C. そうか？　では、なぜ切り札を出さなかったんだ。私は正しく最初の札を出したぞ。――君のせいだ！
         grc:
           - |-
             ἄληθες; τί δὴ παθὴν οὐχ ὑπερέβαλες\footnote{\textlatin{%
@@ -405,6 +405,6 @@ sections:
             } σύ; εὖ γὰρ ἐμοίησα ἔγωγε. — σὺ δὲ τούτου αἴτιος!
       - modern:
         - de: B. Das war Grand mit Vieren! Sechzig. Wer giebt?
-          ja: B. 今のはグランド・ミット・フィーアレンで六十点だ。次は誰が配る？
+          ja: B. 今のは四枚持ちのグラン。六十点だ。次は誰が配る？
         grc:
           - παμμέγιστον τοῦτ’ ἦν μετὰ τεσσάρων! ἑξήκοντα. τίς ὁ διαδώσων;

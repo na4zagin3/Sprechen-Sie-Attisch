@@ -14,6 +14,7 @@ meta:
     - Distinguish the German prompt from the literal and pragmatic force of the Greek.
     - Check historical German meanings and idioms independently; record rather than conceal German-Greek mismatches.
     - Preserve nineteenth-century objects, institutions, and social conventions where relevant.
+    - Reproduce emphasis in Japanese only when the corresponding German text is emphasized; Greek-only emphasis is not carried into ja_proposed.
     - Do not add politeness, intimacy, gender, or aggression without contextual evidence.
     - Use Japanese punctuation and sentence endings to make turn-taking natural.
   corpus_roots:
@@ -465,9 +466,9 @@ scenes:
       variants:
       - de: Der reine Menschenfeind (Timon)!
         ja_current: まったくの人嫌いだ（ティモンだ）！
-        ja_proposed: 正真正銘のティモンだ！
+        ja_proposed: 正真正銘の人間嫌い（ティモン）だ！
         decision: revise
-        rationale: null
+        rationale: The parenthesis keeps German Menschenfeind available to a reader who does not recognize Timon, while 「正真正銘」 conveys rein and καθαρός idiomatically.
         alternatives: []
       register: null
       scene_dependency: null
@@ -964,7 +965,7 @@ scenes:
       variants:
       - de: Durch Schaden wird man klug!
         ja_current: 痛い目を見て人は賢くなる！
-        ja_proposed: 損をしてこそ知恵がつく！
+        ja_proposed: 痛い目を見て、人は賢くなる！
         decision: revise
         rationale: >
           The current Japanese naturally renders the German proverb. The Greek is sharper: it explicitly
@@ -1340,11 +1341,24 @@ scenes:
         ja_current: 骨折り損だ。
         ja_proposed: 所詮は無駄骨だ。
         decision: revise
-        rationale: null
+        rationale: German directly states that the effort is futile; Greek uses the proverbial image “you will boil a stone.” 「所詮は無駄骨」 gives the shared conclusion in restrained idiomatic Japanese.
         alternatives: []
       register: null
       scene_dependency: null
-    attestations: []
+    attestations:
+    - language: grc
+      target: λίθον ἕψεις.
+      match_type: exact
+      source:
+        author: Aristophanes
+        work: Wasps
+        passage: '280'
+        local_file: /home/mrty/Documents/Resources/canonical-greekLit/data/tlg0019/tlg004/tlg0019.tlg004.perseus-grc2.xml
+      text: λίθον ἕψεις, ἔλεγεν.
+      context: The chorus recalls the old man's proverbial refusal to be persuaded by supplicants.
+      relationship_to_handbook: The proverbial phrase is exact apart from accent and punctuation and carries the same judgment of futile effort.
+      confidence: high
+      research_method: Exact Unicode corpus search followed by inspection of Wasps 273–280.
     textual_issues: []
     review_comments: []
     status: ja-proposed

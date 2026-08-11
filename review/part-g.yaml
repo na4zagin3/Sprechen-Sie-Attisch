@@ -14,6 +14,7 @@ meta:
     - Distinguish the German prompt from the literal and pragmatic force of the Greek.
     - Check historical German meanings and idioms independently; record rather than conceal German-Greek mismatches.
     - Preserve nineteenth-century objects, institutions, and social conventions where relevant.
+    - Reproduce emphasis in Japanese only when the corresponding German text is emphasized; Greek-only emphasis is not carried into ja_proposed.
     - Do not add politeness, intimacy, gender, or aggression without contextual evidence.
     - Use Japanese punctuation and sentence endings to make turn-taking natural.
   corpus_roots:
@@ -77,6 +78,14 @@ scenes:
     description: standalone political vocabulary
   - entries: [g-01-019, g-01-020, g-01-021, g-01-022]
     description: election and vote-count formulas
+  review_comments:
+  - >-
+    The opening exchange is best read as associate (001, 003, 005, 007) alternating with organizer
+    (002, 004, 006, 008). The repeated German Sie establishes reciprocal polite address, without by
+    itself establishing age, rank, or gender.
+  - >-
+    Entries 009-018 are equivalence labels for nineteenth-century political institutions. Their
+    Greek often supplies a functional ancient analogue rather than a historically exact equivalent.
   entries:
   - id: g-01-001
     source_locator:
@@ -111,13 +120,28 @@ scenes:
       variants:
       - de: Eugen ist da?
         ja_current: オイゲンは来ていますか？
-        ja_proposed: オイゲンは来ているのですか。
+        ja_proposed: オイゲンが来ているのですか？
         decision: revise
-        rationale: null
+        rationale: >-
+          The nominative subject is new, surprising information, so 「が」 is more natural than a topic
+          marker. German da and perfect ἐπιδεδήμεκεν ask whether Eugen has arrived and is now in town;
+          Japanese 「来ている」 preserves that resultant state.
         alternatives: []
       register: null
       scene_dependency: null
-    attestations: []
+    attestations:
+    - language: grc
+      target: ὁ Εὐγενὴς ἐπιδεδήμεκεν;
+      match_type: adapted
+      author: Plato
+      work: Protagoras
+      passage: 309c
+      local_file: /home/mrty/Documents/Resources/canonical-greekLit/data/tlg0059/tlg022/tlg0059.tlg022.perseus-grc2.xml
+      text: ὢ τί λέγεις; Πρωταγόρας ἐπιδεδήμηκεν;
+      context: A companion reacts with surprise on hearing that Socrates has just left Protagoras.
+      relationship_to_handbook: The personal name is replaced; the verb and interrogative arrival-in-town formula are exact apart from accent normalization.
+      confidence: high
+      research_method: Exact corpus search for the normalized verb form ἐπιδεδήμηκεν.
     textual_issues: []
     review_comments: []
     status: ja-proposed
@@ -154,13 +178,28 @@ scenes:
       variants:
       - de: Schon seit vorgestern.
         ja_current: おとといからもう来ています。
-        ja_proposed: もう一昨日から来ていますよ。
+        ja_proposed: ええ、一昨日からもう。
         decision: revise
-        rationale: null
+        rationale: >-
+          German is an elliptical answer, and Greek literally says “already for a third day.” In the
+          reconstructed exchange the verb is recoverable from 001, so the Japanese should retain the
+          concise responsive shape instead of repeating 「来ています」.
         alternatives: []
       register: null
       scene_dependency: null
-    attestations: []
+    attestations:
+    - language: grc
+      target: τρίτην ἤδη ἡμέραν
+      match_type: syntactic-parallel
+      author: Philostratus
+      work: Lives of the Sophists
+      passage: 2.9.2
+      local_file: /home/mrty/Documents/Resources/canonical-greekLit/data/tlg0638/tlg003/tlg0638.tlg003.perseus-grc2.xml
+      text: ἐπεδήμει μὲν ὁ αὐτοκράτωρ ἤδη τῇ Σμύρνῃ τρίτην ἡμέραν
+      context: The emperor had already been staying at Smyrna for a third day.
+      relationship_to_handbook: Attests the accusative duration phrase with ἤδη and τρίτην ἡμέραν, but with an explicit imperfect verb and different word order.
+      confidence: high
+      research_method: Corpus search for τρίτην and ἡμέραν, followed by contextual inspection.
     textual_issues: []
     review_comments: []
     status: ja-proposed
@@ -197,13 +236,23 @@ scenes:
       variants:
       - de: Er wird doch wohl eine Rede halten?
         ja_current: 彼は演説をするのでしょう？
-        ja_proposed: もちろん、演説するのでしょうね。
+        ja_proposed: では、演説をするのでしょうね？
         decision: revise
-        rationale: null
+        rationale: >-
+          German doch wohl and Greek οὐκοῦν solicit expected confirmation; 「もちろん」 would answer
+          the question before the organizer does. 「では……のでしょうね」 naturally draws the expected
+          inference from Eugen's presence.
         alternatives: []
       register: null
       scene_dependency: null
-    attestations: []
+    attestations:
+    - language: grc
+      target: οὐκοῦν δημηγορήσει;
+      match_type: not-found
+      searched: canonical-greekLit exact normalized phrase and lemma-fragment searches
+      result: The complete question was not found; δημηγορέω is attested, but this precise future question remains unverified.
+      confidence: medium
+      research_method: Exact phrase search followed by a δημηγορ- lemma-fragment search.
     textual_issues: []
     review_comments: []
     status: ja-proposed
@@ -242,11 +291,20 @@ scenes:
         ja_current: もちろんです。今晩に。
         ja_proposed: もちろんです！　今晩ですよ。
         decision: revise
-        rationale: null
+        rationale: >-
+          Versteht sich and εὖ ἴσθ’ ὅτι both give emphatic assurance. The temporal fragment supplies
+          the answer to the implicit question “when?”; 「今晩ですよ」 is natural and independently clear.
         alternatives: []
       register: null
       scene_dependency: null
-    attestations: []
+    attestations:
+    - language: grc
+      target: εὖ ἴσθ’ ὅτι εἰς ἑσπέραν
+      match_type: not-found
+      searched: canonical-greekLit exact and proximity searches
+      result: No occurrence of the whole assurance-plus-time formula was found.
+      confidence: medium
+      research_method: Regex proximity search for εὖ ἴσθ and εἰς ἑσπέραν.
     textual_issues: []
     review_comments: []
     status: ja-proposed
@@ -283,13 +341,28 @@ scenes:
       variants:
       - de: Worüber? Über alles Mögliche.
         ja_current: 何について？あらゆることについてです。
-        ja_proposed: 何について？――ありとあらゆる問題についてです。
+        ja_proposed: 何についてですか？――ありとあらゆる問題についてです。
         decision: revise
-        rationale: null
+        rationale: >-
+          alles Mögliche idiomatically means all sorts of things, while Greek strengthens this to
+          “all matters.” 「ありとあらゆる問題」 mediates between them and suits a political speech;
+          polite 「ですか」 maintains the opening exchange's reciprocal Sie register.
         alternatives: []
       register: null
       scene_dependency: null
-    attestations: []
+    attestations:
+    - language: grc
+      target: περὶ τοῦ; περὶ ἁπάντων πραγμάτων.
+      match_type: adapted
+      author: Aristophanes
+      work: Ecclesiazusae
+      passage: 1006
+      local_file: /home/mrty/Documents/Resources/canonical-greekLit/data/tlg0019/tlg002/tlg0019.tlg002.perseus-grc2.xml
+      text: περὶ σοῦ, περὶ ἐμοῦ, περὶ ἁπάντων πραγμάτων.
+      context: A young man sings that his concern is about her, himself, and everything in the world.
+      relationship_to_handbook: The final phrase is exact; the handbook replaces the preceding comic list with a question-and-answer frame.
+      confidence: high
+      research_method: Exact corpus search for περὶ ἁπάντων πραγμάτων and contextual inspection.
     textual_issues: []
     review_comments: []
     status: ja-proposed
@@ -326,13 +399,23 @@ scenes:
       variants:
       - de: Ich will Sie mit in die Versammlung nehmen.
         ja_current: 会合にご一緒しましょう。
-        ja_proposed: 集会へ一緒にお連れしましょう。
+        ja_proposed: 集会へご一緒しましょう。
         decision: revise
-        rationale: null
+        rationale: >-
+          German mitnehmen and Greek ἄξω σε μετ’ ἐμαυτοῦ literally make the organizer the guide, but
+          Japanese 「お連れしましょう」 can imply a social hierarchy not established here. The natural
+          reciprocal invitation 「ご一緒しましょう」 preserves the practical speech act.
         alternatives: []
       register: null
       scene_dependency: null
-    attestations: []
+    attestations:
+    - language: grc
+      target: ἄξω σε μετ’ ἐμαυτοῦ εἰς τὸν σύλλογον
+      match_type: not-found
+      searched: canonical-greekLit exact and phrase-fragment searches
+      result: No suitable occurrence of the complete “I will take you with me” formula was found.
+      confidence: medium
+      research_method: Searches for ἄξω σε μετ and the destination phrase.
     textual_issues: []
     review_comments: []
     status: ja-proposed
@@ -369,13 +452,23 @@ scenes:
       variants:
       - de: Ich danke, ich weiß den Weg.
         ja_current: ありがとう、道は知っています。
-        ja_proposed: お気遣いなく。道はわかっています。
+        ja_proposed: ありがとうございます。でも、道はわかっています。
         decision: revise
-        rationale: null
+        rationale: >-
+          German Ich danke is a courteous refusal, while Greek καλῶς is closer to “very well”; Greek
+          ἀλλά explicitly marks the turn to the reason for declining. The Japanese keeps the German
+          thanks and the Greek/German contrast without adding 「お気遣い」.
         alternatives: []
       register: null
       scene_dependency: null
-    attestations: []
+    attestations:
+    - language: grc
+      target: καλῶς· ἀλλ’ οἶδα τὴν ὁδόν
+      match_type: not-found
+      searched: canonical-greekLit exact and normalized phrase searches
+      result: The complete courteous-refusal formula was not found; this does not imply that the common lemma οἶδα is unattested.
+      confidence: medium
+      research_method: Exact search for οἶδα τὴν ὁδόν and the surrounding particles.
     textual_issues: []
     review_comments: []
     status: ja-proposed
@@ -416,13 +509,28 @@ scenes:
 
           Sie noch ein paar Andere mit!'
         ja_current: ではあなたもぜひ来て、ほかの人も何人か連れてきてください。
-        ja_proposed: では、あなたも必ず来て、ほかの人も何人か連れてきてください！
+        ja_proposed: では、\emph{あなたも}必ず来て、ほかの方を二、三人連れてきてください！
         decision: revise
-        rationale: null
+        rationale: >-
+          German emphasizes auch, hence Japanese emphasizes only 「あなたも」; Greek instead emphasizes
+          the future verb ἄξεις, which is deliberately not carried into Japanese. ein paar is naturally
+          「二、三人」, and 「ほかの方」 fits the reciprocal polite register.
         alternatives: []
       register: null
       scene_dependency: null
-    attestations: []
+    attestations:
+    - language: grc
+      target: ἀλλ’ ὅπως παρέσει καὶ αὐτὸς καὶ ἄλλους ἄξεις
+      match_type: adapted
+      author: Aristophanes
+      work: Thesmophoriazusae
+      passage: 131
+      local_file: /home/mrty/Documents/Resources/canonical-greekLit/data/tlg0019/tlg006/tlg0019.tlg006.perseus-grc2.xml
+      text: ὅπως παρέσει μοι καὶ σὺ καὶ τὰ παιδία
+      context: Agathon orders that the addressee and the girls be present with him.
+      relationship_to_handbook: Attests the ὅπως plus future imperative-like command and καὶ σύ; the handbook changes pronouns, adds bringing other people, and combines a second future verb.
+      confidence: high
+      research_method: Exact corpus search for ὅπως παρέσει followed by contextual inspection.
     textual_issues: []
     review_comments: []
     status: ja-proposed
@@ -721,13 +829,22 @@ scenes:
       variants:
       - de: Der Wahlkandidat.
         ja_current: 立候補者。
-        ja_proposed: 選挙候補者。
-        decision: revise
-        rationale: null
+        ja_proposed: 立候補者。
+        decision: retain
+        rationale: >-
+          「立候補者」 is the established and most natural Japanese political term. 「選挙候補者」
+          is needlessly explanatory; Greek ὑπόψηφος is only a functional ancient-language label here.
         alternatives: []
       register: null
       scene_dependency: null
-    attestations: []
+    attestations:
+    - language: grc
+      target: ὁ ὑπόψηφος
+      match_type: not-found
+      searched: canonical-greekLit and the local LSJ XML, exact accent-insensitive form and lemma-fragment searches
+      result: No securely relevant classical occurrence or LSJ headword was located; the handbook may be using a later or newly functionalized political term.
+      confidence: medium
+      research_method: Unicode-normalized searches for ὑπόψηφος and the fragment ὑποψηφ-.
     textual_issues: []
     review_comments: []
     status: ja-proposed
@@ -897,13 +1014,28 @@ scenes:
       variants:
       - de: Wer hat die meisten (wenigsten) \emph{Stimmen?}
         ja_current: だれが最多（最少）の得票を得ましたか？
-        ja_proposed: 誰が最多（最少）の票を得ましたか？
+        ja_proposed: 誰が最多（最少）の\emph{票}を得ましたか？
         decision: revise
-        rationale: null
+        rationale: >-
+          German places typographic emphasis only on Stimmen, so Japanese likewise emphasizes only
+          「票」. Greek omits ψῆφοι in the printed question and leaves “votes” to be supplied from the
+          electoral context.
         alternatives: []
       register: null
       scene_dependency: null
-    attestations: []
+    attestations:
+    - language: grc
+      target: τίνι πλεῖσται (ἐλάχισται) γεγόνασιν;
+      match_type: adapted
+      author: Plato
+      work: Laws
+      passage: 753d
+      local_file: /home/mrty/Documents/Resources/canonical-greekLit/data/tlg0059/tlg034/tlg0059.tlg034.perseus-grc2.xml
+      text: ἑπτὰ δὲ καὶ τριάκοντα, οἷς ἂν πλεῖσται γένωνται ψῆφοι, κρίναντες ἀποφηνάντων ἄρχοντας.
+      context: Plato prescribes that the thirty-seven candidates receiving the greatest number of votes be scrutinized and declared magistrates.
+      relationship_to_handbook: The handbook turns Plato's relative clause into a question, changes οἷς to interrogative τίνι, omits explicit ψῆφοι, and adds the parenthetical antonym ἐλάχισται.
+      confidence: high
+      research_method: Corpus proximity search for πλεῖσται and γένωνται, followed by inspection of the electoral context.
     textual_issues: []
     review_comments: []
     status: ja-proposed
@@ -940,13 +1072,28 @@ scenes:
       variants:
       - de: Abgeordneter ist, wer die meisten \emph{Stimmen} bekommen hat.
         ja_current: 最も多く票を得た者が代議士です。
-        ja_proposed: 最も多くの票を得た者が、代議士となります。
+        ja_proposed: 最も多くの\emph{票}を得た者が、代議士となります。
         decision: revise
-        rationale: null
+        rationale: >-
+          「代議士です」 sounds like a definition, while German and Greek state the result of the
+          electoral rule. 「代議士となります」 makes that force clear. German emphasis falls only on
+          Stimmen, hence only 「票」 is emphasized in Japanese.
         alternatives: []
       register: null
       scene_dependency: null
-    attestations: []
+    attestations:
+    - language: grc
+      target: βουλευτής ἐστιν, ᾧ ἂν πλεῖσται γένωνται
+      match_type: adapted
+      author: Plato
+      work: Laws
+      passage: 753d
+      local_file: /home/mrty/Documents/Resources/canonical-greekLit/data/tlg0059/tlg034/tlg0059.tlg034.perseus-grc2.xml
+      text: ἑπτὰ δὲ καὶ τριάκοντα, οἷς ἂν πλεῖσται γένωνται ψῆφοι, κρίναντες ἀποφηνάντων ἄρχοντας.
+      context: The thirty-seven candidates with the greatest number of votes are to be declared magistrates after scrutiny.
+      relationship_to_handbook: The electoral relative clause οἷς ἂν πλεῖσται γένωνται ψῆφοι is reused almost verbatim, but the handbook changes the plural antecedent to singular ᾧ, suppresses ψῆφοι, and supplies βουλευτής ἐστιν as its result.
+      confidence: high
+      research_method: Exact phrase-fragment search and contextual inspection.
     textual_issues: []
     review_comments: []
     status: ja-proposed
@@ -985,11 +1132,25 @@ scenes:
         ja_current: Aは当選しましたか。
         ja_proposed: Aは当選しましたか。
         decision: retain
-        rationale: null
+        rationale: >-
+          German gewählt and Greek aorist passive ᾑρέθη both ask for the completed election result;
+          idiomatic Japanese 「当選しましたか」 expresses that result without ambiguity.
         alternatives: []
       register: null
       scene_dependency: null
-    attestations: []
+    attestations:
+    - language: grc
+      target: πότερον Ἀ.\ ᾑρέθη;
+      match_type: syntactic-parallel
+      author: Lysias
+      work: Against Philon
+      passage: 31.2
+      local_file: /home/mrty/Documents/Resources/canonical-greekLit/data/tlg0540/tlg020/tlg0540.tlg020.perseus-grc2.xml
+      text: οὗτος γὰρ ᾑρέθη μὲν ὑπὸ τῶν φυλετῶν ὡς χρηστὸς ὢν ἀνὴρ καὶ περὶ τοὺς δημότας καὶ περὶ τὸ πλῆθος τὸ ὑμέτερον
+      context: A man was selected by his fellow tribesmen because they judged him respectable and well disposed toward the citizen body.
+      relationship_to_handbook: Attests aorist passive ᾑρέθη for selection to public responsibility, but not the handbook's polar question or abbreviated personal name.
+      confidence: high
+      research_method: Corpus search for ᾑρέθη, restricted by inspection to public selection rather than capture or choice of an object.
     textual_issues: []
     review_comments: []
     status: ja-proposed
@@ -1026,13 +1187,29 @@ scenes:
       variants:
       - de: Leider nicht!
         ja_current: 残念ながら落選しました。
-        ja_proposed: 残念ながら、当選しませんでした！
+        ja_proposed: 残念ながら、だめでした！
         decision: revise
-        rationale: null
+        rationale: >-
+          German is an elliptical disappointed answer, not an explicit verb of losing. 「だめでした」
+          is natural after the preceding question and avoids the stilted negative 「当選しませんでした」.
+          Greek instead uses an elliptical contrary-to-fact wish, literally “if only [he] had ...”; the
+          Japanese follows the German speech act while retaining its regret.
         alternatives: []
       register: null
       scene_dependency: null
-    attestations: []
+    attestations:
+    - language: grc
+      target: εἰ γὰρ ὤφερε
+      match_type: near-exact
+      author: Plato
+      work: Crito
+      passage: 44d
+      local_file: /home/mrty/Documents/Resources/canonical-greekLit/data/tlg0059/tlg003/tlg0059.tlg003.perseus-grc2.xml
+      text: εἰ γὰρ ὤφελον, ὦ Κρίτων, οἷοί τʼ εἶναι οἱ πολλοὶ τὰ μέγιστα κακὰ ἐργάζεσθαι
+      context: Socrates says, “If only the many were capable of doing the greatest evils,” before explaining that they are capable of neither the greatest harms nor benefits.
+      relationship_to_handbook: Attests εἰ γὰρ ὤφελον as a contrary-to-fact wish. The handbook prints likely erroneous ὤφερε and omits the infinitival complement recoverable from the election question.
+      confidence: high
+      research_method: Exact corpus search for εἰ γὰρ ὤφελον, checked against the local LSJ treatment of ὀφείλω/ὤφελον wishes.
     textual_issues:
     - type: probable-greek-typo-and-ellipsis
       note: >-
@@ -1103,9 +1280,9 @@ scenes:
       variants:
       - de: Wir brauchen keine neuen \emph{Steuern!}
         ja_current: 新しい税金など必要ありません！
-        ja_proposed: 新たな税など、われわれには必要ない！
+        ja_proposed: 新たな\emph{税}など、われわれには必要ない！
         decision: revise
-        rationale: null
+        rationale: German emphasizes Steuern, so Japanese preserves the contrastive focus on 「税」.
         alternatives: []
       register: null
       scene_dependency: null
@@ -1146,9 +1323,11 @@ scenes:
       variants:
       - de: Wir \emph{brauchen} keine neuen Steuern!
         ja_current: 私たちは本当に新税を要しません！
-        ja_proposed: われわれに必要なのは、新たな税などではない！
+        ja_proposed: 新たな税など、われわれには\emph{必要ない}！
         decision: revise
-        rationale: null
+        rationale: >-
+          This repeats the proposition of 001 with focus shifted to brauchen. Japanese therefore
+          retains the wording of 001 and moves the emphasis to 「必要ない」.
         alternatives: []
       register: null
       scene_dependency: null
@@ -1275,9 +1454,12 @@ scenes:
       variants:
       - de: Jetzt ist Schonung der Steuerkraft nöthig!
         ja_current: 今は租税負担を抑えるべきです！
-        ja_proposed: 今こそ、倹約が肝要です！
+        ja_proposed: 今は、国民の担税力を温存する必要があります！
         decision: revise
-        rationale: null
+        rationale: >-
+          German Steuerkraft is the population's capacity to bear taxation, not mere household
+          thrift. 「担税力を温存する」 preserves the political-economic claim; Greek states the
+          broader principle that economy is now called for.
         alternatives: []
       register: null
       scene_dependency: null
@@ -1754,9 +1936,9 @@ scenes:
       variants:
       - de: Bravo! Bravo!
         ja_current: ブラボー！ブラボー！
-        ja_proposed: よし！　よし！
+        ja_proposed: よく言った！　よく言った！
         decision: revise
-        rationale: null
+        rationale: In an assembly, Bravo! and εὖγε praise the preceding speaker; 「よく言った」 makes that audience response explicit.
         alternatives: []
       register: null
       scene_dependency: null
@@ -1995,7 +2177,7 @@ scenes:
       variants:
       - de: Wer wünscht das Wort?
         ja_current: 誰か発言を希望しますか。
-        ja_proposed: 発言を望む方はおられますか。
+        ja_proposed: 発言を希望される方はおられますか。
         decision: revise
         rationale: null
         alternatives: []
@@ -2081,7 +2263,7 @@ scenes:
       variants:
       - de: Ist noch Jemand, der zu sprechen wünscht?
         ja_current: ほかに発言したい人はいますか。
-        ja_proposed: ほかに発言を望む方はおられますか。
+        ja_proposed: ほかに発言を希望される方はおられますか。
         decision: revise
         rationale: null
         alternatives: []
@@ -2298,7 +2480,7 @@ scenes:
       variants:
       - de: Thu', was du \emph{denkst!}
         ja_current: 思うとおりにしなさい。
-        ja_proposed: 君の思うとおりにしたまえ！
+        ja_proposed: 君が\emph{よいと思う}とおりにしたまえ！
         decision: revise
         rationale: null
         alternatives: []
@@ -2452,7 +2634,7 @@ scenes:
       variants:
       - de: Noch nichts; es war \emph{Stimmen}gleichheit.
         ja_current: まだ何も決まっていません；票が同数でした。
-        ja_proposed: まだ何も。票が同数だったのです。
+        ja_proposed: まだ何も。\emph{票が}同数だったのです。
         decision: revise
         rationale: null
         alternatives: []

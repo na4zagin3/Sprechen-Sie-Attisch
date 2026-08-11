@@ -91,6 +91,21 @@ as inference in `review_comments` or the translation rationale.
 - Use pronouns only when contrast, emphasis, or turn clarity requires them.
 - Re-evaluate clusters of near-synonymous phrases together so each item has a distinct function in
   Japanese.
+- Do not equate a speaker's social register with a single sentence ending. A speaker who uses polite
+  forms toward an interlocutor may naturally use plain forms in a soliloquy, exclamation, quotation,
+  or self-directed remark. Record such shifts as scene-dependent rather than treating them as voice
+  inconsistency.
+- Before smoothing a sequence, decide whether adjacent entries are genuine consecutive turns,
+  alternative replies to the same prompt, or interchangeable versions of one speech act. Store this
+  structure in `turn_groups` and do not manufacture a continuous exchange from alternatives.
+- Where speaker allocation materially determines wording, record the candidate speaker and confidence.
+  Prefer a provisional assignment supported by the surrounding turns to an unmarked assumption, and
+  preserve uncertainty when two allocations remain plausible.
+- Remember that the handbook entries are reusable model phrases as well as pieces of reconstructed
+  dialogue. A translation should normally remain intelligible when read independently. If natural
+  dialogue omits a subject, object, copula, or other recoverable element that a learner may need,
+  supply it economically in Japanese parentheses rather than burdening the spoken phrase. Parentheses
+  should mark genuinely optional supplementation, not hide uncertainty about the meaning.
 
 ## Completion criteria for a section
 

@@ -2,58 +2,73 @@ lexicon:
   de: |-
     Altgriechische (auch neue\textrm{\textmd{{*}}} gutgebildete) Bezeichnungen
     für moderne Begriffe aus dem Neugriechischen.\addcontentsline{toc}{section}{aus dem Neugriechischen}
+  ja: >-
+    近代ギリシア語から採録した、近代の概念を表す古代ギリシア語 （ならびに適切に造られた新語〔*印〕）
 sections:
   - entries:
       - modern:
           - de: Der Reichs\textcompwordmark{}tag
+            ja: \ruby{帝国議会}{ライヒスターク}
         grc:
           - ἡ βουλή.
       - modern:
           - de: Der Abgeordnete.
+            ja: 議員
         grc:
           - ὁ βουλευτής.
       - modern:
           - de: Das Heer.
+            ja: 軍隊
         grc:
           - ὁ στρατός.
       - modern:
           - de: Der Bürgermeister.
+            ja: 市長
         grc:
           - ὁ δήμαρχος.
       - modern:
           - de: Das Bureau.
+            ja: 事務所
         grc:
           - τὸ γραφεῖον.
       - modern:
           - de: Die orientalische Frage.
+            ja: 東方問題
         grc:
           - τὸ ζήτημα τὸ ἀνατολικόν.
       - modern:
           - de: Das Gericht.
+            ja: 裁判所
         grc:
           - τὸ δικαστήριον.
       - modern:
           - de: Die Partei.
+            ja: 政党
         grc:
           - τὸ κόμμα.
       - modern:
           - de: conservativ.
+            ja: 保守的
         grc:
           - συντηρητικός.
       - modern:
           - de: liberal.
+            ja: 自由主義的
         grc:
           - φιλελεύθερος.
       - modern:
           - de: Der (Wahl-)Candidat.
+            ja: （選挙の）候補者
         grc:
           - ὁ ὑπόψηφος.
       - modern:
           - de: Der Minister.
+            ja: 大臣
         grc:
           - ὁ ὑπουργός.
       - modern:
           - de: Das Ministerium des Aus\textcompwordmark{}wärtigen.
+            ja: 外務省
         grc:
           - |-
             τὸ ὑπουργεῖον{*}\footnote{\textlatin{%
@@ -61,50 +76,62 @@ sections:
             } τῶν ἐξωτερικῶν.
       - modern:
           - de: \qquad{}des Innern.
+            ja: 内務省
         grc:
           - \qquad{}\textgreek{τῶν ἐσωτερικῶν.}
       - modern:
           - de: \qquad{}der Finanzen.
+            ja: 大蔵省
         grc:
           - \qquad{}\textgreek{τῶν οἰκονομικῶν.}
       - modern:
           - de: \qquad{}der Justiz.
+            ja: 司法省
         grc:
           - \qquad{}\textgreek{τῆς δικαιοσύνης.}
       - modern:
           - de: \qquad{}des Krieges.
+            ja: 陸軍省
         grc:
           - \qquad{}\textgreek{τῶν στρατιωτικῶν.}
       - modern:
           - de: \qquad{}des Kultus.
+            ja: 宗務省
         grc:
           - \qquad{}\textgreek{τῶν ἐκκλησιαστικῶν.}
       - modern:
           - de: \qquad{}des öffentlichen Unterrichts.
+            ja: 公教育省
         grc:
           - \qquad{}\textgreek{τῆς δημοσίας ἐκπαιδεύσεως.}
       - modern:
           - de: Der Landrath, Amts\textcompwordmark{}hauptmann.
+            ja: 郡長、行政区長
         grc:
           - ὁ ἔπαρχος.
       - modern:
           - de: Der Präsident.
+            ja: 議長、総裁
         grc:
           - ὁ πρόεδρος.
       - modern:
           - de: Die Regierung.
+            ja: 政府
         grc:
           - ἡ κυβέρνησις.
       - modern:
           - de: Die Regierungs\textcompwordmark{}partei.
+            ja: 与党
         grc:
           - τὸ κυβερνητικὸν κόμμα.
       - modern:
           - de: Die Zeitung.
+            ja: 新聞
         grc:
           - ἡ ἐφημερίς.
       - modern:
           - de: Die Times.
+            ja: 『タイムズ』紙
         grc:
           - |-
             οἱ\footnote{\textlatin{%
@@ -113,22 +140,27 @@ sections:
   - entries:
       - modern:
           - de: Das Dampf\textcompwordmark{}schiff.
+            ja: 蒸気船
         grc:
           - τὸ ἀτμόπλοιον.{*}
       - modern:
           - de: Das Segelschiff.
+            ja: 帆船
         grc:
           - τὸ ἱστιοφόρον.
       - modern:
           - de: Der Bahnhof.
+            ja: 駅
         grc:
           - ὁ σταθμός.
       - modern:
           - de: Der Bahnzug.
+            ja: 列車
         grc:
           - ἡ ἁμαξοστοιχία.{*}
       - modern:
           - de: Die Eisenbahn.
+            ja: 鉄道
         grc:
           - |-
             ὁ\footnote{\textlatin{%
@@ -136,107 +168,133 @@ sections:
             } σιδηρόδρομος.{*}
       - modern:
           - de: Der Gasthof, das Hotel.
+            ja: 宿屋、ホテル
         grc:
           - τὸ ξενοδοχεῖον.
       - modern:
           - de: Der Omnibus.
+            ja: 乗合馬車
         grc:
           - τὸ λεωφορεῖον.{*}
       - modern:
           - de: Der Fahrplan.
+            ja: 時刻表
         grc:
           - τὸ δρομολόγιον.{*}
   - entries:
       - modern:
           - de: Der Apotheker.
+            ja: 薬剤師
         grc:
           - ὁ φαρμακοπώλης.
       - modern:
           - de: Der Arbeiter.
+            ja: 労働者
         grc:
           - ὁ ἐργάτης.
       - modern:
           - de: Der Streik.
+            ja: 同盟罷業（ストライキ）
         grc:
           - ἡ ἀπεργία.{*}
       - modern:
           - de: Der Barbier.
+            ja: 理髪師
         grc:
           - ὁ κουρεύς.
       - modern:
           - de: Der Baumeister.
+            ja: 建築家
         grc:
           - ὁ ἀρχιτέκτων.
       - modern:
           - de: Der Briefträger.
+            ja: 郵便配達人
         grc:
           - ὁ γραμματοφόρος.
       - modern:
           - de: Der Buchbinder.
+            ja: 製本職人
         grc:
           - ὁ βιβλιοδέτης.{*}
       - modern:
           - de: Der Buchdrucker.
+            ja: 印刷工
         grc:
           - ὁ τυπογράφος.{*}
       - modern:
           - de: Der Buchhändler.
+            ja: 書店主
         grc:
           - ὁ βιβλιοπώλης.
       - modern:
           - de: Der Droschkenkutscher.
+            ja: 辻馬車の御者
         grc:
           - ὁ ἁμαξηλάτης.{*}
       - modern:
           - de: Der Handwerker.
+            ja: 職人
         grc:
           - ὁ τεχνίτης.
       - modern:
           - de: Der Ingenieur.
+            ja: 技師
         grc:
           - ὁ μηχανικός.
       - modern:
           - de: Der Journalist.
+            ja: 新聞記者
         grc:
           - ὁ ἐφημεριδογράφος.{*}
       - modern:
           - de: Der Handels\textcompwordmark{}mann.
+            ja: 商人
         grc:
           - ὁ παντοπώλης.
       - modern:
           - de: Der Lehrer.
+            ja: 教師
         grc:
           - ὁ διδάσκαλος.
       - modern:
           - de: Der Offizier.
+            ja: 将校
         grc:
           - ὁ ἀξιωματικός.
       - modern:
           - de: Der Photograph.
+            ja: 写真師
         grc:
           - ὁ φωτογράφος.{*}
       - modern:
           - de: Der Professor.
+            ja: 教授
         grc:
           - ὁ καθηγητής.
       - modern:
           - de: Der Redacteur.
+            ja: 編集者
         grc:
           - ὁ συντάκτης.{*}
       - modern:
           - de: Der Gerichts\textcompwordmark{}rath.
+            ja: 司法参事官
         grc:
           - ὁ δικαστής.
       - modern:
           - de: Der Schrift\textcompwordmark{}setzer.
+            ja: 植字工
         grc:
           - ὁ τυποθέτης.{*}
       - modern:
           - de: Der Wichsier.
+            ja: 靴磨き
         grc:
           - ὁ καθαριστής.
       - modern:
           - de: Der Student.
+            ja: 学生
         grc:
           - ὁ φοιτητής.
       - modern:
@@ -244,208 +302,259 @@ sections:
               Der Tabaks\textcompwordmark{}händler.\footnote{\textlatin{%
               orig. \textgerman{Tabaks\textcompwordmark{}händler..}}%
               }
+            ja: 煙草商
         grc:
           - ὁ καπνοπώλης.{*}
       - modern:
           - de: Der Uhrmacher.
+            ja: 時計職人
         grc:
           - ὁ ὡρολογοποιός.{*}
   - entries:
       - modern:
           - de: Die Apotheke.
+            ja: 薬局
         grc:
           - τὸ φαρμακοπωλεῖον.
       - modern:
           - de: Das Café.
+            ja: 喫茶店
         grc:
           - τὸ καφενεῖον.{*}
       - modern:
           - de: Die Droschke.
+            ja: 辻馬車
         grc:
           - ἡ ἅμαξα.
       - modern:
           - de: Der Kirchhof.
+            ja: 墓地
         grc:
           - τὸ κοιμητήριον.
       - modern:
           - de: Der Klub.
+            ja: 倶楽部
         grc:
           - ἡ λέσχη.
       - modern:
           - de: Das Lesezimmer.
+            ja: 閲覧室
         grc:
           - τὸ ἀναγνωστήριον.
       - modern:
           - de: Das Concert.
+            ja: 音楽会
         grc:
           - ἡ συμφωνία.
       - modern:
           - de: Das Schloß.
+            ja: 宮殿
         grc:
           - τὰ ἀνάκτορα.
       - modern:
           - de: Das Herrenhaus.
+            ja: 邸宅
         grc:
           - ἡ ἔπαυλις.
       - modern:
           - de: Das Trottoir.
+            ja: 歩道
         grc:
           - τὸ πεζοδρόμιον.{*}
       - modern:
           - de: Die Post.
+            ja: 郵便局
         grc:
           - τὸ ταχυδρομεῖον.{*}
       - modern:
           - de: Die Freimarke.
+            ja: 郵便切手
         grc:
           - τὸ γραμματόσημον.{*}
       - modern:
           - de: Die Postkarte.
+            ja: 郵便葉書
         grc:
           - τὸ ἐπιστολικὸν δελτάριον.
       - modern:
           - de: Die Promenade.
+            ja: 遊歩道
         grc:
           - ὁ περίπατος.
       - modern:
           - de: Das Rathhaus.
+            ja: 市庁舎
         grc:
           - τὸ δημαρχεῖον.{*}
       - modern:
           - de: Die Straße.
+            ja: 通り
         grc:
           - ἡ ὁδός.
       - modern:
           - de: Die Vorstadt.
+            ja: 郊外
         grc:
           - τὸ προάστειον.
       - modern:
           - de: Die Universität.
+            ja: 大学
         grc:
           - τὸ πανεπιστήμιον.{*}
       - modern:
           - de: Der Briefkasten.
+            ja: 郵便ポスト
         grc:
           - τὸ γραμματοκιβώτιον.{*}
       - modern:
           - de: Das Löschpapier.
+            ja: 吸い取り紙
         grc:
           - τὸ στουπόχαρτον.{*}
       - modern:
           - de: Das Telegramm.
+            ja: 電報
         grc:
           - τὸ τηλεγράφημα.{*}
       - modern:
           - de: telegraphisch.
+            ja: 電信で
         grc:
           - τηλεγραφικῶς.{*}
       - modern:
           - de: Die Tinte.
+            ja: インク
         grc:
           - (ἡ μελάνη) τὸ μέλαν.
       - modern:
           - de: Das Tintenfaß.
+            ja: インク壺
         grc:
           - τὸ μελανοδοχεῖον.
       - modern:
           - de: Der umschlag (Kouvert).
+            ja: 封筒
         grc:
           - τὸ περικάλυμμα.
   - entries:
       - modern:
           - de: Die Bürste.
+            ja: ブラシ
         grc:
           - ἡ ψήκτρα.
       - modern:
           - de: Das Faß.
+            ja: 樽
         grc:
           - ὁ κάδος.
       - modern:
           - de: Das Fenster.
+            ja: 窓
         grc:
           - τὸ παραθύριον.
       - modern:
           - de: Die Glocke, Klingel.
+            ja: 鐘、呼び鈴
         grc:
           - τὸ κωδώνιον.
       - modern:
           - de: klingeln.
+            ja: 呼び鈴を鳴らす
         grc:
           - κωδωνίζειν.
       - modern:
           - de: Holz, Kohlen.
+            ja: 薪、石炭
         grc:
           - ξύλα, ἄνθρακες.
       - modern:
           - de: Die Möbel.
+            ja: 家具
         grc:
           - τὰ ἔπιπλα.
       - modern:
           - de: Der Ofen.
+            ja: ストーブ
         grc:
           - ἡ ἑστία.
       - modern:
           - de: Das Pianoforte.
+            ja: ピアノ
         grc:
           - τὸ κλειδοκύμβαλον.{*}
       - modern:
           - de: Der Saal.
+            ja: 広間
         grc:
           - ἡ αἴθουσα.
       - modern:
           - de: Das Schlafzimmer.
+            ja: 寝室
         grc:
           - ὁ κοιτών.
       - modern:
           - de: Der Schrank.
+            ja: 戸棚
         grc:
           - ἡ σκευοθήκη.
       - modern:
           - de: Der Kleiderschrank.
+            ja: 洋服箪笥
         grc:
           - ἡ ἱματιοθήκη.
       - modern:
           - de: Der Schreibtisch.
+            ja: 書き物机
         grc:
           - τὸ γραφεῖον.
       - modern:
           - de: Die Schwefelhölzchen.
+            ja: マッチ
         grc:
           - τὰ θειαφοκέρια.{*}
       - modern:
           - de: Die Seife.
+            ja: 石鹸
         grc:
           - ὁ σάπων.
       - modern:
           - de: Das Sopha.
+            ja: ソファ
         grc:
           - τὸ ἀνάκλιντρον.
       - modern:
           - de: Die Treppe.
+            ja: 階段
         grc:
           - ἡ κλῖμαξ, τὸ ἀνάβαθρον.
       - modern:
           - de: Die Gardinen.
+            ja: 窓掛け（カーテン）
         grc:
           - τὸ παραπέτασμα.
       - modern:
           - de: Das Waschbecken.
+            ja: 洗面器
         grc:
           - ἡ λεκάνη.
       - modern:
           - de: Der Waschtisch.
+            ja: 洗面台
         grc:
           - ὁ νιπτήρ.
       - modern:
           - de: Das Zimmer.
+            ja: 部屋
         grc:
           - τὸ δωμάτιον.
       - modern:
           - de: Der Uhrschlüssel.
+            ja: 時計の巻き鍵
         grc:
           - τὸ κλειδίον.
       - modern:
           - de: Der Zahnstocher.
+            ja: 爪楊枝
         grc:
           - ἡ ὀδοντογλυφίς.
   - entries:
@@ -454,6 +563,7 @@ sections:
               Der Kaiser.\footnote{\textlatin{%
               orig. \textgerman{Keiser.}}%
               }
+            ja: 皇帝
         grc:
           - |-
             ὁ αὐτοκράτωρ\footnote{\textlatin{%
@@ -461,30 +571,37 @@ sections:
             }.
       - modern:
           - de: Deutschland.
+            ja: ドイツ
         grc:
           - Γερμανία.
       - modern:
           - de: Die Deutschen.
+            ja: ドイツ人
         grc:
           - οἱ Γερμανοί.
       - modern:
           - de: Österreich.
+            ja: オーストリア
         grc:
           - Αὐστρία.{*}
       - modern:
           - de: Ungarn.
+            ja: ハンガリー
         grc:
           - Οὐγγαρία.{*}
       - modern:
           - de: England.
+            ja: イングランド
         grc:
           - Ἀγγλία.{*}
       - modern:
           - de: Die Engländer.
+            ja: イングランド人
         grc:
           - οἱ Ἄγγλοι.{*}
       - modern:
           - de: Rußland.
+            ja: ロシア
         grc:
           - |
             Ρωσία.{*}\footnote{\textlatin{%
@@ -492,6 +609,7 @@ sections:
             }
       - modern:
           - de: Die Russen.
+            ja: ロシア人
         grc:
           - |
             οἱ Ρῶσοι.{*}\footnote{\textlatin{%
@@ -499,62 +617,77 @@ sections:
             }
       - modern:
           - de: Frankreich.
+            ja: フランス
         grc:
           - Γαλλία.
       - modern:
           - de: Die Franzosen.
+            ja: フランス人
         grc:
           - οἱ Γάλλοι.
       - modern:
           - de: Dänemark.
+            ja: デンマーク
         grc:
           - Δανία.{*}
       - modern:
           - de: Italien.
+            ja: イタリア
         grc:
           - Ἰταλία.
       - modern:
           - de: Spanien.
+            ja: スペイン
         grc:
           - Ἱσπανία.
       - modern:
           - de: Türkei.
+            ja: トルコ
         grc:
           - Τουρκία.{*}
       - modern:
           - de: Berlin.
+            ja: ベルリン
         grc:
           - Βερόλινον.{*}
       - modern:
           - de: Wien.
+            ja: ウィーン
         grc:
           - Βιέννη.{*}
       - modern:
           - de: Peters\textcompwordmark{}burg.
+            ja: ペテルブルク
         grc:
           - Πετρούπολις.{*}
       - modern:
           - de: Paris.
+            ja: パリ
         grc:
           - Παρίσιοι.{*}
       - modern:
           - de: London.
+            ja: ロンドン
         grc:
           - Λόνδινον.{*}
       - modern:
           - de: Der Congreß.
+            ja: 国際会議
         grc:
           - τὸ συνέδριον.
       - modern:
           - de: Die Commission.
+            ja: 委員会
         grc:
           - ἡ ἐπιτροπή.
       - modern:
           - de: Fürst Bismarck.
+            ja: ビスマルク侯
         grc:
           - ὁ πρίγκιψ Βίσμαρκ.
       - modern:
           - de: Er lebe hoch!
+            ja: 万歳！
         grc:
           - ζέτω!
   - section:
@@ -562,6 +695,7 @@ sections:
     entries:
       - modern:
           - de: Sonntag.
+            ja: 日曜日
         grc:
           - |-
             (ἡ\footnote{\textlatin{%
@@ -569,25 +703,31 @@ sections:
             }) κυριακή.
       - modern:
           - de: Montag.
+            ja: 月曜日
         grc:
           - ἡ δευτέρα.
       - modern:
           - de: Dienstag.
+            ja: 火曜日
         grc:
           - ἡ τρίτη.
       - modern:
           - de: Mittwoch.
+            ja: 水曜日
         grc:
           - ἡ τετάρτη.
       - modern:
           - de: Donners\textcompwordmark{}tag.
+            ja: 木曜日
         grc:
           - ἡ πέμπτη.
       - modern:
           - de: Freitag.
+            ja: 金曜日
         grc:
           - (ἡ) παρασκευή \textgerman{(Küst\textcompwordmark{}tag)}.
       - modern:
           - de: Sonnabend (Samstag).
+            ja: 土曜日
         grc:
           - (τὸ) σάββατον.

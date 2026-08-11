@@ -5,15 +5,17 @@ meta:
 
       für moderne Begriffe aus dem Neugriechischen.\addcontentsline{toc}{section}{aus dem Neugriechischen}'
     ja_proposed: >-
-      近代の概念を表す古代ギリシア語（ならびに近代ギリシア語で新たに造られた適切な語〔*印〕）
+      近代ギリシア語から採録した、近代の概念を表す古代ギリシア語
+      （ならびに適切に造られた新語〔*印〕）
   review_scope: Translate the German headwords into Japanese and independently assess whether each Greek equivalent
     is Classical, later, Modern Greek, or a new formation/semantic extension.
   translation_review:
-    status: complete-awaiting-user-review
+    status: complete-synchronized-awaiting-user-review
     entry_count: 138
     note: >-
-      Japanese headwords have been reviewed throughout. Greek chronology and semantic-fit research remains
-      deliberately independent: entries still marked unreviewed in greek_analysis have not been represented as researched.
+      Japanese headwords have been reviewed throughout and synchronized into lexicon.yaml. Greek chronology
+      and semantic-fit research remains deliberately independent: entries still marked unreviewed in
+      greek_analysis have not been represented as researched.
   greek_research_progress:
     completed_sections:
     - lexicon-01
@@ -3010,7 +3012,7 @@ sections:
     translation:
       de:
       - Der Wichsier.
-      ja_proposed: 靴磨き職
+      ja_proposed: 靴磨き
       decision: pending-review
       rationale: Concise Japanese headword matching the nineteenth-century German label.
       alternatives: []
@@ -3024,7 +3026,7 @@ sections:
       formation: null
       period_classification: classical-attested-semantic-extension
       ancient_sense: A cleaner or purifier by formation; LSJ's specific ancient gloss is “tree-pruner” from a glossary.
-      modern_sense: 靴磨き職
+      modern_sense: 靴磨き
       semantic_fit: approximate
       semantic_note: The Greek says only a person who cleans; the shoe-polishing occupation is supplied by the German Wichsier.
     attestations: []

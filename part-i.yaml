@@ -8,27 +8,27 @@ sections:
   - conversations:
       - modern:
         - de: Mensch, ärgere dich nicht!
-          ja: まあ腹を立てるなよ！
+          ja: まあ、くよくよするな！
         grc:
           - μὴ σεαυτὸν ἔσθιε, ὦ ’γαθέ!
       - modern:
         - de: Eines Mannes Rede ist keine Rede.
-          ja: 一人の話だけでは判断にならない。
+          ja: 一方の言い分だけでは、裁きは下せない。
         grc:
           - πρὶν ἂν ἀμφοῖν μῦθον ἀκούσῃς, οὐκ ἂν δικάσαις.
       - modern:
         - de: Das hieße Eulen nach Athen tragen.
-          ja: それではアテナイにフクロウを運ぶようなものだ。
+          ja: それでは、アテナイへ梟を運ぶようなものだ。
         grc:
           - τίς γλαῦκ’ Ἀθήναζε ἄγαγεν;
       - modern:
         - de: Vorsicht ist die Mutter der Weis\textcompwordmark{}heit.
-          ja: 用心は知恵の母だ。
+          ja: 用心は知恵の母である。
         grc:
           - ἡ (γὰρ) εὐλάβεια πάντα σώζει.
       - modern:
         - de: Eine Schwalbe macht noch keinen Sommer.
-          ja: ツバメが一羽来ても夏とは言えない。
+          ja: 燕が一羽来ただけでは、まだ夏とはいえない。
         grc:
           - μία χελιδὼν ἔαρ οὐ ποιεῖ.
       - modern:
@@ -38,12 +38,12 @@ sections:
           - μὴ τὸν ἐμὸν οἴκει οἶκον!!
       - modern:
         - de: Der reine Menschenfeind (Timon)!
-          ja: まったくの人嫌いだ（ティモンだ）！
+          ja: 正真正銘の人間嫌い（ティモン）だ！
         grc:
           - Τίμων \emph{καθαρός!}
       - modern:
         - de: Immer das alte Lied!
-          ja: またいつもの決まり文句だ！
+          ja: また、いつもの話か！
         grc:
           - ὁ Διὸς Κόρινθος!
       - modern:
@@ -57,77 +57,77 @@ sections:
             }, ἰδοὺ καὶ τὸ πήδημα!
       - modern:
         - de: Ein trauriger Peter (Japper)!
-          ja: しょんぼりしたやつだ！
+          ja: まったく情けない奴だ！
         grc:
           - Μυσῶν ἔσχατος!
       - modern:
         - de: Das Gute ist rar.
-          ja: 良いものは稀だ。
+          ja: 善きものは稀なり。
         grc:
           - ὀλίγον τὸ χρηστόν ἐστιν.
       - modern:
         - de: Es ist kein Vorwärts\textcompwordmark{}kommen (für uns).
-          ja: （私たちには）前進の見込みがない。
+          ja: これでは、にっちもさっちも行かない。
         grc:
           - οὔτε θέομεν οὔτ’ ἐλαύνομεν.!
       - modern:
         - de: Geld regiert die Welt.
-          ja: 金が世を動かす。
+          ja: 金が世を支配する。
         grc:
           - ἅπαντα (γὰρ) τῷ πλουτεῖν ὑπήκοα.!
       - modern:
         - de: |-
             \textlatin{Donec eris felix, multos numerabis amicos.}
-          ja: 幸運なうちは友も多い。
+          ja: 羽振りのよいうちは、友も多い。
         grc:
           - ζεῖ χύτρα, ζῇ φιλία.!
       - modern:
         - de: Durch Schaden wird man klug!
-          ja: 痛い目を見て人は賢くなる！
+          ja: 痛い目を見て、人は賢くなる！
         grc:
           - \quotedblbase παθὼν δέ τε νήπιος ἔγνω.``
       - modern:
         - de: |-
             \textlatin{Tempi passati!}
-          ja: 過ぎ去った時代だ！
+          ja: 今は昔！
         grc:
           - πάλαι ποτ’ ἦσαν ἄλκιμοι Μιλήσιοι.
       - modern:
         - de: |-
             \textlatin{Ubi bene, ibi patria!}
-          ja: 住みよい所こそ祖国だ！
+          ja: 住みよい所こそ、わが祖国！
         grc:
           - πατρὶς γάρ ἐστι πᾶσ’, ἵν ἂν πράττῃ τις εὖ.
       - modern:
         - de: Er ist der beste Bruder auch nicht!
-          ja: 彼だって決して善人ではない！
+          ja: 彼も決して、ろくな仲間ではない。
         grc:
           - ἐστὶ τοῦ πονηροῦ κόμματος.
       - modern:
         - de: |-
             \textlatin{Parturiunt montes etc.}
-          ja: 山の胎動、産んだのは鼠一匹。
+          ja: 大山鳴動して鼠一匹。
         grc:
           - ὤδινεν ὄρος, εἶτα μῦν ἀπέτεκεν.
       - modern:
         - de: Du giebst dir vergebliche Mühe.
-          ja: 骨折り損だ。
+          ja: 所詮は無駄骨だ。
         grc:
           - λίθον ἕψεις.
       - modern:
         - de: Das Übel ärger machen.
-          ja: 災いに拍車をかける。
+          ja: 災いをいっそうひどくする。
         grc:
           - πλέον θάτερον ποιεῖν.
       - modern:
         - de: Eile mit Weile.
-          ja: 急がば回れ。
+          ja: ゆっくり急げ。
         grc:
           - |-
             σπεῦδε βραδέως!\textgerman{ (Wahlspruch
             des Kaisers Augustus.)}
       - modern:
         - de: Laß dir genügen!
-          ja: 分をわきまえて満足せよ！
+          ja: 足るを知れ――半ばは全体に勝る。
         grc:
           - πλέον ἥμισυ παντός!

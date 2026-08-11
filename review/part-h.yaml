@@ -14,6 +14,7 @@ meta:
     - Distinguish the German prompt from the literal and pragmatic force of the Greek.
     - Check historical German meanings and idioms independently; record rather than conceal German-Greek mismatches.
     - Preserve nineteenth-century objects, institutions, and social conventions where relevant.
+    - Reproduce emphasis in Japanese only when the corresponding German text is emphasized; Greek-only emphasis is not carried into ja_proposed.
     - Do not add politeness, intimacy, gender, or aggression without contextual evidence.
     - Use Japanese punctuation and sentence endings to make turn-taking natural.
   corpus_roots:
@@ -201,9 +202,9 @@ scenes:
       variants:
       - de: Was wollen wir spielen?
         ja_current: 何をしましょうか。
-        ja_proposed: 何をして遊びましょう。
+        ja_proposed: 何をやりましょうか？
         decision: revise
-        rationale: null
+        rationale: The question asks the group to choose a game; 「何をやりましょうか」 is concise table-talk and leads naturally into the Skat proposal.
         alternatives: []
       register: null
       scene_dependency: null
@@ -854,9 +855,9 @@ scenes:
       variants:
       - de: Jetzt haben wir ihn!
         ja_current: これで押さえたぞ！
-        ja_proposed: これで奴を捕まえたぞ！
+        ja_proposed: よし、これで取ったぞ！
         decision: revise
-        rationale: null
+        rationale: In the card-game setting, haben and ἔχεται describe securing a card or trick; 「取った」 avoids suggesting the literal capture of a person.
         alternatives: []
       register: null
       scene_dependency: null
@@ -1060,9 +1061,9 @@ scenes:
       variants:
       - de: Ich weiß schon, wie Sie es machen.
         ja_current: あなたの手口は分かっています。
-        ja_proposed: あなたがどう出るかは、もうわかっています。
+        ja_proposed: あなたの手口は、もうわかっています。
         decision: revise
-        rationale: null
+        rationale: The following turns reveal cheating, so 「手口」 anticipates a discovered method without yet stating the accusation outright.
         alternatives: []
       register: null
       scene_dependency: null
@@ -1283,9 +1284,9 @@ scenes:
       variants:
       - de: Du hast die Mogelei nicht bemerkt.
         ja_current: ごまかしに気づかなかったろう。
-        ja_proposed: ごまかしに気づかなかったろう。
-        decision: retain
-        rationale: null
+        ja_proposed: イカサマに気づかなかったろう。
+        decision: revise
+        rationale: Mogelei is specifically cheating at play; the established Japanese card-table term 「イカサマ」 is more precise than generic 「ごまかし」.
         alternatives: []
       register: null
       scene_dependency: null
@@ -1476,9 +1477,9 @@ scenes:
       variants:
       - de: Was fällt Ihnen denn ein, daß Sie die Zehn aus\textcompwordmark{}spielen?
         ja_current: どうして十を切ったんですか。
-        ja_proposed: 十を出すとは、一体何を考えているのです。
+        ja_proposed: 十を出すとは、一体何を考えているのです？
         decision: revise
-        rationale: null
+        rationale: The question mark restores the utterance's interrogative force; the wording retains the indignant Was fällt Ihnen denn ein.
         alternatives: []
       register: null
       scene_dependency: null
@@ -1695,13 +1696,26 @@ scenes:
       variants:
       - de: Geben Sie sich keine vergebliche Mühe!
         ja_current: むだな努力はやめなさい！
-        ja_proposed: そんな無駄骨はお折りにならぬことです！
+        ja_proposed: 無駄な骨折りは、およしなさい！
         decision: revise
-        rationale: null
+        rationale: The restrained literary phrase 「骨折りはおよしなさい」 is natural Japanese and also suits Greek λίθον ἕψεις, “you will boil a stone,” for futile labour.
         alternatives: []
       register: null
       scene_dependency: null
-    attestations: []
+    attestations:
+    - language: grc
+      target: λίθον ἕψεις!
+      match_type: exact
+      source:
+        author: Aristophanes
+        work: Wasps
+        passage: '280'
+        local_file: /home/mrty/Documents/Resources/canonical-greekLit/data/tlg0019/tlg004/tlg0019.tlg004.perseus-grc2.xml
+      text: λίθον ἕψεις, ἔλεγεν.
+      context: The chorus recalls that the stubborn old man answered supplicants with this proverb, refusing to be persuaded.
+      relationship_to_handbook: The proverbial phrase is exact apart from accent and final punctuation; the handbook turns the prediction into a polite warning against futile effort.
+      confidence: high
+      research_method: Exact Unicode corpus search followed by inspection of Wasps 273–280.
     textual_issues: []
     review_comments: []
     status: ja-proposed
@@ -1995,9 +2009,9 @@ scenes:
       variants:
       - de: Bitte, bezahlen Sie!
         ja_current: お支払いください！
-        ja_proposed: さあ、お支払いください！
+        ja_proposed: どうぞ、お支払いください！
         decision: revise
-        rationale: null
+        rationale: 「どうぞ」 preserves Bitte as a courteous but pointed request for settlement after the loss.
         alternatives: []
       register: null
       scene_dependency: null
@@ -2147,11 +2161,24 @@ scenes:
         ja_current: 私たちはひどい結果でした。
         ja_proposed: われわれは散々な結果に終わった。
         decision: revise
-        rationale: null
+        rationale: The German uses business language for a poor result; Greek's resultative perfect says that matters have gone miserably. 「散々な結果に終わった」 fits the end-of-game reckoning.
         alternatives: []
       register: null
       scene_dependency: null
-    attestations: []
+    attestations:
+    - language: grc
+      target: ἀθλίως πεπράγαμεν.
+      match_type: exact
+      source:
+        author: Aristophanes
+        work: Peace
+        passage: '1255'
+        local_file: /home/mrty/Documents/Resources/canonical-greekLit/data/tlg0019/tlg005/tlg0019.tlg005.perseus-grc2.xml
+      text: οἴμʼ ὦ κρανοποίʼ ὡς ἀθλίως πεπράγαμεν.
+      context: A spear-maker laments to a helmet-maker that their trades have fared miserably now that peace has returned.
+      relationship_to_handbook: The core phrase is exact; the handbook omits the lament and vocative and applies the resultative perfect to losses at cards.
+      confidence: high
+      research_method: Exact Unicode corpus search followed by inspection of Peace 1250–1257.
     textual_issues: []
     review_comments: []
     status: ja-proposed
@@ -2313,7 +2340,7 @@ scenes:
       variants:
       - de: B. Du selbst.
         ja_current: お前だよ。
-        ja_proposed: B. 君自身だよ。
+        ja_proposed: B. 君だよ。
         decision: revise
         rationale: null
         alternatives: []
@@ -2761,9 +2788,11 @@ scenes:
       variants:
       - de: B. Ich spiele selbst aus. Hier! Wenzel 'raus!
         ja_current: B. 親は俺だ。さあ、ヴェンツェルを出すぞ！
-        ja_proposed: B. 私が最初の札を出すぞ。ほら、ヴェンツェルだ！
+        ja_proposed: B. 私が最初の札を出すぞ。ほら、ヴェンツェルを出せ！
         decision: revise
-        rationale: null
+        rationale: >-
+          Wenzel 'raus! demands that the other Wenzels be brought out after B leads; it is not merely
+          an announcement “this is a Wenzel.” The approved German card term is retained.
         alternatives: []
       register: null
       scene_dependency: null
@@ -3248,9 +3277,9 @@ scenes:
       variants:
       - de: Gottlob! Aus dem Schneider wären wir!
         ja_current: やれやれ、シュナイダーは免れたぞ！
-        ja_proposed: よし！　これでシュナイダーは免れた！
+        ja_proposed: 助かった！　これでシュナイダーは免れた！
         decision: revise
-        rationale: null
+        rationale: Gottlob expresses relief here. 「助かった」 preserves that force naturally, while the second sentence uses the established Skat term.
         alternatives: []
       register: null
       scene_dependency: null
@@ -3424,7 +3453,7 @@ scenes:
 
           ja dicke gewinnen!'
         ja_current: A. どうしてそこでそのスートを出したんだ？ こっちは大勝ちできたはずなのに！
-        ja_proposed: A. しかし、どうしてよりによってあの組を出したんだ。こちらは大勝できたはずなのに！
+        ja_proposed: A. しかし、どうしてよりによって\emph{あの組}を出したんだ。こちらは大勝できたはずなのに！
         decision: revise
         rationale: null
         alternatives: []
