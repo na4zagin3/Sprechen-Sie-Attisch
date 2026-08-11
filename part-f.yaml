@@ -4,21 +4,21 @@ part:
 sections:
   - title:
       de: Da wohnt er
-      ja: そこに彼は住んでいる
+      ja: 彼はそこに住んでいる
     conversations:
       - modern:
         - de: Werden Sie mir wohl sagen können, wo hier Herr M. wohnt?
-          ja: こちらでM氏がどこに住んでいるか教えていただけますか？
+          ja: M氏のお宅がどちらか、教えていただけますか？
         grc:
           - ἔχοις ἂν φράσαι μοι (τόν κύριον{*}) Μύλλερον, ὅπου ἐνθάδε οἰκεῖ;
       - modern:
         - de: Ich möchte gern erfahren, wo Müller wohnt.
-          ja: ミュラーがどこに住んでいるか知りたいのですが。
+          ja: ミュラー氏がどちらにお住まいか、伺いたいのですが。
         grc:
           - ἡδέως ἂν μάθοιμι, ποῦ Μύλλερος οἰκεῖ.
       - modern:
         - de: Das möchte ich gern wissen.
-          ja: それを知りたいのです。
+          ja: ぜひ、それを教えて下さいませんか。
         grc:
           - τοῦτ’ με δίδαξον!
       - modern:
@@ -28,62 +28,62 @@ sections:
           - ἐν τῇ Λειψιανῇ{*} ὁδῷ.
       - modern:
         - de: Er zieht aus.
-          ja: 彼は引っ越します。
+          ja: 彼は引っ越すところです。
         grc:
           - μετοικίζεται.
       - modern:
         - de: Er ist aus\textcompwordmark{}gezogen.
-          ja: 彼はもう引っ越していきました。
+          ja: 彼なら、もう引っ越してしまいました。
         grc:
           - φροῦδός ἐστιν ἐξῳκισμένος.
       - modern:
         - de: Da sieht er zum Fenster heraus!
-          ja: ほら、窓から顔を出しています！
+          ja: ほら、窓からこちらを窺いています！
         grc:
           - ὁδὶ ἐκ θυρίδος παρακύπτει.
       - modern:
         - de: Das ist er.
-          ja: 彼だ。
+          ja: あれが、その人です。
         grc:
           - \emph{οὗτός ἐστ’ ἐκεῖνος.}
       - modern:
         - de: Wer klopft?
-          ja: 誰がノックしている？
+          ja: 戸を叩いているのは誰だ？
         grc:
           - τίς ἐσθ’ ὁ τὴν θύραν κόπτων;
       - modern:
         - de: "Mach' die Thür auf!"
-          ja: ドアを開けろ！
+          ja: 戸を開けてくれ！
         grc:
           - ἄνοιγε τὴν θύραν!
       - modern:
         - de: "Mach' doch auf!"
-          ja: さっさと開けて！
+          ja: まだ開けないのか！
         grc:
           - οὐκ ἀνοίξεις;
       - modern:
         - de: "Mach' endlich die Thür auf!"
-          ja: いい加減ドアを開けろ！
+          ja: いい加減戸を開けろ！
         grc:
           - ἄνοιγ’ \emph{ἀνύσας} τὴν θύραν.
       - modern:
         - de: Wer ist da?
-          ja: 誰だ？
+          ja: どなたですか？
         grc:
           - τίς οὗτος;
       - modern:
         - de: Melden Sie mich!
-          ja: 私が来たと取り次いでください。
+          ja: 私が来たと、お取り次ぎください。
         grc:
           - εἰσάγγειλον\footnote{\textlatin{orig.} εἰςάγγειλον}.
       - modern:
         - de: Ich weiß Ihren Namen nicht genau.
-          ja: お名前をはっきり存じ上げません。
+          ja: お名前を正確には存じません。
         grc:
           - οὐκ οἶδ’ ἀκριβῶς σου τοὔνομα.
       - modern:
         - de: Ist Müller zu Hause?
-          ja: ミュラーは家にいますか？
+          ja: ミュラー氏はご在宅ですか？
         grc:
           - \emph{ἔνδον} ἐστὶ Μύλλερος;
       - modern:
@@ -93,12 +93,12 @@ sections:
           - οὐκ ἔνδον ἐστίν.
       - modern:
         - de: \emph{Augenblicklich} ist er nicht zu Hause.
-          ja: ちょうど今は家にいません。
+          ja: \emph{ただいま}、留守にしております。
         grc:
           - οὐκ ἔνδον ὢν τυγχάνει.
       - modern:
         - de: Er ist spazieren.
-          ja: 彼は散歩に出ています。
+          ja: 散歩に出ております。
         grc:
           - περίπατον ποιεῖται.
       - modern:
@@ -127,17 +127,17 @@ sections:
           - ἐστὶν ἐν τῷ δωματίῳ.
       - modern:
         - de: Das Bett.
-          ja: ベッド。
+          ja: 寝床。
         grc:
           - τὰ \emph{στρώματα.}
       - modern:
         - de: Im Bette.
-          ja: ベッドの中で。
+          ja: 寝床の中で。
         grc:
           - ἐν τοῖς στρώμασιν.
       - modern:
         - de: Er schläft eben.
-          ja: 彼はいま寝ています。
+          ja: 彼はいま、眠っているところです。
         grc:
           - ἀρτίως εὕδει.
       - modern:
@@ -147,52 +147,52 @@ sections:
           - οὗτος, ἐγείρου!
       - modern:
         - de: "Steh' auf!"
-          ja: 起きなさい！
+          ja: 起き上がれ！
         grc:
           - ἀνίστασο!
       - modern:
         - de: Zünde Licht an!
-          ja: 明かりをつけて！
+          ja: 灯をともせ！
         grc:
           - ἅπτε λύχνον!
       - modern:
         - de: Sehr wohl.
-          ja: わかりました。
+          ja: かしこまりました。
         grc:
           - ταῦτα.
       - modern:
         - de: Hast du dich gewaschen?
-          ja: もう洗ったかい？
+          ja: もう顔や手は洗ったか？
         grc:
           - ἆρ’ ἀπονένιψαι;
       - modern:
         - de: Kannst du \emph{ohne} Handtuch zurechtkommen?
-          ja: タオルなしでやっていけるか？
+          ja: \emph{手拭いなしで}済ませるつもりか？
         grc:
           - ἀνύτεις χειρόμακτρον οὐκ ἔχων;
       - modern:
         - de: Du siehst schrecklich schmutzig aus.
-          ja: ひどく汚れて見えるよ。
+          ja: ずいぶん薄汚れているぞ。
         grc:
           - αὐχμεῖς αἰσχρῶς.
       - modern:
         - de: Er hat sich nicht gebadet.
-          ja: 彼は風呂に入らなかった。
+          ja: 彼は体を洗わなかった。
         grc:
           - οὐκ ἐλούσατο.
       - modern:
         - de: "Wisch' den Tisch ab!"
-          ja: テーブルを拭け！
+          ja: 食卓を拭きなさい！
         grc:
           - ἀποκάθαιρε τὴν τράπεζαν!
       - modern:
         - de: Ich will zu hause bleiben.
-          ja: 家にいたい。
+          ja: 家にいることにするよ。
         grc:
           - οἴκοι μενῶ.
       - modern:
         - de: Wir wollen zu Hause bei mir studiren.
-          ja: 今日は私の家で勉強しよう。
+          ja: 僕の家で一緒に勉強しよう。
         grc:
           - ἔνδον παρ’ ἐμοὶ διατρίψομεν (περὶ τὰ μαθήματα).
       - modern:
@@ -202,17 +202,17 @@ sections:
           - παρὰ σοί;
       - modern:
         - de: Ganz recht.
-          ja: そうだ。
+          ja: そうとも。
         grc:
           - πάνυ.
       - modern:
         - de: Du warst gestern bei mir.
-          ja: 昨日はうちにいたね。
+          ja: 昨日は君がうちに来たね。
         grc:
           - παρ’ ἐμοὶ χθὲς ἦσθα.
       - modern:
         - de: Kommt heute in meine Wohnung!
-          ja: 今日は私の家においで！
+          ja: 今日はみんな、うちへおいで！
         grc:
           - ἥκετ’ \emph{εἰς ἐμοῦ} τήμερον!
   - title:
@@ -221,12 +221,12 @@ sections:
     conversations:
       - modern:
         - de: "Leg' ab!"
-          ja: 脱げ！
+          ja: 上着を脱いでくれ！
         grc:
           - ἀποδύου!
       - modern:
         - de: Ich ziehe mich schon aus.
-          ja: もう脱いでいるよ。
+          ja: もう脱いでいるところだよ。
         grc:
           - καὶ δὴ ἐκδύομαι.
       - modern:
@@ -236,7 +236,7 @@ sections:
           - \emph{ποῦ} καθιζησόμεθα;
       - modern:
         - de: Nehmt Platz!
-          ja: 座ってください！
+          ja: 皆さん、お掛けください！
         grc:
           - κάθησθε!
       - modern:
@@ -248,82 +248,82 @@ sections:
           - κάθιζε!
       - modern:
         - de: Wenn du erlaubst!
-          ja: 君がよければ。
+          ja: 君さえよければ。
         grc:
           - εἰ ταῦτα \emph{δοκεῖ!}
       - modern:
         - de: So, ich sitze.
-          ja: よし、座った。
+          ja: ほら、座ったよ。
         grc:
           - ἰδού· κάθημαι.
       - modern:
         - de: Ich sitze schon!
-          ja: もう座っているよ。
+          ja: とっくに座っているよ。
         grc:
           - κάθημαι ’γὼ πάλαι.
       - modern:
         - de: Du hast keinen guten Platz.
-          ja: いい場所に座っていないね。
+          ja: 君の席は、あまりよくないね。
         grc:
           - οὐ καθίζεις ἐν καλῷ.
       - modern:
         - de: Hast du nichts zu essen?
-          ja: 食べるものがないの？
+          ja: 何か食べるものはないのか？
         grc:
           - οὐκ ἔχεις καταφαγεῖν;
       - modern:
         - de: \emph{Darf ich} dir ein Abendbrot vorsetzen?
-          ja: 夕食を出してもいいかい？
+          ja: 夕食を\emph{お出ししましょうか}？
         grc:
           - βούλει παραθῶ σοι δόρπον.
       - modern:
         - de: Ich bitte nur um ein Stück Brot und Fleisch.
-          ja: パンと肉を少しだけいただければ十分です。
+          ja: パンと肉を少しだけいただきたいのですが。
         grc:
           - αἰτῶ λαβεῖν τιν’ ἄρτον καὶ κρέας.!
       - modern:
         - de: Ich habe mir zu trinken \emph{mitgebracht}.
-          ja: 飲み物は持ってきました。
+          ja: 飲み物なら\emph{持ってきた}よ。
         grc:
           - \emph{ἥκω φέρων} πιεῖν.
       - modern:
         - de: Gieb mir einmal zu trinken!
-          ja: ちょっと飲み物をください。
+          ja: ちょっと、飲み物をくれ。
         grc:
           - δός μοι πιεῖν.
       - modern:
         - de: Gleich.
-          ja: すぐ。
+          ja: はい、ただいま。
         grc:
           - ἰδού.
       - modern:
         - de: Es ist unrecht, daß du hier sitzest.
-          ja: ここに座っているのはよくない。
+          ja: 君がここに座っているのは、よろしくない。
         grc:
           - ἀδικεῖς ἐνθάδε καθήμενος.
       - modern:
         - de: "Steh' \\emph{wieder} auf!"
-          ja: もう一度立て！
+          ja: では、立ちなさい！
         grc:
           - ἀνίστασο!
       - modern:
         - de: "So steh' doch schnell auf, ehe dich jemand sieht!"
-          ja: 誰かに見られる前に早く立て！
+          ja: 誰かに見られないうちに、早く立たないか！
         grc:
           - ούκουν ἀναστήσει ταχύ, πρίν τινά σ’ ἰδεῖν;
       - modern:
         - de: "Steh' gerade!"
-          ja: まっすぐ立て！
+          ja: 気をつけ！
         grc:
           - ἀνίστασο ὀρθός.
       - modern:
         - de: "\\emph{Bleib'} stehen!"
-          ja: そのまま立っていろ！
+          ja: \emph{そのまま}立っていろ！
         grc:
           - στῆθι.
       - modern:
         - de: Zu Befehl, Herr Hauptmann!
-          ja: 了解しました、隊長！
+          ja: はっ、承知しました、大尉殿！
         grc:
           - ταῦτα, ὦ λοχαγέ!
   - title:
