@@ -75,7 +75,7 @@ sections:
         - de: Melden Sie mich!
           ja: 私が来たと取り次いでください。
         grc:
-          - εἰσάγγειλον.
+          - εἰσάγγειλον\footnote{\textlatin{orig.} εἰςάγγειλον}.
       - modern:
         - de: Ich weiß Ihren Namen nicht genau.
           ja: お名前をはっきり存じ上げません。
@@ -105,7 +105,7 @@ sections:
         - de: So?
           ja: そうですか？
         grc:
-          - ἄληρες;
+          - ἄληθες;
       - modern:
         - de: Er steht an der Thür.
           ja: 彼は戸口に立っています。

@@ -3435,11 +3435,11 @@ scenes:
     situation: courtship or a report of successful courtship
   cast:
   - id: lover-a
-    description: Suitor who declares love and presses for physical affection.
+    description: Male suitor who declares love, requests physical affection, reassures the woman, and vows fidelity.
     evidence: "Ich verehre Sie; Erlauben Sie mir einen Kuß"
     confidence: high
   - id: lover-b
-    description: Beloved who requires an approach to the mother and fears being seen.
+    description: Woman who tests the suitor's sincerity, requires an approach to her mother, consents cautiously, and fears being seen.
     evidence: "sprechen Sie mit meiner Mutter; daß mich nur die Mutter nicht sieht"
     confidence: high
   - id: confidant
@@ -3447,14 +3447,39 @@ scenes:
     evidence: No turn requires this role securely.
     confidence: low
   reconstruction:
-    confidence: medium
+    confidence: high
     note: >-
-      The section strongly suggests a courtship scene, though entries 6-8 are alternative requests for
-      a kiss. The Japanese keeps mutual politeness while distinguishing the suitor's ardour from the
-      beloved's caution.
+      The section is substantially a two-speaker courtship dialogue. Entries 2-3 are alternative
+      responses to the man's declaration, and entries 6-8 are alternative requests for a kiss rather
+      than consecutive turns. Entry 14 is assigned provisionally to the woman: after fearing that her
+      mother may see her and hearing the man's reassurance, she is the likelier speaker to hush him.
   voice_profiles:
-    lover-a: {register: polite, traits: [ardent, ceremonious]}
-    lover-b: {register: polite, traits: [receptive, cautious]}
+    lover-a:
+      register: polite
+      traits: [ardent, reassuring, ceremonious]
+      japanese_policy: >-
+        Use courteous but direct speech toward the woman. Permit plain emotional phrasing in a clear
+        soliloquy such as e-04-011 rather than forcing every exclamation into です／ます.
+    lover-b:
+      register: polite
+      traits: [receptive, cautious, watchful]
+      japanese_policy: >-
+        Use natural polite requests and restrained acceptance; let the fear of her mother connect
+        e-04-009, e-04-010, e-04-012, and e-04-014 without making her speech excessively formal.
+  turn_groups:
+  - entries: [e-04-001, e-04-002, e-04-003, e-04-004, e-04-005]
+    description: declaration, alternative surprised replies, explanation, and the woman's condition
+    speaker_sequence: [lover-a, lover-b, lover-b, lover-a, lover-b]
+    alternatives:
+    - [e-04-002, e-04-003]
+  - entries: [e-04-006, e-04-007, e-04-008]
+    description: alternative requests by the man for a kiss
+    speaker_sequence: [lover-a, lover-a, lover-a]
+    alternatives:
+    - [e-04-006, e-04-007, e-04-008]
+  - entries: [e-04-009, e-04-010, e-04-011, e-04-012, e-04-013, e-04-014, e-04-015, e-04-016]
+    description: cautious consent, intimacy, fear of discovery, reassurance, and a vow
+    speaker_sequence: [lover-b, lover-b, lover-a, lover-b, lover-a, lover-b, lover-a, lover-a]
   entries:
   - id: e-04-001
     source_locator:
@@ -3939,12 +3964,13 @@ scenes:
 
           zu Gefallen will ich es thun.'
         ja_current: 母が怒るのはわかっていますが、あなたのためにそうします。
-        ja_proposed: 母がきっと腹を立てるのは、わかっています。でも、あなたのためなら、いたしましょう。
+        ja_proposed: 母がきっと腹を立てるのは、わかっています。でも、あなたのためなら、そうします。
         decision: revise
         rationale: >-
           zwar ... aber and μέν set acknowledged maternal anger against the decision made for the
-          addressee's sake. German gewiß and Greek σαφῶς justify 「きっと」. Restrained 「いたしましょう」
-          gives the acceptance a slightly ceremonious tone without naming an action left elliptical.
+          addressee's sake. German gewiß and Greek σαφῶς justify 「きっと」. As the woman's cautious
+          consent, 「そうします」 sounds more natural than the ceremonious and somewhat detached
+          「いたしましょう」 while leaving the action elliptical.
         alternatives: []
       register: null
       scene_dependency: null
@@ -3985,11 +4011,12 @@ scenes:
       variants:
       - de: Hören Sie auf!
         ja_current: やめてください！
-        ja_proposed: もう、おやめください！
+        ja_proposed: もう、やめてください！
         decision: revise
         rationale: >-
           Repeated παῦε conveys urgent resistance; 「もう」 and the exclamation preserve the force while
-          polite 「おやめください」 remains consistent with German Sie.
+          polite 「やめてください」 remains consistent with German Sie without making the woman's
+          spontaneous resistance unduly formal.
         alternatives: []
       register: null
       scene_dependency: null
@@ -4030,12 +4057,12 @@ scenes:
       variants:
       - de: Wie glücklich bin ich!
         ja_current: なんて幸せなんだろう。
-        ja_proposed: ああ、なんという幸せでしょう！
+        ja_proposed: ああ、なんて幸せなんだろう！
         decision: revise
         rationale: >-
-          Both German and Greek are exclamations of present delight. 「でしょう」 maintains the polite,
-          somewhat theatrical voice of this courtship sequence better than switching abruptly to plain
-          「なのだろう」.
+          Both German and Greek are exclamations of present delight. This is naturally read as the man's
+          emotional soliloquy after the woman's consent, so plain 「なんだろう」 is more natural than
+          addressee-oriented polite 「でしょう」. 「ああ」 and the exclamation retain the heightened tone.
         alternatives: []
       register: null
       scene_dependency: null
@@ -4123,12 +4150,12 @@ scenes:
       variants:
       - de: Wir sind ja allein (unter uns).
         ja_current: ほら、二人きりですよ。
-        ja_proposed: ここには、私たちしかいませんから。
+        ja_proposed: 大丈夫、ここには二人しかいませんよ。
         decision: revise
         rationale: >-
           German allein (unter uns) and emphatic Greek αὐτοί present the absence of outsiders as
-          reassurance. 「二人きり」 is possible in the reconstructed courtship scene but supplies an
-          exact number not stated by the reusable Greek formula; 「私たちしかいません」 is safer.
+          reassurance. Once the two speakers and the preceding fear of the mother are reconstructed,
+          「二人しかいませんよ」 is a natural reassurance; 「大丈夫」 expresses its conversational force.
         alternatives: []
       register: null
       scene_dependency: null
@@ -4301,11 +4328,14 @@ scenes:
       variants:
       - de: Geben Sie mir die Hand!
         ja_current: 手を握ってください。
-        ja_proposed: どうか、その右手を取らせてください！
+        ja_proposed: さあ、その右手を取らせてください！
         decision: revise
         rationale: >-
           German asks for the addressee's hand, while Greek explicitly specifies the right hand.
+          importing the stronger Japanese idiom 「手を貸す」, which normally means giving assistance.
           「右手を取らせてください」 naturally describes taking it for the accompanying pledge without
+          importing the stronger Japanese idiom 「手を貸す」, which normally means giving assistance.
+          「さあ」 connects the gesture directly to the vow that follows.
           importing the stronger Japanese idiom 「手を貸す」, which normally means giving assistance.
         alternatives: []
       register: null
