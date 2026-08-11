@@ -14,11 +14,12 @@ meta:
     - Distinguish the German prompt from the literal and pragmatic force of the Greek.
     - Check historical German meanings and idioms independently; record rather than conceal German-Greek mismatches.
     - Preserve nineteenth-century objects, institutions, and social conventions where relevant.
+    - Reproduce emphasis in Japanese only when the corresponding German text is emphasized; Greek-only emphasis is not carried into ja_proposed.
     - Do not add politeness, intimacy, gender, or aggression without contextual evidence.
     - Use Japanese punctuation and sentence endings to make turn-taking natural.
   corpus_roots:
-    perseus: /home/mrty/Documents/Perseus/Classics
-    lsj: /home/mrty/Documents/Perseus/Classics/LSJ
+    perseus: /home/mrty/Documents/Resources/canonical-greekLit
+    lsj: /home/mrty/Documents/Resources/LSJ_GreekUnicode
   attestation_match_types:
   - exact
   - near-exact
@@ -43,27 +44,49 @@ scenes:
 - id: f-01
   title:
     de: Da wohnt er
-    ja: そこに彼は住んでいる
+    ja: 彼はそこに住んでいる
   scene_type: reconstructed_dialogue
   setting:
     situation: a visitor asks for a resident and enters the house
   cast:
   - id: visitor
-    description: null
-    evidence: null
-    confidence: candidate
+    description: Stranger asking directions and later calling at the house.
+    evidence: Address inquiries, knocking, and request to be announced.
+    confidence: high
   - id: resident
-    description: null
-    evidence: null
-    confidence: candidate
+    description: Müller, the person being sought; seen at a window or reported absent or about to leave.
+    evidence: Third-person references throughout the section.
+    confidence: high
   - id: household-member
-    description: null
-    evidence: null
-    confidence: candidate
+    description: Person answering from inside and giving the visitor information about Müller.
+    evidence: Questions at the door and polite reports that Müller is absent.
+    confidence: high
   reconstruction:
-    confidence: unreviewed
-    note: Ordering may combine a continuous exchange with reusable model phrases; turn continuity must
-      be justified entry by entry.
+    confidence: high
+    note: >-
+      The section contains several reusable routes through one visiting scenario rather than a single
+      continuous exchange. Entries 1-3 are alternative address inquiries; 5-8 give alternative
+      developments after the address is supplied; 9-13 dramatize knocking and opening; 14-20 form a
+      visitor-household exchange; 21-22 are alternative reports about the resident at the door.
+  voice_profiles:
+    visitor: {register: polite, traits: [courteous, persistent]}
+    household-member: {register: polite, traits: [brief, informative]}
+    inside-familiar: {register: plain, traits: [impatient]}
+  turn_groups:
+  - entries: [f-01-001, f-01-002, f-01-003, f-01-004]
+    description: alternative polite inquiries followed by an address
+    alternatives:
+    - [f-01-001, f-01-002, f-01-003]
+  - entries: [f-01-005, f-01-006, f-01-007, f-01-008]
+    description: alternative information about moving or visually locating the resident
+  - entries: [f-01-009, f-01-010, f-01-011, f-01-012, f-01-013]
+    description: knocking, impatient commands to open, and identification of the caller
+    alternatives:
+    - [f-01-010, f-01-011, f-01-012]
+  - entries: [f-01-014, f-01-015, f-01-016, f-01-017, f-01-018, f-01-019, f-01-020]
+    description: visitor asks to be announced and learns that Müller is out walking
+  - entries: [f-01-021, f-01-022]
+    description: alternative reports that the resident is at the door or about to leave
   entries:
   - id: f-01-001
     source_locator:
@@ -98,16 +121,29 @@ scenes:
       variants:
       - de: Werden Sie mir wohl sagen können, wo hier Herr M. wohnt?
         ja_current: こちらでM氏がどこに住んでいるか教えていただけますか？
-        ja_proposed: こちらでM氏がどこに住んでいるか教えていただけますか？
-        decision: pending-review
-        rationale: null
+        ja_proposed: M氏のお宅がどちらか、教えていただけますか？
+        decision: revise
+        rationale: >-
+          German asks where Herr M. lives locally, and Greek likewise asks for his residence.
+          「お宅がどちらか」 is the natural Japanese way to request an address and remains self-contained.
         alternatives: []
       register: null
       scene_dependency: null
-    attestations: []
+    attestations:
+    - target: 'ἔχοις ἂν φράσαι μοι (τόν κύριον{*}) Μύλλερον, ὅπου ἐνθάδε οἰκεῖ;'
+      status: not-found
+      match_type: not-found
+      reference_as_given: null
+      source: null
+      text_grc: null
+      original_scene: null
+      relationship_to_handbook: No exact normalized single-line occurrence was located in the local canonical Greek corpus; the wording is treated as a handbook composition unless later evidence is found.
+      adaptations: []
+      confidence: medium
+      research_method: exact normalized Unicode search across all local canonical-greekLit XML files
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: f-01-002
     source_locator:
       file: part-f.yaml
@@ -141,16 +177,30 @@ scenes:
       variants:
       - de: Ich möchte gern erfahren, wo Müller wohnt.
         ja_current: ミュラーがどこに住んでいるか知りたいのですが。
-        ja_proposed: ミュラーがどこに住んでいるか知りたいのですが。
-        decision: pending-review
-        rationale: null
+        ja_proposed: ミュラー氏がどちらにお住まいか、伺いたいのですが。
+        decision: revise
+        rationale: >-
+          The conditional ἡδέως ἂν μάθοιμι and möchte gern make this a courteous indirect inquiry.
+          「お住まいを伺う」 alone can sound like asking to visit the residence. An embedded
+          「どちらにお住まいか」 preserves the indirect question explicitly.
         alternatives: []
       register: null
       scene_dependency: null
-    attestations: []
+    attestations:
+    - target: 'ἡδέως ἂν μάθοιμι, ποῦ Μύλλερος οἰκεῖ.'
+      status: not-found
+      match_type: not-found
+      reference_as_given: null
+      source: null
+      text_grc: null
+      original_scene: null
+      relationship_to_handbook: No exact normalized single-line occurrence was located in the local canonical Greek corpus; the wording is treated as a handbook composition unless later evidence is found.
+      adaptations: []
+      confidence: medium
+      research_method: exact normalized Unicode search across all local canonical-greekLit XML files
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: f-01-003
     source_locator:
       file: part-f.yaml
@@ -184,16 +234,29 @@ scenes:
       variants:
       - de: Das möchte ich gern wissen.
         ja_current: それを知りたいのです。
-        ja_proposed: それを知りたいのです。
-        decision: pending-review
-        rationale: null
+        ja_proposed: ぜひ、それを教えて下さいませんか。
+        decision: revise
+        rationale: >-
+          German emphasizes the desire to know, whereas Greek τοῦτʼ με δίδαξον directly asks the
+          addressee to tell or teach it. The revision preserves both desire and request.
         alternatives: []
       register: null
       scene_dependency: null
-    attestations: []
+    attestations:
+    - target: 'τοῦτ’ με δίδαξον!'
+      status: not-found
+      match_type: not-found
+      reference_as_given: null
+      source: null
+      text_grc: null
+      original_scene: null
+      relationship_to_handbook: No exact normalized single-line occurrence was located in the local canonical Greek corpus; the wording is treated as a handbook composition unless later evidence is found.
+      adaptations: []
+      confidence: medium
+      research_method: exact normalized Unicode search across all local canonical-greekLit XML files
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: f-01-004
     source_locator:
       file: part-f.yaml
@@ -228,15 +291,26 @@ scenes:
       - de: In der Leipziger Straße.
         ja_current: ライプツィヒ通りです。
         ja_proposed: ライプツィヒ通りです。
-        decision: pending-review
-        rationale: null
+        decision: retain
+        rationale: Both languages give a concise street-name answer; the current Japanese is natural.
         alternatives: []
       register: null
       scene_dependency: null
-    attestations: []
+    attestations:
+    - target: 'ἐν τῇ Λειψιανῇ{*} ὁδῷ.'
+      status: not-found
+      match_type: not-found
+      reference_as_given: null
+      source: null
+      text_grc: null
+      original_scene: null
+      relationship_to_handbook: No exact normalized single-line occurrence was located in the local canonical Greek corpus; the wording is treated as a handbook composition unless later evidence is found.
+      adaptations: []
+      confidence: medium
+      research_method: exact normalized Unicode search across all local canonical-greekLit XML files
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: f-01-005
     source_locator:
       file: part-f.yaml
@@ -270,16 +344,33 @@ scenes:
       variants:
       - de: Er zieht aus.
         ja_current: 彼は引っ越します。
-        ja_proposed: 彼は引っ越します。
-        decision: pending-review
-        rationale: null
+        ja_proposed: 彼は引っ越すところです。
+        decision: revise
+        rationale: >-
+          Present zieht aus and μετοικίζεται describe a move in progress or immediately impending,
+          not merely an unspecified future move.
         alternatives: []
       register: null
       scene_dependency: null
-    attestations: []
+    attestations:
+    - target: 'μετοικίζεται.'
+      status: source-context-checked
+      match_type: lexical-only
+      reference_as_given: null
+      source:
+        author: 'Aelius Aristides'
+        work: 'Panathenaic Oration'
+        passage: 'context containing μετοικίζεται'
+        local_file: /home/mrty/Documents/Resources/canonical-greekLit/data/tlg0284/tlg013/tlg0284.tlg013.perseus-grc2.xml
+      text_grc: 'μετοικίζεται γὰρ ἐξαναστᾶσα'
+      original_scene: 'The present μετοικίζεται is attested for changing one''s place of residence; the handbook creates a self-contained domestic model sentence.'
+      relationship_to_handbook: 'The present μετοικίζεται is attested for changing one''s place of residence; the handbook creates a self-contained domestic model sentence.'
+      adaptations: []
+      confidence: high
+      research_method: exact normalized Unicode search across local canonical-greekLit XML; context manually checked
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: f-01-006
     source_locator:
       file: part-f.yaml
@@ -313,16 +404,29 @@ scenes:
       variants:
       - de: Er ist aus\textcompwordmark{}gezogen.
         ja_current: 彼はもう引っ越していきました。
-        ja_proposed: 彼はもう引っ越していきました。
-        decision: pending-review
-        rationale: null
+        ja_proposed: 彼なら、もう引っ越してしまいました。
+        decision: revise
+        rationale: >-
+          German perfect and Greek φροῦδός ἐστιν ἐξῳκισμένος report that the sought resident is already
+          gone. Topic 「彼なら」 makes the short answer independently intelligible.
         alternatives: []
       register: null
       scene_dependency: null
-    attestations: []
+    attestations:
+    - target: 'φροῦδός ἐστιν ἐξῳκισμένος.'
+      status: not-found
+      match_type: not-found
+      reference_as_given: null
+      source: null
+      text_grc: null
+      original_scene: null
+      relationship_to_handbook: No exact normalized single-line occurrence was located in the local canonical Greek corpus; the wording is treated as a handbook composition unless later evidence is found.
+      adaptations: []
+      confidence: medium
+      research_method: exact normalized Unicode search across all local canonical-greekLit XML files
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: f-01-007
     source_locator:
       file: part-f.yaml
@@ -356,16 +460,29 @@ scenes:
       variants:
       - de: Da sieht er zum Fenster heraus!
         ja_current: ほら、窓から顔を出しています！
-        ja_proposed: ほら、窓から顔を出しています！
-        decision: pending-review
-        rationale: null
+        ja_proposed: ほら、窓からこちらを窺いています！
+        decision: revise
+        rationale: >-
+          heraussehen and παρακύπτει describe looking or leaning out through the window. 「顔を出す」
+          can mean merely appearing; 「こちらをのぞく」 preserves the visual action.
         alternatives: []
       register: null
       scene_dependency: null
-    attestations: []
+    attestations:
+    - target: 'ὁδὶ ἐκ θυρίδος παρακύπτει.'
+      status: not-found
+      match_type: not-found
+      reference_as_given: null
+      source: null
+      text_grc: null
+      original_scene: null
+      relationship_to_handbook: No exact normalized single-line occurrence was located in the local canonical Greek corpus; the wording is treated as a handbook composition unless later evidence is found.
+      adaptations: []
+      confidence: medium
+      research_method: exact normalized Unicode search across all local canonical-greekLit XML files
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: f-01-008
     source_locator:
       file: part-f.yaml
@@ -399,13 +516,30 @@ scenes:
       variants:
       - de: Das ist er.
         ja_current: 彼だ。
-        ja_proposed: 彼だ。
-        decision: pending-review
-        rationale: null
+        ja_proposed: あれが、その人です。
+        decision: revise
+        rationale: >-
+          German identifies the visible man, and emphatic οὗτός ἐστʼ ἐκεῖνος means “this is that very
+          person.” 「あれが、その人です」 fits the polite directions exchange.
         alternatives: []
       register: null
       scene_dependency: null
     attestations:
+    - target: '\emph{οὗτός ἐστ’ ἐκεῖνος.}'
+      status: source-context-checked
+      match_type: containing-phrase
+      reference_as_given: null
+      source:
+        author: 'Aristophanes'
+        work: 'Peace'
+        passage: '240-241'
+        local_file: /home/mrty/Documents/Resources/canonical-greekLit/data/tlg0019/tlg005/tlg0019.tlg005.perseus-grc2.xml
+      text_grc: 'ἆρʼ οὗτός ἐστʼ ἐκεῖνος ... ὁ δεινός'
+      original_scene: 'Trygaeus identifies the terrifying figure before him as the very man they flee; the handbook removes the interrogative frame and keeps the emphatic identification formula.'
+      relationship_to_handbook: 'Trygaeus identifies the terrifying figure before him as the very man they flee; the handbook removes the interrogative frame and keeps the emphatic identification formula.'
+      adaptations: []
+      confidence: high
+      research_method: exact normalized Unicode search across local canonical-greekLit XML; context manually checked
     - target: \emph{οὗτός ἐστ’ ἐκεῖνος.}
       status: exact-string-located-context-pending
       match_type: exact
@@ -429,7 +563,7 @@ scenes:
       research_method: exact normalized token search
     textual_issues: []
     review_comments: []
-    status: source-researched
+    status: ja-proposed
   - id: f-01-009
     source_locator:
       file: part-f.yaml
@@ -463,16 +597,29 @@ scenes:
       variants:
       - de: Wer klopft?
         ja_current: 誰がノックしている？
-        ja_proposed: 誰がノックしている？
-        decision: pending-review
-        rationale: null
+        ja_proposed: 戸を叩いているのは誰だ？
+        decision: revise
+        rationale: >-
+          Greek explicitly says “striking the door.” 「戸を叩く」 avoids an unnecessary English loan
+          and suits the domestic and historical setting.
         alternatives: []
       register: null
       scene_dependency: null
-    attestations: []
+    attestations:
+    - target: 'τίς ἐσθ’ ὁ τὴν θύραν κόπτων;'
+      status: not-found
+      match_type: not-found
+      reference_as_given: null
+      source: null
+      text_grc: null
+      original_scene: null
+      relationship_to_handbook: No exact normalized single-line occurrence was located in the local canonical Greek corpus; the wording is treated as a handbook composition unless later evidence is found.
+      adaptations: []
+      confidence: medium
+      research_method: exact normalized Unicode search across all local canonical-greekLit XML files
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: f-01-010
     source_locator:
       file: part-f.yaml
@@ -506,13 +653,30 @@ scenes:
       variants:
       - de: Mach' die Thür auf!
         ja_current: ドアを開けろ！
-        ja_proposed: ドアを開けろ！
-        decision: pending-review
-        rationale: null
+        ja_proposed: 戸を開けてくれ！
+        decision: revise
+        rationale: >-
+          The direct imperative is urgent but need not be maximally abusive. 「戸」 matches the setting,
+          and 「開けてくれ」 leaves room for stronger impatient variants in the following entries.
         alternatives: []
       register: null
       scene_dependency: null
     attestations:
+    - target: 'ἄνοιγε τὴν θύραν!'
+      status: source-context-checked
+      match_type: exact
+      reference_as_given: null
+      source:
+        author: 'Aristophanes'
+        work: 'Clouds'
+        passage: '181-183'
+        local_file: /home/mrty/Documents/Resources/canonical-greekLit/data/tlg0019/tlg003/tlg0019.tlg003.perseus-grc2.xml
+      text_grc: 'ἄνοιγʼ ἄνοιγʼ ἀνύσας τὸ φροντιστήριον ... ἀλλʼ ἄνοιγε τὴν θύραν.'
+      original_scene: 'Strepsiades impatiently orders the Thinkery opened. Line 183 supplies the handbook''s exact door-opening command; line 181 also supplies the intensified ἀνύσας variant used in entry 012.'
+      relationship_to_handbook: 'Strepsiades impatiently orders the Thinkery opened. Line 183 supplies the handbook''s exact door-opening command; line 181 also supplies the intensified ἀνύσας variant used in entry 012.'
+      adaptations: []
+      confidence: high
+      research_method: exact normalized Unicode search across local canonical-greekLit XML; context manually checked
     - target: ἄνοιγε τὴν θύραν!
       status: exact-string-located-context-pending
       match_type: exact
@@ -598,7 +762,7 @@ scenes:
       research_method: exact normalized token search
     textual_issues: []
     review_comments: []
-    status: source-researched
+    status: ja-proposed
   - id: f-01-011
     source_locator:
       file: part-f.yaml
@@ -632,16 +796,29 @@ scenes:
       variants:
       - de: Mach' doch auf!
         ja_current: さっさと開けて！
-        ja_proposed: さっさと開けて！
-        decision: pending-review
-        rationale: null
+        ja_proposed: まだ開けないのか！
+        decision: revise
+        rationale: >-
+          German doch and Greek future question οὐκ ἀνοίξεις; impatiently press someone who has not
+          opened. The negative Japanese question preserves the Greek form and pragmatic force.
         alternatives: []
       register: null
       scene_dependency: null
-    attestations: []
+    attestations:
+    - target: 'οὐκ ἀνοίξεις;'
+      status: not-found
+      match_type: not-found
+      reference_as_given: null
+      source: null
+      text_grc: null
+      original_scene: null
+      relationship_to_handbook: No exact normalized single-line occurrence was located in the local canonical Greek corpus; the wording is treated as a handbook composition unless later evidence is found.
+      adaptations: []
+      confidence: medium
+      research_method: exact normalized Unicode search across all local canonical-greekLit XML files
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: f-01-012
     source_locator:
       file: part-f.yaml
@@ -675,16 +852,33 @@ scenes:
       variants:
       - de: Mach' endlich die Thür auf!
         ja_current: いい加減ドアを開けろ！
-        ja_proposed: いい加減ドアを開けろ！
-        decision: pending-review
-        rationale: null
+        ja_proposed: いい加減戸を開けろ！
+        decision: revise
+        rationale: >-
+          endlich and adverbial ἀνύσας add accumulated impatience and speed, making this the strongest
+          of the three opening commands.
         alternatives: []
       register: null
       scene_dependency: null
-    attestations: []
+    attestations:
+    - target: 'ἄνοιγ’ \emph{ἀνύσας} τὴν θύραν.'
+      status: source-context-checked
+      match_type: adapted
+      reference_as_given: null
+      source:
+        author: 'Aristophanes'
+        work: 'Clouds'
+        passage: '181-183'
+        local_file: /home/mrty/Documents/Resources/canonical-greekLit/data/tlg0019/tlg003/tlg0019.tlg003.perseus-grc2.xml
+      text_grc: 'ἄνοιγʼ ἄνοιγʼ ἀνύσας τὸ φροντιστήριον ... ἀλλʼ ἄνοιγε τὴν θύραν.'
+      original_scene: 'The handbook combines ἄνοιγʼ ... ἀνύσας from line 181 with τὴν θύραν from line 183, preserving the impatient demand to open quickly.'
+      relationship_to_handbook: 'The handbook combines ἄνοιγʼ ... ἀνύσας from line 181 with τὴν θύραν from line 183, preserving the impatient demand to open quickly.'
+      adaptations: []
+      confidence: high
+      research_method: exact normalized Unicode search across local canonical-greekLit XML; context manually checked
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: f-01-013
     source_locator:
       file: part-f.yaml
@@ -718,16 +912,33 @@ scenes:
       variants:
       - de: Wer ist da?
         ja_current: 誰だ？
-        ja_proposed: 誰だ？
-        decision: pending-review
-        rationale: null
+        ja_proposed: どなたですか？
+        decision: revise
+        rationale: >-
+          In the reconstructed visitor-household exchange the caller is a stranger. Polite 「どなた」
+          is natural Japanese even though the compact Greek question itself does not encode politeness.
         alternatives: []
       register: null
       scene_dependency: null
-    attestations: []
+    attestations:
+    - target: 'τίς οὗτος;'
+      status: source-context-checked
+      match_type: exact-in-context
+      reference_as_given: null
+      source:
+        author: 'Plutarch'
+        work: 'Quaestiones convivales'
+        passage: 'context of a man at the outer door'
+        local_file: /home/mrty/Documents/Resources/canonical-greekLit/data/tlg0007/tlg109/tlg0007.tlg109.perseus-grc2.xml
+      text_grc: 'καὶ τίς οὗτος ... ὁ πρὸς ταῖς αὐλείοις θύραις ἐφεστὼς'
+      original_scene: 'The question asks who the man standing at the outer door is. The handbook extracts the compact identification question for use as ''Who is there?'''
+      relationship_to_handbook: 'The question asks who the man standing at the outer door is. The handbook extracts the compact identification question for use as ''Who is there?'''
+      adaptations: []
+      confidence: high
+      research_method: exact normalized Unicode search across local canonical-greekLit XML; context manually checked
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: f-01-014
     source_locator:
       file: part-f.yaml
@@ -761,16 +972,34 @@ scenes:
       variants:
       - de: Melden Sie mich!
         ja_current: 私が来たと取り次いでください。
-        ja_proposed: 私が来たと取り次いでください。
-        decision: pending-review
-        rationale: null
+        ja_proposed: 私が来たと、お取り次ぎください。
+        decision: revise
+        rationale: >-
+          German melden and Greek εἰσαγγέλλω ask the household member to announce the caller to
+          the person inside. 「私が来たと、お取り次ぎください」 gives the conventional Japanese
+          message without supplying a name that the next entry says is not known exactly.
         alternatives: []
       register: null
       scene_dependency: null
-    attestations: []
+    attestations:
+    - target: 'εἰσάγγειλον.'
+      status: source-context-checked
+      match_type: exact
+      reference_as_given: null
+      source:
+        author: 'Plato'
+        work: 'Protagoras'
+        passage: '314d'
+        local_file: /home/mrty/Documents/Resources/canonical-greekLit/data/tlg0059/tlg022/tlg0059.tlg022.perseus-grc2.xml
+      text_grc: 'Πρωταγόραν γάρ τοι δεόμενοι ἰδεῖν ἤλθομεν· εἰσάγγειλον οὖν.'
+      original_scene: 'Socrates tells a reluctant doorkeeper that they have come to see Protagoras and asks him to announce them; this exactly supports the visitor-household use.'
+      relationship_to_handbook: 'Socrates tells a reluctant doorkeeper that they have come to see Protagoras and asks him to announce them; this exactly supports the visitor-household use.'
+      adaptations: []
+      confidence: high
+      research_method: exact normalized Unicode search across local canonical-greekLit XML; context manually checked
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: f-01-015
     source_locator:
       file: part-f.yaml
@@ -804,16 +1033,29 @@ scenes:
       variants:
       - de: Ich weiß Ihren Namen nicht genau.
         ja_current: お名前をはっきり存じ上げません。
-        ja_proposed: お名前をはっきり存じ上げません。
-        decision: pending-review
-        rationale: null
+        ja_proposed: お名前を正確には存じません。
+        decision: revise
+        rationale: >-
+          genau and ἀκριβῶς concern exact knowledge of the caller's name. 「はっきり存じ上げる」 is an
+          awkward collocation; 「正確には存じません」 is natural household speech.
         alternatives: []
       register: null
       scene_dependency: null
-    attestations: []
+    attestations:
+    - target: 'οὐκ οἶδ’ ἀκριβῶς σου τοὔνομα.'
+      status: not-found
+      match_type: not-found
+      reference_as_given: null
+      source: null
+      text_grc: null
+      original_scene: null
+      relationship_to_handbook: No exact normalized single-line occurrence was located in the local canonical Greek corpus; the wording is treated as a handbook composition unless later evidence is found.
+      adaptations: []
+      confidence: medium
+      research_method: exact normalized Unicode search across all local canonical-greekLit XML files
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: f-01-016
     source_locator:
       file: part-f.yaml
@@ -847,16 +1089,30 @@ scenes:
       variants:
       - de: Ist Müller zu Hause?
         ja_current: ミュラーは家にいますか？
-        ja_proposed: ミュラーは家にいますか？
-        decision: pending-review
-        rationale: null
+        ja_proposed: ミュラー氏はご在宅ですか？
+        decision: revise
+        rationale: >-
+          German zu Hause and emphatic Greek ἔνδον both ask whether Müller is inside or at home.
+          In a polite call at the house, 「ご在宅ですか」 is the conventional question; the
+          Japanese emphasis marks the predicate corresponding to Greek ἔνδον.
         alternatives: []
       register: null
       scene_dependency: null
-    attestations: []
+    attestations:
+    - target: '\emph{ἔνδον} ἐστὶ Μύλλερος;'
+      status: not-found
+      match_type: not-found
+      reference_as_given: null
+      source: null
+      text_grc: null
+      original_scene: null
+      relationship_to_handbook: No exact normalized single-line occurrence was located in the local canonical Greek corpus; the wording is treated as a handbook composition unless later evidence is found.
+      adaptations: []
+      confidence: medium
+      research_method: exact normalized Unicode search across all local canonical-greekLit XML files
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: f-01-017
     source_locator:
       file: part-f.yaml
@@ -891,15 +1147,26 @@ scenes:
       - de: Nein, er ist nicht zu Hause.
         ja_current: いいえ、留守です。
         ja_proposed: いいえ、留守です。
-        decision: pending-review
-        rationale: null
+        decision: retain
+        rationale: 「留守です」 is the conventional Japanese equivalent of not being at home.
         alternatives: []
       register: null
       scene_dependency: null
-    attestations: []
+    attestations:
+    - target: 'οὐκ ἔνδον ἐστίν.'
+      status: not-found
+      match_type: not-found
+      reference_as_given: null
+      source: null
+      text_grc: null
+      original_scene: null
+      relationship_to_handbook: No exact normalized single-line occurrence was located in the local canonical Greek corpus; the wording is treated as a handbook composition unless later evidence is found.
+      adaptations: []
+      confidence: medium
+      research_method: exact normalized Unicode search across all local canonical-greekLit XML files
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: f-01-018
     source_locator:
       file: part-f.yaml
@@ -933,16 +1200,37 @@ scenes:
       variants:
       - de: \emph{Augenblicklich} ist er nicht zu Hause.
         ja_current: ちょうど今は家にいません。
-        ja_proposed: ちょうど今は家にいません。
-        decision: pending-review
-        rationale: null
-        alternatives: []
+        ja_proposed: \emph{ただいま}、留守にしております。
+        decision: revise
+        rationale: >-
+          Augenblicklich restricts the absence to the present moment. In a conventional doorstep
+          reply, 「ただいま、留守にしております」 is smoother than making 「ただいまは」 the topic.
+          Aozora dialogue attests both 「只今……御不在でございます」 and
+          「ただいまは……お留守じゃ」 patterns; the proposal chooses the neutral-polite form.
+        alternatives:
+        - ja: \emph{ただいま}、不在でございます。
+          note: More formal and somewhat administrative; 「御不在でございます」 is attested in Aozora dialogue.
+        - ja: あいにく、\emph{ただいま}留守にしております。
+          note: Natural as a visitor-facing reply, but あいにく adds apologetic regret absent from German and Greek.
+        - ja: \emph{ただいま}、出かけております。
+          note: Natural and direct, but specifies being out rather than merely not being at home.
       register: null
       scene_dependency: null
-    attestations: []
+    attestations:
+    - target: 'οὐκ ἔνδον ὢν τυγχάνει.'
+      status: not-found
+      match_type: not-found
+      reference_as_given: null
+      source: null
+      text_grc: null
+      original_scene: null
+      relationship_to_handbook: No exact normalized single-line occurrence was located in the local canonical Greek corpus; the wording is treated as a handbook composition unless later evidence is found.
+      adaptations: []
+      confidence: medium
+      research_method: exact normalized Unicode search across all local canonical-greekLit XML files
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: f-01-019
     source_locator:
       file: part-f.yaml
@@ -976,16 +1264,29 @@ scenes:
       variants:
       - de: Er ist spazieren.
         ja_current: 彼は散歩に出ています。
-        ja_proposed: 彼は散歩に出ています。
-        decision: pending-review
-        rationale: null
+        ja_proposed: 散歩に出ております。
+        decision: revise
+        rationale: >-
+          This continues the household member's polite explanation; Japanese can omit the resident's
+          repeated subject while remaining clear after the preceding inquiry.
         alternatives: []
       register: null
       scene_dependency: null
-    attestations: []
+    attestations:
+    - target: 'περίπατον ποιεῖται.'
+      status: not-found
+      match_type: not-found
+      reference_as_given: null
+      source: null
+      text_grc: null
+      original_scene: null
+      relationship_to_handbook: No exact normalized single-line occurrence was located in the local canonical Greek corpus; the wording is treated as a handbook composition unless later evidence is found.
+      adaptations: []
+      confidence: medium
+      research_method: exact normalized Unicode search across all local canonical-greekLit XML files
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: f-01-020
     source_locator:
       file: part-f.yaml
@@ -997,7 +1298,7 @@ scenes:
       - de: So?
         ja: そうですか？
       grc:
-      - ἄληρες;
+      - ἄληθες;
     dialogue:
       speaker:
         candidate: null
@@ -1020,15 +1321,35 @@ scenes:
       - de: So?
         ja_current: そうですか？
         ja_proposed: そうですか？
-        decision: pending-review
-        rationale: null
+        decision: retain
+        rationale: German So? is a brief acknowledgement or mild surprise; 「そうですか」 is natural.
         alternatives: []
       register: null
       scene_dependency: null
-    attestations: []
-    textual_issues: []
+    attestations:
+    - target: 'ἄληθες;'
+      status: source-context-checked
+      match_type: exact
+      reference_as_given: null
+      source:
+        author: 'Aristophanes'
+        work: 'Plutus'
+        passage: '429'
+        local_file: /home/mrty/Documents/Resources/canonical-greekLit/data/tlg0019/tlg011/tlg0019.tlg011.perseus-grc2.xml
+      text_grc: 'ἄληθες; οὐ γὰρ δεινότατα δεδράκατον'
+      original_scene: 'Penia responds incredulously ''Really?'' before challenging the preceding claim. The handbook uses the same brief reaction, while German So? is somewhat milder.'
+      relationship_to_handbook: 'Penia responds incredulously ''Really?'' before challenging the preceding claim. The handbook uses the same brief reaction, while German So? is somewhat milder.'
+      adaptations: []
+      confidence: high
+      research_method: exact normalized Unicode search across local canonical-greekLit XML; context manually checked
+    textual_issues:
+    - type: corrected-greek-typo
+      note: >-
+        The earlier transcription ἄληρες was not a coherent form. The source has now been corrected
+        to ἄληθες; as confirmed by the user; it means “really?” or “is that true?”, matching German
+        So? The Japanese follows the German discourse function.
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: f-01-021
     source_locator:
       file: part-f.yaml
@@ -1063,15 +1384,28 @@ scenes:
       - de: Er steht an der Thür.
         ja_current: 彼は戸口に立っています。
         ja_proposed: 彼は戸口に立っています。
-        decision: pending-review
-        rationale: null
+        decision: retain
+        rationale: >-
+          German an der Thür and Greek plural ταῖς θύραις both locate him at the doorway; 「戸口」 is exact
+          and natural.
         alternatives: []
       register: null
       scene_dependency: null
-    attestations: []
+    attestations:
+    - target: 'ἐπὶ ταῖς θύραις ἕστηκεν.'
+      status: not-found
+      match_type: not-found
+      reference_as_given: null
+      source: null
+      text_grc: null
+      original_scene: null
+      relationship_to_handbook: No exact normalized single-line occurrence was located in the local canonical Greek corpus; the wording is treated as a handbook composition unless later evidence is found.
+      adaptations: []
+      confidence: medium
+      research_method: exact normalized Unicode search across all local canonical-greekLit XML files
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: f-01-022
     source_locator:
       file: part-f.yaml
@@ -1106,15 +1440,27 @@ scenes:
       - de: Er ist im Begriff aus\textcompwordmark{}zugehen.
         ja_current: 彼は今まさに出かけようとしています。
         ja_proposed: 彼は今まさに出かけようとしています。
-        decision: pending-review
-        rationale: null
+        decision: retain
+        rationale: >-
+          im Begriff and μέλλει both mark imminent intention. 「今まさに出かけようとしている」 preserves it.
         alternatives: []
       register: null
       scene_dependency: null
-    attestations: []
+    attestations:
+    - target: 'μέλλει \emph{θύραζε βαδίζειν.}'
+      status: not-found
+      match_type: not-found
+      reference_as_given: null
+      source: null
+      text_grc: null
+      original_scene: null
+      relationship_to_handbook: No exact normalized single-line occurrence was located in the local canonical Greek corpus; the wording is treated as a handbook composition unless later evidence is found.
+      adaptations: []
+      confidence: medium
+      research_method: exact normalized Unicode search across all local canonical-greekLit XML files
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
 - id: f-02
   title:
     de: Am Morgen
@@ -1123,22 +1469,37 @@ scenes:
   setting:
     situation: morning routine in a household
   cast:
-  - id: adult-a
-    description: null
-    evidence: null
-    confidence: candidate
-  - id: adult-b
-    description: null
-    evidence: null
-    confidence: candidate
-  - id: child-or-servant
-    description: null
-    evidence: null
-    confidence: candidate
+  - id: householder
+    description: Adult directing a child or servant through the morning routine.
+    evidence: Imperatives to wake, rise, light the room, wash, and wipe the table.
+    confidence: medium
+  - id: subordinate
+    description: Child or domestic subordinate who obeys the order to bring light.
+    evidence: The deferential response sehr wohl / πάνυ γε to an imperative.
+    confidence: medium
+  - id: friend
+    description: Familiar interlocutor arranging a study gathering.
+    evidence: Mutual second-person singular forms and reciprocal visits in entries 14-18.
+    confidence: high
   reconstruction:
-    confidence: unreviewed
-    note: Ordering may combine a continuous exchange with reusable model phrases; turn continuity must
-      be justified entry by entry.
+    confidence: high
+    note: >-
+      Entries 1-3 are nominal location expressions. Entries 4-13 form a morning-household phrase
+      cluster, not necessarily one uninterrupted exchange. Entries 14-19 shift to familiar friends
+      deciding where to study; 16-18 form a particularly clear three-turn exchange.
+  voice_profiles:
+    householder: {register: plain, traits: [brisk, directive]}
+    subordinate: {register: deferential, traits: [prompt]}
+    friend: {register: plain, traits: [familiar, cooperative]}
+  turn_groups:
+  - entries: [f-02-001, f-02-002, f-02-003]
+    description: alternative expressions locating someone in a bedroom or bed
+  - entries: [f-02-004, f-02-005, f-02-006, f-02-007, f-02-008]
+    description: waking and lighting the room; only 7-8 securely form command and response
+  - entries: [f-02-009, f-02-010, f-02-011, f-02-012, f-02-013]
+    description: washing and household-cleaning expressions
+  - entries: [f-02-014, f-02-015, f-02-016, f-02-017, f-02-018, f-02-019]
+    description: friends arrange where to study and invite the wider group
   entries:
   - id: f-02-001
     source_locator:
@@ -1174,15 +1535,26 @@ scenes:
       - de: Er ist im Schlafzimmer.
         ja_current: 彼は寝室にいます。
         ja_proposed: 彼は寝室にいます。
-        decision: pending-review
+        decision: keep
         rationale: null
         alternatives: []
       register: null
       scene_dependency: null
-    attestations: []
+    attestations:
+    - target: 'ἐστὶν ἐν τῷ δωματίῳ.'
+      status: not-found
+      match_type: not-found
+      reference_as_given: null
+      source: null
+      text_grc: null
+      original_scene: null
+      relationship_to_handbook: No exact normalized single-line occurrence was located in the local canonical Greek corpus; the wording is treated as a handbook composition unless later evidence is found.
+      adaptations: []
+      confidence: medium
+      research_method: exact normalized Unicode search across all local canonical-greekLit XML files
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: f-02-002
     source_locator:
       file: part-f.yaml
@@ -1216,16 +1588,31 @@ scenes:
       variants:
       - de: Das Bett.
         ja_current: ベッド。
-        ja_proposed: ベッド。
-        decision: pending-review
+        ja_proposed: 寝床。
+        decision: revise
         rationale: null
         alternatives: []
       register: null
       scene_dependency: null
-    attestations: []
+    attestations:
+    - target: 'τὰ \emph{στρώματα.}'
+      status: exact-string-located-context-pending
+      match_type: exact
+      reference_as_given: null
+      source:
+        author: null
+        work: null
+        passage: 'XML line 544'
+        local_file: /home/mrty/Documents/Resources/canonical-greekLit/data/tlg0007/tlg112/tlg0007.tlg112.perseus-grc2.xml
+      text_grc: 'κομιδῇ γʼ ἔφην εἴπερ ἀληθές ἐστιν· οὐκ  ἔχει δʼ οὕτως, ἀλλʼ αὑτοὺςαὐτοὺς mei παραλογιζόμεθα, θερμὸν εὐθὺςεὐθὺ iidem εἶναι τὸ θερμαῖνοντὸ θερμαῖνον Basileensis: τὸ θερμαίνει Malim γ’ ὃ θερμαίνει ὑπολαμβάνοντες· καὶ ταῦθʼ ὁρῶντες ὅτι ταὐτὸν ἱμάτιον ἐν χειμῶνι θερμαίνειν ἐν δʼ ἡλίῳ ψύχειν γέγονενγέγονεν Duebnerus: λέγομεν· ὥσπερ ἡ τραγικὴ τροφὸς ἐκείνη τὰ τῆς Νιόβης τέκνα τιθηνεῖται  λεπτοσπαθήτωνem. S: λεπτὸς πάθη τῶν χλανιδίων ἐρειπίοις Nauck. p. 839 θάλπουσα καὶ ψύχουσα. Γερμανοὶ μὲν οὖν κρύους πρόβλημα ποιοῦνται τὴν  ἐσθῆτα μόνον, Αἰθίοπες δὲ θάλπους μόνον, ἡμεῖς δʼ ἀμφοῖν. ὥστε τί μᾶλλον, εἰ θάλπει, θερμὴν  ἤπερ ψυχρὰνἢ περίψυχρον Doehnerus ἀπὸ τοῦ περιψύχειν λεκτέον; εἰ δὲ δεῖ τῇ αἰσθήσει τεκμαίρεσθαι, μᾶλλον ἂν ψυχρὰ γένοιτο· καὶ γὰρ ὁ χιτὼν ψυχρὸς ἡμῖν προσπίπτει τὸ πρῶτον ἐνδυσαμένοις καὶ τὰ στρώματα κατακλινεῖσιν  εἶτα μέντοι συναλεαίνει τῆς ἀφʼἀφʼ Psellus: ὑφʼ ἡμῶν πιμπλάμεναἐμπιπλάμενα idem θερμασίας, καὶ ἅμα μὲν περιστέλλοντα καὶ κατέχοντα τὸ θερμόν, ἅμα δʼ ἀπείργοντα τὸ κρύος καὶ τὸν ἔξωθενἔξωθεν Benselerus: ἐξω ἀέρα τοῦ σώματος. οἱ μὲν οὖν πυρέττοντες  καυματιζόμενοι συνεχῶςσυχνῶς Doehnerus ἀλλάττουσι τὰ ἱμάτια τῷτῷ] τὸ mei ψυχρὸν εἶναι τὸ ἐπιβαλλόμενον ἂν δʼ ἐπιβληθῇ, παραχρῆμα γίγνεται θερμὸν ὑπὸ τοῦ σώματος. ὥσπερ οὖν ἡμᾶς θερμαινόμενον θερμαίνει θοἰμάτιον*: τὸ ἱμάτιον, οὕτω τὴν χιόνα ψυχόμενον ἀντιπεριψύχει·  ψύχεται δʼ ὑπʼ αὐτῆς ἀφιείσηςPsellus: ἀφείσης πνεῦμα λεπτόν· τοῦτο γὰρ συνέχει τὴν πῆξιν αὐτῆς ἐγκατακεκλεισμένονidem: ἐγκατακείμενον· ἀπελθόντος δὲ τοῦ πνεύματος, ὕδωρ οὖσα ῥεῖ καὶ διατήκεται, καὶ ἀπανθεῖ τὸ λευκὸν ὅπερ ἡ τοῦ πνεύματος πρὸς τὸ ὑγρὸν ἀνάμιξις ἀφρώδης;  γενομένη παρεῖχεν ἅμα τʼ οὖν τὸ ψυχρὸν ἐγκατέχεται  περιστεγόμενον τῷ ἱματίῳ, καὶ ὁ ἔξωθεν ἀὴρ ἀπειργόμενος οὐ τέμνει τὸν πάγον οὐδʼ ἀνίησιν. ἀγνάπτοις δὲ τούτοιςτούτοις] add. χρῶνται W. Fort. add. περιστέλλουσι πρὸς τοῦτο διὰ τὴν τραχύτητα καὶ ξηρότητα τῆς κροκύδος οὐκ ἐώσης ἐπιπεσεῖν  βαρὺ θοἰμάτιον*: τὸ ἱμάτιον οὐδὲ συνθλῖψαι τὴν χαυνότητα τῆς χιόνος· ὥσπερ καὶ τὸ ἄχυρον διὰ κουφότητα μαλακῶς περιπῖπτον οὐ θρύπτει τὸν πάγον, ἄλλως δὲ πυκνόν ἐστι καὶ στεγανόν, ὥστεὥστε] ὥσπερ mei καὶ τὴντὴν Leonicus θερμότητα τοῦ ἀέρος ἀπείργειν καὶ τὴν ψυχρότητα  κωλύειν ἀπιέναι τῆς χιόνος. ὅτι δʼ ἡ τοῦ πνεύματος διάκρισις ἐμποιεῖ τὴν τῆξιν, ἐμφανές ἐστι τῇ αἰσθήσει τηκομένη γὰρ ἡ χιὼν πνεῦμα ποιεῖ.'
+      original_scene: null
+      relationship_to_handbook: The complete normalized handbook string occurs in the local canonical Greek corpus; dramatic or prose context still requires manual comparison before treating it as a contextual attestation.
+      adaptations: []
+      confidence: candidate
+      research_method: exact normalized Unicode search across local canonical-greekLit XML
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: f-02-003
     source_locator:
       file: part-f.yaml
@@ -1259,8 +1646,8 @@ scenes:
       variants:
       - de: Im Bette.
         ja_current: ベッドの中で。
-        ja_proposed: ベッドの中で。
-        decision: pending-review
+        ja_proposed: 寝床の中で。
+        decision: revise
         rationale: null
         alternatives: []
       register: null
@@ -1374,7 +1761,7 @@ scenes:
       research_method: exact normalized token search
     textual_issues: []
     review_comments: []
-    status: source-researched
+    status: ja-proposed
   - id: f-02-004
     source_locator:
       file: part-f.yaml
@@ -1408,16 +1795,27 @@ scenes:
       variants:
       - de: Er schläft eben.
         ja_current: 彼はいま寝ています。
-        ja_proposed: 彼はいま寝ています。
-        decision: pending-review
+        ja_proposed: 彼はいま、眠っているところです。
+        decision: revise
         rationale: null
         alternatives: []
       register: null
       scene_dependency: null
-    attestations: []
+    attestations:
+    - target: 'ἀρτίως εὕδει.'
+      status: not-found
+      match_type: not-found
+      reference_as_given: null
+      source: null
+      text_grc: null
+      original_scene: null
+      relationship_to_handbook: No exact normalized single-line occurrence was located in the local canonical Greek corpus; the wording is treated as a handbook composition unless later evidence is found.
+      adaptations: []
+      confidence: medium
+      research_method: exact normalized Unicode search across all local canonical-greekLit XML files
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: f-02-005
     source_locator:
       file: part-f.yaml
@@ -1452,15 +1850,30 @@ scenes:
       - de: Du, wach' auf!
         ja_current: おい、起きろ！
         ja_proposed: おい、起きろ！
-        decision: pending-review
+        decision: keep
         rationale: null
         alternatives: []
       register: null
       scene_dependency: null
-    attestations: []
+    attestations:
+    - target: 'οὗτος, ἐγείρου!'
+      status: exact-string-located-context-pending
+      match_type: exact
+      reference_as_given: null
+      source:
+        author: null
+        work: null
+        passage: 'XML line 1039'
+        local_file: /home/mrty/Documents/Resources/canonical-greekLit/data/tlg0019/tlg004/tlg0019.tlg004.perseus-grc2.xml
+      text_grc: 'οὗτος ἐγείρου.'
+      original_scene: null
+      relationship_to_handbook: The complete normalized handbook string occurs in the local canonical Greek corpus; dramatic or prose context still requires manual comparison before treating it as a contextual attestation.
+      adaptations: []
+      confidence: candidate
+      research_method: exact normalized Unicode search across local canonical-greekLit XML
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: f-02-006
     source_locator:
       file: part-f.yaml
@@ -1494,16 +1907,31 @@ scenes:
       variants:
       - de: Steh' auf!
         ja_current: 起きなさい！
-        ja_proposed: 起きなさい！
-        decision: pending-review
+        ja_proposed: 起き上がれ！
+        decision: revise
         rationale: null
         alternatives: []
       register: null
       scene_dependency: null
-    attestations: []
+    attestations:
+    - target: 'ἀνίστασο!'
+      status: exact-string-located-context-pending
+      match_type: exact
+      reference_as_given: null
+      source:
+        author: null
+        work: null
+        passage: 'XML line 313'
+        local_file: /home/mrty/Documents/Resources/canonical-greekLit/data/tlg0007/tlg016/tlg0007.tlg016.perseus-grc2.xml
+      text_grc: 'ὡς οὖν ταῦτα ὁ Τύλλος ἤκουσεν, ἥσθη τε θαυμαστῶς καὶ τὴν δεξιὰν ἐμβαλών, ἀνίστασο, εἶπεν, ὦ Μάρκιε, καὶ θάρρει. μέγα γὰρ ἡμῖν ἀγαθὸν ἥκεις διδοὺς σεαυτόν, ἔλπιζε δὲ μείζονα παρὰ Οὐολούσκων. καὶ τότε μὲν εἱστία φιλοφρονούμενος τὸν Μάρκιον, ἐν δὲ ταῖς ἐπιούσαις ἡμέραις ἐβουλεύοντο περὶ τοῦ πολέμου καθʼ ἑαυτούς.'
+      original_scene: null
+      relationship_to_handbook: The complete normalized handbook string occurs in the local canonical Greek corpus; dramatic or prose context still requires manual comparison before treating it as a contextual attestation.
+      adaptations: []
+      confidence: candidate
+      research_method: exact normalized Unicode search across local canonical-greekLit XML
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: f-02-007
     source_locator:
       file: part-f.yaml
@@ -1537,16 +1965,27 @@ scenes:
       variants:
       - de: Zünde Licht an!
         ja_current: 明かりをつけて！
-        ja_proposed: 明かりをつけて！
-        decision: pending-review
+        ja_proposed: 灯をともせ！
+        decision: revise
         rationale: null
         alternatives: []
       register: null
       scene_dependency: null
-    attestations: []
+    attestations:
+    - target: 'ἅπτε λύχνον!'
+      status: not-found
+      match_type: not-found
+      reference_as_given: null
+      source: null
+      text_grc: null
+      original_scene: null
+      relationship_to_handbook: No exact normalized single-line occurrence was located in the local canonical Greek corpus; the wording is treated as a handbook composition unless later evidence is found.
+      adaptations: []
+      confidence: medium
+      research_method: exact normalized Unicode search across all local canonical-greekLit XML files
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: f-02-008
     source_locator:
       file: part-f.yaml
@@ -1580,16 +2019,31 @@ scenes:
       variants:
       - de: Sehr wohl.
         ja_current: わかりました。
-        ja_proposed: わかりました。
-        decision: pending-review
+        ja_proposed: かしこまりました。
+        decision: revise
         rationale: null
         alternatives: []
       register: null
       scene_dependency: null
-    attestations: []
+    attestations:
+    - target: 'ταῦτα.'
+      status: exact-string-located-context-pending
+      match_type: exact
+      reference_as_given: null
+      source:
+        author: null
+        work: null
+        passage: 'XML line 123'
+        local_file: /home/mrty/Documents/Resources/canonical-greekLit/data/tlg0007/tlg138/tlg0007.tlg138.perseus-grc2.xml
+      text_grc: 'ΔΙΑΔΟΥΜ. ἔτι δὲ μᾶλλον, οἶμαι, φανεῖταί σοι παρὰ τὴν κοινὴν ἔννοιαν, εἰ τῶν μεγίστων ἀγαθῶν ὁ φρόνιμος μήτʼ ἀπόντων μήτʼ εἰ πάρεστιν αὐτῷ φροντίζοι,  ἀλλʼ οἷός ἐστιν ἐν τοῖς ἀδιαφόροις καὶ τῇ περὶ ταῦτα πραγματείᾳ καὶ οἰκονομίᾳ, τοιοῦτος ἂν κἀν τούτοις εἴη. πάντες γὰρ δήπουθεν εὐρυεδοῦς ὅσοι καρπὸν αἰνύμεθα χθονός, οὗ μὲν καὶ παρόντος ὄνησίς ἐστι καὶ μὴ παρόντος  ὥσπερ ἔνδεια καὶ ὄρεξις, αἱρετὸν καὶ ἀγαθὸν καὶ ὠφέλιμον νοοῦμεν· ἐφʼ ᾧ δʼ οὐδὲν ἄν τις πραγματεύσαιτο μὴ παιδιᾶς ἕνεκεν μηδὲ ῥᾳστώνης, τοῦτʼ  ἀδιάφορον. ἄλλῳ γὰρ οὐδενὶ τοῦ φιλοπόνου τὸν κενόσπουδον ἀφορίζομεν ἐν τοῖς ἔργοις ὄντα πολλάκις,'
+      original_scene: null
+      relationship_to_handbook: The complete normalized handbook string occurs in the local canonical Greek corpus; dramatic or prose context still requires manual comparison before treating it as a contextual attestation.
+      adaptations: []
+      confidence: candidate
+      research_method: exact normalized Unicode search across local canonical-greekLit XML
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: f-02-009
     source_locator:
       file: part-f.yaml
@@ -1623,16 +2077,31 @@ scenes:
       variants:
       - de: Hast du dich gewaschen?
         ja_current: もう洗ったかい？
-        ja_proposed: もう洗ったかい？
-        decision: pending-review
-        rationale: null
+        ja_proposed: もう顔や手は洗ったか？
+        decision: revise
+        rationale: >-
+          In a morning routine German sich waschen is the ordinary “wash oneself,” not a full bath.
+          Greek ἀπονίπτω likewise denotes washing off part of the body, and the following
+          χειρόμακτρον is specifically a hand-wiping cloth. 「顔や手」 makes the likely domestic
+          action idiomatic in Japanese without confusing it with bathing in entry 12.
         alternatives: []
       register: null
       scene_dependency: null
-    attestations: []
+    attestations:
+    - target: 'ἆρ’ ἀπονένιψαι;'
+      status: not-found
+      match_type: not-found
+      reference_as_given: null
+      source: null
+      text_grc: null
+      original_scene: null
+      relationship_to_handbook: No exact normalized single-line occurrence was located in the local canonical Greek corpus; the wording is treated as a handbook composition unless later evidence is found.
+      adaptations: []
+      confidence: medium
+      research_method: exact normalized Unicode search across all local canonical-greekLit XML files
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: f-02-010
     source_locator:
       file: part-f.yaml
@@ -1666,16 +2135,29 @@ scenes:
       variants:
       - de: Kannst du \emph{ohne} Handtuch zurechtkommen?
         ja_current: タオルなしでやっていけるか？
-        ja_proposed: タオルなしでやっていけるか？
-        decision: pending-review
-        rationale: null
+        ja_proposed: \emph{手拭いなしで}済ませるつもりか？
+        decision: revise
+        rationale: >-
+          German zurechtkommen and Greek ἀνύτεις ask how the addressee manages or gets the task done.
+          「間に合う」 can be misread temporally; 「どうやって済ませる」 expresses the practical objection.
         alternatives: []
       register: null
       scene_dependency: null
-    attestations: []
+    attestations:
+    - target: 'ἀνύτεις χειρόμακτρον οὐκ ἔχων;'
+      status: not-found
+      match_type: not-found
+      reference_as_given: null
+      source: null
+      text_grc: null
+      original_scene: null
+      relationship_to_handbook: No exact normalized single-line occurrence was located in the local canonical Greek corpus; the wording is treated as a handbook composition unless later evidence is found.
+      adaptations: []
+      confidence: medium
+      research_method: exact normalized Unicode search across all local canonical-greekLit XML files
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: f-02-011
     source_locator:
       file: part-f.yaml
@@ -1709,16 +2191,31 @@ scenes:
       variants:
       - de: Du siehst schrecklich schmutzig aus.
         ja_current: ひどく汚れて見えるよ。
-        ja_proposed: ひどく汚れて見えるよ。
-        decision: pending-review
+        ja_proposed: ずいぶん薄汚れているぞ。
+        decision: revise
         rationale: null
         alternatives: []
       register: null
       scene_dependency: null
-    attestations: []
+    attestations:
+    - target: 'αὐχμεῖς αἰσχρῶς.'
+      status: exact-string-located-context-pending
+      match_type: exact
+      reference_as_given: null
+      source:
+        author: null
+        work: null
+        passage: 'XML line 2071'
+        local_file: /home/mrty/Documents/Resources/canonical-greekLit/data/tlg0019/tlg003/tlg0019.tlg003.perseus-grc2.xml
+      text_grc: 'αὐχμεῖς αἰσχρῶς.'
+      original_scene: null
+      relationship_to_handbook: The complete normalized handbook string occurs in the local canonical Greek corpus; dramatic or prose context still requires manual comparison before treating it as a contextual attestation.
+      adaptations: []
+      confidence: candidate
+      research_method: exact normalized Unicode search across local canonical-greekLit XML
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: f-02-012
     source_locator:
       file: part-f.yaml
@@ -1752,16 +2249,27 @@ scenes:
       variants:
       - de: Er hat sich nicht gebadet.
         ja_current: 彼は風呂に入らなかった。
-        ja_proposed: 彼は風呂に入らなかった。
-        decision: pending-review
+        ja_proposed: 彼は体を洗わなかった。
+        decision: revise
         rationale: null
         alternatives: []
       register: null
       scene_dependency: null
-    attestations: []
+    attestations:
+    - target: 'οὐκ ἐλούσατο.'
+      status: not-found
+      match_type: not-found
+      reference_as_given: null
+      source: null
+      text_grc: null
+      original_scene: null
+      relationship_to_handbook: No exact normalized single-line occurrence was located in the local canonical Greek corpus; the wording is treated as a handbook composition unless later evidence is found.
+      adaptations: []
+      confidence: medium
+      research_method: exact normalized Unicode search across all local canonical-greekLit XML files
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: f-02-013
     source_locator:
       file: part-f.yaml
@@ -1795,16 +2303,27 @@ scenes:
       variants:
       - de: Wisch' den Tisch ab!
         ja_current: テーブルを拭け！
-        ja_proposed: テーブルを拭け！
-        decision: pending-review
+        ja_proposed: 食卓を拭きなさい！
+        decision: revise
         rationale: null
         alternatives: []
       register: null
       scene_dependency: null
-    attestations: []
+    attestations:
+    - target: 'ἀποκάθαιρε τὴν τράπεζαν!'
+      status: not-found
+      match_type: not-found
+      reference_as_given: null
+      source: null
+      text_grc: null
+      original_scene: null
+      relationship_to_handbook: No exact normalized single-line occurrence was located in the local canonical Greek corpus; the wording is treated as a handbook composition unless later evidence is found.
+      adaptations: []
+      confidence: medium
+      research_method: exact normalized Unicode search across all local canonical-greekLit XML files
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: f-02-014
     source_locator:
       file: part-f.yaml
@@ -1838,16 +2357,27 @@ scenes:
       variants:
       - de: Ich will zu hause bleiben.
         ja_current: 家にいたい。
-        ja_proposed: 家にいたい。
-        decision: pending-review
+        ja_proposed: 家にいることにするよ。
+        decision: revise
         rationale: null
         alternatives: []
       register: null
       scene_dependency: null
-    attestations: []
+    attestations:
+    - target: 'οἴκοι μενῶ.'
+      status: not-found
+      match_type: not-found
+      reference_as_given: null
+      source: null
+      text_grc: null
+      original_scene: null
+      relationship_to_handbook: No exact normalized single-line occurrence was located in the local canonical Greek corpus; the wording is treated as a handbook composition unless later evidence is found.
+      adaptations: []
+      confidence: medium
+      research_method: exact normalized Unicode search across all local canonical-greekLit XML files
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: f-02-015
     source_locator:
       file: part-f.yaml
@@ -1881,16 +2411,27 @@ scenes:
       variants:
       - de: Wir wollen zu Hause bei mir studiren.
         ja_current: 今日は私の家で勉強しよう。
-        ja_proposed: 今日は私の家で勉強しよう。
-        decision: pending-review
+        ja_proposed: 僕の家で一緒に勉強しよう。
+        decision: revise
         rationale: null
         alternatives: []
       register: null
       scene_dependency: null
-    attestations: []
+    attestations:
+    - target: 'ἔνδον παρ’ ἐμοὶ διατρίψομεν (περὶ τὰ μαθήματα).'
+      status: not-found
+      match_type: not-found
+      reference_as_given: null
+      source: null
+      text_grc: null
+      original_scene: null
+      relationship_to_handbook: No exact normalized single-line occurrence was located in the local canonical Greek corpus; the wording is treated as a handbook composition unless later evidence is found.
+      adaptations: []
+      confidence: medium
+      research_method: exact normalized Unicode search across all local canonical-greekLit XML files
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: f-02-016
     source_locator:
       file: part-f.yaml
@@ -1925,15 +2466,30 @@ scenes:
       - de: Bei dir?
         ja_current: 君の家で？
         ja_proposed: 君の家で？
-        decision: pending-review
+        decision: keep
         rationale: null
         alternatives: []
       register: null
       scene_dependency: null
-    attestations: []
+    attestations:
+    - target: 'παρὰ σοί;'
+      status: exact-string-located-context-pending
+      match_type: exact
+      reference_as_given: null
+      source:
+        author: null
+        work: null
+        passage: 'XML line 3479'
+        local_file: /home/mrty/Documents/Resources/canonical-greekLit/data/tlg0007/tlg081/tlg0007.tlg081.perseus-grc3.xml
+      text_grc: 'ἔφη, παρὰ σοί'
+      original_scene: null
+      relationship_to_handbook: The complete normalized handbook string occurs in the local canonical Greek corpus; dramatic or prose context still requires manual comparison before treating it as a contextual attestation.
+      adaptations: []
+      confidence: candidate
+      research_method: exact normalized Unicode search across local canonical-greekLit XML
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: f-02-017
     source_locator:
       file: part-f.yaml
@@ -1967,16 +2523,31 @@ scenes:
       variants:
       - de: Ganz recht.
         ja_current: そうだ。
-        ja_proposed: そうだ。
-        decision: pending-review
+        ja_proposed: そうとも。
+        decision: revise
         rationale: null
         alternatives: []
       register: null
       scene_dependency: null
-    attestations: []
+    attestations:
+    - target: 'πάνυ.'
+      status: exact-string-located-context-pending
+      match_type: exact
+      reference_as_given: null
+      source:
+        author: null
+        work: null
+        passage: 'XML line 97'
+        local_file: /home/mrty/Documents/Resources/canonical-greekLit/data/tlg0007/tlg138/tlg0007.tlg138.perseus-grc2.xml
+      text_grc: 'ΛΑΜΠΡΙΑΣ.  σοὶ μὲν εἰκός, ὦ Διαδούμενε, μὴ πάνυ μέλειν, εἴ τινι δοκεῖτε παρὰ τὰς κοινὰς  φιλοσοφεῖν ἐννοίας ὁμολογοῦντί γε καὶ τῶν αἰσθήσεων περιφρονεῖν, ἀφʼ ὧν σχεδὸν αἱ πλεῖσται γεγόνασιν ἔννοιαι, τήν γε περὶ τὰ φαινόμενα πίστιν ἕδραν ἔχουσαι καὶ ἀσφάλειαν. ἐμὲ δὲ πολλῆς, ὣς γʼ ἐμαυτῷ φαίνομαι, καὶ ἀτόπου μεστὸν ἥκοντα   ταραχῆς εἴτε τισὶ λόγοις εἴτʼ ἐπῳδαῖς εἴτʼ ἄλλον ἐπίστασαι τρόπον παρηγορίας οὐκ ἂν φθάνοις ἰατρεύων οὕτω σοι διασέσεισμαι καὶ γέγονα μετέωρος ὑπὸ Στωικῶν ἀνδρῶν, τὰ μὲν ἄλλα βελτίστων καὶ νὴ Δία συνήθων καὶ φίλων, πικρῶς δʼ ἄγαν  ἐγκειμένων τῇ Ἀκαδημίᾳ καὶ ἀπεχθῶς· οἵ γε πρὸς μικρὰ καὶ μετʼ αἰδοῦς τὰ παρʼ ἐμοῦ λεχθέντα σεμνῶς, οὐ γὰρ ψεύσομαι, οὐ πράως ᾐτιάσαντο· τοὺς δὲ πρεσβυτέρους μετʼ ὀργῆς σοφιστὰς καὶ λυμεῶνας τῶν ἐν φιλοσοφίᾳ δογμάτων ὁδῷ βαδιζόντων καὶ'
+      original_scene: null
+      relationship_to_handbook: The complete normalized handbook string occurs in the local canonical Greek corpus; dramatic or prose context still requires manual comparison before treating it as a contextual attestation.
+      adaptations: []
+      confidence: candidate
+      research_method: exact normalized Unicode search across local canonical-greekLit XML
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: f-02-018
     source_locator:
       file: part-f.yaml
@@ -2010,16 +2581,27 @@ scenes:
       variants:
       - de: Du warst gestern bei mir.
         ja_current: 昨日はうちにいたね。
-        ja_proposed: 昨日はうちにいたね。
-        decision: pending-review
+        ja_proposed: 昨日は君がうちに来たね。
+        decision: revise
         rationale: null
         alternatives: []
       register: null
       scene_dependency: null
-    attestations: []
+    attestations:
+    - target: 'παρ’ ἐμοὶ χθὲς ἦσθα.'
+      status: not-found
+      match_type: not-found
+      reference_as_given: null
+      source: null
+      text_grc: null
+      original_scene: null
+      relationship_to_handbook: No exact normalized single-line occurrence was located in the local canonical Greek corpus; the wording is treated as a handbook composition unless later evidence is found.
+      adaptations: []
+      confidence: medium
+      research_method: exact normalized Unicode search across all local canonical-greekLit XML files
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: f-02-019
     source_locator:
       file: part-f.yaml
@@ -2053,16 +2635,27 @@ scenes:
       variants:
       - de: Kommt heute in meine Wohnung!
         ja_current: 今日は私の家においで！
-        ja_proposed: 今日は私の家においで！
-        decision: pending-review
+        ja_proposed: 今日はみんな、うちへおいで！
+        decision: revise
         rationale: null
         alternatives: []
       register: null
       scene_dependency: null
-    attestations: []
+    attestations:
+    - target: 'ἥκετ’ \emph{εἰς ἐμοῦ} τήμερον!'
+      status: not-found
+      match_type: not-found
+      reference_as_given: null
+      source: null
+      text_grc: null
+      original_scene: null
+      relationship_to_handbook: No exact normalized single-line occurrence was located in the local canonical Greek corpus; the wording is treated as a handbook composition unless later evidence is found.
+      adaptations: []
+      confidence: medium
+      research_method: exact normalized Unicode search across all local canonical-greekLit XML files
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
 - id: f-03
   title:
     de: Sitzen. Stehen
@@ -2071,18 +2664,44 @@ scenes:
   setting:
     situation: directions and remarks about sitting and standing
   cast:
-  - id: speaker
-    description: null
-    evidence: null
-    confidence: candidate
-  - id: interlocutor
-    description: null
-    evidence: null
-    confidence: candidate
+  - id: host
+    description: Familiar host offering seats, food, and drink.
+    evidence: Invitations to sit and offers of supper.
+    confidence: medium
+  - id: guest
+    description: Familiar guest answering, requesting refreshments, and commenting on a seat.
+    evidence: First-person responses and requests in entries 2, 7-8, 10, 12, and 14.
+    confidence: medium
+  - id: officer
+    description: Military superior issuing standing orders in the final phrase cluster.
+    evidence: Explicit address Herr Hauptmann in entry 21 identifies the respondent's superior.
+    confidence: high
+  - id: soldier
+    description: Soldier acknowledging the captain's command.
+    evidence: Zu Befehl, Herr Hauptmann / προστάττετε, ὦ λοχαγέ.
+    confidence: high
   reconstruction:
-    confidence: unreviewed
-    note: Ordering may combine a continuous exchange with reusable model phrases; turn continuity must
-      be justified entry by entry.
+    confidence: medium
+    note: >-
+      Entries 1-15 are several compatible but partly alternative host-and-guest exchanges. Entries
+      16-18 concern someone occupying the wrong place and being ordered up. Entries 19-21 are a
+      separate military drill exchange; their abrupt register must not color the domestic phrases.
+  voice_profiles:
+    host: {register: plain-polite, traits: [welcoming, practical]}
+    guest: {register: plain, traits: [familiar, direct]}
+    officer: {register: commanding, traits: [peremptory]}
+    soldier: {register: military-deferential, traits: [crisp]}
+  turn_groups:
+  - entries: [f-03-001, f-03-002]
+    description: command to remove outerwear and response
+  - entries: [f-03-003, f-03-004, f-03-005, f-03-006, f-03-007, f-03-008, f-03-009]
+    description: alternative questions, invitations, and remarks concerning seats
+  - entries: [f-03-010, f-03-011, f-03-012, f-03-013, f-03-014, f-03-015]
+    description: requests and offers of food and drink
+  - entries: [f-03-016, f-03-017, f-03-018]
+    description: rebuke and increasingly urgent orders to vacate a place
+  - entries: [f-03-019, f-03-020, f-03-021]
+    description: military standing orders and acknowledgment
   entries:
   - id: f-03-001
     source_locator:
@@ -2109,24 +2728,89 @@ scenes:
       followed_by: null
       alternatives: []
     grammar:
-      syntax: null
-      literal_gloss: null
-      particles_and_idioms: []
-      pragmatic_force: null
+      syntax: Present middle imperative, second person singular, of ἀποδύω/ἀποδύομαι; the omitted object is supplied by the situation.
+      literal_gloss: Take [your clothing] off.
+      particles_and_idioms:
+      - Greek ἀποδύεσθαι normally denotes taking clothing or equipment off; it does not by itself specify footwear.
+      - German etwas ablegen likewise leaves the object implicit, while the response sich ausziehen points to clothing.
+      pragmatic_force: A familiar host invites or tells an arriving guest to remove outdoor clothing before sitting down.
     translation:
       variants:
       - de: Leg' ab!
         ja_current: 脱げ！
-        ja_proposed: 脱げ！
-        decision: pending-review
-        rationale: null
-        alternatives: []
+        ja_proposed: 上着を脱いでくれ！
+        decision: revise
+        rationale: >-
+          Neither German nor Greek names a particular garment. In a respectable Leipzig visiting
+          scene of 1889, visitors ordinarily retained their clean street shoes as part of their
+          visiting dress, but put aside a hat and outdoor garment. 「服を脱いでくれ」 would suggest
+          undressing too fully in Japanese, while 「履物を脱いでくれ」 is historically and lexically
+          too specific; 「上着」 supplies the most plausible situational object.
+        alternatives:
+        - ja: 外套を脱いでくれ！
+          note: Historically plausible and more literary, but specifies an overcoat more narrowly than the sources do.
+        - ja: それを脱いでくれ！
+          note: Preserves the omitted object but requires a visibly present garment and is less independently usable.
       register: null
       scene_dependency: null
-    attestations: []
+    attestations:
+    - target: 'ἀποδύου!'
+      status: exact-inflection-not-found
+      match_type: not-found
+      reference_as_given: null
+      source: null
+      text_grc: null
+      original_scene: null
+      relationship_to_handbook: >-
+        No occurrence of this exact second-person singular present middle imperative was located in
+        the local canonical Greek corpus. This is an exact-form result only: the verb and closely
+        corresponding imperatives are well attested and are documented below.
+      adaptations: []
+      confidence: medium
+      research_method: exact normalized Unicode search across all local canonical-greekLit XML files
+    - target: 'ἀποδύου!'
+      status: source-context-checked
+      match_type: near-exact
+      reference_as_given: Aristophanes, Thesmophoriazusae 214
+      source:
+        author: Aristophanes
+        work: Thesmophoriazusae
+        passage: 213-214
+        local_file: /home/mrty/Documents/Resources/canonical-greekLit/data/tlg0019/tlg008/tlg0019.tlg008.perseus-grc2.xml
+      text_grc: 'ἄγε νυν ἐπειδὴ σαυτὸν ἐπιδίδως ἐμοί, ἀπόδυθι τουτὶ θοἰμάτιον.'
+      original_scene: Euripides orders Mnesilochus to take off the cloak or outer garment he is wearing.
+      relationship_to_handbook: >-
+        The aorist imperative ἀπόδυθι differs aspectually from the handbook's present ἀποδύου, but
+        the explicitly named θοἰμάτιον confirms that the verb naturally denotes removing a garment.
+      adaptations: [present middle imperative substituted for aorist imperative, garment object omitted]
+      confidence: high
+      research_method: lemma and inflection search across local canonical-greekLit XML; dramatic context manually checked
+    - target: ἀποδύω
+      status: lexicon-checked
+      match_type: lexical-only
+      reference_as_given: LSJ, s.v. ἀποδύω II
+      source:
+        author: Liddell, Scott, Jones
+        work: A Greek-English Lexicon
+        passage: ἀποδύω II
+        local_file: /home/mrty/Documents/Resources/LSJ_GreekUnicode/grc.lsj.perseus-eng1.xml
+      text_grc: 'ἀπόδυθι . . θοἰμάτιον'
+      original_scene: null
+      relationship_to_handbook: >-
+        LSJ defines the middle as “strip off oneself, take off” and cites Aristophanes'
+        garment-specific imperative. It supports clothing in general, not shoes specifically.
+      adaptations: []
+      confidence: high
+      research_method: local LSJ entry manually checked
     textual_issues: []
-    review_comments: []
-    status: unreviewed
+    review_comments:
+    - type: historical-context
+      note: >-
+        A study of nineteenth-century German bourgeois dress by the LVR Industriemuseum states that
+        visitors wore street dress for calls and that shoes were expected to be clean and polished;
+        this favors an outdoor garment over shoes as the implicit object.
+      source_url: https://industriemuseum.lvr.de/media/imus/museum/mediencenter/rat_3/Kleider_machen_Leute_Lebensgeschichten_-_Arbeitsplaetze_-_gute_Stuecke_.pdf
+    status: ja-proposed
   - id: f-03-002
     source_locator:
       file: part-f.yaml
@@ -2152,24 +2836,44 @@ scenes:
       followed_by: null
       alternatives: []
     grammar:
-      syntax: null
-      literal_gloss: null
-      particles_and_idioms: []
-      pragmatic_force: null
+      syntax: Present middle indicative, first person singular, with imperfective aspect; in this command-response context it presents the action as currently underway.
+      literal_gloss: And now indeed I am taking [my clothing] off.
+      particles_and_idioms:
+      - καὶ δή marks the commanded action as now actually being performed and functions here as a prompt-compliance formula.
+      - German schon likewise means that the speaker has already begun complying, not necessarily that the action is complete.
+      pragmatic_force: The addressee answers the preceding command by saying that the requested action is already in progress.
     translation:
       variants:
       - de: Ich ziehe mich schon aus.
         ja_current: もう脱いでいるよ。
-        ja_proposed: もう脱いでいるよ。
-        decision: pending-review
-        rationale: null
-        alternatives: []
+        ja_proposed: もう脱いでいるところだよ。
+        decision: revise
+        rationale: >-
+          The imperfective present ἐκδύομαι and German present ziehe mich aus view the action from
+          within as it proceeds. 「もう脱いでいる」 can instead be understood as the completed state
+          “I already have it off”; 「脱いでいるところ」 makes the ongoing aspect unambiguous.
+        alternatives:
+        - ja: ほら、もう脱いでるよ。
+          note: Natural colloquial Japanese; the visible situation would normally supply the progressive reading.
+        - ja: 今、脱いでるよ。
+          note: Clearly progressive, but renders schon and καὶ δή less fully.
       register: null
       scene_dependency: null
-    attestations: []
+    attestations:
+    - target: 'καὶ δὴ ἐκδύομαι.'
+      status: not-found
+      match_type: not-found
+      reference_as_given: null
+      source: null
+      text_grc: null
+      original_scene: null
+      relationship_to_handbook: No exact normalized single-line occurrence was located in the local canonical Greek corpus; the wording is treated as a handbook composition unless later evidence is found.
+      adaptations: []
+      confidence: medium
+      research_method: exact normalized Unicode search across all local canonical-greekLit XML files
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: f-03-003
     source_locator:
       file: part-f.yaml
@@ -2204,15 +2908,26 @@ scenes:
       - de: Wohin wollen wir uns setzen?
         ja_current: どこに座ろうか？
         ja_proposed: どこに座ろうか？
-        decision: pending-review
+        decision: revise
         rationale: null
         alternatives: []
       register: null
       scene_dependency: null
-    attestations: []
+    attestations:
+    - target: '\emph{ποῦ} καθιζησόμεθα;'
+      status: not-found
+      match_type: not-found
+      reference_as_given: null
+      source: null
+      text_grc: null
+      original_scene: null
+      relationship_to_handbook: No exact normalized single-line occurrence was located in the local canonical Greek corpus; the wording is treated as a handbook composition unless later evidence is found.
+      adaptations: []
+      confidence: medium
+      research_method: exact normalized Unicode search across all local canonical-greekLit XML files
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: f-03-004
     source_locator:
       file: part-f.yaml
@@ -2246,16 +2961,31 @@ scenes:
       variants:
       - de: Nehmt Platz!
         ja_current: 座ってください！
-        ja_proposed: 座ってください！
-        decision: pending-review
+        ja_proposed: 皆さん、お掛けください！
+        decision: revise
         rationale: null
         alternatives: []
       register: null
       scene_dependency: null
-    attestations: []
+    attestations:
+    - target: 'κάθησθε!'
+      status: exact-string-located-context-pending
+      match_type: exact
+      reference_as_given: null
+      source:
+        author: null
+        work: null
+        passage: 'XML line 443'
+        local_file: /home/mrty/Documents/Resources/canonical-greekLit/data/tlg0557/tlg001/tlg0557.tlg001.perseus-grc2.xml
+      text_grc: 'οὔ· ἀλλὰ κάθησθε τὰ μὲν μὴ συμβῇ τρέμοντες, τῶν δὲ συμβαινόντων ὀδυρόμενοι καὶ πενθοῦντες καὶ στένοντες· εἶτα τοῖς θεοῖς ἐγκαλεῖτε.'
+      original_scene: null
+      relationship_to_handbook: The complete normalized handbook string occurs in the local canonical Greek corpus; dramatic or prose context still requires manual comparison before treating it as a contextual attestation.
+      adaptations: []
+      confidence: candidate
+      research_method: exact normalized Unicode search across local canonical-greekLit XML
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: f-03-005
     source_locator:
       file: part-f.yaml
@@ -2292,21 +3022,36 @@ scenes:
       - de: Setzen Sie sich!
         ja_current: お掛けください！
         ja_proposed: お掛けください！
-        decision: pending-review
+        decision: revise
         rationale: null
         alternatives: []
       - de: Setz' dich nieder!
         ja_current: 座りなさい！
         ja_proposed: 座りなさい！
-        decision: pending-review
+        decision: revise
         rationale: null
         alternatives: []
       register: null
       scene_dependency: null
-    attestations: []
+    attestations:
+    - target: 'κάθιζε!'
+      status: exact-string-located-context-pending
+      match_type: exact
+      reference_as_given: null
+      source:
+        author: null
+        work: null
+        passage: 'XML line 135'
+        local_file: /home/mrty/Documents/Resources/canonical-greekLit/data/tlg0013/tlg019/tlg0013.tlg019.perseus-grc2.xml
+      text_grc: 'πὰρ δὲ Ζηνὶ κάθιζε καὶ ἄλλοις ἀθανάτοισι,'
+      original_scene: null
+      relationship_to_handbook: The complete normalized handbook string occurs in the local canonical Greek corpus; dramatic or prose context still requires manual comparison before treating it as a contextual attestation.
+      adaptations: []
+      confidence: candidate
+      research_method: exact normalized Unicode search across local canonical-greekLit XML
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: f-03-006
     source_locator:
       file: part-f.yaml
@@ -2340,8 +3085,8 @@ scenes:
       variants:
       - de: Wenn du erlaubst!
         ja_current: 君がよければ。
-        ja_proposed: 君がよければ。
-        decision: pending-review
+        ja_proposed: 君さえよければ。
+        decision: revise
         rationale: null
         alternatives: []
       register: null
@@ -2370,7 +3115,7 @@ scenes:
       research_method: exact normalized token search
     textual_issues: []
     review_comments: []
-    status: source-researched
+    status: ja-proposed
   - id: f-03-007
     source_locator:
       file: part-f.yaml
@@ -2404,16 +3149,31 @@ scenes:
       variants:
       - de: So, ich sitze.
         ja_current: よし、座った。
-        ja_proposed: よし、座った。
-        decision: pending-review
+        ja_proposed: ほら、座ったよ。
+        decision: revise
         rationale: null
         alternatives: []
       register: null
       scene_dependency: null
-    attestations: []
+    attestations:
+    - target: 'ἰδού· κάθημαι.'
+      status: exact-string-located-context-pending
+      match_type: exact
+      reference_as_given: null
+      source:
+        author: null
+        work: null
+        passage: 'XML line 633'
+        local_file: /home/mrty/Documents/Resources/canonical-greekLit/data/tlg0019/tlg003/tlg0019.tlg003.perseus-grc2.xml
+      text_grc: 'ἰδοὺ κάθημαι.'
+      original_scene: null
+      relationship_to_handbook: The complete normalized handbook string occurs in the local canonical Greek corpus; dramatic or prose context still requires manual comparison before treating it as a contextual attestation.
+      adaptations: []
+      confidence: candidate
+      research_method: exact normalized Unicode search across local canonical-greekLit XML
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: f-03-008
     source_locator:
       file: part-f.yaml
@@ -2447,8 +3207,8 @@ scenes:
       variants:
       - de: Ich sitze schon!
         ja_current: もう座っているよ。
-        ja_proposed: もう座っているよ。
-        decision: pending-review
+        ja_proposed: とっくに座っているよ。
+        decision: revise
         rationale: null
         alternatives: []
       register: null
@@ -2477,7 +3237,7 @@ scenes:
       research_method: exact normalized token search
     textual_issues: []
     review_comments: []
-    status: source-researched
+    status: ja-proposed
   - id: f-03-009
     source_locator:
       file: part-f.yaml
@@ -2511,16 +3271,27 @@ scenes:
       variants:
       - de: Du hast keinen guten Platz.
         ja_current: いい場所に座っていないね。
-        ja_proposed: いい場所に座っていないね。
-        decision: pending-review
+        ja_proposed: 君の席は、あまりよくないね。
+        decision: revise
         rationale: null
         alternatives: []
       register: null
       scene_dependency: null
-    attestations: []
+    attestations:
+    - target: 'οὐ καθίζεις ἐν καλῷ.'
+      status: not-found
+      match_type: not-found
+      reference_as_given: null
+      source: null
+      text_grc: null
+      original_scene: null
+      relationship_to_handbook: No exact normalized single-line occurrence was located in the local canonical Greek corpus; the wording is treated as a handbook composition unless later evidence is found.
+      adaptations: []
+      confidence: medium
+      research_method: exact normalized Unicode search across all local canonical-greekLit XML files
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: f-03-010
     source_locator:
       file: part-f.yaml
@@ -2554,16 +3325,27 @@ scenes:
       variants:
       - de: Hast du nichts zu essen?
         ja_current: 食べるものがないの？
-        ja_proposed: 食べるものがないの？
-        decision: pending-review
+        ja_proposed: 何か食べるものはないのか？
+        decision: revise
         rationale: null
         alternatives: []
       register: null
       scene_dependency: null
-    attestations: []
+    attestations:
+    - target: 'οὐκ ἔχεις καταφαγεῖν;'
+      status: not-found
+      match_type: not-found
+      reference_as_given: null
+      source: null
+      text_grc: null
+      original_scene: null
+      relationship_to_handbook: No exact normalized single-line occurrence was located in the local canonical Greek corpus; the wording is treated as a handbook composition unless later evidence is found.
+      adaptations: []
+      confidence: medium
+      research_method: exact normalized Unicode search across all local canonical-greekLit XML files
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: f-03-011
     source_locator:
       file: part-f.yaml
@@ -2597,8 +3379,8 @@ scenes:
       variants:
       - de: \emph{Darf ich} dir ein Abendbrot vorsetzen?
         ja_current: 夕食を出してもいいかい？
-        ja_proposed: 夕食を出してもいいかい？
-        decision: pending-review
+        ja_proposed: 夕食を\emph{お出ししましょうか}？
+        decision: revise
         rationale: null
         alternatives: []
       register: null
@@ -2627,7 +3409,7 @@ scenes:
       research_method: exact normalized token search
     textual_issues: []
     review_comments: []
-    status: source-researched
+    status: ja-proposed
   - id: f-03-012
     source_locator:
       file: part-f.yaml
@@ -2661,16 +3443,29 @@ scenes:
       variants:
       - de: Ich bitte nur um ein Stück Brot und Fleisch.
         ja_current: パンと肉を少しだけいただければ十分です。
-        ja_proposed: パンと肉を少しだけいただければ十分です。
-        decision: pending-review
+        ja_proposed: パンと肉を少しだけいただきたいのですが。
+        decision: revise
         rationale: null
         alternatives: []
       register: null
       scene_dependency: null
-    attestations: []
-    textual_issues: []
+    attestations:
+    - target: 'αἰτῶ λαβεῖν τιν’ ἄρτον καὶ κρέας.!'
+      status: not-found
+      match_type: not-found
+      reference_as_given: null
+      source: null
+      text_grc: null
+      original_scene: null
+      relationship_to_handbook: No exact normalized single-line occurrence was located in the local canonical Greek corpus; the wording is treated as a handbook composition unless later evidence is found.
+      adaptations: []
+      confidence: medium
+      research_method: exact normalized Unicode search across all local canonical-greekLit XML files
+    textual_issues:
+    - type: punctuation-error
+      note: Greek ends with the duplicated punctuation sequence .!; only one final mark is required.
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: f-03-013
     source_locator:
       file: part-f.yaml
@@ -2704,16 +3499,27 @@ scenes:
       variants:
       - de: Ich habe mir zu trinken \emph{mitgebracht}.
         ja_current: 飲み物は持ってきました。
-        ja_proposed: 飲み物は持ってきました。
-        decision: pending-review
+        ja_proposed: 飲み物なら\emph{持ってきた}よ。
+        decision: revise
         rationale: null
         alternatives: []
       register: null
       scene_dependency: null
-    attestations: []
+    attestations:
+    - target: '\emph{ἥκω φέρων} πιεῖν.'
+      status: not-found
+      match_type: not-found
+      reference_as_given: null
+      source: null
+      text_grc: null
+      original_scene: null
+      relationship_to_handbook: No exact normalized single-line occurrence was located in the local canonical Greek corpus; the wording is treated as a handbook composition unless later evidence is found.
+      adaptations: []
+      confidence: medium
+      research_method: exact normalized Unicode search across all local canonical-greekLit XML files
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: f-03-014
     source_locator:
       file: part-f.yaml
@@ -2747,16 +3553,31 @@ scenes:
       variants:
       - de: Gieb mir einmal zu trinken!
         ja_current: ちょっと飲み物をください。
-        ja_proposed: ちょっと飲み物をください。
-        decision: pending-review
+        ja_proposed: ちょっと、飲み物をくれ。
+        decision: revise
         rationale: null
         alternatives: []
       register: null
       scene_dependency: null
-    attestations: []
+    attestations:
+    - target: 'δός μοι πιεῖν.'
+      status: exact-string-located-context-pending
+      match_type: exact
+      reference_as_given: null
+      source:
+        author: null
+        work: null
+        passage: 'XML line 1604'
+        local_file: /home/mrty/Documents/Resources/canonical-greekLit/data/tlg2040/tlg004/tlg2040.tlg004.perseus-grc2.xml
+      text_grc: 'Ὅτι τὸ οὐδεὶς καθολικὸν μὲν εἶναι δοκεῖ ῥῆμα, ὡς μηδὲ ἓν πρόσωπον διὰ τῆς φωνῆς ταύτης ὑπεξῃρῆσθαι· ἔστι δὲ οὐχ οὕτω παρὰ τῇ Γραφῇ ἀναφερόμενον, ὡς τετηρήκαμεν ἐπὶ τοῦ, Οὐδεὶς ἀγαθὸς εἰ μὴ εἷς ὁ Θεός. οὐδὲ γὰρ ἐκεῖ ἑαυτὸν ἔξω τιθεὶς τῆς τοῦ ἀγαθοῦ φύσεως ὁ Υἱός, ταῦτα λέγει. ἀλλʼ ἐπειδὴ τὸ πρῶτον ἀγαθὸν ὁ Πατήρ, τὸ οὐδεὶς συνυπακουομένου τοῦ πρῶτος, εἰρῆσθαι πιστεύομεν. καὶ τὸ Οὐδεὶς οἶδε τὸν Υἱὸν εἰ μὴ ὁ Πατήρ. οὐδὲ γὰρ ἐκεῖ ἄγνοιαν τοῦ Πνεύματος κατηγορεῖ, ἀλλὰ πρώτῳ τῷ Πατρὶ ὑπάρχειν τὴν γνῶσιν τῆς ἑαυτοῦ φύσεως μαρτυρεῖ. οὕτω καὶ τὸ Οὐδεὶς οἶδε τὴν πρώτην εἴδησιν τῶν τε ὄντων καὶ τῶν ἐσομένων ἐπὶ τὸν Πατέρα ἀνάγοντος, καὶ διὰ πάντων τὴν πρώτην αἰτίαν τοῖς ἀνθρώποις ὑποδεικνύντος εἰρῆσθαι νομίζομεν. ἐπεὶ πῶς ἢ ταῖς λοιπαῖς μαρτυρίαις τῆς Γραφῆς ἀκολουθεῖ τὸ ῥητόν, ἢ ταῖς κοιναῖς ἡμῶν ἐννοίαις συμβαίνειν δύναται, τῶν πεπιστευκότων εἰκόνα δὲ εἶναι τοῦ Θεοῦ τοῦ ἀοράτου τὸν Μονογενῆ, εἰκόνα δέ, οὐ χαρακτῆρος σωματικοῦ, ἀλλʼ αὐτῆς τῆς θεότητος, καὶ τῶν ἐπινοουμένων τῇ οὐσίᾳ τοῦ Θεοῦ μεγαλείων, εἰκόνα δυνάμεως, εἰκόνα σοφίας, καθὸ εἴρηται Χριστὸς Θεοῦ δύναμις καὶ Θεοῦ σοφία; μέρος δὲ δηλονότι τῆς σοφίας ἡ γνῶσις· ἣν οὐκ ἐξεικονίζει  πᾶσαν, εἴπερ τινῶν ἀπολείπεται. πῶς δὲ καὶ ὁ Πατήρ, δι’ οὗ τοὺς αἰῶνας ἐποίησε, τούτῳ τὸ ἐλάχιστον μέρος τῶν αἰώνων, τὴν ἡμέραν ἐκείνην καὶ τὴν ὥραν, οὐκ ἔδειξεν; ἢ πῶς ὁ τῶν ὅλων ποιητὴς τοῦ ἐλαχίστου μέρους τῶν ὑπʼ αὐτοῦ κτισθέντων τῆς γνώσεως ἀπολείπεται; ὁ δὲ λέγων, πλησίον τοῦ τέλους, τάδε καὶ τάδε ἐν τῷ οὐρανῷ σημεῖα καὶ ἐν τοῖς κατὰ γῆν χωρίοις φανήσεσθαι, πῶς αὐτὸ τὸ τέλος ἀγνοεῖ; ἐν οἷς γὰρ λέγει, Οὔπω τὸ τέλος, οὐχ ὡς ἀμφιβάλλων, ἀλλʼ ὡς εἰδὼς διορίζεται. ἔπειτα μέντοι εὐγνωμόνως σκοποῦντι, πολλὰ καὶ ἀπὸ τοῦ ἀνθρωπίνου μέρους ὁ Κύριος διαλέγεται τοῖς ἀνθρώποις· οἷον, Δός μοι πιεῖν, φωνή ἐστι τοῦ Κυρίου τὴν σωματικὴν χρείαν ἐκπληροῦσα. καίτοι ὁ αἰτῶν οὐχὶ σὰρξ ἦν ἄψυχος, ἀλλὰ θεότης σαρκὶ ἐμψύχῳ κεχρημένη. οὕτω καὶ νῦν τὸ τῆς ἀγνοίας ἐπὶ τὸν οἰκονομικῶς πάντα καταδεξάμενον, καὶ προκόπτοντα παρὰ Θεῷ καὶ ἀνθρώποις σοφίᾳ καὶ χάριτι, λαμβάνων τις, οὐκ ἔξω τῆς εὐσεβοῦς ἐνεχθήσεται διανοίας.'
+      original_scene: null
+      relationship_to_handbook: The complete normalized handbook string occurs in the local canonical Greek corpus; dramatic or prose context still requires manual comparison before treating it as a contextual attestation.
+      adaptations: []
+      confidence: candidate
+      research_method: exact normalized Unicode search across local canonical-greekLit XML
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: f-03-015
     source_locator:
       file: part-f.yaml
@@ -2790,16 +3611,31 @@ scenes:
       variants:
       - de: Gleich.
         ja_current: すぐ。
-        ja_proposed: すぐ。
-        decision: pending-review
+        ja_proposed: はい、ただいま。
+        decision: revise
         rationale: null
         alternatives: []
       register: null
       scene_dependency: null
-    attestations: []
+    attestations:
+    - target: 'ἰδού.'
+      status: exact-string-located-context-pending
+      match_type: exact
+      reference_as_given: null
+      source:
+        author: null
+        work: null
+        passage: 'XML line 137'
+        local_file: /home/mrty/Documents/Resources/canonical-greekLit/data/tlg0007/tlg087/tlg0007.tlg087.perseus-grc4.xml
+      text_grc: 'Ἀλεξάνδρῳ δὲ τί παρʼ ἀξίαν, τί ἀνιδρωτί, τί ἀναιμωτί, τί προῖκα, τί πονήσαντι τῶν μεγάλων; αἵματι κεκραμένους ποταμοὺς ἔπιε καὶ νεκροῖς γεγεφυρωμένους διέβη, καὶ πόαν ἔφαγε διὰ λιμὸν ἣν πρώτην  πρώτην Abreschius: πρῶτον  εἶδε, καὶ βάθεσι χιόνων κατακεχωσμένα ἔθνη  καὶ πόλεις ὑπὸ γῆν ἐνδεδυκυίας διώρυξε,  ἐνδεδυκυίας διώρυξε: δεδυκυίας ἐξώρυξε  καὶ θάλατταν  μαχομένην ἔπλευσε, καὶ θῖνας ἀνύδρους τὰς Γεδρωσίων  Γεδρωσίων *: γεδροσίων  καὶ Ἀραχωσίων ὁδεύων ἐν θαλάσσῃ πρότερον ἢ ἐν γῇ φυτὸν εἶδεν. εἰ γὰρ ἦν ὡς πρὸς ἄνθρωπον ἀγαγεῖν παρρησίαν ὑπὲρ Ἀλεξάνδρου πρὸς τὴν τύχην, οὐκ ἂν εἶπε ποῦ σὺ καὶ πότε ταῖς Ἀλεξάνδρου πράξεσιν ὁδὸν ἔδωκας; ποίαν πέτραν ἀναιμωτὶ διὰ σὲ εἷλε; ποίαν πόλιν ἀφρούρητον αὐτῷ παρέδωκας ἢ ποίαν ἄοπλον  ἄοπλον *: ἄνοπλον  φάλαγγα; τίς εὑρέθη βασιλεὺς ῥᾴθυμος ἢ στρατηγὸς ἀμελὴς ἢ κοιμώμενος  πυλωρός; ἀλλʼ οὐδʼ εὔβατος ποταμὸς οὐδὲ χειμὼν  μέτριος οὐδὲ θέρος ἄλυπον. ἄπιθι πρὸς Ἀντίοχον  τὸν Σελεύκου, πρὸς Ἀρτοξέρξην  Ἀρτοξέρξην *: ἀρταξέρξην  τὸν Κύρου ἀδελφόν· ἄπελθε πρὸς Πτολεμαῖον τὸν Φιλάδελφον. ἐκείνους ζῶντες οἱ πατέρες βασιλεῖς ἀνηγόρευσαν, ἐκεῖνοι μάχας ἀδακρύτους ἐνίκων, ἐκεῖνοι πανηγυρίζοντες  ἐν πομπαῖς καὶ θεάτροις διετέλεσαν, ἐκείνων ἕκαστος διʼ εὐτυχίαν βασιλεύων ἐγήρασεν. Ἀλεξάνδρου δʼ εἰ μηδὲν ἄλλο, τὸ σῶμʼ ἰδοῦ κατατετρωμένον ἄκρας κεφαλῆς ἄχρι ποδῶν διακέκοπται καὶ περιτέθλασται τυπτόμενον ὑπὸ τῶν πολεμίων   ἔγχεΐ τʼ ἄορί τε μεγάλοισί τε χερμαδίοισιν·  Hom. Λ 265. 541  ἐπὶ Γρανίκου ξίφει διακοπεὶς τὸ κράνος ἄχρι τῶν τριχῶν, ἐν Γάζῃ βέλει πληγεὶς τὸν ὦμον, ἐν Μαρακάνδοις  Μαρακάνδοις *: μαραγάνδοις  τοξεύματι τὴν κνήμην ὥστε τῆς κερκίδος τὸ ὀστέον ἀποκλασθὲν ὑπὸ τῆς πληγῆς ἐξαλέσθαι·  περὶ τὴν Ὑρκανίαν λίθῳ τὸν τράχηλον, ἐξ οὗ καὶ τὰς ὄψεις ἀμαυρωθεὶς ἐφʼ ἡμέρας πολλὰς ἐν φόβῳ πηρώσεως ἐγένετο· πρὸς Ἀσσακάνοις Ἰνδικῷ βέλει τὸ σφυρόν, ὅτε καὶ πρὸς τοὺς κόλακας εἶπεν ἐπιμειδιάσας τουτὶ μὲν αἷμα, οὐκ   ἰχώρ, οἷός πέρ τε ῥέει μακάρεσσι θεοῖσιν·   Hom. E 340 ἐν Ἰσσῷ ξίφει τὸν μηρόν, ὡς Χάρης φησίν, ὑπὸ Δαρείου τοῦ βασιλέως εἰς χεῖρας αὐτῷ συνδραμόντος· αὐτὸς δʼ Ἀλέξανδρος ἁπλῶς γράφων καὶ μετὰ πάσης ἀληθείας πρὸς Ἀντίπατρον συνέβη δέ μοι  φησὶ καὶ αὐτῷ ἐγχειριδίῳ πληγῆναι τὸν  τὸν Abreschius: εἰς τὸν  μηρόν· ἀλλʼ οὐδὲν ἄτοπον οὔτε παραχρῆμα οὔθʼ ὕστερον  ἐκ τῆς πληγῆς ἀπήντησεν ἐν Μαλλοῖς τοξεύματι διπήχει διὰ τοῦ θώρακος εἰς τὸ στῆθος· ὑπελάσας ἔλαβε  ὑπελάσας ἔλαβε] verba lacunosa corrigenda et supplenda videntur ita: ὑ[πέρῳ δέ τις] πελάσας ἔβαλε κατὰ τοῦ αὐχένος  κατὰ τοῦ αὐχένος, ὡς Ἀριστόβουλος ἱστόρηκε. διαβὰς δὲ τὸν Τάναϊν ἐπὶ τοὺς Σκύθας  καὶ τρεψάμενος, ἐδίωξεν ἵππῳ πεντήκοντα καὶ ἑκατὸν σταδίους, ὑπὸ διαρροίας ἐνοχλούμενος.'
+      original_scene: null
+      relationship_to_handbook: The complete normalized handbook string occurs in the local canonical Greek corpus; dramatic or prose context still requires manual comparison before treating it as a contextual attestation.
+      adaptations: []
+      confidence: candidate
+      research_method: exact normalized Unicode search across local canonical-greekLit XML
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: f-03-016
     source_locator:
       file: part-f.yaml
@@ -2833,16 +3669,29 @@ scenes:
       variants:
       - de: Es ist unrecht, daß du hier sitzest.
         ja_current: ここに座っているのはよくない。
-        ja_proposed: ここに座っているのはよくない。
-        decision: pending-review
-        rationale: null
+        ja_proposed: 君がここに座っているのは、よろしくない。
+        decision: revise
+        rationale: >-
+          German calls the act unrecht and Greek ἀδικεῖς rebukes the sitter. In this immediate seating
+          context 「筋違い」 is abstract; 「君の座る席じゃない」 is the natural concrete rebuke.
         alternatives: []
       register: null
       scene_dependency: null
-    attestations: []
+    attestations:
+    - target: 'ἀδικεῖς ἐνθάδε καθήμενος.'
+      status: not-found
+      match_type: not-found
+      reference_as_given: null
+      source: null
+      text_grc: null
+      original_scene: null
+      relationship_to_handbook: No exact normalized single-line occurrence was located in the local canonical Greek corpus; the wording is treated as a handbook composition unless later evidence is found.
+      adaptations: []
+      confidence: medium
+      research_method: exact normalized Unicode search across all local canonical-greekLit XML files
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: f-03-017
     source_locator:
       file: part-f.yaml
@@ -2876,16 +3725,40 @@ scenes:
       variants:
       - de: Steh' \emph{wieder} auf!
         ja_current: もう一度立て！
-        ja_proposed: もう一度立て！
-        decision: pending-review
-        rationale: null
-        alternatives: []
+        ja_proposed: では、立ちなさい！
+        decision: revise
+        rationale: >-
+          German wieder means returning to a standing position after the preceding objection to
+          sitting, rather than repeating an exercise. Japanese 「もう一度立て」 sounds mechanically
+          repetitive, while the preceding context already supplies the change of posture.
+          「では、立ちなさい」 expresses the corrective consequence naturally. The German emphasis
+          is intentionally not reproduced because it has no natural independent scope in Japanese.
+        alternatives:
+        - ja: では、立ち上がりなさい！
+          note: Makes the transition from sitting explicit but is heavier than necessary in context.
+        - ja: さあ、立ちなさい！
+          note: More immediately urging; では better connects the order to the preceding judgment.
       register: null
       scene_dependency: null
-    attestations: []
+    attestations:
+    - target: 'ἀνίστασο!'
+      status: exact-string-located-context-pending
+      match_type: exact
+      reference_as_given: null
+      source:
+        author: null
+        work: null
+        passage: 'XML line 313'
+        local_file: /home/mrty/Documents/Resources/canonical-greekLit/data/tlg0007/tlg016/tlg0007.tlg016.perseus-grc2.xml
+      text_grc: 'ὡς οὖν ταῦτα ὁ Τύλλος ἤκουσεν, ἥσθη τε θαυμαστῶς καὶ τὴν δεξιὰν ἐμβαλών, ἀνίστασο, εἶπεν, ὦ Μάρκιε, καὶ θάρρει. μέγα γὰρ ἡμῖν ἀγαθὸν ἥκεις διδοὺς σεαυτόν, ἔλπιζε δὲ μείζονα παρὰ Οὐολούσκων. καὶ τότε μὲν εἱστία φιλοφρονούμενος τὸν Μάρκιον, ἐν δὲ ταῖς ἐπιούσαις ἡμέραις ἐβουλεύοντο περὶ τοῦ πολέμου καθʼ ἑαυτούς.'
+      original_scene: null
+      relationship_to_handbook: The complete normalized handbook string occurs in the local canonical Greek corpus; dramatic or prose context still requires manual comparison before treating it as a contextual attestation.
+      adaptations: []
+      confidence: candidate
+      research_method: exact normalized Unicode search across local canonical-greekLit XML
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: f-03-018
     source_locator:
       file: part-f.yaml
@@ -2919,8 +3792,8 @@ scenes:
       variants:
       - de: So steh' doch schnell auf, ehe dich jemand sieht!
         ja_current: 誰かに見られる前に早く立て！
-        ja_proposed: 誰かに見られる前に早く立て！
-        decision: pending-review
+        ja_proposed: 誰かに見られないうちに、早く立たないか！
+        decision: revise
         rationale: null
         alternatives: []
       register: null
@@ -2950,7 +3823,7 @@ scenes:
       research_method: exact normalized token search
     textual_issues: []
     review_comments: []
-    status: source-researched
+    status: ja-proposed
   - id: f-03-019
     source_locator:
       file: part-f.yaml
@@ -2984,16 +3857,27 @@ scenes:
       variants:
       - de: Steh' gerade!
         ja_current: まっすぐ立て！
-        ja_proposed: まっすぐ立て！
-        decision: pending-review
+        ja_proposed: 気をつけ！
+        decision: revise
         rationale: null
         alternatives: []
       register: null
       scene_dependency: null
-    attestations: []
+    attestations:
+    - target: 'ἀνίστασο ὀρθός.'
+      status: not-found
+      match_type: not-found
+      reference_as_given: null
+      source: null
+      text_grc: null
+      original_scene: null
+      relationship_to_handbook: No exact normalized single-line occurrence was located in the local canonical Greek corpus; the wording is treated as a handbook composition unless later evidence is found.
+      adaptations: []
+      confidence: medium
+      research_method: exact normalized Unicode search across all local canonical-greekLit XML files
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: f-03-020
     source_locator:
       file: part-f.yaml
@@ -3027,16 +3911,31 @@ scenes:
       variants:
       - de: \emph{Bleib'} stehen!
         ja_current: そのまま立っていろ！
-        ja_proposed: そのまま立っていろ！
-        decision: pending-review
+        ja_proposed: \emph{そのまま}立っていろ！
+        decision: revise
         rationale: null
         alternatives: []
       register: null
       scene_dependency: null
-    attestations: []
+    attestations:
+    - target: 'στῆθι.'
+      status: exact-string-located-context-pending
+      match_type: exact
+      reference_as_given: null
+      source:
+        author: null
+        work: null
+        passage: 'XML line 12045'
+        local_file: /home/mrty/Documents/Resources/canonical-greekLit/data/tlg7000/tlg001/tlg7000.tlg001.perseus-grc7.xml
+      text_grc: 'στῆθι πέλας, καὶ κλαῦσον ἰδὼν τόδε σῆμα θανόντος,'
+      original_scene: null
+      relationship_to_handbook: The complete normalized handbook string occurs in the local canonical Greek corpus; dramatic or prose context still requires manual comparison before treating it as a contextual attestation.
+      adaptations: []
+      confidence: candidate
+      research_method: exact normalized Unicode search across local canonical-greekLit XML
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: f-03-021
     source_locator:
       file: part-f.yaml
@@ -3070,16 +3969,27 @@ scenes:
       variants:
       - de: Zu Befehl, Herr Hauptmann!
         ja_current: 了解しました、隊長！
-        ja_proposed: 了解しました、隊長！
-        decision: pending-review
+        ja_proposed: はっ、承知しました、大尉殿！
+        decision: revise
         rationale: null
         alternatives: []
       register: null
       scene_dependency: null
-    attestations: []
+    attestations:
+    - target: 'ταῦτα, ὦ λοχαγέ!'
+      status: not-found
+      match_type: not-found
+      reference_as_given: null
+      source: null
+      text_grc: null
+      original_scene: null
+      relationship_to_handbook: No exact normalized single-line occurrence was located in the local canonical Greek corpus; the wording is treated as a handbook composition unless later evidence is found.
+      adaptations: []
+      confidence: medium
+      research_method: exact normalized Unicode search across all local canonical-greekLit XML files
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
 - id: f-04
   title:
     de: Frau und Kinder
@@ -3088,22 +3998,45 @@ scenes:
   setting:
     situation: conversation about a wife and children
   cast:
-  - id: adult-a
-    description: null
-    evidence: null
-    confidence: candidate
-  - id: adult-b
-    description: null
-    evidence: null
-    confidence: candidate
-  - id: family-member
-    description: null
-    evidence: null
-    confidence: candidate
+  - id: parent
+    description: Parent or close family member speaking about the wife and children.
+    evidence: References to meine Frau and domestic knowledge about feeding, washing, and bedtime.
+    confidence: medium
+  - id: spouse
+    description: Wife who cares for the children and answers that she was being sought.
+    evidence: Entries 5-7 and the first-person response in entry 18.
+    confidence: medium
+  - id: uncle
+    description: Uncle arriving with a gift for a child.
+    evidence: Explicit Onkel in entry 15.
+    confidence: high
+  - id: child
+    description: Child addressed affectionately or described at play.
+    evidence: Diminutive Lieschen, gift, clapping, and affectionate address in entries 15-16 and 19.
+    confidence: high
   reconstruction:
-    confidence: unreviewed
-    note: Ordering may combine a continuous exchange with reusable model phrases; turn continuity must
-      be justified entry by entry.
+    confidence: medium
+    note: >-
+      This is a domestic phrase inventory. Entries 1-4 concern birth, childhood, and age; 5-10 a
+      household routine; 11-14 play; 15-16 an uncle's gift and Lieschen's response; 17-18 a likely
+      two-turn search for the wife; and 19 an independent affectionate summons.
+  voice_profiles:
+    parent: {register: plain, traits: [domestic, affectionate]}
+    spouse: {register: plain, traits: [familiar]}
+    uncle: {register: warm, traits: [affectionate]}
+  turn_groups:
+  - entries: [f-04-001, f-04-002, f-04-003, f-04-004]
+    description: statements about birth, children, and age
+  - entries: [f-04-005, f-04-006, f-04-007, f-04-008, f-04-009, f-04-010]
+    description: locating the wife and the children's washing, feeding, and bedtime
+  - entries: [f-04-011, f-04-012, f-04-013, f-04-014]
+    description: children's play
+  - entries: [f-04-015, f-04-016]
+    description: an uncle brings a gift and Lieschen claps with delight
+  - entries: [f-04-017, f-04-018]
+    description: probable call-and-response between spouses, subject to the Greek textual mismatch
+  - entries: [f-04-019]
+    description: affectionate address to a child
   entries:
   - id: f-04-001
     source_locator:
@@ -3138,16 +4071,27 @@ scenes:
       variants:
       - de: Sie hat einen kleinen Jungen bekommen.
         ja_current: 彼女は男の赤ちゃんを産んだ。
-        ja_proposed: 彼女は男の赤ちゃんを産んだ。
-        decision: pending-review
+        ja_proposed: 彼女は男の子を産んだ。
+        decision: revise
         rationale: null
         alternatives: []
       register: null
       scene_dependency: null
-    attestations: []
+    attestations:
+    - target: 'ἄρρεν ἔτεκε παιδίον.'
+      status: not-found
+      match_type: not-found
+      reference_as_given: null
+      source: null
+      text_grc: null
+      original_scene: null
+      relationship_to_handbook: No exact normalized single-line occurrence was located in the local canonical Greek corpus; the wording is treated as a handbook composition unless later evidence is found.
+      adaptations: []
+      confidence: medium
+      research_method: exact normalized Unicode search across all local canonical-greekLit XML files
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: f-04-002
     source_locator:
       file: part-f.yaml
@@ -3182,15 +4126,26 @@ scenes:
       - de: Er hat viele kleine Kinder zu ernähren.
         ja_current: 彼には養うべき小さな子がたくさんいる。
         ja_proposed: 彼には養うべき小さな子がたくさんいる。
-        decision: pending-review
+        decision: keep
         rationale: null
         alternatives: []
       register: null
       scene_dependency: null
-    attestations: []
+    attestations:
+    - target: 'βόσκει μικρὰ πολλὰ παιδία.'
+      status: not-found
+      match_type: not-found
+      reference_as_given: null
+      source: null
+      text_grc: null
+      original_scene: null
+      relationship_to_handbook: No exact normalized single-line occurrence was located in the local canonical Greek corpus; the wording is treated as a handbook composition unless later evidence is found.
+      adaptations: []
+      confidence: medium
+      research_method: exact normalized Unicode search across all local canonical-greekLit XML files
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: f-04-003
     source_locator:
       file: part-f.yaml
@@ -3225,7 +4180,7 @@ scenes:
       - de: Wo sind die Kinder?
         ja_current: 子どもたちはどこだ？
         ja_proposed: 子どもたちはどこだ？
-        decision: pending-review
+        decision: keep
         rationale: null
         alternatives: []
       register: null
@@ -3255,7 +4210,7 @@ scenes:
       research_method: exact normalized token search
     textual_issues: []
     review_comments: []
-    status: source-researched
+    status: ja-proposed
   - id: f-04-004
     source_locator:
       file: part-f.yaml
@@ -3289,16 +4244,27 @@ scenes:
       variants:
       - de: Wo ist meine Frau hin?
         ja_current: 私の妻はどこへ行った？
-        ja_proposed: 私の妻はどこへ行った？
-        decision: pending-review
+        ja_proposed: 私の妻は、いったいどこへ行った？
+        decision: revise
         rationale: null
         alternatives: []
       register: null
       scene_dependency: null
-    attestations: []
+    attestations:
+    - target: 'ποῖ ἡ γυνὴ φρούδη ’στίν;'
+      status: not-found
+      match_type: not-found
+      reference_as_given: null
+      source: null
+      text_grc: null
+      original_scene: null
+      relationship_to_handbook: No exact normalized single-line occurrence was located in the local canonical Greek corpus; the wording is treated as a handbook composition unless later evidence is found.
+      adaptations: []
+      confidence: medium
+      research_method: exact normalized Unicode search across all local canonical-greekLit XML files
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: f-04-005
     source_locator:
       file: part-f.yaml
@@ -3332,16 +4298,27 @@ scenes:
       variants:
       - de: Wer kann mir sagen, wo meine Frau ist?
         ja_current: 妻がどこにいるか誰か教えてくれませんか？
-        ja_proposed: 妻がどこにいるか誰か教えてくれませんか？
-        decision: pending-review
+        ja_proposed: 妻がどこにいるか、誰か教えてくれないか？
+        decision: revise
         rationale: null
         alternatives: []
       register: null
       scene_dependency: null
-    attestations: []
+    attestations:
+    - target: 'τίς ἂν φράσειε, ποῦ ’στι ἡ γυνή;'
+      status: not-found
+      match_type: not-found
+      reference_as_given: null
+      source: null
+      text_grc: null
+      original_scene: null
+      relationship_to_handbook: No exact normalized single-line occurrence was located in the local canonical Greek corpus; the wording is treated as a handbook composition unless later evidence is found.
+      adaptations: []
+      confidence: medium
+      research_method: exact normalized Unicode search across all local canonical-greekLit XML files
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: f-04-006
     source_locator:
       file: part-f.yaml
@@ -3367,24 +4344,60 @@ scenes:
       followed_by: null
       alternatives: []
     grammar:
-      syntax: null
-      literal_gloss: null
-      particles_and_idioms: []
-      pragmatic_force: null
+      syntax: λούει and ψωμίζει are coordinated present indicatives sharing the object τὸ παιδίον.
+      literal_gloss: She bathes and feeds the child.
+      particles_and_idioms:
+      - ψωμίζει means feeding someone by giving morsels or putting food into the mouth.
+      - German päppeln adds a nurturing, solicitous shade beyond neutral füttern.
+      pragmatic_force: A description of a caregiver tending to a small child's washing and feeding.
     translation:
       variants:
       - de: Sie wäscht und päppelt das Kind.
         ja_current: 彼女は子どもを洗って世話している。
-        ja_proposed: 彼女は子どもを洗って世話している。
-        decision: pending-review
-        rationale: null
-        alternatives: []
+        ja_proposed: 彼女は子どもの体を洗い、食べさせてやっている。
+        decision: revise
+        rationale: >-
+          「世話している」 is too broad and loses ψωμίζει's concrete feeding action. Supplying
+          「体」 avoids the awkward impression that 「子どもを」 is shared mechanically by both
+          Japanese verbs, while 「食べさせてやっている」 retains the attentive nurturing shade of
+          German päppeln without changing the basic Greek action.
+        alternatives:
+        - ja: 彼女は子どもの体を洗い、食べさせている。
+          note: More neutral and closest to the Greek alone, but does not convey the affectionate-care nuance of päppeln.
       register: null
       scene_dependency: null
-    attestations: []
+    attestations:
+    - target: 'λούει καὶ ψωμίζει τὸ παιδίον.'
+      status: not-found
+      match_type: not-found
+      reference_as_given: null
+      source: null
+      text_grc: null
+      original_scene: null
+      relationship_to_handbook: No exact normalized single-line occurrence was located in the local canonical Greek corpus; the wording is treated as a handbook composition unless later evidence is found.
+      adaptations: []
+      confidence: medium
+      research_method: exact normalized Unicode search across all local canonical-greekLit XML files
+    - target: ψωμίζει τὸ παιδίον
+      status: source-context-checked
+      match_type: lexical-only
+      reference_as_given: Plutarch, Roman Questions 268f
+      source:
+        author: Plutarch
+        work: Roman Questions
+        passage: 268f
+        local_file: /home/mrty/Documents/Resources/canonical-greekLit/data/tlg0007/tlg084a/tlg0007.tlg084a.perseus-grc2.xml
+      text_grc: 'τοῖς περὶ Ῥωμύλον καὶ Ῥῶμον ἐκτεθεῖσιν οὐ μόνον λύκαινα θηλὴν ἐπεῖχεν, ἀλλὰ καὶ δρυοκολάπτης τις ἐπιφοιτῶν ἐψώμιζεν'
+      original_scene: A woodpecker repeatedly visits and feeds the exposed infant Romulus and Remus, alongside the she-wolf that nurses them.
+      relationship_to_handbook: >-
+        The imperfect ἐψώμιζεν directly attests ψωμίζειν for bringing or giving food to small children;
+        the handbook changes tense and combines the feeding verb with λούει in a domestic-care sentence.
+      adaptations: [imperfect changed to present, plural infants changed to one child, washing clause added]
+      confidence: high
+      research_method: lemma search across local canonical-greekLit XML; Plutarch context manually checked
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: f-04-007
     source_locator:
       file: part-f.yaml
@@ -3418,16 +4431,27 @@ scenes:
       variants:
       - de: Die Kinder sind gewaschen.
         ja_current: 子どもたちは洗われている。
-        ja_proposed: 子どもたちは洗われている。
-        decision: pending-review
+        ja_proposed: 子どもたちは、もう綺麗に洗ってもらっている。
+        decision: revise
         rationale: null
         alternatives: []
       register: null
       scene_dependency: null
-    attestations: []
+    attestations:
+    - target: 'ἀπονενιμμένα ἐστὶ τὰ παιδία.'
+      status: not-found
+      match_type: not-found
+      reference_as_given: null
+      source: null
+      text_grc: null
+      original_scene: null
+      relationship_to_handbook: No exact normalized single-line occurrence was located in the local canonical Greek corpus; the wording is treated as a handbook composition unless later evidence is found.
+      adaptations: []
+      confidence: medium
+      research_method: exact normalized Unicode search across all local canonical-greekLit XML files
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: f-04-008
     source_locator:
       file: part-f.yaml
@@ -3462,15 +4486,26 @@ scenes:
       - de: Sie bringt die Kinder zu Bette.
         ja_current: 彼女は子どもたちを寝かしつける。
         ja_proposed: 彼女は子どもたちを寝かしつける。
-        decision: pending-review
+        decision: keep
         rationale: null
         alternatives: []
       register: null
       scene_dependency: null
-    attestations: []
+    attestations:
+    - target: 'κατακλίνει τὰ παιδία.'
+      status: not-found
+      match_type: not-found
+      reference_as_given: null
+      source: null
+      text_grc: null
+      original_scene: null
+      relationship_to_handbook: No exact normalized single-line occurrence was located in the local canonical Greek corpus; the wording is treated as a handbook composition unless later evidence is found.
+      adaptations: []
+      confidence: medium
+      research_method: exact normalized Unicode search across all local canonical-greekLit XML files
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: f-04-009
     source_locator:
       file: part-f.yaml
@@ -3504,16 +4539,33 @@ scenes:
       variants:
       - de: Es ist \emph{höchste} Zeit.
         ja_current: もういい時間だ。
-        ja_proposed: もういい時間だ。
-        decision: pending-review
-        rationale: null
+        ja_proposed: もう、\emph{とっくに}寝かせる時間だ。
+        decision: revise
+        rationale: >-
+          German Es refers back to putting the children to bed and Greek merely says that it is time.
+          Restoring 「子どもたちを」 lets the phrase remain usable independently.
         alternatives: []
       register: null
       scene_dependency: null
-    attestations: []
+    attestations:
+    - target: 'καιρὸς δέ.'
+      status: exact-string-located-context-pending
+      match_type: exact
+      reference_as_given: null
+      source:
+        author: null
+        work: null
+        passage: 'XML line 6841'
+        local_file: /home/mrty/Documents/Resources/canonical-greekLit/data/tlg0554/tlg001/tlg0554.tlg001.perseus-grc1.xml
+      text_grc: 'καιρὸς δὲ ὀξὺς ἐφέστηκεν ἡμῖν εἰς τὸ βουλεύσασθαι'
+      original_scene: null
+      relationship_to_handbook: The complete normalized handbook string occurs in the local canonical Greek corpus; dramatic or prose context still requires manual comparison before treating it as a contextual attestation.
+      adaptations: []
+      confidence: candidate
+      research_method: exact normalized Unicode search across local canonical-greekLit XML
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: f-04-010
     source_locator:
       file: part-f.yaml
@@ -3547,16 +4599,29 @@ scenes:
       variants:
       - de: Ihr habt lange genug gespielt.
         ja_current: もう十分長く遊んだよ。
-        ja_proposed: もう十分長く遊んだよ。
-        decision: pending-review
-        rationale: null
+        ja_proposed: みんな、もう十分遊んだでしょう。
+        decision: revise
+        rationale: >-
+          German ihr and Greek second-person plural address the children directly. The explicit
+          vocative-like 「あなたたち」 preserves that addressee when the phrase is quoted alone.
         alternatives: []
       register: null
       scene_dependency: null
-    attestations: []
+    attestations:
+    - target: 'ἱκανὸν κρόνον ἐπαίζετε.'
+      status: not-found
+      match_type: not-found
+      reference_as_given: null
+      source: null
+      text_grc: null
+      original_scene: null
+      relationship_to_handbook: No exact normalized single-line occurrence was located in the local canonical Greek corpus; the wording is treated as a handbook composition unless later evidence is found.
+      adaptations: []
+      confidence: medium
+      research_method: exact normalized Unicode search across all local canonical-greekLit XML files
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: f-04-011
     source_locator:
       file: part-f.yaml
@@ -3590,16 +4655,27 @@ scenes:
       variants:
       - de: Sie würfeln. — Um was?
         ja_current: 彼らはサイコロを振っている――何を賭けているの？
-        ja_proposed: 彼らはサイコロを振っている――何を賭けているの？
-        decision: pending-review
+        ja_proposed: 彼らはサイコロを振っている――何を賭けているのだろうか？
+        decision: keep
         rationale: null
         alternatives: []
       register: null
       scene_dependency: null
-    attestations: []
+    attestations:
+    - target: 'κυβεύουσιν. — περὶ τοῦ;'
+      status: not-found
+      match_type: not-found
+      reference_as_given: null
+      source: null
+      text_grc: null
+      original_scene: null
+      relationship_to_handbook: No exact normalized single-line occurrence was located in the local canonical Greek corpus; the wording is treated as a handbook composition unless later evidence is found.
+      adaptations: []
+      confidence: medium
+      research_method: exact normalized Unicode search across all local canonical-greekLit XML files
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: f-04-012
     source_locator:
       file: part-f.yaml
@@ -3634,15 +4710,26 @@ scenes:
       - de: Sei artig!
         ja_current: 行儀よくしなさい！
         ja_proposed: 行儀よくしなさい！
-        decision: pending-review
+        decision: keep
         rationale: null
         alternatives: []
       register: null
       scene_dependency: null
-    attestations: []
+    attestations:
+    - target: 'κοσμίως ἔχε!'
+      status: not-found
+      match_type: not-found
+      reference_as_given: null
+      source: null
+      text_grc: null
+      original_scene: null
+      relationship_to_handbook: No exact normalized single-line occurrence was located in the local canonical Greek corpus; the wording is treated as a handbook composition unless later evidence is found.
+      adaptations: []
+      confidence: medium
+      research_method: exact normalized Unicode search across all local canonical-greekLit XML files
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: f-04-013
     source_locator:
       file: part-f.yaml
@@ -3676,8 +4763,8 @@ scenes:
       variants:
       - de: Thu' das ja nicht!
         ja_current: 絶対それをするな！
-        ja_proposed: 絶対それをするな！
-        decision: pending-review
+        ja_proposed: 決してそんなことをしてはいけません！
+        decision: revise
         rationale: null
         alternatives: []
       register: null
@@ -3706,7 +4793,7 @@ scenes:
       research_method: exact normalized token search
     textual_issues: []
     review_comments: []
-    status: source-researched
+    status: ja-proposed
   - id: f-04-014
     source_locator:
       file: part-f.yaml
@@ -3741,15 +4828,30 @@ scenes:
       - de: Da, schau' einmal!
         ja_current: ほら、見てごらん！
         ja_proposed: ほら、見てごらん！
-        decision: pending-review
+        decision: keep
         rationale: null
         alternatives: []
       register: null
       scene_dependency: null
-    attestations: []
+    attestations:
+    - target: 'ἰδού· θέασαι!'
+      status: exact-string-located-context-pending
+      match_type: exact
+      reference_as_given: null
+      source:
+        author: null
+        work: null
+        passage: 'XML line 2085'
+        local_file: /home/mrty/Documents/Resources/canonical-greekLit/data/tlg0019/tlg002/tlg0019.tlg002.perseus-grc2.xml
+      text_grc: 'ἰδοὺ θέασαι, κοὐχ ἅπαντας ἐκφέρω.'
+      original_scene: null
+      relationship_to_handbook: The complete normalized handbook string occurs in the local canonical Greek corpus; dramatic or prose context still requires manual comparison before treating it as a contextual attestation.
+      adaptations: []
+      confidence: candidate
+      research_method: exact normalized Unicode search across local canonical-greekLit XML
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: f-04-015
     source_locator:
       file: part-f.yaml
@@ -3783,16 +4885,29 @@ scenes:
       variants:
       - de: Der Onkel hat hübsche Geschenke mitgebracht.
         ja_current: おじさんが素敵な贈り物を持ってきた。
-        ja_proposed: おじさんが素敵な贈り物を持ってきた。
-        decision: pending-review
+        ja_proposed: 叔父さんが、素敵な贈り物を持ってきてくれたよ。
+        decision: revise
         rationale: null
         alternatives: []
       register: null
       scene_dependency: null
-    attestations: []
-    textual_issues: []
+    attestations:
+    - target: 'ὁ θεῖος ἥκει φέρων δῶρα χαρίεντα.!'
+      status: not-found
+      match_type: not-found
+      reference_as_given: null
+      source: null
+      text_grc: null
+      original_scene: null
+      relationship_to_handbook: No exact normalized single-line occurrence was located in the local canonical Greek corpus; the wording is treated as a handbook composition unless later evidence is found.
+      adaptations: []
+      confidence: medium
+      research_method: exact normalized Unicode search across all local canonical-greekLit XML files
+    textual_issues:
+    - type: punctuation-error
+      note: Greek ends with the duplicated punctuation sequence .!; only one final mark is required.
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: f-04-016
     source_locator:
       file: part-f.yaml
@@ -3826,16 +4941,29 @@ scenes:
       variants:
       - de: Lies\textcompwordmark{}chen klatscht vor Freude in die Hände.
         ja_current: リジヒェンは喜んで手を打っている。
-        ja_proposed: リジヒェンは喜んで手を打っている。
-        decision: pending-review
+        ja_proposed: リースヒェンは、喜んで手を叩いている。
+        decision: revise
         rationale: null
         alternatives: []
       register: null
       scene_dependency: null
-    attestations: []
-    textual_issues: []
+    attestations:
+    - target: 'Λουίσιον{*} τὼ χεῖρ’ ἀνακροτεῖ ὑφ’ ἡδονῆς.!'
+      status: not-found
+      match_type: not-found
+      reference_as_given: null
+      source: null
+      text_grc: null
+      original_scene: null
+      relationship_to_handbook: No exact normalized single-line occurrence was located in the local canonical Greek corpus; the wording is treated as a handbook composition unless later evidence is found.
+      adaptations: []
+      confidence: medium
+      research_method: exact normalized Unicode search across all local canonical-greekLit XML files
+    textual_issues:
+    - type: punctuation-error
+      note: Greek ends with the duplicated punctuation sequence .!; only one final mark is required.
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: f-04-017
     source_locator:
       file: part-f.yaml
@@ -3847,7 +4975,7 @@ scenes:
       - de: Meine Frau ist nicht zu sehen.
         ja: 妻の姿が見えない。
       grc:
-      - ἡ δὲ γυνὴ \emph{φαίνεται.}
+      - ἡ δὲ γυνὴ \emph{οὐ φαίνεται.}
     dialogue:
       speaker:
         candidate: null
@@ -3870,15 +4998,26 @@ scenes:
       - de: Meine Frau ist nicht zu sehen.
         ja_current: 妻の姿が見えない。
         ja_proposed: 妻の姿が見えない。
-        decision: pending-review
+        decision: keep
         rationale: null
         alternatives: []
       register: null
       scene_dependency: null
-    attestations: []
+    attestations:
+    - target: 'ἡ δὲ γυνὴ \emph{οὐ φαίνεται.}'
+      status: not-found
+      match_type: not-found
+      reference_as_given: null
+      source: null
+      text_grc: null
+      original_scene: null
+      relationship_to_handbook: No exact normalized single-line occurrence was located in the local canonical Greek corpus; the wording is treated as a handbook composition unless later evidence is found.
+      adaptations: []
+      confidence: medium
+      research_method: exact normalized Unicode search across all local canonical-greekLit XML files
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: f-04-018
     source_locator:
       file: part-f.yaml
@@ -3893,14 +5032,14 @@ scenes:
       - μῶν ἐμὲ ζητεῖς;
     dialogue:
       speaker:
-        candidate: null
-        confidence: unassigned
+        candidate: husband
+        confidence: high
       addressee:
-        candidate: null
-        confidence: unassigned
-      speech_act: null
-      tone: []
-      responds_to: null
+        candidate: wife
+        confidence: high
+      speech_act: affectionate summons
+      tone: [affectionate, intimate]
+      responds_to: f-04-018
       followed_by: null
       alternatives: []
     grammar:
@@ -3912,8 +5051,8 @@ scenes:
       variants:
       - de: Suchst du mich etwa?
         ja_current: もしかして私を探しているのか？
-        ja_proposed: もしかして私を探しているのか？
-        decision: pending-review
+        ja_proposed: もしかして、私を探しているの？
+        decision: revise
         rationale: null
         alternatives: []
       register: null
@@ -3942,7 +5081,7 @@ scenes:
       research_method: exact normalized token search
     textual_issues: []
     review_comments: []
-    status: source-researched
+    status: ja-proposed
   - id: f-04-019
     source_locator:
       file: part-f.yaml
@@ -3976,12 +5115,18 @@ scenes:
       variants:
       - de: Komm her, mein goldiger Schatz!
         ja_current: こっちへおいで、かわいい宝物！
-        ja_proposed: こっちへおいで、かわいい宝物！
-        decision: pending-review
-        rationale: null
-        alternatives: []
+        ja_proposed: さあ、こっちへおいで、愛しい人！
+        decision: revise
+        rationale: >-
+          Entry 18 is the wife's question to the husband, and this reply is therefore addressed by
+          the husband to his wife, not to a child. The attested Aristophanic context likewise has
+          Cinesias address Myrrhine affectionately; 「愛しい人」 preserves the intimate address
+          without misidentifying the addressee.
+        alternatives:
+        - こっちへおいで、かわいい人！
       register: null
-      scene_dependency: null
+      scene_dependency: >-
+        Depends on f-04-018: the wife has just asked whether the husband was looking for her.
     attestations:
     - target: δεῦρό νυν, ὦ χρυσίον.
       status: exact-string-located-context-pending
@@ -4006,31 +5151,44 @@ scenes:
       research_method: exact normalized token search
     textual_issues: []
     review_comments: []
-    status: source-researched
+    status: ja-proposed
 - id: f-05
   title:
     de: Kinderkrawall
     ja: 子どもたちの騒ぎ
   scene_type: reconstructed_dialogue
   setting:
-    situation: adults respond to noisy children
+    situation: children quarrel, threaten one another, and fight
   cast:
-  - id: adult-a
-    description: null
-    evidence: null
-    confidence: candidate
-  - id: adult-b
-    description: null
-    evidence: null
-    confidence: candidate
-  - id: child
-    description: null
-    evidence: null
-    confidence: candidate
+  - id: child-a
+    description: Child accusing and threatening another child.
+    evidence: Familiar singular address, retaliation threats, and physical scuffle throughout.
+    confidence: high
+  - id: child-b
+    description: Rival child who resists, taunts, or flees.
+    evidence: Alternating threats and chase language.
+    confidence: high
+  - id: bystander-child
+    description: Possible third child urging one fighter on or warning several children away.
+    evidence: Plural address in entry 14 and the spectator-like encouragement in entry 12.
+    confidence: medium
   reconstruction:
-    confidence: unreviewed
-    note: Ordering may combine a continuous exchange with reusable model phrases; turn continuity must
-      be justified entry by entry.
+    confidence: medium
+    note: >-
+      The ordering traces an escalating children's quarrel from accusation through threats, blows,
+      pursuit, and expulsion, but some adjacent entries are alternatives rather than fixed turns.
+      Entry 14's plural and entry 12's encouragement allow a third child or a surrounding group.
+  voice_profiles:
+    child-a: {register: rough-plain, traits: [angry, boastful]}
+    child-b: {register: rough-plain, traits: [defiant, frightened-later]}
+    bystander-child: {register: rough-plain, traits: [excited]}
+  turn_groups:
+  - entries: [f-05-001, f-05-002, f-05-003, f-05-004, f-05-005]
+    description: accusation, grievance, and demand to return something
+  - entries: [f-05-006, f-05-007, f-05-008, f-05-009, f-05-010, f-05-011, f-05-012, f-05-013]
+    description: threats and outbreak of the fight; several lines are alternative taunts
+  - entries: [f-05-014, f-05-015, f-05-016, f-05-017, f-05-018]
+    description: warning, capture or victory, pursuit, and dismissal
   entries:
   - id: f-05-001
     source_locator:
@@ -4065,16 +5223,27 @@ scenes:
       variants:
       - de: Das ist Unrecht von dir.
         ja_current: それはお前が悪い。
-        ja_proposed: それはお前が悪い。
-        decision: pending-review
+        ja_proposed: そんなことをするなんて、お前が悪いぞ。
+        decision: revise
         rationale: null
         alternatives: []
       register: null
       scene_dependency: null
-    attestations: []
+    attestations:
+    - target: 'ταῦτ’ οὐκ ὀρθῶς ποιεῖς.'
+      status: not-found
+      match_type: not-found
+      reference_as_given: null
+      source: null
+      text_grc: null
+      original_scene: null
+      relationship_to_handbook: No exact normalized single-line occurrence was located in the local canonical Greek corpus; the wording is treated as a handbook composition unless later evidence is found.
+      adaptations: []
+      confidence: medium
+      research_method: exact normalized Unicode search across all local canonical-greekLit XML files
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: f-05-002
     source_locator:
       file: part-f.yaml
@@ -4108,16 +5277,27 @@ scenes:
       variants:
       - de: Das ist unrecht, daß du mir das thust.
         ja_current: そんなことを私にするのは間違っている。
-        ja_proposed: そんなことを私にするのは間違っている。
-        decision: pending-review
+        ja_proposed: 僕にそんなことをするなんて、ずるいぞ。
+        decision: revise
         rationale: null
         alternatives: []
       register: null
       scene_dependency: null
-    attestations: []
+    attestations:
+    - target: 'ἀδικεῖς γέ με τοῦτο ποιῶν.'
+      status: not-found
+      match_type: not-found
+      reference_as_given: null
+      source: null
+      text_grc: null
+      original_scene: null
+      relationship_to_handbook: No exact normalized single-line occurrence was located in the local canonical Greek corpus; the wording is treated as a handbook composition unless later evidence is found.
+      adaptations: []
+      confidence: medium
+      research_method: exact normalized Unicode search across all local canonical-greekLit XML files
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: f-05-003
     source_locator:
       file: part-f.yaml
@@ -4151,16 +5331,27 @@ scenes:
       variants:
       - de: Wenn du mich ärgern willst, so soll dir's schlecht gehen!
         ja_current: もし私を怒らせるなら、ただでは済まないぞ！
-        ja_proposed: もし私を怒らせるなら、ただでは済まないぞ！
-        decision: pending-review
+        ja_proposed: 僕にちょっかいを出すなら、ただではおかないぞ！
+        decision: revise
         rationale: null
         alternatives: []
       register: null
       scene_dependency: null
-    attestations: []
+    attestations:
+    - target: 'ἤν τι λυπῇς με, οὐ χαιρήσεις!'
+      status: not-found
+      match_type: not-found
+      reference_as_given: null
+      source: null
+      text_grc: null
+      original_scene: null
+      relationship_to_handbook: No exact normalized single-line occurrence was located in the local canonical Greek corpus; the wording is treated as a handbook composition unless later evidence is found.
+      adaptations: []
+      confidence: medium
+      research_method: exact normalized Unicode search across all local canonical-greekLit XML files
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: f-05-004
     source_locator:
       file: part-f.yaml
@@ -4195,7 +5386,7 @@ scenes:
       - de: Gieb mir's wieder!
         ja_current: それを返せ！
         ja_proposed: それを返せ！
-        decision: pending-review
+        decision: keep
         rationale: null
         alternatives: []
       register: null
@@ -4224,7 +5415,7 @@ scenes:
       research_method: exact normalized token search
     textual_issues: []
     review_comments: []
-    status: source-researched
+    status: ja-proposed
   - id: f-05-005
     source_locator:
       file: part-f.yaml
@@ -4258,8 +5449,8 @@ scenes:
       variants:
       - de: Oder du sollst sehen (= ich ergreife andere Maßregeln)!
         ja_current: さもないと痛い目にあわせるぞ！
-        ja_proposed: さもないと痛い目にあわせるぞ！
-        decision: pending-review
+        ja_proposed: さもないと、こっちにも考えがあるぞ！
+        decision: revise
         rationale: null
         alternatives: []
       register: null
@@ -4288,7 +5479,7 @@ scenes:
       research_method: exact normalized token search
     textual_issues: []
     review_comments: []
-    status: source-researched
+    status: ja-proposed
   - id: f-05-006
     source_locator:
       file: part-f.yaml
@@ -4322,8 +5513,8 @@ scenes:
       variants:
       - de: Soll ich dir eine Ohrfeige geben?
         ja_current: 頬を張ってやろうか？
-        ja_proposed: 頬を張ってやろうか？
-        decision: pending-review
+        ja_proposed: ひっぱたいてやろうか？
+        decision: revise
         rationale: null
         alternatives: []
       register: null
@@ -4352,7 +5543,7 @@ scenes:
       research_method: exact normalized token search
     textual_issues: []
     review_comments: []
-    status: source-researched
+    status: ja-proposed
   - id: f-05-007
     source_locator:
       file: part-f.yaml
@@ -4386,16 +5577,27 @@ scenes:
       variants:
       - de: Das sollst du nicht umsonst gesagt haben!
         ja_current: ただでそんなことを言ったと思うなよ！
-        ja_proposed: ただでそんなことを言ったと思うなよ！
-        decision: pending-review
+        ja_proposed: 今の言葉、ただでは済まさないぞ！
+        decision: revise
         rationale: null
         alternatives: []
       register: null
       scene_dependency: null
-    attestations: []
+    attestations:
+    - target: 'οὐ μὰ ∆ία σὺ καταπροίξει τοῦτο \emph{λέγων!}'
+      status: not-found
+      match_type: not-found
+      reference_as_given: null
+      source: null
+      text_grc: null
+      original_scene: null
+      relationship_to_handbook: No exact normalized single-line occurrence was located in the local canonical Greek corpus; the wording is treated as a handbook composition unless later evidence is found.
+      adaptations: []
+      confidence: medium
+      research_method: exact normalized Unicode search across all local canonical-greekLit XML files
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: f-05-008
     source_locator:
       file: part-f.yaml
@@ -4429,8 +5631,8 @@ scenes:
       variants:
       - de: Was hast du vor?
         ja_current: 何をしようとしている？
-        ja_proposed: 何をしようとしている？
-        decision: pending-review
+        ja_proposed: 何をする気だ？
+        decision: revise
         rationale: null
         alternatives: []
       register: null
@@ -4480,7 +5682,7 @@ scenes:
       research_method: exact normalized token search
     textual_issues: []
     review_comments: []
-    status: source-researched
+    status: ja-proposed
   - id: f-05-009
     source_locator:
       file: part-f.yaml
@@ -4514,16 +5716,38 @@ scenes:
       variants:
       - de: Du sollst gehörige Prügel bekommen.
         ja_current: たっぷり叩いてやるからな。
-        ja_proposed: たっぷり叩いてやるからな。
-        decision: pending-review
-        rationale: null
+        ja_proposed: たっぷりぶって、泣かせてやるぞ！
+        decision: revise
+        rationale: >-
+          German explicitly threatens a sound beating. Greek κλαύσει μακρά is literally “you will
+          weep long,” an idiomatic threat whose attested dramatic continuation is an immediate blow.
+          Japanese recasts the passive German threat as the natural active threat while retaining both.
         alternatives: []
       register: null
       scene_dependency: null
-    attestations: []
+    attestations:
+    - target: κλαύσει μακρά.
+      status: context-verified
+      match_type: exact
+      reference_as_given: Aristophanes, Peace 255c
+      source:
+        author: Aristophanes
+        work: Peace
+        passage: 255c-257
+        local_file: /home/mrty/Documents/Resources/canonical-greekLit/data/tlg0019/tlg005/tlg0019.tlg005.perseus-grc2.xml
+      text_grc: >-
+        ΠΟΛΕΜΟΣ: παῖ παῖ Κυδοιμέ. — ΚΥΔΟΙΜΟΣ: τί με καλεῖς; — ΠΟΛΕΜΟΣ: κλαύσει μακρά.
+        ἕστηκας ἀργός; οὑτοσί σοι κόνδυλος. — ΚΥΔΟΙΜΟΣ: ὡς δριμύς. οἴμοι μοι τάλας ὦ δέσποτα.
+      original_scene: War summons Tumult, threatens him for standing idle, and strikes him with a knuckle-blow.
+      relationship_to_handbook: >-
+        Exact phrase. The original confirms that κλαύσει μακρά functions as a threat immediately
+        realized by a blow, although the handbook's German makes the beating explicit in advance.
+      adaptations: []
+      confidence: high
+      research_method: exact Unicode corpus search with surrounding dramatic context inspected
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: f-05-010
     source_locator:
       file: part-f.yaml
@@ -4558,15 +5782,30 @@ scenes:
       - de: (Daß du berstest!) Hol' dich der Kuckuck!
         ja_current: くたばってしまえ！
         ja_proposed: くたばってしまえ！
-        decision: pending-review
+        decision: keep
         rationale: null
         alternatives: []
       register: null
       scene_dependency: null
-    attestations: []
+    attestations:
+    - target: 'διαρραγείης!'
+      status: exact-string-located-context-pending
+      match_type: exact
+      reference_as_given: null
+      source:
+        author: null
+        work: null
+        passage: 'XML line 937'
+        local_file: /home/mrty/Documents/Resources/canonical-greekLit/data/tlg0019/tlg011/tlg0019.tlg011.perseus-grc2.xml
+      text_grc: 'διαρραγείης, ὡς μόθων εἶ καὶ φύσει κόβαλος,'
+      original_scene: null
+      relationship_to_handbook: The complete normalized handbook string occurs in the local canonical Greek corpus; dramatic or prose context still requires manual comparison before treating it as a contextual attestation.
+      adaptations: []
+      confidence: candidate
+      research_method: exact normalized Unicode search across local canonical-greekLit XML
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: f-05-011
     source_locator:
       file: part-f.yaml
@@ -4600,8 +5839,8 @@ scenes:
       variants:
       - de: Da hast du eine Backpfeife!
         ja_current: ほら、ビンタだ！
-        ja_proposed: ほら、ビンタだ！
-        decision: pending-review
+        ja_proposed: ほら、これでもくらえ！
+        decision: revise
         rationale: null
         alternatives: []
       register: null
@@ -4630,7 +5869,7 @@ scenes:
       research_method: exact normalized token search
     textual_issues: []
     review_comments: []
-    status: source-researched
+    status: ja-proposed
   - id: f-05-012
     source_locator:
       file: part-f.yaml
@@ -4664,16 +5903,38 @@ scenes:
       variants:
       - de: Zum Donnerwetter!Immer hau' ihn!
         ja_current: ちくしょう！どんどん殴れ！
-        ja_proposed: ちくしょう！どんどん殴れ！
-        decision: pending-review
-        rationale: null
+        ja_proposed: ちくしょう！もっと殴れ！
+        decision: revise
+        rationale: >-
+          The printed German contains two exclamations, a curse and encouragement to keep striking.
+          Greek ἐς κόρακας supplies only the dismissive curse (“to the crows!”), so the second Japanese
+          clause necessarily follows the German rather than the Greek.
         alternatives: []
       register: null
       scene_dependency: null
-    attestations: []
-    textual_issues: []
+    attestations:
+    - target: 'ἐς κόρακας!'
+      status: exact-string-located-context-pending
+      match_type: exact
+      reference_as_given: null
+      source:
+        author: null
+        work: null
+        passage: 'XML line 504'
+        local_file: /home/mrty/Documents/Resources/canonical-greekLit/data/tlg0008/tlg001/tlg0008.tlg001.perseus-grc4.xml
+      text_grc: 'ἔρρ’ ἐς κόρακας, μονοφάγε καὶ τοιχωρύχε.'
+      original_scene: null
+      relationship_to_handbook: The complete normalized handbook string occurs in the local canonical Greek corpus; dramatic or prose context still requires manual comparison before treating it as a contextual attestation.
+      adaptations: []
+      confidence: candidate
+      research_method: exact normalized Unicode search across local canonical-greekLit XML
+    textual_issues:
+    - type: german-greek-content-mismatch
+      note: >-
+        German adds Immer hau' ihn! (“keep hitting him”), for which the Greek ἐς κόρακας provides no
+        equivalent. This may combine two German model phrases against a single Greek curse.
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: f-05-013
     source_locator:
       file: part-f.yaml
@@ -4708,15 +5969,38 @@ scenes:
       - de: Wart', ich will dir's weisen!
         ja_current: 待て、思い知らせてやる！
         ja_proposed: 待て、思い知らせてやる！
-        decision: pending-review
-        rationale: null
+        decision: keep
+        rationale: >-
+          Japanese follows the German threat, “wait, I will show you,” because Greek παῖε παῖε means
+          “strike, strike!” and is not its semantic equivalent.
         alternatives: []
       register: null
       scene_dependency: null
-    attestations: []
-    textual_issues: []
+    attestations:
+    - target: παῖε παῖε!
+      status: context-verified
+      match_type: exact
+      reference_as_given: Aristophanes, Knights 247
+      source:
+        author: Aristophanes
+        work: Knights
+        passage: 242-254
+        local_file: /home/mrty/Documents/Resources/canonical-greekLit/data/tlg0019/tlg002/tlg0019.tlg002.perseus-grc2.xml
+      text_grc: >-
+        ἄνδρες ἱππῆς παραγένεσθε· νῦν ὁ καιρός. ... παῖε παῖε τὸν πανοῦργον καὶ
+        ταραξιππόστρατον ... ἀλλὰ παῖε καὶ δίωκε καὶ τάραττε καὶ κύκα.
+      original_scene: Demosthenes calls the Knights into the fray; their chorus urges repeated blows and pursuit.
+      relationship_to_handbook: >-
+        Exact imperative repeated in an exhortation to attack. It supports “hit him, hit him,” not
+        the handbook German Wart', ich will dir's weisen.
+      adaptations: [object omitted]
+      confidence: high
+      research_method: exact Unicode corpus search with surrounding dramatic context inspected
+    textual_issues:
+    - type: german-greek-content-mismatch
+      note: German is a warning of retaliation; Greek is a repeated command to strike.
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: f-05-014
     source_locator:
       file: part-f.yaml
@@ -4750,16 +6034,27 @@ scenes:
       variants:
       - de: Kommt mir nicht zu nahe!
         ja_current: 近寄るな！
-        ja_proposed: 近寄るな！
-        decision: pending-review
+        ja_proposed: お前たち、近寄るな！
+        decision: revise
         rationale: null
         alternatives: []
       register: null
       scene_dependency: null
-    attestations: []
+    attestations:
+    - target: 'μὴ πρόσιτε.'
+      status: not-found
+      match_type: not-found
+      reference_as_given: null
+      source: null
+      text_grc: null
+      original_scene: null
+      relationship_to_handbook: No exact normalized single-line occurrence was located in the local canonical Greek corpus; the wording is treated as a handbook composition unless later evidence is found.
+      adaptations: []
+      confidence: medium
+      research_method: exact normalized Unicode search across all local canonical-greekLit XML files
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: f-05-015
     source_locator:
       file: part-f.yaml
@@ -4794,15 +6089,30 @@ scenes:
       - de: Hurrah!
         ja_current: 万歳！
         ja_proposed: 万歳！
-        decision: pending-review
+        decision: keep
         rationale: null
         alternatives: []
       register: null
       scene_dependency: null
-    attestations: []
+    attestations:
+    - target: 'ἀλαλαί!'
+      status: exact-string-located-context-pending
+      match_type: exact
+      reference_as_given: null
+      source:
+        author: null
+        work: null
+        passage: 'XML line 200'
+        local_file: /home/mrty/Documents/Resources/canonical-greekLit/data/tlg0007/tlg112/tlg0007.tlg112.perseus-grc2.xml
+      text_grc: 'ὁ μέντοι Σόσσιος ἐπαινέσας ἐκείνους, εἶπεν ὡς οὐ χεῖρον ἄν τιςχεῖρον ἀν τις] χειρόμαντις mei ἐπιχειρήσειεν ὁρμηθεὶς ἀφʼ ὧν Θεόφραστος εἴρηκε περὶ μουσικῆς· καὶ γὰρ ἔναγχος ἔφη τὸ βιβλίον ἀνέγνων. λέγει δὲ Θεόφραστος  μουσικῆς ἀρχὰς τρεῖς εἶναι, λύπην, ἡδονήν, ἐνθουσιασμόν, ὡς ἑκάστου τῶν lac. 3 Vd 2 P τούτων τῶν παθημάτων an τῶν παθῶν τούτων? αὐτῶν παρατρέποντοςπαρατρέποντος X: παρατρε lac. 4 Vd 7 E ἐκ τοῦ συνήθους καὶ παρεγκλίνοντοςκαὶ παρεγκλίνοντος *: lac. 4 Vd 7 E ἐγκλίναντος τὴν φωνήν. αἵ τε γὰρ λῦπαι τὸ γοερὸν καὶ θρηνητικὸν  ὀλισθηρὸν εἰς ᾠδὴν ἔχουσι· διὸ καὶ τοὺς ῥήτορας  ἐν τοῖς ἐπιλόγοις καὶ τοὺς ὑποκριτὰς ἐν τοῖς ὀδυρμοῖς ἀτρέμα τῷ μελῳδεῖν προσάγοντας ὁρῶμεν καὶ παρεντείνοντας τὴν φωνήν. αἵ τε σφοδραὶ περιχάρειαι τῆς ψυχῆς τῶν μὲν ἐλαφροτέρων τῷ ἤθει καὶ τὸ σῶμα πᾶν ἐπαίρουσιτὸ σῶμα συνεπαίρουσι R καὶ παρακαλοῦσιν εἰς  ἔνρυθμον κίνησιν, ἐξαλλομένων καὶ κροτούντων εἴπερ ὀρχεῖσθαι μὴ δύνανταιδύνανται *: δύνωνται· μανίαι τʼ ἀλαλαὶἀλαλαὶ] ἄλλαι mei τʼ ὀρινομένων Bergk. 1 p. 450 ῥιψαύχενιTurnebus ἐριαύχενι σὺν κλόνῳσυγκλόνῳ mei κατὰ Πίνδαρον. οἱ δὲ χαρίεντες ἐν τῷ πάθει τούτῳ  γενόμενοικινούμενοι W τὴν φωνὴν μόνην εἰς τὸ ᾅδειν καὶ φθέγγεσθαιφθέγγονται idem μέτραμέτρα Hirschigius: μέγα καὶ μέλη προΐενται. μάλιστα δʼ ὁ ἐνθουσιασμὸς  ἐξίστησι καὶ παρατρέπει τό τε σῶμα καὶ τὴν φωνὴν τοῦ συνήθους καὶ καθεστηκότος. ὅθεν  αἵ τε βακχεῖαιβάκχαι M ῥυθμοῖς χρῶνται καὶ τὸ χρησμῳδεῖν ἐμμέτρωςἐν μέτρῳ Hirschigius παρέχεταιπαρέπεται W τοῖς ἐνθεαζομένοις· τῶν τε μαινομένων ὀλίγους ἰδεῖν ἔστιν ἄνευ μέτρου καὶ ᾠδῆς ληροῦντας. οὕτω δὲ τούτων ἐχόντων, εἰ βούλοιο  καθορᾶν ὑπʼ αὐγὰς διαπτύξας τὸν ἔρωτα καὶ καταμανθάνειν, οὐκ ἂν ἄλλο πάθος εὕροις οὔτε λύπας δριμυτέρας ἔχον οὔτε σφοδροτέρας περιχαρείας οὒτε μείζονας ἐκστάσεις καὶ παραφροσύνας· ἀλλʼ ὥσπερ τὴν Σοφοκλέουςτὸν Σοφοκλέα mei; cf. Soph. OR 4 πόλιν ἰδεῖν ἔστινἰδεῖν ἔστιν] om. iidem ἀνδρὸς ἐρωτικοῦ  ψυχὴν ὁμοῦ μὲν θυμιαμάτων γέμουσαν, ὁμοῦ δὲ παιάνων τε καὶ στεναγμάτων.οὐδὲν οὖν ἄτοπον οὐδὲ θαυμαστόν, εἰ πάσας, ὅσαι μουσικῆς εἰσιν ἀρχαί, περιέχων ὁ ἔρως ἐν αὑτῷαὑτῷ *: αὐτῷ καὶ συνειληφώς, λύπην ἡδονὴν ἐνθουσιασμόν, τὰ τʼ  ἄλλα φιλόφωνόςφιλόφωνος *: φιλόπονος cf. p. 967 b: τὸ φιλόφωνον καὶ λάλον ἐστι καὶ λάλος εἴς τε ποίησιν μελῶν καὶ μέτρων, ὡς οὐδὲν ἄλλο πάθος, ἐπίφορος καὶ κατάντης.'
+      original_scene: null
+      relationship_to_handbook: The complete normalized handbook string occurs in the local canonical Greek corpus; dramatic or prose context still requires manual comparison before treating it as a contextual attestation.
+      adaptations: []
+      confidence: candidate
+      research_method: exact normalized Unicode search across local canonical-greekLit XML
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: f-05-016
     source_locator:
       file: part-f.yaml
@@ -4836,16 +6146,27 @@ scenes:
       variants:
       - de: Jetzt haben wir ihn!
         ja_current: これで捕まえたぞ！
-        ja_proposed: これで捕まえたぞ！
-        decision: pending-review
+        ja_proposed: さあ、今度こそ捕まえたぞ！
+        decision: revise
         rationale: null
         alternatives: []
       register: null
       scene_dependency: null
-    attestations: []
+    attestations:
+    - target: 'νῦν ἔχεται μέσος!'
+      status: not-found
+      match_type: not-found
+      reference_as_given: null
+      source: null
+      text_grc: null
+      original_scene: null
+      relationship_to_handbook: No exact normalized single-line occurrence was located in the local canonical Greek corpus; the wording is treated as a handbook composition unless later evidence is found.
+      adaptations: []
+      confidence: medium
+      research_method: exact normalized Unicode search across all local canonical-greekLit XML files
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: f-05-017
     source_locator:
       file: part-f.yaml
@@ -4879,16 +6200,27 @@ scenes:
       variants:
       - de: Wollt ihr weg!
         ja_current: 出て行け！
-        ja_proposed: 出て行け！
-        decision: pending-review
+        ja_proposed: さあ、行った、行った！
+        decision: revise
         rationale: null
         alternatives: []
       register: null
       scene_dependency: null
-    attestations: []
+    attestations:
+    - target: 'οὐχὶ σοῦσθε;'
+      status: not-found
+      match_type: not-found
+      reference_as_given: null
+      source: null
+      text_grc: null
+      original_scene: null
+      relationship_to_handbook: No exact normalized single-line occurrence was located in the local canonical Greek corpus; the wording is treated as a handbook composition unless later evidence is found.
+      adaptations: []
+      confidence: medium
+      research_method: exact normalized Unicode search across all local canonical-greekLit XML files
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: f-05-018
     source_locator:
       file: part-f.yaml
@@ -4922,16 +6254,33 @@ scenes:
       variants:
       - de: Wir sollt ihr nicht wieder kommen!
         ja_current: 二度と戻ってくるな！
-        ja_proposed: 二度と戻ってくるな！
-        decision: pending-review
+        ja_proposed: もう二度と来るんじゃないぞ！
+        decision: revise
         rationale: null
         alternatives: []
       register: null
       scene_dependency: null
-    attestations: []
-    textual_issues: []
+    attestations:
+    - target: 'οὐδὲν ἄν με φλαῦρον ἔτι ἐργάσαισθε.'
+      status: not-found
+      match_type: not-found
+      reference_as_given: null
+      source: null
+      text_grc: null
+      original_scene: null
+      relationship_to_handbook: No exact normalized single-line occurrence was located in the local canonical Greek corpus; the wording is treated as a handbook composition unless later evidence is found.
+      adaptations: []
+      confidence: medium
+      research_method: exact normalized Unicode search across all local canonical-greekLit XML files
+    textual_issues:
+    - type: probable-german-typo-and-semantic-mismatch
+      note: >-
+        Initial Wir is almost certainly Mir: “you are not to come back to me.” Greek instead says
+        “you would no longer do me any harm,” so it supplies the motive for banishing them rather than
+        a literal equivalent. Japanese renders the German dismissal while preserving the first-person
+        relation explicitly.
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
 - id: f-06
   title:
     de: Kinderzucht
@@ -4941,17 +6290,42 @@ scenes:
     situation: an adult corrects or disciplines children
   cast:
   - id: parent-or-teacher
-    description: null
-    evidence: null
-    confidence: candidate
-  - id: child
-    description: null
-    evidence: null
-    confidence: candidate
+    description: Father or comparable household authority investigating and disciplining children.
+    evidence: Explicit Vater in entry 22 and commands to report, be silent, and tell the truth.
+    confidence: high
+  - id: reporting-child
+    description: Child who reports that Karl struck the group and later asks the father not to be angry.
+    evidence: First-person plural report in entry 9 and Vater address in entry 22.
+    confidence: medium
+  - id: karl
+    description: Accused child who denies fault and may attempt to run away.
+    evidence: Karl is named as aggressor; entries 15-21 supply denial, challenge, silencing, and flight.
+    confidence: medium
+  - id: corroborating-child
+    description: Another child supporting the accusation against Karl.
+    evidence: Entry 16 adds that the accused did the same thing to this speaker.
+    confidence: high
   reconstruction:
-    confidence: unreviewed
-    note: Ordering may combine a continuous exchange with reusable model phrases; turn continuity must
-      be justified entry by entry.
+    confidence: high
+    note: >-
+      Unlike the preceding section, this can be read as a coherent aftermath: an adult hears the
+      uproar, summons the children, receives a complaint against Karl, questions the cause, hears
+      denial and corroboration, rebukes lying, and stops an attempted escape. Some short questions
+      remain interchangeable model phrases.
+  voice_profiles:
+    parent-or-teacher: {register: authoritative-plain, traits: [stern, investigative]}
+    reporting-child: {register: child-plain, traits: [complaining, apprehensive]}
+    karl: {register: child-plain, traits: [defensive, evasive]}
+    corroborating-child: {register: child-plain, traits: [insistent]}
+  turn_groups:
+  - entries: [f-06-001, f-06-002, f-06-003, f-06-004, f-06-005, f-06-006, f-06-007, f-06-008]
+    description: adult hears the uproar, calls the children, and demands an account
+  - entries: [f-06-009, f-06-010, f-06-011, f-06-012, f-06-013, f-06-014]
+    description: complaint against Karl, inquiry into the cause, and characterization of his temper
+  - entries: [f-06-015, f-06-016, f-06-017, f-06-018, f-06-019, f-06-020]
+    description: denial, corroboration, confrontation, and orders to be silent and truthful
+  - entries: [f-06-021, f-06-022, f-06-023]
+    description: attempted flight, plea to the father, and an exasperated emotional outburst
   entries:
   - id: f-06-001
     source_locator:
@@ -4987,15 +6361,26 @@ scenes:
       - de: Was ist das für ein Lärm da drin?
         ja_current: 中で何の騒ぎだ？
         ja_proposed: 中で何の騒ぎだ？
-        decision: pending-review
+        decision: keep
         rationale: null
         alternatives: []
       register: null
       scene_dependency: null
-    attestations: []
+    attestations:
+    - target: 'τίς οὗτος ὁ ἔνδον θόρυβος;'
+      status: not-found
+      match_type: not-found
+      reference_as_given: null
+      source: null
+      text_grc: null
+      original_scene: null
+      relationship_to_handbook: No exact normalized single-line occurrence was located in the local canonical Greek corpus; the wording is treated as a handbook composition unless later evidence is found.
+      adaptations: []
+      confidence: medium
+      research_method: exact normalized Unicode search across all local canonical-greekLit XML files
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: f-06-002
     source_locator:
       file: part-f.yaml
@@ -5029,16 +6414,27 @@ scenes:
       variants:
       - de: Schreit nicht so!
         ja_current: そんなに騒ぐな！
-        ja_proposed: そんなに騒ぐな！
-        decision: pending-review
+        ja_proposed: そう大声を出すな！
+        decision: revise
         rationale: null
         alternatives: []
       register: null
       scene_dependency: null
-    attestations: []
+    attestations:
+    - target: 'μὴ βοᾶτε! — μὴ βοᾶτε μηδαμῶς! — μὴ κεκράγατε!'
+      status: not-found
+      match_type: not-found
+      reference_as_given: null
+      source: null
+      text_grc: null
+      original_scene: null
+      relationship_to_handbook: No exact normalized single-line occurrence was located in the local canonical Greek corpus; the wording is treated as a handbook composition unless later evidence is found.
+      adaptations: []
+      confidence: medium
+      research_method: exact normalized Unicode search across all local canonical-greekLit XML files
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: f-06-003
     source_locator:
       file: part-f.yaml
@@ -5072,16 +6468,27 @@ scenes:
       variants:
       - de: So hört doch endlich!
         ja_current: もう黙りなさい！
-        ja_proposed: もう黙りなさい！
-        decision: pending-review
+        ja_proposed: いい加減、言うことを聞きなさい！
+        decision: revise
         rationale: null
         alternatives: []
       register: null
       scene_dependency: null
-    attestations: []
+    attestations:
+    - target: 'οὐκ ἄκούσεσθε ἐτεόν;'
+      status: not-found
+      match_type: not-found
+      reference_as_given: null
+      source: null
+      text_grc: null
+      original_scene: null
+      relationship_to_handbook: No exact normalized single-line occurrence was located in the local canonical Greek corpus; the wording is treated as a handbook composition unless later evidence is found.
+      adaptations: []
+      confidence: medium
+      research_method: exact normalized Unicode search across all local canonical-greekLit XML files
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: f-06-004
     source_locator:
       file: part-f.yaml
@@ -5116,15 +6523,30 @@ scenes:
       - de: Was giebt's?
         ja_current: 何があった？
         ja_proposed: 何があった？
-        decision: pending-review
+        decision: keep
         rationale: null
         alternatives: []
       register: null
       scene_dependency: null
-    attestations: []
+    attestations:
+    - target: 'τί ἔστιν;'
+      status: exact-string-located-context-pending
+      match_type: exact
+      reference_as_given: null
+      source:
+        author: null
+        work: null
+        passage: 'XML line 150'
+        local_file: /home/mrty/Documents/Resources/canonical-greekLit/data/tlg0007/tlg092/tlg0007.tlg092.perseus-grc2.xml
+      text_grc: 'πρῶτον τοίνυν ἔφην ἐγώ τὰ κωλύοντα ποιεῖν κόσμους ἀπείρους οὐκ ἀπείργει πλείονας ἑνὸς  ποιεῖν. καὶ γὰρ οἷόν τʼ οἶόν τʼ X: ὅσον  ἔστιν εἶναι καὶ μαντικὴν καὶ πρόνοιαν ἐν πλείοσι κόσμοις, καὶ τὸ μικροτάτην τύχην τὸ μικρότατον τύχῃ Emperius; sed cf. p. 99 a παρεμπίπτειν, τὰ δὲ πλεῖστα καὶ μέγιστα  τάξιν λαμβάνειν λαμβάνειν Basileensis: λαμβάνει  πρὸς γένεσιν καὶ μεταβολήν, ὧν οὐδὲν ἡ ἀπειρία δέχεσθαι πέφυκεν. ἔπειτα τῷ λόγῳ  μᾶλλον ἕπεται τὸ τῷ τὸ τῷ Aldina: τῶ τῶ  θεῷ μὴ μονογενῆ μηδʼ ἔρημον εἶναι τὸν κόσμον. ἀγαθὸς γὰρ ὢν τελέως οὐδεμιᾶς ἀρετῆς ἐνδεής ἐστιν, ἥκιστα δὲ τῶν τῶν W: τῷ  περὶ δικαιοσύνην καὶ φιλίαν· κάλλισται γὰρ αὗται αὗται Turnebus: αὐτῷ  καὶ θεοῖς πρέπουσαι. μάτην δʼ οὐδὲν ἔχειν οὐδʼ ἄχρηστον θεὸς  πέφυκεν. εἰσὶν οὖν ἐκτὸς ἕτεροι θεοὶ καὶ κόσμοι, πρὸς οὓς οὓς idem: οἶς  χρῆται ταῖς κοινωνικαῖς ἀρεταῖς· οὐ γὰρ  πρὸς αὑτὸν οὐδὲ μέρος αὑτοῦ χρῆσίς ἐστι δικαιοσύνης  ἢ χάριτος ἢ χρηστότητος ἀλλὰ πρὸς ἄλλους;. ὥστʼ οὐκ εἰκὸς ἄφιλον οὐδʼ ἀγείτονα τόνδʼ οὐδʼ ἄμικτον ἐν ἀπείρῳ κενῷ τὸν κόσμον σαλεύειν· ἐπεὶ  καὶ τὴν φύσιν ὁρῶμεν τὰ τὰ add. nescio quis καθʼ ἕκαστα γένεσιν καὶ εἴδεσιν οἷον ἀγγείοις ἀγγείοις ὥσπερ καρποὺς σπέρματι W. Mihi solum σπέρματος suspectum ἢ περικαρπίοις σπέρματος περιέχουσαν. οὐδὲν γὰρ ἐν ἀριθμῷ τῶν ὄντων ἔστιν, ἔστιν] οὔτε τί ἐστιν W οὗ γε μὴ οὗ γε μὴ W: οὐδὲ μὴ  λόγος ὑπάρχει κοινός, οὐδὲ τυγχάνει τῆς τοιᾶσδε προσηγορίας ὃ μὴ κοινῶς ποιὸν ποιὸν R: ποῖον  ἢ ἢ Madvigius ἰδίως  ἐστίν. ὁ δὲ κόσμος οὐ λέγεται κοινῶς εἶναι ποιός· ἰδίως τοίνυν κοινῶς εἶναι ποιός· ἰδίως τοίνυν Emperius: κοινὸς εἶναι· ποῖος δ’ ὡς  ποιός ποιός Madvigius: ποῖος  ἐστιν ἐκ διαφορᾶς τῆς πρὸς ἄλλα συγγενῆ καὶ ὁμοειδῆ ἄλλα συγγενῆ καὶ ὁμοειδῆ W: ἄλλας συγγενοὺς καὶ ὁμοειδὴς  γεγονὼς τοιοῦτος. εἰ γὰρ οὔτʼ  ἄνθρωπος εἷς οὔτʼ ἵππος ἐν τῇ φύσει γέγονεν οὔτʼ ἄστρον οὔτε θεὸς οὔτε δαίμων, τί κωλύει μηδὲ κόσμον  ἕνα τὴν φύσιν ἔχειν ἀλλʼ ἢ πλείονας; ὁ γὰρ λέγων, ὅτι καὶ γῆν μίαν ἔχει καὶ θάλατταν, ἐμφανὲς τι παρορᾷ τὸ τῶν ὁμοιομερῶν τήν τε γὰρ γῆν εἰς ὁμώνυμα μέρη καὶ τὴν θάλατταν ὡσαύτως διαιροῦμεν· τοῦ δὲ κόσμου μέρος οὐκέτι κόσμος ἀλλʼ ἐκ  διαφόρων φύσεων συνέστηκε.'
+      original_scene: null
+      relationship_to_handbook: The complete normalized handbook string occurs in the local canonical Greek corpus; dramatic or prose context still requires manual comparison before treating it as a contextual attestation.
+      adaptations: []
+      confidence: candidate
+      research_method: exact normalized Unicode search across local canonical-greekLit XML
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: f-06-005
     source_locator:
       file: part-f.yaml
@@ -5158,8 +6580,8 @@ scenes:
       variants:
       - de: Was ist los? Um was handelt es sich?
         ja_current: どうしたんだ、何の用だ？
-        ja_proposed: どうしたんだ、何の用だ？
-        decision: pending-review
+        ja_proposed: いったい、何事だ？
+        decision: revise
         rationale: null
         alternatives: []
       register: null
@@ -5355,7 +6777,7 @@ scenes:
       research_method: exact normalized token search
     textual_issues: []
     review_comments: []
-    status: source-researched
+    status: ja-proposed
   - id: f-06-006
     source_locator:
       file: part-f.yaml
@@ -5389,16 +6811,27 @@ scenes:
       variants:
       - de: Wer schreit \emph{nach mir?}
         ja_current: 誰が私を呼んで叫んでいるんだ？
-        ja_proposed: 誰が私を呼んで叫んでいるんだ？
-        decision: pending-review
+        ja_proposed: 誰だ、\emph{私を呼んでいる}のは？
+        decision: revise
         rationale: null
         alternatives: []
       register: null
       scene_dependency: null
-    attestations: []
+    attestations:
+    - target: 'τίς ὁ βοῶν με;'
+      status: not-found
+      match_type: not-found
+      reference_as_given: null
+      source: null
+      text_grc: null
+      original_scene: null
+      relationship_to_handbook: No exact normalized single-line occurrence was located in the local canonical Greek corpus; the wording is treated as a handbook composition unless later evidence is found.
+      adaptations: []
+      confidence: medium
+      research_method: exact normalized Unicode search across all local canonical-greekLit XML files
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: f-06-007
     source_locator:
       file: part-f.yaml
@@ -5432,16 +6865,31 @@ scenes:
       variants:
       - de: Soll ich's sagen?
         ja_current: 言いましょうか？
-        ja_proposed: 言いましょうか？
-        decision: pending-review
+        ja_proposed: 言ってもいいですか？
+        decision: revise
         rationale: null
         alternatives: []
       register: null
       scene_dependency: null
-    attestations: []
+    attestations:
+    - target: 'εἴπω;'
+      status: exact-string-located-context-pending
+      match_type: exact
+      reference_as_given: null
+      source:
+        author: null
+        work: null
+        passage: 'XML line 152'
+        local_file: /home/mrty/Documents/Resources/canonical-greekLit/data/tlg0007/tlg138/tlg0007.tlg138.perseus-grc2.xml
+      text_grc: 'ἐκείνου λέξεσιν, ἵνα καὶ μάθῃς πως, οἱ τοῦ Ξενοκράτους καὶ Σπευσίππου κατηγοροῦντες ἐπὶ τῷ μὴ τὴν ὑγίειαν ἀδιάφορον ἡγεῖσθαι μηδὲ τὸν πλοῦτον ἀνωφελὲς ἐν τίνι τόπῳ τὴν κακίαν αὐτοὶ τίθενται   καὶ τίνας λόγους περὶ αὐτῆς διεξίασιν ἡ δὲ κακία πρὸς τὰ λοιπὰ συμπτώματα ἔχει ὅρον γίνεται γὰρ αὐτή πως κατὰ τὸν τῆς φύσεως λόγον καί, ἵνʼ οὕτως εἴπω, οὐκ ἀχρήστως γίγνεται πρὸς τὰ ὅλα· οὐδὲ γὰρ ἂν τἀγαθὸν ἦν. οὐκοῦν ἐν θεοῖς ἀγαθὸν οὐδὲν  ἔστιν, ἐπεὶ μηδὲ κακόν· οὐδέ, ὅταν ὁ Ζεὺς εἰς ἑαυτὸν ἀναλώσας τὴν ὕλην ἅπασαν εἷς γένηται καὶ τὰς ἄλλας ἀνέλῃ διαφοράς, οὐδὲν ἔστιν ἀγαθὸν τηνικαῦτα, μηδενός γε κακοῦ παρόντος· ἀλλὰ χοροῦ μὲν ἔστιν ἐμμέλεια μηδενὸς ἀπᾴδοντος ἐν αὐτῷ,  καὶ σώματος ὑγίεια μηδενὸς μορίου νοσοῦντος ἀρετὴ δʼ ἄνευ κακίας οὐκ ἔχει γένεσιν, ἀλλʼ ὥσπερ ἐνίαις τῶν ἰατρικῶν δυνάμεων ἰὸς ὄφεως καὶ χολὴ  ὑαίνης ἀναγκαῖόν ἐστιν, οὕτως ἐπιτηδειότης ἑτέρα τῇ Μελήτου μοχθηρίᾳ πρὸς τὴν Σωκράτους δικαιοσύνην  καὶ τῇ Κλέωνος ἀναγωγίᾳ πρὸς τὴν Περικλέους καλοκἀγαθίαν πῶς δʼ ἂν εὗρεν ὁ Ζεὺς τὸν Ἡρακλέα φῦσαι καὶ τὸν Λυκοῦργον, εἰ μὴ καὶ Σαρδανάπαλον ἡμῖν ἔφυσε καὶ Φάλαριν; ὥρα λέγειν αὐτοῖς ὅτι καὶ φθίσις γέγονεν ἀνθρώπῳ πρὸς εὐεξίαν  καὶ ποδάγρα πρὸς ὠκύτητα καὶ οὐκ ἂν ἦν'
+      original_scene: null
+      relationship_to_handbook: The complete normalized handbook string occurs in the local canonical Greek corpus; dramatic or prose context still requires manual comparison before treating it as a contextual attestation.
+      adaptations: []
+      confidence: candidate
+      research_method: exact normalized Unicode search across local canonical-greekLit XML
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: f-06-008
     source_locator:
       file: part-f.yaml
@@ -5475,16 +6923,31 @@ scenes:
       variants:
       - de: Erzähle es mir!
         ja_current: 私に話してごらん。
-        ja_proposed: 私に話してごらん。
-        decision: pending-review
+        ja_proposed: さあ、話してごらん。
+        decision: revise
         rationale: null
         alternatives: []
       register: null
       scene_dependency: null
-    attestations: []
+    attestations:
+    - target: 'κάτειπέ μοι.'
+      status: exact-string-located-context-pending
+      match_type: exact
+      reference_as_given: null
+      source:
+        author: null
+        work: null
+        passage: 'XML line 332'
+        local_file: /home/mrty/Documents/Resources/canonical-greekLit/data/tlg0019/tlg011/tlg0019.tlg011.perseus-grc2.xml
+      text_grc: 'τουτὶ δὲ τὸ κακὸν πῶς ἔπαθες; κάτειπέ μοι.'
+      original_scene: null
+      relationship_to_handbook: The complete normalized handbook string occurs in the local canonical Greek corpus; dramatic or prose context still requires manual comparison before treating it as a contextual attestation.
+      adaptations: []
+      confidence: candidate
+      research_method: exact normalized Unicode search across local canonical-greekLit XML
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: f-06-009
     source_locator:
       file: part-f.yaml
@@ -5518,16 +6981,27 @@ scenes:
       variants:
       - de: Karl hat uns geprügelt.
         ja_current: カールが僕たちを殴った。
-        ja_proposed: カールが僕たちを殴った。
-        decision: pending-review
+        ja_proposed: カールが僕たちをぶったんです。
+        decision: revise
         rationale: null
         alternatives: []
       register: null
       scene_dependency: null
-    attestations: []
+    attestations:
+    - target: 'Κάρολος πληγὰς ἡμῖν ἐνέβαλλεν.'
+      status: not-found
+      match_type: not-found
+      reference_as_given: null
+      source: null
+      text_grc: null
+      original_scene: null
+      relationship_to_handbook: No exact normalized single-line occurrence was located in the local canonical Greek corpus; the wording is treated as a handbook composition unless later evidence is found.
+      adaptations: []
+      confidence: medium
+      research_method: exact normalized Unicode search across all local canonical-greekLit XML files
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: f-06-010
     source_locator:
       file: part-f.yaml
@@ -5561,16 +7035,31 @@ scenes:
       variants:
       - de: Ist's möglich?
         ja_current: 本当か？
-        ja_proposed: 本当か？
-        decision: pending-review
+        ja_proposed: なんだって？
+        decision: revise
         rationale: null
         alternatives: []
       register: null
       scene_dependency: null
-    attestations: []
+    attestations:
+    - target: 'τί φής!'
+      status: exact-string-located-context-pending
+      match_type: exact
+      reference_as_given: null
+      source:
+        author: null
+        work: null
+        passage: 'XML line 132'
+        local_file: /home/mrty/Documents/Resources/canonical-greekLit/data/tlg0007/tlg071/tlg0007.tlg071.perseus-grc2.xml
+      text_grc: 'λέγειν πρὸς ἑαυτὸν οἷον ἐπιπλήττοντα καὶ κακίζοντα τί φῄς, ὦ Διόγενες; τοῦτον μὲν εὐωχεῖ τὰ σὰ'
+      original_scene: null
+      relationship_to_handbook: The complete normalized handbook string occurs in the local canonical Greek corpus; dramatic or prose context still requires manual comparison before treating it as a contextual attestation.
+      adaptations: []
+      confidence: candidate
+      research_method: exact normalized Unicode search across local canonical-greekLit XML
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: f-06-011
     source_locator:
       file: part-f.yaml
@@ -5604,16 +7093,27 @@ scenes:
       variants:
       - de: Und was war dir Ursache davon?
         ja_current: それで原因は何だったんだ？
-        ja_proposed: それで原因は何だったんだ？
-        decision: pending-review
+        ja_proposed: それで、何が原因だったんだ？
+        decision: revise
         rationale: null
         alternatives: []
       register: null
       scene_dependency: null
-    attestations: []
+    attestations:
+    - target: 'ἡ δ’ αἰτία τίς ἦν;'
+      status: not-found
+      match_type: not-found
+      reference_as_given: null
+      source: null
+      text_grc: null
+      original_scene: null
+      relationship_to_handbook: No exact normalized single-line occurrence was located in the local canonical Greek corpus; the wording is treated as a handbook composition unless later evidence is found.
+      adaptations: []
+      confidence: medium
+      research_method: exact normalized Unicode search across all local canonical-greekLit XML files
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: f-06-012
     source_locator:
       file: part-f.yaml
@@ -5648,15 +7148,30 @@ scenes:
       - de: Warum?
         ja_current: なぜだ？
         ja_proposed: なぜだ？
-        decision: pending-review
+        decision: keep
         rationale: null
         alternatives: []
       register: null
       scene_dependency: null
-    attestations: []
+    attestations:
+    - target: 'τιή;'
+      status: exact-string-located-context-pending
+      match_type: exact
+      reference_as_given: null
+      source:
+        author: null
+        work: null
+        passage: 'XML line 145'
+        local_file: /home/mrty/Documents/Resources/canonical-greekLit/data/tlg0007/tlg076/tlg0007.tlg076.perseus-grc2.xml
+      text_grc: 'καὶ ἐν ἄλλοις  Τυδεΐδη μεγάθυμε, τίη γενεὴν ἐρεείνεις; id. Z 145 οἵη περ φύλλων γενεή, τοίη δὲ καὶ ἀνδρῶν.  φύλλα τὰ μὲν τʼ ἄνεμος χαμάδις χέει, ἄλλα δέ  θʼ ὕλη'
+      original_scene: null
+      relationship_to_handbook: The complete normalized handbook string occurs in the local canonical Greek corpus; dramatic or prose context still requires manual comparison before treating it as a contextual attestation.
+      adaptations: []
+      confidence: candidate
+      research_method: exact normalized Unicode search across local canonical-greekLit XML
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: f-06-013
     source_locator:
       file: part-f.yaml
@@ -5690,16 +7205,31 @@ scenes:
       variants:
       - de: So hitzig?
         ja_current: そんなに短気なのか？
-        ja_proposed: そんなに短気なのか？
-        decision: pending-review
+        ja_proposed: なんて気が短いんだ！
+        decision: revise
         rationale: null
         alternatives: []
       register: null
       scene_dependency: null
-    attestations: []
+    attestations:
+    - target: 'ὡς ὀξύθυμος!'
+      status: exact-string-located-context-pending
+      match_type: exact
+      reference_as_given: null
+      source:
+        author: null
+        work: null
+        passage: 'XML line 1498'
+        local_file: /home/mrty/Documents/Resources/canonical-greekLit/data/tlg0019/tlg002/tlg0019.tlg002.perseus-grc2.xml
+      text_grc: 'ὡς ὀξύθυμος. φέρε τί σοι δῶ καταφαγεῖν;'
+      original_scene: null
+      relationship_to_handbook: The complete normalized handbook string occurs in the local canonical Greek corpus; dramatic or prose context still requires manual comparison before treating it as a contextual attestation.
+      adaptations: []
+      confidence: candidate
+      research_method: exact normalized Unicode search across local canonical-greekLit XML
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: f-06-014
     source_locator:
       file: part-f.yaml
@@ -5733,8 +7263,8 @@ scenes:
       variants:
       - de: Das ist immer so deine Art!
         ja_current: それがいつもの君のやり方だ。
-        ja_proposed: それがいつもの君のやり方だ。
-        decision: pending-review
+        ja_proposed: まったく、お前はいつもそうだ！
+        decision: revise
         rationale: null
         alternatives: []
       register: null
@@ -5763,7 +7293,7 @@ scenes:
       research_method: exact normalized token search
     textual_issues: []
     review_comments: []
-    status: source-researched
+    status: ja-proposed
   - id: f-06-015
     source_locator:
       file: part-f.yaml
@@ -5797,16 +7327,27 @@ scenes:
       variants:
       - de: Ich bin nicht schuld daran.
         ja_current: 私のせいではない。
-        ja_proposed: 私のせいではない。
-        decision: pending-review
+        ja_proposed: 僕のせいじゃない。
+        decision: revise
         rationale: null
         alternatives: []
       register: null
       scene_dependency: null
-    attestations: []
+    attestations:
+    - target: 'οὐκ ἐγὼ τούτων αἴτιος.'
+      status: not-found
+      match_type: not-found
+      reference_as_given: null
+      source: null
+      text_grc: null
+      original_scene: null
+      relationship_to_handbook: No exact normalized single-line occurrence was located in the local canonical Greek corpus; the wording is treated as a handbook composition unless later evidence is found.
+      adaptations: []
+      confidence: medium
+      research_method: exact normalized Unicode search across all local canonical-greekLit XML files
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: f-06-016
     source_locator:
       file: part-f.yaml
@@ -5840,16 +7381,27 @@ scenes:
       variants:
       - de: Ja mit mir hat er es ebenso gemacht.
         ja_current: ああ、私にも同じことをした。
-        ja_proposed: ああ、私にも同じことをした。
-        decision: pending-review
+        ja_proposed: そうです、僕にも同じことをしました。
+        decision: revise
         rationale: null
         alternatives: []
       register: null
       scene_dependency: null
-    attestations: []
+    attestations:
+    - target: 'νὴ ∆ία, κἀμὲ τοῦτ’ ἔδρασε ταὐτόν.'
+      status: not-found
+      match_type: not-found
+      reference_as_given: null
+      source: null
+      text_grc: null
+      original_scene: null
+      relationship_to_handbook: No exact normalized single-line occurrence was located in the local canonical Greek corpus; the wording is treated as a handbook composition unless later evidence is found.
+      adaptations: []
+      confidence: medium
+      research_method: exact normalized Unicode search across all local canonical-greekLit XML files
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: f-06-017
     source_locator:
       file: part-f.yaml
@@ -5883,16 +7435,31 @@ scenes:
       variants:
       - de: Du willst es in Abrede stellen?
         ja_current: 否定するつもりか？
-        ja_proposed: 否定するつもりか？
-        decision: pending-review
+        ja_proposed: しらを切るつもりか？
+        decision: revise
         rationale: null
         alternatives: []
       register: null
       scene_dependency: null
-    attestations: []
+    attestations:
+    - target: 'ἀρνεῖ;'
+      status: exact-string-located-context-pending
+      match_type: exact
+      reference_as_given: null
+      source:
+        author: null
+        work: null
+        passage: 'XML line 1320'
+        local_file: /home/mrty/Documents/Resources/canonical-greekLit/data/tlg0031/tlg003/tlg0031.tlg003.perseus-grc2.xml
+      text_grc: 'τοῦ Ἀρνεί'
+      original_scene: null
+      relationship_to_handbook: The complete normalized handbook string occurs in the local canonical Greek corpus; dramatic or prose context still requires manual comparison before treating it as a contextual attestation.
+      adaptations: []
+      confidence: candidate
+      research_method: exact normalized Unicode search across local canonical-greekLit XML
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: f-06-018
     source_locator:
       file: part-f.yaml
@@ -5926,16 +7493,32 @@ scenes:
       variants:
       - de: Nicht gemuckst!
         ja_current: 黙っていろ！
-        ja_proposed: 黙っていろ！
-        decision: pending-review
+        ja_proposed: 一言も口答えするな！
+        decision: revise
         rationale: null
         alternatives: []
       register: null
       scene_dependency: null
-    attestations: []
+    attestations:
+    - target: μὴ γρύξῃς!
+      status: context-verified
+      match_type: exact
+      reference_as_given: Aristophanes, Wealth 598-600
+      source:
+        author: Aristophanes
+        work: Wealth
+        passage: 598-600
+        local_file: /home/mrty/Documents/Resources/canonical-greekLit/data/tlg0019/tlg011/tlg0019.tlg011.perseus-grc2.xml
+      text_grc: ἀλλὰ φθείρου καὶ μὴ γρύξῃς ἔτι μηδʼ ὁτιοῦν. οὐ γὰρ πείσεις, οὐδʼ ἢν πείσῃς.
+      original_scene: Chremylus dismisses Poverty and orders her not to utter another sound.
+      relationship_to_handbook: >-
+        Exact prohibition in a hostile silencing formula. It supports a categorical 「一言も口をきくな」.
+      adaptations: []
+      confidence: high
+      research_method: exact Unicode corpus search with surrounding dramatic context inspected
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: f-06-019
     source_locator:
       file: part-f.yaml
@@ -5969,16 +7552,27 @@ scenes:
       variants:
       - de: Daß du mir keine Lügen sagst!
         ja_current: 嘘は言うなよ！
-        ja_proposed: 嘘は言うなよ！
-        decision: pending-review
+        ja_proposed: 私に嘘をつくんじゃないぞ！
+        decision: revise
         rationale: null
         alternatives: []
       register: null
       scene_dependency: null
-    attestations: []
+    attestations:
+    - target: 'ὅπως ἐρεῖς μηδὲν ψεῦδος!'
+      status: not-found
+      match_type: not-found
+      reference_as_given: null
+      source: null
+      text_grc: null
+      original_scene: null
+      relationship_to_handbook: No exact normalized single-line occurrence was located in the local canonical Greek corpus; the wording is treated as a handbook composition unless later evidence is found.
+      adaptations: []
+      confidence: medium
+      research_method: exact normalized Unicode search across all local canonical-greekLit XML files
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: f-06-020
     source_locator:
       file: part-f.yaml
@@ -6013,15 +7607,26 @@ scenes:
       - de: Du verdienst Schläge.
         ja_current: お前は殴られて当然だ。
         ja_proposed: お前は殴られて当然だ。
-        decision: pending-review
+        decision: keep
         rationale: null
         alternatives: []
       register: null
       scene_dependency: null
-    attestations: []
+    attestations:
+    - target: 'ἄξιος εἶ πληγὰς λαβεῖν.'
+      status: not-found
+      match_type: not-found
+      reference_as_given: null
+      source: null
+      text_grc: null
+      original_scene: null
+      relationship_to_handbook: No exact normalized single-line occurrence was located in the local canonical Greek corpus; the wording is treated as a handbook composition unless later evidence is found.
+      adaptations: []
+      confidence: medium
+      research_method: exact normalized Unicode search across all local canonical-greekLit XML files
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: f-06-021
     source_locator:
       file: part-f.yaml
@@ -6055,16 +7660,27 @@ scenes:
       variants:
       - de: Du, halt' einmal! Wo rennst du hin?
         ja_current: おい、ちょっと待て！どこへ走っていく？
-        ja_proposed: おい、ちょっと待て！どこへ走っていく？
-        decision: pending-review
+        ja_proposed: こら、待ちなさい！どこへ駆けていくんだ？
+        decision: revise
         rationale: null
         alternatives: []
       register: null
       scene_dependency: null
-    attestations: []
+    attestations:
+    - target: 'ἐπίσχες, οὗτος! ποῖ θεῖς;'
+      status: not-found
+      match_type: not-found
+      reference_as_given: null
+      source: null
+      text_grc: null
+      original_scene: null
+      relationship_to_handbook: No exact normalized single-line occurrence was located in the local canonical Greek corpus; the wording is treated as a handbook composition unless later evidence is found.
+      adaptations: []
+      confidence: medium
+      research_method: exact normalized Unicode search across all local canonical-greekLit XML files
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: f-06-022
     source_locator:
       file: part-f.yaml
@@ -6098,16 +7714,29 @@ scenes:
       variants:
       - de: Sei nicht böse, lieber Vater!
         ja_current: 怒らないで、お父さん！
-        ja_proposed: 怒らないで、お父さん！
-        decision: pending-review
+        ja_proposed: 怒らないでよ、お父さん！
+        decision: revise
         rationale: null
         alternatives: []
       register: null
       scene_dependency: null
-    attestations: []
-    textual_issues: []
+    attestations:
+    - target: 'μηδὲν ἀγανάακτει, ὦ πάτερ!'
+      status: not-found
+      match_type: not-found
+      reference_as_given: null
+      source: null
+      text_grc: null
+      original_scene: null
+      relationship_to_handbook: No exact normalized single-line occurrence was located in the local canonical Greek corpus; the wording is treated as a handbook composition unless later evidence is found.
+      adaptations: []
+      confidence: medium
+      research_method: exact normalized Unicode search across all local canonical-greekLit XML files
+    textual_issues:
+    - type: probable-greek-typo
+      note: Printed ἀγανάακτει has an extra alpha and should be ἀγανάκτει.
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: f-06-023
     source_locator:
       file: part-f.yaml
@@ -6141,13 +7770,28 @@ scenes:
       variants:
       - de: Man muß sich todtärgern!
         ja_current: もう腹が立ってたまらない！
-        ja_proposed: もう腹が立ってたまらない！
-        decision: pending-review
+        ja_proposed: もう、腹が立って張り裂けそうだ！
+        decision: revise
         rationale: null
         alternatives: []
       register: null
       scene_dependency: null
-    attestations: []
+    attestations:
+    - target: 'οἴμοι, διαρραγήσομαι.'
+      status: exact-string-located-context-pending
+      match_type: exact
+      reference_as_given: null
+      source:
+        author: null
+        work: null
+        passage: 'XML line 849'
+        local_file: /home/mrty/Documents/Resources/canonical-greekLit/data/tlg0019/tlg002/tlg0019.tlg002.perseus-grc2.xml
+      text_grc: 'οἴμοι διαρραγήσομαι.'
+      original_scene: null
+      relationship_to_handbook: The complete normalized handbook string occurs in the local canonical Greek corpus; dramatic or prose context still requires manual comparison before treating it as a contextual attestation.
+      adaptations: []
+      confidence: candidate
+      research_method: exact normalized Unicode search across local canonical-greekLit XML
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
