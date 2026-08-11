@@ -1435,7 +1435,7 @@ scenes:
 
           begrüßt haben.'
         ja_current: あなたが私に挨拶しなかったとは、本当にひどいことですよ。
-        ja_proposed: 私に挨拶してくださらなかったなんて、随分ではありませんか。
+        ja_proposed: \emph{私に挨拶してくださらなかったなんて}、\emph{随分}ではありませんか。
         decision: accepted
         rationale: null
         alternatives: []
@@ -4332,11 +4332,9 @@ scenes:
         decision: revise
         rationale: >-
           German asks for the addressee's hand, while Greek explicitly specifies the right hand.
-          importing the stronger Japanese idiom 「手を貸す」, which normally means giving assistance.
           「右手を取らせてください」 naturally describes taking it for the accompanying pledge without
           importing the stronger Japanese idiom 「手を貸す」, which normally means giving assistance.
           「さあ」 connects the gesture directly to the vow that follows.
-          importing the stronger Japanese idiom 「手を貸す」, which normally means giving assistance.
         alternatives: []
       register: null
       scene_dependency: null
@@ -4377,12 +4375,14 @@ scenes:
       variants:
       - de: Ich schwöre Ihnen ewige Treue!
         ja_current: 永遠にあなたに忠実でいると誓います。
-        ja_proposed: 決してあなたを見捨てないと誓います！
+        ja_proposed: いつまでも変わらぬ心を、あなたに誓います！
         decision: revise
         rationale: >-
           German formulates the promise positively as eternal fidelity, whereas Greek says literally
-          that the speaker declares they will never abandon the addressee. Japanese follows the more
-          concrete Greek vow while preserving the solemn force of schwören.
+          that the speaker declares they will never abandon the addressee. 「いつまでも変わらぬ心」
+          expresses lasting fidelity naturally and with restrained literary colouring; the promise
+          not to leave the beloved remains implicit in that fidelity. The complete sentence is also
+          usable independently of e-04-015.
         alternatives: []
       register: null
       scene_dependency: null
@@ -4411,14 +4411,34 @@ scenes:
     evidence: "Hier ist der schändliche Mensch; Gehen Sie Ihrer Wege"
     confidence: high
   reconstruction:
-    confidence: medium
+    confidence: high
     note: >-
-      Entries 1-19 plausibly dramatize discovery and expulsion, but many commands are interchangeable
-      variants. Entries 20-31 continue the quarrel without enough evidence to assign every retort.
-      The mother's outwardly polite German Sie becomes hostile command language in Japanese.
+      The entries form a substantially recoverable quarrel: the mother-in-law discovers the pair,
+      the man panics and tries to placate her, and she denounces and expels him. Entries 13-19 are
+      interchangeable expulsion formulas rather than seven necessary consecutive commands. Entries
+      20-31 continue with retorts and threats, though a few turns remain provisional. The mother's
+      outwardly polite German Sie does not prevent hostile command language in Japanese.
   voice_profiles:
     mother-in-law: {register: hostile_formal, traits: [shocked, indignant, commanding]}
     discovered-lover: {register: polite, traits: [alarmed, placating, defensive]}
+  turn_groups:
+  - entries: [e-05-001, e-05-002]
+    description: the mother-in-law discovers the pair and cries out in shock
+    speaker_sequence: [mother-in-law, mother-in-law]
+  - entries: [e-05-003, e-05-004]
+    description: the discovered man realizes that the pair have been exposed
+    speaker_sequence: [spouse-a, spouse-a]
+  - entries: [e-05-005, e-05-006, e-05-007, e-05-008]
+    description: the mother-in-law identifies and denounces the man
+    speaker_sequence: [mother-in-law, mother-in-law, mother-in-law, mother-in-law]
+  - entries: [e-05-009, e-05-010, e-05-011, e-05-012]
+    description: the man attempts to calm her and she continues protesting
+    speaker_sequence: [spouse-a, mother-in-law, mother-in-law, spouse-a]
+  - entries: [e-05-013, e-05-014, e-05-015, e-05-016, e-05-017, e-05-018, e-05-019]
+    description: alternative formulas by which the mother-in-law drives the man away
+    speaker_sequence: [mother-in-law, mother-in-law, mother-in-law, mother-in-law, mother-in-law, mother-in-law, mother-in-law]
+    alternatives:
+    - [e-05-013, e-05-014, e-05-015, e-05-016, e-05-017, e-05-018, e-05-019]
   entries:
   - id: e-05-001
     source_locator:
@@ -4453,9 +4473,11 @@ scenes:
       variants:
       - de: Was geht da vor? — Was ist das?
         ja_current: そこで何が起きているのですか――これは何です？
-        ja_proposed: そこで何をしているのです？――これは一体、何事です！
+        ja_proposed: そこで何をしているのです？――これはいったい、何事です！
         decision: revise
-        rationale: null
+        rationale: >-
+          The mother-in-law has just encountered the scene. German Was geht da vor and the two Greek
+          questions express discovery and shocked demand, not a neutral request for information.
         alternatives: []
       register: null
       scene_dependency: null
@@ -4496,9 +4518,12 @@ scenes:
       variants:
       - de: Allmächtiger Gott!
         ja_current: 全能の神よ！
-        ja_proposed: ああ、神よ！
+        ja_proposed: ああ、神さま！
         decision: revise
-        rationale: null
+        rationale: >-
+          In this domestic discovery scene the phrase functions as a spontaneous cry of shock.
+          「全能の神よ」 mechanically reproduces German allmächtig but sounds like solemn prayer;
+          「ああ、神さま」 is natural speech while Greek ὦ Ζεῦ βασιλεῦ supplies the elevated model.
         alternatives: []
       register: null
       scene_dependency: null
@@ -4728,9 +4753,13 @@ scenes:
       variants:
       - de: Verwünscht!
         ja_current: ちくしょう！
-        ja_proposed: ああ、なんということ！
+        ja_proposed: しまった！
         decision: revise
-        rationale: null
+        rationale: >-
+          Read with the following 「見つかってしまった」, this is the discovered man's immediate
+          realization of disaster. German Verwünscht is a curse of frustration and Greek οἴμοι
+          κακοδαίμων laments the speaker's own wretched situation; concise 「しまった」 fits both the
+          event and the actor better than a general exclamation of wonder.
         alternatives: []
       register: null
       scene_dependency: null
@@ -4771,9 +4800,12 @@ scenes:
       variants:
       - de: Wir sind verrathen!
         ja_current: 私たちは露見してしまった！
-        ja_proposed: 見つかってしまった！
+        ja_proposed: （私たちは）見つかってしまった！
         decision: revise
-        rationale: null
+        rationale: >-
+          German verraten and perfect προδεδόμεθα say that the pair have been betrayed or exposed.
+          Japanese naturally suppresses the plural subject already evident from the scene. Parenthetical
+          「（私たちは）」 preserves the plural for learners when the phrase is used independently.
         alternatives: []
       register: null
       scene_dependency: null
@@ -4814,9 +4846,13 @@ scenes:
       variants:
       - de: Hier ist der schändliche Mensch!
         ja_current: ここにそのろくでもない男がいます！
-        ja_proposed: この恥知らずは、ここにいたのですね！
+        ja_proposed: まあ、この恥知らずが、ここに（いる）！
         decision: revise
-        rationale: null
+        rationale: >-
+          Hier ist and deictic οὗτος identify the man on the spot. 「いたのですね」 sounds like calm
+          confirmation; the broken exclamation better conveys the mother-in-law's shocked recognition.
+          Parenthetical 「（いる）」 supplies the predicate when the model is read independently without
+          weighing down the dramatic exclamation.
         alternatives: []
       register: null
       scene_dependency: null
@@ -4857,13 +4893,58 @@ scenes:
       variants:
       - de: Sind Sie verrückt?
         ja_current: 気でも違ったのですか。
-        ja_proposed: 何をなさっているのです！
+        ja_proposed: 正気ですか、いったい何をしているのです！
         decision: revise
-        rationale: null
+        rationale: >-
+          German Sind Sie verrückt? is a forceful accusation, while Greek τί ποιεῖς asks literally
+          what the addressee is doing but is well attested as a shocked reproach or attempt to stop an
+          outrageous act. 「正気ですか」 preserves the German force and 「いったい何をしているのです」
+          makes the Greek wording explicit, producing a self-contained Japanese model phrase.
         alternatives: []
       register: null
       scene_dependency: null
-    attestations: []
+    attestations:
+    - language: grc
+      target: τί ποιεῖς;
+      status: pragmatic-force-verified
+      match_type: exact
+      source:
+        author: Aeschylus
+        work: Suppliants
+        passage: '911'
+        local_file: /home/mrty/Documents/Resources/canonical-greekLit/data/tlg0085/tlg001/tlg0085.tlg001.perseus-grc2.xml
+      text_grc: >-
+        οὗτος, τί ποιεῖς; ἐκ ποίου φρονήματος ἀνδρῶν Πελασγῶν τήνδʼ ἀτιμάζεις χθόνα;
+      context_grc: >-
+        After the herald threatens to drag the suppliant women away by their hair, the king intervenes
+        with τί ποιεῖς and demands to know with what intent he insults the land of the Pelasgians.
+      original_speakers: [Βασιλεύς]
+      original_scene: The king indignantly confronts and stops the violent herald.
+      relationship_to_handbook: >-
+        The exact core question is used as a forceful reproach against outrageous conduct, supporting
+        the accusatory force supplied by German Sind Sie verrückt?
+      confidence: high
+      research_method: exact corpus search and manual inspection of Suppliants 907-916
+    - language: grc
+      target: τί ποιεῖς;
+      status: pragmatic-force-verified
+      match_type: exact
+      source:
+        author: Aristophanes
+        work: Clouds
+        passage: '1495'
+        local_file: /home/mrty/Documents/Resources/canonical-greekLit/data/tlg0019/tlg003/tlg0019.tlg003.perseus-grc2.xml
+      text_grc: ἄνθρωπε, τί ποιεῖς;
+      context_grc: >-
+        A student cries out after Strepsiades climbs onto the roof and sets fire to the Thinkery;
+        another student immediately realizes that the building is burning.
+      original_speakers: [Μαθητής Α]
+      original_scene: A horrified witness challenges a man in the act of arson.
+      relationship_to_handbook: >-
+        The handbook omits vocative ἄνθρωπε but preserves the exact question. The extreme context shows
+        that it can carry alarm and condemnation far beyond a neutral request for information.
+      confidence: high
+      research_method: exact corpus search and manual inspection of Clouds 1491-1500
     textual_issues: []
     review_comments: []
     status: ja-proposed
@@ -4900,13 +4981,60 @@ scenes:
       variants:
       - de: Was fällt Ihnen ein?
         ja_current: 何を考えているのですか。
-        ja_proposed: 一体どうなさったのです！
+        ja_proposed: いったい、何を血迷っているのです！
         decision: revise
-        rationale: null
+        rationale: >-
+          Greek τί πάσχεις; ranges from a genuine 「どうしたのです」 to an indignant attempt to stop
+          irrational or violent conduct. Here German Was fällt Ihnen ein? and the mother-in-law's
+          denunciation select the accusatory sense. 「何を血迷っているのです」 preserves the notion
+          that something has come over the addressee, remains distinct from e-05-006's direct challenge
+          about what the person is doing, and is intelligible as an independent model phrase.
         alternatives: []
       register: null
       scene_dependency: null
-    attestations: []
+    attestations:
+    - language: grc
+      target: τί πάσχεις;
+      status: pragmatic-force-verified
+      match_type: exact
+      source:
+        author: Euripides
+        work: Hecuba
+        passage: '1127'
+        local_file: /home/mrty/Documents/Resources/canonical-greekLit/data/tlg0006/tlg007/tlg0006.tlg007.perseus-grc2.xml
+      text_grc: >-
+        ΠΟΛΥΜΗΣΤΩΡ: σήμηνον, εἰπὲ ποῦ ʼσθʼ, ἵνʼ ἁρπάσας χεροῖν διασπάσωμαι καὶ
+        καθαιμάξω χρόα. — ΑΓΑΜΕΜΝΩΝ: οὗτος, τί πάσχεις;
+      context_grc: >-
+        Polymestor demands to know where Hecuba is so that he can seize her, tear her apart, and bloody
+        her body. Agamemnon interrupts with τί πάσχεις and then orders him to restrain himself and speak.
+      original_speakers: [Ἀγαμέμνων]
+      original_scene: Agamemnon indignantly checks Polymestor's murderous rage.
+      relationship_to_handbook: >-
+        The exact question functions as a forceful 「what has come over you?」 and supports the accusatory
+        sense selected by German Was fällt Ihnen ein?
+      confidence: high
+      research_method: exact corpus search and manual inspection of Hecuba 1122-1131
+    - language: grc
+      target: τί πάσχεις;
+      status: semantic-range-verified
+      match_type: exact
+      source:
+        author: Aristophanes
+        work: Clouds
+        passage: '708'
+        local_file: /home/mrty/Documents/Resources/canonical-greekLit/data/tlg0019/tlg003/tlg0019.tlg003.perseus-grc2.xml
+      text_grc: 'ΧΟΡΟΣ: τί πάσχεις; τί κάμνεις; — ΣΤΡΕΨΙΑΔΗΣ: ἀπόλλυμαι δείλαιος.'
+      context_grc: >-
+        The chorus asks what is wrong after Strepsiades cries out in pain; he answers by describing
+        the bedbugs tormenting him.
+      original_speakers: [Χορός]
+      original_scene: A genuine inquiry prompted by a sufferer's cry, not an accusation.
+      relationship_to_handbook: >-
+        This contrasting exact use establishes that τί πάσχεις alone does not require accusation;
+        the handbook's German and reconstructed scene are what select the reproachful force here.
+      confidence: high
+      research_method: exact corpus search and manual inspection of Clouds 703-715
     textual_issues: []
     review_comments: []
     status: ja-proposed
@@ -4943,9 +5071,12 @@ scenes:
       variants:
       - de: O Sie Abscheulicher!
         ja_current: ああ、なんて嫌な人！
-        ja_proposed: ああ、なんと忌まわしい人！
+        ja_proposed: まあ、なんて卑しい人！
         decision: revise
-        rationale: null
+        rationale: >-
+          Abscheulicher and βδελυρός express personal disgust. 「卑しい人」 remains a plausible spoken
+          insult with restrained literary colouring; 「忌まわしい人」 sounds more like a description
+          of an ominous object or event than an angry domestic address.
         alternatives: []
       register: null
       scene_dependency: null
@@ -5007,9 +5138,12 @@ scenes:
       variants:
       - de: Ereifern Sie sich nicht!
         ja_current: 興奮しないでください。
-        ja_proposed: そうお怒りにならずに！
+        ja_proposed: まあ、そうお怒りにならないでください！
         decision: revise
-        rationale: null
+        rationale: >-
+          The discovered man attempts to de-escalate the mother-in-law's anger. German sich ereifern
+          and Greek πρὸς ὀργήν both concern giving way to anger; the complete polite request is usable
+          independently while 「まあ」 supplies the placating tone.
         alternatives: []
       register: null
       scene_dependency: null
@@ -5153,9 +5287,12 @@ scenes:
       variants:
       - de: Das ist eine Sünde und Schande!
         ja_current: これは罪であり恥です！
-        ja_proposed: なんという罰当たりな目に遭ったことか！
+        ja_proposed: まあ、なんという不埒なことを！
         decision: revise
-        rationale: null
+        rationale: >-
+          German Sünde und Schande condemns the situation as scandalous, while Greek ἀνόσια ἐπάθομεν
+          says that an impious outrage has been suffered. 「罰当たりな目」 suggests divine punishment
+          received by the speaker; 「不埒なこと」 better expresses her moral condemnation.
         alternatives: []
       register: null
       scene_dependency: null
@@ -5196,9 +5333,11 @@ scenes:
       variants:
       - de: \emph{Nein,} über diese Unverschämtheit!
         ja_current: いやはや、なんという無礼だ！
-        ja_proposed: まあ、なんというひどい無礼でしょう！
+        ja_proposed: \emph{まあ}、なんという厚かましさでしょう！
         decision: revise
-        rationale: null
+        rationale: >-
+          Unverschämtheit and ὕβρις denote shameless insolence, not merely a breach of etiquette.
+          「厚かましさ」 gives the mother-in-law a natural indignant accusation.
         alternatives: []
       register: null
       scene_dependency: null
@@ -5260,9 +5399,12 @@ scenes:
       variants:
       - de: Hören Sie auf!
         ja_current: やめてください。
-        ja_proposed: もうおよしなさい！
+        ja_proposed: もう、やめてください！
         decision: revise
-        rationale: null
+        rationale: >-
+          This is most plausibly the man's attempt to stop the mother's denunciation. Polite
+          「やめてください」 therefore fits better than superior-to-inferior 「およしなさい」; παῦε
+          preserves the urgency.
         alternatives: []
       register: null
       scene_dependency: null
@@ -5303,13 +5445,35 @@ scenes:
       variants:
       - de: Gehen Sie Ihrer Wege!
         ja_current: さっさと立ち去りなさい。
-        ja_proposed: さあ、そこをお退きなさい！
+        ja_proposed: さっさと立ち去りなさい！
         decision: revise
-        rationale: null
+        rationale: >-
+          German seiner Wege gehen is a formal but dismissive “go one's way,” while Greek
+          ἄπιθʼ ἐκποδών is the blunt command “go away, out of the way.” 「お引き取りください」 sounds
+          too conventionally courteous; 「さっさと立ち去りなさい」 preserves both formal diction and hostility.
         alternatives: []
       register: null
       scene_dependency: null
-    attestations: []
+    attestations:
+    - target: ἄπιθ’ ἐκποδών!
+      status: context-verified
+      match_type: exact
+      reference_as_given: Aristophanes, Ecclesiazusae 134-135
+      source:
+        author: Aristophanes
+        work: Ecclesiazusae
+        passage: 134-135
+        local_file: /home/mrty/Documents/Resources/canonical-greekLit/data/tlg0019/tlg010/tlg0019.tlg010.perseus-grc2.xml
+      text_grc: >-
+        ΠΡΑΞΑΓΟΡΑ: ἄπιθʼ ἐκποδών· τοιαῦτʼ ἂν ἡμᾶς ἠργάσω κἀκεῖ.
+        ΓΥΝΗ Α: τί δʼ; οὐ πίνουσι κἀν τἠκκλησίᾳ;
+      original_scene: >-
+        During a rehearsal, Praxagora peremptorily dismisses a woman whose inept performance could
+        jeopardize their scheme; the woman immediately answers back.
+      relationship_to_handbook: Exact dismissal formula, with punctuation changed from a stop to an exclamation mark.
+      adaptations: [punctuation]
+      confidence: high
+      research_method: exact Unicode corpus search with surrounding dramatic context inspected
     textual_issues: []
     review_comments: []
     status: ja-proposed
@@ -5346,13 +5510,39 @@ scenes:
       variants:
       - de: Machen Sie, daß Sie hinaus\textcompwordmark{}kommen!
         ja_current: 早く外へ出て行きなさい。
-        ja_proposed: さっさと外へお出になったらどうです！
+        ja_proposed: お出になったらどうです！
         decision: revise
-        rationale: null
+        rationale: >-
+          German Machen Sie, daß ... is a forceful order to get outside. Greek, however, casts the
+          command as the impatient rhetorical question οὐκ εἶ θύραζε; (“won't you go outside?”).
+          In the mother-in-law's hostile formal voice, 「お出になったらどうです！」 is unmistakably an
+          ironic dismissal, not a courteous suggestion, and usefully preserves the Greek question form.
         alternatives: []
       register: null
       scene_dependency: null
-    attestations: []
+    attestations:
+    - target: οὐκ εἶ θύραζε;
+      status: context-verified
+      match_type: exact
+      reference_as_given: Aristophanes, Birds 989-991
+      source:
+        author: Aristophanes
+        work: Birds
+        passage: 989-991
+        local_file: /home/mrty/Documents/Resources/canonical-greekLit/data/tlg0019/tlg006/tlg0019.tlg006.perseus-grc2.xml
+      text_grc: >-
+        ΧΡΗΣΜΟΛΟΓΟΣ: καὶ ταῦτʼ ἔνεστʼ ἐνταῦθα; — ΠΙΣΘΕΤΑΙΡΟΣ: λαβὲ τὸ βιβλίον.
+        οὐκ εἶ θύραζʼ; ἐς κόρακας. — ΧΡΗΣΜΟΛΟΓΟΣ: οἴμοι δείλαιος. —
+        ΠΙΣΘΕΤΑΙΡΟΣ: οὔκουν ἑτέρωσε χρησμολογήσεις ἐκτρέχων;
+      original_scene: >-
+        Pisthetaerus beats and drives away an intrusive oracle-monger, asking whether he will go
+        outside and following the question with the curse “to the crows.”
+      relationship_to_handbook: >-
+        Exact question, with θύραζʼ elided before the following curse. The handbook omits ἐς κόρακας,
+        leaving the impatient rhetorical expulsion intact.
+      adaptations: [following curse omitted, orthographic expansion of elision]
+      confidence: high
+      research_method: component Unicode search followed by exact-context verification
     textual_issues: []
     review_comments: []
     status: ja-proposed
@@ -5389,13 +5579,36 @@ scenes:
       variants:
       - de: Entfernen Sie sich doch!
         ja_current: さあ離れてください。
-        ja_proposed: さあ、そこをお退きにならないのですか！
+        ja_proposed: いい加減、そこをどいたらどうです！
         decision: revise
-        rationale: null
+        rationale: >-
+          German doch and Greek δῆτα intensify an expected departure, while οὐκ ...; makes the Greek
+          an impatient rhetorical question: “won't you then get out of the way?” 「いい加減」 conveys
+          the particles, and 「どいたらどうです」 preserves both ἐκποδών and the interrogative shape.
         alternatives: []
       register: null
       scene_dependency: null
-    attestations: []
+    attestations:
+    - target: οὐκ ἄπει δῆτα ἐκποδών;
+      status: context-verified
+      match_type: exact
+      reference_as_given: Aristophanes, Lysistrata 847-850
+      source:
+        author: Aristophanes
+        work: Lysistrata
+        passage: 847-850
+        local_file: /home/mrty/Documents/Resources/canonical-greekLit/data/tlg0019/tlg007/tlg0019.tlg007.perseus-grc2.xml
+      text_grc: >-
+        ΛΥΣΙΣΤΡΑΤΗ: τίς οὗτος οὑντὸς τῶν φυλάκων ἑστώς; — ΚΙΝΗΣΙΑΣ: ἐγώ. —
+        ΛΥΣΙΣΤΡΑΤΗ: ἀνήρ; — ΚΙΝΗΣΙΑΣ: ἀνὴρ δῆτʼ. — ΛΥΣΙΣΤΡΑΤΗ: οὐκ ἄπει δῆτʼ
+        ἐκποδών; — ΚΙΝΗΣΙΑΣ: σὺ δʼ εἶ τίς ἡκβάλλουσά μʼ;
+      original_scene: >-
+        Lysistrata, guarding the women's position, discovers that the person outside is a man and
+        impatiently orders him out of the way; he protests that she is driving him off.
+      relationship_to_handbook: Exact formula, with δῆτʼ printed in elided form in the verse.
+      adaptations: [orthographic expansion of elision]
+      confidence: high
+      research_method: exact Unicode corpus search with surrounding dramatic context inspected
     textual_issues: []
     review_comments: []
     status: ja-proposed
@@ -5432,13 +5645,32 @@ scenes:
       variants:
       - de: Gehen Sie zum Teufel!
         ja_current: 地獄へ行け！
-        ja_proposed: とっとと失せなさい！
-        decision: revise
-        rationale: null
+        ja_proposed: 地獄へ行け！
+        decision: retain
+        rationale: >-
+          German zum Teufel and Greek ἐς κόρακας are concise destination curses. The terse
+          「地獄へ行け」 is more forceful and independently usable than the padded 「行ってしまえ」;
+          its curse imagery already distinguishes it from the bare expulsion in e-05-017.
         alternatives: []
       register: null
       scene_dependency: null
-    attestations: []
+    attestations:
+    - target: ἐς κόρακας!
+      status: context-verified
+      match_type: exact
+      reference_as_given: Aristophanes, Clouds 646
+      source:
+        author: Aristophanes
+        work: Clouds
+        passage: 645-646
+        local_file: /home/mrty/Documents/Resources/canonical-greekLit/data/tlg0019/tlg003/tlg0019.tlg003.perseus-grc2.xml
+      text_grc: "ΣΩΚΡΑΤΗΣ: ἐς κόρακας, ὡς ἄγροικος εἶ καὶ δυσμαθής."
+      original_scene: Socrates curses Strepsiades for being boorish and slow to learn.
+      relationship_to_handbook: >-
+        The destination curse is exact; the source continues with the reason for the angry dismissal.
+      adaptations: [following clause omitted]
+      confidence: high
+      research_method: exact Unicode corpus search with surrounding dramatic context inspected
     textual_issues: []
     review_comments: []
     status: ja-proposed
@@ -5475,13 +5707,34 @@ scenes:
       variants:
       - de: Fort mit Ihnen!
         ja_current: 出て行け！
-        ja_proposed: 消え失せろ！
+        ja_proposed: さあ、失せなさい！
         decision: revise
-        rationale: null
+        rationale: >-
+          Fort and ἄπερρε are abrupt commands to be gone, without specifying “outside.” 「失せなさい」
+          preserves the contempt of Greek and the mother's formal-commanding German Sie; 「さあ」 gives
+          the expulsive push of Fort and keeps it distinct from neutral 「出て行きなさい」.
         alternatives: []
       register: null
       scene_dependency: null
-    attestations: []
+    attestations:
+    - target: ἄπερρε!
+      status: context-verified
+      match_type: exact
+      reference_as_given: Aristophanes, Ecclesiazusae 169
+      source:
+        author: Aristophanes
+        work: Ecclesiazusae
+        passage: 164-170
+        local_file: /home/mrty/Documents/Resources/canonical-greekLit/data/tlg0019/tlg010/tlg0019.tlg010.perseus-grc2.xml
+      text_grc: >-
+        ΠΡΑΞΑΓΟΡΑ: γυναῖκας αὖ δύστηνε τοὺς ἄνδρας λέγεις; ... ἄπερρε καὶ σὺ καὶ
+        κάθησʼ ἐντευθενί· αὐτὴ γὰρ ὑμῶν γʼ ἕνεκά μοι λέξειν δοκῶ.
+      original_scene: >-
+        Praxagora cuts off another woman's unsuccessful rehearsal and brusquely sends her back to sit down.
+      relationship_to_handbook: Exact initial imperative extracted from a longer command.
+      adaptations: [following coordinated command omitted]
+      confidence: high
+      research_method: exact Unicode corpus search with surrounding dramatic context inspected
     textual_issues: []
     review_comments: []
     status: ja-proposed
@@ -5518,13 +5771,52 @@ scenes:
       variants:
       - de: Der Teufel soll Sie holen!
         ja_current: 悪魔に連れて行かれてしまえ！
-        ja_proposed: ひどい目に遭って、くたばるがいい！
+        ja_proposed: 悪魔にでもさらわれるがいい！
         decision: revise
-        rationale: null
+        rationale: >-
+          German explicitly invokes the devil, whereas Greek ἀπολεῖ κάκιστα curses the addressee with
+          a miserable destruction. 「さらわれるがいい」 keeps the German image, has the optative
+          cadence of a curse, and is less cumbersome than 「連れて行かれてしまえ」.
         alternatives: []
       register: null
       scene_dependency: null
-    attestations: []
+    attestations:
+    - target: ἀπολεῖ κάκιστα!
+      status: context-verified
+      match_type: exact
+      reference_as_given: Aristophanes, Clouds 723-727
+      source:
+        author: Aristophanes
+        work: Clouds
+        passage: 723-727
+        local_file: /home/mrty/Documents/Resources/canonical-greekLit/data/tlg0019/tlg003/tlg0019.tlg003.perseus-grc2.xml
+      text_grc: >-
+        ΣΩΚΡΑΤΗΣ: καὶ τί δῆτʼ ἐφρόντισας; — ΣΤΡΕΨΙΑΔΗΣ: ὑπὸ τῶν κόρεων εἴ μού τι
+        περιλειφθήσεται. — ΣΩΚΡΑΤΗΣ: ἀπολεῖ κάκιστʼ. — ΣΤΡΕΨΙΑΔΗΣ: ἀλλʼ ὦγάθʼ
+        ἀπόλωλʼ ἀρτίως.
+      original_scene: >-
+        Exasperated by Strepsiades' foolish answer, Socrates curses him; Strepsiades comically replies
+        that the bedbugs have already nearly destroyed him.
+      relationship_to_handbook: Exact curse, with final alpha elided in the verse.
+      adaptations: [orthographic expansion of elision]
+      confidence: high
+      research_method: exact Unicode corpus search with surrounding dramatic context inspected
+    - target: Der Teufel soll Sie holen!
+      language: de
+      status: context-verified
+      match_type: exact
+      reference_as_given: Wilhelm Raabe, Vom alten Proteus, chapter 3
+      source:
+        author: Wilhelm Raabe
+        work: Vom alten Proteus
+        passage: chapter 3
+        url: https://projekt-gutenberg.org/authors/wilhelm-raabe/books/vom-alten-proteus/chapter/3/
+      text_de: "Der Teufel soll sie holen! Alle miteinander!"
+      original_scene: A lover angrily curses the people who have been maligning his character.
+      relationship_to_handbook: Same curse formula; sie is third-person plural rather than formal second-person Sie.
+      adaptations: [person and number differ]
+      confidence: high
+      research_method: exact web text search with surrounding literary context inspected
     textual_issues: []
     review_comments: []
     status: ja-proposed
@@ -5561,13 +5853,37 @@ scenes:
       variants:
       - de: So gehen Sie doch zum Teufel!
         ja_current: だからさっさと地獄へ行け！
-        ja_proposed: さあ、とっとと失せたらどうです！
+        ja_proposed: もう、地獄へでも行ったらどうです！
         decision: revise
-        rationale: null
+        rationale: >-
+          Greek οὐκ ἐς κόρακας; is an elliptical impatient question, and German so ... doch gives a
+          “well then / do ... already” push rather than the causal 「だから」. 「もう」 works without an
+          unstated premise, while 「行ったらどうです」 distinguishes this from direct e-05-016.
         alternatives: []
       register: null
       scene_dependency: null
     attestations:
+    - target: οὐκ ἐς κόρακας;
+      status: context-verified
+      match_type: exact
+      reference_as_given: Aristophanes, Clouds 783-791
+      source:
+        author: Aristophanes
+        work: Clouds
+        passage: 783-791
+        local_file: /home/mrty/Documents/Resources/canonical-greekLit/data/tlg0019/tlg003/tlg0019.tlg003.perseus-grc2.xml
+      text_grc: >-
+        ΣΩΚΡΑΤΗΣ: ὑθλεῖς· ἄπερρʼ, οὐκ ἂν διδάξαιμʼ ἄν σʼ ἔτι. ... οὐκ ἐς κόρακας
+        ἀποφθερεῖ, ἐπιλησμότατον καὶ σκαιότατον γερόντιον;
+      original_scene: >-
+        Socrates, exasperated by Strepsiades' forgetfulness, first says “be off” and then expands the
+        rhetorical curse with ἀποφθερεῖ, “won't you go and perish?”
+      relationship_to_handbook: >-
+        The handbook preserves the opening elliptical question; the source continues it with an
+        explicit verb and an insulting vocative.
+      adaptations: [following verb and vocative omitted]
+      confidence: high
+      research_method: exact Unicode corpus search with surrounding dramatic context inspected
     - target: οὐκ ἐς κόρακας;
       status: exact-string-located-context-pending
       match_type: exact
@@ -5752,13 +6068,57 @@ scenes:
       variants:
       - de: Sie sind verrückt, Madame!
         ja_current: 奥さん、あなたは狂っていますよ。
-        ja_proposed: 奥さん、どうかしていますよ。
+        ja_proposed: 奥様、どうかしていらっしゃいますよ！
         decision: revise
-        rationale: null
+        rationale: >-
+          The man retorts that the mother-in-law has lost perspective. Aozora translated fiction
+          attests 「奥様」 as direct European-style Madame and even the closely parallel
+          「奥様……どうかしてらっしゃる」. The honorific phrasing preserves outward formality while
+          「どうかして」 avoids the clinical sound of literal 「狂っています」.
         alternatives: []
       register: null
       scene_dependency: null
-    attestations: []
+    attestations:
+    - target: ὦ γύναι, ὡς παραπαίεις!
+      status: context-verified
+      match_type: syntactic-parallel
+      reference_as_given: Aristophanes, Peace 82-93
+      source:
+        author: Aristophanes
+        work: Peace
+        passage: 82-93
+        local_file: /home/mrty/Documents/Resources/canonical-greekLit/data/tlg0019/tlg005/tlg0019.tlg005.perseus-grc2.xml
+      text_grc: >-
+        ΤΡΥΓΑΙΟΣ: ἥσυχος ἥσυχος, ἠρέμα, κάνθων ... — ΟΙΚΕΤΗΣ Α: ὦ δέσποτʼ ἄναξ
+        ὡς παραπαίεις. — ΤΡΥΓΑΙΟΣ: σίγα σίγα.
+      original_scene: >-
+        A servant exclaims that his master is out of his mind after hearing him address and prepare
+        to fly on a giant dung beetle.
+      relationship_to_handbook: >-
+        Exact exclamatory ὡς παραπαίεις construction; the vocative is “lord and master,” not “woman.”
+      adaptations: [vocative substituted]
+      confidence: high
+      research_method: exact predicate search with surrounding dramatic context inspected
+    - target: 奥様、どうかしていらっしゃいますよ！
+      language: ja
+      status: context-verified
+      match_type: formulaic-parallel
+      reference_as_given: Anton Chekhov, 決闘, 神西清訳
+      source:
+        author: Anton Chekhov
+        work: 決闘
+        translator: 神西清
+        local_file: /home/mrty/Documents/Resources/AozoraTxt/person_utf8/001155/45763_ruby_utf8_ketto.txt
+      text_ja: >-
+        「奥様、本当にあなたはまあ！」とマリヤ・コンスタンチーノヴナは後退をして、両手を
+        打ち合わせて叫んだ、「どうかしてらっしゃるのですわ。ね、しっかりなさって、気をお鎮め遊ばせな。」
+      original_scene: A woman directly and emotionally tells another woman that she is behaving irrationally.
+      relationship_to_handbook: >-
+        Not a translation of the handbook phrase, but strong Japanese evidence for combining vocative
+        「奥様」 with honorific 「どうかしていらっしゃる」 in translated European dialogue.
+      adaptations: [different source scene and speaker relationship]
+      confidence: high
+      research_method: Aozora direct-address and predicate search with context inspected
     textual_issues: []
     review_comments: []
     status: ja-proposed
@@ -5795,13 +6155,73 @@ scenes:
       variants:
       - de: Sie beleidigen mich!
         ja_current: 私を侮辱しています！
-        ja_proposed: まあ、なんという侮辱でしょう！
+        ja_proposed: まあ、よくも私を侮辱なさいますね！
         decision: revise
-        rationale: null
+        rationale: >-
+          German directly accuses the formal Sie in the present tense. In the exact Aristophanic
+          context, οἴμοι and exclamatory ὡς intensify Lamachus' protest against ongoing mockery, while
+          ὑβρίζεις accuses outrageous or humiliating treatment. 「まあ、よくも」 carries that emotional
+          force, and honorific 「なさいます」 continues the mother's hostile formality.
         alternatives: []
       register: null
       scene_dependency: null
-    attestations: []
+    attestations:
+    - target: οἴμοι, ὡς ὑβρίζεις!
+      status: context-verified
+      match_type: exact
+      reference_as_given: Aristophanes, Acharnians 1112-1118
+      source:
+        author: Aristophanes
+        work: Acharnians
+        passage: 1112-1118
+        local_file: /home/mrty/Documents/Resources/canonical-greekLit/data/tlg0019/tlg001/tlg0019.tlg001.perseus-grc2.xml
+      text_grc: >-
+        ΛΑΜΑΧΟΣ: ὦνθρωπε βούλει μὴ προσαγορεύειν ἐμέ; ... — ΔΙΚΑΙΟΠΟΛΙΣ:
+        βούλει περιδόσθαι κἀπιτρέψαι Λαμάχῳ, πότερον ἀκρίδες ἥδιόν ἐστιν ἤ κίχλαι; —
+        ΛΑΜΑΧΟΣ: οἴμʼ ὡς ὑβρίζεις.
+      original_scene: >-
+        Lamachus, preparing reluctantly for military duty, protests that Dicaeopolis is outrageously
+        mocking him by flaunting preparations for a feast and asking a frivolous culinary question.
+      relationship_to_handbook: Exact exclamation, with οἴμοι elided to οἴμʼ in the verse.
+      adaptations: [orthographic expansion of elision]
+      confidence: high
+      research_method: exact Unicode corpus search with surrounding dramatic context inspected
+    - target: Sie beleidigen mich!
+      language: de
+      status: context-verified
+      match_type: near-exact
+      reference_as_given: Anton Tschechow, Lustige Geschichten, Geschichte 24
+      source:
+        author: Anton Tschechow
+        work: Lustige Geschichten
+        passage: Geschichte 24
+        url: https://projekt-gutenberg.org/authors/anton-tschechov/books/lustige-geschichten/chapter/24/
+      text_de: "Sie beleidigen mich schon wieder!"
+      original_scene: A speaker indignantly protests being insulted again during an argument.
+      relationship_to_handbook: Exact clause with schon wieder added to mark repetition.
+      adaptations: [adverbial schon wieder omitted]
+      confidence: high
+      research_method: exact web text search with literary context inspected
+    - target: まあ、よくも私を侮辱なさいますね！
+      language: ja
+      status: context-verified
+      match_type: formulaic-parallel
+      reference_as_given: Anton Chekhov, 熊, 米川正夫訳
+      source:
+        author: Anton Chekhov
+        work: 熊
+        translator: 米川正夫
+        local_file: /home/mrty/Documents/Resources/AozoraTxt/person_utf8/001155/52239_ruby_utf8_kuma.txt
+      text_ja: >-
+        スミルノーフ　（つめ寄りながら）失礼ですが、ぜんたいどんな権利があって、
+        わたしを侮辱なさるんです？
+      original_scene: A formally speaking man angrily challenges a woman who has called him insulting names.
+      relationship_to_handbook: >-
+        Independent Japanese evidence that honorific 「私を侮辱なさる」 naturally conveys an angry,
+        formally phrased accusation rather than respect or deference.
+      adaptations: [interrogative expansion and male speaker]
+      confidence: high
+      research_method: Aozora collocation search with dramatic context inspected
     textual_issues: []
     review_comments: []
     status: ja-proposed
@@ -5838,9 +6258,11 @@ scenes:
       variants:
       - de: Pfui!
         ja_current: けっ！
-        ja_proposed: ええ、汚らわしい！
+        ja_proposed: まあ、汚らわしい！
         decision: revise
-        rationale: null
+        rationale: >-
+          Pfui and αἰβοί are interjections of disgust. 「まあ」 suits the indignant older speaker;
+          「ええ」 is liable to be read as the affirmative response “yes.”
         alternatives: []
       register: null
       scene_dependency: null
@@ -5881,9 +6303,12 @@ scenes:
       variants:
       - de: Das soll Ihnen nicht so hingehen!
         ja_current: そうはいきませんよ。
-        ja_proposed: こんなことをして、ただで済むと思わないことです！
+        ja_proposed: こんなことをして、このままで済むと思わないでください！
         decision: revise
-        rationale: null
+        rationale: >-
+          German nicht so hingehen and καταπροίξει threaten that the conduct will not pass unchecked.
+          「このままで済むと思わないでください」 is a natural direct threat and remains distinct
+          from the predicted regret in e-05-024.
         alternatives: []
       register: null
       scene_dependency: null
@@ -5924,9 +6349,11 @@ scenes:
       variants:
       - de: Das soll Ihnen schlecht bekommen!
         ja_current: 痛い目に遭いますよ。
-        ja_proposed: 後悔することになりますよ！
+        ja_proposed: きっと後悔しますよ！
         decision: revise
-        rationale: null
+        rationale: >-
+          schlecht bekommen predicts harmful consequences, and οὐ χαιρήσεις literally says that the
+          addressee will not rejoice. 「きっと後悔します」 is concise, threatening, and independently clear.
         alternatives: []
       register: null
       scene_dependency: null
@@ -5967,9 +6394,12 @@ scenes:
       variants:
       - de: Das will ich Ihnen anstreichen!
         ja_current: その無礼はこらしめてやります。
-        ja_proposed: その厚かましさ、私が思い知らせてやります！
+        ja_proposed: その厚かましさ、私が懲らしめてやります！
         decision: revise
-        rationale: null
+        rationale: >-
+          Greek says “I shall put a stop to your insolence,” while German anstreichen threatens a
+          memorable punishment. 「厚かましさを思い知らせる」 is an awkward collocation; 「懲らしめる」
+          naturally expresses the threatened corrective action.
         alternatives: []
       register: null
       scene_dependency: null
@@ -6031,9 +6461,11 @@ scenes:
       variants:
       - de: Nun, so mäßigen Sie sich doch!
         ja_current: さあ、気持ちを抑えてください。
-        ja_proposed: まあまあ、どうかお鎮まりください！
+        ja_proposed: まあ、そう興奮なさらないでください！
         decision: revise
-        rationale: null
+        rationale: >-
+          The man again tries to restrain the angry woman. German sich mäßigen is naturally rendered
+          「興奮なさらないでください」; 「お鎮まりください」 sounds like addressing a crowd or deity.
         alternatives: []
       register: null
       scene_dependency: null
@@ -6074,9 +6506,11 @@ scenes:
       variants:
       - de: Ist es nicht arg, daß Sie das thun?
         ja_current: そんなことをするなんてひどくないですか。
-        ja_proposed: あなたがそんなことをなさるとは、ひどいではありませんか。
+        ja_proposed: そんなことをなさるなんて、ひどいではありませんか！
         decision: revise
-        rationale: null
+        rationale: >-
+          The explicit Japanese pronoun is unnecessary in direct address. The exclamatory rhetorical
+          question preserves German arg and Greek οὐ δεινὸν δῆτα while remaining a complete reproach.
         alternatives: []
       register: null
       scene_dependency: null
@@ -6117,9 +6551,11 @@ scenes:
       variants:
       - de: Das ist empörend!
         ja_current: これは我慢ならない！
-        ja_proposed: こんなこと、到底我慢なりません！
+        ja_proposed: こんなこと、我慢なりません！
         decision: revise
-        rationale: null
+        rationale: >-
+          empörend and οὐκ ἀνασχετόν mark the matter as intolerable. 「到底」 duplicates the absolute
+          force already carried by 「我慢なりません」 and makes the outburst heavier than necessary.
         alternatives: []
       register: null
       scene_dependency: null
@@ -6160,13 +6596,71 @@ scenes:
       variants:
       - de: Verwünscht! was soll ich thun?
         ja_current: ちくしょう、どうしたらいいんだ？
-        ja_proposed: ああ、どうすればよいのだ！
+        ja_proposed: ああ、困った。どうしたものだ？
         decision: revise
-        rationale: null
+        rationale: >-
+          German Verwünscht! expresses vexation at the situation, whereas Greek οἴμοι is a cry of
+          distress rather than a curse directed at another person. 「ああ、困った」 mediates between
+          them without the aggression of 「ちくしょう」. Deliberative 「どうしたものだ」 naturally
+          renders was soll ich thun? and τί δράσω? in the man's self-directed aside.
         alternatives: []
       register: null
       scene_dependency: null
-    attestations: []
+    attestations:
+    - target: οἴμοι, τί δράσω;
+      status: context-verified
+      match_type: adapted
+      reference_as_given: Aristophanes, Clouds 840-846
+      source:
+        author: Aristophanes
+        work: Clouds
+        passage: 840-846
+        local_file: /home/mrty/Documents/Resources/canonical-greekLit/data/tlg0019/tlg003/tlg0019.tlg003.perseus-grc2.xml
+      text_grc: >-
+        ΣΤΡΕΨΙΑΔΗΣ: ἄληθες; ... ἀλλʼ ἐπανάμεινόν μʼ ὀλίγον ἐνταυθοῖ χρόνον. —
+        ΦΕΙΔΙΠΠΙΔΗΣ: οἴμοι τί δράσω παραφρονοῦντος τοῦ πατρός; πότερον παρανοίας
+        αὐτὸν εἰσαγαγὼν ἕλω, ἢ τοῖς σοροπηγοῖς τὴν μανίαν αὐτοῦ φράσω;
+      original_scene: >-
+        Pheidippides, believing his father mad, anxiously wonders what action he should take and
+        considers either legal proceedings for insanity or notifying the coffin-makers.
+      relationship_to_handbook: >-
+        Exact opening οἴμοι τί δράσω; extracted from a longer deliberative question; the causal
+        genitive absolute and the following alternatives are omitted.
+      adaptations: [following cause and alternatives omitted]
+      confidence: high
+      research_method: exact Unicode phrase search with surrounding dramatic context inspected
+    - target: οἴμοι, τί δράσω;
+      status: context-verified
+      match_type: exact
+      reference_as_given: Euripides, Orestes 1610
+      source:
+        author: Euripides
+        work: Orestes
+        passage: 1610
+        local_file: /home/mrty/Documents/Resources/canonical-greekLit/data/tlg0006/tlg016/tlg0006.tlg016.perseus-grc2.xml
+      text_grc: οἴμοι, τί δράσω;
+      original_scene: A bare tragic cry of helpless deliberation.
+      relationship_to_handbook: Exact phrase and speech act.
+      adaptations: []
+      confidence: high
+      research_method: exact Unicode corpus search
+    - target: οἴμοι, τί δράσω;
+      status: context-verified
+      match_type: near-exact
+      reference_as_given: Euripides, Alcestis 377-382
+      source:
+        author: Euripides
+        work: Alcestis
+        passage: 377-382
+        local_file: /home/mrty/Documents/Resources/canonical-greekLit/data/tlg0006/tlg002/tlg0006.tlg002.perseus-grc2.xml
+      text_grc: >-
+        ΑΛΚΗΣΤΙΣ: ὦ τέκνʼ, ὅτε ζῆν χρῆν μʼ, ἀπέρχομαι κάτω. — ΑΔΜΗΤΟΣ:
+        οἴμοι, τί δράσω δῆτα σοῦ μονούμενος;
+      original_scene: Admetus asks in grief what he will do when Alcestis dies and leaves him alone.
+      relationship_to_handbook: Same opening with δῆτα and a circumstantial participle added.
+      adaptations: [particle and circumstance omitted]
+      confidence: high
+      research_method: exact Unicode phrase search with surrounding tragic context inspected
     textual_issues: []
     review_comments: []
     status: ja-proposed
@@ -6203,9 +6697,12 @@ scenes:
       variants:
       - de: Sehen Sie, was Sie gethan haben?
         ja_current: 自分が何をしたかわかりますか。
-        ja_proposed: 自分が何をしたか、おわかりですか。
+        ja_proposed: ご自分が何をしたか、おわかりですか！
         decision: revise
-        rationale: null
+        rationale: >-
+          The accusatory question demands recognition of the consequences. 「ご自分」 matches direct
+          polite address, while the exclamation preserves the force of German and Greek rather than
+          sounding like a calm factual inquiry.
         alternatives: []
       register: null
       scene_dependency: null
@@ -6271,9 +6768,11 @@ scenes:
       variants:
       - de: Sie sind schuld daran!
         ja_current: それはあなたの責任です！
-        ja_proposed: これはみな、あなたのせいです！
+        ja_proposed: これはすべて、あなたのせいです！
         decision: revise
-        rationale: null
+        rationale: >-
+          Greek plural τούτων points back to the accumulated consequences, and German daran assigns
+          responsibility for them. 「これはすべて」 makes that scope explicit and works independently.
         alternatives: []
       register: null
       scene_dependency: null
@@ -6396,6 +6895,20 @@ scenes:
   voice_profiles:
     speaker: {register: plain, traits: [ashamed, aggrieved, defensive]}
     interlocutor: {register: plain, traits: [consoling, admonitory]}
+  turn_groups:
+  - entries: [e-06-001, e-06-002, e-06-003, e-06-004, e-06-005, e-06-006, e-06-007]
+    description: inquiry, shame, assessment of the woman's conduct, and regret over the outcome
+    speaker_sequence: [interlocutor, speaker, interlocutor, speaker, interlocutor, speaker, speaker]
+  - entries: [e-06-008, e-06-009, e-06-010, e-06-011]
+    description: the companion urges the aggrieved speaker to calm down and let the matter rest
+    speaker_sequence: [interlocutor, interlocutor, interlocutor, interlocutor]
+  - entries: [e-06-012, e-06-013, e-06-014, e-06-015, e-06-016, e-06-017, e-06-018, e-06-019, e-06-020, e-06-021, e-06-022, e-06-023, e-06-024, e-06-025]
+    description: selectable blame, defence, reproach, and refusal formulas rather than one necessary exchange
+    alternatives:
+    - [e-06-015, e-06-016, e-06-018, e-06-019, e-06-020, e-06-021]
+    - [e-06-022, e-06-023, e-06-024]
+  - entries: [e-06-026, e-06-027]
+    description: independent closing formulas, possibly a warning followed by sympathy for the young woman
   entries:
   - id: e-06-001
     source_locator:
@@ -6430,13 +6943,28 @@ scenes:
       variants:
       - de: Was hängst du den Kopf?
         ja_current: どうしてそんなにうなだれているの？
-        ja_proposed: どうして、そんなにうなだれているんだ。
+        ja_proposed: どうして、そんなにうなだれているんだ？
         decision: revise
         rationale: null
         alternatives: []
       register: null
       scene_dependency: null
-    attestations: []
+    attestations:
+    - target: 'τί κύπτεις;'
+      status: source-context-checked
+      match_type: exact-or-containing-phrase
+      reference_as_given: null
+      source:
+        author: 'Aristophanes'
+        work: 'Thesmophoriazusae'
+        passage: '930'
+        local_file: /home/mrty/Documents/Resources/canonical-greekLit/data/tlg0019/tlg008/tlg0019.tlg008.perseus-grc2.xml
+      text_grc: 'οὗτος τί κύπτεις; δῆσον αὐτὸν εἰσάγων'
+      original_scene: 'The prytanis asks the crouching Scythian archer what he is doing; the handbook extracts the short question.'
+      relationship_to_handbook: 'The prytanis asks the crouching Scythian archer what he is doing; the handbook extracts the short question.'
+      adaptations: []
+      confidence: high
+      research_method: exact normalized Unicode search across local canonical-greekLit XML; context manually checked
     textual_issues: []
     review_comments: []
     status: ja-proposed
@@ -6479,7 +7007,22 @@ scenes:
         alternatives: []
       register: null
       scene_dependency: null
-    attestations: []
+    attestations:
+    - target: 'αἰσχύνομαι.'
+      status: source-context-checked
+      match_type: exact-or-containing-phrase
+      reference_as_given: null
+      source:
+        author: 'Aristophanes'
+        work: 'Peace'
+        passage: '1215b'
+        local_file: /home/mrty/Documents/Resources/canonical-greekLit/data/tlg0019/tlg005/tlg0019.tlg005.perseus-grc2.xml
+      text_grc: 'ὅ τι δίδωμʼ; αἰσχύνομαι.'
+      original_scene: 'The same first-person form is used independently in dialogue: Trygaeus says that he is ashamed of what he is giving.'
+      relationship_to_handbook: 'The same first-person form is used independently in dialogue: Trygaeus says that he is ashamed of what he is giving.'
+      adaptations: []
+      confidence: high
+      research_method: exact normalized Unicode search across local canonical-greekLit XML; context manually checked
     textual_issues: []
     review_comments: []
     status: ja-proposed
@@ -6516,13 +7059,27 @@ scenes:
       variants:
       - de: Die Frau hat dich in der That sehr schlecht behandelt.
         ja_current: あの女性は本当に君にひどい仕打ちをしたね。
-        ja_proposed: あの女には、まったくひどい目に遭わされたな。
+        ja_proposed: あの婦人は君に、実にひどい仕打ちをしたな。
         decision: revise
-        rationale: null
+        rationale: >-
+          German die Frau and Greek ἡ γυνή neutrally identify an adult woman. In this restrained,
+          somewhat literary dialogue, 「婦人」 is more fitting than the blunt 「女」 and more
+          explicit than 「人」.
         alternatives: []
       register: null
       scene_dependency: null
-    attestations: []
+    attestations:
+    - target: 'αἴσχιστά τοί σ’ εἰργάσατο ἡ γυνή.'
+      status: not-found
+      match_type: not-found
+      reference_as_given: null
+      source: null
+      text_grc: null
+      original_scene: null
+      relationship_to_handbook: No exact normalized single-line occurrence was located in the local canonical Greek corpus; the wording is treated as a handbook composition unless later evidence is found.
+      adaptations: []
+      confidence: medium
+      research_method: exact normalized Unicode search across all local canonical-greekLit XML files
     textual_issues: []
     review_comments: []
     status: ja-proposed
@@ -6559,13 +7116,27 @@ scenes:
       variants:
       - de: Sie ist sehr böse auf uns.
         ja_current: 彼女は私たちにひどく腹を立てている。
-        ja_proposed: 僕たちのことを、ひどく怒っている。
+        ja_proposed: （あの婦人は）僕たちに、ひどく腹を立てている。
         decision: revise
-        rationale: null
+        rationale: >-
+          German Sie continues die Frau from the preceding line, while Greek omits an expressed
+          subject. Parenthetical 「あの婦人は」 makes the model phrase independently intelligible
+          but can be omitted when entries 003–004 are read as consecutive dialogue.
         alternatives: []
       register: null
       scene_dependency: null
-    attestations: []
+    attestations:
+    - target: 'ὀργὴν ἡμῖν ἔχει πολλήν.'
+      status: not-found
+      match_type: not-found
+      reference_as_given: null
+      source: null
+      text_grc: null
+      original_scene: null
+      relationship_to_handbook: No exact normalized single-line occurrence was located in the local canonical Greek corpus; the wording is treated as a handbook composition unless later evidence is found.
+      adaptations: []
+      confidence: medium
+      research_method: exact normalized Unicode search across all local canonical-greekLit XML files
     textual_issues: []
     review_comments: []
     status: ja-proposed
@@ -6602,13 +7173,24 @@ scenes:
       variants:
       - de: Das ist höchst ärgerlich für uns.
         ja_current: これは私たちにとって非常に腹立たしい。
-        ja_proposed: それが僕たちには、何よりつらいことだ。
+        ja_proposed: それが僕たちには、何よりつらいんだ。
         decision: revise
         rationale: null
         alternatives: []
       register: null
       scene_dependency: null
-    attestations: []
+    attestations:
+    - target: 'τοῦτ’ ἔστ’ ἄλγιστον ἡμῖν.'
+      status: not-found
+      match_type: not-found
+      reference_as_given: null
+      source: null
+      text_grc: null
+      original_scene: null
+      relationship_to_handbook: No exact normalized single-line occurrence was located in the local canonical Greek corpus; the wording is treated as a handbook composition unless later evidence is found.
+      adaptations: []
+      confidence: medium
+      research_method: exact normalized Unicode search across all local canonical-greekLit XML files
     textual_issues: []
     review_comments: []
     status: ja-proposed
@@ -6645,13 +7227,24 @@ scenes:
       variants:
       - de: Ich ärgere mich immer wieder, daß ich das gethan habe.
         ja_current: そんなことをした自分に、何度も腹が立つ。
-        ja_proposed: あんなことをしたのが、悔やんでも悔やみきれない。
+        ja_proposed: あんなことをしたのが、悔やまれてならない。
         decision: revise
         rationale: null
         alternatives: []
       register: null
       scene_dependency: null
-    attestations: []
+    attestations:
+    - target: 'πόλλ’ ἄχθομαι, ὅτι ἔδρασα τοῦτο.'
+      status: not-found
+      match_type: not-found
+      reference_as_given: null
+      source: null
+      text_grc: null
+      original_scene: null
+      relationship_to_handbook: No exact normalized single-line occurrence was located in the local canonical Greek corpus; the wording is treated as a handbook composition unless later evidence is found.
+      adaptations: []
+      confidence: medium
+      research_method: exact normalized Unicode search across all local canonical-greekLit XML files
     textual_issues: []
     review_comments: []
     status: ja-proposed
@@ -6694,7 +7287,18 @@ scenes:
         alternatives: []
       register: null
       scene_dependency: null
-    attestations: []
+    attestations:
+    - target: 'τουτὶ μὰ Δί’ οὐδέποτ’ ἤλπισα.'
+      status: not-found
+      match_type: not-found
+      reference_as_given: null
+      source: null
+      text_grc: null
+      original_scene: null
+      relationship_to_handbook: No exact normalized single-line occurrence was located in the local canonical Greek corpus; the wording is treated as a handbook composition unless later evidence is found.
+      adaptations: []
+      confidence: medium
+      research_method: exact normalized Unicode search across all local canonical-greekLit XML files
     textual_issues: []
     review_comments: []
     status: ja-proposed
@@ -6900,13 +7504,28 @@ scenes:
       variants:
       - de: Sei nicht rachsüchtig!
         ja_current: 仕返ししようとしないで。
-        ja_proposed: 根に持つのはよせ。
+        ja_proposed: いつまでも恨みに思うな。
         decision: revise
         rationale: null
         alternatives: []
       register: null
       scene_dependency: null
-    attestations: []
+    attestations:
+    - target: 'μὴ μνησικακήσῃς.'
+      status: source-context-checked
+      match_type: exact-or-containing-phrase
+      reference_as_given: null
+      source:
+        author: 'Aristophanes'
+        work: 'Lysistrata'
+        passage: '590b'
+        local_file: /home/mrty/Documents/Resources/canonical-greekLit/data/tlg0019/tlg007/tlg0019.tlg007.perseus-grc2.xml
+      text_grc: 'σίγα, μὴ μνησικακήσῃς.'
+      original_scene: 'The magistrate tells Lysistrata to be quiet and not bear a grudge; the handbook extracts the prohibition.'
+      relationship_to_handbook: 'The magistrate tells Lysistrata to be quiet and not bear a grudge; the handbook extracts the prohibition.'
+      adaptations: []
+      confidence: high
+      research_method: exact normalized Unicode search across local canonical-greekLit XML; context manually checked
     textual_issues: []
     review_comments: []
     status: ja-proposed
@@ -6949,7 +7568,18 @@ scenes:
         alternatives: []
       register: null
       scene_dependency: null
-    attestations: []
+    attestations:
+    - target: 'ἡσυχίαν ἄγειν βέλτιστόν ἐστιν.'
+      status: not-found
+      match_type: not-found
+      reference_as_given: null
+      source: null
+      text_grc: null
+      original_scene: null
+      relationship_to_handbook: No exact normalized single-line occurrence was located in the local canonical Greek corpus; the wording is treated as a handbook composition unless later evidence is found.
+      adaptations: []
+      confidence: medium
+      research_method: exact normalized Unicode search across all local canonical-greekLit XML files
     textual_issues: []
     review_comments: []
     status: ja-proposed
@@ -6986,13 +7616,24 @@ scenes:
       variants:
       - de: Das war ein Fehler von uns.
         ja_current: それは私たちの過ちだった。
-        ja_proposed: 僕たちが間違っていたんだ。
+        ja_proposed: 僕たちの落ち度だったんだ。
         decision: revise
         rationale: null
         alternatives: []
       register: null
       scene_dependency: null
-    attestations: []
+    attestations:
+    - target: 'ἡμάρτομεν ταῦτα.'
+      status: not-found
+      match_type: not-found
+      reference_as_given: null
+      source: null
+      text_grc: null
+      original_scene: null
+      relationship_to_handbook: No exact normalized single-line occurrence was located in the local canonical Greek corpus; the wording is treated as a handbook composition unless later evidence is found.
+      adaptations: []
+      confidence: medium
+      research_method: exact normalized Unicode search across all local canonical-greekLit XML files
     textual_issues: []
     review_comments: []
     status: ja-proposed
@@ -7035,7 +7676,18 @@ scenes:
         alternatives: []
       register: null
       scene_dependency: null
-    attestations: []
+    attestations:
+    - target: 'μὴ ἀγανάκτει, ὦ ’γαθέ.'
+      status: not-found
+      match_type: not-found
+      reference_as_given: null
+      source: null
+      text_grc: null
+      original_scene: null
+      relationship_to_handbook: No exact normalized single-line occurrence was located in the local canonical Greek corpus; the wording is treated as a handbook composition unless later evidence is found.
+      adaptations: []
+      confidence: medium
+      research_method: exact normalized Unicode search across all local canonical-greekLit XML files
     textual_issues: []
     review_comments: []
     status: ja-proposed
@@ -7072,13 +7724,24 @@ scenes:
       variants:
       - de: Aber ich kann unmöglich schweigen.
         ja_current: でも黙ってはいられないんだ。
-        ja_proposed: だが、黙っていることなど到底できない。
+        ja_proposed: だが、どうしても黙ってはいられない。
         decision: revise
         rationale: null
         alternatives: []
       register: null
       scene_dependency: null
-    attestations: []
+    attestations:
+    - target: 'ἀλλ’ \emph{οὐκ ἔσθ’ ὅπως} σιγήσομαι.'
+      status: not-found
+      match_type: not-found
+      reference_as_given: null
+      source: null
+      text_grc: null
+      original_scene: null
+      relationship_to_handbook: No exact normalized single-line occurrence was located in the local canonical Greek corpus; the wording is treated as a handbook composition unless later evidence is found.
+      adaptations: []
+      confidence: medium
+      research_method: exact normalized Unicode search across all local canonical-greekLit XML files
     textual_issues: []
     review_comments: []
     status: ja-proposed
@@ -7121,7 +7784,18 @@ scenes:
         alternatives: []
       register: null
       scene_dependency: null
-    attestations: []
+    attestations:
+    - target: 'αἴτιος μέντοι σὺ τούτων εἶ μόνος.'
+      status: not-found
+      match_type: not-found
+      reference_as_given: null
+      source: null
+      text_grc: null
+      original_scene: null
+      relationship_to_handbook: No exact normalized single-line occurrence was located in the local canonical Greek corpus; the wording is treated as a handbook composition unless later evidence is found.
+      adaptations: []
+      confidence: medium
+      research_method: exact normalized Unicode search across all local canonical-greekLit XML files
     textual_issues: []
     review_comments: []
     status: ja-proposed
@@ -7158,13 +7832,24 @@ scenes:
       variants:
       - de: Es war \emph{nicht richtig, daß} du das thatest.
         ja_current: 君がそうしたのは間違いだった。
-        ja_proposed: 君があんなことをしたのは、よくなかった！
+        ja_proposed: 君があんなことをしたのは、\emph{よくなかった}！
         decision: revise
         rationale: null
         alternatives: []
       register: null
       scene_dependency: null
-    attestations: []
+    attestations:
+    - target: 'οὐκ ὀρθῶς τοῦτ’ ἔδρασας!'
+      status: not-found
+      match_type: not-found
+      reference_as_given: null
+      source: null
+      text_grc: null
+      original_scene: null
+      relationship_to_handbook: No exact normalized single-line occurrence was located in the local canonical Greek corpus; the wording is treated as a handbook composition unless later evidence is found.
+      adaptations: []
+      confidence: medium
+      research_method: exact normalized Unicode search across all local canonical-greekLit XML files
     textual_issues: []
     review_comments: []
     status: ja-proposed
@@ -7201,7 +7886,7 @@ scenes:
       variants:
       - de: Was geht das \emph{dich} an?
         ja_current: それが君に何の関係があるんだ。
-        ja_proposed: 君に何の関係がある。
+        ja_proposed: \emph{君に}何の関係があるんだ？
         decision: revise
         rationale: null
         alternatives: []
@@ -7270,7 +7955,18 @@ scenes:
         alternatives: []
       register: null
       scene_dependency: null
-    attestations: []
+    attestations:
+    - target: 'τί δὴ \emph{μαθὼν} τοῦτ’ ἐποίησας;'
+      status: not-found
+      match_type: not-found
+      reference_as_given: null
+      source: null
+      text_grc: null
+      original_scene: null
+      relationship_to_handbook: No exact normalized single-line occurrence was located in the local canonical Greek corpus; the wording is treated as a handbook composition unless later evidence is found.
+      adaptations: []
+      confidence: medium
+      research_method: exact normalized Unicode search across all local canonical-greekLit XML files
     textual_issues: []
     review_comments: []
     status: ja-proposed
@@ -7313,7 +8009,22 @@ scenes:
         alternatives: []
       register: null
       scene_dependency: null
-    attestations: []
+    attestations:
+    - target: 'τῆς μωρίας!'
+      status: source-context-checked
+      match_type: exact-or-containing-phrase
+      reference_as_given: null
+      source:
+        author: 'Aristophanes'
+        work: 'Ecclesiazusae'
+        passage: '787b-789'
+        local_file: /home/mrty/Documents/Resources/canonical-greekLit/data/tlg0019/tlg010/tlg0019.tlg010.perseus-grc2.xml
+      text_grc: 'τῆς μωρίας, τὸ μηδὲ περιμείναντα τοὺς ἄλλους ...'
+      original_scene: 'A man exclaims at another''s folly and immediately specifies the foolish act; this supports an indignant exclamation, not neutral description.'
+      relationship_to_handbook: 'A man exclaims at another''s folly and immediately specifies the foolish act; this supports an indignant exclamation, not neutral description.'
+      adaptations: []
+      confidence: high
+      research_method: exact normalized Unicode search across local canonical-greekLit XML; context manually checked
     textual_issues: []
     review_comments: []
     status: ja-proposed
@@ -7350,15 +8061,35 @@ scenes:
       variants:
       - de: Wie \emph{unrecht} du gehandelt hast!
         ja_current: 君のしたことはなんて間違っているんだ！
-        ja_proposed: 君はなんという間違いをしでかしたのだ！
+        ja_proposed: なんという\emph{不心得なこと}をしたんだ！
         decision: revise
-        rationale: null
+        rationale: >-
+          This is the exclamatory member of the οὐκ ὀρθῶς cluster. 「不心得なこと」 denotes
+          conduct contrary to proper judgement or one's obligations without narrowing the act to
+          adultery, as 「不義」would normally do in literary Japanese. 「なんという」 conveys the
+          exclamatory German Wie and Greek ὡς; entries 016 and 021 retain calmer evaluations.
         alternatives: []
       register: null
       scene_dependency: null
-    attestations: []
+    attestations:
+    - target: 'ὡς οὐκ ὀρθῶς τοῦτ’ ἔδρασας!'
+      status: not-found
+      match_type: not-found
+      reference_as_given: null
+      source: null
+      text_grc: null
+      original_scene: null
+      relationship_to_handbook: No exact normalized single-line occurrence was located in the local canonical Greek corpus; the wording is treated as a handbook composition unless later evidence is found.
+      adaptations: []
+      confidence: medium
+      research_method: exact normalized Unicode search across all local canonical-greekLit XML files
     textual_issues: []
-    review_comments: []
+    review_comments:
+    - >-
+      Japanese corpus check: Aozora contains 「不心得なことをした」 and related uses for conduct
+      judged improper, while 「不義をする／働く」 overwhelmingly denotes an illicit sexual
+      relationship. This is evidence for Japanese collocation and register only, not for the
+      semantics of German unrecht or Greek οὐκ ὀρθῶς.
     status: ja-proposed
   - id: e-06-021
     source_locator:
@@ -7399,7 +8130,18 @@ scenes:
         alternatives: []
       register: null
       scene_dependency: null
-    attestations: []
+    attestations:
+    - target: 'τοῦτ’ οὐκ ὀρθῶς ἐποίησας.'
+      status: not-found
+      match_type: not-found
+      reference_as_given: null
+      source: null
+      text_grc: null
+      original_scene: null
+      relationship_to_handbook: No exact normalized single-line occurrence was located in the local canonical Greek corpus; the wording is treated as a handbook composition unless later evidence is found.
+      adaptations: []
+      confidence: medium
+      research_method: exact normalized Unicode search across all local canonical-greekLit XML files
     textual_issues: []
     review_comments: []
     status: ja-proposed
@@ -7436,15 +8178,34 @@ scenes:
       variants:
       - de: \emph{Das ist es, was} du mir zum Vorwurf machst?
         ja_current: それを私に非難するのか？
-        ja_proposed: 君が僕を責めるのは、そのことなのか？
+        ja_proposed: \emph{それが}、君の言う僕の落ち度なのか？
         decision: revise
         rationale: null
         alternatives: []
       register: null
       scene_dependency: null
-    attestations: []
+    attestations:
+    - target: 'ταῦτ’ ἐπικαλεῖς;'
+      status: source-context-checked
+      match_type: exact-or-containing-phrase
+      reference_as_given: null
+      source:
+        author: 'Aristophanes'
+        work: 'Peace'
+        passage: '663'
+        local_file: /home/mrty/Documents/Resources/canonical-greekLit/data/tlg0019/tlg005/tlg0019.tlg005.perseus-grc2.xml
+      text_grc: 'εἶεν, ἀκούω. ταῦτʼ ἐπικαλεῖς; μανθάνω.'
+      original_scene: 'Hermes acknowledges the accusation addressed to him; the question is a pointed ''is that what you charge me with?'''
+      relationship_to_handbook: 'Hermes acknowledges the accusation addressed to him; the question is a pointed ''is that what you charge me with?'''
+      adaptations: []
+      confidence: high
+      research_method: exact normalized Unicode search across local canonical-greekLit XML; context manually checked
     textual_issues: []
-    review_comments: []
+    review_comments:
+    - >-
+      Greek and German do not have the same sentence type: καταγέλαστος εἶ asserts that the
+      addressee is laughable, while Laß dich ... nicht auslachen advises him not to let others
+      laugh at him. The proposal follows the attested Greek; the German-based alternative is kept.
     status: ja-proposed
   - id: e-06-023
     source_locator:
@@ -7485,7 +8246,18 @@ scenes:
         alternatives: []
       register: null
       scene_dependency: null
-    attestations: []
+    attestations:
+    - target: 'ἀλλ’ οὐκ ἦν παρὰ ταῦτ’ ἄλλα.'
+      status: not-found
+      match_type: not-found
+      reference_as_given: null
+      source: null
+      text_grc: null
+      original_scene: null
+      relationship_to_handbook: No exact normalized single-line occurrence was located in the local canonical Greek corpus; the wording is treated as a handbook composition unless later evidence is found.
+      adaptations: []
+      confidence: medium
+      research_method: exact normalized Unicode search across all local canonical-greekLit XML files
     textual_issues: []
     review_comments: []
     status: ja-proposed
@@ -7528,7 +8300,18 @@ scenes:
         alternatives: []
       register: null
       scene_dependency: null
-    attestations: []
+    attestations:
+    - target: 'μὴ νουθέτει με, ἀλλὰ —'
+      status: not-found
+      match_type: not-found
+      reference_as_given: null
+      source: null
+      text_grc: null
+      original_scene: null
+      relationship_to_handbook: No exact normalized single-line occurrence was located in the local canonical Greek corpus; the wording is treated as a handbook composition unless later evidence is found.
+      adaptations: []
+      confidence: medium
+      research_method: exact normalized Unicode search across all local canonical-greekLit XML files
     textual_issues: []
     review_comments: []
     status: ja-proposed
@@ -7571,7 +8354,22 @@ scenes:
         alternatives: []
       register: null
       scene_dependency: null
-    attestations: []
+    attestations:
+    - target: 'ἀπολεῖς με!'
+      status: source-context-checked
+      match_type: exact-or-containing-phrase
+      reference_as_given: null
+      source:
+        author: 'Aristophanes'
+        work: 'Wasps'
+        passage: '1202'
+        local_file: /home/mrty/Documents/Resources/canonical-greekLit/data/tlg0019/tlg004/tlg0019.tlg004.perseus-grc2.xml
+      text_grc: 'ἀπολεῖς με. ποίας χάρακας;'
+      original_scene: 'Bdelycleon uses the idiom as an exasperated interruption (''you will be the death of me''), supporting strong irritation rather than literal destruction.'
+      relationship_to_handbook: 'Bdelycleon uses the idiom as an exasperated interruption (''you will be the death of me''), supporting strong irritation rather than literal destruction.'
+      adaptations: []
+      confidence: high
+      research_method: exact normalized Unicode search across local canonical-greekLit XML; context manually checked
     textual_issues: []
     review_comments: []
     status: ja-proposed
@@ -7694,13 +8492,28 @@ scenes:
       variants:
       - de: Mir \emph{thut} das Fräulein \emph{leid.}
         ja_current: あの娘が本当に気の毒だ。
-        ja_proposed: 僕は、あの娘が気の毒でならない。
+        ja_proposed: 僕は、あのお嬢さんが\emph{気の毒でならない}。
         decision: revise
         rationale: null
         alternatives: []
       register: null
       scene_dependency: null
-    attestations: []
+    attestations:
+    - target: 'περὶ τῆς κόρης ἀνιῶμαι.'
+      status: source-context-checked
+      match_type: exact-or-containing-phrase
+      reference_as_given: null
+      source:
+        author: 'Aristophanes'
+        work: 'Lysistrata'
+        passage: '593'
+        local_file: /home/mrty/Documents/Resources/canonical-greekLit/data/tlg0019/tlg007/tlg0019.tlg007.perseus-grc2.xml
+      text_grc: 'περὶ τῶν δὲ κορῶν ἐν τοῖς θαλάμοις γηρασκουσῶν ἀνιῶμαι.'
+      original_scene: 'Lysistrata says she is distressed about unmarried girls growing old at home; the handbook shortens and singularizes the object.'
+      relationship_to_handbook: 'Lysistrata says she is distressed about unmarried girls growing old at home; the handbook shortens and singularizes the object.'
+      adaptations: []
+      confidence: high
+      research_method: exact normalized Unicode search across local canonical-greekLit XML; context manually checked
     textual_issues: []
     review_comments: []
     status: ja-proposed
@@ -7728,6 +8541,14 @@ scenes:
   voice_profiles:
     speaker: {register: plain, traits: [sensitive, irritated]}
     interlocutor: {register: plain, traits: [amused, teasing]}
+  turn_groups:
+  - entries: [e-07-001, e-07-002, e-07-003, e-07-004, e-07-005, e-07-006]
+    description: independent descriptions and objections concerning mockery
+  - entries: [e-07-007, e-07-008, e-07-009, e-07-010, e-07-011, e-07-012, e-07-013]
+    description: a plausible teasing exchange ending in an angry refusal to continue speaking
+    speaker_sequence: [speaker, interlocutor, interlocutor, speaker, speaker, speaker, speaker]
+    alternatives:
+    - [e-07-010, e-07-011]
   entries:
   - id: e-07-001
     source_locator:
@@ -7768,7 +8589,18 @@ scenes:
         alternatives: []
       register: null
       scene_dependency: null
-    attestations: []
+    attestations:
+    - target: 'ὡς καταγέλαστον ἐφάνη τὸ πρᾶγμα!'
+      status: not-found
+      match_type: not-found
+      reference_as_given: null
+      source: null
+      text_grc: null
+      original_scene: null
+      relationship_to_handbook: No exact normalized single-line occurrence was located in the local canonical Greek corpus; the wording is treated as a handbook composition unless later evidence is found.
+      adaptations: []
+      confidence: medium
+      research_method: exact normalized Unicode search across all local canonical-greekLit XML files
     textual_issues: []
     review_comments: []
     status: ja-proposed
@@ -7805,13 +8637,26 @@ scenes:
       variants:
       - de: Das ist ein Hauptwitz!
         ja_current: これは大笑いだ！
-        ja_proposed: こいつは実に愉快だ！
+        ja_proposed: こいつは傑作だ！
         decision: revise
-        rationale: null
+        rationale: >-
+          Hauptwitz praises the joke as a particularly good one, and πάνυ γελοῖον marks it as very
+          laughable. Idiomatic 「傑作だ」 conveys delighted amusement more precisely than general 「愉快だ」.
         alternatives: []
       register: null
       scene_dependency: null
-    attestations: []
+    attestations:
+    - target: 'τοῦτο πάνυ γελοῖον!'
+      status: not-found
+      match_type: not-found
+      reference_as_given: null
+      source: null
+      text_grc: null
+      original_scene: null
+      relationship_to_handbook: No exact normalized single-line occurrence was located in the local canonical Greek corpus; the wording is treated as a handbook composition unless later evidence is found.
+      adaptations: []
+      confidence: medium
+      research_method: exact normalized Unicode search across all local canonical-greekLit XML files
     textual_issues: []
     review_comments: []
     status: ja-proposed
@@ -7848,7 +8693,7 @@ scenes:
       variants:
       - de: Das geht auf mich!
         ja_current: これは私のことだ。
-        ja_proposed: それは僕への当てつけだな！
+        ja_proposed: それ、僕のことを言っているんだな！
         decision: revise
         rationale: null
         alternatives: []
@@ -7918,7 +8763,22 @@ scenes:
         alternatives: []
       register: null
       scene_dependency: null
-    attestations: []
+    attestations:
+    - target: 'σκώπτει.'
+      status: source-context-checked
+      match_type: exact-or-containing-phrase
+      reference_as_given: null
+      source:
+        author: 'Epictetus'
+        work: 'Discourses'
+        passage: '4.1.166'
+        local_file: /home/mrty/Documents/Resources/canonical-greekLit/data/tlg0557/tlg001/tlg0557.tlg001.perseus-grc2.xml
+      text_grc: 'ὅρα, πῶς ὑποκορίζεται καὶ σκώπτει τὸν θάνατον.'
+      original_scene: 'The verb means to jest at or mock someone/something; the handbook''s bare third-person form is a newly isolated model sentence.'
+      relationship_to_handbook: 'The verb means to jest at or mock someone/something; the handbook''s bare third-person form is a newly isolated model sentence.'
+      adaptations: []
+      confidence: high
+      research_method: exact normalized Unicode search across local canonical-greekLit XML; context manually checked
     textual_issues: []
     review_comments: []
     status: ja-proposed
@@ -7961,7 +8821,22 @@ scenes:
         alternatives: []
       register: null
       scene_dependency: null
-    attestations: []
+    attestations:
+    - target: 'μὴ σκῶπτε!'
+      status: source-context-checked
+      match_type: exact-or-containing-phrase
+      reference_as_given: null
+      source:
+        author: 'Aristophanes'
+        work: 'Ecclesiazusae'
+        passage: '1005'
+        local_file: /home/mrty/Documents/Resources/canonical-greekLit/data/tlg0019/tlg010/tlg0019.tlg010.perseus-grc2.xml
+      text_grc: 'μὴ σκῶπτέ μʼ ὦ τάλαν ἀλλʼ ἕπου δεῦρʼ ὡς ἐμέ.'
+      original_scene: 'The prohibition occurs naturally in comic dialogue, commonly with an expressed object; the handbook presents the objectless formula.'
+      relationship_to_handbook: 'The prohibition occurs naturally in comic dialogue, commonly with an expressed object; the handbook presents the objectless formula.'
+      adaptations: []
+      confidence: high
+      research_method: exact normalized Unicode search across local canonical-greekLit XML; context manually checked
     textual_issues: []
     review_comments: []
     status: ja-proposed
@@ -7998,13 +8873,24 @@ scenes:
       variants:
       - de: Mach' keine schlechten Witze \emph{über mich!}
         ja_current: 私のことで変な冗談を言うな！
-        ja_proposed: 僕をからかうのはよせ！
+        ja_proposed: \emph{僕を}からかうのはよせ！
         decision: revise
         rationale: null
         alternatives: []
       register: null
       scene_dependency: null
-    attestations: []
+    attestations:
+    - target: 'μὴ σκῶπτέ με!'
+      status: not-found
+      match_type: not-found
+      reference_as_given: null
+      source: null
+      text_grc: null
+      original_scene: null
+      relationship_to_handbook: No exact normalized single-line occurrence was located in the local canonical Greek corpus; the wording is treated as a handbook composition unless later evidence is found.
+      adaptations: []
+      confidence: medium
+      research_method: exact normalized Unicode search across all local canonical-greekLit XML files
     textual_issues: []
     review_comments: []
     status: ja-proposed
@@ -8051,7 +8937,18 @@ scenes:
         alternatives: []
       register: null
       scene_dependency: null
-    attestations: []
+    attestations:
+    - target: 'μῶν με σκώπτεις ὁρῶν τοῦτο;'
+      status: not-found
+      match_type: not-found
+      reference_as_given: null
+      source: null
+      text_grc: null
+      original_scene: null
+      relationship_to_handbook: No exact normalized single-line occurrence was located in the local canonical Greek corpus; the wording is treated as a handbook composition unless later evidence is found.
+      adaptations: []
+      confidence: medium
+      research_method: exact normalized Unicode search across all local canonical-greekLit XML files
     textual_issues: []
     review_comments: []
     status: ja-proposed
@@ -8088,13 +8985,32 @@ scenes:
       variants:
       - de: Laß dich doch nicht aus\textcompwordmark{}lachen!
         ja_current: 笑いものになるなよ。
-        ja_proposed: 笑いものになんかなるなよ！
+        ja_proposed: 君、すっかり笑いものになっているぞ！
         decision: revise
-        rationale: null
-        alternatives: []
+        rationale: >-
+          Greek καταγέλαστος εἶ is a direct assertion (“you are ridiculous / a laughingstock”),
+          whereas German Laß dich ... nicht auslachen is an imperative. Japanese follows the
+          attested Greek while 「ぞ」 preserves the teasing warning-like tone.
+        alternatives:
+        - 笑いものになんかなるなよ！〔ドイツ語に従う場合〕
       register: null
       scene_dependency: null
-    attestations: []
+    attestations:
+    - target: 'καταγέλαστος εἶ.'
+      status: source-context-checked
+      match_type: exact-or-containing-phrase
+      reference_as_given: null
+      source:
+        author: 'Aristophanes'
+        work: 'Lysistrata'
+        passage: '1020'
+        local_file: /home/mrty/Documents/Resources/canonical-greekLit/data/tlg0019/tlg007/tlg0019.tlg007.perseus-grc2.xml
+      text_grc: 'ὁρῶ γὰρ ὡς καταγέλαστος εἶ.'
+      original_scene: 'The women''s chorus tells the naked men''s chorus that he is ridiculous. Greek is declarative, unlike the German imperative.'
+      relationship_to_handbook: 'The women''s chorus tells the naked men''s chorus that he is ridiculous. Greek is declarative, unlike the German imperative.'
+      adaptations: []
+      confidence: high
+      research_method: exact normalized Unicode search across local canonical-greekLit XML; context manually checked
     textual_issues: []
     review_comments: []
     status: ja-proposed
@@ -8195,13 +9111,30 @@ scenes:
       variants:
       - de: Nun, worüber denn?
         ja_current: じゃあ何がおかしいんだい。
-        ja_proposed: では、何を笑っているんだ。
+        ja_proposed: じゃあ、何を笑っているんだ？
         decision: revise
-        rationale: null
+        rationale: >-
+          This directly challenges the denial in e-07-009. 「じゃあ」 is natural in the familiar
+          exchange, while the question mark restores the interrogative force of both languages.
         alternatives: []
       register: null
       scene_dependency: null
-    attestations: []
+    attestations:
+    - target: 'ἀλλὰ τοῦ;'
+      status: source-context-checked
+      match_type: exact-or-containing-phrase
+      reference_as_given: null
+      source:
+        author: 'Aristophanes'
+        work: 'Birds'
+        passage: '98b-c'
+        local_file: /home/mrty/Documents/Resources/canonical-greekLit/data/tlg0019/tlg006/tlg0019.tlg006.perseus-grc2.xml
+      text_grc: 'οὐ σοῦ καταγελῶμεν. — ἀλλὰ τοῦ;'
+      original_scene: 'The handbook preserves the adjacent exchange exactly: ''We are not laughing at you.'' — ''At whom, then?'' The German changes whom to what.'
+      relationship_to_handbook: 'The handbook preserves the adjacent exchange exactly: ''We are not laughing at you.'' — ''At whom, then?'' The German changes whom to what.'
+      adaptations: []
+      confidence: high
+      research_method: exact normalized Unicode search across local canonical-greekLit XML; context manually checked
     textual_issues: []
     review_comments: []
     status: ja-proposed
@@ -8308,7 +9241,18 @@ scenes:
         alternatives: []
       register: null
       scene_dependency: null
-    attestations: []
+    attestations:
+    - target: 'παῦε! — σιώπα!'
+      status: not-found
+      match_type: not-found
+      reference_as_given: null
+      source: null
+      text_grc: null
+      original_scene: null
+      relationship_to_handbook: No exact normalized single-line occurrence was located in the local canonical Greek corpus; the wording is treated as a handbook composition unless later evidence is found.
+      adaptations: []
+      confidence: medium
+      research_method: exact normalized Unicode search across all local canonical-greekLit XML files
     textual_issues: []
     review_comments: []
     status: ja-proposed
@@ -8345,7 +9289,7 @@ scenes:
       variants:
       - de: Sei so gut und rede nicht mehr mit mir!
         ja_current: 悪いがもう私に話しかけないでくれ。
-        ja_proposed: 頼むから、もう僕に話しかけないでくれ！
+        ja_proposed: 悪いが、もう僕に話しかけないでくれ！
         decision: revise
         rationale: null
         alternatives: []
@@ -8380,7 +9324,7 @@ scenes:
 - id: e-08
   title:
     de: Ende gut, Alles gut!
-    ja: 終わりよければすべてよし
+    ja: 終わり良ければ全て良し
   scene_type: mixed
   setting:
     situation: resolution of a romantic or domestic difficulty
@@ -8402,6 +9346,17 @@ scenes:
   voice_profiles:
     hopeful-speaker: {register: polite_or_plain_by_subgroup, traits: [hopeful, thankful]}
     sceptical-speaker: {register: plain, traits: [questioning, dry]}
+  turn_groups:
+  - entries: [e-08-001, e-08-002, e-08-003, e-08-004, e-08-005, e-08-006, e-08-007]
+    description: alternative and combinable formulas about hope, divine favour, risk, and failure
+  - entries: [e-08-008]
+    description: isolated conventional cheer
+  - entries: [e-08-009, e-08-010, e-08-011, e-08-012, e-08-013, e-08-014, e-08-015]
+    description: praise of another man's good fortune followed by a sceptical dismissal
+    alternatives:
+    - [e-08-009, e-08-010]
+  - entries: [e-08-016, e-08-017]
+    description: independent third-person friendship formulas, not a continuation of the fortune exchange
   entries:
   - id: e-08-001
     source_locator:
@@ -8436,9 +9391,12 @@ scenes:
       variants:
       - de: Vielleicht kann es noch gut werden!
         ja_current: まだうまくいくかもしれません！
-        ja_proposed: まだ、うまくゆくかもしれません！
+        ja_proposed: まだ、うまくいくかもしれません！
         decision: revise
-        rationale: null
+        rationale: >-
+          German gut werden and Greek εὖ γένοιτο describe circumstances turning out well, not
+          skilful performance. Hiragana 「うまくいく」 preserves that idiomatic sense without the
+          potentially misleading spelling 「上手く行く」.
         alternatives: []
       register: null
       scene_dependency: null
@@ -8501,9 +9459,13 @@ scenes:
       variants:
       - de: So Gott will.
         ja_current: 神の御心のままに。
-        ja_proposed: 神がお許しくだされば。
+        ja_proposed: 神の御心ならば。
         decision: revise
-        rationale: null
+        rationale: >-
+          German So Gott will and Greek ἢν θεοὶ θέλωσιν are conditional: “if God/the gods will.”
+          「神の御心ならば」 preserves that condition, whereas 「御心のままに」 would express
+          submission to whatever God wills. The former is also directly supported by literary
+          Japanese usage.
         alternatives: []
       register: null
       scene_dependency: null
@@ -8529,7 +9491,12 @@ scenes:
       confidence: high
       research_method: exact phrase search in canonical Greek XML; context manually checked
     textual_issues: []
-    review_comments: []
+    review_comments:
+    - >-
+      Japanese corpus check: Aozora contains 「もし神様のみ心ならば」 and 「もし神のみ心ならば」
+      in Kurata Hyakuzō's 『青春の息の痕』, as well as 「仏様み心ならば」 in 『出家とその弟子』.
+      No occurrence of 「御心があれば」 or 「御心とあらば」 was located. This evidence concerns
+      Japanese idiom and register only.
     status: ja-proposed
   - id: e-08-003
     source_locator:
@@ -8564,9 +9531,11 @@ scenes:
       variants:
       - de: Wer bürgt dir dafür?
         ja_current: それを保証してくれるのは誰ですか。
-        ja_proposed: 何を根拠に、そう言えるんだ。
+        ja_proposed: 誰がそんなことを保証してくれるんだ？
         decision: revise
-        rationale: null
+        rationale: >-
+          German Wer and Greek τίς both ask for a personal guarantor, not an abstract evidential basis.
+          The revision preserves that image and the sceptical familiar tone.
         alternatives: []
       register: null
       scene_dependency: null
@@ -8627,20 +9596,36 @@ scenes:
       variants:
       - de: Wenn es uns gelingt, so will ich Gott innig denken.
         ja_current: もしうまくいったら、神に心から感謝します。
-        ja_proposed: もしうまくいったら、神を心から讃えましょう。
+        ja_proposed: もしうまくいったら、神に心から感謝します。
         decision: revise
-        rationale: null
+        rationale: >-
+          German will ich and Greek first-person singular ἐπαινέσομαι express the speaker's own future
+          response, not a proposal to the group. The probable German correction danken favours 「感謝する」;
+          Greek literally says 「讃える」, a difference retained under textual_issues.
         alternatives: []
       register: null
       scene_dependency: null
-    attestations: []
+    attestations:
+    - target: 'ἢν \emph{κατορθώσωμεν, ἐπαινέσομαι} τὸν θεὸν πάνυ σφόδρα.'
+      status: not-found
+      match_type: not-found
+      reference_as_given: null
+      source: null
+      text_grc: null
+      original_scene: null
+      relationship_to_handbook: No exact normalized single-line occurrence was located in the local canonical Greek corpus; the wording is treated as a handbook composition unless later evidence is found.
+      adaptations: []
+      confidence: medium
+      research_method: exact normalized Unicode search across all local canonical-greekLit XML files
     textual_issues:
     - type: probable-german-typo
       note: >-
         German denken is semantically unexpected here; Greek ἐπαινέσομαι means “I shall praise,”
         and the idiomatic German intended sense is likely danken (“thank”).
     review_comments:
-    - Japanese follows Greek ἐπαινέσομαι with 「神を心から讃える」 rather than reproducing denken.
+    - >-
+      Japanese follows the probable German correction danken with 「神に心から感謝する」. Greek
+      ἐπαινέσομαι more literally means 「神を讃える」; the two acts overlap here but are not identical.
     status: ja-proposed
   - id: e-08-005
     source_locator:
@@ -8738,13 +9723,31 @@ scenes:
       variants:
       - de: In Gottes Namen!
         ja_current: 神の御名によって！
-        ja_proposed: 運を天に任せて！
+        ja_proposed: 運を天に任せよう！
         decision: revise
-        rationale: null
+        rationale: >-
+          German In Gottes Namen licenses proceeding under divine sanction, while τύχῃ ἀγαθῇ invokes
+          good fortune. 「運を天に任せよう」 mediates between providence and luck and supplies a complete
+          decision rather than the literal but contextless 「神の御名によって」.
         alternatives: []
       register: null
       scene_dependency: null
-    attestations: []
+    attestations:
+    - target: '''τυχαγαθῇ:'''
+      status: source-context-checked
+      match_type: exact-or-containing-phrase
+      reference_as_given: null
+      source:
+        author: 'Aristophanes'
+        work: 'Birds'
+        passage: '1682'
+        local_file: /home/mrty/Documents/Resources/canonical-greekLit/data/tlg0019/tlg006/tlg0019.tlg006.perseus-grc2.xml
+      text_grc: 'ἡγοῦ δὴ σὺ νῷν τύχἀγαθῇ.'
+      original_scene: 'The formula τύχἀγαθῇ accompanies the start of an action, literally ''with good fortune''; German recasts it as an invocation of God.'
+      relationship_to_handbook: 'The formula τύχἀγαθῇ accompanies the start of an action, literally ''with good fortune''; German recasts it as an invocation of God.'
+      adaptations: []
+      confidence: high
+      research_method: exact normalized Unicode search across local canonical-greekLit XML; context manually checked
     textual_issues: []
     review_comments: []
     status: ja-proposed
@@ -8851,7 +9854,22 @@ scenes:
         alternatives: []
       register: null
       scene_dependency: null
-    attestations: []
+    attestations:
+    - target: 'ἀλαλαί!'
+      status: source-context-checked
+      match_type: exact-or-containing-phrase
+      reference_as_given: null
+      source:
+        author: 'Aristophanes'
+        work: 'Lysistrata'
+        passage: '1291-1293'
+        local_file: /home/mrty/Documents/Resources/canonical-greekLit/data/tlg0019/tlg007/tlg0019.tlg007.perseus-grc2.xml
+      text_grc: 'ἀλαλαὶ ἰὴ παιήων ... ὡς ἐπὶ νίκῃ'
+      original_scene: 'The cry occurs in the final celebration and is explicitly associated with victory, supporting a jubilant cheer.'
+      relationship_to_handbook: 'The cry occurs in the final celebration and is explicitly associated with victory, supporting a jubilant cheer.'
+      adaptations: []
+      confidence: high
+      research_method: exact normalized Unicode search across local canonical-greekLit XML; context manually checked
     textual_issues: []
     review_comments: []
     status: ja-proposed
@@ -8888,7 +9906,7 @@ scenes:
       variants:
       - de: Was du für \emph{Glück hast!}
         ja_current: 君はなんて幸運なんだ！
-        ja_proposed: 君はなんと運がいいんだ！
+        ja_proposed: 君はなんと\emph{運がいい}んだ！
         decision: revise
         rationale: null
         alternatives: []
@@ -8972,13 +9990,26 @@ scenes:
       variants:
       - de: Er hat großes Glück.
         ja_current: 彼は大変ついている。
-        ja_proposed: 彼は実に運がよかった。
+        ja_proposed: 彼は大層運がいい。
         decision: revise
-        rationale: null
+        rationale: >-
+          German presents his good fortune as current, and Greek perfect πέπραγεν describes how
+          fortunately his affairs have turned out. Present 「運がいい」 suits the following list of reasons.
         alternatives: []
       register: null
       scene_dependency: null
-    attestations: []
+    attestations:
+    - target: 'εὐτυχέστατα πέπραγεν.'
+      status: not-found
+      match_type: not-found
+      reference_as_given: null
+      source: null
+      text_grc: null
+      original_scene: null
+      relationship_to_handbook: No exact normalized single-line occurrence was located in the local canonical Greek corpus; the wording is treated as a handbook composition unless later evidence is found.
+      adaptations: []
+      confidence: medium
+      research_method: exact normalized Unicode search across all local canonical-greekLit XML files
     textual_issues: []
     review_comments: []
     status: ja-proposed
@@ -9021,7 +10052,18 @@ scenes:
         alternatives: []
       register: null
       scene_dependency: null
-    attestations: []
+    attestations:
+    - target: 'τίνι τρόπῳ;'
+      status: not-found
+      match_type: not-found
+      reference_as_given: null
+      source: null
+      text_grc: null
+      original_scene: null
+      relationship_to_handbook: No exact normalized single-line occurrence was located in the local canonical Greek corpus; the wording is treated as a handbook composition unless later evidence is found.
+      adaptations: []
+      confidence: medium
+      research_method: exact normalized Unicode search across all local canonical-greekLit XML files
     textual_issues: []
     review_comments: []
     status: ja-proposed
@@ -9065,27 +10107,30 @@ scenes:
       register: null
       scene_dependency: null
     attestations:
-    - target: παῖδα κόρην γεγάμηκεν.
-      status: exact-string-located-context-pending
+    - language: grc
+      target: παῖδα κόρην γεγάμηκεν.
+      status: source-and-context-verified
       match_type: exact
       reference_as_given: null
       source:
         author: Aristophanes
         work: Lysistrata
         passage: '595'
-        local_file: /home/mrty/Documents/Perseus/Classics/Aristophanes/opensource/aristoph.lys_gk.xml
-      text_grc: παῖδα κόρην γεγάμηκεν.
+        local_file: /home/mrty/Documents/Resources/canonical-greekLit/data/tlg0019/tlg007/tlg0019.tlg007.perseus-grc2.xml
+      text_grc: ὁ μὲν ἥκων γάρ, κἂν ᾖ πολιός, ταχὺ παῖδα κόρην γεγάμηκεν.
       original_speakers:
       - Λυσιστρατη
       original_speaker_beta: '*lusistra/th'
-      original_scene: null
-      beta_context: all ouk eipas omoion o men hkwn gar kan h polios taxu paida korhn gegamhken ths de
-        gunaikos smikros o kairos kan toutou mh pilabhtai oudeis eqelei
-      relationship_to_handbook: The complete handbook string matches after removing accents and normalizing
-        Perseus Beta Code. Dramatic or prose context still needs manual comparison.
-      adaptations: []
-      confidence: candidate
-      research_method: exact normalized token search
+      original_scene: >-
+        Lysistrata contrasts men's and women's prospects after wartime absence: a returning man, even
+        if grey-haired, can quickly marry a young girl, whereas a woman's opportunity for marriage is brief.
+      relationship_to_handbook: >-
+        The handbook extracts the exact clause παῖδα κόρην γεγάμηκεν and suppresses its original subject,
+        an older man returning from war. German retains the striking youth of the bride but not the contrast.
+      adaptations:
+      - Omits the preceding subject and concessive κἂν ᾖ πολιός.
+      confidence: high
+      research_method: exact corpus search and manual inspection of Lysistrata 590-597
     textual_issues: []
     review_comments: []
     status: ja-proposed
@@ -9122,13 +10167,26 @@ scenes:
       variants:
       - de: Er ist ein reicher Mann geworden.
         ja_current: 彼は裕福な男になった。
-        ja_proposed: 裕福な身の上になった。
+        ja_proposed: 彼は金持ちになった。
         decision: revise
-        rationale: null
+        rationale: >-
+          Both languages describe a change of state. The explicit subject keeps the short model phrase
+          independently usable; plain 「金持ち」 is more natural dialogue than 「裕福な身の上」.
         alternatives: []
       register: null
       scene_dependency: null
-    attestations: []
+    attestations:
+    - target: 'πλούσιος γεγένηται.'
+      status: not-found
+      match_type: not-found
+      reference_as_given: null
+      source: null
+      text_grc: null
+      original_scene: null
+      relationship_to_handbook: No exact normalized single-line occurrence was located in the local canonical Greek corpus; the wording is treated as a handbook composition unless later evidence is found.
+      adaptations: []
+      confidence: medium
+      research_method: exact normalized Unicode search across all local canonical-greekLit XML files
     textual_issues: []
     review_comments: []
     status: ja-proposed
@@ -9165,9 +10223,13 @@ scenes:
       variants:
       - de: Er kann das Leben genießen.
         ja_current: 人生を存分に楽しめる。
-        ja_proposed: 若さを存分に楽しめるというわけだ。
+        ja_proposed: これで人生の春を楽しめるというわけだ。
         decision: revise
-        rationale: null
+        rationale: >-
+          German Leben generalizes the thought to enjoyment of life, whereas Greek ἥβη means youth or
+          youthful prime. The handbook has detached the Greek phrase from Lysistrata's lament about
+          women losing their youth and placed it after a man's marriage and enrichment. Japanese follows
+          the handbook's new German context with 「人生」 while the source-level change remains explicit.
         alternatives: []
       register: null
       scene_dependency: null
@@ -9193,7 +10255,10 @@ scenes:
     - type: german-generalization
       note: German Leben generalizes Greek ἥβη, which specifically denotes youth or youthful prime.
     review_comments:
-    - Japanese retains the more specific Greek image as 「若さを存分に楽しむ」.
+    - >-
+      Japanese follows the handbook's German generalization with 「人生を存分に楽しむ」 because the
+      reconstructed subject is now the fortunate man. The attestation shows that the extracted Greek
+      originally referred to women being denied enjoyment of their own youth during wartime.
     status: ja-proposed
   - id: e-08-015
     source_locator:
@@ -9319,7 +10384,18 @@ scenes:
         alternatives: []
       register: null
       scene_dependency: null
-    attestations: []
+    attestations:
+    - target: 'ποθεινός ἐστι τοῖς φίλοις.'
+      status: not-found
+      match_type: not-found
+      reference_as_given: null
+      source: null
+      text_grc: null
+      original_scene: null
+      relationship_to_handbook: No exact normalized single-line occurrence was located in the local canonical Greek corpus; the wording is treated as a handbook composition unless later evidence is found.
+      adaptations: []
+      confidence: medium
+      research_method: exact normalized Unicode search across all local canonical-greekLit XML files
     textual_issues: []
     review_comments: []
     status: ja-proposed
@@ -9362,7 +10438,18 @@ scenes:
         alternatives: []
       register: null
       scene_dependency: null
-    attestations: []
+    attestations:
+    - target: 'ἐστὶ \emph{τῶν} φίλων.'
+      status: not-found
+      match_type: not-found
+      reference_as_given: null
+      source: null
+      text_grc: null
+      original_scene: null
+      relationship_to_handbook: No exact normalized single-line occurrence was located in the local canonical Greek corpus; the wording is treated as a handbook composition unless later evidence is found.
+      adaptations: []
+      confidence: medium
+      research_method: exact normalized Unicode search across all local canonical-greekLit XML files
     textual_issues: []
     review_comments: []
     status: ja-proposed

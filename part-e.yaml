@@ -145,7 +145,7 @@ sections:
         - de: |-
             Das ist gar \emph{nicht schön} von Ihnen, \emph{daß} Sie mich nicht
             begrüßt haben.
-          ja: 私に挨拶してくださらなかったなんて、随分ではありませんか。
+          ja: \emph{私に挨拶してくださらなかったなんて}、\emph{随分}ではありませんか。
         grc:
           - καλῶς γε οὐ προσεῖπάς με! \textgerman{(ironisch.)}
   - title:
@@ -259,92 +259,92 @@ sections:
     conversations:
       - modern:
         - de: Beeilen Sie sich!
-          ja: 急いでください。
+          ja: さあ、急いでください！
         grc:
           - σπεῦδέ νυν! ἔπειγέ νυν!
       - modern:
         - de: So beeilen Sie sich doch!
-          ja: さあ急いでくださいよ。
+          ja: さあ、早くしてくださいよ！
         grc:
           - οὔκουν ἐπείξει;
       - modern:
         - de: Zögern Sie nicht!
-          ja: ためらわないで。
+          ja: ためらわないでください！
         grc:
           - μὴ βράδυνε!
       - modern:
         - de: Machen Sie schnell!
-          ja: 手早くしてください。
+          ja: 早く済ませてください！
         grc:
           - \emph{ἄνυε!}
       - modern:
         - de: So machen Sie doch schnell!
-          ja: 早くしてくださいよ。
+          ja: さあ、早く済ませてくださいよ！
         grc:
           - οὐκ ἀνύσεις;
       - modern:
         - de: Sie dürfen nicht zögern.
-          ja: ぐずぐずしてはいけません。
+          ja: ぐずぐずしていてはいけません。
         grc:
           - οὐ μέλλειν χρή σε.
       - modern:
         - de: Wir wollen uns nicht aufhalten.
-          ja: ぐずぐずせずに行きましょう。
+          ja: ぐずぐずするのはよしましょう。
         grc:
           - μὴ διατρίβωμεν.
       - modern:
         - de: So halten Sie sich doch nicht auf!
-          ja: だから時間をつぶさないでください。
+          ja: さあ、もうぐずぐずなさらないで！
         grc:
           - οὐ μὴ διατρίψεις;
       - modern:
         - de: Jetzt gilt es!
-          ja: いまが肝心です。
+          ja: 今がその時です！
         grc:
           - νῦν ὁ καιρός!
       - modern:
         - de: Nun so versuchen Sie es doch wenigstens!
-          ja: せめてやってみてください。
+          ja: では、せめて試してみてください！
         grc:
           - ἀλλ’ οὖν πεπειράσθω γε.
       - modern:
         - de: "Auf Ihre Verantwortung hin will ich's thun."
-          ja: あなたの責任ということでやってみます。
+          ja: では、あなたの言葉を信じて、やりましょう。
         grc:
           - δράσω τοίνυν σοὶ πίσυνος.
       - modern:
         - de: Ich will es versuchen.
-          ja: やってみます。
+          ja: では、試してみます。
         grc:
           - πειράσομαι.
       - modern:
         - de: Und wenn es den Kopf kostet!
-          ja: 命がけでも構いません。
+          ja: たとえ命を失おうとも！
         grc:
           - κἂν δέῃ μ’ ἀποθανεῖν!
       - modern:
         - de: Ich bin schon darüber.
-          ja: もう覚悟はできています。
+          ja: いや、もう取りかかっています。
         grc:
           - ἀλλὰ δρῶ τοῦτο.
       - modern:
         - de: Endlich ist es so weit!
-          ja: ついにその時が来ました。
+          ja: ついに、その時が来ました！
         grc:
           - ἤδη ’στὶ τοῦτ’ ἐκεῖνο!
       - modern:
         - de: Und wenn sie Nein sagt und nicht will?
-          ja: もし彼女が嫌だと言ったら？
+          ja: でも、彼女が嫌だと言って、応じてくれなかったら？
         grc:
           - κἂν μὴ φῇ μηδ’ ἐθελήσῃ;
       - modern:
         - de: Wir werden gleich sehen.
-          ja: すぐにわかるでしょう。
+          ja: それは、すぐにわかりますよ。
         grc:
           - εἰσόμεθ’ αὐτίκα.
       - modern:
         - de: Ich will gleich einmal sehen.
-          ja: ちょっと確かめてみます。
+          ja: では、私がさっそく確かめてみましょう。
         grc:
           - ἐγὼ \emph{εἴσομαι.}
   - title:
@@ -353,7 +353,7 @@ sections:
     conversations:
       - modern:
         - de: Ich verehre Sie.
-          ja: あなたを慕っています。
+          ja: あなたをお慕いしています。
         grc:
           - ἐραστής εἰμι σός.
       - modern:
@@ -373,64 +373,64 @@ sections:
           - ὁτιὴ φιλῶ λέγεις;
       - modern:
         - de: Wenn Sie mich wirklich von Herzen lieben, so sprechen Sie mit meiner Mutter.
-          ja: 本当に心から私を愛しているのなら、母に話してください。
+          ja: 本当に心から私を愛してくださるのなら、母に話してください。
         grc:
           - εἴπερ ὄντως ἐκ τῆς καρδίας με φιλεῖς, πρόσειπε τἡν μητέρα μου.
       - modern:
         - de: Erlauben Sie mir einen Kuß!
-          ja: キスさせてください。
+          ja: どうか、口づけをさせてください！
         grc:
           - \emph{δός μοι} κύσαι. (δὸς κύσαι.)
       - modern:
         - de: Geben Sie mir einen Kuß! Bitte bitte!
-          ja: キスしてください、お願いです！
+          ja: 口づけしてください。お願いです、どうか！
         grc:
           - κύσον με, ἀντιβολῶ!
       - modern:
         - de: Einen Kuß!
-          ja: キスをしてください！
+          ja: さあ、口づけをさせてください！
         grc:
           - φέρε, σε κύσω!
       - modern:
         - de: |-
             Ich weiß zwar gewiß, daß die Mutter darüber böse sein wird, aber Ihnen
             zu Gefallen will ich es thun.
-          ja: 母が怒るのはわかっていますが、あなたのためにそうします。
+          ja: 母がきっと腹を立てるのは、わかっています。でも、あなたのためなら、そうします。
         grc:
           - οἶδα μὲν σαφῶς, ὅτι ἡ μήτηρ ἀχθέσεται, σοῦ ἕνεκα τοῦτο δράσω.
       - modern:
         - de: Hören Sie auf!
-          ja: やめてください！
+          ja: もう、やめてください！
         grc:
           - παῦε! παῦε!
       - modern:
         - de: Wie glücklich bin ich!
-          ja: なんて幸せなんだろう。
+          ja: ああ、なんて幸せなんだろう！
         grc:
           - ὡς ἥδομαι!
       - modern:
         - de: Ach, daß mich nur dir Mutter nicht sieht!
-          ja: どうかお母さんに見つかりませんように。
+          ja: ああ、母に見られませんように！
         grc:
           - οἴμοι, ἡ μήτηρ ὅπως μή μ’ ὄψεται!
       - modern:
         - de: Wir sind ja allein (unter uns).
-          ja: ほら、二人きりですよ。
+          ja: 大丈夫、ここには二人しかいませんよ。
         grc:
           - \emph{αὐτοὶ} γάρ ἐσμεν.
       - modern:
         - de: Pst! Seien Sie still!
-          ja: しっ、静かに。
+          ja: しっ、お静かに！
         grc:
           - ἤ ἤ· σιώπα.
       - modern:
         - de: Geben Sie mir die Hand!
-          ja: 手を握ってください。
+          ja: さあ、その右手を取らせてください！
         grc:
           - δός μοι τὴν χεῖρα τὴν δεξιάν.
       - modern:
         - de: Ich schwöre Ihnen ewige Treue!
-          ja: 永遠にあなたに忠実でいると誓います。
+          ja: いつまでも変わらぬ心を、あなたに誓います！
         grc:
           - οὐδέποτέ σ’ ἀπολείψειν φημί!
   - title:
@@ -439,77 +439,77 @@ sections:
     conversations:
       - modern:
         - de: Was geht da vor? — Was ist das?
-          ja: そこで何が起きているのですか――これは何です？
+          ja: そこで何をしているのです？――これはいったい、何事です！
         grc:
           - τί τὸ πρᾶγμα; — τουτὶ τί ἐστιν;
       - modern:
         - de: Allmächtiger Gott!
-          ja: 全能の神よ！
+          ja: ああ、神さま！
         grc:
           - ὦ Ζεῦ βασιλεῦ!
       - modern:
         - de: Verwünscht!
-          ja: ちくしょう！
+          ja: しまった！
         grc:
           - οἴμοι κακοδαίμων!
       - modern:
         - de: Wir sind verrathen!
-          ja: 私たちは露見してしまった！
+          ja: （私たちは）見つかってしまった！
         grc:
           - προδεδόμεθα!
       - modern:
         - de: Hier ist der schändliche Mensch!
-          ja: ここにそのろくでもない男がいます！
+          ja: まあ、この恥知らずが、ここに（いる）！
         grc:
           - οὗτος ὁ πανοῦργος!
       - modern:
         - de: Sind Sie verrückt?
-          ja: 気でも違ったのですか。
+          ja: 正気ですか、いったい何をしているのです！
         grc:
           - τί ποιεῖς;
       - modern:
         - de: Was fällt Ihnen ein?
-          ja: 何を考えているのですか。
+          ja: いったい、何を血迷っているのです！
         grc:
           - τί πάσχεις;
       - modern:
         - de: O Sie Abscheulicher!
-          ja: ああ、なんて嫌な人！
+          ja: まあ、なんて卑しい人！
         grc:
           - ὦ βδελυρὲ σύ!
       - modern:
         - de: Ereifern Sie sich nicht!
-          ja: 興奮しないでください。
+          ja: まあ、そうお怒りにならないでください！
         grc:
           - μὴ πρὸς ὀργήν!
       - modern:
         - de: Das ist eine Sünde und Schande!
-          ja: これは罪であり恥です！
+          ja: まあ、なんという不埒なことを！
         grc:
           - ἀνόσια ἐπάθομεν!
       - modern:
         - de: \emph{Nein,} über diese Unverschämtheit!
-          ja: いやはや、なんという無礼だ！
+          ja: \emph{まあ}、なんという厚かましさでしょう！
         grc:
           - ἆρ’ οὐχ ὕβρις ταῦτ’ ἐστὶ πολλή;
       - modern:
         - de: Hören Sie auf!
-          ja: やめてください。
+          ja: もう、やめてください！
         grc:
           - παῦε!
       - modern:
         - de: Gehen Sie Ihrer Wege!
-          ja: さっさと立ち去りなさい。
+          ja: さっさと立ち去りなさい！
         grc:
           - ἄπιθ’ ἐκποδών!
       - modern:
         - de: Machen Sie, daß Sie hinaus\textcompwordmark{}kommen!
-          ja: 早く外へ出て行きなさい。
+          ja: お出になったらどうです！
         grc:
           - οὐκ εἶ θύραζε;
       - modern:
         - de: Entfernen Sie sich doch!
-          ja: さあ離れてください。
+          ja: いい加減、そこをどいたらどうです！
         grc:
           - οὐκ ἄπει δῆτα ἐκποδών;
       - modern:
@@ -519,78 +519,78 @@ sections:
           - ἐς κόρακας!
       - modern:
         - de: Fort mit Ihnen!
-          ja: 出て行け！
+          ja: さあ、失せなさい！
         grc:
           - ἄπερρε!
       - modern:
         - de: Der Teufel soll Sie holen!
-          ja: 悪魔に連れて行かれてしまえ！
+          ja: 悪魔にでもさらわれるがいい！
         grc:
           - ἀπολεῖ κάκιστα!
       - modern:
         - de: So gehen Sie doch zum Teufel!
-          ja: だからさっさと地獄へ行け！
+          ja: もう、地獄へでも行ったらどうです！
         grc:
           - οὐκ ἐς κόρακας;
       - modern:
         - de: Sie sind verrückt, Madame!
-          ja: 奥さん、あなたは狂っていますよ。
+          ja: 奥様、どうかしていらっしゃいますよ！
         grc:
           - παραπαίεις, ὦ γύναι.
           - ὦ γύναι, ὡς παραπαίεις!
       - modern:
         - de: Sie beleidigen mich!
-          ja: 私を侮辱しています！
+          ja: まあ、よくも私を侮辱なさいますね！
         grc:
           - οἴμοι, ὡς ὑβρίζεις!
       - modern:
         - de: Pfui!
-          ja: けっ！
+          ja: まあ、汚らわしい！
         grc:
           - αἰβοί!
       - modern:
         - de: Das soll Ihnen nicht so hingehen!
-          ja: そうはいきませんよ。
+          ja: こんなことをして、このままで済むと思わないでください！
         grc:
           - οὔτοι καταπροίξει (τοῦτο δρῶν)!
       - modern:
         - de: Das soll Ihnen schlecht bekommen!
-          ja: 痛い目に遭いますよ。
+          ja: きっと後悔しますよ！
         grc:
           - οὐ χαιρήσεις.
       - modern:
         - de: Das will ich Ihnen anstreichen!
-          ja: その無礼はこらしめてやります。
+          ja: その厚かましさ、私が懲らしめてやります！
         grc:
           - ἐγώ σε παύσω τοῦ θράσους.
       - modern:
         - de: Nun, so mäßigen Sie sich doch!
-          ja: さあ、気持ちを抑えてください。
+          ja: まあ、そう興奮なさらないでください！
         grc:
           - ἀλλ’ ἀνάσχου!
       - modern:
         - de: Ist es nicht arg, daß Sie das thun?
-          ja: そんなことをするなんてひどくないですか。
+          ja: そんなことをなさるなんて、ひどいではありませんか！
         grc:
           - οὐ δεινὸν δῆτά σε τοῦτο δράσαι;
       - modern:
         - de: Das ist empörend!
-          ja: これは我慢ならない！
+          ja: こんなこと、我慢なりません！
         grc:
           - οὐκ ἀνασχετὸν τοῦτο!
       - modern:
         - de: Verwünscht! was soll ich thun?
-          ja: ちくしょう、どうしたらいいんだ？
+          ja: ああ、困った。どうしたものだ？
         grc:
           - οἴμοι, τί δράσω;
       - modern:
         - de: Sehen Sie, was Sie gethan haben?
-          ja: 自分が何をしたかわかりますか。
+          ja: ご自分が何をしたか、おわかりですか！
         grc:
           - ὁρᾷς, ἃ δέδρακας;
       - modern:
         - de: Sie sind schuld daran!
-          ja: それはあなたの責任です！
+          ja: これはすべて、あなたのせいです！
         grc:
           - |-
             σὺ τούτων αἴτιος\footnote{\textlatin{%
@@ -602,7 +602,7 @@ sections:
     conversations:
       - modern:
         - de: Was hängst du den Kopf?
-          ja: どうしてそんなにうなだれているの？
+          ja: どうして、そんなにうなだれているんだ？
         grc:
           - τί κύπτεις;
       - modern:
@@ -612,82 +612,82 @@ sections:
           - αἰσχύνομαι.
       - modern:
         - de: Die Frau hat dich in der That sehr schlecht behandelt.
-          ja: あの女性は本当に君にひどい仕打ちをしたね。
+          ja: あの婦人は君に、実にひどい仕打ちをしたな。
         grc:
           - αἴσχιστά τοί σ’ εἰργάσατο ἡ γυνή.
       - modern:
         - de: Sie ist sehr böse auf uns.
-          ja: 彼女は私たちにひどく腹を立てている。
+          ja: （あの婦人は）僕たちに、ひどく腹を立てている。
         grc:
           - ὀργὴν ἡμῖν ἔχει πολλήν.
       - modern:
         - de: Das ist höchst ärgerlich für uns.
-          ja: これは私たちにとって非常に腹立たしい。
+          ja: それが僕たちには、何よりつらいんだ。
         grc:
           - τοῦτ’ ἔστ’ ἄλγιστον ἡμῖν.
       - modern:
         - de: Ich ärgere mich immer wieder, daß ich das gethan habe.
-          ja: そんなことをした自分に、何度も腹が立つ。
+          ja: あんなことをしたのが、悔やまれてならない。
         grc:
           - πόλλ’ ἄχθομαι, ὅτι ἔδρασα τοῦτο.
       - modern:
         - de: Das hatte ich nicht erwartet.
-          ja: こんなことになるとは思わなかった。
+          ja: こんなことになるとは、夢にも思わなかった。
         grc:
           - τουτὶ μὰ Δί’ οὐδέποτ’ ἤλπισα.
       - modern:
         - de: Knirsche nicht mit den Zähnen!
-          ja: 歯ぎしりするのはやめなさい！
+          ja: そう歯ぎしりするな！
         grc:
           - μὴ πρῖε τοὺς ὀδόντας!
       - modern:
         - de: Das läßt sich nicht ändern.
-          ja: それはどうにもならない。
+          ja: まあ、済んだことは仕方がない。
         grc:
           - ταῦτα μὲν δὴ ταῦτα.
       - modern:
         - de: Sei nicht rachsüchtig!
-          ja: 仕返ししようとしないで。
+          ja: いつまでも恨みに思うな。
         grc:
           - μὴ μνησικακήσῃς.
       - modern:
         - de: Es ist am besten, wir bleiben ruhig.
-          ja: 静かにしているのが一番だ。
+          ja: おとなしくしているのが一番だ。
         grc:
           - ἡσυχίαν ἄγειν βέλτιστόν ἐστιν.
       - modern:
         - de: Das war ein Fehler von uns.
-          ja: それは私たちの過ちだった。
+          ja: 僕たちの落ち度だったんだ。
         grc:
           - ἡμάρτομεν ταῦτα.
       - modern:
         - de: Sei nicht böse, mein Lieber!
-          ja: 怒らないでおくれ。
+          ja: まあ、そう腹を立てるなよ。
         grc:
           - μὴ ἀγανάκτει, ὦ ’γαθέ.
       - modern:
         - de: Aber ich kann unmöglich schweigen.
-          ja: でも黙ってはいられないんだ。
+          ja: だが、どうしても黙ってはいられない。
         grc:
           - ἀλλ’ \emph{οὐκ ἔσθ’ ὅπως} σιγήσομαι.
       - modern:
         - de: Daran bist du ganz allein schuld.
-          ja: それはまったく君の責任だ。
+          ja: これは、ひとえに君のせいだぞ。
         grc:
           - αἴτιος μέντοι σὺ τούτων εἶ μόνος.
       - modern:
         - de: Es war \emph{nicht richtig, daß} du das thatest.
-          ja: 君がそうしたのは間違いだった。
+          ja: 君があんなことをしたのは、\emph{よくなかった}！
         grc:
           - οὐκ ὀρθῶς τοῦτ’ ἔδρασας!
       - modern:
         - de: Was geht das \emph{dich} an?
-          ja: それが君に何の関係があるんだ。
+          ja: \emph{君に}何の関係があるんだ？
         grc:
           - τί δὲ σοὶ τοῦτο;
       - modern:
         - de: Was fiel dir denn ein, daß du das thatest?
-          ja: どういうつもりでそんなことをしたんだ。
+          ja: 一体どういうつもりで、あんなことをしたんだ。
         grc:
           - τί δὴ \emph{μαθὼν} τοῦτ’ ἐποίησας;
       - modern:
@@ -697,42 +697,42 @@ sections:
           - τῆς μωρίας!
       - modern:
         - de: Wie \emph{unrecht} du gehandelt hast!
-          ja: 君のしたことはなんて間違っているんだ！
+          ja: なんという\emph{不心得なこと}をしたんだ！
         grc:
           - ὡς οὐκ ὀρθῶς τοῦτ’ ἔδρασας!
       - modern:
         - de: Das war Unrecht von dir.
-          ja: それは君が悪かった。
+          ja: あれは君が悪かった。
         grc:
           - τοῦτ’ οὐκ ὀρθῶς ἐποίησας.
       - modern:
         - de: \emph{Das ist es, was} du mir zum Vorwurf machst?
-          ja: それを私に非難するのか？
+          ja: \emph{それが}、君の言う僕の落ち度なのか？
         grc:
           - ταῦτ’ ἐπικαλεῖς;
       - modern:
         - de: Aber es ging nicht anders.
-          ja: でもそうするしかなかった。
+          ja: だが、ほかにしようがなかったんだ。
         grc:
           - ἀλλ’ οὐκ ἦν παρὰ ταῦτ’ ἄλλα.
       - modern:
         - de: Gieb mir keine guten Lehren, sondern —
-          ja: 説教はいいから――
+          ja: 説教はよしてくれ。それより――
         grc:
           - μὴ νουθέτει με, ἀλλὰ —
       - modern:
         - de: Über dich kann man sich krank ärgern.
-          ja: 君には本当に腹が立って病気になりそうだ。
+          ja: 君には腹が立って、どうにかなりそうだ！
         grc:
           - ἀπολεῖς με!
       - modern:
         - de: "Aber soviel sage ich dir:"
-          ja: でもね、これだけは言っておくよ。
+          ja: だが、これだけは言っておく。
         grc:
           - ἓν δέ σοι λέγω·
       - modern:
         - de: Mir \emph{thut} das Fräulein \emph{leid.}
-          ja: あの娘が本当に気の毒だ。
+          ja: 僕は、あのお嬢さんが\emph{気の毒でならない}。
         grc:
           - περὶ τῆς κόρης ἀνιῶμαι.
   - title:
@@ -741,69 +741,69 @@ sections:
     conversations:
       - modern:
         - de: Wie komisch sich das aus\textcompwordmark{}nahm!
-          ja: なんてばかばかしく見えたことか！
+          ja: なんとも滑稽な有様だったな！
         grc:
           - ὡς καταγέλαστον ἐφάνη τὸ πρᾶγμα!
       - modern:
         - de: Das ist ein Hauptwitz!
-          ja: これは大笑いだ！
+          ja: こいつは傑作だ！
         grc:
           - τοῦτο πάνυ γελοῖον!
       - modern:
         - de: Das geht auf mich!
-          ja: これは私のことだ。
+          ja: それ、僕のことを言っているんだな！
         grc:
           - πρὸς \emph{ἐμὲ} ταῦτ’ ἐστίν.
       - modern:
         - de: Er macht schlechte Witze.
-          ja: 彼はくだらない冗談を言う。
+          ja: あいつは人をからかっている。
         grc:
           - σκώπτει.
       - modern:
         - de: "Mach' keine schlechten Witze!"
-          ja: くだらない冗談はやめろ！
+          ja: くだらない冗談はよせ！
         grc:
           - μὴ σκῶπτε!
       - modern:
         - de: "Mach' keine schlechten Witze \\emph{über mich!}"
-          ja: 私のことで変な冗談を言うな！
+          ja: \emph{僕を}からかうのはよせ！
         grc:
           - μὴ σκῶπτέ με!
       - modern:
         - de: |-
             Du machst doch nicht etwa des\textcompwordmark{}wegen schlechte Witze
             über mich?
-          ja: まさかそれで私をからかっているのではないだろうね？
+          ja: まさか、それを見て僕をからかっているんじゃないだろうな？
         grc:
           - μῶν με σκώπτεις ὁρῶν τοῦτο;
       - modern:
         - de: Laß dich doch nicht aus\textcompwordmark{}lachen!
-          ja: 笑いものになるなよ。
+          ja: 君、すっかり笑いものになっているぞ！
         grc:
           - καταγέλαστος εἶ.
       - modern:
         - de: Wir lachen nicht über dich.
-          ja: 君のことを笑っているわけじゃない。
+          ja: 僕たちは君を笑っているんじゃない。
         grc:
           - οὐ σοῦ καταγελῶμεν.
       - modern:
         - de: Nun, worüber denn?
-          ja: じゃあ何がおかしいんだい。
+          ja: じゃあ、何を笑っているんだ？
         grc:
           - ἀλλὰ τοῦ;
       - modern:
         - de: Worüber lachst du?
-          ja: 何を見て笑っているの？
+          ja: 何がおかしいんだ？
         grc:
           - ἐπὶ τῷ γελᾶς;
       - modern:
         - de: "Hör' auf! — Schweig'!"
-          ja: やめろ！――黙れ！
+          ja: よせ！――黙れ！
         grc:
           - παῦε! — σιώπα!
       - modern:
         - de: Sei so gut und rede nicht mehr mit mir!
-          ja: 悪いがもう私に話しかけないでくれ。
+          ja: 悪いが、もう僕に話しかけないでくれ！
         grc:
           - \emph{βούλει} μὴ προσαγορεύειν ἐμέ;
   - title:
@@ -812,18 +812,18 @@ sections:
     conversations:
       - modern:
         - de: Vielleicht kann es noch gut werden!
-          ja: まだうまくいくかもしれません！
+          ja: まだ、うまくいくかもしれません！
         grc:
           - ἴσως ἂν εὖ γένοιτο.
       - modern:
         - de: So Gott will.
-          ja: 神の御心のままに。
+          ja: 神の御心ならば。
         grc:
           - σὺν θεῷ δ’ εἰρήσεται.
           - ἢν θεοὶ θέλωσιν.
       - modern:
         - de: Wer bürgt dir dafür?
-          ja: それを保証してくれるのは誰ですか。
+          ja: 誰がそんなことを保証してくれるんだ？
         grc:
           - καὶ τίς ἐγγυητής ἐστι τούτου;
       - modern:
@@ -833,32 +833,32 @@ sections:
           - ἢν \emph{κατορθώσωμεν, ἐπαινέσομαι} τὸν θεὸν πάνυ σφόδρα.
       - modern:
         - de: Wie es sich gehört.
-          ja: そうあるべきですね。
+          ja: それが当然でしょう。
         grc:
           - ὥσπερ εἰκός ἐστιν.
       - modern: # ToDo why colon?
         - de: In Gottes Namen!
-          ja: 神の御名によって！
+          ja: 運を天に任せよう！
         grc:
           - "τυχαγαθῇ:"
       - modern:
         - de: Wenn es uns aber mißlingt?
-          ja: でも失敗したらどうしますか。
+          ja: では、失敗したら？
         grc:
           - ἢν δὲ \emph{σφαλῶμεν;}
       - modern:
         - de: Hurrah! (Freudenruf.)
-          ja: フラー！ （歓声）
+          ja: 万歳！〔歓声〕
         grc:
           - ἀλαλαί!
       - modern:
         - de: Was du für \emph{Glück hast!}
-          ja: 君はなんて幸運なんだ！
+          ja: 君はなんと\emph{運がいい}んだ！
         grc:
           - ὡς εὐτυχὴς εἶ!
       - modern:
         - de: Er hat großes Glück.
-          ja: 彼は大変ついている。
+          ja: 彼は大層運がいい。
         grc:
           - εὐτυχέστατα πέπραγεν.
       - modern:
@@ -868,31 +868,31 @@ sections:
           - τίνι τρόπῳ;
       - modern:
         - de: Er hat ein ganz junges Mädchen geheirathet.
-          ja: 彼はとても若い娘と結婚した。
+          ja: うら若い娘を妻に迎えた。
         grc:
           - παῖδα κόρην γεγάμηκεν.
       - modern:
         - de: Er ist ein reicher Mann geworden.
-          ja: 彼は裕福な男になった。
+          ja: 彼は金持ちになった。
         grc:
           - πλούσιος γεγένηται.
       - modern:
         - de: Er kann das Leben genießen.
-          ja: 人生を存分に楽しめる。
+          ja: これで人生の春を楽しめるというわけだ。
         grc:
           - ἔχει τῆς ἥβης ἀπολαῦσαι.
       - modern:
         - de: "Wenn's weiter nichts ist!"
-          ja: それだけのことかい？
+          ja: なんだ、たったそれだけのことか！
         grc:
           - εἶτα τί τοῦτο;
       - modern:
         - de: Seine Freunde vermissen ihn schmerzlich.
-          ja: 友人たちは彼をひどく恋しがっている。
+          ja: 友人たちは、彼がいなくてひどく寂しがっている。
         grc:
           - ποθεινός ἐστι τοῖς φίλοις.
       - modern:
         - de: Er ist ein Freund von mir.
-          ja: 彼は私の友人だ。
+          ja: 彼は私の友人の一人です。
         grc:
           - ἐστὶ \emph{τῶν} φίλων.
