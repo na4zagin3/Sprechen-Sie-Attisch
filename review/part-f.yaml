@@ -12,6 +12,7 @@ meta:
     - Prefer natural spoken Japanese appropriate to the reconstructed relationship.
     - Preserve the German wording except for explicitly identified source or OCR errors.
     - Distinguish the German prompt from the literal and pragmatic force of the Greek.
+    - Check historical German meanings and idioms independently; record rather than conceal German-Greek mismatches.
     - Preserve nineteenth-century objects, institutions, and social conventions where relevant.
     - Do not add politeness, intimacy, gender, or aggression without contextual evidence.
     - Use Japanese punctuation and sentence endings to make turn-taking natural.
@@ -26,6 +27,12 @@ meta:
   - formulaic-parallel
   - lexical-only
   - not-found
+  evidence_policy:
+    languages: [grc, de]
+    note: >-
+      Translation-relevant attestations must remain in this review YAML with original text, source,
+      context, relationship to the handbook, confidence, and research method. Record unsuccessful
+      searches and label inference explicitly rather than leaving evidence only in discussion.
   status_values:
   - unreviewed
   - scene-reviewed

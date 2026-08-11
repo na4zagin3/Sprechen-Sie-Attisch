@@ -4,13 +4,35 @@ meta:
     de: 'Altgriechische (auch neue\textrm{\textmd{{*}}} gutgebildete) Bezeichnungen
 
       für moderne Begriffe aus dem Neugriechischen.\addcontentsline{toc}{section}{aus dem Neugriechischen}'
+    ja_proposed: >-
+      近代の概念を表す古代ギリシア語（ならびに近代ギリシア語で新たに造られた適切な語〔*印〕）
   review_scope: Translate the German headwords into Japanese and independently assess whether each Greek equivalent
     is Classical, later, Modern Greek, or a new formation/semantic extension.
+  translation_review:
+    status: complete-awaiting-user-review
+    entry_count: 138
+    note: >-
+      Japanese headwords have been reviewed throughout. Greek chronology and semantic-fit research remains
+      deliberately independent: entries still marked unreviewed in greek_analysis have not been represented as researched.
+  greek_research_progress:
+    completed_sections:
+    - lexicon-01
+    - lexicon-02
+    - lexicon-03
+    - lexicon-04
+    - lexicon-05
+    - lexicon-06
+    - lexicon-07
+    in_progress_section: null
+    status: complete
+    method: LSJ lemma check followed by local-corpus checking where lexical form alone cannot establish the relevant sense.
   principles:
   - Preserve the German and Greek source readings unless a scan check confirms an error.
   - Treat the author's asterisk as evidence of intended new formation, not as a complete historical classification.
   - Distinguish ancient lexical attestation from attestation of the proposed modern sense.
   - Use concise Japanese dictionary labels, retaining nineteenth-century institutions and objects.
+  - Prefer an established Japanese term to an unnecessary English loanword; retain familiar loanwords where substitution
+    would obscure the object or historical usage.
   - Record morphology, chronology, semantic fit, and textual criticism in separate fields.
   period_classification_values:
   - classical-attested-same-sense
@@ -35,8 +57,9 @@ meta:
   - lexically-researched
   - accepted
   corpus_roots:
-    perseus: /home/mrty/Documents/Perseus/Classics
-    lsj: /home/mrty/Documents/Perseus/Classics/LSJ/opensource/ml.xml
+    canonical_corpus: /home/mrty/Documents/Resources/canonical-greekLit
+    discovery_corpus: /home/mrty/Documents/Resources/ancient-greek-texts
+    lsj: /home/mrty/Documents/Resources/LSJ_GreekUnicode
   edition_policy:
     base_edition: Leipzig 1889
     later_witness: 1902 printing digitized from Harvard
@@ -282,11 +305,11 @@ sections:
       author_marked_new: false
       morphology: []
       formation: null
-      period_classification: unreviewed
-      ancient_sense: null
+      period_classification: classical-attested-same-sense
+      ancient_sense: An army, host, or military force; already common from Homer onward.
       modern_sense: 軍隊
-      semantic_fit: unreviewed
-      semantic_note: null
+      semantic_fit: exact
+      semantic_note: Heer and στρατός share the ordinary sense “army”; στρατός can also denote a naval force or a body of men.
     attestations:
     - status: lexical-form-attested
       method: exact-corpus-surface-form
@@ -343,11 +366,13 @@ sections:
       author_marked_new: false
       morphology: []
       formation: null
-      period_classification: unreviewed
-      ancient_sense: null
+      period_classification: classical-attested-semantic-extension
+      ancient_sense: The head or magistrate of a δῆμος; in Roman-period Greek also a rendering of tribunus plebis.
       modern_sense: 市長
-      semantic_fit: unreviewed
-      semantic_note: null
+      semantic_fit: approximate
+      semantic_note: >-
+        Both are local civic officials, but an Athenian demarch was head of a deme, not the elected chief executive
+        of a modern municipality.
     attestations:
     - status: lexical-form-attested
       method: exact-corpus-surface-form
@@ -392,7 +417,7 @@ sections:
     translation:
       de:
       - Das Bureau.
-      ja_proposed: 事務室
+      ja_proposed: 事務所
       decision: pending-review
       rationale: Concise Japanese headword matching the nineteenth-century German label.
       alternatives: []
@@ -404,11 +429,11 @@ sections:
       author_marked_new: false
       morphology: []
       formation: null
-      period_classification: unreviewed
-      ancient_sense: null
-      modern_sense: 事務室
-      semantic_fit: unreviewed
-      semantic_note: null
+      period_classification: post-classical-or-byzantine
+      ancient_sense: A writing or engraving implement in Classical texts; a registry or record office in Hellenistic papyri.
+      modern_sense: 事務所
+      semantic_fit: context-dependent
+      semantic_note: The office sense is genuinely ancient but is documented later than the Classical literary tool senses.
     attestations:
     - status: lexical-form-attested
       method: exact-corpus-surface-form
@@ -506,11 +531,11 @@ sections:
       author_marked_new: false
       morphology: []
       formation: null
-      period_classification: unreviewed
-      ancient_sense: null
+      period_classification: classical-attested-same-sense
+      ancient_sense: A court of justice, and by metonymy the body of judges sitting as the court.
       modern_sense: 裁判所
-      semantic_fit: unreviewed
-      semantic_note: null
+      semantic_fit: exact
+      semantic_note: The institutional sense is directly and abundantly attested in Classical Greek.
     attestations:
     - status: lexical-form-attested
       method: exact-corpus-surface-form
@@ -567,11 +592,11 @@ sections:
       author_marked_new: false
       morphology: []
       formation: null
-      period_classification: unreviewed
-      ancient_sense: null
+      period_classification: modern-greek
+      ancient_sense: A stamp or impression, coinage, something cut off, or a short clause in a sentence.
       modern_sense: 政党
-      semantic_fit: unreviewed
-      semantic_note: null
+      semantic_fit: exact
+      semantic_note: The word is ancient, but “political party” is a Modern Greek semantic development not recorded by LSJ.
     attestations:
     - status: lexical-form-attested
       method: exact-corpus-surface-form
@@ -616,7 +641,7 @@ sections:
     translation:
       de:
       - conservativ.
-      ja_proposed: 保守的な
+      ja_proposed: 保守的
       decision: pending-review
       rationale: Concise Japanese headword matching the nineteenth-century German label.
       alternatives: []
@@ -628,11 +653,11 @@ sections:
       author_marked_new: false
       morphology: []
       formation: null
-      period_classification: unreviewed
-      ancient_sense: null
-      modern_sense: 保守的な
-      semantic_fit: unreviewed
-      semantic_note: null
+      period_classification: modern-greek
+      ancient_sense: Preservative, or good at keeping and conserving things.
+      modern_sense: 保守的
+      semantic_fit: exact
+      semantic_note: The political sense “conservative” is modern; the ancient adjective supplies its transparent lexical base.
     attestations: []
     german_lexical_research: null
     textual_issues: []
@@ -656,7 +681,7 @@ sections:
     translation:
       de:
       - liberal.
-      ja_proposed: 自由主義的な
+      ja_proposed: 自由主義的
       decision: pending-review
       rationale: Concise Japanese headword matching the nineteenth-century German label.
       alternatives: []
@@ -668,11 +693,11 @@ sections:
       author_marked_new: false
       morphology: []
       formation: null
-      period_classification: unreviewed
-      ancient_sense: null
-      modern_sense: 自由主義的な
-      semantic_fit: unreviewed
-      semantic_note: null
+      period_classification: classical-attested-semantic-extension
+      ancient_sense: Freedom-loving, liberal, or generous in political character; attested from Polybius onward.
+      modern_sense: 自由主義的
+      semantic_fit: context-dependent
+      semantic_note: Ancient φιλελεύθερος expresses love of freedom, not membership in a modern Liberal party or a defined ideology.
     attestations:
     - status: lexical-form-attested
       method: exact-corpus-surface-form
@@ -729,11 +754,11 @@ sections:
       author_marked_new: false
       morphology: []
       formation: null
-      period_classification: unreviewed
-      ancient_sense: null
+      period_classification: modern-greek
+      ancient_sense: Not entered in LSJ in the electoral sense.
       modern_sense: （選挙の）候補者
-      semantic_fit: unreviewed
-      semantic_note: null
+      semantic_fit: exact
+      semantic_note: A transparent Modern Greek electoral term, literally someone “under consideration/vote.”
     attestations: []
     german_lexical_research: null
     textual_issues: []
@@ -769,11 +794,11 @@ sections:
       author_marked_new: false
       morphology: []
       formation: null
-      period_classification: unreviewed
-      ancient_sense: null
+      period_classification: modern-greek
+      ancient_sense: An assistant, servant, or person rendering service; also adjectivally serviceable or conducive.
       modern_sense: 大臣
-      semantic_fit: unreviewed
-      semantic_note: null
+      semantic_fit: exact
+      semantic_note: The governmental sense “minister” is modern and should not be inferred from ancient occurrences of the same form.
     attestations:
     - status: lexical-form-attested
       method: exact-corpus-surface-form
@@ -828,11 +853,11 @@ sections:
       author_marked_new: true
       morphology: []
       formation: null
-      period_classification: unreviewed
-      ancient_sense: null
+      period_classification: modern-coinage-author-marked
+      ancient_sense: The governmental noun ὑπουργεῖον is not a Classical ministry term; its components are Greek.
       modern_sense: 外務省
-      semantic_fit: unreviewed
-      semantic_note: null
+      semantic_fit: exact
+      semantic_note: A Modern Greek administrative expression, explicitly marked by the author as new.
     attestations: []
     german_lexical_research: null
     textual_issues:
@@ -875,11 +900,11 @@ sections:
       author_marked_new: false
       morphology: []
       formation: null
-      period_classification: unreviewed
-      ancient_sense: null
+      period_classification: modern-greek
+      ancient_sense: ἐσωτερικός can mean inner or internal, but the substantivized plural did not name a Classical ministry.
       modern_sense: 内務省
-      semantic_fit: unreviewed
-      semantic_note: null
+      semantic_fit: exact
+      semantic_note: Elliptical for ὑπουργεῖον τῶν ἐσωτερικῶν and dependent on the preceding entry.
     attestations: []
     german_lexical_research: null
     textual_issues: []
@@ -915,11 +940,11 @@ sections:
       author_marked_new: false
       morphology: []
       formation: null
-      period_classification: unreviewed
-      ancient_sense: null
+      period_classification: modern-greek
+      ancient_sense: οἰκονομικός concerns household management, thrift, or economy; it can also occur in discussion of public finance.
       modern_sense: 大蔵省
-      semantic_fit: unreviewed
-      semantic_note: null
+      semantic_fit: context-dependent
+      semantic_note: The ministry title is modern and elliptical; the ancient adjective does not by itself mean a finance ministry.
     attestations:
     - status: lexical-form-attested
       method: exact-corpus-surface-form
@@ -976,11 +1001,11 @@ sections:
       author_marked_new: false
       morphology: []
       formation: null
-      period_classification: unreviewed
-      ancient_sense: null
+      period_classification: modern-greek
+      ancient_sense: δικαιοσύνη is the Classical abstract noun “justice” or “righteousness.”
       modern_sense: 司法省
-      semantic_fit: unreviewed
-      semantic_note: null
+      semantic_fit: exact
+      semantic_note: The genitive forms a modern ministry title only through ellipsis of the preceding ὑπουργεῖον.
     attestations:
     - status: lexical-form-attested
       method: exact-corpus-surface-form
@@ -1037,11 +1062,11 @@ sections:
       author_marked_new: false
       morphology: []
       formation: null
-      period_classification: unreviewed
-      ancient_sense: null
+      period_classification: modern-greek
+      ancient_sense: τὰ στρατιωτικά can mean military affairs or funds in Classical and Hellenistic Greek.
       modern_sense: 陸軍省
-      semantic_fit: unreviewed
-      semantic_note: null
+      semantic_fit: context-dependent
+      semantic_note: The lexical material is ancient, but its use as the name of a standing ministry is modern and elliptical.
     attestations:
     - status: lexical-form-attested
       method: exact-corpus-surface-form
@@ -1098,11 +1123,11 @@ sections:
       author_marked_new: false
       morphology: []
       formation: null
-      period_classification: unreviewed
-      ancient_sense: null
+      period_classification: post-classical-or-byzantine
+      ancient_sense: In Classical Greek ἐκκλησιαστικός concerns the civic assembly; “clerical/ecclesiastical” is late antique.
       modern_sense: 宗務省
-      semantic_fit: unreviewed
-      semantic_note: null
+      semantic_fit: context-dependent
+      semantic_note: The church-affairs sense rests on the later Christian development, while the ministry title itself is modern.
     attestations: []
     german_lexical_research: null
     textual_issues: []
@@ -1138,11 +1163,11 @@ sections:
       author_marked_new: false
       morphology: []
       formation: null
-      period_classification: unreviewed
-      ancient_sense: null
+      period_classification: modern-greek
+      ancient_sense: The components express public education, but the fixed administrative title is not Classical.
       modern_sense: 公教育省
-      semantic_fit: unreviewed
-      semantic_note: null
+      semantic_fit: exact
+      semantic_note: A transparent Modern Greek ministry designation, elliptical after ὑπουργεῖον.
     attestations: []
     german_lexical_research: null
     textual_issues: []
@@ -1178,11 +1203,11 @@ sections:
       author_marked_new: false
       morphology: []
       formation: null
-      period_classification: unreviewed
-      ancient_sense: null
+      period_classification: classical-attested-semantic-extension
+      ancient_sense: A commander or territorial governor; later also the regular Greek equivalent of Latin praefectus.
       modern_sense: 郡長、行政区長
-      semantic_fit: unreviewed
-      semantic_note: null
+      semantic_fit: approximate
+      semantic_note: A defensible functional analogy for a district administrator, but not an identity of offices.
     attestations:
     - status: lexical-form-attested
       method: exact-corpus-surface-form
@@ -1227,7 +1252,7 @@ sections:
     translation:
       de:
       - Der Präsident.
-      ja_proposed: 議長、大統領
+      ja_proposed: 議長、総裁
       decision: pending-review
       rationale: Concise Japanese headword matching the nineteenth-century German label.
       alternatives: []
@@ -1301,11 +1326,11 @@ sections:
       author_marked_new: false
       morphology: []
       formation: null
-      period_classification: unreviewed
-      ancient_sense: null
+      period_classification: classical-attested-semantic-extension
+      ancient_sense: Steering or pilotage; metaphorically governance or direction, including “government of cities.”
       modern_sense: 政府
-      semantic_fit: unreviewed
-      semantic_note: null
+      semantic_fit: context-dependent
+      semantic_note: Ancient examples attest governance as an activity, not necessarily “the government” as a modern cabinet or executive body.
     attestations:
     - status: lexical-form-attested
       method: exact-corpus-surface-form
@@ -1357,11 +1382,11 @@ sections:
       author_marked_new: false
       morphology: []
       formation: null
-      period_classification: unreviewed
-      ancient_sense: null
+      period_classification: modern-greek
+      ancient_sense: The individual roots are Greek, but κόμμα did not mean a political party in antiquity.
       modern_sense: 与党
-      semantic_fit: unreviewed
-      semantic_note: null
+      semantic_fit: exact
+      semantic_note: A Modern Greek political compound meaning the governmental or governing party.
     attestations: []
     german_lexical_research: null
     textual_issues: []
@@ -1397,11 +1422,11 @@ sections:
       author_marked_new: false
       morphology: []
       formation: null
-      period_classification: unreviewed
-      ancient_sense: null
+      period_classification: classical-attested-semantic-extension
+      ancient_sense: A diary, journal, military daily record, office register, or account book.
       modern_sense: 新聞
-      semantic_fit: unreviewed
-      semantic_note: null
+      semantic_fit: context-dependent
+      semantic_note: “Newspaper” develops naturally from “daily record/journal” but is not the sense established by ancient citations.
     attestations:
     - status: lexical-form-attested
       method: exact-corpus-surface-form
@@ -1539,11 +1564,11 @@ sections:
       author_marked_new: true
       morphology: []
       formation: null
-      period_classification: unreviewed
-      ancient_sense: null
+      period_classification: modern-coinage-author-marked
+      ancient_sense: No ancient steamship sense is possible; the compound combines ἀτμός “vapour” with πλοῖον “ship.”
       modern_sense: 蒸気船
-      semantic_fit: unreviewed
-      semantic_note: null
+      semantic_fit: exact
+      semantic_note: A transparent Modern Greek technological coinage, correctly marked as new by the author.
     attestations: []
     german_lexical_research: null
     textual_issues: []
@@ -1579,11 +1604,11 @@ sections:
       author_marked_new: false
       morphology: []
       formation: null
-      period_classification: unreviewed
-      ancient_sense: null
+      period_classification: modern-coinage-unmarked
+      ancient_sense: The compound is transparently “sail-bearing,” but this substantivized ship-name is not located in LSJ or the local ancient corpus.
       modern_sense: 帆船
-      semantic_fit: unreviewed
-      semantic_note: null
+      semantic_fit: exact
+      semantic_note: A well-formed Greek equivalent, but its lack of an asterisk should not be taken as proof of ancient attestation.
     attestations: []
     german_lexical_research: null
     textual_issues: []
@@ -1622,7 +1647,7 @@ sections:
       period_classification: classical-attested-semantic-extension
       ancient_sense: a standing-place, post, or station
       modern_sense: 駅
-      semantic_fit: exact
+      semantic_fit: context-dependent
       semantic_note: σταθμός is ancient ('standing place, station'), but 'railway station' is a modern specialization.
     attestations:
     - status: lexical-form-attested
@@ -1680,11 +1705,11 @@ sections:
       author_marked_new: true
       morphology: []
       formation: null
-      period_classification: unreviewed
-      ancient_sense: null
+      period_classification: modern-coinage-author-marked
+      ancient_sense: Not an ancient railway term; a compound built to denote a connected series of carriages.
       modern_sense: 列車
-      semantic_fit: unreviewed
-      semantic_note: null
+      semantic_fit: exact
+      semantic_note: A transparent Modern Greek technological coinage, correctly marked as new by the author.
     attestations: []
     german_lexical_research: null
     textual_issues: []
@@ -1728,11 +1753,11 @@ sections:
       author_marked_new: true
       morphology: []
       formation: null
-      period_classification: unreviewed
-      ancient_sense: null
+      period_classification: modern-coinage-author-marked
+      ancient_sense: No ancient railway sense; literally an “iron road.”
       modern_sense: 鉄道
-      semantic_fit: unreviewed
-      semantic_note: null
+      semantic_fit: exact
+      semantic_note: A transparent technological coinage correctly marked as new.
     attestations: []
     german_lexical_research: null
     textual_issues: []
@@ -1756,7 +1781,7 @@ sections:
     translation:
       de:
       - Der Gasthof, das Hotel.
-      ja_proposed: 旅館、ホテル
+      ja_proposed: 宿屋、ホテル
       decision: pending-review
       rationale: Concise Japanese headword matching the nineteenth-century German label.
       alternatives: []
@@ -1768,11 +1793,11 @@ sections:
       author_marked_new: false
       morphology: []
       formation: null
-      period_classification: unreviewed
-      ancient_sense: null
-      modern_sense: 旅館、ホテル
-      semantic_fit: unreviewed
-      semantic_note: null
+      period_classification: post-classical-or-byzantine
+      ancient_sense: A place where strangers lodge, an inn; attested in late antique authors, legal texts, and papyri.
+      modern_sense: 宿屋、ホテル
+      semantic_fit: exact
+      semantic_note: The lodging-house sense is ancient but post-Classical; modern “hotel” may imply a more specialized establishment.
     attestations: []
     german_lexical_research: null
     textual_issues: []
@@ -1808,11 +1833,11 @@ sections:
       author_marked_new: true
       morphology: []
       formation: null
-      period_classification: unreviewed
-      ancient_sense: null
+      period_classification: modern-coinage-author-marked
+      ancient_sense: Not ancient; formed to denote a vehicle that carries the people or public.
       modern_sense: 乗合馬車
-      semantic_fit: unreviewed
-      semantic_note: null
+      semantic_fit: exact
+      semantic_note: In the 1889 context it denotes a horse-drawn omnibus, though in present-day Greek it ordinarily denotes a bus.
     attestations: []
     german_lexical_research: null
     textual_issues:
@@ -1855,11 +1880,11 @@ sections:
       author_marked_new: true
       morphology: []
       formation: null
-      period_classification: unreviewed
-      ancient_sense: null
+      period_classification: modern-coinage-author-marked
+      ancient_sense: Not located as an ancient timetable term; built transparently from Greek lexical material.
       modern_sense: 時刻表
-      semantic_fit: unreviewed
-      semantic_note: null
+      semantic_fit: context-dependent
+      semantic_note: Modern Greek δρομολόγιο can denote a route, scheduled service, or timetable; Fahrplan selects the timetable sense.
     attestations: []
     german_lexical_research: null
     textual_issues:
@@ -1908,11 +1933,11 @@ sections:
       author_marked_new: false
       morphology: []
       formation: null
-      period_classification: unreviewed
-      ancient_sense: null
+      period_classification: classical-attested-same-sense
+      ancient_sense: A seller of drugs or medicines, an apothecary; attested in Classical comedy and oratory.
       modern_sense: 薬剤師
-      semantic_fit: unreviewed
-      semantic_note: null
+      semantic_fit: context-dependent
+      semantic_note: The ancient word denotes a drug seller; the modern licensed profession “pharmacist” is institutionally narrower.
     attestations:
     - status: lexical-form-attested
       method: exact-corpus-surface-form
@@ -1959,11 +1984,11 @@ sections:
       author_marked_new: false
       morphology: []
       formation: null
-      period_classification: unreviewed
-      ancient_sense: null
+      period_classification: classical-attested-same-sense
+      ancient_sense: A workman or labourer, especially an agricultural labourer; also a practitioner of a craft.
       modern_sense: 労働者
-      semantic_fit: unreviewed
-      semantic_note: null
+      semantic_fit: exact
+      semantic_note: The general occupational meaning is ancient, though modern labour relations may give Arbeiter a more specific social sense.
     attestations:
     - status: lexical-form-attested
       method: exact-corpus-surface-form
@@ -2008,7 +2033,7 @@ sections:
     translation:
       de:
       - Der Streik.
-      ja_proposed: ストライキ
+      ja_proposed: 同盟罷業（ストライキ）
       decision: pending-review
       rationale: Concise Japanese headword matching the nineteenth-century German label.
       alternatives: []
@@ -2020,11 +2045,11 @@ sections:
       author_marked_new: true
       morphology: []
       formation: null
-      period_classification: unreviewed
-      ancient_sense: null
-      modern_sense: ストライキ
-      semantic_fit: unreviewed
-      semantic_note: null
+      period_classification: modern-coinage-author-marked
+      ancient_sense: Not entered in LSJ as an ancient noun for collective withdrawal of labour.
+      modern_sense: 同盟罷業（ストライキ）
+      semantic_fit: exact
+      semantic_note: A Modern Greek labour term transparently formed from ἀπεργέω/ἀπό + ἔργον and correctly marked as new.
     attestations: []
     german_lexical_research: null
     textual_issues: []
@@ -2060,11 +2085,11 @@ sections:
       author_marked_new: false
       morphology: []
       formation: null
-      period_classification: unreviewed
-      ancient_sense: null
+      period_classification: classical-attested-same-sense
+      ancient_sense: A barber or hair-cutter; directly attested in Plato and comedy.
       modern_sense: 理髪師
-      semantic_fit: unreviewed
-      semantic_note: null
+      semantic_fit: exact
+      semantic_note: The occupation and its ordinary services are continuous with the ancient sense.
     attestations:
     - status: lexical-form-attested
       method: exact-corpus-surface-form
@@ -2121,11 +2146,11 @@ sections:
       author_marked_new: false
       morphology: []
       formation: null
-      period_classification: unreviewed
-      ancient_sense: null
+      period_classification: classical-attested-semantic-extension
+      ancient_sense: A chief craftsman, master builder, director or commissioner of construction works.
       modern_sense: 建築家
-      semantic_fit: unreviewed
-      semantic_note: null
+      semantic_fit: context-dependent
+      semantic_note: Ancient ἀρχιτέκτων is close to Baumeister, but the regulated modern profession “architect” is a later specialization.
     attestations:
     - status: lexical-form-attested
       method: exact-corpus-surface-form
@@ -2182,11 +2207,11 @@ sections:
       author_marked_new: false
       morphology: []
       formation: null
-      period_classification: unreviewed
-      ancient_sense: null
+      period_classification: classical-attested-semantic-extension
+      ancient_sense: A letter-carrier or bearer of dispatches, attested in Polybius and Plutarch.
       modern_sense: 郵便配達人
-      semantic_fit: unreviewed
-      semantic_note: null
+      semantic_fit: context-dependent
+      semantic_note: The act of carrying letters is ancient; employment in a public postal service is the modern specialization.
     attestations:
     - status: lexical-form-attested
       method: exact-corpus-surface-form
@@ -2243,11 +2268,11 @@ sections:
       author_marked_new: true
       morphology: []
       formation: null
-      period_classification: unreviewed
-      ancient_sense: null
+      period_classification: modern-coinage-author-marked
+      ancient_sense: Not located in LSJ; ancient book production did not involve the same codex-binding trade implied here.
       modern_sense: 製本職人
-      semantic_fit: unreviewed
-      semantic_note: null
+      semantic_fit: exact
+      semantic_note: A transparent occupational compound, “book-binder,” correctly marked as new.
     attestations: []
     german_lexical_research: null
     textual_issues: []
@@ -2271,7 +2296,7 @@ sections:
     translation:
       de:
       - Der Buchdrucker.
-      ja_proposed: 印刷業者
+      ja_proposed: 印刷工
       decision: pending-review
       rationale: Concise Japanese headword matching the nineteenth-century German label.
       alternatives: []
@@ -2283,11 +2308,11 @@ sections:
       author_marked_new: true
       morphology: []
       formation: null
-      period_classification: unreviewed
-      ancient_sense: null
-      modern_sense: 印刷業者
-      semantic_fit: unreviewed
-      semantic_note: null
+      period_classification: modern-coinage-author-marked
+      ancient_sense: Not ancient in the printing sense; movable-type printing postdates antiquity.
+      modern_sense: 印刷工
+      semantic_fit: context-dependent
+      semantic_note: The Greek can denote a printer or typographer; Buchdrucker may be a printer, printing craftsman, or proprietor.
     attestations: []
     german_lexical_research: null
     textual_issues: []
@@ -2323,11 +2348,11 @@ sections:
       author_marked_new: false
       morphology: []
       formation: null
-      period_classification: unreviewed
-      ancient_sense: null
+      period_classification: classical-attested-same-sense
+      ancient_sense: A bookseller, attested in comedy and Aristotle.
       modern_sense: 書店主
-      semantic_fit: unreviewed
-      semantic_note: null
+      semantic_fit: exact
+      semantic_note: The commercial occupation is directly ancient, although the physical form of books and organization of the trade changed.
     attestations:
     - status: lexical-form-attested
       method: exact-corpus-surface-form
@@ -2374,11 +2399,11 @@ sections:
       author_marked_new: true
       morphology: []
       formation: null
-      period_classification: unreviewed
-      ancient_sense: null
+      period_classification: post-classical-or-byzantine
+      ancient_sense: A wagoner or driver, attested in a second-century CE ostracon according to LSJ.
       modern_sense: 辻馬車の御者
-      semantic_fit: unreviewed
-      semantic_note: null
+      semantic_fit: context-dependent
+      semantic_note: The occupational base is ancient but post-Classical; driving a hired urban cab is a modern specialization. The author's asterisk overstates the novelty of the form.
     attestations: []
     german_lexical_research: null
     textual_issues: []
@@ -2414,11 +2439,11 @@ sections:
       author_marked_new: false
       morphology: []
       formation: null
-      period_classification: unreviewed
-      ancient_sense: null
+      period_classification: classical-attested-same-sense
+      ancient_sense: An artificer, craftsman, or skilled practitioner of a τέχνη.
       modern_sense: 職人
-      semantic_fit: unreviewed
-      semantic_note: null
+      semantic_fit: exact
+      semantic_note: A direct and well-attested ancient equivalent of Handwerker in its general occupational sense.
     attestations:
     - status: lexical-form-attested
       method: exact-corpus-surface-form
@@ -2537,11 +2562,11 @@ sections:
       author_marked_new: true
       morphology: []
       formation: null
-      period_classification: unreviewed
-      ancient_sense: null
+      period_classification: modern-coinage-author-marked
+      ancient_sense: Not ancient in the journalistic sense; compounded from ἐφημερίς “journal” and -γράφος “writer.”
       modern_sense: 新聞記者
-      semantic_fit: unreviewed
-      semantic_note: null
+      semantic_fit: exact
+      semantic_note: A transparent Modern Greek occupational coinage for a newspaper writer or journalist.
     attestations: []
     german_lexical_research: null
     textual_issues: []
@@ -2624,11 +2649,11 @@ sections:
       author_marked_new: false
       morphology: []
       formation: null
-      period_classification: unreviewed
-      ancient_sense: null
+      period_classification: classical-attested-same-sense
+      ancient_sense: A teacher, master, or trainer; also the trainer and producer of a dramatic chorus.
       modern_sense: 教師
-      semantic_fit: unreviewed
-      semantic_note: null
+      semantic_fit: exact
+      semantic_note: The ordinary educational sense is directly and abundantly attested in Classical Greek.
     attestations:
     - status: lexical-form-attested
       method: exact-corpus-surface-form
@@ -2685,11 +2710,11 @@ sections:
       author_marked_new: false
       morphology: []
       formation: null
-      period_classification: unreviewed
-      ancient_sense: null
+      period_classification: modern-greek
+      ancient_sense: An adjective meaning dignified, honourable, or high in rank; not an ancient noun for a commissioned military officer.
       modern_sense: 将校
-      semantic_fit: unreviewed
-      semantic_note: null
+      semantic_fit: exact
+      semantic_note: The substantivized military rank sense is Modern Greek, developed from the ancient adjective.
     attestations:
     - status: lexical-form-attested
       method: exact-corpus-surface-form
@@ -2741,11 +2766,11 @@ sections:
       author_marked_new: true
       morphology: []
       formation: null
-      period_classification: unreviewed
-      ancient_sense: null
+      period_classification: modern-coinage-author-marked
+      ancient_sense: Not ancient in the photographic sense; photography is a nineteenth-century technology.
       modern_sense: 写真師
-      semantic_fit: unreviewed
-      semantic_note: null
+      semantic_fit: exact
+      semantic_note: A transparent compound, literally a recorder or writer by light, correctly marked as new.
     attestations: []
     german_lexical_research: null
     textual_issues: []
@@ -2842,11 +2867,11 @@ sections:
       author_marked_new: true
       morphology: []
       formation: null
-      period_classification: unreviewed
-      ancient_sense: null
+      period_classification: classical-attested-semantic-extension
+      ancient_sense: One who arranges, draws up, compiles, or organizes; the agent noun itself is ancient.
       modern_sense: 編集者
-      semantic_fit: unreviewed
-      semantic_note: null
+      semantic_fit: context-dependent
+      semantic_note: Newspaper or periodical editor is a modern occupational specialization; the asterisk marks the new sense more plausibly than a new formation.
     attestations: []
     german_lexical_research: null
     textual_issues:
@@ -2877,7 +2902,7 @@ sections:
     translation:
       de:
       - Der Gerichts\textcompwordmark{}rath.
-      ja_proposed: 司法官
+      ja_proposed: 司法参事官
       decision: pending-review
       rationale: Concise Japanese headword matching the nineteenth-century German label.
       alternatives: []
@@ -2889,11 +2914,11 @@ sections:
       author_marked_new: false
       morphology: []
       formation: null
-      period_classification: unreviewed
-      ancient_sense: null
-      modern_sense: 司法官
-      semantic_fit: unreviewed
-      semantic_note: null
+      period_classification: classical-attested-same-sense
+      ancient_sense: A judge; at Athens, commonly a juror serving in a popular court.
+      modern_sense: 司法参事官
+      semantic_fit: approximate
+      semantic_note: Gerichtsrat is a specific German judicial title or rank, whereas δικαστής is the broad ordinary word “judge.”
     attestations:
     - status: lexical-form-attested
       method: exact-corpus-surface-form
@@ -2950,11 +2975,11 @@ sections:
       author_marked_new: true
       morphology: []
       formation: null
-      period_classification: unreviewed
-      ancient_sense: null
+      period_classification: modern-coinage-author-marked
+      ancient_sense: Not ancient in the printing sense; movable-type composition postdates antiquity.
       modern_sense: 植字工
-      semantic_fit: unreviewed
-      semantic_note: null
+      semantic_fit: exact
+      semantic_note: A transparent occupational compound, literally a setter of type, correctly marked as new.
     attestations: []
     german_lexical_research: null
     textual_issues:
@@ -2985,7 +3010,7 @@ sections:
     translation:
       de:
       - Der Wichsier.
-      ja_proposed: 靴磨き
+      ja_proposed: 靴磨き職
       decision: pending-review
       rationale: Concise Japanese headword matching the nineteenth-century German label.
       alternatives: []
@@ -2997,11 +3022,11 @@ sections:
       author_marked_new: false
       morphology: []
       formation: null
-      period_classification: unreviewed
-      ancient_sense: null
-      modern_sense: 靴磨き
-      semantic_fit: unreviewed
-      semantic_note: null
+      period_classification: classical-attested-semantic-extension
+      ancient_sense: A cleaner or purifier by formation; LSJ's specific ancient gloss is “tree-pruner” from a glossary.
+      modern_sense: 靴磨き職
+      semantic_fit: approximate
+      semantic_note: The Greek says only a person who cleans; the shoe-polishing occupation is supplied by the German Wichsier.
     attestations: []
     german_lexical_research:
       conclusion: Retain Wichsier. It is rare and is not established as a general orthographic variant of Wichser,
@@ -3063,11 +3088,11 @@ sections:
       author_marked_new: false
       morphology: []
       formation: null
-      period_classification: unreviewed
-      ancient_sense: null
+      period_classification: classical-attested-semantic-extension
+      ancient_sense: One who regularly attends; especially a pupil or disciple, attested in Plato.
       modern_sense: 学生
-      semantic_fit: unreviewed
-      semantic_note: null
+      semantic_fit: context-dependent
+      semantic_note: The general pupil sense is ancient; the institutional meaning “university student” is modern.
     attestations: []
     german_lexical_research: null
     textual_issues: []
@@ -3111,11 +3136,11 @@ sections:
       author_marked_new: true
       morphology: []
       formation: null
-      period_classification: unreviewed
-      ancient_sense: null
+      period_classification: modern-coinage-author-marked
+      ancient_sense: Not ancient; tobacco was unknown in the ancient Mediterranean.
       modern_sense: 煙草商
-      semantic_fit: unreviewed
-      semantic_note: null
+      semantic_fit: exact
+      semantic_note: A transparent compound “tobacco seller,” correctly marked as new.
     attestations: []
     german_lexical_research: null
     textual_issues: []
@@ -3151,11 +3176,11 @@ sections:
       author_marked_new: true
       morphology: []
       formation: null
-      period_classification: unreviewed
-      ancient_sense: null
+      period_classification: modern-coinage-author-marked
+      ancient_sense: Not an ancient occupational term for a maker and repairer of mechanical watches or clocks.
       modern_sense: 時計職人
-      semantic_fit: unreviewed
-      semantic_note: null
+      semantic_fit: exact
+      semantic_note: A transparent technological compound, “clock/watch maker,” correctly marked as new.
     attestations: []
     german_lexical_research: null
     textual_issues: []
@@ -3197,11 +3222,11 @@ sections:
       author_marked_new: false
       morphology: []
       formation: null
-      period_classification: unreviewed
-      ancient_sense: null
+      period_classification: modern-coinage-unmarked
+      ancient_sense: Not located in LSJ; transparently denotes the establishment of a φαρμακοπώλης.
       modern_sense: 薬局
-      semantic_fit: unreviewed
-      semantic_note: null
+      semantic_fit: exact
+      semantic_note: A well-formed shop-name, but the absence of an asterisk does not establish ancient attestation.
     attestations: []
     german_lexical_research: null
     textual_issues: []
@@ -3225,7 +3250,7 @@ sections:
     translation:
       de:
       - Das Café.
-      ja_proposed: カフェ
+      ja_proposed: 喫茶店
       decision: pending-review
       rationale: Concise Japanese headword matching the nineteenth-century German label.
       alternatives: []
@@ -3237,11 +3262,11 @@ sections:
       author_marked_new: true
       morphology: []
       formation: null
-      period_classification: unreviewed
-      ancient_sense: null
-      modern_sense: カフェ
-      semantic_fit: unreviewed
-      semantic_note: null
+      period_classification: modern-coinage-author-marked
+      ancient_sense: Not ancient; coffee and the coffeehouse belong to the post-antique world.
+      modern_sense: 喫茶店
+      semantic_fit: context-dependent
+      semantic_note: The word denotes a Greek coffeehouse; Café can overlap with it but may suggest a different nineteenth-century social establishment.
     attestations: []
     german_lexical_research: null
     textual_issues: []
@@ -3277,11 +3302,11 @@ sections:
       author_marked_new: false
       morphology: []
       formation: null
-      period_classification: unreviewed
-      ancient_sense: null
+      period_classification: classical-attested-semantic-extension
+      ancient_sense: A four-wheeled wagon or cart, common from Homer onward.
       modern_sense: 辻馬車
-      semantic_fit: unreviewed
-      semantic_note: null
+      semantic_fit: broader
+      semantic_note: ἅμαξα supplies the vehicle “carriage/wagon” but not the hired urban-cab feature of Droschke.
     attestations:
     - status: lexical-form-attested
       method: exact-corpus-surface-form
@@ -3338,11 +3363,11 @@ sections:
       author_marked_new: false
       morphology: []
       formation: null
-      period_classification: unreviewed
-      ancient_sense: null
+      period_classification: post-classical-or-byzantine
+      ancient_sense: Originally a sleeping room; also attested epigraphically as a burial place.
       modern_sense: 墓地
-      semantic_fit: unreviewed
-      semantic_note: null
+      semantic_fit: context-dependent
+      semantic_note: The cemetery sense is ancient but later; Kirchhof more specifically evokes a churchyard, which the Greek does not encode.
     attestations:
     - status: lexical-form-attested
       method: exact-corpus-surface-form
@@ -3377,7 +3402,7 @@ sections:
     translation:
       de:
       - Der Klub.
-      ja_proposed: クラブ
+      ja_proposed: 倶楽部
       decision: pending-review
       rationale: Concise Japanese headword matching the nineteenth-century German label.
       alternatives: []
@@ -3389,11 +3414,11 @@ sections:
       author_marked_new: false
       morphology: []
       formation: null
-      period_classification: unreviewed
-      ancient_sense: null
-      modern_sense: クラブ
-      semantic_fit: unreviewed
-      semantic_note: null
+      period_classification: classical-attested-semantic-extension
+      ancient_sense: A lounging or meeting place, later a public hall or association; also conversation or a group that meets.
+      modern_sense: 倶楽部
+      semantic_fit: context-dependent
+      semantic_note: Ancient uses provide both social gathering and meeting-place senses, but not the full institutional form of a nineteenth-century club.
     attestations:
     - status: lexical-form-attested
       method: exact-corpus-surface-form
@@ -3450,11 +3475,11 @@ sections:
       author_marked_new: false
       morphology: []
       formation: null
-      period_classification: unreviewed
-      ancient_sense: null
+      period_classification: modern-greek
+      ancient_sense: LSJ records the word only as a lectern or reading desk, from Hesychius.
       modern_sense: 閲覧室
-      semantic_fit: unreviewed
-      semantic_note: null
+      semantic_fit: context-dependent
+      semantic_note: “Reading room” is a modern semantic reassignment of an attested but differently defined ancient form.
     attestations: []
     german_lexical_research: null
     textual_issues: []
@@ -3478,7 +3503,7 @@ sections:
     translation:
       de:
       - Das Concert.
-      ja_proposed: 演奏会
+      ja_proposed: 音楽会
       decision: pending-review
       rationale: Concise Japanese headword matching the nineteenth-century German label.
       alternatives: []
@@ -3614,11 +3639,11 @@ sections:
       author_marked_new: false
       morphology: []
       formation: null
-      period_classification: unreviewed
-      ancient_sense: null
+      period_classification: classical-attested-semantic-extension
+      ancient_sense: A farmstead, country house, rural quarters, or unwalled village.
       modern_sense: 邸宅
-      semantic_fit: unreviewed
-      semantic_note: null
+      semantic_fit: context-dependent
+      semantic_note: A country house can correspond to Herrenhaus, but the German may imply a socially elevated manor house more strongly.
     attestations:
     - status: lexical-form-attested
       method: exact-corpus-surface-form
@@ -3675,11 +3700,11 @@ sections:
       author_marked_new: true
       morphology: []
       formation: null
-      period_classification: unreviewed
-      ancient_sense: null
+      period_classification: modern-coinage-author-marked
+      ancient_sense: Not located in LSJ as an ancient pedestrian pavement.
       modern_sense: 歩道
-      semantic_fit: unreviewed
-      semantic_note: null
+      semantic_fit: exact
+      semantic_note: A transparent Modern Greek compound for a footway or pavement, correctly marked as new.
     attestations: []
     german_lexical_research: null
     textual_issues:
@@ -3722,11 +3747,11 @@ sections:
       author_marked_new: true
       morphology: []
       formation: null
-      period_classification: unreviewed
-      ancient_sense: null
+      period_classification: modern-coinage-author-marked
+      ancient_sense: Not an ancient name for a public post office.
       modern_sense: 郵便局
-      semantic_fit: unreviewed
-      semantic_note: null
+      semantic_fit: exact
+      semantic_note: A Modern Greek postal-administration term; the authorial asterisk was restored editorially.
     attestations: []
     german_lexical_research: null
     textual_issues:
@@ -3769,11 +3794,11 @@ sections:
       author_marked_new: true
       morphology: []
       formation: null
-      period_classification: unreviewed
-      ancient_sense: null
+      period_classification: modern-coinage-author-marked
+      ancient_sense: Not ancient; adhesive postage stamps date from the nineteenth century.
       modern_sense: 郵便切手
-      semantic_fit: unreviewed
-      semantic_note: null
+      semantic_fit: exact
+      semantic_note: Literally a letter-mark, a transparent Modern Greek coinage; the authorial asterisk was restored editorially.
     attestations: []
     german_lexical_research: null
     textual_issues:
@@ -3804,7 +3829,7 @@ sections:
     translation:
       de:
       - Die Postkarte.
-      ja_proposed: 葉書
+      ja_proposed: 郵便葉書
       decision: pending-review
       rationale: Concise Japanese headword matching the nineteenth-century German label.
       alternatives: []
@@ -3816,11 +3841,11 @@ sections:
       author_marked_new: false
       morphology: []
       formation: null
-      period_classification: unreviewed
-      ancient_sense: null
-      modern_sense: 葉書
-      semantic_fit: unreviewed
-      semantic_note: null
+      period_classification: modern-coinage-unmarked
+      ancient_sense: The components mean “epistolary little tablet,” but the postal object did not exist in antiquity.
+      modern_sense: 郵便葉書
+      semantic_fit: exact
+      semantic_note: A descriptive modern phrase for a postcard; notably left without an asterisk.
     attestations: []
     german_lexical_research: null
     textual_issues: []
@@ -3844,7 +3869,7 @@ sections:
     translation:
       de:
       - Die Promenade.
-      ja_proposed: 散歩道
+      ja_proposed: 遊歩道
       decision: pending-review
       rationale: Concise Japanese headword matching the nineteenth-century German label.
       alternatives: []
@@ -3856,11 +3881,11 @@ sections:
       author_marked_new: false
       morphology: []
       formation: null
-      period_classification: unreviewed
-      ancient_sense: null
-      modern_sense: 散歩道
-      semantic_fit: unreviewed
-      semantic_note: null
+      period_classification: classical-attested-same-sense
+      ancient_sense: Walking or a walk; also a place for walking, especially a covered walk.
+      modern_sense: 遊歩道
+      semantic_fit: exact
+      semantic_note: The physical promenade or walking-place sense is directly attested in Classical Greek.
     attestations:
     - status: lexical-form-attested
       method: exact-corpus-surface-form
@@ -3917,11 +3942,11 @@ sections:
       author_marked_new: true
       morphology: []
       formation: null
-      period_classification: unreviewed
-      ancient_sense: null
+      period_classification: modern-coinage-author-marked
+      ancient_sense: Not located in LSJ as the established name of an ancient town hall.
       modern_sense: 市庁舎
-      semantic_fit: unreviewed
-      semantic_note: null
+      semantic_fit: exact
+      semantic_note: A transparent institutional derivative of δήμαρχος, marked as new after editorial restoration of the asterisk.
     attestations: []
     german_lexical_research: null
     textual_issues:
@@ -3952,7 +3977,7 @@ sections:
     translation:
       de:
       - Die Straße.
-      ja_proposed: 道路
+      ja_proposed: 通り
       decision: pending-review
       rationale: Concise Japanese headword matching the nineteenth-century German label.
       alternatives: []
@@ -3964,11 +3989,11 @@ sections:
       author_marked_new: false
       morphology: []
       formation: null
-      period_classification: unreviewed
-      ancient_sense: null
-      modern_sense: 道路
-      semantic_fit: unreviewed
-      semantic_note: null
+      period_classification: classical-attested-same-sense
+      ancient_sense: A way, road, route, street, journey, or figurative course.
+      modern_sense: 通り
+      semantic_fit: exact
+      semantic_note: The ordinary physical road/street sense is ancient and very widely attested.
     attestations:
     - status: lexical-form-attested
       method: exact-corpus-surface-form
@@ -4025,11 +4050,11 @@ sections:
       author_marked_new: false
       morphology: []
       formation: null
-      period_classification: unreviewed
-      ancient_sense: null
+      period_classification: classical-attested-same-sense
+      ancient_sense: The area before or outside a city, a suburb or the environs of a town.
       modern_sense: 郊外
-      semantic_fit: unreviewed
-      semantic_note: null
+      semantic_fit: exact
+      semantic_note: The spatial sense corresponds closely to Vorstadt, though modern suburbs are institutionally different.
     attestations:
     - status: lexical-form-attested
       method: exact-corpus-surface-form
@@ -4086,11 +4111,11 @@ sections:
       author_marked_new: true
       morphology: []
       formation: null
-      period_classification: unreviewed
-      ancient_sense: null
+      period_classification: modern-coinage-author-marked
+      ancient_sense: Not an ancient institutional name for a university.
       modern_sense: 大学
-      semantic_fit: unreviewed
-      semantic_note: null
+      semantic_fit: exact
+      semantic_note: A Modern Greek learned coinage built from πᾶν and ἐπιστήμη, correctly marked as new.
     attestations: []
     german_lexical_research: null
     textual_issues: []
@@ -4126,11 +4151,11 @@ sections:
       author_marked_new: true
       morphology: []
       formation: null
-      period_classification: unreviewed
-      ancient_sense: null
+      period_classification: modern-coinage-author-marked
+      ancient_sense: Not ancient as a box belonging to a public postal system.
       modern_sense: 郵便ポスト
-      semantic_fit: unreviewed
-      semantic_note: null
+      semantic_fit: context-dependent
+      semantic_note: Literally a letter-box; depending on context Briefkasten can be a public posting box or a private receptacle.
     attestations: []
     german_lexical_research: null
     textual_issues: []
@@ -4154,7 +4179,7 @@ sections:
     translation:
       de:
       - Das Löschpapier.
-      ja_proposed: 吸取紙
+      ja_proposed: 吸い取り紙
       decision: pending-review
       rationale: Concise Japanese headword matching the nineteenth-century German label.
       alternatives: []
@@ -4166,11 +4191,11 @@ sections:
       author_marked_new: true
       morphology: []
       formation: null
-      period_classification: unreviewed
-      ancient_sense: null
-      modern_sense: 吸取紙
-      semantic_fit: unreviewed
-      semantic_note: null
+      period_classification: modern-coinage-author-marked
+      ancient_sense: Not located as an ancient term; paper blotting material belongs to a later writing technology.
+      modern_sense: 吸い取り紙
+      semantic_fit: exact
+      semantic_note: A descriptive Modern Greek compound, approximately “tow-paper,” whose source reading has been confirmed.
     attestations: []
     german_lexical_research: null
     textual_issues:
@@ -4213,11 +4238,11 @@ sections:
       author_marked_new: true
       morphology: []
       formation: null
-      period_classification: unreviewed
-      ancient_sense: null
+      period_classification: modern-coinage-author-marked
+      ancient_sense: Not ancient; the electric telegraph is a nineteenth-century technology.
       modern_sense: 電報
-      semantic_fit: unreviewed
-      semantic_note: null
+      semantic_fit: exact
+      semantic_note: A transparent learned compound for a telegraphic message, correctly marked as new.
     attestations: []
     german_lexical_research: null
     textual_issues: []
@@ -4253,11 +4278,11 @@ sections:
       author_marked_new: true
       morphology: []
       formation: null
-      period_classification: unreviewed
-      ancient_sense: null
+      period_classification: modern-coinage-author-marked
+      ancient_sense: Not ancient in the technological sense.
       modern_sense: 電信で
-      semantic_fit: unreviewed
-      semantic_note: null
+      semantic_fit: exact
+      semantic_note: The adverb regularly expresses transmission by telegraph and is correctly marked as new.
     attestations: []
     german_lexical_research: null
     textual_issues: []
@@ -4293,11 +4318,11 @@ sections:
       author_marked_new: false
       morphology: []
       formation: null
-      period_classification: unreviewed
-      ancient_sense: null
+      period_classification: classical-attested-same-sense
+      ancient_sense: τὸ μέλαν, literally “the black,” is the ordinary Classical noun for ink; μελάνη is a related feminine form.
       modern_sense: インク
-      semantic_fit: unreviewed
-      semantic_note: null
+      semantic_fit: exact
+      semantic_note: The ink sense is directly attested in Plato, Demosthenes, and technical authors.
     attestations: []
     german_lexical_research: null
     textual_issues:
@@ -4340,11 +4365,11 @@ sections:
       author_marked_new: false
       morphology: []
       formation: null
-      period_classification: unreviewed
-      ancient_sense: null
+      period_classification: post-classical-or-byzantine
+      ancient_sense: An inkstand or ink container, attested in Aquila and documentary papyri.
       modern_sense: インク壺
-      semantic_fit: unreviewed
-      semantic_note: null
+      semantic_fit: exact
+      semantic_note: The object and compound are genuinely ancient, though the cited evidence is post-Classical.
     attestations: []
     german_lexical_research: null
     textual_issues: []
@@ -4380,11 +4405,11 @@ sections:
       author_marked_new: false
       morphology: []
       formation: null
-      period_classification: unreviewed
-      ancient_sense: null
+      period_classification: classical-attested-semantic-extension
+      ancient_sense: A covering or garment; figuratively, a pretext.
       modern_sense: 封筒
-      semantic_fit: unreviewed
-      semantic_note: null
+      semantic_fit: broader
+      semantic_note: The ancient word means a covering in general; its use for a postal envelope is a modern contextual specialization.
     attestations: []
     german_lexical_research: null
     textual_issues:
@@ -4433,11 +4458,11 @@ sections:
       author_marked_new: false
       morphology: []
       formation: null
-      period_classification: unreviewed
-      ancient_sense: null
+      period_classification: classical-attested-semantic-extension
+      ancient_sense: A curry-comb or grooming scraper, especially for horses.
       modern_sense: ブラシ
-      semantic_fit: unreviewed
-      semantic_note: null
+      semantic_fit: narrower
+      semantic_note: The ancient implement is a particular grooming brush or comb, while Bürste is generic.
     attestations: []
     german_lexical_research: null
     textual_issues: []
@@ -4473,11 +4498,11 @@ sections:
       author_marked_new: false
       morphology: []
       formation: null
-      period_classification: unreviewed
-      ancient_sense: null
+      period_classification: post-classical-or-byzantine
+      ancient_sense: A vessel, jar, bucket, or pail; not a standard Classical barrel-name in LSJ.
       modern_sense: 樽
-      semantic_fit: unreviewed
-      semantic_note: null
+      semantic_fit: broader
+      semantic_note: The Greek denotes a container more generally and does not necessarily specify a cask or barrel.
     attestations:
     - status: lexical-form-attested
       method: exact-corpus-surface-form
@@ -4534,11 +4559,11 @@ sections:
       author_marked_new: false
       morphology: []
       formation: null
-      period_classification: unreviewed
-      ancient_sense: null
+      period_classification: classical-attested-same-sense
+      ancient_sense: A small window or opening, the diminutive of παράθυρον.
       modern_sense: 窓
-      semantic_fit: unreviewed
-      semantic_note: null
+      semantic_fit: exact
+      semantic_note: The architectural sense is ancient; the diminutive force need not remain active.
     attestations: []
     german_lexical_research: null
     textual_issues: []
@@ -4574,11 +4599,11 @@ sections:
       author_marked_new: false
       morphology: []
       formation: null
-      period_classification: unreviewed
-      ancient_sense: null
+      period_classification: post-classical-or-byzantine
+      ancient_sense: A little bell, diminutive of κώδων; attested in Josephus and later sources.
       modern_sense: 鐘、呼び鈴
-      semantic_fit: unreviewed
-      semantic_note: null
+      semantic_fit: context-dependent
+      semantic_note: It directly denotes a small bell, but a mechanical house doorbell is a modern application.
     attestations:
     - status: lexical-form-attested
       method: exact-corpus-surface-form
@@ -4625,11 +4650,11 @@ sections:
       author_marked_new: false
       morphology: []
       formation: null
-      period_classification: unreviewed
-      ancient_sense: null
+      period_classification: post-classical-or-byzantine
+      ancient_sense: A regular derivative meaning to sound or ring a bell; not located as a Classical literary lemma in LSJ.
       modern_sense: 呼び鈴を鳴らす
-      semantic_fit: unreviewed
-      semantic_note: null
+      semantic_fit: context-dependent
+      semantic_note: Ringing a bell is transparent; use for announcing oneself at a modern door is contextual.
     attestations: []
     german_lexical_research: null
     textual_issues: []
@@ -4665,11 +4690,11 @@ sections:
       author_marked_new: false
       morphology: []
       formation: null
-      period_classification: unreviewed
-      ancient_sense: null
+      period_classification: classical-attested-same-sense
+      ancient_sense: ξύλα denotes wood or firewood; ἄνθρακες denotes charcoal or coals.
       modern_sense: 薪、石炭
-      semantic_fit: unreviewed
-      semantic_note: null
+      semantic_fit: context-dependent
+      semantic_note: Holz is matched directly; ancient ἄνθραξ commonly means charcoal or glowing coal, not necessarily mined mineral coal.
     attestations: []
     german_lexical_research: null
     textual_issues: []
@@ -4705,11 +4730,11 @@ sections:
       author_marked_new: false
       morphology: []
       formation: null
-      period_classification: unreviewed
-      ancient_sense: null
+      period_classification: classical-attested-same-sense
+      ancient_sense: Movable property, household implements, utensils, furnishings, or furniture, opposed to fixtures.
       modern_sense: 家具
-      semantic_fit: unreviewed
-      semantic_note: null
+      semantic_fit: exact
+      semantic_note: The household-furnishings sense is ancient and directly corresponds to Möbel.
     attestations:
     - status: lexical-form-attested
       method: exact-corpus-surface-form
@@ -4827,11 +4852,11 @@ sections:
       author_marked_new: true
       morphology: []
       formation: null
-      period_classification: unreviewed
-      ancient_sense: null
+      period_classification: modern-coinage-author-marked
+      ancient_sense: Not ancient; the pianoforte is an early-modern keyboard instrument.
       modern_sense: ピアノ
-      semantic_fit: unreviewed
-      semantic_note: null
+      semantic_fit: exact
+      semantic_note: A learned compound based on keys and strings or percussion, correctly marked as new.
     attestations: []
     german_lexical_research: null
     textual_issues:
@@ -4874,11 +4899,11 @@ sections:
       author_marked_new: false
       morphology: []
       formation: null
-      period_classification: unreviewed
-      ancient_sense: null
+      period_classification: classical-attested-semantic-extension
+      ancient_sense: In Homeric architecture, a sunny portico, verandah, or loggia.
       modern_sense: 広間
-      semantic_fit: unreviewed
-      semantic_note: null
+      semantic_fit: context-dependent
+      semantic_note: The Modern Greek indoor-room sense “hall” is not the architectural sense described by LSJ for ancient αἴθουσα.
     attestations:
     - status: lexical-form-attested
       method: exact-corpus-surface-form
@@ -4925,11 +4950,11 @@ sections:
       author_marked_new: false
       morphology: []
       formation: null
-      period_classification: unreviewed
-      ancient_sense: null
+      period_classification: post-classical-or-byzantine
+      ancient_sense: A bedchamber; attested from comedy and Hellenistic documents, though rejected by later Atticists in favour of δωμάτιον.
       modern_sense: 寝室
-      semantic_fit: unreviewed
-      semantic_note: null
+      semantic_fit: exact
+      semantic_note: The room sense matches directly, but its acceptability as strictly Attic vocabulary was disputed in antiquity.
     attestations:
     - status: lexical-form-attested
       method: exact-corpus-surface-form
@@ -4986,11 +5011,11 @@ sections:
       author_marked_new: false
       morphology: []
       formation: null
-      period_classification: unreviewed
-      ancient_sense: null
+      period_classification: classical-attested-semantic-extension
+      ancient_sense: A chest or repository for equipment; institutionally, also an arsenal.
       modern_sense: 戸棚
-      semantic_fit: unreviewed
-      semantic_note: null
+      semantic_fit: context-dependent
+      semantic_note: A storage receptacle is shared, but the ancient word does not specifically denote a domestic cupboard.
     attestations:
     - status: lexical-form-attested
       method: exact-corpus-surface-form
@@ -5037,11 +5062,11 @@ sections:
       author_marked_new: false
       morphology: []
       formation: null
-      period_classification: unreviewed
-      ancient_sense: null
+      period_classification: classical-attested-same-sense
+      ancient_sense: A wardrobe or repository for clothing, attested in fourth-century BCE inventories.
       modern_sense: 洋服箪笥
-      semantic_fit: unreviewed
-      semantic_note: null
+      semantic_fit: exact
+      semantic_note: The clothing-storage function is directly ancient, though the physical furniture may differ.
     attestations: []
     german_lexical_research: null
     textual_issues: []
@@ -5077,11 +5102,11 @@ sections:
       author_marked_new: false
       morphology: []
       formation: null
-      period_classification: unreviewed
-      ancient_sense: null
+      period_classification: modern-greek
+      ancient_sense: A pencil, brush, engraving tool, or—in later documents—a registry or record office.
       modern_sense: 書き物机
-      semantic_fit: unreviewed
-      semantic_note: null
+      semantic_fit: approximate
+      semantic_note: LSJ does not attest the furniture sense “writing desk”; this is a Modern Greek semantic development.
     attestations:
     - status: lexical-form-attested
       method: exact-corpus-surface-form
@@ -5138,11 +5163,11 @@ sections:
       author_marked_new: true
       morphology: []
       formation: null
-      period_classification: unreviewed
-      ancient_sense: null
+      period_classification: modern-coinage-author-marked
+      ancient_sense: Not ancient; friction matches are a nineteenth-century technology.
       modern_sense: マッチ
-      semantic_fit: unreviewed
-      semantic_note: null
+      semantic_fit: exact
+      semantic_note: Literally sulphur-wax sticks, a descriptive Modern Greek coinage correctly marked as new.
     attestations: []
     german_lexical_research: null
     textual_issues: []
@@ -5178,11 +5203,11 @@ sections:
       author_marked_new: false
       morphology: []
       formation: null
-      period_classification: unreviewed
-      ancient_sense: null
+      period_classification: post-classical-or-byzantine
+      ancient_sense: Soap or a Germanic or Gallic soap-like hair preparation; a Latin loan attested in medical writers.
       modern_sense: 石鹸
-      semantic_fit: unreviewed
-      semantic_note: null
+      semantic_fit: exact
+      semantic_note: The substance and loanword are ancient but post-Classical rather than inherited Attic vocabulary.
     attestations:
     - status: lexical-form-attested
       method: exact-corpus-surface-form
@@ -5229,11 +5254,11 @@ sections:
       author_marked_new: false
       morphology: []
       formation: null
-      period_classification: unreviewed
-      ancient_sense: null
+      period_classification: post-classical-or-byzantine
+      ancient_sense: A reclining seat or couch; the form is not established as ordinary Classical Attic by LSJ.
       modern_sense: ソファ
-      semantic_fit: unreviewed
-      semantic_note: null
+      semantic_fit: exact
+      semantic_note: The function corresponds closely to a sofa, though the furniture's construction and social use may differ.
     attestations: []
     german_lexical_research: null
     textual_issues: []
@@ -5269,11 +5294,11 @@ sections:
       author_marked_new: false
       morphology: []
       formation: null
-      period_classification: unreviewed
-      ancient_sense: null
+      period_classification: classical-attested-same-sense
+      ancient_sense: κλῖμαξ is a ladder, gangway, or staircase; ἀνάβαθρον is attested as a raised seat or chair.
       modern_sense: 階段
-      semantic_fit: unreviewed
-      semantic_note: null
+      semantic_fit: context-dependent
+      semantic_note: κλῖμαξ is an exact ancient equivalent for stairs; ἀνάβαθρον is poorly matched in its attested sense.
     attestations: []
     german_lexical_research: null
     textual_issues: []
@@ -5297,7 +5322,7 @@ sections:
     translation:
       de:
       - Die Gardinen.
-      ja_proposed: カーテン
+      ja_proposed: 窓掛け（カーテン）
       decision: pending-review
       rationale: Concise Japanese headword matching the nineteenth-century German label.
       alternatives: []
@@ -5309,11 +5334,11 @@ sections:
       author_marked_new: false
       morphology: []
       formation: null
-      period_classification: unreviewed
-      ancient_sense: null
-      modern_sense: カーテン
-      semantic_fit: unreviewed
-      semantic_note: null
+      period_classification: classical-attested-same-sense
+      ancient_sense: A hanging, curtain, screen, or covering spread before something.
+      modern_sense: 窓掛け（カーテン）
+      semantic_fit: exact
+      semantic_note: The curtain sense is directly attested from Herodotus and comedy onward.
     attestations:
     - status: lexical-form-attested
       method: exact-corpus-surface-form
@@ -5370,11 +5395,11 @@ sections:
       author_marked_new: false
       morphology: []
       formation: null
-      period_classification: unreviewed
-      ancient_sense: null
+      period_classification: classical-attested-same-sense
+      ancient_sense: A dish, pot, pan, or basin; basin is directly attested in fourth-century BCE inventories.
       modern_sense: 洗面器
-      semantic_fit: unreviewed
-      semantic_note: null
+      semantic_fit: context-dependent
+      semantic_note: It supplies the portable basin, though Waschbecken may also denote a fixed washbasin.
     attestations:
     - status: lexical-form-attested
       method: exact-corpus-surface-form
@@ -5438,11 +5463,11 @@ sections:
       author_marked_new: false
       morphology: []
       formation: null
-      period_classification: unreviewed
-      ancient_sense: null
+      period_classification: post-classical-or-byzantine
+      ancient_sense: A washing vessel or basin, attested in the Gospel of John.
       modern_sense: 洗面台
-      semantic_fit: unreviewed
-      semantic_note: null
+      semantic_fit: narrower
+      semantic_note: The Greek denotes the basin itself, whereas Waschtisch is the table or stand that supports washing equipment.
     attestations: []
     german_lexical_research: null
     textual_issues: []
@@ -5478,11 +5503,11 @@ sections:
       author_marked_new: false
       morphology: []
       formation: null
-      period_classification: unreviewed
-      ancient_sense: null
+      period_classification: classical-attested-same-sense
+      ancient_sense: A small chamber, room, or bedchamber, attested in Aristophanes, Lysias, and Plato.
       modern_sense: 部屋
-      semantic_fit: unreviewed
-      semantic_note: null
+      semantic_fit: exact
+      semantic_note: The ordinary domestic room sense is directly Classical.
     attestations:
     - status: lexical-form-attested
       method: exact-corpus-surface-form
@@ -5527,7 +5552,7 @@ sections:
     translation:
       de:
       - Der Uhrschlüssel.
-      ja_proposed: 時計の鍵
+      ja_proposed: 時計の巻き鍵
       decision: pending-review
       rationale: Concise Japanese headword matching the nineteenth-century German label.
       alternatives: []
@@ -5579,11 +5604,11 @@ sections:
       author_marked_new: false
       morphology: []
       formation: null
-      period_classification: unreviewed
-      ancient_sense: null
+      period_classification: modern-coinage-unmarked
+      ancient_sense: Not located in LSJ; a transparent compound meaning an implement for picking or scraping teeth.
       modern_sense: 爪楊枝
-      semantic_fit: unreviewed
-      semantic_note: null
+      semantic_fit: exact
+      semantic_note: The meaning is transparent, but ancient attestation should not be inferred from the absence of an asterisk.
     attestations: []
     german_lexical_research: null
     textual_issues: []
@@ -5641,11 +5666,11 @@ sections:
       author_marked_new: false
       morphology: []
       formation: null
-      period_classification: unreviewed
-      ancient_sense: null
+      period_classification: classical-attested-semantic-extension
+      ancient_sense: One who rules by one's own authority; a commander with full powers, later an absolute ruler and imperial title.
       modern_sense: 皇帝
-      semantic_fit: unreviewed
-      semantic_note: null
+      semantic_fit: context-dependent
+      semantic_note: The imperial sense develops in antiquity, but Kaiser is a specific modern monarchical title rather than a generic αὐτοκράτωρ.
     attestations:
     - status: lexical-form-attested
       method: exact-corpus-surface-form
@@ -5720,11 +5745,11 @@ sections:
       author_marked_new: false
       morphology: []
       formation: null
-      period_classification: unreviewed
-      ancient_sense: null
+      period_classification: classical-attested-semantic-extension
+      ancient_sense: Germania, the broad region inhabited by peoples whom Greco-Roman authors called Germani.
       modern_sense: ドイツ
-      semantic_fit: unreviewed
-      semantic_note: null
+      semantic_fit: context-dependent
+      semantic_note: The ancient geographical region is not territorially or politically identical with the nineteenth-century German Empire.
     attestations:
     - status: lexical-form-attested
       method: exact-corpus-surface-form
@@ -5781,11 +5806,11 @@ sections:
       author_marked_new: false
       morphology: []
       formation: null
-      period_classification: unreviewed
-      ancient_sense: null
+      period_classification: classical-attested-semantic-extension
+      ancient_sense: The Germani, an ancient ethnographic grouping rather than citizens of a unified German nation-state.
       modern_sense: ドイツ人
-      semantic_fit: unreviewed
-      semantic_note: null
+      semantic_fit: context-dependent
+      semantic_note: The name is continuous, but the population and national identity denoted are historically different.
     attestations:
     - status: lexical-form-attested
       method: exact-corpus-surface-form
@@ -5842,11 +5867,11 @@ sections:
       author_marked_new: true
       morphology: []
       formation: null
-      period_classification: unreviewed
-      ancient_sense: null
+      period_classification: modern-coinage-author-marked
+      ancient_sense: No ancient polity or place-name corresponding to Austria under this name.
       modern_sense: オーストリア
-      semantic_fit: unreviewed
-      semantic_note: null
+      semantic_fit: exact
+      semantic_note: A modern learned adaptation of the European country-name, correctly marked as new.
     attestations: []
     german_lexical_research: null
     textual_issues: []
@@ -5882,11 +5907,11 @@ sections:
       author_marked_new: true
       morphology: []
       formation: null
-      period_classification: unreviewed
-      ancient_sense: null
+      period_classification: modern-coinage-author-marked
+      ancient_sense: No ancient country-name corresponding to Hungary under this name.
       modern_sense: ハンガリー
-      semantic_fit: unreviewed
-      semantic_note: null
+      semantic_fit: exact
+      semantic_note: A modern adaptation of the country-name, correctly marked as new.
     attestations: []
     german_lexical_research: null
     textual_issues: []
@@ -5922,11 +5947,11 @@ sections:
       author_marked_new: true
       morphology: []
       formation: null
-      period_classification: unreviewed
-      ancient_sense: null
+      period_classification: modern-coinage-author-marked
+      ancient_sense: No Classical place-name for England, whose historical formation is post-antique.
       modern_sense: イングランド
-      semantic_fit: unreviewed
-      semantic_note: null
+      semantic_fit: exact
+      semantic_note: A modern adaptation of the country-name, correctly marked as new.
     attestations: []
     german_lexical_research: null
     textual_issues: []
@@ -5962,11 +5987,11 @@ sections:
       author_marked_new: true
       morphology: []
       formation: null
-      period_classification: unreviewed
-      ancient_sense: null
+      period_classification: modern-coinage-author-marked
+      ancient_sense: Not an ancient ethnonym in this national sense.
       modern_sense: イングランド人
-      semantic_fit: unreviewed
-      semantic_note: null
+      semantic_fit: exact
+      semantic_note: The Modern Greek national name corresponds directly to Engländer.
     attestations: []
     german_lexical_research: null
     textual_issues:
@@ -6021,11 +6046,11 @@ sections:
       author_marked_new: true
       morphology: []
       formation: null
-      period_classification: unreviewed
-      ancient_sense: null
+      period_classification: modern-coinage-author-marked
+      ancient_sense: No Classical country-name for Russia; the state and ethnonym are post-antique.
       modern_sense: ロシア
-      semantic_fit: unreviewed
-      semantic_note: null
+      semantic_fit: exact
+      semantic_note: A modern national name; the source's breathing and accentuation are separately noted as textual matters.
     attestations: []
     german_lexical_research: null
     textual_issues: []
@@ -6073,11 +6098,11 @@ sections:
       author_marked_new: true
       morphology: []
       formation: null
-      period_classification: unreviewed
-      ancient_sense: null
+      period_classification: modern-coinage-author-marked
+      ancient_sense: Not a Classical ethnonym for Russians.
       modern_sense: ロシア人
-      semantic_fit: unreviewed
-      semantic_note: null
+      semantic_fit: exact
+      semantic_note: A modern national name; orthographic concerns are recorded separately.
     attestations: []
     german_lexical_research: null
     textual_issues: []
@@ -6113,11 +6138,11 @@ sections:
       author_marked_new: false
       morphology: []
       formation: null
-      period_classification: unreviewed
-      ancient_sense: null
+      period_classification: classical-attested-semantic-extension
+      ancient_sense: Gaul, the ancient region associated with the Gauls.
       modern_sense: フランス
-      semantic_fit: unreviewed
-      semantic_note: null
+      semantic_fit: approximate
+      semantic_note: Modern France substantially overlaps ancient Gaul but is not geographically or politically identical with it.
     attestations:
     - status: lexical-form-attested
       method: exact-corpus-surface-form
@@ -6174,11 +6199,11 @@ sections:
       author_marked_new: false
       morphology: []
       formation: null
-      period_classification: unreviewed
-      ancient_sense: null
+      period_classification: classical-attested-semantic-extension
+      ancient_sense: The Gauls or Galatians in Greco-Roman ethnography.
       modern_sense: フランス人
-      semantic_fit: unreviewed
-      semantic_note: null
+      semantic_fit: approximate
+      semantic_note: French people are not simply identical with the ancient Gauls; this is a conventional reuse of the ancient ethnonym.
     attestations:
     - status: lexical-form-attested
       method: exact-corpus-surface-form
@@ -6235,11 +6260,11 @@ sections:
       author_marked_new: true
       morphology: []
       formation: null
-      period_classification: unreviewed
-      ancient_sense: null
+      period_classification: modern-coinage-author-marked
+      ancient_sense: No Classical country-name for Denmark under this form.
       modern_sense: デンマーク
-      semantic_fit: unreviewed
-      semantic_note: null
+      semantic_fit: exact
+      semantic_note: A modern adaptation of the country-name, correctly marked as new.
     attestations: []
     german_lexical_research: null
     textual_issues: []
@@ -6275,11 +6300,11 @@ sections:
       author_marked_new: false
       morphology: []
       formation: null
-      period_classification: unreviewed
-      ancient_sense: null
+      period_classification: classical-attested-semantic-extension
+      ancient_sense: Italy as an ancient geographical region, with the extent of the name changing over time.
       modern_sense: イタリア
-      semantic_fit: unreviewed
-      semantic_note: null
+      semantic_fit: context-dependent
+      semantic_note: The geographical name is ancient, but the unified Kingdom of Italy is a nineteenth-century polity.
     attestations:
     - status: lexical-form-attested
       method: exact-corpus-surface-form
@@ -6336,11 +6361,11 @@ sections:
       author_marked_new: false
       morphology: []
       formation: null
-      period_classification: unreviewed
-      ancient_sense: null
+      period_classification: classical-attested-semantic-extension
+      ancient_sense: Hispania, the Iberian region or Roman provinces.
       modern_sense: スペイン
-      semantic_fit: unreviewed
-      semantic_note: null
+      semantic_fit: context-dependent
+      semantic_note: The ancient region is not institutionally identical with the modern Spanish state.
     attestations: []
     german_lexical_research: null
     textual_issues: []
@@ -6376,11 +6401,11 @@ sections:
       author_marked_new: true
       morphology: []
       formation: null
-      period_classification: unreviewed
-      ancient_sense: null
+      period_classification: post-classical-or-byzantine
+      ancient_sense: A post-Classical name connected with the Turks; neither the people nor the polity belongs to the Classical Greek world.
       modern_sense: トルコ
-      semantic_fit: unreviewed
-      semantic_note: null
+      semantic_fit: context-dependent
+      semantic_note: The form is historically later than antiquity; in 1889 Türkei denotes the Ottoman Empire, not the present Republic of Turkey.
     attestations: []
     german_lexical_research: null
     textual_issues: []
@@ -6416,11 +6441,11 @@ sections:
       author_marked_new: true
       morphology: []
       formation: null
-      period_classification: unreviewed
-      ancient_sense: null
+      period_classification: modern-coinage-author-marked
+      ancient_sense: No ancient city-name for Berlin, a post-antique foundation.
       modern_sense: ベルリン
-      semantic_fit: unreviewed
-      semantic_note: null
+      semantic_fit: exact
+      semantic_note: A learned Greek adaptation of the modern toponym, correctly marked as new.
     attestations: []
     german_lexical_research: null
     textual_issues: []
@@ -6456,11 +6481,11 @@ sections:
       author_marked_new: true
       morphology: []
       formation: null
-      period_classification: unreviewed
-      ancient_sense: null
+      period_classification: modern-coinage-author-marked
+      ancient_sense: Not the ancient name of Roman Vindobona; this form represents modern Vienna.
       modern_sense: ウィーン
-      semantic_fit: unreviewed
-      semantic_note: null
+      semantic_fit: exact
+      semantic_note: A modern Greek adaptation of Wien, correctly marked as new.
     attestations: []
     german_lexical_research: null
     textual_issues: []
@@ -6496,11 +6521,11 @@ sections:
       author_marked_new: true
       morphology: []
       formation: null
-      period_classification: unreviewed
-      ancient_sense: null
+      period_classification: modern-coinage-author-marked
+      ancient_sense: No ancient referent; Saint Petersburg was founded in 1703.
       modern_sense: ペテルブルク
-      semantic_fit: unreviewed
-      semantic_note: null
+      semantic_fit: exact
+      semantic_note: A transparent Greek rendering “Peter-city,” correctly marked as new.
     attestations: []
     german_lexical_research: null
     textual_issues: []
@@ -6536,11 +6561,11 @@ sections:
       author_marked_new: true
       morphology: []
       formation: null
-      period_classification: unreviewed
-      ancient_sense: null
+      period_classification: modern-coinage-author-marked
+      ancient_sense: The pluralized modern city-name is not the Classical name of Paris or its settlement.
       modern_sense: パリ
-      semantic_fit: unreviewed
-      semantic_note: null
+      semantic_fit: exact
+      semantic_note: A learned Modern Greek city-name, morphologically plural like Ἀθῆναι, correctly marked as new.
     attestations: []
     german_lexical_research: null
     textual_issues: []
@@ -6576,11 +6601,11 @@ sections:
       author_marked_new: true
       morphology: []
       formation: null
-      period_classification: unreviewed
-      ancient_sense: null
+      period_classification: modern-coinage-author-marked
+      ancient_sense: A modernized Greek form of London rather than the regular ancient Latin name Londinium.
       modern_sense: ロンドン
-      semantic_fit: unreviewed
-      semantic_note: null
+      semantic_fit: exact
+      semantic_note: A learned adaptation of the modern city-name, correctly marked as new.
     attestations: []
     german_lexical_research: null
     textual_issues: []
@@ -6604,7 +6629,7 @@ sections:
     translation:
       de:
       - Der Congreß.
-      ja_proposed: 会議
+      ja_proposed: 国際会議
       decision: pending-review
       rationale: Concise Japanese headword matching the nineteenth-century German label.
       alternatives: []
@@ -6678,11 +6703,11 @@ sections:
       author_marked_new: false
       morphology: []
       formation: null
-      period_classification: unreviewed
-      ancient_sense: null
+      period_classification: classical-attested-semantic-extension
+      ancient_sense: Entrusting, guardianship, arbitration, administration, or a charge committed to someone.
       modern_sense: 委員会
-      semantic_fit: unreviewed
-      semantic_note: null
+      semantic_fit: context-dependent
+      semantic_note: A modern standing committee is an institutional development from the older notions of delegation and entrusted charge.
     attestations:
     - status: lexical-form-attested
       method: exact-corpus-surface-form
@@ -6739,11 +6764,11 @@ sections:
       author_marked_new: false
       morphology: []
       formation: null
-      period_classification: unreviewed
-      ancient_sense: null
+      period_classification: modern-greek
+      ancient_sense: The princely title is post-Classical, and the proper name necessarily refers to the nineteenth-century statesman.
       modern_sense: ビスマルク侯
-      semantic_fit: unreviewed
-      semantic_note: null
+      semantic_fit: approximate
+      semantic_note: Greek πρίγκιψ broadly says “prince”; German Fürst is Bismarck's specific rank and is better preserved in Japanese as 侯.
     attestations: []
     german_lexical_research: null
     textual_issues:
@@ -6786,11 +6811,11 @@ sections:
       author_marked_new: false
       morphology: []
       formation: null
-      period_classification: unreviewed
-      ancient_sense: null
+      period_classification: classical-attested-semantic-extension
+      ancient_sense: Third-person imperative of ζάω, literally “let him live.”
       modern_sense: 万歳！
-      semantic_fit: unreviewed
-      semantic_note: null
+      semantic_fit: exact
+      semantic_note: As an acclamation it corresponds directly to Er lebe hoch! and Japanese 万歳, though the fixed cheer is later than the verbal form.
     attestations: []
     german_lexical_research: null
     textual_issues:
@@ -6904,11 +6929,11 @@ sections:
       author_marked_new: false
       morphology: []
       formation: null
-      period_classification: unreviewed
-      ancient_sense: null
+      period_classification: post-classical-or-byzantine
+      ancient_sense: The feminine ordinal “second”; its fixed use for Monday belongs to the later Christian weekday system.
       modern_sense: 月曜日
-      semantic_fit: unreviewed
-      semantic_note: null
+      semantic_fit: exact
+      semantic_note: As a weekday-name it corresponds exactly to Monday, counting Sunday as the first or Lord's day.
     attestations:
     - status: lexical-form-attested
       method: exact-corpus-surface-form
@@ -6965,11 +6990,11 @@ sections:
       author_marked_new: false
       morphology: []
       formation: null
-      period_classification: unreviewed
-      ancient_sense: null
+      period_classification: post-classical-or-byzantine
+      ancient_sense: The feminine ordinal “third”; its fixed use for Tuesday belongs to the later Christian weekday system.
       modern_sense: 火曜日
-      semantic_fit: unreviewed
-      semantic_note: null
+      semantic_fit: exact
+      semantic_note: As a weekday-name it corresponds exactly to Tuesday.
     attestations:
     - status: lexical-form-attested
       method: exact-corpus-surface-form
@@ -7026,11 +7051,11 @@ sections:
       author_marked_new: false
       morphology: []
       formation: null
-      period_classification: unreviewed
-      ancient_sense: null
+      period_classification: post-classical-or-byzantine
+      ancient_sense: The feminine ordinal “fourth”; its fixed use for Wednesday belongs to the later Christian weekday system.
       modern_sense: 水曜日
-      semantic_fit: unreviewed
-      semantic_note: null
+      semantic_fit: exact
+      semantic_note: As a weekday-name it corresponds exactly to Wednesday.
     attestations:
     - status: lexical-form-attested
       method: exact-corpus-surface-form
@@ -7087,11 +7112,11 @@ sections:
       author_marked_new: false
       morphology: []
       formation: null
-      period_classification: unreviewed
-      ancient_sense: null
+      period_classification: post-classical-or-byzantine
+      ancient_sense: The feminine ordinal “fifth”; its fixed use for Thursday belongs to the later Christian weekday system.
       modern_sense: 木曜日
-      semantic_fit: unreviewed
-      semantic_note: null
+      semantic_fit: exact
+      semantic_note: As a weekday-name it corresponds exactly to Thursday.
     attestations:
     - status: lexical-form-attested
       method: exact-corpus-surface-form

@@ -12,12 +12,15 @@ meta:
     - Prefer natural spoken Japanese appropriate to the reconstructed relationship.
     - Preserve the German wording except for explicitly identified source or OCR errors.
     - Distinguish the German prompt from the literal and pragmatic force of the Greek.
+    - Check historical German meanings and idioms independently; record rather than conceal German-Greek mismatches.
     - Preserve nineteenth-century objects, institutions, and social conventions where relevant.
     - Do not add politeness, intimacy, gender, or aggression without contextual evidence.
     - Use Japanese punctuation and sentence endings to make turn-taking natural.
   corpus_roots:
-    perseus: /home/mrty/Documents/Perseus/Classics
-    lsj: /home/mrty/Documents/Perseus/Classics/LSJ
+    lsj: /home/mrty/Documents/Resources/LSJ_GreekUnicode
+    canonical_corpus: /home/mrty/Documents/Resources/canonical-greekLit
+    discovery_corpus: /home/mrty/Documents/Resources/ancient-greek-texts
+  domain_lexicon: review/part-h-skat-lexicon.yaml
   attestation_match_types:
   - exact
   - near-exact
@@ -26,6 +29,12 @@ meta:
   - formulaic-parallel
   - lexical-only
   - not-found
+  evidence_policy:
+    languages: [grc, de]
+    note: >-
+      Translation-relevant attestations must remain in this review YAML with original text, source,
+      context, relationship to the handbook, confidence, and research method. Record unsuccessful
+      searches and label inference explicitly rather than leaving evidence only in discussion.
   status_values:
   - unreviewed
   - scene-reviewed
@@ -37,26 +46,41 @@ scenes:
   title:
     de: Ein Spiel mit Redens\textcompwordmark{}arten
     ja: 言い回しを交えた一局
-  scene_type: reconstructed_dialogue
+  scene_type: mixed
   setting:
     situation: several players begin and conduct a game of Skat
   cast:
   - id: player-a
-    description: null
-    evidence: null
-    confidence: candidate
+    description: One of several model players; exact turns are not securely recoverable.
+    evidence: Alternation between polite Sie and familiar du prevents a stable assignment.
+    confidence: low
   - id: player-b
-    description: null
-    evidence: null
-    confidence: candidate
+    description: Possible partner or opponent in short stretches of play.
+    evidence: First-person plural alternates between inclusive table talk and a two-player side.
+    confidence: low
   - id: player-c
-    description: null
-    evidence: null
-    confidence: candidate
+    description: Third Skat player required by the game, but not explicitly labelled.
+    evidence: Skat requires three active players; the section supplies no A/B/C labels.
+    confidence: medium
   reconstruction:
-    confidence: unreviewed
-    note: Ordering may combine a continuous exchange with reusable model phrases; turn continuity must
-      be justified entry by entry.
+    confidence: high
+    note: >-
+      This is a phrase exercise staged around Skat, not one recoverable deal. Entries 1-20 establish
+      the game and early play; 21-39 string together reusable idioms, accusations, and reactions;
+      40-45 close with counting, loss, and payment. The German alternates Sie and du, so Japanese
+      follows each local model phrase rather than inventing fixed relationships.
+  voice_profiles:
+    polite-model-turns: {register: polite, traits: [competitive, socially_controlled]}
+    familiar-model-turns: {register: plain, traits: [excited, teasing, accusatory]}
+  turn_groups:
+  - entries: [h-01-001, h-01-002, h-01-003, h-01-004, h-01-005, h-01-006, h-01-007, h-01-008, h-01-009, h-01-010, h-01-011]
+    description: starting a game, dealing, naming suits, and following suit
+  - entries: [h-01-012, h-01-013, h-01-014, h-01-015, h-01-016, h-01-017, h-01-018, h-01-019, h-01-020]
+    description: tactical warnings and excited play
+  - entries: [h-01-021, h-01-022, h-01-023, h-01-024, h-01-025, h-01-026, h-01-027, h-01-028, h-01-029, h-01-030, h-01-031, h-01-032, h-01-033, h-01-034, h-01-035, h-01-036, h-01-037, h-01-038, h-01-039]
+    description: idiomatic reactions and accusations placed in a card-table setting
+  - entries: [h-01-040, h-01-041, h-01-042, h-01-043, h-01-044, h-01-045]
+    description: counting, defeat, payment, and financial lament
   entries:
   - id: h-01-001
     source_locator:
@@ -91,8 +115,8 @@ scenes:
       variants:
       - de: Wollen wir nicht ein Spielchen machen?
         ja_current: 一局やりませんか。
-        ja_proposed: 一局やりませんか。
-        decision: pending-review
+        ja_proposed: 一局やりませんか？
+        decision: revise
         rationale: null
         alternatives: []
       register: null
@@ -100,7 +124,7 @@ scenes:
     attestations: []
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: h-01-002
     source_locator:
       file: part-h.yaml
@@ -134,8 +158,8 @@ scenes:
       variants:
       - de: Meinetwegen.
         ja_current: いいですよ。
-        ja_proposed: いいですよ。
-        decision: pending-review
+        ja_proposed: かまいませんよ。
+        decision: revise
         rationale: null
         alternatives: []
       register: null
@@ -143,7 +167,7 @@ scenes:
     attestations: []
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: h-01-003
     source_locator:
       file: part-h.yaml
@@ -177,8 +201,8 @@ scenes:
       variants:
       - de: Was wollen wir spielen?
         ja_current: 何をしましょうか。
-        ja_proposed: 何をしましょうか。
-        decision: pending-review
+        ja_proposed: 何をして遊びましょう。
+        decision: revise
         rationale: null
         alternatives: []
       register: null
@@ -186,7 +210,7 @@ scenes:
     attestations: []
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: h-01-004
     source_locator:
       file: part-h.yaml
@@ -220,16 +244,20 @@ scenes:
       variants:
       - de: Einen Skat wollen wir machen.
         ja_current: スカートをやりましょう。
-        ja_proposed: スカートをやりましょう。
-        decision: pending-review
+        ja_proposed: スカートを一局やりましょう。
+        decision: revise
         rationale: null
         alternatives: []
       register: null
       scene_dependency: null
     attestations: []
-    textual_issues: []
-    review_comments: []
-    status: unreviewed
+    textual_issues:
+    - type: deliberate-modern-coinage
+      note: >-
+        Greek σκατιούμεθα is a playful modern coinage made from Skat, not an attested Classical Greek verb.
+    review_comments:
+    - Japanese simply names the game as 「スカート」.
+    status: ja-proposed
   - id: h-01-005
     source_locator:
       file: part-h.yaml
@@ -264,7 +292,7 @@ scenes:
       - de: Wer giebt?
         ja_current: 誰が札を配りますか。
         ja_proposed: 誰が札を配りますか。
-        decision: pending-review
+        decision: retain
         rationale: null
         alternatives: []
       register: null
@@ -272,7 +300,7 @@ scenes:
     attestations: []
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: h-01-006
     source_locator:
       file: part-h.yaml
@@ -306,8 +334,8 @@ scenes:
       variants:
       - de: Ich frage.
         ja_current: 私が声をかけます。
-        ja_proposed: 私が声をかけます。
-        decision: pending-review
+        ja_proposed: 私から競りましょう。
+        decision: revise
         rationale: null
         alternatives: []
       register: null
@@ -315,7 +343,7 @@ scenes:
     attestations: []
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: h-01-007
     source_locator:
       file: part-h.yaml
@@ -349,8 +377,8 @@ scenes:
       variants:
       - de: Eichel, Grün, Roth, Schellen.
         ja_current: どんぐり、葉、赤（ハート）、鈴だ。
-        ja_proposed: どんぐり、葉、赤（ハート）、鈴だ。
-        decision: pending-review
+        ja_proposed: アイヒェル（団栗）、グリューン（葉）、ロート（赤）、シェレン（鈴）。
+        decision: revise
         rationale: null
         alternatives: []
       register: null
@@ -358,7 +386,7 @@ scenes:
     attestations: []
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: h-01-008
     source_locator:
       file: part-h.yaml
@@ -392,8 +420,8 @@ scenes:
       variants:
       - de: Eichel sticht.
         ja_current: どんぐりが切り札だ。
-        ja_proposed: どんぐりが切り札だ。
-        decision: pending-review
+        ja_proposed: アイヒェルが切り札だ。
+        decision: revise
         rationale: null
         alternatives: []
       register: null
@@ -401,7 +429,7 @@ scenes:
     attestations: []
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: h-01-009
     source_locator:
       file: part-h.yaml
@@ -435,8 +463,8 @@ scenes:
       variants:
       - de: Geben Sie Grün zu!
         ja_current: 葉の札を出してください！
-        ja_proposed: 葉の札を出してください！
-        decision: pending-review
+        ja_proposed: グリューンを出してください！
+        decision: revise
         rationale: null
         alternatives: []
       register: null
@@ -444,7 +472,7 @@ scenes:
     attestations: []
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: h-01-010
     source_locator:
       file: part-h.yaml
@@ -479,7 +507,7 @@ scenes:
       - de: Ich?
         ja_current: 私が？
         ja_proposed: 私が？
-        decision: pending-review
+        decision: retain
         rationale: null
         alternatives: []
       register: null
@@ -487,7 +515,7 @@ scenes:
     attestations: []
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: h-01-011
     source_locator:
       file: part-h.yaml
@@ -521,8 +549,8 @@ scenes:
       variants:
       - de: Freilich (Sie)!
         ja_current: もちろん、あなたです！
-        ja_proposed: もちろん、あなたです！
-        decision: pending-review
+        ja_proposed: そう、あなたですよ！
+        decision: revise
         rationale: null
         alternatives: []
       register: null
@@ -530,7 +558,7 @@ scenes:
     attestations: []
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: h-01-012
     source_locator:
       file: part-h.yaml
@@ -564,8 +592,8 @@ scenes:
       variants:
       - de: Was habe ich davon?
         ja_current: それで私は何の得がありますか。
-        ja_proposed: それで私は何の得がありますか。
-        decision: pending-review
+        ja_proposed: それで、私に何の得があるのです？
+        decision: revise
         rationale: null
         alternatives: []
       register: null
@@ -573,7 +601,7 @@ scenes:
     attestations: []
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: h-01-013
     source_locator:
       file: part-h.yaml
@@ -607,8 +635,8 @@ scenes:
       variants:
       - de: Was ich für ein Pech habe!
         ja_current: なんてついてないんだ！
-        ja_proposed: なんてついてないんだ！
-        decision: pending-review
+        ja_proposed: なんという不運だ！
+        decision: revise
         rationale: null
         alternatives: []
       register: null
@@ -616,7 +644,7 @@ scenes:
     attestations: []
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: h-01-014
     source_locator:
       file: part-h.yaml
@@ -650,8 +678,8 @@ scenes:
       variants:
       - de: Nur nicht ängstlich!
         ja_current: おどおどするな！
-        ja_proposed: おどおどするな！
-        decision: pending-review
+        ja_proposed: そう心配するな！
+        decision: revise
         rationale: null
         alternatives: []
       register: null
@@ -659,7 +687,7 @@ scenes:
     attestations: []
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: h-01-015
     source_locator:
       file: part-h.yaml
@@ -693,8 +721,8 @@ scenes:
       variants:
       - de: Sehen Sie sich vor, daß Ihnen der rothe Wenzel nicht entgeht!
         ja_current: 赤のヴェンツェルを取り逃がさないよう気をつけて！
-        ja_proposed: 赤のヴェンツェルを取り逃がさないよう気をつけて！
-        decision: pending-review
+        ja_proposed: ロートのヴェンツェルを取り逃がさぬよう、気をつけてください！
+        decision: revise
         rationale: null
         alternatives: []
       register: null
@@ -702,7 +730,7 @@ scenes:
     attestations: []
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: h-01-016
     source_locator:
       file: part-h.yaml
@@ -736,8 +764,8 @@ scenes:
       variants:
       - de: Jetzt ist's an Ihnen, zu sehen, wie wir gewinnen!
         ja_current: さあ、どうやって勝つか考えるのはあなたの役目です！
-        ja_proposed: さあ、どうやって勝つか考えるのはあなたの役目です！
-        decision: pending-review
+        ja_proposed: 今度はあなたが、どうすれば勝てるか考える番です！
+        decision: revise
         rationale: null
         alternatives: []
       register: null
@@ -745,7 +773,7 @@ scenes:
     attestations: []
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: h-01-017
     source_locator:
       file: part-h.yaml
@@ -779,16 +807,20 @@ scenes:
       variants:
       - de: Jetzt gilt es!
         ja_current: 今が勝負どころです！
-        ja_proposed: 今が勝負どころです！
-        decision: pending-review
+        ja_proposed: 今こそ勝負どころだ！
+        decision: revise
         rationale: null
         alternatives: []
       register: null
       scene_dependency: null
     attestations: []
-    textual_issues: []
-    review_comments: []
-    status: unreviewed
+    textual_issues:
+    - type: probable-greek-typo
+      note: >-
+        Printed νῶν should be νῦν. The phrase νῦν ὁ καιρός is the ordinary “now is the moment.”
+    review_comments:
+    - Japanese follows the corrected adverb.
+    status: ja-proposed
   - id: h-01-018
     source_locator:
       file: part-h.yaml
@@ -822,16 +854,20 @@ scenes:
       variants:
       - de: Jetzt haben wir ihn!
         ja_current: これで押さえたぞ！
-        ja_proposed: これで押さえたぞ！
-        decision: pending-review
+        ja_proposed: これで奴を捕まえたぞ！
+        decision: revise
         rationale: null
         alternatives: []
       register: null
       scene_dependency: null
     attestations: []
-    textual_issues: []
-    review_comments: []
-    status: unreviewed
+    textual_issues:
+    - type: probable-greek-typo
+      note: >-
+        Printed νῶν should again be νῦν.
+    review_comments:
+    - Japanese follows German “Jetzt haben wir ihn!” rather than reproducing the error.
+    status: ja-proposed
   - id: h-01-019
     source_locator:
       file: part-h.yaml
@@ -865,8 +901,8 @@ scenes:
       variants:
       - de: Hau' ihm, Lucas!
         ja_current: やっちまえ、ルーカス！
-        ja_proposed: やっちまえ、ルーカス！
-        decision: pending-review
+        ja_proposed: やれ、ルーカス！
+        decision: revise
         rationale: null
         alternatives: []
       register: null
@@ -880,7 +916,7 @@ scenes:
         author: Aristophanes
         work: Knights
         passage: '247'
-        local_file: /home/mrty/Documents/Perseus/Classics/Aristophanes/opensource/aristoph.kn_gk.xml
+        local_file: /home/mrty/Documents/Resources/canonical-greekLit/data/tlg0019/tlg002/tlg0019.tlg002.perseus-grc2.xml
       text_grc: παῖε, παῖε τὸν πανοῦργον!
       original_speakers:
       - Χορος Ιππεων
@@ -896,7 +932,7 @@ scenes:
       research_method: exact normalized token search
     textual_issues: []
     review_comments: []
-    status: source-researched
+    status: ja-proposed
   - id: h-01-020
     source_locator:
       file: part-h.yaml
@@ -934,16 +970,20 @@ scenes:
 
           haben!'
         ja_current: 赤のダウスを取ったのだから、ただではすみませんよ！
-        ja_proposed: 赤のダウスを取ったのだから、ただではすみませんよ！
-        decision: pending-review
+        ja_proposed: ロートのダウスを切り札で取った報いは、きっと受けてもらいますよ！
+        decision: revise
         rationale: null
         alternatives: []
       register: null
       scene_dependency: null
     attestations: []
-    textual_issues: []
-    review_comments: []
-    status: unreviewed
+    textual_issues:
+    - type: punctuation-error
+      note: >-
+        The Greek line ends with the contradictory sequence .!
+    review_comments:
+    - Japanese uses a single exclamation mark.
+    status: ja-proposed
   - id: h-01-021
     source_locator:
       file: part-h.yaml
@@ -978,7 +1018,7 @@ scenes:
       - de: Verwünscht! Das ist zum Haaraus\textcompwordmark{}raufen!
         ja_current: ちくしょう、髪をかきむしりたいほどだ！
         ja_proposed: ちくしょう、髪をかきむしりたいほどだ！
-        decision: pending-review
+        decision: retain
         rationale: null
         alternatives: []
       register: null
@@ -986,7 +1026,7 @@ scenes:
     attestations: []
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: h-01-022
     source_locator:
       file: part-h.yaml
@@ -1020,8 +1060,8 @@ scenes:
       variants:
       - de: Ich weiß schon, wie Sie es machen.
         ja_current: あなたの手口は分かっています。
-        ja_proposed: あなたの手口は分かっています。
-        decision: pending-review
+        ja_proposed: あなたがどう出るかは、もうわかっています。
+        decision: revise
         rationale: null
         alternatives: []
       register: null
@@ -1029,16 +1069,16 @@ scenes:
     attestations: []
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: h-01-023
     source_locator:
       file: part-h.yaml
       section_index: 1
       conversation_index: 23
-      fingerprint: 2b3fcc6418c234a6
+      fingerprint: ac8be8fcc53faeed
     source:
       modern:
-      - de: Feine Rase!
+      - de: Feine Nase!
         ja: 見事な差し方だ！
       grc:
       - εὖ γε ξυνέβαλες!
@@ -1061,18 +1101,22 @@ scenes:
       pragmatic_force: null
     translation:
       variants:
-      - de: Feine Rase!
+      - de: Feine Nase!
         ja_current: 見事な差し方だ！
-        ja_proposed: 見事な差し方だ！
-        decision: pending-review
+        ja_proposed: 見事な読みだ！
+        decision: revise
         rationale: null
         alternatives: []
       register: null
       scene_dependency: null
     attestations: []
-    textual_issues: []
-    review_comments: []
-    status: unreviewed
+    textual_issues:
+    - type: confirmed-source-correction
+      note: >-
+        The original has “Feine Nase!”, praising a good instinct or shrewd read; “Rase” was a transcription error.
+    review_comments:
+    - Japanese 「見事な読みだ」 follows the confirmed German idiom; Greek εὖ γε ξυνέβαλες likewise praises a successful inference.
+    status: ja-proposed
   - id: h-01-024
     source_locator:
       file: part-h.yaml
@@ -1107,7 +1151,7 @@ scenes:
       - de: Du wunderst dich?
         ja_current: 驚いたか？
         ja_proposed: 驚いたか？
-        decision: pending-review
+        decision: retain
         rationale: null
         alternatives: []
       register: null
@@ -1115,7 +1159,7 @@ scenes:
     attestations: []
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: h-01-025
     source_locator:
       file: part-h.yaml
@@ -1149,16 +1193,20 @@ scenes:
       variants:
       - de: Darin bin ich Meister.
         ja_current: それはお手のものだ。
-        ja_proposed: それはお手のものだ。
-        decision: pending-review
+        ja_proposed: それなら私の得意とするところだ。
+        decision: revise
         rationale: null
         alternatives: []
       register: null
       scene_dependency: null
     attestations: []
-    textual_issues: []
-    review_comments: []
-    status: unreviewed
+    textual_issues:
+    - type: probable-greek-form-error
+      note: >-
+        Printed ταύτεῃ appears to be a malformed spelling of ταύτῃ (“in this respect”).
+    review_comments:
+    - The error does not affect Japanese.
+    status: ja-proposed
   - id: h-01-026
     source_locator:
       file: part-h.yaml
@@ -1192,8 +1240,8 @@ scenes:
       variants:
       - de: Sie spielen falsch!
         ja_current: 反則をしていますね！
-        ja_proposed: 反則をしていますね！
-        decision: pending-review
+        ja_proposed: イカサマをしていますね！
+        decision: revise
         rationale: null
         alternatives: []
       register: null
@@ -1201,7 +1249,7 @@ scenes:
     attestations: []
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: h-01-027
     source_locator:
       file: part-h.yaml
@@ -1236,7 +1284,7 @@ scenes:
       - de: Du hast die Mogelei nicht bemerkt.
         ja_current: ごまかしに気づかなかったろう。
         ja_proposed: ごまかしに気づかなかったろう。
-        decision: pending-review
+        decision: retain
         rationale: null
         alternatives: []
       register: null
@@ -1244,7 +1292,7 @@ scenes:
     attestations: []
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: h-01-028
     source_locator:
       file: part-h.yaml
@@ -1279,7 +1327,7 @@ scenes:
       - de: Ist das wahr?
         ja_current: 本当ですか。
         ja_proposed: 本当ですか。
-        decision: pending-review
+        decision: retain
         rationale: null
         alternatives: []
       register: null
@@ -1287,7 +1335,7 @@ scenes:
     attestations: []
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: h-01-029
     source_locator:
       file: part-h.yaml
@@ -1321,8 +1369,8 @@ scenes:
       variants:
       - de: Ent\textcompwordmark{}schuldigen Sie!
         ja_current: 失礼！
-        ja_proposed: 失礼！
-        decision: pending-review
+        ja_proposed: どうかご容赦を！
+        decision: revise
         rationale: null
         alternatives: []
       register: null
@@ -1330,7 +1378,7 @@ scenes:
     attestations: []
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: h-01-030
     source_locator:
       file: part-h.yaml
@@ -1364,8 +1412,8 @@ scenes:
       variants:
       - de: Kellner, zünden Sie Licht an!
         ja_current: ウェイター、灯りをつけて！
-        ja_proposed: ウェイター、灯りをつけて！
-        decision: pending-review
+        ja_proposed: 給仕さん、灯りをつけてください！
+        decision: revise
         rationale: null
         alternatives: []
       register: null
@@ -1379,7 +1427,7 @@ scenes:
         author: Aristophanes
         work: Clouds
         passage: '18'
-        local_file: /home/mrty/Documents/Perseus/Classics/Aristophanes/opensource/aristoph.cl_gk.xml
+        local_file: /home/mrty/Documents/Resources/canonical-greekLit/data/tlg0019/tlg003/tlg0019.tlg003.perseus-grc2.xml
       text_grc: ἅπτε, παῖ, λύχνον!
       original_speakers:
       - Στρεψιαδης
@@ -1394,7 +1442,7 @@ scenes:
       research_method: exact normalized token search
     textual_issues: []
     review_comments: []
-    status: source-researched
+    status: ja-proposed
   - id: h-01-031
     source_locator:
       file: part-h.yaml
@@ -1428,8 +1476,8 @@ scenes:
       variants:
       - de: Was fällt Ihnen denn ein, daß Sie die Zehn aus\textcompwordmark{}spielen?
         ja_current: どうして十を切ったんですか。
-        ja_proposed: どうして十を切ったんですか。
-        decision: pending-review
+        ja_proposed: 十を出すとは、一体何を考えているのです。
+        decision: revise
         rationale: null
         alternatives: []
       register: null
@@ -1437,7 +1485,7 @@ scenes:
     attestations: []
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: h-01-032
     source_locator:
       file: part-h.yaml
@@ -1471,8 +1519,8 @@ scenes:
       variants:
       - de: Die Noth zwingt mich dazu.
         ja_current: それしか手がなかったんです。
-        ja_proposed: それしか手がなかったんです。
-        decision: pending-review
+        ja_proposed: ほかに打つ手がないのです。
+        decision: revise
         rationale: null
         alternatives: []
       register: null
@@ -1480,7 +1528,7 @@ scenes:
     attestations: []
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: h-01-033
     source_locator:
       file: part-h.yaml
@@ -1514,16 +1562,20 @@ scenes:
       variants:
       - de: Verwünscht! was soll ich thun?
         ja_current: ちくしょう、どうしたらいい？
-        ja_proposed: ちくしょう、どうしたらいい？
-        decision: pending-review
+        ja_proposed: ちくしょう、どうすればよいのだ。
+        decision: revise
         rationale: null
         alternatives: []
       register: null
       scene_dependency: null
     attestations: []
-    textual_issues: []
-    review_comments: []
-    status: unreviewed
+    textual_issues:
+    - type: probable-greek-typo
+      note: >-
+        Printed δράςω has an erroneous sigma; the future is δράσω.
+    review_comments:
+    - Japanese follows the coherent question τί δράσω;.
+    status: ja-proposed
   - id: h-01-034
     source_locator:
       file: part-h.yaml
@@ -1557,8 +1609,8 @@ scenes:
       variants:
       - de: Geben Sie mir einen guten Rath!
         ja_current: いい助言をください！
-        ja_proposed: いい助言をください！
-        decision: pending-review
+        ja_proposed: 何かよい知恵を貸してください！
+        decision: revise
         rationale: null
         alternatives: []
       register: null
@@ -1566,7 +1618,7 @@ scenes:
     attestations: []
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: h-01-035
     source_locator:
       file: part-h.yaml
@@ -1600,8 +1652,8 @@ scenes:
       variants:
       - de: Er will's gewinnen.
         ja_current: 彼はそれを取りに行くつもりだ。
-        ja_proposed: 彼はそれを取りに行くつもりだ。
-        decision: pending-review
+        ja_proposed: 彼は勝つつもりだ。
+        decision: revise
         rationale: null
         alternatives: []
       register: null
@@ -1609,7 +1661,7 @@ scenes:
     attestations: []
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: h-01-036
     source_locator:
       file: part-h.yaml
@@ -1643,8 +1695,8 @@ scenes:
       variants:
       - de: Geben Sie sich keine vergebliche Mühe!
         ja_current: むだな努力はやめなさい！
-        ja_proposed: むだな努力はやめなさい！
-        decision: pending-review
+        ja_proposed: そんな無駄骨はお折りにならぬことです！
+        decision: revise
         rationale: null
         alternatives: []
       register: null
@@ -1652,7 +1704,7 @@ scenes:
     attestations: []
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: h-01-037
     source_locator:
       file: part-h.yaml
@@ -1686,8 +1738,8 @@ scenes:
       variants:
       - de: Hilf Himmel!
         ja_current: 天よ助けて！
-        ja_proposed: 天よ助けて！
-        decision: pending-review
+        ja_proposed: 天よ、お助けを！
+        decision: revise
         rationale: null
         alternatives: []
       register: null
@@ -1695,7 +1747,7 @@ scenes:
     attestations: []
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: h-01-038
     source_locator:
       file: part-h.yaml
@@ -1729,8 +1781,8 @@ scenes:
       variants:
       - de: O weh! Jetzt geht's uns (zweien) schlecht!
         ja_current: うわぁ、これで俺たち二人はまずいぞ！
-        ja_proposed: うわぁ、これで俺たち二人はまずいぞ！
-        decision: pending-review
+        ja_proposed: ああ、これでわれわれ二人ともおしまいだ！
+        decision: revise
         rationale: null
         alternatives: []
       register: null
@@ -1744,7 +1796,7 @@ scenes:
         author: Aristophanes
         work: Wasps
         passage: '315'
-        local_file: /home/mrty/Documents/Perseus/Classics/Aristophanes/opensource/aristoph.wasps_gk.xml
+        local_file: /home/mrty/Documents/Resources/canonical-greekLit/data/tlg0019/tlg004/tlg0019.tlg004.perseus-grc2.xml
       text_grc: ἒ ἔ, παρὰ νῷν στενάζειν!
       original_speakers:
       - Παις
@@ -1759,7 +1811,7 @@ scenes:
       research_method: exact normalized token search
     textual_issues: []
     review_comments: []
-    status: source-researched
+    status: ja-proposed
   - id: h-01-039
     source_locator:
       file: part-h.yaml
@@ -1793,8 +1845,8 @@ scenes:
       variants:
       - de: Gerade das will ich ja!
         ja_current: それこそ望むところだ。
-        ja_proposed: それこそ望むところだ。
-        decision: pending-review
+        ja_proposed: それこそ、こちらの望むところだ！
+        decision: revise
         rationale: null
         alternatives: []
       register: null
@@ -1808,7 +1860,7 @@ scenes:
         author: Aristophanes
         work: Clouds
         passage: '1499'
-        local_file: /home/mrty/Documents/Perseus/Classics/Aristophanes/opensource/aristoph.cl_gk.xml
+        local_file: /home/mrty/Documents/Resources/canonical-greekLit/data/tlg0019/tlg003/tlg0019.tlg003.perseus-grc2.xml
       text_grc: τοῦτ’ αὐτὸ γὰρ καὶ βούλομαι!
       original_speakers:
       - Στρεψιαδης
@@ -1823,7 +1875,7 @@ scenes:
       research_method: exact normalized token search
     textual_issues: []
     review_comments: []
-    status: source-researched
+    status: ja-proposed
   - id: h-01-040
     source_locator:
       file: part-h.yaml
@@ -1857,8 +1909,8 @@ scenes:
       variants:
       - de: Zähle einmal!
         ja_current: 点を数えてみて！
-        ja_proposed: 点を数えてみて！
-        decision: pending-review
+        ja_proposed: さあ、点を数えてみて！
+        decision: revise
         rationale: null
         alternatives: []
       register: null
@@ -1866,7 +1918,7 @@ scenes:
     attestations: []
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: h-01-041
     source_locator:
       file: part-h.yaml
@@ -1900,8 +1952,8 @@ scenes:
       variants:
       - de: Wir haben verspielt!
         ja_current: 私たちは負けてしまった！
-        ja_proposed: 私たちは負けてしまった！
-        decision: pending-review
+        ja_proposed: われわれの負けだ！
+        decision: revise
         rationale: null
         alternatives: []
       register: null
@@ -1909,7 +1961,7 @@ scenes:
     attestations: []
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: h-01-042
     source_locator:
       file: part-h.yaml
@@ -1943,8 +1995,8 @@ scenes:
       variants:
       - de: Bitte, bezahlen Sie!
         ja_current: お支払いください！
-        ja_proposed: お支払いください！
-        decision: pending-review
+        ja_proposed: さあ、お支払いください！
+        decision: revise
         rationale: null
         alternatives: []
       register: null
@@ -1952,7 +2004,7 @@ scenes:
     attestations: []
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: h-01-043
     source_locator:
       file: part-h.yaml
@@ -1986,8 +2038,8 @@ scenes:
       variants:
       - de: Mein Geld ist futsch!
         ja_current: 私の金が消えた！
-        ja_proposed: 私の金が消えた！
-        decision: pending-review
+        ja_proposed: 私の金が消えてしまった！
+        decision: revise
         rationale: null
         alternatives: []
       register: null
@@ -2001,7 +2053,7 @@ scenes:
         author: Aristophanes
         work: Clouds
         passage: '718'
-        local_file: /home/mrty/Documents/Perseus/Classics/Aristophanes/opensource/aristoph.cl_gk.xml
+        local_file: /home/mrty/Documents/Resources/canonical-greekLit/data/tlg0019/tlg003/tlg0019.tlg003.perseus-grc2.xml
       text_grc: φροῦδα τὰ χρήματα!
       original_speakers:
       - Στρεψιαδης
@@ -2016,7 +2068,7 @@ scenes:
       research_method: exact normalized token search
     textual_issues: []
     review_comments: []
-    status: source-researched
+    status: ja-proposed
   - id: h-01-044
     source_locator:
       file: part-h.yaml
@@ -2050,8 +2102,8 @@ scenes:
       variants:
       - de: Es steht schlecht mit mir.
         ja_current: 私の状況はひどいです。
-        ja_proposed: 私の状況はひどいです。
-        decision: pending-review
+        ja_proposed: こちらは、どうも分が悪い。
+        decision: revise
         rationale: null
         alternatives: []
       register: null
@@ -2059,7 +2111,7 @@ scenes:
     attestations: []
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: h-01-045
     source_locator:
       file: part-h.yaml
@@ -2093,8 +2145,8 @@ scenes:
       variants:
       - de: Wir machen miserable Geschäfte.
         ja_current: 私たちはひどい結果でした。
-        ja_proposed: 私たちはひどい結果でした。
-        decision: pending-review
+        ja_proposed: われわれは散々な結果に終わった。
+        decision: revise
         rationale: null
         alternatives: []
       register: null
@@ -2102,31 +2154,45 @@ scenes:
     attestations: []
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
 - id: h-02
   title:
     de: Ein Grand
-    ja: グランドの一局
+    ja: グランの一局
   scene_type: reconstructed_dialogue
   setting:
     situation: Skat players bid and play a Grand game
   cast:
   - id: declarer
-    description: null
-    evidence: null
-    confidence: candidate
+    description: Player B; wins the bidding with Grand and plays alone against A and C.
+    evidence: "B. Grand; Ich spiele selbst aus; Der Rest ist mein; Grand mit Vieren"
+    confidence: high
   - id: opponent-a
-    description: null
-    evidence: null
-    confidence: candidate
+    description: Player A; deals after asking who deals, then partners C against B.
+    evidence: "A. Wer giebt denn? — B. Du selbst; A. Ich auch [passe]"
+    confidence: high
   - id: opponent-b
-    description: null
-    evidence: null
-    confidence: candidate
+    description: Player C; opens the bidding, passes to B, and coordinates play with A.
+    evidence: "C. Ich frage. Grün Solo; C. Passe; Dieser ist unser"
+    confidence: high
   reconstruction:
-    confidence: unreviewed
-    note: Ordering may combine a continuous exchange with reusable model phrases; turn continuity must
-      be justified entry by entry.
+    confidence: high
+    note: >-
+      A asks who deals and is told to deal. C opens the historical suit-bidding sequence with Grün Solo;
+      B holds it, also holds Null, and becomes declarer when C and A pass before B announces Grand.
+      B plays alone against A and C. The defenders exchange forbidden tactical information, prompting
+      B's protest. B ultimately wins a Grand mit Vieren valued at sixty under the table's historical or
+      regional scoring convention.
+  voice_profiles:
+    B: {register: familiar_plain, traits: [complaining, confident, triumphant]}
+    A: {register: familiar_plain, traits: [surprised, argumentative]}
+    C: {register: familiar_plain, traits: [competitive, excitable, defensive]}
+  game_roles:
+    dealer: A
+    declarer: B
+    defenders: [A, C]
+    contract: Grand
+    scoring_as_stated: "mit Vieren; sechzig"
   entries:
   - id: h-02-001
     source_locator:
@@ -2161,8 +2227,8 @@ scenes:
       variants:
       - de: (Ein Grand.)
         ja_current: （グランドのゲーム。）
-        ja_proposed: （グランドのゲーム。）
-        decision: pending-review
+        ja_proposed: （グラン。）
+        decision: revise
         rationale: null
         alternatives: []
       register: null
@@ -2170,7 +2236,7 @@ scenes:
     attestations: []
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: h-02-002
     source_locator:
       file: part-h.yaml
@@ -2204,8 +2270,8 @@ scenes:
       variants:
       - de: A. Wer giebt denn?
         ja_current: さて誰が札を配る？
-        ja_proposed: さて誰が札を配る？
-        decision: pending-review
+        ja_proposed: A. ところで、誰が札を配るんだ。
+        decision: revise
         rationale: null
         alternatives: []
       register: null
@@ -2213,7 +2279,7 @@ scenes:
     attestations: []
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: h-02-003
     source_locator:
       file: part-h.yaml
@@ -2247,8 +2313,8 @@ scenes:
       variants:
       - de: B. Du selbst.
         ja_current: お前だよ。
-        ja_proposed: お前だよ。
-        decision: pending-review
+        ja_proposed: B. 君自身だよ。
+        decision: revise
         rationale: null
         alternatives: []
       register: null
@@ -2256,7 +2322,7 @@ scenes:
     attestations: []
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: h-02-004
     source_locator:
       file: part-h.yaml
@@ -2290,8 +2356,8 @@ scenes:
       variants:
       - de: C. Immer, wer fragt.
         ja_current: いつだって、言い出した人間が配るんだ。
-        ja_proposed: いつだって、言い出した人間が配るんだ。
-        decision: pending-review
+        ja_proposed: C. いつだって、訊いた本人だ。
+        decision: revise
         rationale: null
         alternatives: []
       register: null
@@ -2299,7 +2365,7 @@ scenes:
     attestations: []
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: h-02-005
     source_locator:
       file: part-h.yaml
@@ -2341,16 +2407,20 @@ scenes:
 
           Abend noch kein Spiel gehabt!'
         ja_current: B. じゃあ今度こそまともな札をくれよ。今夜は一度もまともな手がなかったんだ！
-        ja_proposed: B. じゃあ今度こそまともな札をくれよ。今夜は一度もまともな手がなかったんだ！
-        decision: pending-review
+        ja_proposed: B. では今度こそ、まともな札を配ってくれよ。今夜はまだ一度も勝負になる手が来ていないんだ！
+        decision: revise
         rationale: null
         alternatives: []
       register: null
       scene_dependency: null
     attestations: []
-    textual_issues: []
-    review_comments: []
-    status: unreviewed
+    textual_issues:
+    - type: illegible-source-word
+      note: >-
+        The handbook itself notes that one Greek verb in this reconstructed sentence could not be deciphered.
+    review_comments:
+    - Japanese follows the complete German table-talk and does not conjecture the lost verb.
+    status: ja-proposed
   - id: h-02-006
     source_locator:
       file: part-h.yaml
@@ -2386,16 +2456,20 @@ scenes:
       variants:
       - de: C. Ich frage. Grün Solo!
         ja_current: C. 俺が入札する。グリューンのソロだ！
-        ja_proposed: C. 俺が入札する。グリューンのソロだ！
-        decision: pending-review
+        ja_proposed: C. 私から競るぞ。グリューン・ソロ！
+        decision: revise
         rationale: null
         alternatives: []
       register: null
       scene_dependency: null
     attestations: []
-    textual_issues: []
-    review_comments: []
-    status: unreviewed
+    textual_issues:
+    - type: illegible-source-word
+      note: >-
+        The handbook marks a Greek verb as undeciphered after the coined rendering of Grün Solo.
+    review_comments:
+    - Japanese uses the approved historical game term 「グリューン・ソロ」.
+    status: ja-proposed
   - id: h-02-007
     source_locator:
       file: part-h.yaml
@@ -2430,7 +2504,7 @@ scenes:
       - de: B. Das halt' ich!
         ja_current: B. それなら受けて立つ！
         ja_proposed: B. それなら受けて立つ！
-        decision: pending-review
+        decision: retain
         rationale: null
         alternatives: []
       register: null
@@ -2438,7 +2512,7 @@ scenes:
     attestations: []
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: h-02-008
     source_locator:
       file: part-h.yaml
@@ -2472,8 +2546,8 @@ scenes:
       variants:
       - de: C. Null?
         ja_current: C. ヌルはどうだ？
-        ja_proposed: C. ヌルはどうだ？
-        decision: pending-review
+        ja_proposed: C. ヌルは？
+        decision: revise
         rationale: null
         alternatives: []
       register: null
@@ -2481,7 +2555,7 @@ scenes:
     attestations: []
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: h-02-009
     source_locator:
       file: part-h.yaml
@@ -2516,7 +2590,7 @@ scenes:
       - de: B. Auch das.
         ja_current: B. それも受けよう。
         ja_proposed: B. それも受けよう。
-        decision: pending-review
+        decision: retain
         rationale: null
         alternatives: []
       register: null
@@ -2524,7 +2598,7 @@ scenes:
     attestations: []
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: h-02-010
     source_locator:
       file: part-h.yaml
@@ -2559,7 +2633,7 @@ scenes:
       - de: C. Passe.
         ja_current: C. パス。
         ja_proposed: C. パス。
-        decision: pending-review
+        decision: revise
         rationale: null
         alternatives: []
       register: null
@@ -2567,7 +2641,7 @@ scenes:
     attestations: []
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: h-02-011
     source_locator:
       file: part-h.yaml
@@ -2601,8 +2675,8 @@ scenes:
       variants:
       - de: A. Ich auch.
         ja_current: A. 俺もパスだ。
-        ja_proposed: A. 俺もパスだ。
-        decision: pending-review
+        ja_proposed: A. 私もパスだ。
+        decision: revise
         rationale: null
         alternatives: []
       register: null
@@ -2610,7 +2684,7 @@ scenes:
     attestations: []
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: h-02-012
     source_locator:
       file: part-h.yaml
@@ -2644,8 +2718,8 @@ scenes:
       variants:
       - de: B. Grand.
         ja_current: B. グランドで行く。
-        ja_proposed: B. グランドで行く。
-        decision: pending-review
+        ja_proposed: B. グラン。
+        decision: revise
         rationale: null
         alternatives: []
       register: null
@@ -2653,7 +2727,7 @@ scenes:
     attestations: []
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: h-02-013
     source_locator:
       file: part-h.yaml
@@ -2687,8 +2761,8 @@ scenes:
       variants:
       - de: B. Ich spiele selbst aus. Hier! Wenzel 'raus!
         ja_current: B. 親は俺だ。さあ、ヴェンツェルを出すぞ！
-        ja_proposed: B. 親は俺だ。さあ、ヴェンツェルを出すぞ！
-        decision: pending-review
+        ja_proposed: B. 私が最初の札を出すぞ。ほら、ヴェンツェルだ！
+        decision: revise
         rationale: null
         alternatives: []
       register: null
@@ -2696,7 +2770,7 @@ scenes:
     attestations: []
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: h-02-014
     source_locator:
       file: part-h.yaml
@@ -2730,16 +2804,20 @@ scenes:
       variants:
       - de: C. Ja, den kann ich nicht!
         ja_current: C. その札には合わせられない！
-        ja_proposed: C. その札には合わせられない！
-        decision: pending-review
+        ja_proposed: C. そいつには勝てない！
+        decision: revise
         rationale: null
         alternatives: []
       register: null
       scene_dependency: null
     attestations: []
-    textual_issues: []
-    review_comments: []
-    status: unreviewed
+    textual_issues:
+    - type: awkward-greek-calque
+      note: >-
+        Greek οὐ δυνατὸς ἐγὼ ... ὑπὲρ τοῦτον is an awkward constructed equivalent for being unable to beat that card.
+    review_comments:
+    - Japanese translates the actual play situation as 「そいつには勝てない」.
+    status: ja-proposed
   - id: h-02-015
     source_locator:
       file: part-h.yaml
@@ -2774,7 +2852,7 @@ scenes:
       - de: A. Nanu?!
         ja_current: A. なんだって？
         ja_proposed: A. なんだって？
-        decision: pending-review
+        decision: retain
         rationale: null
         alternatives: []
       register: null
@@ -2782,7 +2860,7 @@ scenes:
     attestations: []
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: h-02-016
     source_locator:
       file: part-h.yaml
@@ -2816,8 +2894,8 @@ scenes:
       variants:
       - de: B. Hurrah! Der Alte liegt im Skat! Hier!
         ja_current: B. やった！長老札（オーバーのジャック）がスカートにあったぞ！ほら！
-        ja_proposed: B. やった！長老札（オーバーのジャック）がスカートにあったぞ！ほら！
-        decision: pending-review
+        ja_proposed: B. やった！　アルテ――最強のアイヒェル・ヴェンツェル――は、スカートに入っているぞ！　ほら！
+        decision: revise
         rationale: null
         alternatives: []
       register: null
@@ -2825,7 +2903,7 @@ scenes:
     attestations: []
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: h-02-017
     source_locator:
       file: part-h.yaml
@@ -2859,8 +2937,8 @@ scenes:
       variants:
       - de: C. Himmeldonnerwetter!
         ja_current: C. ちくしょうめ！
-        ja_proposed: C. ちくしょうめ！
-        decision: pending-review
+        ja_proposed: C. ちくしょう！
+        decision: revise
         rationale: null
         alternatives: []
       register: null
@@ -2868,7 +2946,7 @@ scenes:
     attestations: []
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: h-02-018
     source_locator:
       file: part-h.yaml
@@ -2903,7 +2981,7 @@ scenes:
       - de: A. Kreuzmillionen . . .!
         ja_current: A. なんてこった……！
         ja_proposed: A. なんてこった……！
-        decision: pending-review
+        decision: retain
         rationale: null
         alternatives: []
       register: null
@@ -2911,7 +2989,7 @@ scenes:
     attestations: []
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: h-02-019
     source_locator:
       file: part-h.yaml
@@ -2945,8 +3023,8 @@ scenes:
       variants:
       - de: C. Ih, da soll doch der Deiwel 'reinfahren!
         ja_current: C. くそ、悪魔でも持っていけ！
-        ja_proposed: C. くそ、悪魔でも持っていけ！
-        decision: pending-review
+        ja_proposed: C. くそっ、悪魔にでも持っていかれろ！
+        decision: revise
         rationale: null
         alternatives: []
       register: null
@@ -2954,7 +3032,7 @@ scenes:
     attestations: []
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: h-02-020
     source_locator:
       file: part-h.yaml
@@ -2990,16 +3068,20 @@ scenes:
       variants:
       - de: A. Heiliges Gewitter! Hast du denn gar nichts?
         ja_current: A. 何てこった！お前、本当に何も持ってないのか？
-        ja_proposed: A. 何てこった！お前、本当に何も持ってないのか？
-        decision: pending-review
+        ja_proposed: A. なんたることだ！　君は本当に何も持っていないのか？
+        decision: revise
         rationale: null
         alternatives: []
       register: null
       scene_dependency: null
     attestations: []
-    textual_issues: []
-    review_comments: []
-    status: unreviewed
+    textual_issues:
+    - type: illegible-source-word
+      note: >-
+        The handbook marks a verb after ἔχεις as undeciphered. German makes the intended card-table question clear.
+    review_comments:
+    - Japanese follows German “Hast du denn gar nichts?”.
+    status: ja-proposed
   - id: h-02-021
     source_locator:
       file: part-h.yaml
@@ -3033,16 +3115,20 @@ scenes:
       variants:
       - de: C. Dieser ist unser! 'rin, was Beine hat!
         ja_current: C. これは俺たちの取り分だ！動ける札は全部突っ込め！
-        ja_proposed: C. これは俺たちの取り分だ！動ける札は全部突っ込め！
-        decision: pending-review
+        ja_proposed: C. これはこちらが取った！　点になる札はみな放り込め！
+        decision: revise
         rationale: null
         alternatives: []
       register: null
       scene_dependency: null
     attestations: []
-    textual_issues: []
-    review_comments: []
-    status: unreviewed
+    textual_issues:
+    - type: accent-error
+      note: >-
+        Printed ἥμῖν should be ἡμῖν.
+    review_comments:
+    - The error does not affect Japanese.
+    status: ja-proposed
   - id: h-02-022
     source_locator:
       file: part-h.yaml
@@ -3076,8 +3162,8 @@ scenes:
       variants:
       - de: B. Halt! Gesprochen wird nicht beim Spiel!
         ja_current: B. やめろ！プレイ中はしゃべらない！
-        ja_proposed: B. やめろ！プレイ中はしゃべらない！
-        decision: pending-review
+        ja_proposed: B. 待て！　勝負の最中に口をきくな！
+        decision: revise
         rationale: null
         alternatives: []
       register: null
@@ -3085,7 +3171,7 @@ scenes:
     attestations: []
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: h-02-023
     source_locator:
       file: part-h.yaml
@@ -3119,8 +3205,8 @@ scenes:
       variants:
       - de: C. So, das ist auch unser!
         ja_current: C. よし、これもこっちのものだ！
-        ja_proposed: C. よし、これもこっちのものだ！
-        decision: pending-review
+        ja_proposed: C. よし、これも取った！
+        decision: revise
         rationale: null
         alternatives: []
       register: null
@@ -3128,7 +3214,7 @@ scenes:
     attestations: []
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: h-02-024
     source_locator:
       file: part-h.yaml
@@ -3162,8 +3248,8 @@ scenes:
       variants:
       - de: Gottlob! Aus dem Schneider wären wir!
         ja_current: やれやれ、シュナイダーは免れたぞ！
-        ja_proposed: やれやれ、シュナイダーは免れたぞ！
-        decision: pending-review
+        ja_proposed: よし！　これでシュナイダーは免れた！
+        decision: revise
         rationale: null
         alternatives: []
       register: null
@@ -3171,7 +3257,7 @@ scenes:
     attestations: []
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: h-02-025
     source_locator:
       file: part-h.yaml
@@ -3205,8 +3291,8 @@ scenes:
       variants:
       - de: A. Oh, wir kriegen noch viel mehr!
         ja_current: A. まだまだもっと取れるさ！
-        ja_proposed: A. まだまだもっと取れるさ！
-        decision: pending-review
+        ja_proposed: A. いや、まだまだ取れるぞ！
+        decision: revise
         rationale: null
         alternatives: []
       register: null
@@ -3214,7 +3300,7 @@ scenes:
     attestations: []
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: h-02-026
     source_locator:
       file: part-h.yaml
@@ -3248,8 +3334,8 @@ scenes:
       variants:
       - de: B. Keinen Stich! Der Rest ist mein!
         ja_current: B. もう一つも取らせない。残りは全部私のものだ！
-        ja_proposed: B. もう一つも取らせない。残りは全部私のものだ！
-        decision: pending-review
+        ja_proposed: B. もう一度も取らせん！　残りは全部、私のものだ！
+        decision: revise
         rationale: null
         alternatives: []
       register: null
@@ -3257,7 +3343,7 @@ scenes:
     attestations: []
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: h-02-027
     source_locator:
       file: part-h.yaml
@@ -3291,8 +3377,8 @@ scenes:
       variants:
       - de: A. u. C. Oho! — Wahrhaftig!
         ja_current: A・C. なんだと！——本当に？
-        ja_proposed: A・C. なんだと！——本当に？
-        decision: pending-review
+        ja_proposed: A・C. ほう！――本当かよ！
+        decision: revise
         rationale: null
         alternatives: []
       register: null
@@ -3300,7 +3386,7 @@ scenes:
     attestations: []
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: h-02-028
     source_locator:
       file: part-h.yaml
@@ -3338,8 +3424,8 @@ scenes:
 
           ja dicke gewinnen!'
         ja_current: A. どうしてそこでそのスートを出したんだ？ こっちは大勝ちできたはずなのに！
-        ja_proposed: A. どうしてそこでそのスートを出したんだ？ こっちは大勝ちできたはずなのに！
-        decision: pending-review
+        ja_proposed: A. しかし、どうしてよりによってあの組を出したんだ。こちらは大勝できたはずなのに！
+        decision: revise
         rationale: null
         alternatives: []
       register: null
@@ -3347,7 +3433,7 @@ scenes:
     attestations: []
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: h-02-029
     source_locator:
       file: part-h.yaml
@@ -3381,8 +3467,8 @@ scenes:
       variants:
       - de: Ich sitze hier mit der ganzen Grün.
         ja_current: こっちは葉の札を全部抱えてるんだ。
-        ja_proposed: こっちは葉の札を全部抱えてるんだ。
-        decision: pending-review
+        ja_proposed: こちらはグリューンを全部抱えていたんだぞ。
+        decision: revise
         rationale: null
         alternatives: []
       register: null
@@ -3390,7 +3476,7 @@ scenes:
     attestations: []
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: h-02-030
     source_locator:
       file: part-h.yaml
@@ -3432,16 +3518,20 @@ scenes:
 
           — du bist schuld!'
         ja_current: C. そうか？ じゃあなぜ切らなかった？ 俺は正しくリードしたぞ。——お前のせいだ！
-        ja_proposed: C. そうか？ じゃあなぜ切らなかった？ 俺は正しくリードしたぞ。——お前のせいだ！
-        decision: pending-review
+        ja_proposed: C. そうか？　では、なぜ切り札を出さなかったんだ。私は正しく最初の札を出したぞ。――君のせいだ！
+        decision: revise
         rationale: null
         alternatives: []
       register: null
       scene_dependency: null
     attestations: []
-    textual_issues: []
-    review_comments: []
-    status: unreviewed
+    textual_issues:
+    - type: multiple-greek-print-errors
+      note: >-
+        Printed παθὴν should be παθών, and ἐμοίησα should be ἐποίησα. The split ὑπερ-|έβαλες is already corrected by the source footnote.
+    review_comments:
+    - Japanese follows the corrected sense: failure to trump, a defensible opening lead, and blame assigned to the partner.
+    status: ja-proposed
   - id: h-02-031
     source_locator:
       file: part-h.yaml
@@ -3475,13 +3565,17 @@ scenes:
       variants:
       - de: B. Das war Grand mit Vieren! Sechzig. Wer giebt?
         ja_current: B. 今のはグランド・ミット・フィーアレンで六十点だ。次は誰が配る？
-        ja_proposed: B. 今のはグランド・ミット・フィーアレンで六十点だ。次は誰が配る？
-        decision: pending-review
+        ja_proposed: B. 今のは四枚持ちのグラン。六十点だ。次は誰が配る？
+        decision: revise
         rationale: null
         alternatives: []
       register: null
       scene_dependency: null
     attestations: []
-    textual_issues: []
-    review_comments: []
-    status: unreviewed
+    textual_issues:
+    - type: historical-or-regional-scoring
+      note: >-
+        Under the 1886 standardized Grand-solo base value 16, “mit Vieren” plus game would normally yield 80, not 60. Sixty is consistent with a Grand base value 12, which was also historically used in some systems or local agreements.
+    review_comments:
+    - Japanese preserves the stated score and labels the contract 「四枚持ちのグラン」 without silently modernizing it.
+    status: ja-proposed

@@ -12,12 +12,14 @@ meta:
     - Prefer natural spoken Japanese appropriate to the reconstructed relationship.
     - Preserve the German wording except for explicitly identified source or OCR errors.
     - Distinguish the German prompt from the literal and pragmatic force of the Greek.
+    - Check historical German meanings and idioms independently; record rather than conceal German-Greek mismatches.
     - Preserve nineteenth-century objects, institutions, and social conventions where relevant.
     - Do not add politeness, intimacy, gender, or aggression without contextual evidence.
     - Use Japanese punctuation and sentence endings to make turn-taking natural.
   corpus_roots:
-    perseus: /home/mrty/Documents/Perseus/Classics
-    lsj: /home/mrty/Documents/Perseus/Classics/LSJ
+    lsj: /home/mrty/Documents/Resources/LSJ_GreekUnicode
+    canonical_corpus: /home/mrty/Documents/Resources/canonical-greekLit
+    discovery_corpus: /home/mrty/Documents/Resources/ancient-greek-texts
   attestation_match_types:
   - exact
   - near-exact
@@ -26,6 +28,12 @@ meta:
   - formulaic-parallel
   - lexical-only
   - not-found
+  evidence_policy:
+    languages: [grc, de]
+    note: >-
+      Translation-relevant attestations must remain in this review YAML with original text, source,
+      context, relationship to the handbook, confidence, and research method. Record unsuccessful
+      searches and label inference explicitly rather than leaving evidence only in discussion.
   status_values:
   - unreviewed
   - scene-reviewed
@@ -42,13 +50,13 @@ scenes:
     situation: independent proverbial or idiomatic expressions
   cast:
   - id: speaker
-    description: null
-    evidence: null
-    confidence: candidate
+    description: Generic speaker of a maxim, or an adviser/rebuker in imperative entries.
+    evidence: No expression shares a recoverable scene with the next.
+    confidence: high
   - id: interlocutor
-    description: null
-    evidence: null
-    confidence: candidate
+    description: Context-dependent addressee implied by second-person imperatives.
+    evidence: Entries 1, 6, 20, 22, and 23 directly address another person.
+    confidence: high
   reconstruction:
     confidence: high
     note: >
@@ -98,16 +106,20 @@ scenes:
       variants:
       - de: Mensch, ärgere dich nicht!
         ja_current: まあ腹を立てるなよ！
-        ja_proposed: まあ腹を立てるなよ！
-        decision: pending-review
+        ja_proposed: まあ、くよくよするな！
+        decision: revise
         rationale: null
         alternatives: []
       register: null
       scene_dependency: null
     attestations: []
-    textual_issues: []
-    review_comments: []
-    status: unreviewed
+    textual_issues:
+    - type: image-shift
+      note: >-
+        Greek literally says “do not eat yourself,” an idiom for consuming oneself with distress; German uses ärgern.
+    review_comments:
+    - Japanese 「くよくよするな」 conveys the shared pragmatic force without an unnatural literal image.
+    status: ja-proposed
   - id: i-01-002
     source_locator:
       file: part-i.yaml
@@ -147,11 +159,11 @@ scenes:
       variants:
       - de: Eines Mannes Rede ist keine Rede.
         ja_current: 一人の話だけでは判断にならない。
-        ja_proposed: 一人の話だけでは判断にならない。
-        decision: retain
+        ja_proposed: 一方の言い分だけでは、裁きは下せない。
+        decision: revise
         rationale: >
-          The current Japanese naturally conveys the German proverb. The literal Greek should be retained
-          in commentary because it explicitly says to hear both parties before judging.
+          This keeps the German proverb's compact, impersonal form while making “one man's account”
+          idiomatic Japanese. The literal Greek explicitly says to hear both parties before judging.
         alternatives: []
       register: proverbial-neutral
       scene_dependency: independent maxim
@@ -164,7 +176,7 @@ scenes:
         author: Aristophanes
         work: Wasps
         passage: '725'
-        local_file: /home/mrty/Documents/Perseus/Classics/Aristophanes/opensource/aristoph.wasps_gk.xml
+        local_file: /home/mrty/Documents/Resources/canonical-greekLit/data/tlg0019/tlg004/tlg0019.tlg004.perseus-grc2.xml
       text_grc: πρὶν ἂν ἀμφοῖν μῦθον ἀκούσῃς, οὐκ ἂν δικάσαις.
       original_speakers:
       - Χορος
@@ -220,8 +232,8 @@ scenes:
       variants:
       - de: Das hieße Eulen nach Athen tragen.
         ja_current: それではアテナイにフクロウを運ぶようなものだ。
-        ja_proposed: それではアテナイにフクロウを運ぶようなものだ。
-        decision: retain
+        ja_proposed: それでは、アテナイへ梟を運ぶようなものだ。
+        decision: revise
         rationale: The current Japanese preserves the conventional image and proverbial force.
         alternatives: []
       register: proverbial
@@ -235,7 +247,7 @@ scenes:
         author: Aristophanes
         work: Birds
         passage: "301"
-        local_file: /home/mrty/Documents/Perseus/Classics/Aristophanes/opensource/aristoph.birds_gk.xml
+        local_file: /home/mrty/Documents/Resources/canonical-greekLit/data/tlg0019/tlg006/tlg0019.tlg006.perseus-grc2.xml
       text_grc: τί φῄς; τίς γλαῦκ’ Ἀθήναζ’ ἤγαγεν;
       original_speakers:
       - Εὐελπίδης
@@ -290,8 +302,8 @@ scenes:
       variants:
       - de: Vorsicht ist die Mutter der Weis\textcompwordmark{}heit.
         ja_current: 用心は知恵の母だ。
-        ja_proposed: 用心は知恵の母だ。
-        decision: pending-review
+        ja_proposed: 用心は知恵の母である。
+        decision: revise
         rationale: null
         alternatives: []
       register: null
@@ -299,7 +311,7 @@ scenes:
     attestations: []
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: i-01-005
     source_locator:
       file: part-i.yaml
@@ -335,10 +347,10 @@ scenes:
       variants:
       - de: Eine Schwalbe macht noch keinen Sommer.
         ja_current: ツバメが一羽来ても夏とは言えない。
-        ja_proposed: ツバメが一羽来ても夏とは言えない。
-        decision: retain
+        ja_proposed: 燕が一羽来ただけでは、まだ夏とはいえない。
+        decision: revise
         rationale: >
-          The current Japanese uses 夏, following the familiar modern proverb and German Sommer.
+          The proposed Japanese uses 夏, following the familiar modern proverb and German Sommer.
           The Greek text itself says 春, which should be noted rather than silently conflated.
         alternatives: []
       register: proverbial
@@ -352,7 +364,7 @@ scenes:
         author: Aristotle
         work: Nicomachean Ethics
         passage: "1098a18-20"
-        local_file: /home/mrty/Documents/Perseus/Classics/Aristotle/opensource/aristot.nic.eth_gk.xml
+        local_file: /home/mrty/Documents/Resources/canonical-greekLit/data/tlg0086/tlg010/tlg0086.tlg010.perseus-grc2.xml
       text_grc: μία γὰρ χελιδὼν ἔαρ οὐ ποιεῖ, οὐδὲ μία ἡμέρα
       original_speakers: []
       original_scene: >
@@ -366,7 +378,11 @@ scenes:
       - Greek spring rendered by German summer
       confidence: high
       research_method: distinctive phrase search in local Perseus corpus
-    textual_issues: []
+    textual_issues:
+    - type: seasonal-image-shift
+      note: >-
+        German Sommer follows the established German proverb, whereas Greek ἔαρ means “spring.”
+        The Japanese translation follows the German head phrase; the Greek sense is recorded in the gloss and attestation.
     review_comments: []
     status: ja-proposed
   - id: i-01-006
@@ -403,15 +419,19 @@ scenes:
       - de: Menge dich nicht in meine Sachen!
         ja_current: 私のことに口を出すな！
         ja_proposed: 私のことに口を出すな！
-        decision: pending-review
+        decision: retain
         rationale: null
         alternatives: []
       register: null
       scene_dependency: null
     attestations: []
-    textual_issues: []
-    review_comments: []
-    status: unreviewed
+    textual_issues:
+    - type: german-greek-image-shift-and-punctuation
+      note: >-
+        Greek says “do not manage my house” or, idiomatically, “mind your own house,” while German directly says not to meddle in the speaker’s affairs. The Greek also ends with a doubled exclamation mark.
+    review_comments:
+    - Japanese follows the direct German rebuke; the Greek household image is recorded here.
+    status: ja-proposed
   - id: i-01-007
     source_locator:
       file: part-i.yaml
@@ -445,8 +465,8 @@ scenes:
       variants:
       - de: Der reine Menschenfeind (Timon)!
         ja_current: まったくの人嫌いだ（ティモンだ）！
-        ja_proposed: まったくの人嫌いだ（ティモンだ）！
-        decision: pending-review
+        ja_proposed: 正真正銘のティモンだ！
+        decision: revise
         rationale: null
         alternatives: []
       register: null
@@ -454,7 +474,7 @@ scenes:
     attestations: []
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: i-01-008
     source_locator:
       file: part-i.yaml
@@ -491,8 +511,8 @@ scenes:
       variants:
       - de: Immer das alte Lied!
         ja_current: またいつもの決まり文句だ！
-        ja_proposed: またいつもの決まり文句だ！
-        decision: retain
+        ja_proposed: また、いつもの話か！
+        decision: revise
         rationale: >
           The current Japanese correctly renders the attested pragmatic force rather than translating
           the opaque words. 「また同じ話か」is a possible more conversational alternative.
@@ -508,7 +528,7 @@ scenes:
         author: Aristophanes
         work: Ecclesiazusae
         passage: '828'
-        local_file: /home/mrty/Documents/Perseus/Classics/Aristophanes/opensource/aristoph.eccl_gk.xml
+        local_file: /home/mrty/Documents/Resources/canonical-greekLit/data/tlg0019/tlg010/tlg0019.tlg010.perseus-grc2.xml
       text_grc: ὁ Διὸς Κόρινθος!
       original_speakers:
       - Ανηρ Β
@@ -532,7 +552,7 @@ scenes:
         author: Plato
         work: plat.tet6_gk
         passage: 292e
-        local_file: /home/mrty/Documents/Perseus/Classics/Plato/opensource/plat.tet6_gk.xml
+        local_file: /home/mrty/Documents/Resources/canonical-greekLit/data/tlg0059/tlg021/tlg0059.tlg021.perseus-grc2.xml
       text_grc: ὁ Διὸς Κόρινθος!
       original_speakers:
       - Κριτων
@@ -557,7 +577,7 @@ scenes:
         author: Plutarch
         work: plut.138_teubner_gk
         passage: 1072b
-        local_file: /home/mrty/Documents/Perseus/Classics/Plutarch/opensource/plut.138_teubner_gk.xml
+        local_file: /home/mrty/Documents/Resources/canonical-greekLit/data/tlg0007/tlg138/tlg0007.tlg138.perseus-grc2.xml
       text_grc: ὁ Διὸς Κόρινθος!
       original_speakers: []
       original_speaker_beta: null
@@ -609,7 +629,7 @@ scenes:
       - de: \textlatin{Hic Rhodus, hic salta!}
         ja_current: ここがロドスだ、ここで跳べ！
         ja_proposed: ここがロドスだ、ここで跳べ！
-        decision: pending-review
+        decision: retain
         rationale: null
         alternatives: []
       register: null
@@ -617,7 +637,7 @@ scenes:
     attestations: []
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: i-01-010
     source_locator:
       file: part-i.yaml
@@ -651,16 +671,20 @@ scenes:
       variants:
       - de: Ein trauriger Peter (Japper)!
         ja_current: しょんぼりしたやつだ！
-        ja_proposed: しょんぼりしたやつだ！
-        decision: pending-review
+        ja_proposed: まったく情けない奴だ！
+        decision: revise
         rationale: null
         alternatives: []
       register: null
       scene_dependency: null
     attestations: []
-    textual_issues: []
-    review_comments: []
-    status: unreviewed
+    textual_issues:
+    - type: strength-mismatch
+      note: >-
+        LSJ glosses ὁ Μυσῶν ἔσχατος as “the most worthless of men,” stronger than German “ein trauriger Peter.”
+    review_comments:
+    - Japanese 「まったく情けない奴」 mediates between the German comic label and the Greek contempt.
+    status: ja-proposed
   - id: i-01-011
     source_locator:
       file: part-i.yaml
@@ -697,8 +721,8 @@ scenes:
       variants:
       - de: Das Gute ist rar.
         ja_current: 良いものは稀だ。
-        ja_proposed: 良いものは稀だ。
-        decision: retain
+        ja_proposed: 善きものは稀なり。
+        decision: revise
         rationale: >
           「稀だ」naturally conveys the proverbial German. A literal note should preserve that Greek
           says the good or decent contingent is small.
@@ -714,7 +738,7 @@ scenes:
         author: Aristophanes
         work: Frogs
         passage: '783'
-        local_file: /home/mrty/Documents/Perseus/Classics/Aristophanes/opensource/aristoph.frogs_gk.xml
+        local_file: /home/mrty/Documents/Resources/canonical-greekLit/data/tlg0019/tlg009/tlg0019.tlg009.perseus-grc2.xml
       text_grc: ὀλίγον τὸ χρηστόν ἐστιν.
       original_speakers:
       - Αιακος
@@ -770,7 +794,7 @@ scenes:
       variants:
       - de: Es ist kein Vorwärts\textcompwordmark{}kommen (für uns).
         ja_current: （私たちには）前進の見込みがない。
-        ja_proposed: （私たちは）いっこうに前へ進めない。
+        ja_proposed: これでは、にっちもさっちも行かない。
         decision: revise
         rationale: >
           German describes failure to get forward, not merely poor future prospects. The proposal
@@ -787,7 +811,7 @@ scenes:
         author: Aristophanes
         work: Ecclesiazusae
         passage: '109'
-        local_file: /home/mrty/Documents/Perseus/Classics/Aristophanes/opensource/aristoph.eccl_gk.xml
+        local_file: /home/mrty/Documents/Resources/canonical-greekLit/data/tlg0019/tlg010/tlg0019.tlg010.perseus-grc2.xml
       text_grc: οὔτε θέομεν οὔτ’ ἐλαύνομεν.!
       original_speakers:
       - Πραξαγορα
@@ -843,16 +867,20 @@ scenes:
       variants:
       - de: Geld regiert die Welt.
         ja_current: 金が世を動かす。
-        ja_proposed: 金が世を動かす。
-        decision: pending-review
+        ja_proposed: 金が世を支配する。
+        decision: revise
         rationale: null
         alternatives: []
       register: null
       scene_dependency: null
     attestations: []
-    textual_issues: []
-    review_comments: []
-    status: unreviewed
+    textual_issues:
+    - type: punctuation-error
+      note: >-
+        The Greek line ends with the contradictory sequence .!
+    review_comments:
+    - Japanese uses ordinary sentence punctuation.
+    status: ja-proposed
   - id: i-01-014
     source_locator:
       file: part-i.yaml
@@ -886,16 +914,20 @@ scenes:
       variants:
       - de: \textlatin{Donec eris felix, multos numerabis amicos.}
         ja_current: 幸運なうちは友も多い。
-        ja_proposed: 幸運なうちは友も多い。
-        decision: pending-review
+        ja_proposed: 羽振りのよいうちは、友も多い。
+        decision: revise
         rationale: null
         alternatives: []
       register: null
       scene_dependency: null
     attestations: []
-    textual_issues: []
-    review_comments: []
-    status: unreviewed
+    textual_issues:
+    - type: proverbial-image-substitution-and-punctuation
+      note: >-
+        German quotes the general maxim that prosperity attracts friends; Greek uses the concrete proverb “while the pot boils, friendship lives,” and ends with .!
+    review_comments:
+    - Japanese follows the general German maxim as 「羽振りのよいうちは、友も多い」.
+    status: ja-proposed
   - id: i-01-015
     source_locator:
       file: part-i.yaml
@@ -932,8 +964,8 @@ scenes:
       variants:
       - de: Durch Schaden wird man klug!
         ja_current: 痛い目を見て人は賢くなる！
-        ja_proposed: 痛い目を見て人は賢くなる！
-        decision: retain
+        ja_proposed: 損をしてこそ知恵がつく！
+        decision: revise
         rationale: >
           The current Japanese naturally renders the German proverb. The Greek is sharper: it explicitly
           calls the learner a fool and says that knowledge comes only after suffering.
@@ -949,7 +981,7 @@ scenes:
         author: Hesiod
         work: hes.wd_gk
         passage: '218'
-        local_file: /home/mrty/Documents/Perseus/Classics/Hesiod/opensource/hes.wd_gk.xml
+        local_file: /home/mrty/Documents/Resources/canonical-greekLit/data/tlg0020/tlg002/tlg0020.tlg002.perseus-grc2.xml
       text_grc: \quotedblbase παθὼν δέ τε νήπιος ἔγνω.``
       original_speakers: []
       original_speaker_beta: null
@@ -1006,7 +1038,7 @@ scenes:
       variants:
       - de: \textlatin{Tempi passati!}
         ja_current: 過ぎ去った時代だ！
-        ja_proposed: 昔はよかったものだ！
+        ja_proposed: 今は昔！
         decision: revise
         rationale: >
           Italian tempi passati evokes former days now gone. The current nominal sentence is unnatural
@@ -1023,7 +1055,7 @@ scenes:
         author: Aristophanes
         work: Plutus
         passage: '1003'
-        local_file: /home/mrty/Documents/Perseus/Classics/Aristophanes/opensource/aristoph.pl_gk.xml
+        local_file: /home/mrty/Documents/Resources/canonical-greekLit/data/tlg0019/tlg011/tlg0019.tlg011.perseus-grc2.xml
       text_grc: πάλαι ποτ’ ἦσαν ἄλκιμοι Μιλήσιοι.
       original_speakers:
       - Γραυς
@@ -1049,7 +1081,7 @@ scenes:
         author: Aristophanes
         work: Plutus
         passage: '1075'
-        local_file: /home/mrty/Documents/Perseus/Classics/Aristophanes/opensource/aristoph.pl_gk.xml
+        local_file: /home/mrty/Documents/Resources/canonical-greekLit/data/tlg0019/tlg011/tlg0019.tlg011.perseus-grc2.xml
       text_grc: πάλαι ποτ’ ἦσαν ἄλκιμοι Μιλήσιοι.
       original_speakers:
       - Χρεμυλος
@@ -1071,7 +1103,7 @@ scenes:
         author: Athenaeus
         work: ath12_gk
         passage: 523f
-        local_file: /home/mrty/Documents/Perseus/Classics/Athenaeus/opensource/ath12_gk.xml
+        local_file: /home/mrty/Documents/Resources/canonical-greekLit/data/tlg0008/tlg001/tlg0008.tlg001.perseus-grc3.xml
       text_grc: πάλαι ποτ’ ἦσαν ἄλκιμοι Μιλήσιοι.
       original_speakers: []
       original_speaker_beta: null
@@ -1090,7 +1122,7 @@ scenes:
         author: Diodorus Siculus
         work: diod_gk
         passage: '3'
-        local_file: /home/mrty/Documents/Perseus/Classics/Diodorus/opensource/diod_gk.xml
+        local_file: /home/mrty/Documents/Resources/canonical-greekLit/data/tlg0060/tlg001/tlg0060.tlg001.perseus-grc4.xml
       text_grc: πάλαι ποτ’ ἦσαν ἄλκιμοι Μιλήσιοι.
       original_speakers: []
       original_speaker_beta: null
@@ -1102,8 +1134,12 @@ scenes:
       adaptations: []
       confidence: medium
       research_method: exact normalized token search
-    textual_issues: []
-    review_comments: []
+    textual_issues:
+    - type: proverbial-image-substitution
+      note: >-
+        Italian Tempi passati states that the good times are past; Greek alludes to the once-mighty Milesians.
+    review_comments:
+    - Japanese 「今は昔」 preserves the concise retrospective force.
     status: ja-proposed
   - id: i-01-017
     source_locator:
@@ -1141,8 +1177,8 @@ scenes:
       variants:
       - de: \textlatin{Ubi bene, ibi patria!}
         ja_current: 住みよい所こそ祖国だ！
-        ja_proposed: 住みよい所こそ祖国だ！
-        decision: retain
+        ja_proposed: 住みよい所こそ、わが祖国！
+        decision: revise
         rationale: >
           「住みよい所」is an idiomatic rendering of εὖ πράττειν. Commentary should preserve that
           the ancient line can sound opportunistic rather than warmly cosmopolitan.
@@ -1158,7 +1194,7 @@ scenes:
         author: Aristophanes
         work: Plutus
         passage: '1151'
-        local_file: /home/mrty/Documents/Perseus/Classics/Aristophanes/opensource/aristoph.pl_gk.xml
+        local_file: /home/mrty/Documents/Resources/canonical-greekLit/data/tlg0019/tlg011/tlg0019.tlg011.perseus-grc2.xml
       text_grc: πατρὶς γάρ ἐστι πᾶσ’, ἵν ἂν πράττῃ τις εὖ.
       original_speakers:
       - Ερμης
@@ -1212,16 +1248,20 @@ scenes:
       variants:
       - de: Er ist der beste Bruder auch nicht!
         ja_current: 彼だって決して善人ではない！
-        ja_proposed: 彼だって決して善人ではない！
-        decision: pending-review
+        ja_proposed: 彼も決して、ろくな仲間ではない。
+        decision: revise
         rationale: null
         alternatives: []
       register: null
       scene_dependency: null
     attestations: []
-    textual_issues: []
-    review_comments: []
-    status: unreviewed
+    textual_issues:
+    - type: idiom-substitution
+      note: >-
+        German “nicht der beste Bruder” means no fine fellow; Greek says he belongs to the bad lot or stamp.
+    review_comments:
+    - Japanese 「ろくな仲間ではない」 fits both idioms.
+    status: ja-proposed
   - id: i-01-019
     source_locator:
       file: part-i.yaml
@@ -1255,8 +1295,8 @@ scenes:
       variants:
       - de: \textlatin{Parturiunt montes etc.}
         ja_current: 山の胎動、産んだのは鼠一匹。
-        ja_proposed: 山の胎動、産んだのは鼠一匹。
-        decision: pending-review
+        ja_proposed: 大山鳴動して鼠一匹。
+        decision: revise
         rationale: null
         alternatives: []
       register: null
@@ -1264,7 +1304,7 @@ scenes:
     attestations: []
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: i-01-020
     source_locator:
       file: part-i.yaml
@@ -1298,8 +1338,8 @@ scenes:
       variants:
       - de: Du giebst dir vergebliche Mühe.
         ja_current: 骨折り損だ。
-        ja_proposed: 骨折り損だ。
-        decision: pending-review
+        ja_proposed: 所詮は無駄骨だ。
+        decision: revise
         rationale: null
         alternatives: []
       register: null
@@ -1307,7 +1347,7 @@ scenes:
     attestations: []
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: i-01-021
     source_locator:
       file: part-i.yaml
@@ -1341,16 +1381,20 @@ scenes:
       variants:
       - de: Das Übel ärger machen.
         ja_current: 災いに拍車をかける。
-        ja_proposed: 災いに拍車をかける。
-        decision: pending-review
+        ja_proposed: 災いをいっそうひどくする。
+        decision: revise
         rationale: null
         alternatives: []
       register: null
       scene_dependency: null
     attestations: []
-    textual_issues: []
-    review_comments: []
-    status: unreviewed
+    textual_issues:
+    - type: elliptical-greek-idiom
+      note: >-
+        πλέον θάτερον ποιεῖν is elliptical, literally “make the other side greater,” and is used for worsening the adverse effect rather than improving matters.
+    review_comments:
+    - Japanese makes the German force explicit as 「災いをいっそうひどくする」.
+    status: ja-proposed
   - id: i-01-022
     source_locator:
       file: part-i.yaml
@@ -1386,8 +1430,8 @@ scenes:
       variants:
       - de: Eile mit Weile.
         ja_current: 急がば回れ。
-        ja_proposed: 急がば回れ。
-        decision: pending-review
+        ja_proposed: ゆっくり急げ。
+        decision: revise
         rationale: null
         alternatives: []
       register: null
@@ -1395,7 +1439,7 @@ scenes:
     attestations: []
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: i-01-023
     source_locator:
       file: part-i.yaml
@@ -1434,7 +1478,7 @@ scenes:
       variants:
       - de: Laß dir genügen!
         ja_current: 分をわきまえて満足せよ！
-        ja_proposed: 足るを知りなさい。
+        ja_proposed: 足るを知れ――半ばは全体に勝る。
         decision: revise
         rationale: >
           「分をわきまえる」adds social rank or prescribed station, which neither German nor Greek
@@ -1451,7 +1495,7 @@ scenes:
         author: Hesiod
         work: hes.wd_gk
         passage: '40'
-        local_file: /home/mrty/Documents/Perseus/Classics/Hesiod/opensource/hes.wd_gk.xml
+        local_file: /home/mrty/Documents/Resources/canonical-greekLit/data/tlg0020/tlg002/tlg0020.tlg002.perseus-grc2.xml
       text_grc: πλέον ἥμισυ παντός!
       original_speakers: []
       original_speaker_beta: null
@@ -1477,7 +1521,7 @@ scenes:
         author: Plutarch
         work: plut.068_teubner_gk
         passage: '21'
-        local_file: /home/mrty/Documents/Perseus/Classics/Plutarch/opensource/plut.068_teubner_gk.xml
+        local_file: /home/mrty/Documents/Resources/canonical-greekLit/data/tlg0007/tlg068/tlg0007.tlg068.perseus-grc2.xml
       text_grc: πλέον ἥμισυ παντός!
       original_speakers: []
       original_speaker_beta: null
@@ -1496,7 +1540,7 @@ scenes:
         author: Polybius
         work: hist_gk
         passage: '8'
-        local_file: /home/mrty/Documents/Perseus/Classics/Polybius/opensource/hist_gk.xml
+        local_file: /home/mrty/Documents/Resources/canonical-greekLit/data/tlg0543/tlg001/tlg0543.tlg001.perseus-grc2.xml
       text_grc: πλέον ἥμισυ παντός!
       original_speakers: []
       original_speaker_beta: null

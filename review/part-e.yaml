@@ -12,12 +12,14 @@ meta:
     - Prefer natural spoken Japanese appropriate to the reconstructed relationship.
     - Preserve the German wording except for explicitly identified source or OCR errors.
     - Distinguish the German prompt from the literal and pragmatic force of the Greek.
+    - Check historical German meanings and idioms independently; record rather than conceal German-Greek mismatches.
     - Preserve nineteenth-century objects, institutions, and social conventions where relevant.
     - Do not add politeness, intimacy, gender, or aggression without contextual evidence.
     - Use Japanese punctuation and sentence endings to make turn-taking natural.
   corpus_roots:
-    perseus: /home/mrty/Documents/Perseus/Classics
-    lsj: /home/mrty/Documents/Perseus/Classics/LSJ
+    lsj: /home/mrty/Documents/Resources/LSJ_GreekUnicode
+    canonical_corpus: /home/mrty/Documents/Resources/canonical-greekLit
+    discovery_corpus: /home/mrty/Documents/Resources/ancient-greek-texts
   attestation_match_types:
   - exact
   - near-exact
@@ -26,6 +28,12 @@ meta:
   - formulaic-parallel
   - lexical-only
   - not-found
+  evidence_policy:
+    languages: [grc, de]
+    note: >-
+      Translation-relevant attestations must remain in this review YAML with original text, source,
+      context, relationship to the handbook, confidence, and research method. Record unsuccessful
+      searches and label inference explicitly rather than leaving evidence only in discussion.
   status_values:
   - unreviewed
   - scene-reviewed
@@ -37,33 +45,66 @@ scenes:
   title:
     de: Liebes\textcompwordmark{}sehnsucht
     ja: 恋のあこがれ
-  scene_type: reconstructed_dialogue
+  scene_type: mixed
   setting:
     situation: a lover confides longing for Anna
   cast:
   - id: lover
-    description: null
-    evidence: null
-    confidence: candidate
+    description: Person strongly attached to Anna; speaks plainly with an intimate confidant.
+    evidence: "meine Anna; Sehnsucht nach Anna; repeated du-forms in the informal exchange"
+    confidence: high
   - id: confidant
-    description: null
-    evidence: null
-    confidence: candidate
+    description: Familiar interlocutor who questions, observes Anna, and offers blunt advice.
+    evidence: "Du wunderst dich?; Sei kein Thor!; Siehst du nicht?; Kümmere dich nicht weiter um sie!"
+    confidence: high
   - id: Anna
-    description: null
-    evidence: null
-    confidence: candidate
+    description: Woman discussed and later observed; no securely assigned spoken turn in this section.
+    evidence: "third-person references throughout entries e-01-001 through e-01-023"
+    confidence: high
+  - id: formal-speaker
+    description: Speaker in reusable polite model phrases; not securely identical with lover or confidant.
+    evidence: "Sie in e-01-001 and Ihnen in e-01-026 contrast with the informal du-run"
+    confidence: medium
   reconstruction:
-    confidence: unreviewed
-    note: Ordering may combine a continuous exchange with reusable model phrases; turn continuity must
-      be justified entry by entry.
+    confidence: high
+    note: >-
+      The ordering contains several usable dialogue runs rather than one continuous scene. Entries 1-3 form a
+      formal question and confession; 4-9 form an informal response; 10-13 present Anna's approach, while 14 is
+      an alternative observation incompatible with 13 as a strict next turn; 15-23 form an informal jealous
+      exchange; 24-26 are polite greeting formulas whose speakers and referents are not securely continuous.
+  voice_profiles:
+    informal_lover:
+      register: plain
+      traits: [emotional, romantic, jealous]
+      japanese_policy: "Use restrained plain speech; omit pronouns unless contrast requires them."
+    informal_confidant:
+      register: plain
+      traits: [direct, teasing, corrective]
+      japanese_policy: "Use concise plain forms without unsupported insults such as お前."
+    formal_model_phrases:
+      register: polite
+      traits: [socially courteous]
+      japanese_policy: "Use です／ます and do not assume that these turns belong to the informal pair."
+  turn_groups:
+  - entries: [e-01-001, e-01-002, e-01-003]
+    description: formal inquiry followed by the lover's confession
+  - entries: [e-01-004, e-01-005, e-01-006, e-01-007, e-01-008, e-01-009]
+    description: informal reaction, defence, lament, rebuke, and further lament
+  - entries: [e-01-010, e-01-011, e-01-012, e-01-013]
+    description: Anna is absent, approaches, and is finally seen
+  - entries: [e-01-014]
+    description: alternative model phrase, not a strict continuation after e-01-013
+  - entries: [e-01-015, e-01-016, e-01-017, e-01-018, e-01-019, e-01-020, e-01-021, e-01-022, e-01-023]
+    description: informal jealous exchange between lover and confidant
+  - entries: [e-01-024, e-01-025, e-01-026]
+    description: polite greeting formulas; exact continuity and referents remain uncertain
   entries:
   - id: e-01-001
     source_locator:
       file: part-e.yaml
       section_index: 1
       conversation_index: 1
-      fingerprint: 3d6781ec620f62ec
+      fingerprint: f66bcddd02848f61
     source:
       modern:
       - de: Wie denken Sie über das Mädel?
@@ -87,30 +128,73 @@ scenes:
       followed_by: null
       alternatives: []
     grammar:
-      syntax: null
-      literal_gloss: null
-      particles_and_idioms: []
-      pragmatic_force: null
+      syntax: "τί is the object of future ἐρεῖς; περὶ with the genitive introduces the person discussed."
+      literal_gloss: では、その娘について何と言いますか。
+      particles_and_idioms:
+      - form: τί οὖν ἐρεῖς;
+        function: asks for the interlocutor's considered response or opinion
+      pragmatic_force: A polite opening question about Anna.
     translation:
       variants:
       - de: Wie denken Sie über das Mädel?
         ja_current: あの娘をどう思いますか。
-        ja_proposed: あの娘をどう思いますか。
-        decision: pending-review
-        rationale: null
+        ja_proposed: あの娘のことは、どうお思いですか。
+        decision: accepted
+        rationale: >-
+          Retains the polite Sie-register and makes the topic relation explicit without adding a stronger
+          judgment than German denken über.
         alternatives: []
       register: null
       scene_dependency: null
-    attestations: []
+    attestations:
+    - target: σπεῦδέ νυν!
+      status: source-context-checked
+      match_type: exact
+      reference_as_given: null
+      source:
+        author: Aristophanes
+        work: Plutus
+        passage: 414b
+        local_file: /home/mrty/Documents/Resources/canonical-greekLit/data/tlg0019/tlg011/tlg0019.tlg011.perseus-grc2.xml
+      text_grc: σπεῦδέ νυν.
+      original_speakers:
+      - Βλεψίδημος
+      original_scene: >-
+        Chremylus says that he is already setting out to take Plutus to Asclepius; Blepsidemus adds this brisk
+        final prompt, and Chremylus replies that he is doing precisely that.
+      relationship_to_handbook: Verbatim exhortation used as one Greek equivalent of the German head phrase.
+      adaptations: []
+      confidence: high
+      research_method: exact phrase and dramatic context checked in the local canonical corpus
+    - target: ἔπειγέ νυν!
+      status: source-context-checked
+      match_type: exact
+      reference_as_given: null
+      source:
+        author: Euripides
+        work: Electra
+        passage: '1437'
+        local_file: /home/mrty/Documents/Resources/canonical-greekLit/data/tlg0011/tlg005/tlg0011.tlg005.perseus-grc2.xml
+      text_grc: ᾗ νοεῖς ἔπειγέ νυν.
+      original_speakers:
+      - Ἠλέκτρα
+      original_scene: >-
+        As danger approaches, Orestes tells Electra to take courage and says they will carry out the plan.
+        Electra answers, “Hurry then, as you intend,” and he immediately moves.
+      relationship_to_handbook: The handbook extracts the imperative and exhortative νυν from Electra's line.
+      adaptations:
+      - introductory ᾗ νοεῖς omitted
+      confidence: high
+      research_method: exact phrase and dramatic context checked in the local canonical corpus
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: accepted
   - id: e-01-002
     source_locator:
       file: part-e.yaml
       section_index: 1
       conversation_index: 2
-      fingerprint: 9b1f352bc3200b29
+      fingerprint: fcb2e36725a23e61
     source:
       modern:
       - de: Alles nichts gegen meine Anna!
@@ -130,30 +214,62 @@ scenes:
       followed_by: null
       alternatives: []
     grammar:
-      syntax: null
-      literal_gloss: null
-      particles_and_idioms: []
-      pragmatic_force: null
+      syntax: "τἆλλα is the subject of λῆρός ἐστι; πρὸς Ἄνναν expresses comparison with Anna."
+      literal_gloss: アンナに比べれば、ほかのものはたわごとだ。
+      particles_and_idioms:
+      - form: λῆρός ἐστι
+        function: dismisses something as nonsense or worthless
+      pragmatic_force: Extravagant praise of Anna at the expense of all rivals.
     translation:
       variants:
       - de: Alles nichts gegen meine Anna!
         ja_current: 我がアンナに比べれば大したことありませんよ。
-        ja_proposed: 我がアンナに比べれば大したことありませんよ。
-        decision: pending-review
-        rationale: null
+        ja_proposed: 我がアンナに比べれば他の娘など物の数ではありません！
+        decision: accepted
+        rationale: >-
+          「物の数ではない」naturally conveys Alles nichts gegen and the dismissive force of λῆρος,
+          while retaining the speaker's polite register from the opening exchange.
         alternatives: []
       register: null
       scene_dependency: null
-    attestations: []
-    textual_issues: []
+    attestations:
+    - target: οὔκουν ἐπείξει;
+      status: source-context-checked
+      match_type: near-exact
+      reference_as_given: null
+      source:
+        author: Aeschylus
+        work: Prometheus Bound
+        passage: '52'
+        local_file: /home/mrty/Documents/Resources/canonical-greekLit/data/tlg0085/tlg003/tlg0085.tlg003.perseus-grc2.xml
+      text_grc: οὔκουν ἐπείξῃ τῷδε δεσμὰ περιβαλεῖν;
+      original_speakers:
+      - Κράτος
+      original_scene: >-
+        Hephaestus reluctantly accepts that he must bind Prometheus. Kratos impatiently presses him to put the
+        fetters on before Zeus sees him idling.
+      relationship_to_handbook: >-
+        Direct parallel for the impatient future question. The handbook removes the infinitival complement and
+        prints ἐπείξει where the source and LSJ have second-person future middle ἐπείξῃ.
+      adaptations:
+      - complement τῷδε δεσμὰ περιβαλεῖν omitted
+      confidence: high
+      research_method: construction and dramatic context checked against LSJ and the local canonical corpus
+    textual_issues:
+    - type: probable-form-error
+      source_text: ἐπείξει
+      proposed_reading: ἐπείξῃ
+      note: >-
+        The intended second-person future middle required by the German addressee and by the urgent-question
+        construction is ἐπείξῃ, as printed in Aeschylus, Prometheus Bound 52 and quoted by LSJ under οὔκουν.
     review_comments: []
-    status: unreviewed
+    status: accepted
   - id: e-01-003
     source_locator:
       file: part-e.yaml
       section_index: 1
       conversation_index: 3
-      fingerprint: 434128e37ea78633
+      fingerprint: 3998e5f107107b70
     source:
       modern:
       - de: Die Sehnsucht nach Anna quält mich.
@@ -183,8 +299,8 @@ scenes:
       variants:
       - de: Die Sehnsucht nach Anna quält mich.
         ja_current: アンナに会いたい気持ちに\ruby{苛}{さいな}まれています。
-        ja_proposed: アンナに会いたい気持ちに\ruby{苛}{さいな}まれています。
-        decision: pending-review
+        ja_proposed: アンナへの思いに\ruby{苛}{さいな}まれています。
+        decision: accepted
         rationale: null
         alternatives: []
       register: null
@@ -192,13 +308,13 @@ scenes:
     attestations: []
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: accepted
   - id: e-01-004
     source_locator:
       file: part-e.yaml
       section_index: 1
       conversation_index: 4
-      fingerprint: f5d2ca60ea986407
+      fingerprint: 52d16284148b100f
     source:
       modern:
       - de: Im Ernst?
@@ -226,8 +342,8 @@ scenes:
       variants:
       - de: Im Ernst?
         ja_current: \ruby{真実}{まこと}か？
-        ja_proposed: \ruby{真実}{まこと}か？
-        decision: pending-review
+        ja_proposed: 本気なのか？
+        decision: accepted
         rationale: null
         alternatives: []
       register: null
@@ -235,7 +351,7 @@ scenes:
     attestations: []
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: accepted
   - id: e-01-005
     source_locator:
       file: part-e.yaml
@@ -270,7 +386,7 @@ scenes:
       - de: Du wunderst dich?
         ja_current: 驚いたか？
         ja_proposed: 驚いたか？
-        decision: pending-review
+        decision: accepted
         rationale: null
         alternatives: []
       register: null
@@ -278,7 +394,7 @@ scenes:
     attestations: []
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: accepted
   - id: e-01-006
     source_locator:
       file: part-e.yaml
@@ -313,7 +429,7 @@ scenes:
       - de: Warum wunderst du dich?
         ja_current: なぜ驚くのだ。
         ja_proposed: なぜ驚くのだ。
-        decision: pending-review
+        decision: accepted
         rationale: null
         alternatives: []
       register: null
@@ -321,13 +437,13 @@ scenes:
     attestations: []
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: accepted
   - id: e-01-007
     source_locator:
       file: part-e.yaml
       section_index: 1
       conversation_index: 7
-      fingerprint: 524da63501026c1c
+      fingerprint: b2759cc091d828b0
     source:
       modern:
       - de: Wie schmerzlich für mich, daß sie nicht da ist!
@@ -355,8 +471,8 @@ scenes:
       variants:
       - de: Wie schmerzlich für mich, daß sie nicht da ist!
         ja_current: 彼女がいないのは私にはつらいことです。
-        ja_proposed: 彼女がいないのは私にはつらいことです。
-        decision: pending-review
+        ja_proposed: 彼女がいないのが、どれほどつらいことか！
+        decision: accepted
         rationale: null
         alternatives: []
       register: null
@@ -364,13 +480,13 @@ scenes:
     attestations: []
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: accepted
   - id: e-01-008
     source_locator:
       file: part-e.yaml
       section_index: 1
       conversation_index: 8
-      fingerprint: 405e9fc2cafa538d
+      fingerprint: 9c566d9c3aeb9f59
     source:
       modern:
       - de: Sei kein Thor!
@@ -398,8 +514,8 @@ scenes:
       variants:
       - de: Sei kein Thor!
         ja_current: ばかなことを言うな。
-        ja_proposed: ばかなことを言うな。
-        decision: pending-review
+        ja_proposed: 馬鹿なことはよせ！
+        decision: accepted
         rationale: null
         alternatives: []
       register: null
@@ -407,13 +523,13 @@ scenes:
     attestations: []
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: accepted
   - id: e-01-009
     source_locator:
       file: part-e.yaml
       section_index: 1
       conversation_index: 9
-      fingerprint: ded8d99dadd037df
+      fingerprint: f2743e1d01a6bdba
     source:
       modern:
       - de: Die Zeit wird mir lang, weil ich das herrliche Mädchen nicht sehe.
@@ -444,38 +560,48 @@ scenes:
       variants:
       - de: Die Zeit wird mir lang, weil ich das herrliche Mädchen nicht sehe.
         ja_current: あのすばらしい娘に会えないので時間が長く感じます。
-        ja_proposed: あのすばらしい娘に会えないので時間が長く感じます。
-        decision: pending-review
+        ja_proposed: あの素晴らしい娘に会えないので、時の経つのがひどく長く感じられる。
+        decision: accepted
         rationale: null
         alternatives: []
       register: null
       scene_dependency: null
     attestations:
-    - target: null
-      status: handbook-or-editor-reference-unchecked
-      match_type: null
-      reference_as_given: Xenophontis _Institutio Cyri_ I.iv.28.11.  οὐκ οἶσθα, φάναι, ὦ Κῦρε, ὅτι καὶ
-        ὅσον σκαρδαμύττω χρόνον, πάνυ πολύς μοι δοκεῖ εἶναι, ὅτι οὐχ ὁρῶ σε τότε τοιοῦτον ὄντα;
+    - target: πάνυ πολύς μοι δοκεῖ εἶναι χρόνος, ὅτι οὐχ ὁρῶ αὐτὴν τοιαύτην οὖσαν.
+      status: source-context-checked
+      match_type: adapted
+      reference_as_given: >-
+        Xenophontis _Institutio Cyri_ I.iv.28.11. οὐκ οἶσθα, φάναι, ὦ Κῦρε, ὅτι καὶ ὅσον
+        σκαρδαμύττω χρόνον, πάνυ πολύς μοι δοκεῖ εἶναι, ὅτι οὐχ ὁρῶ σε τότε τοιοῦτον ὄντα;
       source:
-        author: null
-        work: null
-        passage: null
-        local_file: null
-      text_grc: null
-      original_speakers: []
-      original_scene: null
-      relationship_to_handbook: null
-      adaptations: []
-      confidence: unverified
+        author: Xenophon
+        work: Cyropaedia
+        passage: 1.4.28
+        local_file: /home/mrty/Documents/Resources/canonical-greekLit/data/tlg0032/tlg007/tlg0032.tlg007.perseus-grc2.xml
+      text_grc: >-
+        οὐκ οἶσθα, φάναι, ὦ Κῦρε, ὅτι καὶ ὅσον σκαρδαμύττω χρόνον, πάνυ πολύς μοι
+        δοκεῖ εἶναι, ὅτι οὐχ ὁρῶ σε τότε τοιοῦτον ὄντα;
+      original_speakers: [the Median relative of Cyrus]
+      original_scene: >-
+        The Mede affectionately tells Cyrus that even the duration of a blink seems very long when he
+        cannot see him as he was before. Cyrus laughs at the extravagant display of affection.
+      relationship_to_handbook: >-
+        The handbook preserves the core syntax and hyperbole but replaces second-person Cyrus with
+        third-person Anna and recasts familial affection as romantic longing.
+      adaptations:
+      - σε replaced by αὐτήν
+      - τοιοῦτον ὄντα changed to feminine τοιαύτην οὖσαν
+      - original blink-time context omitted
+      confidence: high
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: accepted
   - id: e-01-010
     source_locator:
       file: part-e.yaml
       section_index: 1
       conversation_index: 10
-      fingerprint: b8952d2c4201cb5f
+      fingerprint: 412c0cf964e40179
     source:
       modern:
       - de: Sie ist nicht hier.
@@ -503,8 +629,8 @@ scenes:
       variants:
       - de: Sie ist nicht hier.
         ja_current: 彼女はここにいません。
-        ja_proposed: 彼女はここにいません。
-        decision: pending-review
+        ja_proposed: 彼女はここにはいない。
+        decision: accepted
         rationale: null
         alternatives: []
       register: null
@@ -512,13 +638,13 @@ scenes:
     attestations: []
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: accepted
   - id: e-01-011
     source_locator:
       file: part-e.yaml
       section_index: 1
       conversation_index: 11
-      fingerprint: 755b63c85f04cd02
+      fingerprint: b396c96d813e51d4
     source:
       modern:
       - de: Aber sie ist schon auf dem Wege.
@@ -546,8 +672,8 @@ scenes:
       variants:
       - de: Aber sie ist schon auf dem Wege.
         ja_current: でも彼女はもう向かっているところです。
-        ja_proposed: でも彼女はもう向かっているところです。
-        decision: pending-review
+        ja_proposed: しかし、彼女はもうこちらへ向かっているところだ。
+        decision: accepted
         rationale: null
         alternatives: []
       register: null
@@ -555,13 +681,13 @@ scenes:
     attestations: []
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: accepted
   - id: e-01-012
     source_locator:
       file: part-e.yaml
       section_index: 1
       conversation_index: 12
-      fingerprint: 7b114b9ea34b1a6c
+      fingerprint: 9f0f04114101d2ad
     source:
       modern:
       - de: Da kommt sie!
@@ -589,8 +715,8 @@ scenes:
       variants:
       - de: Da kommt sie!
         ja_current: ほら、彼女が来ます。
-        ja_proposed: ほら、彼女が来ます。
-        decision: pending-review
+        ja_proposed: ほら、彼女が来るぞ！
+        decision: accepted
         rationale: null
         alternatives: []
       register: null
@@ -598,13 +724,13 @@ scenes:
     attestations: []
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: accepted
   - id: e-01-013
     source_locator:
       file: part-e.yaml
       section_index: 1
       conversation_index: 13
-      fingerprint: a4e8c160c136fd7b
+      fingerprint: cae62670e232e177
     source:
       modern:
       - de: Jetzt sehe ich sie endlich.
@@ -636,8 +762,8 @@ scenes:
       variants:
       - de: Jetzt sehe ich sie endlich.
         ja_current: やっと彼女が見えました。
-        ja_proposed: やっと彼女が見えました。
-        decision: pending-review
+        ja_proposed: やっと彼女が見えた。
+        decision: accepted
         rationale: null
         alternatives: []
       register: null
@@ -645,13 +771,13 @@ scenes:
     attestations: []
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: accepted
   - id: e-01-014
     source_locator:
       file: part-e.yaml
       section_index: 1
       conversation_index: 14
-      fingerprint: c2b7550833ccd729
+      fingerprint: b48b534e6ce38360
     source:
       modern:
       - de: Sie ist schon ziemlich lange da.
@@ -679,8 +805,8 @@ scenes:
       variants:
       - de: Sie ist schon ziemlich lange da.
         ja_current: 彼女はもうだいぶ前からそこにいますよ。
-        ja_proposed: 彼女はもうだいぶ前からそこにいますよ。
-        decision: pending-review
+        ja_proposed: 彼女なら、もうずいぶん前から来ているよ。
+        decision: accepted
         rationale: null
         alternatives: []
       register: null
@@ -688,13 +814,13 @@ scenes:
     attestations: []
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: accepted
   - id: e-01-015
     source_locator:
       file: part-e.yaml
       section_index: 1
       conversation_index: 15
-      fingerprint: 6a77bbddc3522b5b
+      fingerprint: 5598aa76dc3745c0
     source:
       modern:
       - de: Das ist unerhört!
@@ -722,8 +848,8 @@ scenes:
       variants:
       - de: Das ist unerhört!
         ja_current: とんでもないことです。
-        ja_proposed: とんでもないことです。
-        decision: pending-review
+        ja_proposed: なんたることだ！
+        decision: accepted
         rationale: null
         alternatives: []
       register: null
@@ -731,7 +857,7 @@ scenes:
     attestations: []
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: accepted
   - id: e-01-016
     source_locator:
       file: part-e.yaml
@@ -766,7 +892,7 @@ scenes:
       - de: Was fällt dir ein?
         ja_current: お前は一体何を考えているんだ。
         ja_proposed: お前は一体何を考えているんだ。
-        decision: pending-review
+        decision: accepted
         rationale: null
         alternatives: []
       register: null
@@ -774,13 +900,13 @@ scenes:
     attestations: []
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: accepted
   - id: e-01-017
     source_locator:
       file: part-e.yaml
       section_index: 1
       conversation_index: 17
-      fingerprint: bad9333c39e23cd7
+      fingerprint: 20daee2ba176dd23
     source:
       modern:
       - de: Siehst du nicht? N. lauft ihr nach. Er begrüßt sie angelegentlich!
@@ -808,8 +934,8 @@ scenes:
       variants:
       - de: Siehst du nicht? N. lauft ihr nach. Er begrüßt sie angelegentlich!
         ja_current: 見えないか。Nが彼女の後を追って、懇ろに挨拶しているぞ。
-        ja_proposed: 見えないか。Nが彼女の後を追って、懇ろに挨拶しているぞ。
-        decision: pending-review
+        ja_proposed: 見えないのか？Nが彼女のあとを追って、懇ろに挨拶しているぞ！
+        decision: accepted
         rationale: null
         alternatives: []
       register: null
@@ -817,13 +943,13 @@ scenes:
     attestations: []
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: accepted
   - id: e-01-018
     source_locator:
       file: part-e.yaml
       section_index: 1
       conversation_index: 18
-      fingerprint: 65635ae46d2aa89c
+      fingerprint: 91416ebcdf0cd017
     source:
       modern:
       - de: Das interessirt mich wenig.
@@ -851,8 +977,8 @@ scenes:
       variants:
       - de: Das interessirt mich wenig.
         ja_current: 私にはあまり関係ありません。
-        ja_proposed: 私にはあまり関係ありません。
-        decision: pending-review
+        ja_proposed: そんなのはどうでもいいね。
+        decision: accepted
         rationale: null
         alternatives: []
       register: null
@@ -866,7 +992,7 @@ scenes:
         author: Aristophanes
         work: Birds
         passage: '1636'
-        local_file: /home/mrty/Documents/Perseus/Classics/Aristophanes/opensource/aristoph.birds_gk.xml
+      local_file: /home/mrty/Documents/Resources/canonical-greekLit/data/tlg0019/tlg006/tlg0019.tlg006.perseus-grc2.xml
       text_grc: ὀλίγον μοι μέλει.
       original_speakers:
       - Πισθεταιρος
@@ -887,7 +1013,7 @@ scenes:
         author: Aristophanes
         work: Knights
         passage: '1195'
-        local_file: /home/mrty/Documents/Perseus/Classics/Aristophanes/opensource/aristoph.kn_gk.xml
+      local_file: /home/mrty/Documents/Resources/canonical-greekLit/data/tlg0019/tlg002/tlg0019.tlg002.perseus-grc2.xml
       text_grc: ὀλίγον μοι μέλει.
       original_speakers:
       - Αλλαντοπωλης
@@ -908,7 +1034,7 @@ scenes:
         author: Aristophanes
         work: Wasps
         passage: '1411'
-        local_file: /home/mrty/Documents/Perseus/Classics/Aristophanes/opensource/aristoph.wasps_gk.xml
+      local_file: /home/mrty/Documents/Resources/canonical-greekLit/data/tlg0019/tlg004/tlg0019.tlg004.perseus-grc2.xml
       text_grc: ὀλίγον μοι μέλει.
       original_speakers:
       - Φιλοκλεων
@@ -929,7 +1055,7 @@ scenes:
         author: Aristophanes
         work: Wasps
         passage: '1446'
-        local_file: /home/mrty/Documents/Perseus/Classics/Aristophanes/opensource/aristoph.wasps_gk.xml
+      local_file: /home/mrty/Documents/Resources/canonical-greekLit/data/tlg0019/tlg004/tlg0019.tlg004.perseus-grc2.xml
       text_grc: ὀλίγον μοι μέλει.
       original_speakers:
       - Βδελυκλεων
@@ -944,13 +1070,13 @@ scenes:
       research_method: exact normalized token search
     textual_issues: []
     review_comments: []
-    status: source-researched
+    status: accepted
   - id: e-01-019
     source_locator:
       file: part-e.yaml
       section_index: 1
       conversation_index: 19
-      fingerprint: 44ce166f3f9d23fe
+      fingerprint: 7c3ec53721c093e7
     source:
       modern:
       - de: Sie reicht ihm die Hand!
@@ -978,8 +1104,8 @@ scenes:
       variants:
       - de: Sie reicht ihm die Hand!
         ja_current: 彼女が彼に手を差し出しています。
-        ja_proposed: 彼女が彼に手を差し出しています。
-        decision: pending-review
+        ja_proposed: 彼女が彼に手を差し出したぞ！
+        decision: accepted
         rationale: null
         alternatives: []
       register: null
@@ -987,13 +1113,13 @@ scenes:
     attestations: []
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: accepted
   - id: e-01-020
     source_locator:
       file: part-e.yaml
       section_index: 1
       conversation_index: 20
-      fingerprint: 0fc0a721af1bbf9a
+      fingerprint: 027e9db24eb37ee1
     source:
       modern:
       - de: Ach, ich Ärmster!
@@ -1021,8 +1147,8 @@ scenes:
       variants:
       - de: Ach, ich Ärmster!
         ja_current: ああ、惨めな私。
-        ja_proposed: ああ、惨めな私。
-        decision: pending-review
+        ja_proposed: ああ、私はなんと惨めなのだろう！
+        decision: accepted
         rationale: null
         alternatives: []
       register: null
@@ -1030,13 +1156,13 @@ scenes:
     attestations: []
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: accepted
   - id: e-01-021
     source_locator:
       file: part-e.yaml
       section_index: 1
       conversation_index: 21
-      fingerprint: 6b36b3905deca9e2
+      fingerprint: 2a9a54aeee8c4c2f
     source:
       modern:
       - de: Sie scheint dich nicht zu sehen.
@@ -1064,8 +1190,8 @@ scenes:
       variants:
       - de: Sie scheint dich nicht zu sehen.
         ja_current: 彼女は君に気づいていないようだ。
-        ja_proposed: 彼女は君に気づいていないようだ。
-        decision: pending-review
+        ja_proposed: 彼女には君が見えていないようだ。
+        decision: accepted
         rationale: null
         alternatives: []
       register: null
@@ -1073,13 +1199,13 @@ scenes:
     attestations: []
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: accepted
   - id: e-01-022
     source_locator:
       file: part-e.yaml
       section_index: 1
       conversation_index: 22
-      fingerprint: 403f4e7e4ff76546
+      fingerprint: cc821a06b3478503
     source:
       modern:
       - de: Sie hat ihm die Hand gegeben.
@@ -1099,30 +1225,34 @@ scenes:
       followed_by: null
       alternatives: []
     grammar:
-      syntax: null
-      literal_gloss: null
-      particles_and_idioms: []
-      pragmatic_force: null
+      syntax: "ἐνέβελε is aorist of ἐμβάλλω; τὴν δεξιάν is the idiomatic object ‘the right hand.’"
+      literal_gloss: 彼女は右手を差し入れた。
+      particles_and_idioms:
+      - form: ἐμβάλλειν τὴν δεξιάν
+        function: offer or clasp the right hand in greeting or agreement
+      pragmatic_force: Describes the completed social gesture, naturally rendered in Japanese as 握手する.
     translation:
       variants:
       - de: Sie hat ihm die Hand gegeben.
         ja_current: 彼女は彼に手を渡しました。
-        ja_proposed: 彼女は彼に手を渡しました。
-        decision: pending-review
-        rationale: null
+        ja_proposed: 彼女は彼に手を差し出した。
+        decision: accepted
+        rationale: >-
+          「手を渡す」is not idiomatic Japanese. German die Hand geben and the Greek right-hand formula
+          denote offering or clasping hands, for which 「握手した」is natural and precise.
         alternatives: []
       register: null
       scene_dependency: null
     attestations: []
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: accepted
   - id: e-01-023
     source_locator:
       file: part-e.yaml
       section_index: 1
       conversation_index: 23
-      fingerprint: 7b50e3f233b53105
+      fingerprint: a52a38bd4e666354
     source:
       modern:
       - de: Kümmere dich nicht weiter um sie!
@@ -1142,30 +1272,52 @@ scenes:
       followed_by: null
       alternatives: []
     grammar:
-      syntax: null
-      literal_gloss: null
-      particles_and_idioms: []
-      pragmatic_force: null
+      syntax: "ἔα is the imperative of ἐάω followed by the infinitive χαίρειν; ταύτην is its understood object."
+      literal_gloss: 彼女については、喜んでいるに任せよ。
+      particles_and_idioms:
+      - form: ἐᾶν χαίρειν
+        function: leave someone or something alone; have no more to do with it
+      pragmatic_force: Blunt advice to abandon further concern with Anna.
     translation:
       variants:
       - de: Kümmere dich nicht weiter um sie!
         ja_current: 彼女のことはもう気にしないでくれ。
-        ja_proposed: 彼女のことはもう気にしないでくれ。
-        decision: pending-review
-        rationale: null
+        ja_proposed: 彼女のことなど、もう放っておいてくれ！
+        decision: accepted
+        rationale: >-
+          The German imperative and ἔα χαίρειν are stronger than the current request-like
+          「気にしないでくれ」; 「放っておけ」preserves the confidant's blunt informal voice.
         alternatives: []
       register: null
       scene_dependency: null
-    attestations: []
+    attestations:
+    - target: ἔα χαίρειν
+      status: source-context-checked
+      match_type: formulaic-parallel
+      reference_as_given: null
+      source:
+        author: Plato
+        work: Charmides
+        passage: 166e
+        local_file: /home/mrty/Documents/Resources/canonical-greekLit/data/tlg0059/tlg018/tlg0059.tlg018.perseus-grc2.xml
+      text_grc: "ἔα χαίρειν εἴτε Κριτίας ἐστὶν εἴτε Σωκράτης ὁ ἐλεγχόμενος"
+      original_speakers: [Socrates]
+      original_scene: >-
+        Socrates tells Critias to leave aside the question whether Critias or Socrates is being refuted
+        and attend instead to how the argument turns out.
+      relationship_to_handbook: The handbook uses the same formula with a personal object, ταύτην.
+      adaptations: [personal object substituted for a disputed question]
+      confidence: high
+      research_method: exact formula search in the local canonical corpus
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: accepted
   - id: e-01-024
     source_locator:
       file: part-e.yaml
       section_index: 1
       conversation_index: 24
-      fingerprint: fb6379ba9c9ed643
+      fingerprint: 8fd6d76f6155cc04
     source:
       modern:
       - de: Ich gehe. Ich will meine Tante begrüßen.
@@ -1193,8 +1345,8 @@ scenes:
       variants:
       - de: Ich gehe. Ich will meine Tante begrüßen.
         ja_current: 私は行きます。叔母に挨拶したいので。
-        ja_proposed: 私は行きます。叔母に挨拶したいので。
-        decision: pending-review
+        ja_proposed: では、行ってきます。叔母に挨拶してきます。
+        decision: accepted
         rationale: null
         alternatives: []
       register: null
@@ -1202,13 +1354,13 @@ scenes:
     attestations: []
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: accepted
   - id: e-01-025
     source_locator:
       file: part-e.yaml
       section_index: 1
       conversation_index: 25
-      fingerprint: 95925fbeddced382
+      fingerprint: b12b054408381747
     source:
       modern:
       - de: Ich habe sie bereits begrüßt.
@@ -1236,8 +1388,8 @@ scenes:
       variants:
       - de: Ich habe sie bereits begrüßt.
         ja_current: もう彼女には挨拶しました。
-        ja_proposed: もう彼女には挨拶しました。
-        decision: pending-review
+        ja_proposed: 私は彼女にもうご挨拶しました。
+        decision: accepted
         rationale: null
         alternatives: []
       register: null
@@ -1245,13 +1397,13 @@ scenes:
     attestations: []
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: accepted
   - id: e-01-026
     source_locator:
       file: part-e.yaml
       section_index: 1
       conversation_index: 26
-      fingerprint: 9c991745cc4ea0cf
+      fingerprint: ebca5e7bbbceff61
     source:
       modern:
       - de: 'Das ist gar \emph{nicht schön} von Ihnen, \emph{daß} Sie mich nicht
@@ -1283,8 +1435,8 @@ scenes:
 
           begrüßt haben.'
         ja_current: あなたが私に挨拶しなかったとは、本当にひどいことですよ。
-        ja_proposed: あなたが私に挨拶しなかったとは、本当にひどいことですよ。
-        decision: pending-review
+        ja_proposed: 私に挨拶してくださらなかったなんて、随分ではありませんか。
+        decision: accepted
         rationale: null
         alternatives: []
       register: null
@@ -1292,7 +1444,7 @@ scenes:
     attestations: []
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: accepted
 - id: e-02
   title:
     de: Soll ich?
@@ -1302,24 +1454,29 @@ scenes:
     situation: a hesitant lover asks a confidant for advice
   cast:
   - id: lover
-    description: null
-    evidence: null
-    confidence: candidate
+    description: Hesitant suitor seeking practical advice and reassurance.
+    evidence: "Was soll ich machen?; Gerade das will ich ja!"
+    confidence: high
   - id: confidant
-    description: null
-    evidence: null
-    confidence: candidate
+    description: Adviser who urges action and offers to remove obstacles.
+    evidence: "Sie müssen mit ihr sprechen; An mir soll es nicht liegen."
+    confidence: high
   reconstruction:
-    confidence: unreviewed
-    note: Ordering may combine a continuous exchange with reusable model phrases; turn continuity must
-      be justified entry by entry.
+    confidence: medium
+    note: >-
+      Entries 1-13 can be read as variants within an advice exchange, but several repeat the same
+      question or reassurance and should not be forced into consecutive turns. Entries 14-19 form a
+      cluster of encouragement formulas.
+  voice_profiles:
+    lover: {register: polite, traits: [hesitant, earnest]}
+    confidant: {register: polite, traits: [practical, reassuring]}
   entries:
   - id: e-02-001
     source_locator:
       file: part-e.yaml
       section_index: 2
       conversation_index: 1
-      fingerprint: 688f32ec7801833a
+      fingerprint: a4970141afa29cc0
     source:
       modern:
       - de: Was gedenken Sie zu thun?
@@ -1347,8 +1504,8 @@ scenes:
       variants:
       - de: Was gedenken Sie zu thun?
         ja_current: 何をなさるおつもりですか。
-        ja_proposed: 何をなさるおつもりですか。
-        decision: pending-review
+        ja_proposed: これから、どうなさるおつもりですか。
+        decision: revise
         rationale: null
         alternatives: []
       register: null
@@ -1377,13 +1534,13 @@ scenes:
       research_method: exact normalized token search
     textual_issues: []
     review_comments: []
-    status: source-researched
+    status: ja-proposed
   - id: e-02-002
     source_locator:
       file: part-e.yaml
       section_index: 2
       conversation_index: 2
-      fingerprint: ebe7a1764017e751
+      fingerprint: 91b73fef8aaab269
     source:
       modern:
       - de: Was haben Sie vor?
@@ -1411,8 +1568,8 @@ scenes:
       variants:
       - de: Was haben Sie vor?
         ja_current: 何を企んでいるのですか。
-        ja_proposed: 何を企んでいるのですか。
-        decision: pending-review
+        ja_proposed: 何をするおつもりですか。
+        decision: revise
         rationale: null
         alternatives: []
       register: null
@@ -1462,13 +1619,13 @@ scenes:
       research_method: exact normalized token search
     textual_issues: []
     review_comments: []
-    status: source-researched
+    status: ja-proposed
   - id: e-02-003
     source_locator:
       file: part-e.yaml
       section_index: 2
       conversation_index: 3
-      fingerprint: 6d0597a318363199
+      fingerprint: 2259637e4b7f74e7
     source:
       modern:
       - de: Geben Sie mir einen guten Rath!
@@ -1496,8 +1653,8 @@ scenes:
       variants:
       - de: Geben Sie mir einen guten Rath!
         ja_current: よい助言をください。
-        ja_proposed: よい助言をください。
-        decision: pending-review
+        ja_proposed: 何かよい知恵を貸してください！
+        decision: revise
         rationale: null
         alternatives: []
       register: null
@@ -1505,13 +1662,13 @@ scenes:
     attestations: []
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: e-02-004
     source_locator:
       file: part-e.yaml
       section_index: 2
       conversation_index: 4
-      fingerprint: b39371fdcbb57a5d
+      fingerprint: f8de0afa2970ba7c
     source:
       modern:
       - de: Was soll ich machen?
@@ -1539,8 +1696,8 @@ scenes:
       variants:
       - de: Was soll ich machen?
         ja_current: どうしたらよいでしょう。
-        ja_proposed: どうしたらよいでしょう。
-        decision: pending-review
+        ja_proposed: どうすればよいでしょう。
+        decision: revise
         rationale: null
         alternatives: []
       register: null
@@ -1548,13 +1705,13 @@ scenes:
     attestations: []
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: e-02-005
     source_locator:
       file: part-e.yaml
       section_index: 2
       conversation_index: 5
-      fingerprint: 69da62a07e8d71a1
+      fingerprint: 44f1b6babb39723b
     source:
       modern:
       - de: Ich fürchte, Sie werden es bereuen.
@@ -1582,8 +1739,8 @@ scenes:
       variants:
       - de: Ich fürchte, Sie werden es bereuen.
         ja_current: それは後悔すると思いますよ。
-        ja_proposed: それは後悔すると思いますよ。
-        decision: pending-review
+        ja_proposed: あとで後悔なさると思いますよ。
+        decision: revise
         rationale: null
         alternatives: []
       register: null
@@ -1591,13 +1748,13 @@ scenes:
     attestations: []
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: e-02-006
     source_locator:
       file: part-e.yaml
       section_index: 2
       conversation_index: 6
-      fingerprint: 5887d2b15e8c0006
+      fingerprint: 7d956e57aa7753ac
     source:
       modern:
       - de: Sehen Sie sich vor, daß sie Ihnen nicht entgeht.
@@ -1625,8 +1782,8 @@ scenes:
       variants:
       - de: Sehen Sie sich vor, daß sie Ihnen nicht entgeht.
         ja_current: 彼女を逃さないよう気をつけてください。
-        ja_proposed: 彼女を逃さないよう気をつけてください。
-        decision: pending-review
+        ja_proposed: 彼女を取り逃がさぬよう気をつけてください。
+        decision: revise
         rationale: null
         alternatives: []
       register: null
@@ -1634,13 +1791,13 @@ scenes:
     attestations: []
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: e-02-007
     source_locator:
       file: part-e.yaml
       section_index: 2
       conversation_index: 7
-      fingerprint: 84721970549e4faf
+      fingerprint: afa9b624196f8b81
     source:
       modern:
       - de: Jetzt ist es an Ihnen, das Weitere zu thun.
@@ -1668,8 +1825,8 @@ scenes:
       variants:
       - de: Jetzt ist es an Ihnen, das Weitere zu thun.
         ja_current: あとはあなたが進める番です。
-        ja_proposed: あとはあなたが進める番です。
-        decision: pending-review
+        ja_proposed: ここから先はあなたのなさることです。
+        decision: revise
         rationale: null
         alternatives: []
       register: null
@@ -1677,13 +1834,13 @@ scenes:
     attestations: []
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: e-02-008
     source_locator:
       file: part-e.yaml
       section_index: 2
       conversation_index: 8
-      fingerprint: 9ed98b3295e2e7da
+      fingerprint: 35ee7c07a1b33d1c
     source:
       modern:
       - de: Was soll ich also?
@@ -1711,8 +1868,8 @@ scenes:
       variants:
       - de: Was soll ich also?
         ja_current: では私はどうすれば。
-        ja_proposed: では私はどうすれば。
-        decision: pending-review
+        ja_proposed: では、どうしろとおっしゃるのです。
+        decision: revise
         rationale: null
         alternatives: []
       register: null
@@ -1742,13 +1899,13 @@ scenes:
       research_method: exact normalized token search
     textual_issues: []
     review_comments: []
-    status: source-researched
+    status: ja-proposed
   - id: e-02-009
     source_locator:
       file: part-e.yaml
       section_index: 2
       conversation_index: 9
-      fingerprint: 0c357ba0940c367b
+      fingerprint: 79e678d7844cb1ee
     source:
       modern:
       - de: Sie müssen mit ihr sprechen, sobald sich Gelegenheit bietet.
@@ -1776,8 +1933,8 @@ scenes:
       variants:
       - de: Sie müssen mit ihr sprechen, sobald sich Gelegenheit bietet.
         ja_current: 機会があれば彼女と話さなくてはなりません。
-        ja_proposed: 機会があれば彼女と話さなくてはなりません。
-        decision: pending-review
+        ja_proposed: 機会があり次第、彼女と話さねばなりません。
+        decision: revise
         rationale: null
         alternatives: []
       register: null
@@ -1785,13 +1942,13 @@ scenes:
     attestations: []
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: e-02-010
     source_locator:
       file: part-e.yaml
       section_index: 2
       conversation_index: 10
-      fingerprint: 826dd0b249f7d8db
+      fingerprint: a189a3cbff5346ca
     source:
       modern:
       - de: Gerade das will ich ja!
@@ -1819,8 +1976,8 @@ scenes:
       variants:
       - de: Gerade das will ich ja!
         ja_current: まさにそれを望んでいるのです。
-        ja_proposed: まさにそれを望んでいるのです。
-        decision: pending-review
+        ja_proposed: それこそが私のしたいことなのです！
+        decision: revise
         rationale: null
         alternatives: []
       register: null
@@ -1849,13 +2006,13 @@ scenes:
       research_method: exact normalized token search
     textual_issues: []
     review_comments: []
-    status: source-researched
+    status: ja-proposed
   - id: e-02-011
     source_locator:
       file: part-e.yaml
       section_index: 2
       conversation_index: 11
-      fingerprint: a2c83051506772a5
+      fingerprint: 4d8d440188c62dcc
     source:
       modern:
       - de: Aber soweit ist die Sache noch nicht.
@@ -1883,22 +2040,24 @@ scenes:
       variants:
       - de: Aber soweit ist die Sache noch nicht.
         ja_current: でもまだそこまで話は進んでいません。
-        ja_proposed: でもまだそこまで話は進んでいません。
-        decision: pending-review
-        rationale: null
+        ja_proposed: しかし、事はまだそこまで進んでいません。
+        decision: revise
+        rationale: >-
+          「そこまで」は交際や計画がまだその段階に達していないことを指す。「話」では単なる会話の進行とも
+          読めるため、ドイツ語 Sache とギリシア語 τὰ πράγματα に合わせて「事」とする。
         alternatives: []
       register: null
       scene_dependency: null
     attestations: []
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: e-02-012
     source_locator:
       file: part-e.yaml
       section_index: 2
       conversation_index: 12
-      fingerprint: 83001c9337c4fb3b
+      fingerprint: fcc6dd9d7bb6176c
     source:
       modern:
       - de: Die Sache hat einen Haken.
@@ -1926,43 +2085,49 @@ scenes:
       variants:
       - de: Die Sache hat einen Haken.
         ja_current: 事には落とし穴があります。
-        ja_proposed: 事には落とし穴があります。
-        decision: pending-review
-        rationale: null
+        ja_proposed: ただ、この件には一つ難があります。
+        decision: revise
+        rationale: >-
+          einen Haken haben は隠された「落とし穴」より、難点や差し障りがあることをいう。「一つ難がある」は
+          その含みを簡潔に保つ。ギリシア語 κίνδυνος はドイツ語より強く、文字どおりには「危険」である。
         alternatives: []
       register: null
       scene_dependency: null
     attestations:
     - target: ἔνι κίνδυνος ἐν τῷ πράγματι.
       status: exact-string-located-context-pending
-      match_type: exact
+      match_type: adapted
       reference_as_given: null
       source:
         author: Aristophanes
         work: Plutus
         passage: '348'
-        local_file: /home/mrty/Documents/Perseus/Classics/Aristophanes/opensource/aristoph.pl_gk.xml
-      text_grc: ἔνι κίνδυνος ἐν τῷ πράγματι.
+        local_file: /home/mrty/Documents/Resources/canonical-greekLit/data/tlg0019/tlg011/tlg0019.tlg011.perseus-grc2.xml
+      text_grc: ἔνι γάρ τις ἔνι κίνδυνος ἐν τῷ πράγματι.
       original_speakers:
       - Χρεμυλος
       original_speaker_beta: '*xremu/los'
-      original_scene: null
+      original_scene: >-
+        Chremylus says that, god willing, he will soon be very rich, but adds that the undertaking involves a
+        certain danger. Blepsidemus immediately asks what sort of danger he means.
       beta_context: xremulos esomai men oun autika mal hn qeos qelh eni gar tis eni kindunos en tw pragmati
         bleyidhmos poios tis xremulos oios bleyidhmos leg anusas o ti fhs pote
-      relationship_to_handbook: The complete handbook string matches after removing accents and normalizing
-        Perseus Beta Code. Dramatic or prose context still needs manual comparison.
-      adaptations: []
-      confidence: candidate
-      research_method: exact normalized token search
+      relationship_to_handbook: >-
+        The handbook extracts the core warning but omits γάρ τις and the first, emphatically repeated ἔνι.
+      adaptations:
+      - γάρ τις omitted
+      - first of the repeated instances of ἔνι omitted
+      confidence: high
+      research_method: exact phrase located and context checked in the local canonical corpus
     textual_issues: []
     review_comments: []
-    status: source-researched
+    status: ja-proposed
   - id: e-02-013
     source_locator:
       file: part-e.yaml
       section_index: 2
       conversation_index: 13
-      fingerprint: 3947d640a66ab6c2
+      fingerprint: 3abe2065dcbd20bc
     source:
       modern:
       - de: Ein schwieriger Punkt!
@@ -1990,8 +2155,8 @@ scenes:
       variants:
       - de: Ein schwieriger Punkt!
         ja_current: やっかいな点ですね。
-        ja_proposed: やっかいな点ですね。
-        decision: pending-review
+        ja_proposed: 難しいところですね！
+        decision: revise
         rationale: null
         alternatives: []
       register: null
@@ -1999,13 +2164,13 @@ scenes:
     attestations: []
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: e-02-014
     source_locator:
       file: part-e.yaml
       section_index: 2
       conversation_index: 14
-      fingerprint: 274cdb10535fc55f
+      fingerprint: 9e9ec88119d56b3c
     source:
       modern:
       - de: Machen Sie sich keine Sorge!
@@ -2033,8 +2198,8 @@ scenes:
       variants:
       - de: Machen Sie sich keine Sorge!
         ja_current: 心配しないでください。
-        ja_proposed: 心配しないでください。
-        decision: pending-review
+        ja_proposed: ご心配には及びません！
+        decision: revise
         rationale: null
         alternatives: []
       register: null
@@ -2042,13 +2207,13 @@ scenes:
     attestations: []
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: e-02-015
     source_locator:
       file: part-e.yaml
       section_index: 2
       conversation_index: 15
-      fingerprint: 317237e55b6f4876
+      fingerprint: e430109cba332b79
     source:
       modern:
       - de: Nur nicht ängstlich!
@@ -2076,22 +2241,24 @@ scenes:
       variants:
       - de: Nur nicht ängstlich!
         ja_current: 気を揉まないように。
-        ja_proposed: 気を揉まないように。
-        decision: pending-review
-        rationale: null
+        ja_proposed: まあ、そう不安がらずに！
+        decision: revise
+        rationale: >-
+          μὴ δέδιθι は文字どおりには「怖がるな」だが、「怖がらずに」は子供をたしなめる響きが出やすい。
+          「不安がらずに」なら ängstlich の不安とギリシア語の恐れの双方を保ち、助言者の穏やかな励ましにも合う。
         alternatives: []
       register: null
       scene_dependency: null
     attestations: []
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: e-02-016
     source_locator:
       file: part-e.yaml
       section_index: 2
       conversation_index: 16
-      fingerprint: bf7443716487cad9
+      fingerprint: 295e441ef39d7db2
     source:
       modern:
       - de: Haben Sie keine Angst, mein Bester!
@@ -2123,22 +2290,24 @@ scenes:
       variants:
       - de: Haben Sie keine Angst, mein Bester!
         ja_current: 心配はいりませんよ。
-        ja_proposed: 心配はいりませんよ。
-        decision: pending-review
-        rationale: null
+        ja_proposed: まあ、何も恐れることはありませんよ！
+        decision: revise
+        rationale: >-
+          Angst haben と δέδιτι の恐れを「恐れる」で保つ。「怖がる」は子供をたしなめる響きが出やすい。
+          mein Bester と ὦ τᾶν の親しさは、人物関係を固定する呼称を足さず、「まあ」と終助詞「よ」で表す。
         alternatives: []
       register: null
       scene_dependency: null
     attestations: []
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: e-02-017
     source_locator:
       file: part-e.yaml
       section_index: 2
       conversation_index: 17
-      fingerprint: c1403df0e27ce31c
+      fingerprint: 342bc3105a533cec
     source:
       modern:
       - de: Es wird Ihnen nichts passiren.
@@ -2166,22 +2335,27 @@ scenes:
       variants:
       - de: Es wird Ihnen nichts passiren.
         ja_current: 何も起こりはしません。
-        ja_proposed: 何も起こりはしません。
-        decision: pending-review
-        rationale: null
+        ja_proposed: 大丈夫、悪いようにはなりませんよ。
+        decision: revise
+        rationale: >-
+          passieren と πάσχω の未来形 πείσει は、ここでは相手が悪い事態を被らないという保証である。
+          「悪いようにはなりません」は、その含みを恋愛相談にふさわしい穏やかな日本語で表す。
         alternatives: []
       register: null
       scene_dependency: null
     attestations: []
     textual_issues: []
-    review_comments: []
-    status: unreviewed
+    review_comments:
+    - >-
+      青空文庫の安心させる発話では「心配はいりません」「心配することはありません」が広く見られ、
+      「悪いようにはしません」も相手のために良い結果を請け合う表現として確認できる。
+    status: ja-proposed
   - id: e-02-018
     source_locator:
       file: part-e.yaml
       section_index: 2
       conversation_index: 18
-      fingerprint: fa65ba889ec2d0d9
+      fingerprint: 27b8de5e6ec58165
     source:
       modern:
       - de: An mir soll es nicht liegen.
@@ -2213,16 +2387,21 @@ scenes:
       variants:
       - de: An mir soll es nicht liegen.
         ja_current: 私のせいにはさせませんよ。
-        ja_proposed: 私のせいにはさせませんよ。
-        decision: pending-review
-        rationale: null
+        ja_proposed: 私も、できるだけのことはしますよ。
+        decision: revise
+        rationale: >-
+          An mir soll es nicht liegen は「自分の努力不足で失敗させない」、ギリシア語は「自分の側が妨げには
+          ならない」という協力の請合いである。日本語では否定形を逐語訳せず、積極的な協力表明にするほうが自然。
         alternatives: []
       register: null
       scene_dependency: null
     attestations: []
     textual_issues: []
-    review_comments: []
-    status: unreviewed
+    review_comments:
+    - >-
+      青空文庫には助力を請け合う発話として「出来るだけのことはきっとしますよ」「出来るだけのことを
+      致しましょう」などが見られる。次項は特定の事柄を引き受ける表現なので、一般的な協力表明とは区別できる。
+    status: ja-proposed
   - id: e-02-019
     source_locator:
       file: part-e.yaml
@@ -2257,7 +2436,7 @@ scenes:
       - de: Das will ich schon besorgen.
         ja_current: それは私が引き受けます。
         ja_proposed: それは私が引き受けます。
-        decision: pending-review
+        decision: revise
         rationale: null
         alternatives: []
       register: null
@@ -2265,7 +2444,7 @@ scenes:
     attestations: []
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
 - id: e-03
   title:
     de: Nur Muth!
@@ -2275,17 +2454,21 @@ scenes:
     situation: a confidant encourages a hesitant lover
   cast:
   - id: lover
-    description: null
-    evidence: null
-    confidence: candidate
+    description: Hesitant suitor preparing to approach Anna.
+    evidence: "Auf Ihre Verantwortung; Und wenn sie Nein sagt"
+    confidence: high
   - id: confidant
-    description: null
-    evidence: null
-    confidence: candidate
+    description: Companion pressing the suitor to act without delay.
+    evidence: "Beeilen Sie sich; Nur Muth; Wir werden gleich sehen."
+    confidence: high
   reconstruction:
-    confidence: unreviewed
-    note: Ordering may combine a continuous exchange with reusable model phrases; turn continuity must
-      be justified entry by entry.
+    confidence: medium
+    note: >-
+      Entries 1-10 are overlapping exhortation formulas rather than ten necessary consecutive turns.
+      Entries 11-18 more plausibly trace resolve, renewed doubt, and immediate action.
+  voice_profiles:
+    lover: {register: polite, traits: [anxious, increasingly_resolute]}
+    confidant: {register: polite, traits: [insistent, encouraging]}
   entries:
   - id: e-03-001
     source_locator:
@@ -2320,16 +2503,17 @@ scenes:
       variants:
       - de: Beeilen Sie sich!
         ja_current: 急いでください。
-        ja_proposed: 急いでください。
-        decision: pending-review
-        rationale: null
+        ja_proposed: さあ、急いでください！
+        decision: revise
+        rationale: >-
+          νυν はここでは時刻の「今」だけでなく、命令を後押しする「さあ」に相当する。単純だが積極的な催促。
         alternatives: []
       register: null
       scene_dependency: null
     attestations: []
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: e-03-002
     source_locator:
       file: part-e.yaml
@@ -2363,16 +2547,18 @@ scenes:
       variants:
       - de: So beeilen Sie sich doch!
         ja_current: さあ急いでくださいよ。
-        ja_proposed: さあ急いでくださいよ。
-        decision: pending-review
-        rationale: null
+        ja_proposed: さあ、早くしてくださいよ！
+        decision: revise
+        rationale: >-
+          so ... doch と οὔκουν + 二人称未来疑問は、相手がまだ動かないことへの焦れを帯びた催促。
+          反語を逐語訳せず、終助詞「よ」で001より強い押しを表す。
         alternatives: []
       register: null
       scene_dependency: null
     attestations: []
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: e-03-003
     source_locator:
       file: part-e.yaml
@@ -2406,16 +2592,17 @@ scenes:
       variants:
       - de: Zögern Sie nicht!
         ja_current: ためらわないで。
-        ja_proposed: ためらわないで。
-        decision: pending-review
-        rationale: null
+        ja_proposed: ためらわないでください！
+        decision: revise
+        rationale: >-
+          恋の告白を前にした心理的な躊躇を止める発話。「いけません」では説教調になるため、直接的な依頼とする。
         alternatives: []
       register: null
       scene_dependency: null
     attestations: []
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: e-03-004
     source_locator:
       file: part-e.yaml
@@ -2449,16 +2636,17 @@ scenes:
       variants:
       - de: Machen Sie schnell!
         ja_current: 手早くしてください。
-        ja_proposed: 手早くしてください。
-        decision: pending-review
-        rationale: null
+        ja_proposed: 早く済ませてください！
+        decision: revise
+        rationale: >-
+          ἀνύω は単なる速度だけでなく、仕事を成し遂げる、済ませるという結果志向をもつ。
         alternatives: []
       register: null
       scene_dependency: null
     attestations: []
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: e-03-005
     source_locator:
       file: part-e.yaml
@@ -2492,16 +2680,17 @@ scenes:
       variants:
       - de: So machen Sie doch schnell!
         ja_current: 早くしてくださいよ。
-        ja_proposed: 早くしてくださいよ。
-        decision: pending-review
-        rationale: null
+        ja_proposed: さあ、早く済ませてくださいよ！
+        decision: revise
+        rationale: >-
+          οὐκ ἀνύσεις; は未来疑問の形をとる焦れた催促。004との違いを「さあ」と「よ」で表す。
         alternatives: []
       register: null
       scene_dependency: null
     attestations: []
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: e-03-006
     source_locator:
       file: part-e.yaml
@@ -2535,16 +2724,17 @@ scenes:
       variants:
       - de: Sie dürfen nicht zögern.
         ja_current: ぐずぐずしてはいけません。
-        ja_proposed: ぐずぐずしてはいけません。
-        decision: pending-review
-        rationale: null
+        ja_proposed: ぐずぐずしていてはいけません。
+        decision: revise
+        rationale: >-
+          χρή σε は必要・義務を示し、μέλλειν はここでは引き延ばすこと。003より規範的で強い戒め。
         alternatives: []
       register: null
       scene_dependency: null
     attestations: []
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: e-03-007
     source_locator:
       file: part-e.yaml
@@ -2578,16 +2768,17 @@ scenes:
       variants:
       - de: Wir wollen uns nicht aufhalten.
         ja_current: ぐずぐずせずに行きましょう。
-        ja_proposed: ぐずぐずせずに行きましょう。
-        decision: pending-review
-        rationale: null
+        ja_proposed: ぐずぐずするのはよしましょう。
+        decision: revise
+        rationale: >-
+          一人称複数の勧誘法で、相手だけを責めず、話者も含めて遅延をやめようと提案する。物理的な移動は加えない。
         alternatives: []
       register: null
       scene_dependency: null
     attestations: []
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: e-03-008
     source_locator:
       file: part-e.yaml
@@ -2621,9 +2812,10 @@ scenes:
       variants:
       - de: So halten Sie sich doch nicht auf!
         ja_current: だから時間をつぶさないでください。
-        ja_proposed: だから時間をつぶさないでください。
-        decision: pending-review
-        rationale: null
+        ja_proposed: さあ、もうぐずぐずなさらないで！
+        decision: revise
+        rationale: >-
+          οὐ μή + 二人称未来は強い制止。相手の時間稼ぎに対する苛立ちを「もう」で自然に表す。
         alternatives: []
       register: null
       scene_dependency: null
@@ -2651,7 +2843,7 @@ scenes:
       research_method: exact normalized token search
     textual_issues: []
     review_comments: []
-    status: source-researched
+    status: ja-proposed
   - id: e-03-009
     source_locator:
       file: part-e.yaml
@@ -2685,9 +2877,10 @@ scenes:
       variants:
       - de: Jetzt gilt es!
         ja_current: いまが肝心です。
-        ja_proposed: いまが肝心です。
-        decision: pending-review
-        rationale: null
+        ja_proposed: 今がその時です！
+        decision: revise
+        rationale: >-
+          καιρός は単なる時刻でなく、行動に適した決定的な時・好機。「今がその時」は日本語の決断を促す発話としても自然。
         alternatives: []
       register: null
       scene_dependency: null
@@ -2735,7 +2928,7 @@ scenes:
       research_method: exact normalized token search
     textual_issues: []
     review_comments: []
-    status: source-researched
+    status: ja-proposed
   - id: e-03-010
     source_locator:
       file: part-e.yaml
@@ -2769,16 +2962,18 @@ scenes:
       variants:
       - de: Nun so versuchen Sie es doch wenigstens!
         ja_current: せめてやってみてください。
-        ja_proposed: せめてやってみてください。
-        decision: pending-review
-        rationale: null
+        ja_proposed: では、せめて試してみてください！
+        decision: revise
+        rationale: >-
+          ἀλλ’ οὖν は譲歩して「とはいえ、とにかく」、γε は最低限「少なくともそれだけは」を示す。
+          versuchen と πειράομαι に合わせて「試す」とする。
         alternatives: []
       register: null
       scene_dependency: null
     attestations: []
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: e-03-011
     source_locator:
       file: part-e.yaml
@@ -2812,16 +3007,20 @@ scenes:
       variants:
       - de: Auf Ihre Verantwortung hin will ich's thun.
         ja_current: あなたの責任ということでやってみます。
-        ja_proposed: あなたの責任ということでやってみます。
-        decision: pending-review
-        rationale: null
+        ja_proposed: では、あなたの言葉を信じて、やりましょう。
+        decision: revise
+        rationale: >-
+          German puts responsibility on the addressee, whereas σοὶ πίσυνος means that the speaker
+          acts trusting in the addressee. 「あなたの言葉を信じて」 mediates between those motives.
+          δράσω and thun express carrying out the act, so 「やりましょう」 is preferable to the
+          weaker 「やってみましょう」 and contrasts with πειράσομαι in e-03-012.
         alternatives: []
       register: null
       scene_dependency: null
     attestations: []
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: e-03-012
     source_locator:
       file: part-e.yaml
@@ -2855,16 +3054,20 @@ scenes:
       variants:
       - de: Ich will es versuchen.
         ja_current: やってみます。
-        ja_proposed: やってみます。
-        decision: pending-review
-        rationale: null
+        ja_proposed: では、試してみます。
+        decision: revise
+        rationale: >-
+          πειράσομαι and versuchen explicitly express making an attempt. 「試してみます」 preserves
+          that sense and distinguishes this entry from e-03-011, where δράσω denotes actually doing
+          the proposed action. 「では」 presents it naturally as a decision made in response to the
+          preceding encouragement.
         alternatives: []
       register: null
       scene_dependency: null
     attestations: []
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: e-03-013
     source_locator:
       file: part-e.yaml
@@ -2898,16 +3101,35 @@ scenes:
       variants:
       - de: Und wenn es den Kopf kostet!
         ja_current: 命がけでも構いません。
-        ja_proposed: 命がけでも構いません。
-        decision: pending-review
-        rationale: null
+        ja_proposed: たとえ命を失おうとも！
+        decision: revise
+        rationale: >-
+          German den Kopf kosten and Greek δεῖν με ἀποθανεῖν both make death the possible price of
+          the action. The shorter 「命を失おうとも」 retains the defiant force without the explanatory
+          padding of 「ことになる」.
         alternatives: []
       register: null
       scene_dependency: null
-    attestations: []
+    attestations:
+    - language: de
+      target: Und wenn es den Kopf kostet!
+      status: idiom-attested
+      match_type: formulaic-parallel
+      source:
+        title: Die drei Musketiere
+        form: German stage adaptation and teaching edition
+        stable_url: https://www.dtver.de/downloads/leseprobe/11772.pdf
+      text_de: Gehen wir, wohin man uns schickt, auch wenn es den Kopf kostet!
+      context_de: >-
+        Athos resolves to go wherever the group is sent despite the mortal danger; the other speakers
+        immediately agree to join him.
+      relationship_to_handbook: >-
+        The same conditional idiom occurs with auch wenn rather than the handbook's elliptical und wenn.
+      confidence: high
+      research_method: exact web phrase search followed by context inspection
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: e-03-014
     source_locator:
       file: part-e.yaml
@@ -2941,16 +3163,25 @@ scenes:
       variants:
       - de: Ich bin schon darüber.
         ja_current: もう覚悟はできています。
-        ja_proposed: もう覚悟はできています。
-        decision: pending-review
-        rationale: null
+        ja_proposed: いや、もう取りかかっています。
+        decision: revise
+        rationale: >-
+          Greek ἀλλὰ δρῶ τοῦτο explicitly says that the speaker is already doing the act. The unusual
+          German Ich bin schon darüber is interpreted in that light as being engaged upon it, not as
+          having formed the resolve. 「取りかかっています」 is natural Japanese for action already
+          under way; the current 「覚悟はできています」 lacks support in either expression.
         alternatives: []
       register: null
       scene_dependency: null
     attestations: []
     textual_issues: []
-    review_comments: []
-    status: unreviewed
+    review_comments:
+    - >-
+      The interpretation of the historical German is presently an inference supported by the paired
+      Greek, not a securely located independent attestation of the complete construction. Exact web
+      searches and the available local resource collection produced no useful match; historical
+      dictionary confirmation remains desirable.
+    status: ja-proposed
   - id: e-03-015
     source_locator:
       file: part-e.yaml
@@ -2984,37 +3215,41 @@ scenes:
       variants:
       - de: Endlich ist es so weit!
         ja_current: ついにその時が来ました。
-        ja_proposed: ついにその時が来ました。
-        decision: pending-review
-        rationale: null
+        ja_proposed: ついに、その時が来ました！
+        decision: revise
+        rationale: >-
+          Endlich ist es so weit conventionally announces that the awaited stage has arrived. In the
+          Greek source Hermes exclaims that the decisive moment has now been reached as Peace is being
+          hauled out. The polite ending remains consistent with the surrounding model phrases.
         alternatives: []
       register: null
       scene_dependency: null
     attestations:
-    - target: ἤδη ’στὶ τοῦτ’ ἐκεῖνο!
-      status: exact-string-located-context-pending
+    - language: grc
+      target: ἤδη ’στὶ τοῦτ’ ἐκεῖνο!
+      status: source-and-context-verified
       match_type: exact
       reference_as_given: null
       source:
         author: Aristophanes
         work: Peace
         passage: '516'
-        local_file: /home/mrty/Documents/Perseus/Classics/Aristophanes/opensource/aristoph.peace_gk.xml
-      text_grc: ἤδη ’στὶ τοῦτ’ ἐκεῖνο!
+        local_file: /home/mrty/Documents/Resources/canonical-greekLit/data/tlg0019/tlg005/tlg0019.tlg005.perseus-grc2.xml
+      text_grc: ἤδη ʼστὶ τοῦτʼ ἐκεῖνο.
+      context_grc: >-
+        ΧΟΡΟΣ: μή νυν ἀνῶμεν ἀλλʼ ἐπεντείνωμεν ἀνδρικώτερον. — ἙΡΜΗΣ:
+        ἤδη ʼστὶ τοῦτʼ ἐκεῖνο. — ΧΟΡΟΣ: ὦ εἶα νῦν, ὦ εἶα πᾶς.
       original_speakers:
       - Ερμης
       original_speaker_beta: '*(ermh=s'
-      original_scene: null
-      beta_context: mhn omou stin hdh xoros mh nun anwmen all epenteinwmen andrikwteron ermhs hdh sti
-        tout ekeino xoros w eia nun w eia pas w eia eia eia eia
-      relationship_to_handbook: The complete handbook string matches after removing accents and normalizing
-        Perseus Beta Code. Dramatic or prose context still needs manual comparison.
+      original_scene: Hermes announces that the effort to haul Peace out has reached its decisive moment.
+      relationship_to_handbook: Exact wording apart from punctuation and apostrophe typography.
       adaptations: []
-      confidence: candidate
-      research_method: exact normalized token search
+      confidence: high
+      research_method: exact corpus search and manual inspection of lines 514-519
     textual_issues: []
     review_comments: []
-    status: source-researched
+    status: ja-proposed
   - id: e-03-016
     source_locator:
       file: part-e.yaml
@@ -3048,16 +3283,19 @@ scenes:
       variants:
       - de: Und wenn sie Nein sagt und nicht will?
         ja_current: もし彼女が嫌だと言ったら？
-        ja_proposed: もし彼女が嫌だと言ったら？
-        decision: pending-review
-        rationale: null
+        ja_proposed: でも、彼女が嫌だと言って、応じてくれなかったら？
+        decision: revise
+        rationale: >-
+          German Nein sagt und nicht will and Greek μὴ φῇ μηδ’ ἐθελήσῃ both double the possibility
+          of refusal: she may say no and remain unwilling. 「応じてくれなかったら」 preserves the
+          second element without mechanically repeating 「嫌だ」.
         alternatives: []
       register: null
       scene_dependency: null
     attestations: []
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: e-03-017
     source_locator:
       file: part-e.yaml
@@ -3091,16 +3329,19 @@ scenes:
       variants:
       - de: Wir werden gleich sehen.
         ja_current: すぐにわかるでしょう。
-        ja_proposed: すぐにわかるでしょう。
-        decision: pending-review
-        rationale: null
+        ja_proposed: それは、すぐにわかりますよ。
+        decision: revise
+        rationale: >-
+          German wir werden and Greek first-person plural εἰσόμεθα present the result as something
+          that will shortly become clear to speaker and addressee alike. 「それは」 makes the answer-like
+          force natural and distinguishes it from the speaker's personal test in e-03-018.
         alternatives: []
       register: null
       scene_dependency: null
     attestations: []
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: e-03-018
     source_locator:
       file: part-e.yaml
@@ -3134,16 +3375,57 @@ scenes:
       variants:
       - de: Ich will gleich einmal sehen.
         ja_current: ちょっと確かめてみます。
-        ja_proposed: ちょっと確かめてみます。
-        decision: pending-review
-        rationale: null
+        ja_proposed: では、私がさっそく確かめてみましょう。
+        decision: revise
+        rationale: >-
+          German gleich supplies immediacy, while einmal softens the proposal rather than requiring a
+          literal count. Explicit Greek ἐγώ contrasts this personal test with plural εἰσόμεθα in
+          e-03-017. 「私がさっそく確かめてみましょう」 preserves all three features.
         alternatives: []
       register: null
       scene_dependency: null
-    attestations: []
+    attestations:
+    - language: grc
+      target: ἐγὼ εἴσομαι.
+      status: source-and-context-verified
+      match_type: exact
+      source:
+        author: Aristophanes
+        work: Wasps
+        passage: '1224'
+        local_file: /home/mrty/Documents/Resources/canonical-greekLit/data/tlg0019/tlg004/tlg0019.tlg004.perseus-grc2.xml
+      text_grc: ἐγὼ εἴσομαι· καὶ δὴ γάρ εἰμʼ ἐγὼ Κλέων, ᾄδω δὲ πρῶτος Ἁρμοδίου· δέξαι δὲ σύ.
+      context_grc: >-
+        After Philocleon boasts that no Diacrian could answer him, Bdelycleon says that he himself will
+        find out: he will take the role of Cleon, begin a drinking-song, and have Philocleon answer it.
+      original_speakers: [Βδελυκλέων]
+      original_scene: Bdelycleon personally tests Philocleon's ability to respond appropriately at a symposium.
+      relationship_to_handbook: >-
+        The handbook extracts the opening clause exactly and italicizes the verb; German adds gleich einmal
+        to make the pragmatic force of an immediate test explicit.
+      confidence: high
+      research_method: exact corpus search and manual inspection of lines 1218-1228
+    - language: de
+      target: Ich will gleich einmal sehen.
+      status: construction-attested
+      match_type: syntactic-parallel
+      source:
+        title: Wilhelmsburger Zeitung
+        issue: 36. Jahrgang, Nr. 212
+        date: '1926-09-11'
+        stable_url: https://pdf.sub.uni-hamburg.de/kitodo/PPN1012345335_19260911.pdf
+      text_de: Will gleich einmal sehen, wie sich denn unsere Villa von hier ausnimmt.
+      context_de: >-
+        A professor takes a new telescope from its case in order to test immediately how his villa
+        looks from the hill, then reports what he sees.
+      relationship_to_handbook: >-
+        Attests will gleich einmal sehen as an immediate personal check; the subject ich is omitted in
+        the newspaper example but explicit in the handbook.
+      confidence: high
+      research_method: exact web phrase search followed by context inspection
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
 - id: e-04
   title:
     de: Liebes\textcompwordmark{}glück
@@ -3153,21 +3435,26 @@ scenes:
     situation: courtship or a report of successful courtship
   cast:
   - id: lover-a
-    description: null
-    evidence: null
-    confidence: candidate
+    description: Suitor who declares love and presses for physical affection.
+    evidence: "Ich verehre Sie; Erlauben Sie mir einen Kuß"
+    confidence: high
   - id: lover-b
-    description: null
-    evidence: null
-    confidence: candidate
+    description: Beloved who requires an approach to the mother and fears being seen.
+    evidence: "sprechen Sie mit meiner Mutter; daß mich nur die Mutter nicht sieht"
+    confidence: high
   - id: confidant
-    description: null
-    evidence: null
-    confidence: candidate
+    description: Possible speaker only if some formulas are extracted from another exchange.
+    evidence: No turn requires this role securely.
+    confidence: low
   reconstruction:
-    confidence: unreviewed
-    note: Ordering may combine a continuous exchange with reusable model phrases; turn continuity must
-      be justified entry by entry.
+    confidence: medium
+    note: >-
+      The section strongly suggests a courtship scene, though entries 6-8 are alternative requests for
+      a kiss. The Japanese keeps mutual politeness while distinguishing the suitor's ardour from the
+      beloved's caution.
+  voice_profiles:
+    lover-a: {register: polite, traits: [ardent, ceremonious]}
+    lover-b: {register: polite, traits: [receptive, cautious]}
   entries:
   - id: e-04-001
     source_locator:
@@ -3202,37 +3489,40 @@ scenes:
       variants:
       - de: Ich verehre Sie.
         ja_current: あなたを慕っています。
-        ja_proposed: あなたを慕っています。
-        decision: pending-review
-        rationale: null
+        ja_proposed: あなたをお慕いしています。
+        decision: revise
+        rationale: >-
+          German verehren is a respectful declaration of devotion, while Greek ἐραστής εἰμι σός is
+          literally 「私はあなたの恋人です」. 「お慕いしています」 conveys romantic devotion without
+          the heavy and redundant 「私はあなたを恋い慕っています」.
         alternatives: []
       register: null
       scene_dependency: null
     attestations:
     - target: ἐραστής εἰμι σός.
-      status: exact-string-located-context-pending
+      status: source-context-checked
       match_type: exact
       reference_as_given: null
       source:
         author: Aristophanes
         work: Knights
         passage: '1341'
-        local_file: /home/mrty/Documents/Perseus/Classics/Aristophanes/opensource/aristoph.kn_gk.xml
-      text_grc: ἐραστής εἰμι σός.
+        local_file: /home/mrty/Documents/Resources/canonical-greekLit/data/tlg0019/tlg002/tlg0019.tlg002.perseus-grc2.xml
+      text_grc: ὦ Δῆμʼ ἐραστής εἰμι σὸς φιλῶ τέ σε
       original_speakers:
       - Αλλαντοπωλης
       original_speaker_beta: '*)allantopw/lhs'
-      original_scene: null
+      original_scene: The Sausage-seller quotes the flattering language used by speakers in the Assembly.
       beta_context: tis h allantopwlhs prwton men opot eipoi tis en thkklhsia w dhm erasths eimi sos filw
         te se kai khdomai sou kai probouleuw monos toutois opote xrhsaito
-      relationship_to_handbook: The complete handbook string matches after removing accents and normalizing
-        Perseus Beta Code. Dramatic or prose context still needs manual comparison.
-      adaptations: []
-      confidence: candidate
-      research_method: exact normalized token search
+      relationship_to_handbook: The handbook extracts the central declaration from Knights 1341.
+      adaptations:
+      - Omits the vocative ὦ Δῆμʼ and the following φιλῶ τέ σε.
+      confidence: high
+      research_method: exact phrase search in canonical Greek XML; context manually checked
     textual_issues: []
     review_comments: []
-    status: source-researched
+    status: ja-proposed
   - id: e-04-002
     source_locator:
       file: part-e.yaml
@@ -3267,7 +3557,7 @@ scenes:
       - de: Ist das wahr?
         ja_current: 本当ですか。
         ja_proposed: 本当ですか。
-        decision: pending-review
+        decision: retain
         rationale: null
         alternatives: []
       register: null
@@ -3275,7 +3565,7 @@ scenes:
     attestations: []
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: e-04-003
     source_locator:
       file: part-e.yaml
@@ -3310,15 +3600,17 @@ scenes:
       - de: Warum sagen Sie das?
         ja_current: どうしてそんなことを言うのですか。
         ja_proposed: どうしてそんなことを言うのですか。
-        decision: pending-review
-        rationale: null
+        decision: retain
+        rationale: >-
+          The current Japanese is natural as a surprised question. 「おっしゃる」 would introduce
+          greater deference than German sagen or Greek λέγεις requires merely because German uses Sie.
         alternatives: []
       register: null
       scene_dependency: null
     attestations: []
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: e-04-004
     source_locator:
       file: part-e.yaml
@@ -3353,15 +3645,39 @@ scenes:
       - de: Weil ich Sie liebe.
         ja_current: あなたを愛しているからです。
         ja_proposed: あなたを愛しているからです。
-        decision: pending-review
+        decision: retain
         rationale: null
         alternatives: []
       register: null
       scene_dependency: null
-    attestations: []
-    textual_issues: []
-    review_comments: []
-    status: unreviewed
+    attestations:
+    - target: ὁτιὴ φιλῶ
+      status: source-context-checked
+      match_type: adapted
+      reference_as_given: null
+      source:
+        author: Aristophanes
+        work: Knights
+        passage: '732'
+        local_file: /home/mrty/Documents/Resources/canonical-greekLit/data/tlg0019/tlg002/tlg0019.tlg002.perseus-grc2.xml
+      text_grc: ὁτιὴ φιλῶ σʼ ὦ Δῆμʼ ἐραστής τʼ εἰμὶ σός.
+      original_speakers: [Κλέων]
+      original_scene: Cleon explains that he is Demos' lover and devoted adviser.
+      relationship_to_handbook: ὁτιὴ φιλῶ supplies the German answer “Weil ich Sie liebe.”
+      adaptations:
+      - The attested object σʼ is absent from the handbook text.
+      - The handbook's following λέγεις; does not belong to Knights 732 and disrupts the syntax.
+      confidence: high
+      research_method: exact phrase search in canonical Greek XML; context manually checked
+    textual_issues:
+    - type: probable-corruption-or-conflation
+      note: >-
+        As printed, ὁτιὴ φιλῶ λέγεις; does not straightforwardly express the German sentence.
+        Aristophanes, Knights 732 supports ὁτιὴ φιλῶ σʼ (“because I love you”); λέγεις; appears
+        to have entered from a neighbouring question or model phrase.
+    review_comments:
+    - Japanese follows the coherent German sentence while recording the Greek problem explicitly.
+    status: ja-proposed
   - id: e-04-005
     source_locator:
       file: part-e.yaml
@@ -3395,16 +3711,19 @@ scenes:
       variants:
       - de: Wenn Sie mich wirklich von Herzen lieben, so sprechen Sie mit meiner Mutter.
         ja_current: 本当に心から私を愛しているのなら、母に話してください。
-        ja_proposed: 本当に心から私を愛しているのなら、母に話してください。
-        decision: pending-review
-        rationale: null
+        ja_proposed: 本当に心から私を愛してくださるのなら、母に話してください。
+        decision: revise
+        rationale: >-
+          The conditional tests the suitor's sincerity and directs the suitor to approach the speaker's
+          mother. 「愛してくださる」 suits the reciprocal polite exchange, but 「母にお話しください」
+          risks sounding as though the mother is to be told a story; plain 「母に話してください」 is clearer.
         alternatives: []
       register: null
       scene_dependency: null
     attestations: []
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: e-04-006
     source_locator:
       file: part-e.yaml
@@ -3438,16 +3757,39 @@ scenes:
       variants:
       - de: Erlauben Sie mir einen Kuß!
         ja_current: キスさせてください。
-        ja_proposed: キスさせてください。
-        decision: pending-review
-        rationale: null
+        ja_proposed: どうか、口づけをさせてください！
+        decision: revise
+        rationale: >-
+          German asks permission and Greek δός μοι κύσαι literally asks the addressee to grant the
+          speaker a kiss. 「口づけをさせてください」 preserves that permission structure more directly
+          than the ceremonious nominal phrase 「口づけをお許しください」.
         alternatives: []
       register: null
       scene_dependency: null
-    attestations: []
+    attestations:
+    - language: grc
+      target: δός μοι κύσαι.
+      status: source-and-context-verified
+      match_type: exact
+      source:
+        author: Aristophanes
+        work: Peace
+        passage: '709'
+        local_file: /home/mrty/Documents/Resources/canonical-greekLit/data/tlg0019/tlg005/tlg0019.tlg005.perseus-grc2.xml
+      text_grc: ὦ φιλτάτη δεῦρʼ ἐλθὲ καὶ δός μοι κύσαι.
+      context_grc: >-
+        Hermes gives Opora to Trygaeus as his wife; Trygaeus immediately calls his beloved near and
+        asks her to let him kiss her.
+      original_speakers: [Τρυγαῖος]
+      original_scene: Trygaeus welcomes Opora after Hermes has bestowed her on him.
+      relationship_to_handbook: >-
+        The handbook extracts δός μοι κύσαι exactly and also supplies the shorter variant δὸς κύσαι;
+        it omits the affectionate address and invitation preceding the phrase.
+      confidence: high
+      research_method: exact corpus search and manual inspection of Peace 706-712
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: e-04-007
     source_locator:
       file: part-e.yaml
@@ -3481,16 +3823,18 @@ scenes:
       variants:
       - de: Geben Sie mir einen Kuß! Bitte bitte!
         ja_current: キスしてください、お願いです！
-        ja_proposed: キスしてください、お願いです！
-        decision: pending-review
-        rationale: null
+        ja_proposed: 口づけしてください。お願いです、どうか！
+        decision: revise
+        rationale: >-
+          Unlike e-04-006, κύσον με directly asks the addressee to kiss the speaker; ἀντιβολῶ adds an
+          urgent plea. The full verbal request keeps this distinction clearer than nominal 「口づけを」.
         alternatives: []
       register: null
       scene_dependency: null
     attestations: []
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: e-04-008
     source_locator:
       file: part-e.yaml
@@ -3524,9 +3868,12 @@ scenes:
       variants:
       - de: Einen Kuß!
         ja_current: キスをしてください！
-        ja_proposed: キスをしてください！
-        decision: pending-review
-        rationale: null
+        ja_proposed: さあ、口づけをさせてください！
+        decision: revise
+        rationale: >-
+          Greek φέρε introduces an immediate proposal and σε κύσω means 「let me kiss you」. The German
+          reduces this to the exclamation Einen Kuß!; Japanese follows the more explicit Greek while
+          maintaining the section's polite relationship.
         alternatives: []
       register: null
       scene_dependency: null
@@ -3554,7 +3901,7 @@ scenes:
       research_method: exact normalized token search
     textual_issues: []
     review_comments: []
-    status: source-researched
+    status: ja-proposed
   - id: e-04-009
     source_locator:
       file: part-e.yaml
@@ -3592,16 +3939,19 @@ scenes:
 
           zu Gefallen will ich es thun.'
         ja_current: 母が怒るのはわかっていますが、あなたのためにそうします。
-        ja_proposed: 母が怒るのはわかっていますが、あなたのためにそうします。
-        decision: pending-review
-        rationale: null
+        ja_proposed: 母がきっと腹を立てるのは、わかっています。でも、あなたのためなら、いたしましょう。
+        decision: revise
+        rationale: >-
+          zwar ... aber and μέν set acknowledged maternal anger against the decision made for the
+          addressee's sake. German gewiß and Greek σαφῶς justify 「きっと」. Restrained 「いたしましょう」
+          gives the acceptance a slightly ceremonious tone without naming an action left elliptical.
         alternatives: []
       register: null
       scene_dependency: null
     attestations: []
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: e-04-010
     source_locator:
       file: part-e.yaml
@@ -3635,16 +3985,18 @@ scenes:
       variants:
       - de: Hören Sie auf!
         ja_current: やめてください！
-        ja_proposed: やめてください！
-        decision: pending-review
-        rationale: null
+        ja_proposed: もう、おやめください！
+        decision: revise
+        rationale: >-
+          Repeated παῦε conveys urgent resistance; 「もう」 and the exclamation preserve the force while
+          polite 「おやめください」 remains consistent with German Sie.
         alternatives: []
       register: null
       scene_dependency: null
     attestations: []
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: e-04-011
     source_locator:
       file: part-e.yaml
@@ -3678,16 +4030,19 @@ scenes:
       variants:
       - de: Wie glücklich bin ich!
         ja_current: なんて幸せなんだろう。
-        ja_proposed: なんて幸せなんだろう。
-        decision: pending-review
-        rationale: null
+        ja_proposed: ああ、なんという幸せでしょう！
+        decision: revise
+        rationale: >-
+          Both German and Greek are exclamations of present delight. 「でしょう」 maintains the polite,
+          somewhat theatrical voice of this courtship sequence better than switching abruptly to plain
+          「なのだろう」.
         alternatives: []
       register: null
       scene_dependency: null
     attestations: []
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: e-04-012
     source_locator:
       file: part-e.yaml
@@ -3721,16 +4076,20 @@ scenes:
       variants:
       - de: Ach, daß mich nur dir Mutter nicht sieht!
         ja_current: どうかお母さんに見つかりませんように。
-        ja_proposed: どうかお母さんに見つかりませんように。
-        decision: pending-review
-        rationale: null
+        ja_proposed: ああ、母に見られませんように！
+        decision: revise
+        rationale: >-
+          German sehen and Greek ὄψεται both concern the mother seeing the speaker. 「見つかる」 adds
+          discovery after a search; literal 「見られる」 better fits the fear of being observed.
         alternatives: []
       register: null
       scene_dependency: null
     attestations: []
-    textual_issues: []
+    textual_issues:
+    - type: probable-german-typo
+      note: The printed dir Mutter should grammatically be die Mutter.
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: e-04-013
     source_locator:
       file: part-e.yaml
@@ -3764,34 +4123,39 @@ scenes:
       variants:
       - de: Wir sind ja allein (unter uns).
         ja_current: ほら、二人きりですよ。
-        ja_proposed: ほら、二人きりですよ。
-        decision: pending-review
-        rationale: null
+        ja_proposed: ここには、私たちしかいませんから。
+        decision: revise
+        rationale: >-
+          German allein (unter uns) and emphatic Greek αὐτοί present the absence of outsiders as
+          reassurance. 「二人きり」 is possible in the reconstructed courtship scene but supplies an
+          exact number not stated by the reusable Greek formula; 「私たちしかいません」 is safer.
         alternatives: []
       register: null
       scene_dependency: null
     attestations:
-    - target: \emph{αὐτοὶ} γάρ ἐσμεν.
-      status: exact-string-located-context-pending
+    - language: grc
+      target: \emph{αὐτοὶ} γάρ ἐσμεν.
+      status: source-and-context-verified
       match_type: exact
       reference_as_given: null
       source:
         author: Aristophanes
         work: Acharnians
         passage: '504'
-        local_file: /home/mrty/Documents/Perseus/Classics/Aristophanes/opensource/aristoph.ach_gk.xml
-      text_grc: \emph{αὐτοὶ} γάρ ἐσμεν.
+        local_file: /home/mrty/Documents/Resources/canonical-greekLit/data/tlg0019/tlg001/tlg0019.tlg001.perseus-grc2.xml
+      text_grc: αὐτοὶ γάρ ἐσμεν οὑπὶ Ληναίῳ τʼ ἀγών, κοὔπω ξένοι πάρεισιν.
       original_speakers:
       - Δικαιοπολις
       original_speaker_beta: '*dikaio/polis'
-      original_scene: null
-      beta_context: me nun ge diabalei klewn oti cenwn parontwn thn polin kakws legw autoi gar esmen oupi
-        lhnaiw t agwn koupw cenoi pareisin oute gar foroi hkousin out
-      relationship_to_handbook: The complete handbook string matches after removing accents and normalizing
-        Perseus Beta Code. Dramatic or prose context still needs manual comparison.
+      original_scene: >-
+        Dicaeopolis says that the Lenaean contest is attended only by Athenians and that foreigners
+        have not yet arrived, so he can speak frankly about the city.
+      relationship_to_handbook: >-
+        The handbook extracts the exact opening formula but transfers “we ourselves are here” from a
+        civic audience without foreigners to the private sense “we are alone among ourselves.”
       adaptations: []
-      confidence: candidate
-      research_method: exact normalized token search
+      confidence: high
+      research_method: exact corpus search and manual inspection of Acharnians 502-508
     - target: \emph{αὐτοὶ} γάρ ἐσμεν.
       status: exact-string-located-context-pending
       match_type: exact
@@ -3835,7 +4199,7 @@ scenes:
       research_method: exact normalized token search
     textual_issues: []
     review_comments: []
-    status: source-researched
+    status: ja-proposed
   - id: e-04-014
     source_locator:
       file: part-e.yaml
@@ -3869,37 +4233,41 @@ scenes:
       variants:
       - de: Pst! Seien Sie still!
         ja_current: しっ、静かに。
-        ja_proposed: しっ、静かに。
-        decision: pending-review
-        rationale: null
+        ja_proposed: しっ、お静かに！
+        decision: revise
+        rationale: >-
+          The abrupt interjection and imperative demand immediate silence, while German Sie indicates
+          that the Japanese should retain polite address. 「しっ、お静かに」 balances both features.
         alternatives: []
       register: null
       scene_dependency: null
     attestations:
-    - target: ἤ ἤ· σιώπα.
-      status: exact-string-located-context-pending
+    - language: grc
+      target: ἤ ἤ· σιώπα.
+      status: source-and-context-verified
       match_type: exact
       reference_as_given: null
       source:
         author: Aristophanes
         work: Clouds
         passage: '105'
-        local_file: /home/mrty/Documents/Perseus/Classics/Aristophanes/opensource/aristoph.cl_gk.xml
-      text_grc: ἤ ἤ· σιώπα.
+        local_file: /home/mrty/Documents/Resources/canonical-greekLit/data/tlg0019/tlg003/tlg0019.tlg003.perseus-grc2.xml
+      text_grc: ἢ ἢ σιώπα· μηδὲν εἴπῃς νήπιον.
       original_speakers:
       - Στρεψιαδης
       original_speaker_beta: '*streyia/dhs'
-      original_scene: null
-      beta_context: tous wxriwntas tous anupodhtous legeis wn o kakodaimwn swkraths kai xairefwn streyiadhs
-        h h siwpa mhden eiphs nhpion all ei ti khdei twn patrwwn alfitwn toutwn genou
-      relationship_to_handbook: The complete handbook string matches after removing accents and normalizing
-        Perseus Beta Code. Dramatic or prose context still needs manual comparison.
+      original_scene: >-
+        Strepsiades hushes his son after the son disparagingly identifies Socrates and Chaerephon;
+        he warns him not to say anything foolish.
+      relationship_to_handbook: >-
+        The handbook preserves the hush and σιώπα exactly, changing only punctuation and omitting the
+        following warning μηδὲν εἴπῃς νήπιον.
       adaptations: []
-      confidence: candidate
-      research_method: exact normalized token search
+      confidence: high
+      research_method: exact corpus search and manual inspection of Clouds 103-107
     textual_issues: []
     review_comments: []
-    status: source-researched
+    status: ja-proposed
   - id: e-04-015
     source_locator:
       file: part-e.yaml
@@ -3933,16 +4301,19 @@ scenes:
       variants:
       - de: Geben Sie mir die Hand!
         ja_current: 手を握ってください。
-        ja_proposed: 手を握ってください。
-        decision: pending-review
-        rationale: null
+        ja_proposed: どうか、その右手を取らせてください！
+        decision: revise
+        rationale: >-
+          German asks for the addressee's hand, while Greek explicitly specifies the right hand.
+          「右手を取らせてください」 naturally describes taking it for the accompanying pledge without
+          importing the stronger Japanese idiom 「手を貸す」, which normally means giving assistance.
         alternatives: []
       register: null
       scene_dependency: null
     attestations: []
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: e-04-016
     source_locator:
       file: part-e.yaml
@@ -3976,16 +4347,19 @@ scenes:
       variants:
       - de: Ich schwöre Ihnen ewige Treue!
         ja_current: 永遠にあなたに忠実でいると誓います。
-        ja_proposed: 永遠にあなたに忠実でいると誓います。
-        decision: pending-review
-        rationale: null
+        ja_proposed: 決してあなたを見捨てないと誓います！
+        decision: revise
+        rationale: >-
+          German formulates the promise positively as eternal fidelity, whereas Greek says literally
+          that the speaker declares they will never abandon the addressee. Japanese follows the more
+          concrete Greek vow while preserving the solemn force of schwören.
         alternatives: []
       register: null
       scene_dependency: null
     attestations: []
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
 - id: e-05
   title:
     de: Die Schwiegermutter
@@ -3995,21 +4369,26 @@ scenes:
     situation: domestic conversation involving a mother-in-law
   cast:
   - id: spouse-a
-    description: null
-    evidence: null
-    confidence: candidate
+    description: One of the discovered lovers; reacts in alarm and attempts to calm the intruder.
+    evidence: "Wir sind verrathen; Ereifern Sie sich nicht"
+    confidence: medium
   - id: spouse-b
-    description: null
-    evidence: null
-    confidence: candidate
+    description: The other discovered lover; exact turns cannot always be separated from spouse-a.
+    evidence: Plural προδεδόμεθα implies two people exposed.
+    confidence: medium
   - id: mother-in-law
-    description: null
-    evidence: null
-    confidence: candidate
+    description: Older woman who discovers the pair, denounces the man, and orders him out.
+    evidence: "Hier ist der schändliche Mensch; Gehen Sie Ihrer Wege"
+    confidence: high
   reconstruction:
-    confidence: unreviewed
-    note: Ordering may combine a continuous exchange with reusable model phrases; turn continuity must
-      be justified entry by entry.
+    confidence: medium
+    note: >-
+      Entries 1-19 plausibly dramatize discovery and expulsion, but many commands are interchangeable
+      variants. Entries 20-31 continue the quarrel without enough evidence to assign every retort.
+      The mother's outwardly polite German Sie becomes hostile command language in Japanese.
+  voice_profiles:
+    mother-in-law: {register: hostile_formal, traits: [shocked, indignant, commanding]}
+    discovered-lover: {register: polite, traits: [alarmed, placating, defensive]}
   entries:
   - id: e-05-001
     source_locator:
@@ -4044,8 +4423,8 @@ scenes:
       variants:
       - de: Was geht da vor? — Was ist das?
         ja_current: そこで何が起きているのですか――これは何です？
-        ja_proposed: そこで何が起きているのですか――これは何です？
-        decision: pending-review
+        ja_proposed: そこで何をしているのです？――これは一体、何事です！
+        decision: revise
         rationale: null
         alternatives: []
       register: null
@@ -4053,7 +4432,7 @@ scenes:
     attestations: []
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: e-05-002
     source_locator:
       file: part-e.yaml
@@ -4087,8 +4466,8 @@ scenes:
       variants:
       - de: Allmächtiger Gott!
         ja_current: 全能の神よ！
-        ja_proposed: 全能の神よ！
-        decision: pending-review
+        ja_proposed: ああ、神よ！
+        decision: revise
         rationale: null
         alternatives: []
       register: null
@@ -4285,7 +4664,7 @@ scenes:
       research_method: exact normalized token search
     textual_issues: []
     review_comments: []
-    status: source-researched
+    status: ja-proposed
   - id: e-05-003
     source_locator:
       file: part-e.yaml
@@ -4319,8 +4698,8 @@ scenes:
       variants:
       - de: Verwünscht!
         ja_current: ちくしょう！
-        ja_proposed: ちくしょう！
-        decision: pending-review
+        ja_proposed: ああ、なんということ！
+        decision: revise
         rationale: null
         alternatives: []
       register: null
@@ -4328,7 +4707,7 @@ scenes:
     attestations: []
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: e-05-004
     source_locator:
       file: part-e.yaml
@@ -4362,8 +4741,8 @@ scenes:
       variants:
       - de: Wir sind verrathen!
         ja_current: 私たちは露見してしまった！
-        ja_proposed: 私たちは露見してしまった！
-        decision: pending-review
+        ja_proposed: 見つかってしまった！
+        decision: revise
         rationale: null
         alternatives: []
       register: null
@@ -4371,7 +4750,7 @@ scenes:
     attestations: []
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: e-05-005
     source_locator:
       file: part-e.yaml
@@ -4405,8 +4784,8 @@ scenes:
       variants:
       - de: Hier ist der schändliche Mensch!
         ja_current: ここにそのろくでもない男がいます！
-        ja_proposed: ここにそのろくでもない男がいます！
-        decision: pending-review
+        ja_proposed: この恥知らずは、ここにいたのですね！
+        decision: revise
         rationale: null
         alternatives: []
       register: null
@@ -4414,7 +4793,7 @@ scenes:
     attestations: []
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: e-05-006
     source_locator:
       file: part-e.yaml
@@ -4448,8 +4827,8 @@ scenes:
       variants:
       - de: Sind Sie verrückt?
         ja_current: 気でも違ったのですか。
-        ja_proposed: 気でも違ったのですか。
-        decision: pending-review
+        ja_proposed: 何をなさっているのです！
+        decision: revise
         rationale: null
         alternatives: []
       register: null
@@ -4457,7 +4836,7 @@ scenes:
     attestations: []
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: e-05-007
     source_locator:
       file: part-e.yaml
@@ -4491,8 +4870,8 @@ scenes:
       variants:
       - de: Was fällt Ihnen ein?
         ja_current: 何を考えているのですか。
-        ja_proposed: 何を考えているのですか。
-        decision: pending-review
+        ja_proposed: 一体どうなさったのです！
+        decision: revise
         rationale: null
         alternatives: []
       register: null
@@ -4500,7 +4879,7 @@ scenes:
     attestations: []
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: e-05-008
     source_locator:
       file: part-e.yaml
@@ -4534,8 +4913,8 @@ scenes:
       variants:
       - de: O Sie Abscheulicher!
         ja_current: ああ、なんて嫌な人！
-        ja_proposed: ああ、なんて嫌な人！
-        decision: pending-review
+        ja_proposed: ああ、なんと忌まわしい人！
+        decision: revise
         rationale: null
         alternatives: []
       register: null
@@ -4564,7 +4943,7 @@ scenes:
       research_method: exact normalized token search
     textual_issues: []
     review_comments: []
-    status: source-researched
+    status: ja-proposed
   - id: e-05-009
     source_locator:
       file: part-e.yaml
@@ -4598,8 +4977,8 @@ scenes:
       variants:
       - de: Ereifern Sie sich nicht!
         ja_current: 興奮しないでください。
-        ja_proposed: 興奮しないでください。
-        decision: pending-review
+        ja_proposed: そうお怒りにならずに！
+        decision: revise
         rationale: null
         alternatives: []
       register: null
@@ -4710,7 +5089,7 @@ scenes:
       research_method: exact normalized token search
     textual_issues: []
     review_comments: []
-    status: source-researched
+    status: ja-proposed
   - id: e-05-010
     source_locator:
       file: part-e.yaml
@@ -4744,8 +5123,8 @@ scenes:
       variants:
       - de: Das ist eine Sünde und Schande!
         ja_current: これは罪であり恥です！
-        ja_proposed: これは罪であり恥です！
-        decision: pending-review
+        ja_proposed: なんという罰当たりな目に遭ったことか！
+        decision: revise
         rationale: null
         alternatives: []
       register: null
@@ -4753,7 +5132,7 @@ scenes:
     attestations: []
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: e-05-011
     source_locator:
       file: part-e.yaml
@@ -4787,8 +5166,8 @@ scenes:
       variants:
       - de: \emph{Nein,} über diese Unverschämtheit!
         ja_current: いやはや、なんという無礼だ！
-        ja_proposed: いやはや、なんという無礼だ！
-        decision: pending-review
+        ja_proposed: まあ、なんというひどい無礼でしょう！
+        decision: revise
         rationale: null
         alternatives: []
       register: null
@@ -4817,7 +5196,7 @@ scenes:
       research_method: exact normalized token search
     textual_issues: []
     review_comments: []
-    status: source-researched
+    status: ja-proposed
   - id: e-05-012
     source_locator:
       file: part-e.yaml
@@ -4851,8 +5230,8 @@ scenes:
       variants:
       - de: Hören Sie auf!
         ja_current: やめてください。
-        ja_proposed: やめてください。
-        decision: pending-review
+        ja_proposed: もうおよしなさい！
+        decision: revise
         rationale: null
         alternatives: []
       register: null
@@ -4860,7 +5239,7 @@ scenes:
     attestations: []
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: e-05-013
     source_locator:
       file: part-e.yaml
@@ -4894,8 +5273,8 @@ scenes:
       variants:
       - de: Gehen Sie Ihrer Wege!
         ja_current: さっさと立ち去りなさい。
-        ja_proposed: さっさと立ち去りなさい。
-        decision: pending-review
+        ja_proposed: さあ、そこをお退きなさい！
+        decision: revise
         rationale: null
         alternatives: []
       register: null
@@ -4903,7 +5282,7 @@ scenes:
     attestations: []
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: e-05-014
     source_locator:
       file: part-e.yaml
@@ -4937,8 +5316,8 @@ scenes:
       variants:
       - de: Machen Sie, daß Sie hinaus\textcompwordmark{}kommen!
         ja_current: 早く外へ出て行きなさい。
-        ja_proposed: 早く外へ出て行きなさい。
-        decision: pending-review
+        ja_proposed: さっさと外へお出になったらどうです！
+        decision: revise
         rationale: null
         alternatives: []
       register: null
@@ -4946,7 +5325,7 @@ scenes:
     attestations: []
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: e-05-015
     source_locator:
       file: part-e.yaml
@@ -4980,8 +5359,8 @@ scenes:
       variants:
       - de: Entfernen Sie sich doch!
         ja_current: さあ離れてください。
-        ja_proposed: さあ離れてください。
-        decision: pending-review
+        ja_proposed: さあ、そこをお退きにならないのですか！
+        decision: revise
         rationale: null
         alternatives: []
       register: null
@@ -4989,7 +5368,7 @@ scenes:
     attestations: []
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: e-05-016
     source_locator:
       file: part-e.yaml
@@ -5023,8 +5402,8 @@ scenes:
       variants:
       - de: Gehen Sie zum Teufel!
         ja_current: 地獄へ行け！
-        ja_proposed: 地獄へ行け！
-        decision: pending-review
+        ja_proposed: とっとと失せなさい！
+        decision: revise
         rationale: null
         alternatives: []
       register: null
@@ -5032,7 +5411,7 @@ scenes:
     attestations: []
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: e-05-017
     source_locator:
       file: part-e.yaml
@@ -5066,8 +5445,8 @@ scenes:
       variants:
       - de: Fort mit Ihnen!
         ja_current: 出て行け！
-        ja_proposed: 出て行け！
-        decision: pending-review
+        ja_proposed: 消え失せろ！
+        decision: revise
         rationale: null
         alternatives: []
       register: null
@@ -5075,7 +5454,7 @@ scenes:
     attestations: []
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: e-05-018
     source_locator:
       file: part-e.yaml
@@ -5109,8 +5488,8 @@ scenes:
       variants:
       - de: Der Teufel soll Sie holen!
         ja_current: 悪魔に連れて行かれてしまえ！
-        ja_proposed: 悪魔に連れて行かれてしまえ！
-        decision: pending-review
+        ja_proposed: ひどい目に遭って、くたばるがいい！
+        decision: revise
         rationale: null
         alternatives: []
       register: null
@@ -5118,7 +5497,7 @@ scenes:
     attestations: []
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: e-05-019
     source_locator:
       file: part-e.yaml
@@ -5152,8 +5531,8 @@ scenes:
       variants:
       - de: So gehen Sie doch zum Teufel!
         ja_current: だからさっさと地獄へ行け！
-        ja_proposed: だからさっさと地獄へ行け！
-        decision: pending-review
+        ja_proposed: さあ、とっとと失せたらどうです！
+        decision: revise
         rationale: null
         alternatives: []
       register: null
@@ -5308,7 +5687,7 @@ scenes:
       research_method: exact normalized token search
     textual_issues: []
     review_comments: []
-    status: source-researched
+    status: ja-proposed
   - id: e-05-020
     source_locator:
       file: part-e.yaml
@@ -5343,8 +5722,8 @@ scenes:
       variants:
       - de: Sie sind verrückt, Madame!
         ja_current: 奥さん、あなたは狂っていますよ。
-        ja_proposed: 奥さん、あなたは狂っていますよ。
-        decision: pending-review
+        ja_proposed: 奥さん、どうかしていますよ。
+        decision: revise
         rationale: null
         alternatives: []
       register: null
@@ -5352,7 +5731,7 @@ scenes:
     attestations: []
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: e-05-021
     source_locator:
       file: part-e.yaml
@@ -5386,8 +5765,8 @@ scenes:
       variants:
       - de: Sie beleidigen mich!
         ja_current: 私を侮辱しています！
-        ja_proposed: 私を侮辱しています！
-        decision: pending-review
+        ja_proposed: まあ、なんという侮辱でしょう！
+        decision: revise
         rationale: null
         alternatives: []
       register: null
@@ -5395,7 +5774,7 @@ scenes:
     attestations: []
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: e-05-022
     source_locator:
       file: part-e.yaml
@@ -5429,8 +5808,8 @@ scenes:
       variants:
       - de: Pfui!
         ja_current: けっ！
-        ja_proposed: けっ！
-        decision: pending-review
+        ja_proposed: ええ、汚らわしい！
+        decision: revise
         rationale: null
         alternatives: []
       register: null
@@ -5438,7 +5817,7 @@ scenes:
     attestations: []
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: e-05-023
     source_locator:
       file: part-e.yaml
@@ -5472,8 +5851,8 @@ scenes:
       variants:
       - de: Das soll Ihnen nicht so hingehen!
         ja_current: そうはいきませんよ。
-        ja_proposed: そうはいきませんよ。
-        decision: pending-review
+        ja_proposed: こんなことをして、ただで済むと思わないことです！
+        decision: revise
         rationale: null
         alternatives: []
       register: null
@@ -5481,7 +5860,7 @@ scenes:
     attestations: []
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: e-05-024
     source_locator:
       file: part-e.yaml
@@ -5515,8 +5894,8 @@ scenes:
       variants:
       - de: Das soll Ihnen schlecht bekommen!
         ja_current: 痛い目に遭いますよ。
-        ja_proposed: 痛い目に遭いますよ。
-        decision: pending-review
+        ja_proposed: 後悔することになりますよ！
+        decision: revise
         rationale: null
         alternatives: []
       register: null
@@ -5524,7 +5903,7 @@ scenes:
     attestations: []
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: e-05-025
     source_locator:
       file: part-e.yaml
@@ -5558,8 +5937,8 @@ scenes:
       variants:
       - de: Das will ich Ihnen anstreichen!
         ja_current: その無礼はこらしめてやります。
-        ja_proposed: その無礼はこらしめてやります。
-        decision: pending-review
+        ja_proposed: その厚かましさ、私が思い知らせてやります！
+        decision: revise
         rationale: null
         alternatives: []
       register: null
@@ -5588,7 +5967,7 @@ scenes:
       research_method: exact normalized token search
     textual_issues: []
     review_comments: []
-    status: source-researched
+    status: ja-proposed
   - id: e-05-026
     source_locator:
       file: part-e.yaml
@@ -5622,8 +6001,8 @@ scenes:
       variants:
       - de: Nun, so mäßigen Sie sich doch!
         ja_current: さあ、気持ちを抑えてください。
-        ja_proposed: さあ、気持ちを抑えてください。
-        decision: pending-review
+        ja_proposed: まあまあ、どうかお鎮まりください！
+        decision: revise
         rationale: null
         alternatives: []
       register: null
@@ -5631,7 +6010,7 @@ scenes:
     attestations: []
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: e-05-027
     source_locator:
       file: part-e.yaml
@@ -5665,8 +6044,8 @@ scenes:
       variants:
       - de: Ist es nicht arg, daß Sie das thun?
         ja_current: そんなことをするなんてひどくないですか。
-        ja_proposed: そんなことをするなんてひどくないですか。
-        decision: pending-review
+        ja_proposed: あなたがそんなことをなさるとは、ひどいではありませんか。
+        decision: revise
         rationale: null
         alternatives: []
       register: null
@@ -5674,7 +6053,7 @@ scenes:
     attestations: []
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: e-05-028
     source_locator:
       file: part-e.yaml
@@ -5708,8 +6087,8 @@ scenes:
       variants:
       - de: Das ist empörend!
         ja_current: これは我慢ならない！
-        ja_proposed: これは我慢ならない！
-        decision: pending-review
+        ja_proposed: こんなこと、到底我慢なりません！
+        decision: revise
         rationale: null
         alternatives: []
       register: null
@@ -5717,7 +6096,7 @@ scenes:
     attestations: []
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: e-05-029
     source_locator:
       file: part-e.yaml
@@ -5751,8 +6130,8 @@ scenes:
       variants:
       - de: Verwünscht! was soll ich thun?
         ja_current: ちくしょう、どうしたらいいんだ？
-        ja_proposed: ちくしょう、どうしたらいいんだ？
-        decision: pending-review
+        ja_proposed: ああ、どうすればよいのだ！
+        decision: revise
         rationale: null
         alternatives: []
       register: null
@@ -5760,7 +6139,7 @@ scenes:
     attestations: []
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: e-05-030
     source_locator:
       file: part-e.yaml
@@ -5794,8 +6173,8 @@ scenes:
       variants:
       - de: Sehen Sie, was Sie gethan haben?
         ja_current: 自分が何をしたかわかりますか。
-        ja_proposed: 自分が何をしたかわかりますか。
-        decision: pending-review
+        ja_proposed: 自分が何をしたか、おわかりですか。
+        decision: revise
         rationale: null
         alternatives: []
       register: null
@@ -5824,7 +6203,7 @@ scenes:
       research_method: exact normalized token search
     textual_issues: []
     review_comments: []
-    status: source-researched
+    status: ja-proposed
   - id: e-05-031
     source_locator:
       file: part-e.yaml
@@ -5862,8 +6241,8 @@ scenes:
       variants:
       - de: Sie sind schuld daran!
         ja_current: それはあなたの責任です！
-        ja_proposed: それはあなたの責任です！
-        decision: pending-review
+        ja_proposed: これはみな、あなたのせいです！
+        decision: revise
         rationale: null
         alternatives: []
       register: null
@@ -5957,7 +6336,7 @@ scenes:
       research_method: exact normalized token search
     textual_issues: []
     review_comments: []
-    status: source-researched
+    status: ja-proposed
 - id: e-06
   title:
     de: Wie ärgerlich!
@@ -5967,21 +6346,26 @@ scenes:
     situation: a lover or confidant reacts to an unwelcome development
   cast:
   - id: speaker
-    description: null
-    evidence: null
-    confidence: candidate
+    description: Humiliated lover, ashamed after the confrontation and unable to let the matter rest.
+    evidence: "Ich schäme mich; ich kann unmöglich schweigen"
+    confidence: medium
   - id: interlocutor
-    description: null
-    evidence: null
-    confidence: candidate
+    description: Familiar companion who consoles him but also blames his conduct.
+    evidence: "Sei nicht rachsüchtig; Daran bist du ganz allein schuld"
+    confidence: medium
   - id: person-discussed
-    description: null
-    evidence: null
-    confidence: candidate
+    description: Woman from the preceding conflict, discussed in the third person.
+    evidence: "die Frau; Sie ist sehr böse auf uns"
+    confidence: medium
   reconstruction:
-    confidence: unreviewed
-    note: Ordering may combine a continuous exchange with reusable model phrases; turn continuity must
-      be justified entry by entry.
+    confidence: medium
+    note: >-
+      The opening and closing fit an aftermath dialogue, while entries 12-25 contain mutually
+      contradictory blame formulas best treated as selectable exchanges. Plain Japanese marks the
+      established du-relationship; speaker assignment remains deliberately provisional.
+  voice_profiles:
+    speaker: {register: plain, traits: [ashamed, aggrieved, defensive]}
+    interlocutor: {register: plain, traits: [consoling, admonitory]}
   entries:
   - id: e-06-001
     source_locator:
@@ -6016,8 +6400,8 @@ scenes:
       variants:
       - de: Was hängst du den Kopf?
         ja_current: どうしてそんなにうなだれているの？
-        ja_proposed: どうしてそんなにうなだれているの？
-        decision: pending-review
+        ja_proposed: どうして、そんなにうなだれているんだ。
+        decision: revise
         rationale: null
         alternatives: []
       register: null
@@ -6025,7 +6409,7 @@ scenes:
     attestations: []
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: e-06-002
     source_locator:
       file: part-e.yaml
@@ -6060,7 +6444,7 @@ scenes:
       - de: Ich schäme mich.
         ja_current: 恥ずかしいんだ。
         ja_proposed: 恥ずかしいんだ。
-        decision: pending-review
+        decision: retain
         rationale: null
         alternatives: []
       register: null
@@ -6068,7 +6452,7 @@ scenes:
     attestations: []
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: e-06-003
     source_locator:
       file: part-e.yaml
@@ -6102,8 +6486,8 @@ scenes:
       variants:
       - de: Die Frau hat dich in der That sehr schlecht behandelt.
         ja_current: あの女性は本当に君にひどい仕打ちをしたね。
-        ja_proposed: あの女性は本当に君にひどい仕打ちをしたね。
-        decision: pending-review
+        ja_proposed: あの女には、まったくひどい目に遭わされたな。
+        decision: revise
         rationale: null
         alternatives: []
       register: null
@@ -6111,7 +6495,7 @@ scenes:
     attestations: []
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: e-06-004
     source_locator:
       file: part-e.yaml
@@ -6145,8 +6529,8 @@ scenes:
       variants:
       - de: Sie ist sehr böse auf uns.
         ja_current: 彼女は私たちにひどく腹を立てている。
-        ja_proposed: 彼女は私たちにひどく腹を立てている。
-        decision: pending-review
+        ja_proposed: 僕たちのことを、ひどく怒っている。
+        decision: revise
         rationale: null
         alternatives: []
       register: null
@@ -6154,7 +6538,7 @@ scenes:
     attestations: []
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: e-06-005
     source_locator:
       file: part-e.yaml
@@ -6188,8 +6572,8 @@ scenes:
       variants:
       - de: Das ist höchst ärgerlich für uns.
         ja_current: これは私たちにとって非常に腹立たしい。
-        ja_proposed: これは私たちにとって非常に腹立たしい。
-        decision: pending-review
+        ja_proposed: それが僕たちには、何よりつらいことだ。
+        decision: revise
         rationale: null
         alternatives: []
       register: null
@@ -6197,7 +6581,7 @@ scenes:
     attestations: []
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: e-06-006
     source_locator:
       file: part-e.yaml
@@ -6231,8 +6615,8 @@ scenes:
       variants:
       - de: Ich ärgere mich immer wieder, daß ich das gethan habe.
         ja_current: そんなことをした自分に、何度も腹が立つ。
-        ja_proposed: そんなことをした自分に、何度も腹が立つ。
-        decision: pending-review
+        ja_proposed: あんなことをしたのが、悔やんでも悔やみきれない。
+        decision: revise
         rationale: null
         alternatives: []
       register: null
@@ -6240,7 +6624,7 @@ scenes:
     attestations: []
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: e-06-007
     source_locator:
       file: part-e.yaml
@@ -6274,8 +6658,8 @@ scenes:
       variants:
       - de: Das hatte ich nicht erwartet.
         ja_current: こんなことになるとは思わなかった。
-        ja_proposed: こんなことになるとは思わなかった。
-        decision: pending-review
+        ja_proposed: こんなことになるとは、夢にも思わなかった。
+        decision: revise
         rationale: null
         alternatives: []
       register: null
@@ -6283,7 +6667,7 @@ scenes:
     attestations: []
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: e-06-008
     source_locator:
       file: part-e.yaml
@@ -6317,8 +6701,8 @@ scenes:
       variants:
       - de: Knirsche nicht mit den Zähnen!
         ja_current: 歯ぎしりするのはやめなさい！
-        ja_proposed: 歯ぎしりするのはやめなさい！
-        decision: pending-review
+        ja_proposed: そう歯ぎしりするな！
+        decision: revise
         rationale: null
         alternatives: []
       register: null
@@ -6347,7 +6731,7 @@ scenes:
       research_method: exact normalized token search
     textual_issues: []
     review_comments: []
-    status: source-researched
+    status: ja-proposed
   - id: e-06-009
     source_locator:
       file: part-e.yaml
@@ -6381,8 +6765,8 @@ scenes:
       variants:
       - de: Das läßt sich nicht ändern.
         ja_current: それはどうにもならない。
-        ja_proposed: それはどうにもならない。
-        decision: pending-review
+        ja_proposed: まあ、済んだことは仕方がない。
+        decision: revise
         rationale: null
         alternatives: []
       register: null
@@ -6452,7 +6836,7 @@ scenes:
       research_method: exact normalized token search
     textual_issues: []
     review_comments: []
-    status: source-researched
+    status: ja-proposed
   - id: e-06-010
     source_locator:
       file: part-e.yaml
@@ -6486,8 +6870,8 @@ scenes:
       variants:
       - de: Sei nicht rachsüchtig!
         ja_current: 仕返ししようとしないで。
-        ja_proposed: 仕返ししようとしないで。
-        decision: pending-review
+        ja_proposed: 根に持つのはよせ。
+        decision: revise
         rationale: null
         alternatives: []
       register: null
@@ -6495,7 +6879,7 @@ scenes:
     attestations: []
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: e-06-011
     source_locator:
       file: part-e.yaml
@@ -6529,8 +6913,8 @@ scenes:
       variants:
       - de: Es ist am besten, wir bleiben ruhig.
         ja_current: 静かにしているのが一番だ。
-        ja_proposed: 静かにしているのが一番だ。
-        decision: pending-review
+        ja_proposed: おとなしくしているのが一番だ。
+        decision: revise
         rationale: null
         alternatives: []
       register: null
@@ -6538,7 +6922,7 @@ scenes:
     attestations: []
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: e-06-012
     source_locator:
       file: part-e.yaml
@@ -6572,8 +6956,8 @@ scenes:
       variants:
       - de: Das war ein Fehler von uns.
         ja_current: それは私たちの過ちだった。
-        ja_proposed: それは私たちの過ちだった。
-        decision: pending-review
+        ja_proposed: 僕たちが間違っていたんだ。
+        decision: revise
         rationale: null
         alternatives: []
       register: null
@@ -6581,7 +6965,7 @@ scenes:
     attestations: []
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: e-06-013
     source_locator:
       file: part-e.yaml
@@ -6615,8 +6999,8 @@ scenes:
       variants:
       - de: Sei nicht böse, mein Lieber!
         ja_current: 怒らないでおくれ。
-        ja_proposed: 怒らないでおくれ。
-        decision: pending-review
+        ja_proposed: まあ、そう腹を立てるなよ。
+        decision: revise
         rationale: null
         alternatives: []
       register: null
@@ -6624,7 +7008,7 @@ scenes:
     attestations: []
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: e-06-014
     source_locator:
       file: part-e.yaml
@@ -6658,8 +7042,8 @@ scenes:
       variants:
       - de: Aber ich kann unmöglich schweigen.
         ja_current: でも黙ってはいられないんだ。
-        ja_proposed: でも黙ってはいられないんだ。
-        decision: pending-review
+        ja_proposed: だが、黙っていることなど到底できない。
+        decision: revise
         rationale: null
         alternatives: []
       register: null
@@ -6667,7 +7051,7 @@ scenes:
     attestations: []
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: e-06-015
     source_locator:
       file: part-e.yaml
@@ -6701,8 +7085,8 @@ scenes:
       variants:
       - de: Daran bist du ganz allein schuld.
         ja_current: それはまったく君の責任だ。
-        ja_proposed: それはまったく君の責任だ。
-        decision: pending-review
+        ja_proposed: これは、ひとえに君のせいだぞ。
+        decision: revise
         rationale: null
         alternatives: []
       register: null
@@ -6710,7 +7094,7 @@ scenes:
     attestations: []
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: e-06-016
     source_locator:
       file: part-e.yaml
@@ -6744,8 +7128,8 @@ scenes:
       variants:
       - de: Es war \emph{nicht richtig, daß} du das thatest.
         ja_current: 君がそうしたのは間違いだった。
-        ja_proposed: 君がそうしたのは間違いだった。
-        decision: pending-review
+        ja_proposed: 君があんなことをしたのは、よくなかった！
+        decision: revise
         rationale: null
         alternatives: []
       register: null
@@ -6753,7 +7137,7 @@ scenes:
     attestations: []
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: e-06-017
     source_locator:
       file: part-e.yaml
@@ -6787,8 +7171,8 @@ scenes:
       variants:
       - de: Was geht das \emph{dich} an?
         ja_current: それが君に何の関係があるんだ。
-        ja_proposed: それが君に何の関係があるんだ。
-        decision: pending-review
+        ja_proposed: 君に何の関係がある。
+        decision: revise
         rationale: null
         alternatives: []
       register: null
@@ -6816,7 +7200,7 @@ scenes:
       research_method: exact normalized token search
     textual_issues: []
     review_comments: []
-    status: source-researched
+    status: ja-proposed
   - id: e-06-018
     source_locator:
       file: part-e.yaml
@@ -6850,8 +7234,8 @@ scenes:
       variants:
       - de: Was fiel dir denn ein, daß du das thatest?
         ja_current: どういうつもりでそんなことをしたんだ。
-        ja_proposed: どういうつもりでそんなことをしたんだ。
-        decision: pending-review
+        ja_proposed: 一体どういうつもりで、あんなことをしたんだ。
+        decision: revise
         rationale: null
         alternatives: []
       register: null
@@ -6859,7 +7243,7 @@ scenes:
     attestations: []
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: e-06-019
     source_locator:
       file: part-e.yaml
@@ -6894,7 +7278,7 @@ scenes:
       - de: O über die Thorheit!
         ja_current: なんという愚かさだ！
         ja_proposed: なんという愚かさだ！
-        decision: pending-review
+        decision: retain
         rationale: null
         alternatives: []
       register: null
@@ -6902,7 +7286,7 @@ scenes:
     attestations: []
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: e-06-020
     source_locator:
       file: part-e.yaml
@@ -6936,8 +7320,8 @@ scenes:
       variants:
       - de: Wie \emph{unrecht} du gehandelt hast!
         ja_current: 君のしたことはなんて間違っているんだ！
-        ja_proposed: 君のしたことはなんて間違っているんだ！
-        decision: pending-review
+        ja_proposed: 君はなんという間違いをしでかしたのだ！
+        decision: revise
         rationale: null
         alternatives: []
       register: null
@@ -6945,7 +7329,7 @@ scenes:
     attestations: []
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: e-06-021
     source_locator:
       file: part-e.yaml
@@ -6979,8 +7363,8 @@ scenes:
       variants:
       - de: Das war Unrecht von dir.
         ja_current: それは君が悪かった。
-        ja_proposed: それは君が悪かった。
-        decision: pending-review
+        ja_proposed: あれは君が悪かった。
+        decision: revise
         rationale: null
         alternatives: []
       register: null
@@ -6988,7 +7372,7 @@ scenes:
     attestations: []
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: e-06-022
     source_locator:
       file: part-e.yaml
@@ -7022,8 +7406,8 @@ scenes:
       variants:
       - de: \emph{Das ist es, was} du mir zum Vorwurf machst?
         ja_current: それを私に非難するのか？
-        ja_proposed: それを私に非難するのか？
-        decision: pending-review
+        ja_proposed: 君が僕を責めるのは、そのことなのか？
+        decision: revise
         rationale: null
         alternatives: []
       register: null
@@ -7031,7 +7415,7 @@ scenes:
     attestations: []
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: e-06-023
     source_locator:
       file: part-e.yaml
@@ -7065,8 +7449,8 @@ scenes:
       variants:
       - de: Aber es ging nicht anders.
         ja_current: でもそうするしかなかった。
-        ja_proposed: でもそうするしかなかった。
-        decision: pending-review
+        ja_proposed: だが、ほかにしようがなかったんだ。
+        decision: revise
         rationale: null
         alternatives: []
       register: null
@@ -7074,7 +7458,7 @@ scenes:
     attestations: []
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: e-06-024
     source_locator:
       file: part-e.yaml
@@ -7108,8 +7492,8 @@ scenes:
       variants:
       - de: Gieb mir keine guten Lehren, sondern —
         ja_current: 説教はいいから――
-        ja_proposed: 説教はいいから――
-        decision: pending-review
+        ja_proposed: 説教はよしてくれ。それより――
+        decision: revise
         rationale: null
         alternatives: []
       register: null
@@ -7117,7 +7501,7 @@ scenes:
     attestations: []
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: e-06-025
     source_locator:
       file: part-e.yaml
@@ -7151,8 +7535,8 @@ scenes:
       variants:
       - de: Über dich kann man sich krank ärgern.
         ja_current: 君には本当に腹が立って病気になりそうだ。
-        ja_proposed: 君には本当に腹が立って病気になりそうだ。
-        decision: pending-review
+        ja_proposed: 君には腹が立って、どうにかなりそうだ！
+        decision: revise
         rationale: null
         alternatives: []
       register: null
@@ -7160,7 +7544,7 @@ scenes:
     attestations: []
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: e-06-026
     source_locator:
       file: part-e.yaml
@@ -7194,8 +7578,8 @@ scenes:
       variants:
       - de: 'Aber soviel sage ich dir:'
         ja_current: でもね、これだけは言っておくよ。
-        ja_proposed: でもね、これだけは言っておくよ。
-        decision: pending-review
+        ja_proposed: だが、これだけは言っておく。
+        decision: revise
         rationale: null
         alternatives: []
       register: null
@@ -7246,7 +7630,7 @@ scenes:
       research_method: exact normalized token search
     textual_issues: []
     review_comments: []
-    status: source-researched
+    status: ja-proposed
   - id: e-06-027
     source_locator:
       file: part-e.yaml
@@ -7280,8 +7664,8 @@ scenes:
       variants:
       - de: Mir \emph{thut} das Fräulein \emph{leid.}
         ja_current: あの娘が本当に気の毒だ。
-        ja_proposed: あの娘が本当に気の毒だ。
-        decision: pending-review
+        ja_proposed: 僕は、あの娘が気の毒でならない。
+        decision: revise
         rationale: null
         alternatives: []
       register: null
@@ -7289,7 +7673,7 @@ scenes:
     attestations: []
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
 - id: e-07
   title:
     de: Keine schlechten Witze!
@@ -7299,17 +7683,21 @@ scenes:
     situation: rejection of teasing or improper jokes
   cast:
   - id: speaker
-    description: null
-    evidence: null
-    confidence: candidate
+    description: Person who takes teasing personally and finally breaks off the exchange.
+    evidence: "Das geht auf mich; rede nicht mehr mit mir"
+    confidence: high
   - id: interlocutor
-    description: null
-    evidence: null
-    confidence: candidate
+    description: One or more companions who laugh and deny laughing at the speaker.
+    evidence: "Wir lachen nicht über dich"
+    confidence: high
   reconstruction:
-    confidence: unreviewed
-    note: Ordering may combine a continuous exchange with reusable model phrases; turn continuity must
-      be justified entry by entry.
+    confidence: medium
+    note: >-
+      Entries 3 and 7-13 support a short teasing exchange. Entries 1-6 also serve as independent
+      examples of σκώπτειν and should not all be assigned as consecutive turns.
+  voice_profiles:
+    speaker: {register: plain, traits: [sensitive, irritated]}
+    interlocutor: {register: plain, traits: [amused, teasing]}
   entries:
   - id: e-07-001
     source_locator:
@@ -7344,8 +7732,8 @@ scenes:
       variants:
       - de: Wie komisch sich das aus\textcompwordmark{}nahm!
         ja_current: なんてばかばかしく見えたことか！
-        ja_proposed: なんてばかばかしく見えたことか！
-        decision: pending-review
+        ja_proposed: なんとも滑稽な有様だったな！
+        decision: revise
         rationale: null
         alternatives: []
       register: null
@@ -7353,7 +7741,7 @@ scenes:
     attestations: []
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: e-07-002
     source_locator:
       file: part-e.yaml
@@ -7387,8 +7775,8 @@ scenes:
       variants:
       - de: Das ist ein Hauptwitz!
         ja_current: これは大笑いだ！
-        ja_proposed: これは大笑いだ！
-        decision: pending-review
+        ja_proposed: こいつは実に愉快だ！
+        decision: revise
         rationale: null
         alternatives: []
       register: null
@@ -7396,7 +7784,7 @@ scenes:
     attestations: []
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: e-07-003
     source_locator:
       file: part-e.yaml
@@ -7430,8 +7818,8 @@ scenes:
       variants:
       - de: Das geht auf mich!
         ja_current: これは私のことだ。
-        ja_proposed: これは私のことだ。
-        decision: pending-review
+        ja_proposed: それは僕への当てつけだな！
+        decision: revise
         rationale: null
         alternatives: []
       register: null
@@ -7460,7 +7848,7 @@ scenes:
       research_method: exact normalized token search
     textual_issues: []
     review_comments: []
-    status: source-researched
+    status: ja-proposed
   - id: e-07-004
     source_locator:
       file: part-e.yaml
@@ -7494,8 +7882,8 @@ scenes:
       variants:
       - de: Er macht schlechte Witze.
         ja_current: 彼はくだらない冗談を言う。
-        ja_proposed: 彼はくだらない冗談を言う。
-        decision: pending-review
+        ja_proposed: あいつは人をからかっている。
+        decision: revise
         rationale: null
         alternatives: []
       register: null
@@ -7503,7 +7891,7 @@ scenes:
     attestations: []
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: e-07-005
     source_locator:
       file: part-e.yaml
@@ -7537,8 +7925,8 @@ scenes:
       variants:
       - de: Mach' keine schlechten Witze!
         ja_current: くだらない冗談はやめろ！
-        ja_proposed: くだらない冗談はやめろ！
-        decision: pending-review
+        ja_proposed: くだらない冗談はよせ！
+        decision: revise
         rationale: null
         alternatives: []
       register: null
@@ -7546,7 +7934,7 @@ scenes:
     attestations: []
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: e-07-006
     source_locator:
       file: part-e.yaml
@@ -7580,8 +7968,8 @@ scenes:
       variants:
       - de: Mach' keine schlechten Witze \emph{über mich!}
         ja_current: 私のことで変な冗談を言うな！
-        ja_proposed: 私のことで変な冗談を言うな！
-        decision: pending-review
+        ja_proposed: 僕をからかうのはよせ！
+        decision: revise
         rationale: null
         alternatives: []
       register: null
@@ -7589,7 +7977,7 @@ scenes:
     attestations: []
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: e-07-007
     source_locator:
       file: part-e.yaml
@@ -7627,8 +8015,8 @@ scenes:
 
           über mich?'
         ja_current: まさかそれで私をからかっているのではないだろうね？
-        ja_proposed: まさかそれで私をからかっているのではないだろうね？
-        decision: pending-review
+        ja_proposed: まさか、それを見て僕をからかっているんじゃないだろうな？
+        decision: revise
         rationale: null
         alternatives: []
       register: null
@@ -7636,7 +8024,7 @@ scenes:
     attestations: []
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: e-07-008
     source_locator:
       file: part-e.yaml
@@ -7670,8 +8058,8 @@ scenes:
       variants:
       - de: Laß dich doch nicht aus\textcompwordmark{}lachen!
         ja_current: 笑いものになるなよ。
-        ja_proposed: 笑いものになるなよ。
-        decision: pending-review
+        ja_proposed: 笑いものになんかなるなよ！
+        decision: revise
         rationale: null
         alternatives: []
       register: null
@@ -7679,7 +8067,7 @@ scenes:
     attestations: []
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: e-07-009
     source_locator:
       file: part-e.yaml
@@ -7713,8 +8101,8 @@ scenes:
       variants:
       - de: Wir lachen nicht über dich.
         ja_current: 君のことを笑っているわけじゃない。
-        ja_proposed: 君のことを笑っているわけじゃない。
-        decision: pending-review
+        ja_proposed: 僕たちは君を笑っているんじゃない。
+        decision: revise
         rationale: null
         alternatives: []
       register: null
@@ -7743,7 +8131,7 @@ scenes:
       research_method: exact normalized token search
     textual_issues: []
     review_comments: []
-    status: source-researched
+    status: ja-proposed
   - id: e-07-010
     source_locator:
       file: part-e.yaml
@@ -7777,8 +8165,8 @@ scenes:
       variants:
       - de: Nun, worüber denn?
         ja_current: じゃあ何がおかしいんだい。
-        ja_proposed: じゃあ何がおかしいんだい。
-        decision: pending-review
+        ja_proposed: では、何を笑っているんだ。
+        decision: revise
         rationale: null
         alternatives: []
       register: null
@@ -7786,7 +8174,7 @@ scenes:
     attestations: []
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: e-07-011
     source_locator:
       file: part-e.yaml
@@ -7820,8 +8208,8 @@ scenes:
       variants:
       - de: Worüber lachst du?
         ja_current: 何を見て笑っているの？
-        ja_proposed: 何を見て笑っているの？
-        decision: pending-review
+        ja_proposed: 何がおかしいんだ？
+        decision: revise
         rationale: null
         alternatives: []
       register: null
@@ -7850,7 +8238,7 @@ scenes:
       research_method: exact normalized token search
     textual_issues: []
     review_comments: []
-    status: source-researched
+    status: ja-proposed
   - id: e-07-012
     source_locator:
       file: part-e.yaml
@@ -7884,8 +8272,8 @@ scenes:
       variants:
       - de: Hör' auf! — Schweig'!
         ja_current: やめろ！――黙れ！
-        ja_proposed: やめろ！――黙れ！
-        decision: pending-review
+        ja_proposed: よせ！――黙れ！
+        decision: revise
         rationale: null
         alternatives: []
       register: null
@@ -7893,7 +8281,7 @@ scenes:
     attestations: []
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: e-07-013
     source_locator:
       file: part-e.yaml
@@ -7927,8 +8315,8 @@ scenes:
       variants:
       - de: Sei so gut und rede nicht mehr mit mir!
         ja_current: 悪いがもう私に話しかけないでくれ。
-        ja_proposed: 悪いがもう私に話しかけないでくれ。
-        decision: pending-review
+        ja_proposed: 頼むから、もう僕に話しかけないでくれ！
+        decision: revise
         rationale: null
         alternatives: []
       register: null
@@ -7958,7 +8346,7 @@ scenes:
       research_method: exact normalized token search
     textual_issues: []
     review_comments: []
-    status: source-researched
+    status: ja-proposed
 - id: e-08
   title:
     de: Ende gut, Alles gut!
@@ -7968,17 +8356,22 @@ scenes:
     situation: resolution of a romantic or domestic difficulty
   cast:
   - id: speaker-a
-    description: null
-    evidence: null
-    confidence: candidate
+    description: Hopeful or celebratory speaker in the section's short exchanges.
+    evidence: "Vielleicht kann es noch gut werden; Was du für Glück hast"
+    confidence: medium
   - id: speaker-b
-    description: null
-    evidence: null
-    confidence: candidate
+    description: Sceptical respondent who asks for grounds and discounts conventional good fortune.
+    evidence: "Wer bürgt dir dafür; Wenn's weiter nichts ist"
+    confidence: medium
   reconstruction:
-    confidence: unreviewed
-    note: Ordering may combine a continuous exchange with reusable model phrases; turn continuity must
-      be justified entry by entry.
+    confidence: high
+    note: >-
+      This is a mixed inventory, not one continuous resolution. Entries 1-7 concern hope and risk;
+      8 is an isolated cry; 9-15 discuss another man's supposed good fortune; 16-17 are independent
+      friendship formulas. Register is therefore determined within each subgroup.
+  voice_profiles:
+    hopeful-speaker: {register: polite_or_plain_by_subgroup, traits: [hopeful, thankful]}
+    sceptical-speaker: {register: plain, traits: [questioning, dry]}
   entries:
   - id: e-08-001
     source_locator:
@@ -8013,8 +8406,8 @@ scenes:
       variants:
       - de: Vielleicht kann es noch gut werden!
         ja_current: まだうまくいくかもしれません！
-        ja_proposed: まだうまくいくかもしれません！
-        decision: pending-review
+        ja_proposed: まだ、うまくゆくかもしれません！
+        decision: revise
         rationale: null
         alternatives: []
       register: null
@@ -8043,7 +8436,7 @@ scenes:
       research_method: exact normalized token search
     textual_issues: []
     review_comments: []
-    status: source-researched
+    status: ja-proposed
   - id: e-08-002
     source_locator:
       file: part-e.yaml
@@ -8078,37 +8471,36 @@ scenes:
       variants:
       - de: So Gott will.
         ja_current: 神の御心のままに。
-        ja_proposed: 神の御心のままに。
-        decision: pending-review
+        ja_proposed: 神がお許しくだされば。
+        decision: revise
         rationale: null
         alternatives: []
       register: null
       scene_dependency: null
     attestations:
     - target: σὺν θεῷ δ’ εἰρήσεται.
-      status: exact-string-located-context-pending
+      status: source-context-checked
       match_type: exact
       reference_as_given: null
       source:
         author: Aristophanes
         work: Plutus
         passage: '114'
-        local_file: /home/mrty/Documents/Perseus/Classics/Aristophanes/opensource/aristoph.pl_gk.xml
-      text_grc: σὺν θεῷ δ’ εἰρήσεται.
+        local_file: /home/mrty/Documents/Resources/canonical-greekLit/data/tlg0019/tlg011/tlg0019.tlg011.perseus-grc2.xml
+      text_grc: οἶμαι γὰρ οἶμαι, σὺν θεῷ δʼ εἰρήσεται,
       original_speakers:
       - Χρεμυλος
       original_speaker_beta: '*xremu/los'
-      original_scene: null
+      original_scene: Chremylus cautiously says that, god willing, he thinks he can cure Plutus' blindness.
       beta_context: hn menhs genhset agaqa prosexe ton noun ina puqh oimai gar oimai sun qew d eirhsetai
         tauths apallacein se ths ofqalmias bleyai poihsas ploutos mhdamws tout ergash ou
-      relationship_to_handbook: The complete handbook string matches after removing accents and normalizing
-        Perseus Beta Code. Dramatic or prose context still needs manual comparison.
+      relationship_to_handbook: The handbook extracts a parenthetic formula of cautious hope.
       adaptations: []
-      confidence: candidate
-      research_method: exact normalized token search
+      confidence: high
+      research_method: exact phrase search in canonical Greek XML; context manually checked
     textual_issues: []
     review_comments: []
-    status: source-researched
+    status: ja-proposed
   - id: e-08-003
     source_locator:
       file: part-e.yaml
@@ -8142,8 +8534,8 @@ scenes:
       variants:
       - de: Wer bürgt dir dafür?
         ja_current: それを保証してくれるのは誰ですか。
-        ja_proposed: それを保証してくれるのは誰ですか。
-        decision: pending-review
+        ja_proposed: 何を根拠に、そう言えるんだ。
+        decision: revise
         rationale: null
         alternatives: []
       register: null
@@ -8171,7 +8563,7 @@ scenes:
       research_method: exact normalized token search
     textual_issues: []
     review_comments: []
-    status: source-researched
+    status: ja-proposed
   - id: e-08-004
     source_locator:
       file: part-e.yaml
@@ -8205,16 +8597,21 @@ scenes:
       variants:
       - de: Wenn es uns gelingt, so will ich Gott innig denken.
         ja_current: もしうまくいったら、神に心から感謝します。
-        ja_proposed: もしうまくいったら、神に心から感謝します。
-        decision: pending-review
+        ja_proposed: もしうまくいったら、神を心から讃えましょう。
+        decision: revise
         rationale: null
         alternatives: []
       register: null
       scene_dependency: null
     attestations: []
-    textual_issues: []
-    review_comments: []
-    status: unreviewed
+    textual_issues:
+    - type: probable-german-typo
+      note: >-
+        German denken is semantically unexpected here; Greek ἐπαινέσομαι means “I shall praise,”
+        and the idiomatic German intended sense is likely danken (“thank”).
+    review_comments:
+    - Japanese follows Greek ἐπαινέσομαι with 「神を心から讃える」 rather than reproducing denken.
+    status: ja-proposed
   - id: e-08-005
     source_locator:
       file: part-e.yaml
@@ -8248,8 +8645,8 @@ scenes:
       variants:
       - de: Wie es sich gehört.
         ja_current: そうあるべきですね。
-        ja_proposed: そうあるべきですね。
-        decision: pending-review
+        ja_proposed: それが当然でしょう。
+        decision: revise
         rationale: null
         alternatives: []
       register: null
@@ -8277,7 +8674,7 @@ scenes:
       research_method: exact normalized token search
     textual_issues: []
     review_comments: []
-    status: source-researched
+    status: ja-proposed
   - id: e-08-006
     source_locator:
       file: part-e.yaml
@@ -8311,8 +8708,8 @@ scenes:
       variants:
       - de: In Gottes Namen!
         ja_current: 神の御名によって！
-        ja_proposed: 神の御名によって！
-        decision: pending-review
+        ja_proposed: 運を天に任せて！
+        decision: revise
         rationale: null
         alternatives: []
       register: null
@@ -8320,7 +8717,7 @@ scenes:
     attestations: []
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: e-08-007
     source_locator:
       file: part-e.yaml
@@ -8354,8 +8751,8 @@ scenes:
       variants:
       - de: Wenn es uns aber mißlingt?
         ja_current: でも失敗したらどうしますか。
-        ja_proposed: でも失敗したらどうしますか。
-        decision: pending-review
+        ja_proposed: では、失敗したら？
+        decision: revise
         rationale: null
         alternatives: []
       register: null
@@ -8384,7 +8781,7 @@ scenes:
       research_method: exact normalized token search
     textual_issues: []
     review_comments: []
-    status: source-researched
+    status: ja-proposed
   - id: e-08-008
     source_locator:
       file: part-e.yaml
@@ -8418,8 +8815,8 @@ scenes:
       variants:
       - de: Hurrah! (Freudenruf.)
         ja_current: フラー！ （歓声）
-        ja_proposed: フラー！ （歓声）
-        decision: pending-review
+        ja_proposed: 万歳！〔歓声〕
+        decision: revise
         rationale: null
         alternatives: []
       register: null
@@ -8427,7 +8824,7 @@ scenes:
     attestations: []
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: e-08-009
     source_locator:
       file: part-e.yaml
@@ -8461,8 +8858,8 @@ scenes:
       variants:
       - de: Was du für \emph{Glück hast!}
         ja_current: 君はなんて幸運なんだ！
-        ja_proposed: 君はなんて幸運なんだ！
-        decision: pending-review
+        ja_proposed: 君はなんと運がいいんだ！
+        decision: revise
         rationale: null
         alternatives: []
       register: null
@@ -8511,7 +8908,7 @@ scenes:
       research_method: exact normalized token search
     textual_issues: []
     review_comments: []
-    status: source-researched
+    status: ja-proposed
   - id: e-08-010
     source_locator:
       file: part-e.yaml
@@ -8545,8 +8942,8 @@ scenes:
       variants:
       - de: Er hat großes Glück.
         ja_current: 彼は大変ついている。
-        ja_proposed: 彼は大変ついている。
-        decision: pending-review
+        ja_proposed: 彼は実に運がよかった。
+        decision: revise
         rationale: null
         alternatives: []
       register: null
@@ -8554,7 +8951,7 @@ scenes:
     attestations: []
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: e-08-011
     source_locator:
       file: part-e.yaml
@@ -8589,7 +8986,7 @@ scenes:
       - de: Inwiefern?
         ja_current: どういう点で？
         ja_proposed: どういう点で？
-        decision: pending-review
+        decision: retain
         rationale: null
         alternatives: []
       register: null
@@ -8597,7 +8994,7 @@ scenes:
     attestations: []
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: e-08-012
     source_locator:
       file: part-e.yaml
@@ -8631,8 +9028,8 @@ scenes:
       variants:
       - de: Er hat ein ganz junges Mädchen geheirathet.
         ja_current: 彼はとても若い娘と結婚した。
-        ja_proposed: 彼はとても若い娘と結婚した。
-        decision: pending-review
+        ja_proposed: うら若い娘を妻に迎えた。
+        decision: revise
         rationale: null
         alternatives: []
       register: null
@@ -8661,7 +9058,7 @@ scenes:
       research_method: exact normalized token search
     textual_issues: []
     review_comments: []
-    status: source-researched
+    status: ja-proposed
   - id: e-08-013
     source_locator:
       file: part-e.yaml
@@ -8695,8 +9092,8 @@ scenes:
       variants:
       - de: Er ist ein reicher Mann geworden.
         ja_current: 彼は裕福な男になった。
-        ja_proposed: 彼は裕福な男になった。
-        decision: pending-review
+        ja_proposed: 裕福な身の上になった。
+        decision: revise
         rationale: null
         alternatives: []
       register: null
@@ -8704,7 +9101,7 @@ scenes:
     attestations: []
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: e-08-014
     source_locator:
       file: part-e.yaml
@@ -8738,16 +9135,36 @@ scenes:
       variants:
       - de: Er kann das Leben genießen.
         ja_current: 人生を存分に楽しめる。
-        ja_proposed: 人生を存分に楽しめる。
-        decision: pending-review
+        ja_proposed: 若さを存分に楽しめるというわけだ。
+        decision: revise
         rationale: null
         alternatives: []
       register: null
       scene_dependency: null
-    attestations: []
-    textual_issues: []
-    review_comments: []
-    status: unreviewed
+    attestations:
+    - target: τῆς ἥβης ἀπολαῦσαι
+      status: source-context-checked
+      match_type: adapted
+      reference_as_given: null
+      source:
+        author: Aristophanes
+        work: Lysistrata
+        passage: '591'
+        local_file: /home/mrty/Documents/Resources/canonical-greekLit/data/tlg0019/tlg007/tlg0019.tlg007.perseus-grc2.xml
+      text_grc: εἶθʼ ἡνίκα χρῆν εὐφρανθῆναι καὶ τῆς ἥβης ἀπολαῦσαι,
+      original_speakers: [Λυσιστράτη]
+      original_scene: Lysistrata laments that war deprives women of companionship when they should enjoy their youth.
+      relationship_to_handbook: The handbook preserves “enjoy youth” but supplies a new finite construction with ἔχει.
+      adaptations:
+      - Replaces χρῆν with ἔχει and detaches the phrase from its wartime lament.
+      confidence: high
+      research_method: exact phrase search in canonical Greek XML; context manually checked
+    textual_issues:
+    - type: german-generalization
+      note: German Leben generalizes Greek ἥβη, which specifically denotes youth or youthful prime.
+    review_comments:
+    - Japanese retains the more specific Greek image as 「若さを存分に楽しむ」.
+    status: ja-proposed
   - id: e-08-015
     source_locator:
       file: part-e.yaml
@@ -8781,8 +9198,8 @@ scenes:
       variants:
       - de: Wenn's weiter nichts ist!
         ja_current: それだけのことかい？
-        ja_proposed: それだけのことかい？
-        decision: pending-review
+        ja_proposed: なんだ、たったそれだけのことか！
+        decision: revise
         rationale: null
         alternatives: []
       register: null
@@ -8832,7 +9249,7 @@ scenes:
       research_method: exact normalized token search
     textual_issues: []
     review_comments: []
-    status: source-researched
+    status: ja-proposed
   - id: e-08-016
     source_locator:
       file: part-e.yaml
@@ -8866,8 +9283,8 @@ scenes:
       variants:
       - de: Seine Freunde vermissen ihn schmerzlich.
         ja_current: 友人たちは彼をひどく恋しがっている。
-        ja_proposed: 友人たちは彼をひどく恋しがっている。
-        decision: pending-review
+        ja_proposed: 友人たちは、彼がいなくてひどく寂しがっている。
+        decision: revise
         rationale: null
         alternatives: []
       register: null
@@ -8875,7 +9292,7 @@ scenes:
     attestations: []
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: e-08-017
     source_locator:
       file: part-e.yaml
@@ -8909,8 +9326,8 @@ scenes:
       variants:
       - de: Er ist ein Freund von mir.
         ja_current: 彼は私の友人だ。
-        ja_proposed: 彼は私の友人だ。
-        decision: pending-review
+        ja_proposed: 彼は私の友人の一人です。
+        decision: revise
         rationale: null
         alternatives: []
       register: null
@@ -8918,4 +9335,4 @@ scenes:
     attestations: []
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed

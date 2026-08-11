@@ -1,0 +1,199 @@
+meta:
+  scope: Historical Skat terminology used in part-h.yaml
+  status: approved-for-part-h
+  japanese_policy: >-
+    Prefer an intelligible Japanese term. If a Japanese rendering would erase a historical distinction,
+    borrow the German term directly in katakana. Avoid English-derived modern gaming vocabulary merely
+    because it is common in recent rule explanations. At first occurrence, add a short gloss only when needed.
+  historical_frame: >-
+    The dialogue reflects pre-modern suit bidding (Farbenreizen), not simply today's numerical bidding.
+    Frage, suit Solo, Null, and Grand occupy named ranks; Wenzel and Daus belong to the German-suited deck.
+  sources:
+  - title: Skatのルール／インスト
+    url: https://bodoge.hoobby.net/games/skat/instructions/43336
+    use: Current Japanese terminology such as ビッド, スートゲーム, グラン, ヌル, ソロイスト, シュナイダー.
+  - title: Board Game Arena Japanese Skat page
+    url: https://ja.boardgamearena.com/gamepanel?game=skat
+    use: Current Japanese player-facing terminology, including シュナイダー and ヌル.
+  - title: Skat ルール早見
+    url: https://ctan.math.illinois.edu/macros/luatex/latex/hmtrump/hmtrump-sample.pdf
+    use: Japanese rule terminology and the variant transcription グランド.
+  - title: Allgemeine Deutsche Skatordnung (1886)
+    url: https://www.spielanleitung.org/skat/sko-1886.html
+    use: Historical contract ranking and suit-bidding rules.
+  - title: 1911 Encyclopaedia Britannica — Skat
+    url: https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Skat
+    use: Near-contemporary description of deck, bidding, tricks, Schneider, and matadors.
+  confidence_scale: [established, usable, project-coined, unresolved]
+
+entries:
+- key: Skat
+  de: [Skat]
+  ja_preferred: スカート
+  status: established
+  note: Used both for the game and for the two face-down cards; disambiguate by context.
+- key: skat-cards
+  de: [der Skat, im Skat liegen]
+  ja_preferred: スカート（伏せ札）
+  status: usable
+  note: Add 「伏せ札」 where confusing it with the game is possible.
+- key: Spiel
+  de: [Spiel, Spielchen]
+  ja_preferred: 一局
+  alternatives: [ゲーム, 勝負]
+  status: usable
+- key: geben
+  de: [geben, der Geber, "Wer giebt?"]
+  ja_preferred: 札を配る
+  alternatives: [ディールする]
+  status: established
+- key: Farbenreizen
+  de: [reizen, fragen, Ich frage]
+  ja_preferred: 競る
+  alternatives: [競りに出る, 値を掛ける]
+  status: usable
+  note: >-
+    In this historical dialogue bids are named contracts rather than modern numerical values.
+    Ordinary fragen (“ask”) must be distinguished from the table formula Ich frage.
+- key: halten
+  de: [halten, Das halt ich!]
+  ja_preferred: その競りを受ける
+  alternatives: [受けて立つ]
+  status: project-coined
+  note: Said by the player who remains in the bidding against the named contract.
+- key: passen
+  de: [passen, Passe]
+  ja_preferred: パスする
+  alternatives: [降りる]
+  status: established
+- key: Farbe
+  de: [Farbe]
+  ja_preferred: 組
+  alternatives: [組札, 札の組, 色]
+  status: project-coined
+- key: Eichel
+  de: [Eichel, Eicheln]
+  ja_preferred: アイヒェル（団栗）
+  status: usable
+  note: Corresponds to clubs in a French-suited deck; highest suit in the historical ordering.
+- key: Grün
+  de: [Grün, Blatt, Laub]
+  ja_preferred: グリューン（葉）
+  status: usable
+  note: Corresponds to spades.
+- key: Rot
+  de: [Rot, Roth]
+  ja_preferred: ロート（赤）
+  status: usable
+  note: Corresponds to hearts.
+- key: Schellen
+  de: [Schellen]
+  ja_preferred: シェレン（鈴）
+  status: usable
+  note: Corresponds to diamonds; singular German is Schelle.
+- key: Wenzel
+  de: [Wenzel, Unter]
+  ja_preferred: ヴェンツェル
+  status: usable
+  note: The four Wenzel are permanent trumps except in Null.
+- key: Daus
+  de: [Daus, As]
+  ja_preferred: ダウス
+  status: usable
+  note: Worth eleven card points.
+- key: der-Alte
+  de: [der Alte, Eichelwenzel]
+  ja_preferred: アルテ（最強のアイヒェル・ヴェンツェル）
+  alternatives: [親玉のアイヒェル・ヴェンツェル]
+  status: project-coined
+- key: Frage-contract
+  de: [Frage]
+  ja_preferred: フラーゲ
+  alternatives: [スカートを取る組札勝負]
+  status: project-coined
+  note: >-
+    Historical contract in which the declarer takes the Skat, discards two cards, and then names trumps.
+    It is not equivalent to the ordinary Japanese noun 「質問」.
+- key: Solo
+  de: [Solo, Grün Solo]
+  ja_preferred: ソロ
+  status: established
+  note: Historical hand game played without looking at the Skat; name the suit, e.g. グリューン・ソロ.
+- key: Grand
+  de: [Grand]
+  ja_preferred: グラン
+  alternatives: [グランド]
+  status: usable
+  note: >-
+    Japanese sources vary between グラン and グランド. This project prefers グラン, closer to
+    the German term and used by a detailed Japanese rules explanation.
+- key: Null
+  de: [Null]
+  ja_preferred: ヌル
+  status: established
+- key: Alleinspieler
+  de: [Alleinspieler, Solospieler]
+  ja_preferred: 独り方
+  alternatives: [単独の競技者, 勝負を引き受けた者]
+  status: project-coined
+- key: Gegenpartei
+  de: [Gegenpartei, Gegenspieler]
+  ja_preferred: 相手方
+  alternatives: [二人方]
+  status: usable
+- key: ausspielen
+  de: [ausspielen, Ich spiele selbst aus]
+  ja_preferred: 最初の札を出す
+  alternatives: [口火の札を出す]
+  status: usable
+- key: bedienen
+  de: [bedienen, zugeben, Farbe zugeben]
+  ja_preferred: 同じ組の札を出す
+  alternatives: [組札に従う]
+  status: usable
+- key: stechen
+  de: [stechen, Stich]
+  ja_preferred: 札を取る
+  alternatives: [切り札で取る, 上位札で取る]
+  status: project-coined
+  note: Do not mechanically translate every occurrence as 「切る」; the means of winning matters.
+- key: Stich
+  de: [Stich]
+  ja_preferred: 取り
+  alternatives: [一巡の取り札]
+  status: project-coined
+  note: In natural dialogue, normally translate verbally as 「取る」「取った」 rather than forcing a noun.
+- key: Augen
+  de: [Augen, Kartenpunkte]
+  ja_preferred: 札点
+  alternatives: [札の点]
+  status: project-coined
+- key: Schneider
+  de: [Schneider, aus dem Schneider]
+  ja_preferred: シュナイダー
+  status: established
+  note: >-
+    A side with no more than thirty card points is Schneider. Aus dem Schneider means reaching enough
+    card points to escape that loss condition, not merely avoiding an ordinary defeat.
+- key: Schwarz
+  de: [Schwarz]
+  ja_preferred: シュヴァルツ
+  status: established
+- key: Matador
+  de: [Matador, Spitze, mit Vieren]
+  ja_preferred: 四枚持ち
+  alternatives: [ヴェンツェル四枚持ち, ミット・フィーレン]
+  status: usable
+  note: >-
+    In h-02-031, mit Vieren denotes the four highest Wenzel in an uninterrupted sequence. Japanese
+    「四枚持ち」 is preferred to the English-derived modern rule term ウィズ4.
+- key: rein-was-Beine-hat
+  de: ["'rin, was Beine hat!"]
+  ja_preferred: 点になる札はみな放り込め！
+  status: project-coined
+  note: Figurative table cry; not a technical card name and not to be translated literally as “legs.”
+- key: falsch-spielen
+  de: [falsch spielen, Mogelei]
+  ja_preferred: イカサマをする
+  alternatives: [ごまかす, 反則をする]
+  status: usable

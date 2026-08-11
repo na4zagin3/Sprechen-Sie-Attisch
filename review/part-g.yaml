@@ -12,12 +12,14 @@ meta:
     - Prefer natural spoken Japanese appropriate to the reconstructed relationship.
     - Preserve the German wording except for explicitly identified source or OCR errors.
     - Distinguish the German prompt from the literal and pragmatic force of the Greek.
+    - Check historical German meanings and idioms independently; record rather than conceal German-Greek mismatches.
     - Preserve nineteenth-century objects, institutions, and social conventions where relevant.
     - Do not add politeness, intimacy, gender, or aggression without contextual evidence.
     - Use Japanese punctuation and sentence endings to make turn-taking natural.
   corpus_roots:
-    perseus: /home/mrty/Documents/Perseus/Classics
-    lsj: /home/mrty/Documents/Perseus/Classics/LSJ
+    lsj: /home/mrty/Documents/Resources/LSJ_GreekUnicode
+    canonical_corpus: /home/mrty/Documents/Resources/canonical-greekLit
+    discovery_corpus: /home/mrty/Documents/Resources/ancient-greek-texts
   attestation_match_types:
   - exact
   - near-exact
@@ -26,6 +28,12 @@ meta:
   - formulaic-parallel
   - lexical-only
   - not-found
+  evidence_policy:
+    languages: [grc, de]
+    note: >-
+      Translation-relevant attestations must remain in this review YAML with original text, source,
+      context, relationship to the handbook, confidence, and research method. Record unsuccessful
+      searches and label inference explicitly rather than leaving evidence only in discussion.
   status_values:
   - unreviewed
   - scene-reviewed
@@ -42,21 +50,33 @@ scenes:
     situation: political associates arrange attendance at a meeting
   cast:
   - id: organizer
-    description: null
-    evidence: null
-    confidence: candidate
+    description: Political associate who announces Eugen's speech and recruits attendees.
+    evidence: "Heute Abend; Ich will Sie mit in die Versammlung nehmen; bringen Sie Andere mit"
+    confidence: high
   - id: associate
-    description: null
-    evidence: null
-    confidence: candidate
+    description: Interlocutor who asks about Eugen and declines an escort to the meeting.
+    evidence: "Eugen ist da?; ich weiß den Weg"
+    confidence: high
   - id: politician
-    description: null
-    evidence: null
-    confidence: candidate
+    description: Eugen, a visiting political speaker discussed but not heard directly.
+    evidence: "Er wird doch wohl eine Rede halten?"
+    confidence: high
   reconstruction:
-    confidence: unreviewed
-    note: Ordering may combine a continuous exchange with reusable model phrases; turn continuity must
-      be justified entry by entry.
+    confidence: high
+    note: >-
+      Entries 1-8 form a coherent polite exchange about Eugen's meeting. Entries 9-18 are a political
+      vocabulary list, and entries 19-22 are independent election-result formulas. They should not be
+      assigned to the opening speakers without further evidence.
+  voice_profiles:
+    organizer: {register: polite, traits: [informed, insistent]}
+    associate: {register: polite, traits: [interested, independent]}
+  turn_groups:
+  - entries: [g-01-001, g-01-002, g-01-003, g-01-004, g-01-005, g-01-006, g-01-007, g-01-008]
+    description: exchange arranging attendance at Eugen's speech
+  - entries: [g-01-009, g-01-010, g-01-011, g-01-012, g-01-013, g-01-014, g-01-015, g-01-016, g-01-017, g-01-018]
+    description: standalone political vocabulary
+  - entries: [g-01-019, g-01-020, g-01-021, g-01-022]
+    description: election and vote-count formulas
   entries:
   - id: g-01-001
     source_locator:
@@ -91,8 +111,8 @@ scenes:
       variants:
       - de: Eugen ist da?
         ja_current: オイゲンは来ていますか？
-        ja_proposed: オイゲンは来ていますか？
-        decision: pending-review
+        ja_proposed: オイゲンは来ているのですか。
+        decision: revise
         rationale: null
         alternatives: []
       register: null
@@ -100,7 +120,7 @@ scenes:
     attestations: []
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: g-01-002
     source_locator:
       file: part-g.yaml
@@ -134,8 +154,8 @@ scenes:
       variants:
       - de: Schon seit vorgestern.
         ja_current: おとといからもう来ています。
-        ja_proposed: おとといからもう来ています。
-        decision: pending-review
+        ja_proposed: もう一昨日から来ていますよ。
+        decision: revise
         rationale: null
         alternatives: []
       register: null
@@ -143,7 +163,7 @@ scenes:
     attestations: []
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: g-01-003
     source_locator:
       file: part-g.yaml
@@ -177,8 +197,8 @@ scenes:
       variants:
       - de: Er wird doch wohl eine Rede halten?
         ja_current: 彼は演説をするのでしょう？
-        ja_proposed: 彼は演説をするのでしょう？
-        decision: pending-review
+        ja_proposed: もちろん、演説するのでしょうね。
+        decision: revise
         rationale: null
         alternatives: []
       register: null
@@ -186,7 +206,7 @@ scenes:
     attestations: []
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: g-01-004
     source_locator:
       file: part-g.yaml
@@ -220,8 +240,8 @@ scenes:
       variants:
       - de: Versteht sich! Heute Abend.
         ja_current: もちろんです。今晩に。
-        ja_proposed: もちろんです。今晩に。
-        decision: pending-review
+        ja_proposed: もちろんです！　今晩ですよ。
+        decision: revise
         rationale: null
         alternatives: []
       register: null
@@ -229,7 +249,7 @@ scenes:
     attestations: []
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: g-01-005
     source_locator:
       file: part-g.yaml
@@ -263,8 +283,8 @@ scenes:
       variants:
       - de: Worüber? Über alles Mögliche.
         ja_current: 何について？あらゆることについてです。
-        ja_proposed: 何について？あらゆることについてです。
-        decision: pending-review
+        ja_proposed: 何について？――ありとあらゆる問題についてです。
+        decision: revise
         rationale: null
         alternatives: []
       register: null
@@ -272,7 +292,7 @@ scenes:
     attestations: []
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: g-01-006
     source_locator:
       file: part-g.yaml
@@ -306,8 +326,8 @@ scenes:
       variants:
       - de: Ich will Sie mit in die Versammlung nehmen.
         ja_current: 会合にご一緒しましょう。
-        ja_proposed: 会合にご一緒しましょう。
-        decision: pending-review
+        ja_proposed: 集会へ一緒にお連れしましょう。
+        decision: revise
         rationale: null
         alternatives: []
       register: null
@@ -315,7 +335,7 @@ scenes:
     attestations: []
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: g-01-007
     source_locator:
       file: part-g.yaml
@@ -349,8 +369,8 @@ scenes:
       variants:
       - de: Ich danke, ich weiß den Weg.
         ja_current: ありがとう、道は知っています。
-        ja_proposed: ありがとう、道は知っています。
-        decision: pending-review
+        ja_proposed: お気遣いなく。道はわかっています。
+        decision: revise
         rationale: null
         alternatives: []
       register: null
@@ -358,7 +378,7 @@ scenes:
     attestations: []
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: g-01-008
     source_locator:
       file: part-g.yaml
@@ -396,8 +416,8 @@ scenes:
 
           Sie noch ein paar Andere mit!'
         ja_current: ではあなたもぜひ来て、ほかの人も何人か連れてきてください。
-        ja_proposed: ではあなたもぜひ来て、ほかの人も何人か連れてきてください。
-        decision: pending-review
+        ja_proposed: では、あなたも必ず来て、ほかの人も何人か連れてきてください！
+        decision: revise
         rationale: null
         alternatives: []
       register: null
@@ -405,7 +425,7 @@ scenes:
     attestations: []
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: g-01-009
     source_locator:
       file: part-g.yaml
@@ -440,7 +460,7 @@ scenes:
       - de: Die Fort\textcompwordmark{}schrittler.
         ja_current: 進歩派。
         ja_proposed: 進歩派。
-        decision: pending-review
+        decision: retain
         rationale: null
         alternatives: []
       register: null
@@ -448,7 +468,7 @@ scenes:
     attestations: []
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: g-01-010
     source_locator:
       file: part-g.yaml
@@ -483,7 +503,7 @@ scenes:
       - de: Die Conservativen.
         ja_current: 保守派。
         ja_proposed: 保守派。
-        decision: pending-review
+        decision: retain
         rationale: null
         alternatives: []
       register: null
@@ -491,7 +511,7 @@ scenes:
     attestations: []
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: g-01-011
     source_locator:
       file: part-g.yaml
@@ -525,16 +545,20 @@ scenes:
       variants:
       - de: Die Rothen.
         ja_current: 急進派（赤）。
-        ja_proposed: 急進派（赤）。
-        decision: pending-review
+        ja_proposed: 赤派。
+        decision: revise
         rationale: null
         alternatives: []
       register: null
       scene_dependency: null
     attestations: []
-    textual_issues: []
-    review_comments: []
-    status: unreviewed
+    textual_issues:
+    - type: german-greek-label-mismatch
+      note: >-
+        German “Die Rothen” is a contemporary political label, whereas Greek οἱ δημοκρατικοί literally denotes democrats or the democratic party.
+    review_comments:
+    - Japanese keeps the German colour label as 「赤派」; the Greek is a functional political substitution, not a literal equivalent.
+    status: ja-proposed
   - id: g-01-012
     source_locator:
       file: part-g.yaml
@@ -569,7 +593,7 @@ scenes:
       - de: Das Parlament.
         ja_current: 議会。
         ja_proposed: 議会。
-        decision: pending-review
+        decision: retain
         rationale: null
         alternatives: []
       register: null
@@ -577,7 +601,7 @@ scenes:
     attestations: []
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: g-01-013
     source_locator:
       file: part-g.yaml
@@ -612,7 +636,7 @@ scenes:
       - de: Die Commission.
         ja_current: 委員会。
         ja_proposed: 委員会。
-        decision: pending-review
+        decision: retain
         rationale: null
         alternatives: []
       register: null
@@ -620,7 +644,7 @@ scenes:
     attestations: []
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: g-01-014
     source_locator:
       file: part-g.yaml
@@ -655,7 +679,7 @@ scenes:
       - de: Der Abgeordnete.
         ja_current: 代議士。
         ja_proposed: 代議士。
-        decision: pending-review
+        decision: retain
         rationale: null
         alternatives: []
       register: null
@@ -663,7 +687,7 @@ scenes:
     attestations: []
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: g-01-015
     source_locator:
       file: part-g.yaml
@@ -697,8 +721,8 @@ scenes:
       variants:
       - de: Der Wahlkandidat.
         ja_current: 立候補者。
-        ja_proposed: 立候補者。
-        decision: pending-review
+        ja_proposed: 選挙候補者。
+        decision: revise
         rationale: null
         alternatives: []
       register: null
@@ -706,7 +730,7 @@ scenes:
     attestations: []
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: g-01-016
     source_locator:
       file: part-g.yaml
@@ -741,7 +765,7 @@ scenes:
       - de: Die Majorität.
         ja_current: 多数派。
         ja_proposed: 多数派。
-        decision: pending-review
+        decision: retain
         rationale: null
         alternatives: []
       register: null
@@ -749,7 +773,7 @@ scenes:
     attestations: []
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: g-01-017
     source_locator:
       file: part-g.yaml
@@ -784,7 +808,7 @@ scenes:
       - de: Die Minorität.
         ja_current: 少数派。
         ja_proposed: 少数派。
-        decision: pending-review
+        decision: retain
         rationale: null
         alternatives: []
       register: null
@@ -792,7 +816,7 @@ scenes:
     attestations: []
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: g-01-018
     source_locator:
       file: part-g.yaml
@@ -827,15 +851,19 @@ scenes:
       - de: Die Präsident.
         ja_current: 議長。
         ja_proposed: 議長。
-        decision: pending-review
+        decision: retain
         rationale: null
         alternatives: []
       register: null
       scene_dependency: null
     attestations: []
-    textual_issues: []
-    review_comments: []
-    status: unreviewed
+    textual_issues:
+    - type: probable-german-typo
+      note: >-
+        German “Die Präsident” should grammatically be “Der Präsident.”
+    review_comments:
+    - Japanese 「議長」 is unaffected.
+    status: ja-proposed
   - id: g-01-019
     source_locator:
       file: part-g.yaml
@@ -869,8 +897,8 @@ scenes:
       variants:
       - de: Wer hat die meisten (wenigsten) \emph{Stimmen?}
         ja_current: だれが最多（最少）の得票を得ましたか？
-        ja_proposed: だれが最多（最少）の得票を得ましたか？
-        decision: pending-review
+        ja_proposed: 誰が最多（最少）の票を得ましたか？
+        decision: revise
         rationale: null
         alternatives: []
       register: null
@@ -878,7 +906,7 @@ scenes:
     attestations: []
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: g-01-020
     source_locator:
       file: part-g.yaml
@@ -912,8 +940,8 @@ scenes:
       variants:
       - de: Abgeordneter ist, wer die meisten \emph{Stimmen} bekommen hat.
         ja_current: 最も多く票を得た者が代議士です。
-        ja_proposed: 最も多く票を得た者が代議士です。
-        decision: pending-review
+        ja_proposed: 最も多くの票を得た者が、代議士となります。
+        decision: revise
         rationale: null
         alternatives: []
       register: null
@@ -921,7 +949,7 @@ scenes:
     attestations: []
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: g-01-021
     source_locator:
       file: part-g.yaml
@@ -956,7 +984,7 @@ scenes:
       - de: Ist A.\ gewählt?
         ja_current: Aは当選しましたか。
         ja_proposed: Aは当選しましたか。
-        decision: pending-review
+        decision: retain
         rationale: null
         alternatives: []
       register: null
@@ -964,7 +992,7 @@ scenes:
     attestations: []
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: g-01-022
     source_locator:
       file: part-g.yaml
@@ -998,16 +1026,20 @@ scenes:
       variants:
       - de: Leider nicht!
         ja_current: 残念ながら落選しました。
-        ja_proposed: 残念ながら落選しました。
-        decision: pending-review
+        ja_proposed: 残念ながら、当選しませんでした！
+        decision: revise
         rationale: null
         alternatives: []
       register: null
       scene_dependency: null
     attestations: []
-    textual_issues: []
-    review_comments: []
-    status: unreviewed
+    textual_issues:
+    - type: probable-greek-typo-and-ellipsis
+      note: >-
+        Printed εἰ γὰρ ὤφερε is probably εἰ γὰρ ὤφελε(ν). LSJ treats εἰ γὰρ ὤφελον with an infinitive as a contrary-to-fact wish (“would that ...”); here the wished action is omitted.
+    review_comments:
+    - Japanese follows German “Leider nicht!” and supplies the election result from the immediately preceding question.
+    status: ja-proposed
 - id: g-02
   title:
     de: Opposition
@@ -1017,21 +1049,26 @@ scenes:
     situation: political opponents debate policy and tactics
   cast:
   - id: government-supporter
-    description: null
-    evidence: null
-    confidence: candidate
+    description: Speaker defending a compromise or praising a representative.
+    evidence: "es giebt einen Mittelweg; einen so vortrefflichen Abgeordneten"
+    confidence: medium
   - id: opponent
-    description: null
-    evidence: null
-    confidence: candidate
+    description: Opposition speaker attacking taxation and colonial policy.
+    evidence: "keine neuen Steuern; Die Kolonialpolitik bringt keinen Nutzen"
+    confidence: high
   - id: observer
-    description: null
-    evidence: null
-    confidence: candidate
+    description: One or more audience members who cheer, heckle, or call for order.
+    evidence: "Fort mit Bismarck; Bravo; Unsinn; Still"
+    confidence: high
   reconstruction:
-    confidence: unreviewed
-    note: Ordering may combine a continuous exchange with reusable model phrases; turn continuity must
-      be justified entry by entry.
+    confidence: medium
+    note: >-
+      Entries 1-12 supply lines for opposition argument, not necessarily one speech. Entries 13-18
+      resemble competing cries from the floor: dismissal, applause, praise, contradiction, complaint,
+      and a demand for silence. Japanese alternates public-speech rhetoric with terse heckling.
+  voice_profiles:
+    opposition-speaker: {register: public_rhetorical, traits: [emphatic, suspicious]}
+    floor-interjection: {register: plain, traits: [loud, partisan, terse]}
   entries:
   - id: g-02-001
     source_locator:
@@ -1066,8 +1103,8 @@ scenes:
       variants:
       - de: Wir brauchen keine neuen \emph{Steuern!}
         ja_current: 新しい税金など必要ありません！
-        ja_proposed: 新しい税金など必要ありません！
-        decision: pending-review
+        ja_proposed: 新たな税など、われわれには必要ない！
+        decision: revise
         rationale: null
         alternatives: []
       register: null
@@ -1075,7 +1112,7 @@ scenes:
     attestations: []
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: g-02-002
     source_locator:
       file: part-g.yaml
@@ -1109,8 +1146,8 @@ scenes:
       variants:
       - de: Wir \emph{brauchen} keine neuen Steuern!
         ja_current: 私たちは本当に新税を要しません！
-        ja_proposed: 私たちは本当に新税を要しません！
-        decision: pending-review
+        ja_proposed: われわれに必要なのは、新たな税などではない！
+        decision: revise
         rationale: null
         alternatives: []
       register: null
@@ -1118,7 +1155,7 @@ scenes:
     attestations: []
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: g-02-003
     source_locator:
       file: part-g.yaml
@@ -1152,8 +1189,8 @@ scenes:
       variants:
       - de: Das wird uns ruiniren!
         ja_current: それでは破滅してしまう！
-        ja_proposed: それでは破滅してしまう！
-        decision: pending-review
+        ja_proposed: そんなことをすれば、われわれは破滅する！
+        decision: revise
         rationale: null
         alternatives: []
       register: null
@@ -1161,7 +1198,7 @@ scenes:
     attestations: []
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: g-02-004
     source_locator:
       file: part-g.yaml
@@ -1195,8 +1232,8 @@ scenes:
       variants:
       - de: Ich denke, es giebt einen Mittelweg.
         ja_current: 折衷案があると思います。
-        ja_proposed: 折衷案があると思います。
-        decision: pending-review
+        ja_proposed: しかし、その中間をゆく道があると思います。
+        decision: revise
         rationale: null
         alternatives: []
       register: null
@@ -1204,7 +1241,7 @@ scenes:
     attestations: []
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: g-02-005
     source_locator:
       file: part-g.yaml
@@ -1238,16 +1275,20 @@ scenes:
       variants:
       - de: Jetzt ist Schonung der Steuerkraft nöthig!
         ja_current: 今は租税負担を抑えるべきです！
-        ja_proposed: 今は租税負担を抑えるべきです！
-        decision: pending-review
+        ja_proposed: 今こそ、倹約が肝要です！
+        decision: revise
         rationale: null
         alternatives: []
       register: null
       scene_dependency: null
     attestations: []
-    textual_issues: []
-    review_comments: []
-    status: unreviewed
+    textual_issues:
+    - type: german-contextual-expansion
+      note: >-
+        Greek νῦν ἔργον εὐτελείας says generally that frugality or economy is now required; “Schonung der Steuerkraft” applies it specifically to taxable capacity.
+    review_comments:
+    - Japanese 「倹約が肝要」 preserves the Greek core without the opaque literalism 「租税負担を抑える」.
+    status: ja-proposed
   - id: g-02-006
     source_locator:
       file: part-g.yaml
@@ -1281,16 +1322,20 @@ scenes:
       variants:
       - de: Die Kolonialpolitik bringt keinen Nutzen.
         ja_current: 植民政策は利益をもたらしません。
-        ja_proposed: 植民政策は利益をもたらしません。
-        decision: pending-review
+        ja_proposed: 植民政策に、何の益がありましょう？
+        decision: revise
         rationale: null
         alternatives: []
       register: null
       scene_dependency: null
     attestations: []
-    textual_issues: []
-    review_comments: []
-    status: unreviewed
+    textual_issues:
+    - type: german-greek-form-mismatch
+      note: >-
+        Greek τί πλέον ἐστὶν ἔξω ἐποικεῖν; is a rhetorical question, roughly “what advantage is there in settling abroad?”, while German recasts it as a declarative claim about colonial policy.
+    review_comments:
+    - Japanese uses a rhetorical question and the political term 「植民政策」, mediating between Greek form and German context.
+    status: ja-proposed
   - id: g-02-007
     source_locator:
       file: part-g.yaml
@@ -1324,8 +1369,8 @@ scenes:
       variants:
       - de: Das gefällt mir nicht!
         ja_current: それは気に入りません。
-        ja_proposed: それは気に入りません。
-        decision: pending-review
+        ja_proposed: それは気に入りません！
+        decision: revise
         rationale: null
         alternatives: []
       register: null
@@ -1339,7 +1384,7 @@ scenes:
         author: Aristophanes
         work: Thesmophoriazusae
         passage: '406'
-        local_file: /home/mrty/Documents/Perseus/Classics/Aristophanes/opensource/aristoph.thes_gk.xml
+        local_file: /home/mrty/Documents/Resources/canonical-greekLit/data/tlg0019/tlg008/tlg0019.tlg008.perseus-grc2.xml
       text_grc: τοῦτό μ’ οὐκ ἀρέσκει!
       original_speakers:
       - Γυνη Α
@@ -1354,7 +1399,7 @@ scenes:
       research_method: exact normalized token search
     textual_issues: []
     review_comments: []
-    status: source-researched
+    status: ja-proposed
   - id: g-02-008
     source_locator:
       file: part-g.yaml
@@ -1388,8 +1433,8 @@ scenes:
       variants:
       - de: Dahinter steckt etwas!
         ja_current: 何か裏があります！
-        ja_proposed: 何か裏があります！
-        decision: pending-review
+        ja_proposed: 何か裏があるぞ！
+        decision: revise
         rationale: null
         alternatives: []
       register: null
@@ -1403,7 +1448,7 @@ scenes:
         author: Aristophanes
         work: Ecclesiazusae
         passage: '532'
-        local_file: /home/mrty/Documents/Perseus/Classics/Aristophanes/opensource/aristoph.eccl_gk.xml
+        local_file: /home/mrty/Documents/Resources/canonical-greekLit/data/tlg0019/tlg010/tlg0019.tlg010.perseus-grc2.xml
       text_grc: ἔστιν ἐνταῦθά τι κακόν!
       original_speakers:
       - Βλεπυρος
@@ -1418,7 +1463,7 @@ scenes:
       research_method: exact normalized token search
     textual_issues: []
     review_comments: []
-    status: source-researched
+    status: ja-proposed
   - id: g-02-009
     source_locator:
       file: part-g.yaml
@@ -1452,8 +1497,8 @@ scenes:
       variants:
       - de: Was hat man davon?
         ja_current: それで何の得がありますか。
-        ja_proposed: それで何の得がありますか。
-        decision: pending-review
+        ja_proposed: それで何の得になる？
+        decision: revise
         rationale: null
         alternatives: []
       register: null
@@ -1461,7 +1506,7 @@ scenes:
     attestations: []
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: g-02-010
     source_locator:
       file: part-g.yaml
@@ -1495,8 +1540,8 @@ scenes:
       variants:
       - de: Was werden wir davon haben?
         ja_current: 私たちにどんな利益がありますか。
-        ja_proposed: 私たちにどんな利益がありますか。
-        decision: pending-review
+        ja_proposed: それで、われわれに何の利益があるのです？
+        decision: revise
         rationale: null
         alternatives: []
       register: null
@@ -1504,7 +1549,7 @@ scenes:
     attestations: []
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: g-02-011
     source_locator:
       file: part-g.yaml
@@ -1538,8 +1583,8 @@ scenes:
       variants:
       - de: Was kann das nützen?
         ja_current: 何の役に立つでしょうか。
-        ja_proposed: 何の役に立つでしょうか。
-        decision: pending-review
+        ja_proposed: それが一体、何の役に立つというのです？
+        decision: revise
         rationale: null
         alternatives: []
       register: null
@@ -1547,7 +1592,7 @@ scenes:
     attestations: []
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: g-02-012
     source_locator:
       file: part-g.yaml
@@ -1581,8 +1626,8 @@ scenes:
       variants:
       - de: Ich weiß schon, wo man hinaus\textcompwordmark{}will!
         ja_current: 何を狙っているかもう分かっています。
-        ja_proposed: 何を狙っているかもう分かっています。
-        decision: pending-review
+        ja_proposed: 何を企んでいるか、こちらにはわかっているぞ！
+        decision: revise
         rationale: null
         alternatives: []
       register: null
@@ -1596,7 +1641,7 @@ scenes:
         author: Aristophanes
         work: Frogs
         passage: '580'
-        local_file: /home/mrty/Documents/Perseus/Classics/Aristophanes/opensource/aristoph.frogs_gk.xml
+        local_file: /home/mrty/Documents/Resources/canonical-greekLit/data/tlg0019/tlg009/tlg0019.tlg009.perseus-grc2.xml
       text_grc: οἶδα τὸν νοῦν!
       original_speakers:
       - Ξανθιας
@@ -1617,7 +1662,7 @@ scenes:
         author: Aristophanes
         work: Plutus
         passage: '1080'
-        local_file: /home/mrty/Documents/Perseus/Classics/Aristophanes/opensource/aristoph.pl_gk.xml
+        local_file: /home/mrty/Documents/Resources/canonical-greekLit/data/tlg0019/tlg011/tlg0019.tlg011.perseus-grc2.xml
       text_grc: οἶδα τὸν νοῦν!
       original_speakers:
       - Χρεμυλος
@@ -1632,7 +1677,7 @@ scenes:
       research_method: exact normalized token search
     textual_issues: []
     review_comments: []
-    status: source-researched
+    status: ja-proposed
   - id: g-02-013
     source_locator:
       file: part-g.yaml
@@ -1666,8 +1711,8 @@ scenes:
       variants:
       - de: Fort mit Bis\textcompwordmark{}marck!
         ja_current: ビスマルクはもうたくさんだ！
-        ja_proposed: ビスマルクはもうたくさんだ！
-        decision: pending-review
+        ja_proposed: ビスマルクを倒せ！
+        decision: revise
         rationale: null
         alternatives: []
       register: null
@@ -1675,7 +1720,7 @@ scenes:
     attestations: []
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: g-02-014
     source_locator:
       file: part-g.yaml
@@ -1709,8 +1754,8 @@ scenes:
       variants:
       - de: Bravo! Bravo!
         ja_current: ブラボー！ブラボー！
-        ja_proposed: ブラボー！ブラボー！
-        decision: pending-review
+        ja_proposed: よし！　よし！
+        decision: revise
         rationale: null
         alternatives: []
       register: null
@@ -1718,7 +1763,7 @@ scenes:
     attestations: []
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: g-02-015
     source_locator:
       file: part-g.yaml
@@ -1752,8 +1797,8 @@ scenes:
       variants:
       - de: Wie gut ist es, einen so vortrefflichen Abgeordneten zu haben!
         ja_current: こんな立派な代議士がいてありがたいことです！
-        ja_proposed: こんな立派な代議士がいてありがたいことです！
-        decision: pending-review
+        ja_proposed: これほど立派な代議士を持てるとは、なんとありがたいことか！
+        decision: revise
         rationale: null
         alternatives: []
       register: null
@@ -1761,7 +1806,7 @@ scenes:
     attestations: []
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: g-02-016
     source_locator:
       file: part-g.yaml
@@ -1795,8 +1840,8 @@ scenes:
       variants:
       - de: Unsinn!
         ja_current: ばかげている！
-        ja_proposed: ばかげている！
-        decision: pending-review
+        ja_proposed: 何を馬鹿な！
+        decision: revise
         rationale: null
         alternatives: []
       register: null
@@ -1804,7 +1849,7 @@ scenes:
     attestations: []
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: g-02-017
     source_locator:
       file: part-g.yaml
@@ -1838,8 +1883,8 @@ scenes:
       variants:
       - de: Wir hängen diese Tiraden zum Halse heraus!
         ja_current: もうこんな長広舌にはうんざりだ！
-        ja_proposed: もうこんな長広舌にはうんざりだ！
-        decision: pending-review
+        ja_proposed: こんな大演説には、もう心底うんざりだ！
+        decision: revise
         rationale: null
         alternatives: []
       register: null
@@ -1847,7 +1892,7 @@ scenes:
     attestations: []
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: g-02-018
     source_locator:
       file: part-g.yaml
@@ -1881,8 +1926,8 @@ scenes:
       variants:
       - de: Still!
         ja_current: 静かに！
-        ja_proposed: 静かに！
-        decision: pending-review
+        ja_proposed: 静粛に！
+        decision: revise
         rationale: null
         alternatives: []
       register: null
@@ -1890,7 +1935,7 @@ scenes:
     attestations: []
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
 - id: g-03
   title:
     de: Zum Schlutz
@@ -1900,17 +1945,22 @@ scenes:
     situation: closing formulas for a political meeting or speech
   cast:
   - id: chair-or-speaker
-    description: null
-    evidence: null
-    confidence: candidate
+    description: Chair in meeting formulas, or questioner asking about the outcome afterward.
+    evidence: "Wer wünscht das Wort?; Was ist heute berathen worden?"
+    confidence: medium
   - id: audience-member
-    description: null
-    evidence: null
-    confidence: candidate
+    description: Participant volunteering to speak, voting against, or judging the meeting.
+    evidence: "Ich; Ich stimme dagegen; eine so unsinnige Versammlung"
+    confidence: medium
   reconstruction:
-    confidence: unreviewed
-    note: Ordering may combine a continuous exchange with reusable model phrases; turn continuity must
-      be justified entry by entry.
+    confidence: high
+    note: >-
+      This is a phrase inventory. Entries 1-7 concern requests to speak and voting; entries 8-11 ask
+      about a meeting's result. The abrupt du in entry 7 is an independent personal formula and does
+      not establish intimacy among the meeting participants.
+  voice_profiles:
+    chair-formula: {register: formal, traits: [procedural, neutral]}
+    participant-formula: {register: variable, traits: [concise]}
   entries:
   - id: g-03-001
     source_locator:
@@ -1945,8 +1995,8 @@ scenes:
       variants:
       - de: Wer wünscht das Wort?
         ja_current: 誰か発言を希望しますか。
-        ja_proposed: 誰か発言を希望しますか。
-        decision: pending-review
+        ja_proposed: 発言を望む方はおられますか。
+        decision: revise
         rationale: null
         alternatives: []
       register: null
@@ -1954,7 +2004,7 @@ scenes:
     attestations: []
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: g-03-002
     source_locator:
       file: part-g.yaml
@@ -1989,7 +2039,7 @@ scenes:
       - de: Ich.
         ja_current: 私です。
         ja_proposed: 私です。
-        decision: pending-review
+        decision: retain
         rationale: null
         alternatives: []
       register: null
@@ -1997,7 +2047,7 @@ scenes:
     attestations: []
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: g-03-003
     source_locator:
       file: part-g.yaml
@@ -2031,8 +2081,8 @@ scenes:
       variants:
       - de: Ist noch Jemand, der zu sprechen wünscht?
         ja_current: ほかに発言したい人はいますか。
-        ja_proposed: ほかに発言したい人はいますか。
-        decision: pending-review
+        ja_proposed: ほかに発言を望む方はおられますか。
+        decision: revise
         rationale: null
         alternatives: []
       register: null
@@ -2040,7 +2090,7 @@ scenes:
     attestations: []
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: g-03-004
     source_locator:
       file: part-g.yaml
@@ -2074,16 +2124,20 @@ scenes:
       variants:
       - de: Es wird wohl Niemand dagegen stimmen.
         ja_current: 反対票を投じる人はいないでしょう。
-        ja_proposed: 反対票を投じる人はいないでしょう。
-        decision: pending-review
+        ja_proposed: まさか、これに反対票を投じる者はいないでしょう。
+        decision: revise
         rationale: null
         alternatives: []
       register: null
       scene_dependency: null
     attestations: []
-    textual_issues: []
-    review_comments: []
-    status: unreviewed
+    textual_issues:
+    - type: probable-greek-spacing-or-accent-error
+      note: >-
+        Printed οὐ δεὶς should be the single word οὐδείς (“no one”).
+    review_comments:
+    - The error does not affect the Japanese.
+    status: ja-proposed
   - id: g-03-005
     source_locator:
       file: part-g.yaml
@@ -2118,7 +2172,7 @@ scenes:
       - de: Ich stimme dagegen.
         ja_current: 私は反対に投票します。
         ja_proposed: 私は反対に投票します。
-        decision: pending-review
+        decision: retain
         rationale: null
         alternatives: []
       register: null
@@ -2126,7 +2180,7 @@ scenes:
     attestations: []
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: g-03-006
     source_locator:
       file: part-g.yaml
@@ -2160,8 +2214,8 @@ scenes:
       variants:
       - de: So ist's recht.
         ja_current: それで結構。
-        ja_proposed: それで結構。
-        decision: pending-review
+        ja_proposed: それでこそよい。
+        decision: revise
         rationale: null
         alternatives: []
       register: null
@@ -2195,7 +2249,7 @@ scenes:
         author: Aristophanes
         work: Acharnians
         passage: '1050'
-        local_file: /home/mrty/Documents/Perseus/Classics/Aristophanes/opensource/aristoph.ach_gk.xml
+        local_file: /home/mrty/Documents/Resources/canonical-greekLit/data/tlg0019/tlg001/tlg0019.tlg001.perseus-grc2.xml
       text_grc: καλῶς γε ποιῶν.
       original_speakers:
       - Δικαιοπολις
@@ -2210,7 +2264,7 @@ scenes:
       research_method: exact normalized token search
     textual_issues: []
     review_comments: []
-    status: source-researched
+    status: ja-proposed
   - id: g-03-007
     source_locator:
       file: part-g.yaml
@@ -2244,8 +2298,8 @@ scenes:
       variants:
       - de: Thu', was du \emph{denkst!}
         ja_current: 思うとおりにしなさい。
-        ja_proposed: 思うとおりにしなさい。
-        decision: pending-review
+        ja_proposed: 君の思うとおりにしたまえ！
+        decision: revise
         rationale: null
         alternatives: []
       register: null
@@ -2253,7 +2307,7 @@ scenes:
     attestations: []
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: g-03-008
     source_locator:
       file: part-g.yaml
@@ -2287,16 +2341,20 @@ scenes:
       variants:
       - de: Was ist heute berathen worden?
         ja_current: 今日は何が協議されましたか。
-        ja_proposed: 今日は何が協議されましたか。
-        decision: pending-review
+        ja_proposed: 今日は何が審議されましたか。
+        decision: revise
         rationale: null
         alternatives: []
       register: null
       scene_dependency: null
     attestations: []
-    textual_issues: []
-    review_comments: []
-    status: unreviewed
+    textual_issues:
+    - type: semantic-scope
+      note: >-
+        Greek τί βεβούλεται; can ask what has been deliberated or resolved; German beraten favours “deliberated,” while the next item separately asks what was decided.
+    review_comments:
+    - Japanese therefore uses 「審議された」 here and reserves 「決まった」 for g-03-009.
+    status: ja-proposed
   - id: g-03-009
     source_locator:
       file: part-g.yaml
@@ -2330,8 +2388,8 @@ scenes:
       variants:
       - de: Was hat man denn beschlossen?
         ja_current: では何が決まりましたか。
-        ja_proposed: では何が決まりましたか。
-        decision: pending-review
+        ja_proposed: それで、何が決まったのですか？
+        decision: revise
         rationale: null
         alternatives: []
       register: null
@@ -2345,7 +2403,7 @@ scenes:
         author: Aristophanes
         work: Ecclesiazusae
         passage: '455'
-        local_file: /home/mrty/Documents/Perseus/Classics/Aristophanes/opensource/aristoph.eccl_gk.xml
+        local_file: /home/mrty/Documents/Resources/canonical-greekLit/data/tlg0019/tlg010/tlg0019.tlg010.perseus-grc2.xml
       text_grc: τί δῆτ’ ἔδοξεν;
       original_speakers:
       - Βλεπυρος
@@ -2360,7 +2418,7 @@ scenes:
       research_method: exact normalized token search
     textual_issues: []
     review_comments: []
-    status: source-researched
+    status: ja-proposed
   - id: g-03-010
     source_locator:
       file: part-g.yaml
@@ -2394,8 +2452,8 @@ scenes:
       variants:
       - de: Noch nichts; es war \emph{Stimmen}gleichheit.
         ja_current: まだ何も決まっていません；票が同数でした。
-        ja_proposed: まだ何も決まっていません；票が同数でした。
-        decision: pending-review
+        ja_proposed: まだ何も。票が同数だったのです。
+        decision: revise
         rationale: null
         alternatives: []
       register: null
@@ -2403,7 +2461,7 @@ scenes:
     attestations: []
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
   - id: g-03-011
     source_locator:
       file: part-g.yaml
@@ -2438,8 +2496,8 @@ scenes:
       variants:
       - de: Eine so unsinnige Versammlung habe ich noch nicht erlebt.
         ja_current: こんな馬鹿げた会合は初めてです。
-        ja_proposed: こんな馬鹿げた会合は初めてです。
-        decision: pending-review
+        ja_proposed: これほど馬鹿げた集会は、いまだかつて見たことがありません。
+        decision: revise
         rationale: null
         alternatives: []
       register: null
@@ -2447,4 +2505,4 @@ scenes:
     attestations: []
     textual_issues: []
     review_comments: []
-    status: unreviewed
+    status: ja-proposed
