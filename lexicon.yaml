@@ -194,7 +194,7 @@ sections:
           - ὁ ἐργάτης.
       - modern:
           - de: Der Streik.
-            ja: 同盟罷業（ストライキ）
+            ja: \ruby{同盟罷業}{ストライキ}
         grc:
           - ἡ ἀπεργία.{*}
       - modern:
@@ -529,7 +529,7 @@ sections:
           - ἡ κλῖμαξ, τὸ ἀνάβαθρον.
       - modern:
           - de: Die Gardinen.
-            ja: 窓掛け（カーテン）
+            ja: \ruby{窓掛け}{カーテン}
         grc:
           - τὸ παραπέτασμα.
       - modern:
