@@ -52,7 +52,7 @@
 
 \newcommand{\AttischGermanNumberedSection}[2]{%
   \let\attisch@saved@seccntformat\@seccntformat
-  \def\@seccntformat##1{\textgerman{\arabic{##1}}.\quad}%
+  \def\@seccntformat##1{\textgerman{\arabic{##1}}.\space}%
   \section[{#1}]{#2}%
   \let\@seccntformat\attisch@saved@seccntformat
 }

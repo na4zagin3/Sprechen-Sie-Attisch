@@ -18,12 +18,12 @@ sections:
           - τρίτην ἤδη ἡμέραν.
       - modern:
         - de: Er wird doch wohl eine Rede halten?
-          ja: では、演説をするのでしょうね？
+          ja: では、（彼は）演説をするのでしょうね？
         grc:
           - \emph{οὐκοῦν} δημηγορήσει;
       - modern:
         - de: Versteht sich! Heute Abend.
-          ja: もちろんです！　今晩ですよ。
+          ja: もちろんです！今晩ですよ。
         grc:
           - εὖ ἴσθ’ ὅτι εἰς ἑσπέραν.
       - modern:
@@ -189,7 +189,7 @@ sections:
           - Βίσμαρκ ἐρρέτω!
       - modern:
         - de: Bravo! Bravo!
-          ja: よく言った！　よく言った！
+          ja: よく言った！よく言った！
         grc:
           - εὖγε! εὖγε!
       - modern:

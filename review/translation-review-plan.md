@@ -89,6 +89,7 @@ as inference in `review_comments` or the translation rationale.
 - Prefer stable Japanese terms or German-derived terminology where the domain calls for it; avoid
   unnecessary English borrowing.
 - Use pronouns only when contrast, emphasis, or turn clarity requires them.
+- Do not insert spaces after Japanese fullwidth punctuation; LuaTeX/XeLaTeX supplies the required spacing.
 - Re-evaluate clusters of near-synonymous phrases together so each item has a distinct function in
   Japanese.
 - Do not equate a speaker's social register with a single sentence ending. A speaker who uses polite

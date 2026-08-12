@@ -236,7 +236,7 @@ scenes:
       variants:
       - de: Er wird doch wohl eine Rede halten?
         ja_current: 彼は演説をするのでしょう？
-        ja_proposed: では、演説をするのでしょうね？
+        ja_proposed: では、（彼は）演説をするのでしょうね？
         decision: revise
         rationale: >-
           German doch wohl and Greek οὐκοῦν solicit expected confirmation; 「もちろん」 would answer
@@ -289,7 +289,7 @@ scenes:
       variants:
       - de: Versteht sich! Heute Abend.
         ja_current: もちろんです。今晩に。
-        ja_proposed: もちろんです！　今晩ですよ。
+        ja_proposed: もちろんです！今晩ですよ。
         decision: revise
         rationale: >-
           Versteht sich and εὖ ἴσθ’ ὅτι both give emphatic assurance. The temporal fragment supplies
@@ -1936,7 +1936,7 @@ scenes:
       variants:
       - de: Bravo! Bravo!
         ja_current: ブラボー！ブラボー！
-        ja_proposed: よく言った！　よく言った！
+        ja_proposed: よく言った！よく言った！
         decision: revise
         rationale: In an assembly, Bravo! and εὖγε praise the preceding speaker; 「よく言った」 makes that audience response explicit.
         alternatives: []

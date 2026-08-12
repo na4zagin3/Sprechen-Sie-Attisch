@@ -2923,7 +2923,7 @@ scenes:
       variants:
       - de: B. Hurrah! Der Alte liegt im Skat! Hier!
         ja_current: B. やった！長老札（オーバーのジャック）がスカートにあったぞ！ほら！
-        ja_proposed: B. やった！　アルテ――最強のアイヒェル・ヴェンツェル――は、スカートに入っているぞ！　ほら！
+        ja_proposed: B. やった！アルテ――最強のアイヒェル・ヴェンツェル――は、スカートに入っているぞ！ほら！
         decision: revise
         rationale: null
         alternatives: []
@@ -3097,7 +3097,7 @@ scenes:
       variants:
       - de: A. Heiliges Gewitter! Hast du denn gar nichts?
         ja_current: A. 何てこった！お前、本当に何も持ってないのか？
-        ja_proposed: A. なんたることだ！　君は本当に何も持っていないのか？
+        ja_proposed: A. なんたることだ！君は本当に何も持っていないのか？
         decision: revise
         rationale: null
         alternatives: []
@@ -3144,7 +3144,7 @@ scenes:
       variants:
       - de: C. Dieser ist unser! 'rin, was Beine hat!
         ja_current: C. これは俺たちの取り分だ！動ける札は全部突っ込め！
-        ja_proposed: C. これはこちらが取った！　点になる札はみな放り込め！
+        ja_proposed: C. これはこちらが取った！点になる札はみな放り込め！
         decision: revise
         rationale: null
         alternatives: []
@@ -3191,7 +3191,7 @@ scenes:
       variants:
       - de: B. Halt! Gesprochen wird nicht beim Spiel!
         ja_current: B. やめろ！プレイ中はしゃべらない！
-        ja_proposed: B. 待て！　勝負の最中に口をきくな！
+        ja_proposed: B. 待て！勝負の最中に口をきくな！
         decision: revise
         rationale: null
         alternatives: []
@@ -3277,7 +3277,7 @@ scenes:
       variants:
       - de: Gottlob! Aus dem Schneider wären wir!
         ja_current: やれやれ、シュナイダーは免れたぞ！
-        ja_proposed: 助かった！　これでシュナイダーは免れた！
+        ja_proposed: 助かった！これでシュナイダーは免れた！
         decision: revise
         rationale: Gottlob expresses relief here. 「助かった」 preserves that force naturally, while the second sentence uses the established Skat term.
         alternatives: []
@@ -3363,7 +3363,7 @@ scenes:
       variants:
       - de: B. Keinen Stich! Der Rest ist mein!
         ja_current: B. もう一つも取らせない。残りは全部私のものだ！
-        ja_proposed: B. もう一度も取らせん！　残りは全部、私のものだ！
+        ja_proposed: B. もう一度も取らせん！残りは全部、私のものだ！
         decision: revise
         rationale: null
         alternatives: []
@@ -3427,7 +3427,7 @@ scenes:
       - de: 'A. Ja wie konntest du aber auch \emph{die} Farbe spielen? Wir mußten
 
           ja dicke gewinnen!'
-        ja: A. どうしてそこでそのスートを出したんだ？ こっちは大勝ちできたはずなのに！
+        ja: A. どうしてそこでそのスートを出したんだ？こっちは大勝ちできたはずなのに！
       grc:
       - πῶς ἄρ’ οὖν ἐπὶ ταῦτα ἦλθες; ἐμέλλομεν γάρ τοι σφοδρῶς ὑπερέχειν!
     dialogue:
@@ -3452,7 +3452,7 @@ scenes:
       - de: 'A. Ja wie konntest du aber auch \emph{die} Farbe spielen? Wir mußten
 
           ja dicke gewinnen!'
-        ja_current: A. どうしてそこでそのスートを出したんだ？ こっちは大勝ちできたはずなのに！
+        ja_current: A. どうしてそこでそのスートを出したんだ？こっちは大勝ちできたはずなのに！
         ja_proposed: A. しかし、どうしてよりによって\emph{あの組}を出したんだ。こちらは大勝できたはずなのに！
         decision: revise
         rationale: null
@@ -3517,7 +3517,7 @@ scenes:
       - de: 'C. So? Warum stichst du denn nicht? Ich habe ganz richtig aus\textcompwordmark{}gespielt.
 
           — du bist schuld!'
-        ja: C. そうか？ じゃあなぜ切らなかった？ 俺は正しくリードしたぞ。——お前のせいだ！
+        ja: C. そうか？じゃあなぜ切らなかった？俺は正しくリードしたぞ。——お前のせいだ！
       grc:
       - 'ἄληθες; τί δὴ παθὴν οὐχ ὑπερέβαλες\footnote{\textlatin{%
 
@@ -3546,8 +3546,8 @@ scenes:
       - de: 'C. So? Warum stichst du denn nicht? Ich habe ganz richtig aus\textcompwordmark{}gespielt.
 
           — du bist schuld!'
-        ja_current: C. そうか？ じゃあなぜ切らなかった？ 俺は正しくリードしたぞ。——お前のせいだ！
-        ja_proposed: C. そうか？　では、なぜ切り札を出さなかったんだ。私は正しく最初の札を出したぞ。――君のせいだ！
+        ja_current: C. そうか？じゃあなぜ切らなかった？俺は正しくリードしたぞ。——お前のせいだ！
+        ja_proposed: C. そうか？では、なぜ切り札を出さなかったんだ。私は正しく最初の札を出したぞ。――君のせいだ！
         decision: revise
         rationale: null
         alternatives: []
