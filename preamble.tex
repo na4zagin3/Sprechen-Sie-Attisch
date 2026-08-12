@@ -76,9 +76,47 @@
   \ifxetex
     \usepackage{xunicode}
     \usepackage{zxjatype}
-    %\setjamainfont{YuMincho}
-    %\setjasansfont{YuGothic}
+    \usepackage{xeCJKfntef}
+    \usepackage{pxrubrica}
+    \setjamainfont{Noto Serif CJK JP}
+    \setjasansfont{Noto Sans CJK JP}
     \setjamonofont{IPAGothic}
+
+    % Polyglossia selects these families when entering Japanese.  zxjatype
+    % handles Japanese spacing, while these declarations ensure that the
+    % language switch does not fall back to the Latin document font.
+    \newfontfamily{\cjkfont}[Script=CJK]{Noto Serif CJK JP}
+    \newfontfamily{\cjkfontsf}[Script=CJK]{Noto Sans CJK JP}
+    \newfontfamily{\cjkfonttt}[Script=CJK]{IPAGothic}
+
+    \newdimen\zw
+    \zw=1em
+    \newcommand{\kintou}[2]{%
+      \leavevmode\hbox to#1{\begingroup
+        \xeCJKsetup{CJKglue=\hfill}#2%
+      \endgroup}%
+    }
+    \newcommand{\kenten}[1]{\CJKunderdot{#1}}
+    \newcommand{\AttischXeRuby}[2]{%
+      \begingroup
+        % pxrubrica expects plain text in the ruby annotation.  Preserve the
+        % annotation text while discarding an embedded language wrapper.
+        \let\textgerman\@firstofone
+        \jruby[g]{#1}{#2}%
+      \endgroup
+    }
+    \AtBeginDocument{\let\ruby\AttischXeRuby}
+
+    \def\cleartooddpage{\clearpage\if@twoside
+      \ifodd\c@page\else
+      \hbox{}\thispagestyle{empty}\newpage
+      \if@twocolumn\hbox{}\newpage\fi
+      \fi\fi}
+    \def\cleartoevenpage{\clearpage\if@twoside
+      \ifodd\c@page
+      \hbox{}\thispagestyle{empty}\newpage
+      \if@twocolumn\hbox{}\newpage\fi
+      \fi\fi}
   \else
     %\usepackage[dvipdfmx]{hyperref}
     \usepackage{pxjahyper}
@@ -105,37 +143,21 @@
   \ifFraktur
     %\newfontfamily\greekfont[Script=Greek,Ligatures={TeX,Common,Contextual,Rare,Historic}]{Anaktoria}
     %\newfontfamily\greekfont[Script=Greek,Ligatures={TeX,Common,Contextual,Rare,Historic}]{Theano Old Style}
-    \newfontfamily\greekfont[Script=Greek,Ligatures={TeX}]{Old Standard Italic}
+    \newfontfamily\greekfont[Script=Greek,Ligatures={TeX},
+    ItalicFont = {Old Standard Italic},
+    ItalicFeatures = {LetterSpace=12.0, WordSpace=1.1},
+    ]{Old Standard Italic}
     %\newfontfamily\greekfont[Script=Greek,Ligatures={TeX,Contextual}]{Junicode}
     %\newfontfamily\greekfont[Script=Greek,Ligatures={TeX,Common,Contextual,Rare,Historic}]{Asea}
     %\newfontfamily\greekfont[Script=Greek,Ligatures={TeX,NoCommon}]{Times Italic}
-    \newfontfamily\germanfont[Script=Latin,Language=German,Mapping=tex-text,Numbers=OldStyle,CharacterVariant={11,13,14},Ligatures=Historic]{UnifrakturMaguntia}
+    \newfontfamily\germanfont[Script=Latin,Language=German,Mapping=tex-text,Numbers=OldStyle,CharacterVariant={11,13,14},Ligatures=Historic,
+    BoldFont = UnifrakturMaguntia,
+    BoldFeatures = {LetterSpace=12.0, WordSpace=1.1, Ligatures=NoCommon, Kerning=Off},
+    ItalicFont = UnifrakturMaguntia,
+    ItalicFeatures = {LetterSpace=12.0, WordSpace=1.1, Ligatures=NoCommon, Kerning=Off}]{UnifrakturMaguntia}
     \newfontfamily\germanfontsf[Script=Latin,Language=German,Mapping=tex-text,CharacterVariant={11,13,14}]{UnifrakturCook}
     \setsansfont[Script=Latin,Language=German,Mapping=tex-text,CharacterVariant={11,13,14}]{UnifrakturCook}
 
-    % LuaTeX-ja provides \emshape, but current XeLaTeX does not.
-    \providecommand\emshape{\itshape}
-    \let\origemshape=\emshape
-    \let\origemph=\emph
-    % orig:
-    %\renewcommand\emshape{\xspace\addfontfeature{LetterSpace=20.0,WordSpace=1.5,Ligatures={NoCommon}}}
-    % new:
-   % \renewcommand\emshape{\nobreak\discretionary{}{}{\hbox{\xspace}}\addfontfeature{LetterSpace=20.0,WordSpace=1.5,Ligatures={NoCommon}}}
-    \renewcommand\emshape{%
-%\ifx\languagename\germanlanguagename%
-\ifboolexpr{test {\ifsperrsatzlanguage}}{%
- % \addfontfeature{LetterSpace=15.0,WordSpace=1.5,Ligatures={NoCommon}}%
-  \spaceskip=0.8em plus 0.2em minus 0.4em\relax
-  \addfontfeature{LetterSpace=17.0,Ligatures={NoCommon}}%
-  \renewcommand{\textcompwordmark}{\-\hspace*{0.15em}}%
-}{\origemshape}}
-    \preto\emph{%
-      %\ifx\languagename\germanlanguagename\ifvmode\else\xspace\fi\fi
-      \ifsperrsatzlanguage{\ifvmode\else\xspace\fi}{}%
-      %\ifboolexpr{test {\ifsperrsatzlanguage} and ( not bool{vmode} ) }{%
-      %  \xspace
-      %}{}%
-    }
   \else
     %\newfontfamily\greekfont[Script=Greek,Ligatures={TeX,Common,Contextual,Rare,Historic}]{Asea}
     %\newfontfamily\greekfont[Script=Greek,Ligatures={TeX,Common,Contextual,Rare,Historic}]{Theano Old Style}

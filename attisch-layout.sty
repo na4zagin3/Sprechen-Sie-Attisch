@@ -29,17 +29,28 @@
 \globalcounter{part}
 \globalcounter{section}
 
+% Japanese article classes define these themselves; KOMA-Script, used by the
+% XeLaTeX profile, does not.
+\providecommand{\prepartname}{}%
+\providecommand{\postpartname}{}%
+
 \newcommand{\AttischGermanBilingualPart}[2]{%
   \let\attisch@saved@partname\partname
   \let\attisch@saved@prepartname\prepartname
   \let\attisch@saved@postpartname\postpartname
-  \renewcommand{\partname}{\textgerman{Gespräche}}%
-  \renewcommand{\prepartname}{\textgerman{Gespräche\space}}%
-  \renewcommand{\postpartname}{.}%
+  \let\attisch@saved@thepart\thepart
+  \renewcommand{\partname}{%
+    \texorpdfstring{\textgerman{Gespräche}}{Gespräche}}%
+  \renewcommand{\prepartname}{%
+    \texorpdfstring{\textgerman{Gespräche\space}}{Gespräche\space}}%
+  \renewcommand{\thepart}{%
+    \texorpdfstring{\textgerman{\Alph{part}}}{\Alph{part}}}%
+  \renewcommand{\postpartname}{\texorpdfstring{\textgerman{.}}{.}}%
   \part[{#1}]{#2}%
   \let\partname\attisch@saved@partname
   \let\prepartname\attisch@saved@prepartname
   \let\postpartname\attisch@saved@postpartname
+  \let\thepart\attisch@saved@thepart
 }
 
 \newcommand{\AttischJapaneseBilingualPart}[1]{%
