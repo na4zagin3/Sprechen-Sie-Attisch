@@ -145,7 +145,7 @@ sections:
         - de: |-
             Das ist gar \emph{nicht schön} von Ihnen, \emph{daß} Sie mich nicht
             begrüßt haben.
-          ja: \emph{私に挨拶してくださらなかったなんて}、\emph{随分}ではありませんか。
+          ja: \kenten{私に挨拶してくださらなかったなんて}、\kenten{随分}ではありませんか。
         grc:
           - καλῶς γε οὐ προσεῖπάς με! \textgerman{(ironisch.)}
   - title:
@@ -439,7 +439,7 @@ sections:
     conversations:
       - modern:
         - de: Was geht da vor? — Was ist das?
-          ja: そこで何をしているのです？――これはいったい、何事です！
+          ja: そこで何をしているのです？\—{}これはいったい、何事です！
         grc:
           - τί τὸ πρᾶγμα; — τουτὶ τί ἐστιν;
       - modern:
@@ -489,7 +489,7 @@ sections:
           - ἀνόσια ἐπάθομεν!
       - modern:
         - de: \emph{Nein,} über diese Unverschämtheit!
-          ja: \emph{まあ}、なんという厚かましさでしょう！
+          ja: \kenten{まあ}、なんという厚かましさでしょう！
         grc:
           - ἆρ’ οὐχ ὕβρις ταῦτ’ ἐστὶ πολλή;
       - modern:
@@ -677,12 +677,12 @@ sections:
           - αἴτιος μέντοι σὺ τούτων εἶ μόνος.
       - modern:
         - de: Es war \emph{nicht richtig, daß} du das thatest.
-          ja: 君があんなことをしたのは、\emph{よくなかった}！
+          ja: 君があんなことをしたのは、\kenten{よくなかった}！
         grc:
           - οὐκ ὀρθῶς τοῦτ’ ἔδρασας!
       - modern:
         - de: Was geht das \emph{dich} an?
-          ja: \emph{君に}何の関係があるんだ？
+          ja: \kenten{君に}何の関係があるんだ？
         grc:
           - τί δὲ σοὶ τοῦτο;
       - modern:
@@ -697,7 +697,7 @@ sections:
           - τῆς μωρίας!
       - modern:
         - de: Wie \emph{unrecht} du gehandelt hast!
-          ja: なんという\emph{不心得なこと}をしたんだ！
+          ja: なんという\kenten{不心得なこと}をしたんだ！
         grc:
           - ὡς οὐκ ὀρθῶς τοῦτ’ ἔδρασας!
       - modern:
@@ -707,7 +707,7 @@ sections:
           - τοῦτ’ οὐκ ὀρθῶς ἐποίησας.
       - modern:
         - de: \emph{Das ist es, was} du mir zum Vorwurf machst?
-          ja: \emph{それが}、君の言う僕の落ち度なのか？
+          ja: \kenten{それが}、君の言う僕の落ち度なのか？
         grc:
           - ταῦτ’ ἐπικαλεῖς;
       - modern:
@@ -717,7 +717,7 @@ sections:
           - ἀλλ’ οὐκ ἦν παρὰ ταῦτ’ ἄλλα.
       - modern:
         - de: Gieb mir keine guten Lehren, sondern —
-          ja: 説教はよしてくれ。それより――
+          ja: 説教はよしてくれ。それより\—{}
         grc:
           - μὴ νουθέτει με, ἀλλὰ —
       - modern:
@@ -732,7 +732,7 @@ sections:
           - ἓν δέ σοι λέγω·
       - modern:
         - de: Mir \emph{thut} das Fräulein \emph{leid.}
-          ja: 僕は、あのお嬢さんが\emph{気の毒でならない}。
+          ja: 僕は、あのお嬢さんが\kenten{気の毒でならない}。
         grc:
           - περὶ τῆς κόρης ἀνιῶμαι.
   - title:
@@ -766,7 +766,7 @@ sections:
           - μὴ σκῶπτε!
       - modern:
         - de: "Mach' keine schlechten Witze \\emph{über mich!}"
-          ja: \emph{僕を}からかうのはよせ！
+          ja: \kenten{僕を}からかうのはよせ！
         grc:
           - μὴ σκῶπτέ με!
       - modern:
@@ -798,7 +798,7 @@ sections:
           - ἐπὶ τῷ γελᾶς;
       - modern:
         - de: "Hör' auf! — Schweig'!"
-          ja: よせ！――黙れ！
+          ja: よせ！\—{}黙れ！
         grc:
           - παῦε! — σιώπα!
       - modern:
@@ -853,7 +853,7 @@ sections:
           - ἀλαλαί!
       - modern:
         - de: Was du für \emph{Glück hast!}
-          ja: 君はなんと\emph{運がいい}んだ！
+          ja: 君はなんと\kenten{運がいい}んだ！
         grc:
           - ὡς εὐτυχὴς εἶ!
       - modern:

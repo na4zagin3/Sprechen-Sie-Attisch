@@ -90,6 +90,8 @@ as inference in `review_comments` or the translation rationale.
   unnecessary English borrowing.
 - Use pronouns only when contrast, emphasis, or turn clarity requires them.
 - Do not insert spaces after Japanese fullwidth punctuation; LuaTeX/XeLaTeX supplies the required spacing.
+- Mark emphasis in Japanese with `\kenten{...}`, retaining `\emph{...}` for German and Greek.
+- Typeset the Japanese double em dash (U+2014) as `\—{}` for a continuous two-em rule.
 - Re-evaluate clusters of near-synonymous phrases together so each item has a distinct function in
   Japanese.
 - Do not equate a speaker's social register with a single sentence ending. A speaker who uses polite

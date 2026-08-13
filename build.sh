@@ -34,10 +34,15 @@ convert_part i
 convert_lexicon
 popd
 
+# latexmk -xelatex -interaction=nonstopmode SprechenSieAttisch-Fraktur.tex
+# latexmk -g -interaction=nonstopmode -xelatex SprechenSieAttisch-ja-2.tex
+
 # latexmk -xelatex SprechenSieAttisch.tex
 # latexmk -xelatex -interaction=nonstopmode SprechenSieAttisch-Fraktur.tex
 # latexmk -lualatex -interaction=nonstopmode SprechenSieAttisch-Antiqua.tex
-latexmk -g -lualatex -interaction=nonstopmode SprechenSieAttisch-ja-1.tex
 # latexmk -lualatex -interaction=nonstopmode SprechenSieAttisch-ja-2.tex
-latexmk -g -lualatex SprechenSieAttisch-ja-2.tex
-latexmk -g -lualatex SprechenSieAttisch-ja.tex
+
+# latexmk -g -lualatex -interaction=nonstopmode SprechenSieAttisch-ja-1.tex
+# latexmk -g -xelatex -jobname=SprechenSieAttisch-ja-xe -interaction=nonstopmode SprechenSieAttisch-ja.tex
+latexmk -g -lualatex SprechenSieAttisch-ja-3.tex
+latexmk -g -xelatex -interaction=nonstopmode -jobname=SprechenSieAttisch-ja-3-xe SprechenSieAttisch-ja-3.tex

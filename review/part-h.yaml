@@ -2923,7 +2923,7 @@ scenes:
       variants:
       - de: B. Hurrah! Der Alte liegt im Skat! Hier!
         ja_current: B. やった！長老札（オーバーのジャック）がスカートにあったぞ！ほら！
-        ja_proposed: B. やった！アルテ――最強のアイヒェル・ヴェンツェル――は、スカートに入っているぞ！ほら！
+        ja_proposed: B. やった！アルテ\—{}最強のアイヒェル・ヴェンツェル\—{}は、スカートに入っているぞ！ほら！
         decision: revise
         rationale: null
         alternatives: []
@@ -3382,7 +3382,7 @@ scenes:
     source:
       modern:
       - de: A. u. C. Oho! — Wahrhaftig!
-        ja: A・C. なんだと！——本当に？
+        ja: A・C. なんだと！\—{}本当に？
       grc:
       - οὐδὲν λέγεις! — μὰ τὸν Δί’ οὐ τοίνυν!
     dialogue:
@@ -3405,8 +3405,8 @@ scenes:
     translation:
       variants:
       - de: A. u. C. Oho! — Wahrhaftig!
-        ja_current: A・C. なんだと！——本当に？
-        ja_proposed: A・C. ほう！――本当かよ！
+        ja_current: A・C. なんだと！\—{}本当に？
+        ja_proposed: A・C. ほう！\—{}本当かよ！
         decision: revise
         rationale: null
         alternatives: []
@@ -3453,7 +3453,7 @@ scenes:
 
           ja dicke gewinnen!'
         ja_current: A. どうしてそこでそのスートを出したんだ？こっちは大勝ちできたはずなのに！
-        ja_proposed: A. しかし、どうしてよりによって\emph{あの組}を出したんだ。こちらは大勝できたはずなのに！
+        ja_proposed: A. しかし、どうしてよりによって\kenten{あの組}を出したんだ。こちらは大勝できたはずなのに！
         decision: revise
         rationale: null
         alternatives: []
@@ -3517,7 +3517,7 @@ scenes:
       - de: 'C. So? Warum stichst du denn nicht? Ich habe ganz richtig aus\textcompwordmark{}gespielt.
 
           — du bist schuld!'
-        ja: C. そうか？じゃあなぜ切らなかった？俺は正しくリードしたぞ。——お前のせいだ！
+        ja: C. そうか？じゃあなぜ切らなかった？俺は正しくリードしたぞ。\—{}お前のせいだ！
       grc:
       - 'ἄληθες; τί δὴ παθὴν οὐχ ὑπερέβαλες\footnote{\textlatin{%
 
@@ -3546,8 +3546,8 @@ scenes:
       - de: 'C. So? Warum stichst du denn nicht? Ich habe ganz richtig aus\textcompwordmark{}gespielt.
 
           — du bist schuld!'
-        ja_current: C. そうか？じゃあなぜ切らなかった？俺は正しくリードしたぞ。——お前のせいだ！
-        ja_proposed: C. そうか？では、なぜ切り札を出さなかったんだ。私は正しく最初の札を出したぞ。――君のせいだ！
+        ja_current: C. そうか？じゃあなぜ切らなかった？俺は正しくリードしたぞ。\—{}お前のせいだ！
+        ja_proposed: C. そうか？では、なぜ切り札を出さなかったんだ。私は正しく最初の札を出したぞ。\—{}君のせいだ！
         decision: revise
         rationale: null
         alternatives: []

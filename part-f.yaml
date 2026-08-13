@@ -93,7 +93,7 @@ sections:
           - οὐκ ἔνδον ἐστίν.
       - modern:
         - de: \emph{Augenblicklich} ist er nicht zu Hause.
-          ja: \emph{ただいま}、留守にしております。
+          ja: \kenten{ただいま}、留守にしております。
         grc:
           - οὐκ ἔνδον ὢν τυγχάνει.
       - modern:
@@ -167,7 +167,7 @@ sections:
           - ἆρ’ ἀπονένιψαι;
       - modern:
         - de: Kannst du \emph{ohne} Handtuch zurechtkommen?
-          ja: \emph{手拭いなしで}済ませるつもりか？
+          ja: \kenten{手拭いなしで}済ませるつもりか？
         grc:
           - ἀνύτεις χειρόμακτρον οὐκ ἔχων;
       - modern:
@@ -273,7 +273,7 @@ sections:
           - οὐκ ἔχεις καταφαγεῖν;
       - modern:
         - de: \emph{Darf ich} dir ein Abendbrot vorsetzen?
-          ja: 夕食を\emph{お出ししましょうか}？
+          ja: 夕食を\kenten{お出ししましょうか}？
         grc:
           - βούλει παραθῶ σοι δόρπον.
       - modern:
@@ -283,7 +283,7 @@ sections:
           - αἰτῶ λαβεῖν τιν’ ἄρτον καὶ κρέας.!
       - modern:
         - de: Ich habe mir zu trinken \emph{mitgebracht}.
-          ja: 飲み物なら\emph{持ってきた}よ。
+          ja: 飲み物なら\kenten{持ってきた}よ。
         grc:
           - \emph{ἥκω φέρων} πιεῖν.
       - modern:
@@ -318,7 +318,7 @@ sections:
           - ἀνίστασο ὀρθός.
       - modern:
         - de: "\\emph{Bleib'} stehen!"
-          ja: \emph{そのまま}立っていろ！
+          ja: \kenten{そのまま}立っていろ！
         grc:
           - στῆθι.
       - modern:
@@ -372,7 +372,7 @@ sections:
           - κατακλίνει τὰ παιδία.
       - modern:
         - de: Es ist \emph{höchste} Zeit.
-          ja: もう、\emph{とっくに}寝かせる時間だ。
+          ja: もう、\kenten{とっくに}寝かせる時間だ。
         grc:
           - καιρὸς δέ.
       - modern:
@@ -382,7 +382,7 @@ sections:
           - ἱκανὸν κρόνον ἐπαίζετε.
       - modern:
         - de: Sie würfeln. — Um was?
-          ja: 彼らはサイコロを振っている――何を賭けているのだろうか？
+          ja: 彼らはサイコロを振っている\—{}何を賭けているのだろうか？
         grc:
           - κυβεύουσιν. — περὶ τοῦ;
       - modern:
@@ -550,7 +550,7 @@ sections:
           - τί τὸ πρᾶγμα;
       - modern:
         - de: Wer schreit \emph{nach mir?}
-          ja: 誰だ、\emph{私を呼んでいる}のは？
+          ja: 誰だ、\kenten{私を呼んでいる}のは？
         grc:
           - τίς ὁ βοῶν με;
       - modern:

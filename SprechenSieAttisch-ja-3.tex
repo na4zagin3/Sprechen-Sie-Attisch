@@ -1,0 +1,241 @@
+%% LyX 2.1.3 created this file.  For more info, see http://www.lyx.org/.
+%% Do not edit unless you really know what you are doing.
+\ifdefined\directlua
+  \documentclass[english,french,latin,german,twoside,a4paper]{ltjsarticle}
+\else
+  \documentclass[english,french,latin,german,twoside,a4paper]{scrartcl}
+\fi
+\usepackage{version}
+\usepackage{tabularx}
+\usepackage{tcolorbox}
+\usepackage{amsfonts}
+\usepackage{todonotes}
+\usepackage{metalogo}
+
+\includeversion{frakturfonttypesetting}
+\excludeversion{romanfonttypesetting}
+
+\newif\ifFraktur
+\Frakturtrue
+%\Frakturfalse
+
+\input{preamble.tex}
+
+\setstretch{1.375}
+
+\hypersetup{pdftitle={Sprachen Sie Attich? 日本語訳第2部},
+  pdfauthor={J. Sengbusch}}
+
+
+\usepackage{polyglossia}
+\setotherlanguage[spelling=old,babelshorthands=true]{german}
+\setotherlanguage{english}
+\setotherlanguage{french}
+\setotherlanguage[variant=ancient]{greek}
+\setotherlanguage{latin}
+\setmainlanguage{japanese}
+
+\newcommand{\trDE}[1]{\texorpdfstring{\begin{german}#1\end{german}}{#1}}
+\newcommand{\trLA}[1]{\texorpdfstring{}{}}
+\newcommand{\trJA}[1]{\texorpdfstring{\begin{japanese}#1\end{japanese}}{#1}}
+\newcommand{\switchcolumnde}{\switchcolumn}
+\newcommand{\switchcolumnla}{}
+\newcommand{\switchcolumnja}{\switchcolumn}
+\usepackage[de-ja-grc]{attisch-layout}
+
+\begin{document}
+\frontmatter
+\renewcommand\thepart{\Alph{part}}
+
+% \listoftodos
+% \cleardoublepage
+
+\title{{\fontfamily\rmdefault\selectfont アッティカ方言で話しませんか?\\Sprechen Sie Attisch?}\\
+  \rule[1.2ex]{0.2\columnwidth}{1pt}\\
+  \normalsize
+  最良のアッティカの著者に基づく\\
+  \kenten{古代ギリシャ語での}\\
+  現代（訳注：19世紀末ドイツ）日常会話\\
+  \large
+  \medskip
+  日本語訳\\
+  \medskip
+  \begin{tabular}{@{第}c@{部\quad}l}
+  D&交際にて\\
+  E&恋の幸せと恋の苦しみ\\
+  F&家の中で\\
+  G&政治生活より
+  \end{tabular}
+}
+
+
+\author{
+  \textlatin{\textbf{E. Joannides博士} 著}\\
+  \textlatin{\textbf{ざぎん @na4zagin3} 訳}\\
+  {\tiny\begin{minipage}{\columnwidth}
+      \begin{flushright}
+        \textlatin{--- --- Ridentem discere Graeca\\
+          Quid vetat? --- ---}
+      \end{flushright}
+    \end{minipage}}\smallskip{}
+  \\
+  \vspace{\fill}
+  \rule[1.2ex]{0.2\columnwidth}{1pt}}
+
+
+\date{
+  発行 ヒュアリニオス\\
+  コミックマーケット108（2026年夏）\\
+  原著 \textbf{Leipzig, 1889.} \emph{C.\ A.\ Koch's Verlag.}
+  (J. Sengbusch)}
+
+\pagestyle{empty}
+\maketitle
+\pagebreak{}
+{
+\setlength{\parindent}{1\zw}
+\setlength{\hangindent}{0pt}
+\section*{まえがき}
+本書は、%
+第A部から第J部、並びに文法要項と単語集からなる原書1889年刊行版%
+\url{https://books.google.co.jp/books/about/Sprechen_Sie_Attisch.html?id=swUZAAAAYAAJ&redir_esc=y}%
+のうち、本文第D部から第G部までのドイツ語部分を、ギリシャ語部分も参考にして和訳したものです。
+
+Lua\LaTeX でも\XeLaTeX 同様にUniFrakturで髭文字を組むことに成功したので、今回よりドイツ語原文も併記することにしました。
+
+訳の際には既存の英訳%
+\url{https://paulatinygriego.files.wordpress.com/2019/02/greekenglishphrasebook.pdf}%
+や、アリストパネースの和訳『ギリシア喜劇全集第1巻〜第4巻』（岩波書店）%
+も参照しました。
+
+オープンソースプロジェクトとして翻訳をしていきたいと思っているので、
+誤りや改善案等ございましたら、是非とも%
+\url{https://github.com/na4zagin3/Sprechen-Sie-Attisch}%
+にissueを立てるなり、pull requestを送るなりして下さると、幸甚です。
+
+ギリシャ語学習の一助になれば幸いです。一緒に古典語学習ブームを盛り上げていきましょう！
+
+\subsection*{本文について}
+本文は3段、左からドイツ語原文、日本語訳、ギリシャ語原文となっています。
+
+\subsection*{文字について}
+ドイツ語本文は原文通り亀甲文字で組んでいます。
+
+以下が文字一覧です。
+\textgerman{Aa Bb Cc Dd Ee Ff Gg Hh Ii Jj Kk Ll Mm Nn Oo Pp Qq Rr Sss Tt Uu Vv
+Ww Xx Yy Zz Ää Öö Üü ß}
+
+以下のように形で分類すると分かりやすいでしょう。
+\begin{latin}%
+  A \textgerman[spelling=old,babelshorthands=true]{Aa}\quad
+  U \textgerman[spelling=old,babelshorthands=true]{Uu;}\qquad
+  C \textgerman[spelling=old,babelshorthands=true]{Cc}\quad
+  E \textgerman[spelling=old,babelshorthands=true]{Ee}\quad
+  S \textgerman[spelling=old,babelshorthands=true]{Sss}\quad
+  G \textgerman[spelling=old,babelshorthands=true]{Gg;}\qquad
+  K \textgerman[spelling=old,babelshorthands=true]{Kk}\quad
+  H \textgerman[spelling=old,babelshorthands=true]{Hh;}\qquad
+  N \textgerman[spelling=old,babelshorthands=true]{Nn}\quad
+  R \textgerman[spelling=old,babelshorthands=true]{Rr}\quad
+  X \textgerman[spelling=old,babelshorthands=true]{Xx;}\qquad
+  M \textgerman[spelling=old,babelshorthands=true]{Mm}\quad
+  W \textgerman[spelling=old,babelshorthands=true]{Ww}\quad
+  V \textgerman[spelling=old,babelshorthands=true]{Vv}\quad
+  B \textgerman[spelling=old,babelshorthands=true]{Bb}\quad
+  Y \textgerman[spelling=old,babelshorthands=true]{Yy;}\qquad
+  O \textgerman[spelling=old,babelshorthands=true]{Oo}\quad
+  Q \textgerman[spelling=old,babelshorthands=true]{Qq}\quad
+  P \textgerman[spelling=old,babelshorthands=true]{Pp}\quad
+  D \textgerman[spelling=old,babelshorthands=true]{Dd;}\qquad
+  T \textgerman[spelling=old,babelshorthands=true]{Tt}\quad
+  L \textgerman[spelling=old,babelshorthands=true]{Ll;}\qquad
+  IJ \textgerman[spelling=old,babelshorthands=true]{Iij}\quad
+  F \textgerman[spelling=old,babelshorthands=true]{Ff;}\qquad
+  Z \textgerman[spelling=old,babelshorthands=true]{Zz}\quad
+  ß \textgerman[spelling=old,babelshorthands=true]{ß}
+\end{latin}%
+
+\pagestyle{plain}
+\clearpage{}
+%\input{legend-ja.tex}
+% \begin{quote}
+%   
+% \end{quote}
+\pagebreak{}\gappto\captionsjapanese{%
+\renewcommand{\contentsname}{目次}%
+\renewcommand{\prepartname}{第}
+\renewcommand{\postpartname}{部}
+} 
+\captionsjapanese
+\renewcommand{\contentsname}{目次}
+\renewcommand{\prepartname}{第}
+\renewcommand{\postpartname}{部}
+
+\begin{quote}
+    \setlength{\columnseprule}{0.5pt}\begin{multicols}{2}\tableofcontents{}
+
+\end{multicols}
+
+\pagebreak{}\mainmatter
+\end{quote}
+
+% \input{grammar-ja.tex}
+% 
+% \begin{center}
+% {\Huge{}\rule[1.2ex]{0.2\columnwidth}{1pt}}
+% \par\end{center}{\Huge \par}
+% 
+% \clearpage{}
+
+
+
+\leftskip=0.1in\parindent=-0.1in\tabcolsep=0pt
+%\hangindent=2em\hangafter=2
+%\titlespacing{\section}{0pt}{\parskip}{-\parskip}
+\begin{paracol}{3}
+	%\input{part-a.tex}
+  %\setcounter{part}{1}
+  %\setcounter{section}{20}
+	%\input{part-b.tex}
+	%\input{part-c.tex}
+  \setcounter{part}{3}
+  \setcounter{section}{39}
+	\input{part-d.tex}
+	\input{part-e.tex}
+	\input{part-f.tex}
+	\input{part-g.tex}
+	%\input{part-h.tex}
+	%\input{part-i.tex}
+	% \input{lexicon.tex}
+\end{paracol}
+
+%\input{quotes.tex}
+
+\cleartoevenpage{}
+\pagestyle{empty}
+\setlength{\parindent}{1\zw}
+\setlength{\hangindent}{0pt}
+
+%\section*{あとがき}
+
+%本書を手に取って下さってありがとうございます。
+
+
+\vspace*{\fill}
+
+\begin{tcolorbox}[width=0.85\columnwidth,before=\par\smallskip\centering,after=\par,colback=white,coltext=black,]
+  \begin{tabularx}{\columnwidth}{@{}r@{\hspace*{0.25\zw}：\hspace*{0.15\zw}}X@{}}
+    \kintou{6\zw}{書名}&アッティカ方言で話しませんか? 日本語訳 第D部から第G部まで
+    % \hfill{\includegraphics[trim={8cm 12cm 8cm 12cm},width=6em,valign=t]{./c100_logo_mono.png}}%
+    \\
+    \kintou{6\zw}{発行サークル}&ヒュアリニオス\newline\url{https://hyalinios.hatenadiary.com}%
+    \\
+    \kintou{6\zw}{発行責任者}&ざぎん\newline Twitter（現$\mathbb{X}$）: \texttt{@na4zagin3}%
+    \\
+    \kintou{6\zw}{発行日}&初版\quad \phantom{第1刷\quad }2026年8月16日
+    \\
+%    \kintou{6\zw}{印刷}&ちょ古っ都製本工房
+%    \\
+  \end{tabularx}
+\end{tcolorbox}
+\end{document}

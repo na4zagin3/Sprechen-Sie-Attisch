@@ -245,7 +245,7 @@ scenes:
     source:
       modern:
       - de: Erlauben Sie mir diesen Tanz, gnädige Frau? (— Fräulein?)
-        ja: 奥様（――お嬢さん）、一緒に躍りませんか。
+        ja: 奥様（\—{}お嬢さん）、一緒に躍りませんか。
       grc:
       - δὸς ὀρχεῖσθαι τοῦτο μετὰ σοῦ, ὦ γύναι! (--- ὦ κόρη!)
     dialogue:
@@ -269,8 +269,8 @@ scenes:
     translation:
       variants:
       - de: Erlauben Sie mir diesen Tanz, gnädige Frau? (— Fräulein?)
-        ja_current: 奥様（――お嬢さん）、一緒に躍りませんか。
-        ja_proposed: 奥様（――お嬢さん）、この曲をご一緒していただけますか。
+        ja_current: 奥様（\—{}お嬢さん）、一緒に躍りませんか。
+        ja_proposed: 奥様（\—{}お嬢さん）、この曲をご一緒していただけますか。
         decision: revise
         rationale: >
           “Allow me this dance” is a conventional invitation at a social dance. 「この曲をご一緒」
@@ -434,7 +434,7 @@ scenes:
     source:
       modern:
       - de: Nur dies \emph{eine} Mal erlauben Sie mir noch!
-        ja: せめてあと\emph{一度}だけ許してください！
+        ja: せめてあと\kenten{一度}だけ許してください！
       grc:
       - ἓν μὲν οὖν τουτί μ' ἔασον ὀρχήσασθαι.
     dialogue:
@@ -457,8 +457,8 @@ scenes:
     translation:
       variants:
       - de: Nur dies \emph{eine} Mal erlauben Sie mir noch!
-        ja_current: せめてあと\emph{一度}だけ許してください！
-        ja_proposed: せめてあと\emph{一度}だけ許してください！
+        ja_current: せめてあと\kenten{一度}だけ許してください！
+        ja_proposed: せめてあと\kenten{一度}だけ許してください！
         decision: pending-review
         rationale: null
         alternatives: []
@@ -477,7 +477,7 @@ scenes:
     source:
       modern:
       - de: Nun denn noch dies \emph{eine} Mal und nicht weiter!
-        ja: ではこれ\emph{一度}だけですよ、もうこれきりです！
+        ja: ではこれ\kenten{一度}だけですよ、もうこれきりです！
       grc:
       - τοῖτό νυν καὶ μηκέτ' ἄλλο μηδέν.
     dialogue:
@@ -500,8 +500,8 @@ scenes:
     translation:
       variants:
       - de: Nun denn noch dies \emph{eine} Mal und nicht weiter!
-        ja_current: ではこれ\emph{一度}だけですよ、もうこれきりです！
-        ja_proposed: ではこれ\emph{一度}だけですよ、もうこれきりです！
+        ja_current: ではこれ\kenten{一度}だけですよ、もうこれきりです！
+        ja_proposed: ではこれ\kenten{一度}だけですよ、もうこれきりです！
         decision: pending-review
         rationale: null
         alternatives: []
@@ -588,7 +588,7 @@ scenes:
       variants:
       - de: Wer ist eigentlich der Herr dort, der hierher sieht? der an der Thür steht?
         ja_current: あそこでこちらを見ている紳士は誰ですか？ドアのところにいる\ruby{方}{かた}です。
-        ja_proposed: あそこでこちらを見ている紳士はどなたですか。扉のところに立っている方です。
+        ja_proposed: あそこでこちらを見ている紳士はどなたですか。扉のところに立っている\ruby{方}{かた}です。
         decision: revise
         rationale: >
           The second German fragment clarifies which man is meant. Japanese can state that clarification
@@ -786,7 +786,7 @@ scenes:
     source:
       modern:
       - de: Ich werde mich hüten!
-        ja: 気をつけます！
+        ja: そんなことは絶対にしませんよ！
       grc:
       - 'φυλάξομαι\footnote{\textlatin{%
 
@@ -1476,7 +1476,7 @@ scenes:
       variants:
       - de: Nach dem, was Sie sagen, muß man sie bewundern.
         ja_current: あなたの言によれば、彼女は賞賛されるべきですね。
-        ja_proposed: あなたの言によれば、彼女は賞賛されるべきですね。
+        ja_proposed: あなたのお話通りなら、彼女は賞賛されるべきですね。
         decision: pending-review
         rationale: null
         alternatives: []
@@ -1605,7 +1605,7 @@ scenes:
       variants:
       - de: Was hat sie darauf erwidert?
         ja_current: それについて彼女は何と答えましましたか。
-        ja_proposed: それについて彼女は何と答えましましたか。
+        ja_proposed: それについて彼女は何と答えましたか。
         decision: pending-review
         rationale: null
         alternatives: []
@@ -1667,7 +1667,7 @@ scenes:
     source:
       modern:
       - de: Ich will euch ein Märchen erzählen nämlich —
-        ja: ではおとぎ話を聞かせましょう、——
+        ja: ではおとぎ話を聞かせましょう、\—{}
       grc:
       - 'μῦθον ὑμῖν βούλομαι λέξαι οὕτως\footnote{\textlatin{%
 
@@ -1694,8 +1694,8 @@ scenes:
     translation:
       variants:
       - de: Ich will euch ein Märchen erzählen nämlich —
-        ja_current: ではおとぎ話を聞かせましょう、——
-        ja_proposed: ではおとぎ話を聞かせましょう、——
+        ja_current: ではおとぎ話を聞かせましょう、\—{}
+        ja_proposed: ではおとぎ話を聞かせましょう、\—{}
         decision: pending-review
         rationale: null
         alternatives: []
@@ -1821,7 +1821,7 @@ scenes:
     source:
       modern:
       - de: Worauf soll man rathen?
-        ja: どういう帰結があるうるのでしょうか。
+        ja: 一体、何と見当をつければよいのでしょうか。
       grc:
       - ποῖ τις ἂν τράποιτο;
     dialogue:
@@ -2541,7 +2541,7 @@ scenes:
     source:
       modern:
       - de: \emph{O, dann begreife ich, daß} Sie verstimmt sind.
-        ja: \emph{なるほど}、ご機嫌ななめなのも\emph{ご尤もです}。
+        ja: \kenten{なるほど}、ご機嫌ななめなのも\kenten{ご尤もです}。
       grc:
       - \emph{οὐκ ἐτὸς ἄρα} λυπεῖ.
     dialogue:
@@ -2564,8 +2564,8 @@ scenes:
     translation:
       variants:
       - de: \emph{O, dann begreife ich, daß} Sie verstimmt sind.
-        ja_current: \emph{なるほど}、ご機嫌ななめなのも\emph{ご尤もです}。
-        ja_proposed: \emph{なるほど}、ご機嫌ななめなのも\emph{ご尤もです}。
+        ja_current: \kenten{なるほど}、ご機嫌ななめなのも\kenten{ご尤もです}。
+        ja_proposed: \kenten{なるほど}、ご機嫌ななめなのも\kenten{ご尤もです}。
         decision: pending-review
         rationale: null
         alternatives: []
@@ -2613,7 +2613,7 @@ scenes:
     source:
       modern:
       - de: Sehen Sie die hier an, wie \emph{schön} sie ist!
-        ja: ここにいる彼女をご覧なさい、なんて\emph{綺麗}なんでしょう！
+        ja: ここにいる彼女をご覧なさい、なんて\kenten{綺麗}なんでしょう！
       grc:
       - ὅρα ταυτηνὶ, ὡς καλή!
     dialogue:
@@ -2636,8 +2636,8 @@ scenes:
     translation:
       variants:
       - de: Sehen Sie die hier an, wie \emph{schön} sie ist!
-        ja_current: ここにいる彼女をご覧なさい、なんて\emph{綺麗}なんでしょう！
-        ja_proposed: ここにいる彼女をご覧なさい、なんて\emph{綺麗}なんでしょう！
+        ja_current: ここにいる彼女をご覧なさい、なんて\kenten{綺麗}なんでしょう！
+        ja_proposed: ここにいる彼女をご覧なさい、なんて\kenten{綺麗}なんでしょう！
         decision: pending-review
         rationale: null
         alternatives: []
@@ -3194,7 +3194,7 @@ scenes:
     source:
       modern:
       - de: Sie lacht \emph{gern.}
-        ja: 彼女は\emph{よく}笑います。
+        ja: 彼女は\kenten{よく}笑います。
       grc:
       - καὶ ἡδέως γελᾷ.
     dialogue:
@@ -3217,8 +3217,8 @@ scenes:
     translation:
       variants:
       - de: Sie lacht \emph{gern.}
-        ja_current: 彼女は\emph{よく}笑います。
-        ja_proposed: 彼女は\emph{よく}笑います。
+        ja_current: 彼女は\kenten{よく}笑います。
+        ja_proposed: 彼女は\kenten{よく}笑います。
         decision: pending-review
         rationale: null
         alternatives: []
@@ -3304,7 +3304,7 @@ scenes:
       variants:
       - de: Aber sie hat wohl nichts?
         ja_current: でも、貧乏\footnote{結婚持参金も用意できなさそう}なのでは？
-        ja_proposed: でも、貧乏\footnote{結婚持参金も用意できなさそう}なのでは？
+        ja_proposed: でも、結婚持参金も用意できなさそうなのでしょう？
         decision: pending-review
         rationale: null
         alternatives: []
@@ -3476,7 +3476,7 @@ scenes:
       variants:
       - de: Wer ist denn die hinter ihr?
         ja_current: では、その後ろにいる人は誰ですか。
-        ja_proposed: では、その後ろにいる人は誰ですか。
+        ja_proposed: ところで、その後ろにいる人はどなたですか。
         decision: pending-review
         rationale: null
         alternatives: []
@@ -3519,7 +3519,7 @@ scenes:
       variants:
       - de: Wer die ist? Frau Schulze.
         ja_current: あの人ですか？　シュルツェ夫人ですよ。
-        ja_proposed: あの人ですか？　シュルツェ夫人ですよ。
+        ja_proposed: あの人ですか？シュルツェ夫人ですよ。
         decision: pending-review
         rationale: null
         alternatives: []
@@ -3691,7 +3691,7 @@ scenes:
       variants:
       - de: Sie ist geschminkt.
         ja_current: 化粧も済ませています。
-        ja_proposed: 化粧も済ませています。
+        ja_proposed: （厚）化粧をしています。
         decision: pending-review
         rationale: null
         alternatives: []
@@ -3864,7 +3864,7 @@ scenes:
     source:
       modern:
       - de: Schulze heißt er? \emph{Was ist das für ein} Schulze?
-        ja: 彼はシュルツェというのですか？\emph{どの}シュルツェ氏ですか？
+        ja: 彼はシュルツェというのですか？\kenten{どの}シュルツェ氏ですか？
       grc:
       - Σχούλζιος αὐτῷ ὄνομα; ποῖος οὗτος ὁ Σχούλζιος;
     dialogue:
@@ -3887,8 +3887,8 @@ scenes:
     translation:
       variants:
       - de: Schulze heißt er? \emph{Was ist das für ein} Schulze?
-        ja_current: 彼はシュルツェというのですか？\emph{どの}シュルツェ氏ですか？
-        ja_proposed: 彼はシュルツェというのですか？\emph{どの}シュルツェ氏ですか？
+        ja_current: 彼はシュルツェというのですか？\kenten{どの}シュルツェ氏ですか？
+        ja_proposed: 彼はシュルツェというのですか？\kenten{どの}シュルツェ氏ですか？
         decision: pending-review
         rationale: null
         alternatives: []
@@ -5271,7 +5271,7 @@ scenes:
     source:
       modern:
       - de: Über 20 Jahre \emph{alt}.
-        ja: 20歳を\emph{超えています}。
+        ja: 20歳を\kenten{超えています}。
       grc:
       - ὑπὲρ εἴκοσιν ἔτη \emph{γεγονυῖα.}
     dialogue:
@@ -5294,8 +5294,8 @@ scenes:
     translation:
       variants:
       - de: Über 20 Jahre \emph{alt}.
-        ja_current: 20歳を\emph{超えています}。
-        ja_proposed: 20歳を\emph{超えています}。
+        ja_current: 20歳を\kenten{超えています}。
+        ja_proposed: 20歳を\kenten{超えています}。
         decision: pending-review
         rationale: null
         alternatives: []
@@ -5314,7 +5314,7 @@ scenes:
     source:
       modern:
       - de: Du bist ein junger Mann \emph{von} 19 Jahren.
-        ja: 君は\emph{19歳の}若者だ。
+        ja: 君は\kenten{19歳の}若者だ。
       grc:
       - σὺ δὲ ἀνὴρ νέος εἶ ἐννεακαίδεκα ἐτῶν.
     dialogue:
@@ -5337,8 +5337,8 @@ scenes:
     translation:
       variants:
       - de: Du bist ein junger Mann \emph{von} 19 Jahren.
-        ja_current: 君は\emph{19歳の}若者だ。
-        ja_proposed: 君は\emph{19歳の}若者だ。
+        ja_current: 君は\kenten{19歳の}若者だ。
+        ja_proposed: 君は\kenten{19歳の}若者だ。
         decision: pending-review
         rationale: null
         alternatives: []

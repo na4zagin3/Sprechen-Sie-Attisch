@@ -1200,7 +1200,7 @@ scenes:
       variants:
       - de: \emph{Augenblicklich} ist er nicht zu Hause.
         ja_current: ちょうど今は家にいません。
-        ja_proposed: \emph{ただいま}、留守にしております。
+        ja_proposed: \kenten{ただいま}、留守にしております。
         decision: revise
         rationale: >-
           Augenblicklich restricts the absence to the present moment. In a conventional doorstep
@@ -1208,11 +1208,11 @@ scenes:
           Aozora dialogue attests both 「只今……御不在でございます」 and
           「ただいまは……お留守じゃ」 patterns; the proposal chooses the neutral-polite form.
         alternatives:
-        - ja: \emph{ただいま}、不在でございます。
+        - ja: \kenten{ただいま}、不在でございます。
           note: More formal and somewhat administrative; 「御不在でございます」 is attested in Aozora dialogue.
-        - ja: あいにく、\emph{ただいま}留守にしております。
+        - ja: あいにく、\kenten{ただいま}留守にしております。
           note: Natural as a visitor-facing reply, but あいにく adds apologetic regret absent from German and Greek.
-        - ja: \emph{ただいま}、出かけております。
+        - ja: \kenten{ただいま}、出かけております。
           note: Natural and direct, but specifies being out rather than merely not being at home.
       register: null
       scene_dependency: null
@@ -2135,7 +2135,7 @@ scenes:
       variants:
       - de: Kannst du \emph{ohne} Handtuch zurechtkommen?
         ja_current: タオルなしでやっていけるか？
-        ja_proposed: \emph{手拭いなしで}済ませるつもりか？
+        ja_proposed: \kenten{手拭いなしで}済ませるつもりか？
         decision: revise
         rationale: >-
           German zurechtkommen and Greek ἀνύτεις ask how the addressee manages or gets the task done.
@@ -3379,7 +3379,7 @@ scenes:
       variants:
       - de: \emph{Darf ich} dir ein Abendbrot vorsetzen?
         ja_current: 夕食を出してもいいかい？
-        ja_proposed: 夕食を\emph{お出ししましょうか}？
+        ja_proposed: 夕食を\kenten{お出ししましょうか}？
         decision: revise
         rationale: null
         alternatives: []
@@ -3499,7 +3499,7 @@ scenes:
       variants:
       - de: Ich habe mir zu trinken \emph{mitgebracht}.
         ja_current: 飲み物は持ってきました。
-        ja_proposed: 飲み物なら\emph{持ってきた}よ。
+        ja_proposed: 飲み物なら\kenten{持ってきた}よ。
         decision: revise
         rationale: null
         alternatives: []
@@ -3911,7 +3911,7 @@ scenes:
       variants:
       - de: \emph{Bleib'} stehen!
         ja_current: そのまま立っていろ！
-        ja_proposed: \emph{そのまま}立っていろ！
+        ja_proposed: \kenten{そのまま}立っていろ！
         decision: revise
         rationale: null
         alternatives: []
@@ -4539,7 +4539,7 @@ scenes:
       variants:
       - de: Es ist \emph{höchste} Zeit.
         ja_current: もういい時間だ。
-        ja_proposed: もう、\emph{とっくに}寝かせる時間だ。
+        ja_proposed: もう、\kenten{とっくに}寝かせる時間だ。
         decision: revise
         rationale: >-
           German Es refers back to putting the children to bed and Greek merely says that it is time.
@@ -4631,7 +4631,7 @@ scenes:
     source:
       modern:
       - de: Sie würfeln. — Um was?
-        ja: 彼らはサイコロを振っている――何を賭けているの？
+        ja: 彼らはサイコロを振っている\—{}何を賭けているの？
       grc:
       - κυβεύουσιν. — περὶ τοῦ;
     dialogue:
@@ -4654,8 +4654,8 @@ scenes:
     translation:
       variants:
       - de: Sie würfeln. — Um was?
-        ja_current: 彼らはサイコロを振っている――何を賭けているの？
-        ja_proposed: 彼らはサイコロを振っている――何を賭けているのだろうか？
+        ja_current: 彼らはサイコロを振っている\—{}何を賭けているの？
+        ja_proposed: 彼らはサイコロを振っている\—{}何を賭けているのだろうか？
         decision: keep
         rationale: null
         alternatives: []
@@ -4941,7 +4941,7 @@ scenes:
       variants:
       - de: Lies\textcompwordmark{}chen klatscht vor Freude in die Hände.
         ja_current: リジヒェンは喜んで手を打っている。
-        ja_proposed: リースヒェンは、喜んで手を叩いている。
+        ja_proposed: リースヒェンは嬉しそうに手を叩いている。
         decision: revise
         rationale: null
         alternatives: []
@@ -6811,7 +6811,7 @@ scenes:
       variants:
       - de: Wer schreit \emph{nach mir?}
         ja_current: 誰が私を呼んで叫んでいるんだ？
-        ja_proposed: 誰だ、\emph{私を呼んでいる}のは？
+        ja_proposed: 誰だ、\kenten{私を呼んでいる}のは？
         decision: revise
         rationale: null
         alternatives: []

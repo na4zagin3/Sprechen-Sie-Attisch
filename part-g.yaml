@@ -28,7 +28,7 @@ sections:
           - εὖ ἴσθ’ ὅτι εἰς ἑσπέραν.
       - modern:
         - de: Worüber? Über alles Mögliche.
-          ja: 何についてですか？――ありとあらゆる問題についてです。
+          ja: 何についてですか？\—{}ありとあらゆる問題についてです。
         grc:
           - περὶ τοῦ; περὶ \emph{ἁπάντων} πραγμάτων.
       - modern:
@@ -45,7 +45,7 @@ sections:
         - de: |-
             Nun, so machen Sie denn, daß Sie \emph{auch} hinkommen und bringen
             Sie noch ein paar Andere mit!
-          ja: では、\emph{あなたも}必ず来て、ほかの方を二、三人連れてきてください！
+          ja: では、\kenten{あなたも}必ず来て、ほかの方を二、三人連れてきてください！
         grc:
           - ἀλλ’ ὅπως παρέσει καὶ αὐτὸς καὶ ἄλλους \emph{ἄξεις!}
       - modern:
@@ -100,12 +100,12 @@ sections:
           - ὁ πρόεδρος.
       - modern:
         - de: Wer hat die meisten (wenigsten) \emph{Stimmen?}
-          ja: 誰が最多（最少）の\emph{票}を得ましたか？
+          ja: 誰が最多（最少）の\kenten{票}を得ましたか？
         grc:
           - τίνι πλεῖσται (ἐλάχισται) γεγόνασιν;
       - modern:
         - de: Abgeordneter ist, wer die meisten \emph{Stimmen} bekommen hat.
-          ja: 最も多くの\emph{票}を得た者が、代議士となります。
+          ja: 最も多くの\kenten{票}を得た者が、代議士となります。
         grc:
           - βουλευτής ἐστιν, ᾧ ἂν πλεῖσται γένωνται.
       - modern:
@@ -124,12 +124,12 @@ sections:
     conversations:
       - modern:
         - de: Wir brauchen keine neuen \emph{Steuern!}
-          ja: 新たな\emph{税}など、われわれには必要ない！
+          ja: 新たな\kenten{税}など、われわれには必要ない！
         grc:
           - οὐ δεόμεθα καινῶν δασμῶν!
       - modern:
         - de: Wir \emph{brauchen} keine neuen Steuern!
-          ja: 新たな税など、われわれには\emph{必要ない}！
+          ja: 新たな税など、われわれには\kenten{必要ない}！
         grc:
           - καινῶν δασμῶν οὐ δεόμεθα!
       - modern:
@@ -248,7 +248,7 @@ sections:
           - καλῶς γε ποιῶν.
       - modern:
         - de: "Thu', was du \\emph{denkst!}"
-          ja: 君が\emph{よいと思う}とおりにしたまえ！
+          ja: 君が\kenten{よいと思う}とおりにしたまえ！
         grc:
           - ποίει, ὅτι ἄν σοι δοκῇ.
       - modern:
@@ -263,7 +263,7 @@ sections:
           - τί δῆτ’ ἔδοξεν;
       - modern:
         - de: Noch nichts; es war \emph{Stimmen}gleichheit.
-          ja: まだ何も。\emph{票が}同数だったのです。
+          ja: まだ何も。\kenten{票が}同数だったのです。
         grc:
           - οὐδέν πω· ἶσαι γὰρ ἐγένοντο.
       - modern:

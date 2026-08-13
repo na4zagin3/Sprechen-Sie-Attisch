@@ -30,7 +30,7 @@ sections:
             τὸ Γαλλικόν).
       - modern:
         - de: Erlauben Sie mir diesen Tanz, gnädige Frau? (— Fräulein?)
-          ja: 奥様（――お嬢さん）、一緒に躍りませんか。
+          ja: 奥様（\—{}お嬢さん）、一緒に躍りませんか。
         grc:
           - δὸς ὀρχεῖσθαι τοῦτο μετὰ σοῦ, ὦ γύναι! (--- ὦ κόρη!)
       - modern:
@@ -50,12 +50,12 @@ sections:
           - κέκμηκα.
       - modern:
         - de: Nur dies \emph{eine} Mal erlauben Sie mir noch!
-          ja: せめてあと\emph{一度}だけ許してください！
+          ja: せめてあと\kenten{一度}だけ許してください！
         grc:
           - "ἓν μὲν οὖν τουτί μ' ἔασον ὀρχήσασθαι."
       - modern:
         - de: Nun denn noch dies \emph{eine} Mal und nicht weiter!
-          ja: ではこれ\emph{一度}だけですよ、もうこれきりです！
+          ja: ではこれ\kenten{一度}だけですよ、もうこれきりです！
         grc:
           - "τοῖτό νυν καὶ μηκέτ' ἄλλο μηδέν."
       - modern:
@@ -188,7 +188,7 @@ sections:
           - προφασίζεσται.
       - modern:
         - de: Ich will euch ein Märchen erzählen nämlich —
-          ja: ではおとぎ話を聞かせましょう、——
+          ja: ではおとぎ話を聞かせましょう、\—{}
         grc:
           - |-
             μῦθον ὑμῖν βούλομαι λέξαι οὕτως\footnote{\textlatin{%
@@ -280,7 +280,7 @@ sections:
           - "τοῦτ' οὐκ ᾔδειν ἐγώ."
       - modern:
         - de: \emph{O, dann begreife ich, daß} Sie verstimmt sind.
-          ja: \emph{なるほど}、ご機嫌ななめなのも\emph{ご尤もです}。
+          ja: \kenten{なるほど}、ご機嫌ななめなのも\kenten{ご尤もです}。
         grc:
           - \emph{οὐκ ἐτὸς ἄρα} λυπεῖ.
   - title:
@@ -289,7 +289,7 @@ sections:
     conversations:
       - modern:
         - de: Sehen Sie die hier an, wie \emph{schön} sie ist!
-          ja: ここにいる彼女をご覧なさい、なんて\emph{綺麗}なんでしょう！
+          ja: ここにいる彼女をご覧なさい、なんて\kenten{綺麗}なんでしょう！
         grc:
           - ὅρα ταυτηνὶ, ὡς καλή!
       - modern:
@@ -349,7 +349,7 @@ sections:
           - καὶ \emph{τὰς} χεῖρας παγκάλας ἔχει.
       - modern:
         - de: Sie lacht \emph{gern.}
-          ja: 彼女は\emph{よく}笑います。
+          ja: 彼女は\kenten{よく}笑います。
         grc:
           - καὶ ἡδέως γελᾷ.
       - modern:
@@ -428,7 +428,7 @@ sections:
     conversations:
       - modern:
         - de: Schulze heißt er? \emph{Was ist das für ein} Schulze?
-          ja: 彼はシュルツェというのですか？\emph{どの}シュルツェ氏ですか？
+          ja: 彼はシュルツェというのですか？\kenten{どの}シュルツェ氏ですか？
         grc:
           - Σχούλζιος αὐτῷ ὄνομα; ποῖος οὗτος ὁ Σχούλζιος;
       - modern:
@@ -597,12 +597,12 @@ sections:
           - "πλεῖν ἢ 'νιαυτῷ σου πρεσβυτέρα ἐστίν."
       - modern:
         - de: Über 20 Jahre \emph{alt}.
-          ja: 20歳を\emph{超えています}。
+          ja: 20歳を\kenten{超えています}。
         grc:
           - ὑπὲρ εἴκοσιν ἔτη \emph{γεγονυῖα.}
       - modern:
         - de: Du bist ein junger Mann \emph{von} 19 Jahren.
-          ja: 君は\emph{19歳の}若者だ。
+          ja: 君は\kenten{19歳の}若者だ。
         grc:
           - σὺ δὲ ἀνὴρ νέος εἶ ἐννεακαίδεκα ἐτῶν.
       - modern:

@@ -298,7 +298,7 @@ sections:
 
       - modern:
         - de: Sie wird ohnmächtig.
-          ja: 彼女は気を失いつつある\footnote{原文は„Sie wird ohnmächtig.“。唐突に現れた彼女は一体誰なんだろうか。}。
+          ja: 彼女は気を失いつつある\footnote{原文は\textgerman{„Sie wird ohnmächtig.“}。唐突に現れた彼女は一体誰なんだろうか。}。
         grc:
           - ὡρακιᾷ.
 
@@ -437,7 +437,7 @@ sections:
 
       - modern:
         - de: Gleich!
-          ja: はい、ただいま！\footnote{LSJ ``\textgreek[variant=ancient]{οὗτος, αὕτη, τοῦτο}'' C VII 1 \textgreek[variant=ancient]{ταῦτ̓, ὦ δέσποτα} \emph{yes} Sir (i.e., \textgreek[variant=ancient]{ἔστι ταῦτα, ταῦτα δράσς,}, etc.), Ar.V142, Pax275, cf. Eq.III}
+          ja: はい、ただいま！\footnote{LSJ “\textgreek[variant=ancient]{οὗτος, αὕτη, τοῦτο}” C VII 1 \textgreek[variant=ancient]{ταῦτ̓, ὦ δέσποτα} \emph{yes} Sir (i.e., \textgreek[variant=ancient]{ἔστι ταῦτα, ταῦτα δράσς,}, etc.), Ar.V142, Pax275, cf. Eq.III}
         grc:
           - ταῦτα!
 
@@ -513,16 +513,12 @@ sections:
           - "πόλλ' ἀγαθὰ γένοιό σοι!"
       - modern:
         - de: Danke schön! (auch ablehnend.)
-          ja: ありがとう！
-        - de: ""
-          ja: 結構です。（拒否する場合にも）
+          ja: ありがとう！／結構です。
         grc:
           - καλῶς!
       - modern:
         - de: Ich danke bestens! (des\textcompwordmark{}gl.)
-          ja: どうもありがとう！
-        - de: ""
-          ja: 真に結構です。（拒否する場合にも）
+          ja: どうもありがとう！／真に結構です。
         grc:
           - κάλλιστα· ἐπαινῶ.
       - modern:

@@ -23,7 +23,7 @@ sections:
           - οὐκ ἂν φθάνοις εἰς τὸ γυνμάσιον ἰών;
       - modern:
         - de: Halt dich nicht auf! --- Beeile dich!
-          ja: グズグズするな！ --- 急げ！
+          ja: グズグズするな！\— 急げ！
         grc:
           - μή νυν διάτριβε! --- σπεῦδέ νυν!
       - modern:
@@ -72,7 +72,7 @@ sections:
           - ὕστερος ἦλθον!
       - modern:
         - de: Hilf Himmel! --- Ach, ich Ärmster!
-          ja: 厄避けのアポッローン様！ --- ああ、なんて災難だ。
+          ja: 厄避けのアポッローン様！\— ああ、なんて災難だ。
         grc:
           - Ἄπολλον ἀποτρόπαιε! --- οἴμοι κακοδαίμων!
         cite: Aristoph. Pl. 854, Vesp. 161; Aristoph. Thes. 235

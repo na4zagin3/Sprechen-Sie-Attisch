@@ -18,7 +18,7 @@ sections:
           - πρὶν ἂν ἀμφοῖν μῦθον ἀκούσῃς, οὐκ ἂν δικάσαις.
       - modern:
         - de: Das hieße Eulen nach Athen tragen.
-          ja: それでは、アテナイへ梟を運ぶようなものだ。
+          ja: それでは、ア\jdb{テ}ーナイへ梟を運ぶようなものだ。
         grc:
           - τίς γλαῦκ’ Ἀθήναζε ἄγαγεν;
       - modern:
@@ -38,7 +38,7 @@ sections:
           - μὴ τὸν ἐμὸν οἴκει οἶκον!!
       - modern:
         - de: Der reine Menschenfeind (Timon)!
-          ja: 正真正銘の人間嫌い（ティモン）だ！
+          ja: 正真正銘の人間嫌い（ティーモーン）だ！
         grc:
           - Τίμων \emph{καθαρός!}
       - modern:
@@ -128,6 +128,6 @@ sections:
             des Kaisers Augustus.)}
       - modern:
         - de: Laß dir genügen!
-          ja: 足るを知れ――半ばは全体に勝る。
+          ja: 足るを知れ\—{}半ばは全体に勝る。
         grc:
           - πλέον ἥμισυ παντός!

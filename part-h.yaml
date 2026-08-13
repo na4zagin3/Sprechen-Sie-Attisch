@@ -321,7 +321,7 @@ sections:
           - τί φής;
       - modern:
         - de: B. Hurrah! Der Alte liegt im Skat! Hier!
-          ja: B. やった！アルテ――最強のアイヒェル・ヴェンツェル――は、スカートに入っているぞ！ほら！
+          ja: B. やった！アルテ\—{}最強のアイヒェル・ヴェンツェル\—{}は、スカートに入っているぞ！ほら！
         grc:
           - βαβαιάξ! ἀπόκειται ὁ παγκράτιστος! ἰδού
       - modern:
@@ -378,14 +378,14 @@ sections:
           - οὐκ ἄλλ’ οὐδὲ ἕν. ἐμὰ γὰρ τὰ λοιπά!
       - modern:
         - de: A. u. C. Oho! — Wahrhaftig!
-          ja: A・C. ほう！――本当かよ！
+          ja: A・C. ほう！\—{}本当かよ！
         grc:
           - οὐδὲν λέγεις! — μὰ τὸν Δί’ οὐ τοίνυν!
       - modern:
         - de: |-
             A. Ja wie konntest du aber auch \emph{die} Farbe spielen? Wir mußten
             ja dicke gewinnen!
-          ja: A. しかし、どうしてよりによって\emph{あの組}を出したんだ。こちらは大勝できたはずなのに！
+          ja: A. しかし、どうしてよりによって\kenten{あの組}を出したんだ。こちらは大勝できたはずなのに！
         grc:
           - πῶς ἄρ’ οὖν ἐπὶ ταῦτα ἦλθες; ἐμέλλομεν γάρ τοι σφοδρῶς ὑπερέχειν!
       - modern:
@@ -397,7 +397,7 @@ sections:
         - de: |-
             C. So? Warum stichst du denn nicht? Ich habe ganz richtig aus\textcompwordmark{}gespielt.
             — du bist schuld!
-          ja: C. そうか？では、なぜ切り札を出さなかったんだ。私は正しく最初の札を出したぞ。――君のせいだ！
+          ja: C. そうか？では、なぜ切り札を出さなかったんだ。私は正しく最初の札を出したぞ。\—{}君のせいだ！
         grc:
           - |-
             ἄληθες; τί δὴ παθὴν οὐχ ὑπερέβαλες\footnote{\textlatin{%

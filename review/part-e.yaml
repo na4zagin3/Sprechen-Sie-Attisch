@@ -1435,7 +1435,7 @@ scenes:
 
           begrüßt haben.'
         ja_current: あなたが私に挨拶しなかったとは、本当にひどいことですよ。
-        ja_proposed: \emph{私に挨拶してくださらなかったなんて}、\emph{随分}ではありませんか。
+        ja_proposed: \kenten{私に挨拶してくださらなかったなんて}、\kenten{随分}ではありませんか。
         decision: accepted
         rationale: null
         alternatives: []
@@ -4449,7 +4449,7 @@ scenes:
     source:
       modern:
       - de: Was geht da vor? — Was ist das?
-        ja: そこで何が起きているのですか――これは何です？
+        ja: そこで何が起きているのですか\― これは何です？
       grc:
       - τί τὸ πρᾶγμα; — τουτὶ τί ἐστιν;
     dialogue:
@@ -4472,8 +4472,8 @@ scenes:
     translation:
       variants:
       - de: Was geht da vor? — Was ist das?
-        ja_current: そこで何が起きているのですか――これは何です？
-        ja_proposed: そこで何をしているのです？――これはいったい、何事です！
+        ja_current: そこで何が起きているのですか\—{}これは何です？
+        ja_proposed: そこで何をしているのです？\—{}これはいったい、何事です！
         decision: revise
         rationale: >-
           The mother-in-law has just encountered the scene. German Was geht da vor and the two Greek
@@ -4893,7 +4893,7 @@ scenes:
       variants:
       - de: Sind Sie verrückt?
         ja_current: 気でも違ったのですか。
-        ja_proposed: 正気ですか、いったい何をしているのです！
+        ja_proposed: 気でも違ったのですか！
         decision: revise
         rationale: >-
           German Sind Sie verrückt? is a forceful accusation, while Greek τί ποιεῖς asks literally
@@ -5333,7 +5333,7 @@ scenes:
       variants:
       - de: \emph{Nein,} über diese Unverschämtheit!
         ja_current: いやはや、なんという無礼だ！
-        ja_proposed: \emph{まあ}、なんという厚かましさでしょう！
+        ja_proposed: \kenten{まあ}、なんという厚かましさでしょう！
         decision: revise
         rationale: >-
           Unverschämtheit and ὕβρις denote shameless insolence, not merely a breach of etiquette.
@@ -5645,7 +5645,7 @@ scenes:
       variants:
       - de: Gehen Sie zum Teufel!
         ja_current: 地獄へ行け！
-        ja_proposed: 地獄へ行け！
+        ja_proposed: 地獄へ行ってしまいなさい！
         decision: retain
         rationale: >-
           German zum Teufel and Greek ἐς κόρακας are concise destination curses. The terse
@@ -7832,7 +7832,7 @@ scenes:
       variants:
       - de: Es war \emph{nicht richtig, daß} du das thatest.
         ja_current: 君がそうしたのは間違いだった。
-        ja_proposed: 君があんなことをしたのは、\emph{よくなかった}！
+        ja_proposed: 君があんなことをしたのは、\kenten{よくなかった}！
         decision: revise
         rationale: null
         alternatives: []
@@ -7886,7 +7886,7 @@ scenes:
       variants:
       - de: Was geht das \emph{dich} an?
         ja_current: それが君に何の関係があるんだ。
-        ja_proposed: \emph{君に}何の関係があるんだ？
+        ja_proposed: \kenten{君に}何の関係があるんだ？
         decision: revise
         rationale: null
         alternatives: []
@@ -8061,7 +8061,7 @@ scenes:
       variants:
       - de: Wie \emph{unrecht} du gehandelt hast!
         ja_current: 君のしたことはなんて間違っているんだ！
-        ja_proposed: なんという\emph{不心得なこと}をしたんだ！
+        ja_proposed: なんという\kenten{不心得なこと}をしたんだ！
         decision: revise
         rationale: >-
           This is the exclamatory member of the οὐκ ὀρθῶς cluster. 「不心得なこと」 denotes
@@ -8178,7 +8178,7 @@ scenes:
       variants:
       - de: \emph{Das ist es, was} du mir zum Vorwurf machst?
         ja_current: それを私に非難するのか？
-        ja_proposed: \emph{それが}、君の言う僕の落ち度なのか？
+        ja_proposed: \kenten{それが}、君の言う僕の落ち度なのか？
         decision: revise
         rationale: null
         alternatives: []
@@ -8270,7 +8270,7 @@ scenes:
     source:
       modern:
       - de: Gieb mir keine guten Lehren, sondern —
-        ja: 説教はいいから――
+        ja: 説教はいいから\—{}
       grc:
       - μὴ νουθέτει με, ἀλλὰ —
     dialogue:
@@ -8293,8 +8293,8 @@ scenes:
     translation:
       variants:
       - de: Gieb mir keine guten Lehren, sondern —
-        ja_current: 説教はいいから――
-        ja_proposed: 説教はよしてくれ。それより――
+        ja_current: 説教はいいから\—{}
+        ja_proposed: 説教はよしてくれ。それより\—{}
         decision: revise
         rationale: null
         alternatives: []
@@ -8492,7 +8492,7 @@ scenes:
       variants:
       - de: Mir \emph{thut} das Fräulein \emph{leid.}
         ja_current: あの娘が本当に気の毒だ。
-        ja_proposed: 僕は、あのお嬢さんが\emph{気の毒でならない}。
+        ja_proposed: 僕は、あのお嬢さんが\kenten{気の毒でならない}。
         decision: revise
         rationale: null
         alternatives: []
@@ -8873,7 +8873,7 @@ scenes:
       variants:
       - de: Mach' keine schlechten Witze \emph{über mich!}
         ja_current: 私のことで変な冗談を言うな！
-        ja_proposed: \emph{僕を}からかうのはよせ！
+        ja_proposed: \kenten{僕を}からかうのはよせ！
         decision: revise
         rationale: null
         alternatives: []
@@ -9211,7 +9211,7 @@ scenes:
     source:
       modern:
       - de: Hör' auf! — Schweig'!
-        ja: やめろ！――黙れ！
+        ja: やめろ！\—{}黙れ！
       grc:
       - παῦε! — σιώπα!
     dialogue:
@@ -9234,8 +9234,8 @@ scenes:
     translation:
       variants:
       - de: Hör' auf! — Schweig'!
-        ja_current: やめろ！――黙れ！
-        ja_proposed: よせ！――黙れ！
+        ja_current: やめろ！\—{}黙れ！
+        ja_proposed: よせ！\—{}黙れ！
         decision: revise
         rationale: null
         alternatives: []
@@ -9571,7 +9571,7 @@ scenes:
       fingerprint: 23ac2042997e6e42
     source:
       modern:
-      - de: Wenn es uns gelingt, so will ich Gott innig denken.
+      - de: Wenn es uns gelingt, so will ich Gott innig danken.
         ja: もしうまくいったら、神に心から感謝します。
       grc:
       - ἢν \emph{κατορθώσωμεν, ἐπαινέσομαι} τὸν θεὸν πάνυ σφόδρα.
@@ -9594,7 +9594,7 @@ scenes:
       pragmatic_force: null
     translation:
       variants:
-      - de: Wenn es uns gelingt, so will ich Gott innig denken.
+      - de: Wenn es uns gelingt, so will ich Gott innig danken.
         ja_current: もしうまくいったら、神に心から感謝します。
         ja_proposed: もしうまくいったら、神に心から感謝します。
         decision: revise
@@ -9906,7 +9906,7 @@ scenes:
       variants:
       - de: Was du für \emph{Glück hast!}
         ja_current: 君はなんて幸運なんだ！
-        ja_proposed: 君はなんと\emph{運がいい}んだ！
+        ja_proposed: 君はなんと\kenten{運がいい}んだ！
         decision: revise
         rationale: null
         alternatives: []
@@ -10223,7 +10223,7 @@ scenes:
       variants:
       - de: Er kann das Leben genießen.
         ja_current: 人生を存分に楽しめる。
-        ja_proposed: これで人生の春を楽しめるというわけだ。
+        ja_proposed: これで人生が存分に楽しめるというわけだ。
         decision: revise
         rationale: >-
           German Leben generalizes the thought to enjoyment of life, whereas Greek ἥβη means youth or

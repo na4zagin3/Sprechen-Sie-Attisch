@@ -1492,7 +1492,7 @@ scenes:
       variants:
       - de: Laß dir genügen!
         ja_current: 分をわきまえて満足せよ！
-        ja_proposed: 足るを知れ――半ばは全体に勝る。
+        ja_proposed: 足るを知れ\—{}半ばは全体に勝る。
         decision: revise
         rationale: >
           「分をわきまえる」adds social rank or prescribed station, which neither German nor Greek
