@@ -79,11 +79,11 @@ scenes:
       file: part-i.yaml
       section_index: 1
       conversation_index: 1
-      fingerprint: d79e8529fe481eb2
+      fingerprint: 820598fb4856a913
     source:
       modern:
       - de: Mensch, ärgere dich nicht!
-        ja: まあ腹を立てるなよ！
+        ja: まあ、くよくよするな！
       grc:
       - μὴ σεαυτὸν ἔσθιε, ὦ ’γαθέ!
     dialogue:
@@ -106,7 +106,7 @@ scenes:
     translation:
       variants:
       - de: Mensch, ärgere dich nicht!
-        ja_current: まあ腹を立てるなよ！
+        ja_current: まあ、くよくよするな！
         ja_proposed: まあ、くよくよするな！
         decision: revise
         rationale: null
@@ -126,11 +126,11 @@ scenes:
       file: part-i.yaml
       section_index: 1
       conversation_index: 2
-      fingerprint: 826c9b7e6a39244c
+      fingerprint: 9203f10365d65f82
     source:
       modern:
       - de: Eines Mannes Rede ist keine Rede.
-        ja: 一人の話だけでは判断にならない。
+        ja: 一方の言い分だけでは、裁きは下せない。
       grc:
       - πρὶν ἂν ἀμφοῖν μῦθον ἀκούσῃς, οὐκ ἂν δικάσαις.
     dialogue:
@@ -159,7 +159,7 @@ scenes:
     translation:
       variants:
       - de: Eines Mannes Rede ist keine Rede.
-        ja_current: 一人の話だけでは判断にならない。
+        ja_current: 一方の言い分だけでは、裁きは下せない。
         ja_proposed: 一方の言い分だけでは、裁きは下せない。
         decision: revise
         rationale: >
@@ -203,11 +203,11 @@ scenes:
       file: part-i.yaml
       section_index: 1
       conversation_index: 3
-      fingerprint: f7c9e9a29c3ad2ef
+      fingerprint: bf0332283286164f
     source:
       modern:
       - de: Das hieße Eulen nach Athen tragen.
-        ja: それではアテナイにフクロウを運ぶようなものだ。
+        ja: それでは、ア\jdb{テ}ーナイへ梟を運ぶようなものだ。
       grc:
       - τίς γλαῦκ’ Ἀθήναζε ἄγαγεν;
     dialogue:
@@ -232,7 +232,7 @@ scenes:
     translation:
       variants:
       - de: Das hieße Eulen nach Athen tragen.
-        ja_current: それではアテナイにフクロウを運ぶようなものだ。
+        ja_current: それでは、ア\jdb{テ}ーナイへ梟を運ぶようなものだ。
         ja_proposed: それでは、アテナイへ梟を運ぶようなものだ。
         decision: revise
         rationale: The current Japanese preserves the conventional image and proverbial force.
@@ -275,11 +275,11 @@ scenes:
       file: part-i.yaml
       section_index: 1
       conversation_index: 4
-      fingerprint: 4d43dfe26141a3fb
+      fingerprint: 9c7035eae524793b
     source:
       modern:
       - de: Vorsicht ist die Mutter der Weis\textcompwordmark{}heit.
-        ja: 用心は知恵の母だ。
+        ja: 用心は知恵の母である。
       grc:
       - ἡ (γὰρ) εὐλάβεια πάντα σώζει.
     dialogue:
@@ -302,7 +302,7 @@ scenes:
     translation:
       variants:
       - de: Vorsicht ist die Mutter der Weis\textcompwordmark{}heit.
-        ja_current: 用心は知恵の母だ。
+        ja_current: 用心は知恵の母である。
         ja_proposed: 用心は知恵の母である。
         decision: revise
         rationale: null
@@ -318,11 +318,11 @@ scenes:
       file: part-i.yaml
       section_index: 1
       conversation_index: 5
-      fingerprint: 4ece5876559a66ca
+      fingerprint: 3e82ecfcbf478fea
     source:
       modern:
       - de: Eine Schwalbe macht noch keinen Sommer.
-        ja: ツバメが一羽来ても夏とは言えない。
+        ja: 燕が一羽来ただけでは、まだ夏とはいえない。
       grc:
       - μία χελιδὼν ἔαρ οὐ ποιεῖ.
     dialogue:
@@ -347,7 +347,7 @@ scenes:
     translation:
       variants:
       - de: Eine Schwalbe macht noch keinen Sommer.
-        ja_current: ツバメが一羽来ても夏とは言えない。
+        ja_current: 燕が一羽来ただけでは、まだ夏とはいえない。
         ja_proposed: 燕が一羽来ただけでは、まだ夏とはいえない。
         decision: revise
         rationale: >
@@ -438,11 +438,11 @@ scenes:
       file: part-i.yaml
       section_index: 1
       conversation_index: 7
-      fingerprint: e6cfd7d13b90914a
+      fingerprint: ec9de77f0cdfc643
     source:
       modern:
       - de: Der reine Menschenfeind (Timon)!
-        ja: まったくの人嫌いだ（ティモンだ）！
+        ja: 正真正銘の人間嫌い（ティーモーン）だ！
       grc:
       - Τίμων \emph{καθαρός!}
     dialogue:
@@ -465,7 +465,7 @@ scenes:
     translation:
       variants:
       - de: Der reine Menschenfeind (Timon)!
-        ja_current: まったくの人嫌いだ（ティモンだ）！
+        ja_current: 正真正銘の人間嫌い（ティーモーン）だ！
         ja_proposed: 正真正銘の人間嫌い（ティモン）だ！
         decision: revise
         rationale: The parenthesis keeps German Menschenfeind available to a reader who does not recognize Timon, while 「正真正銘」 conveys rein and καθαρός idiomatically.
@@ -481,11 +481,11 @@ scenes:
       file: part-i.yaml
       section_index: 1
       conversation_index: 8
-      fingerprint: e21541da6193a482
+      fingerprint: 28111ee9aa46b12a
     source:
       modern:
       - de: Immer das alte Lied!
-        ja: またいつもの決まり文句だ！
+        ja: また、いつもの話か！
       grc:
       - ὁ Διὸς Κόρινθος!
     dialogue:
@@ -511,7 +511,7 @@ scenes:
     translation:
       variants:
       - de: Immer das alte Lied!
-        ja_current: またいつもの決まり文句だ！
+        ja_current: また、いつもの話か！
         ja_proposed: また、いつもの話か！
         decision: revise
         rationale: >
@@ -644,11 +644,11 @@ scenes:
       file: part-i.yaml
       section_index: 1
       conversation_index: 10
-      fingerprint: 3c9a1c68f715c9be
+      fingerprint: ed37f62be3cff558
     source:
       modern:
       - de: Ein trauriger Peter (Japper)!
-        ja: しょんぼりしたやつだ！
+        ja: まったく情けない奴だ！
       grc:
       - Μυσῶν ἔσχατος!
     dialogue:
@@ -671,7 +671,7 @@ scenes:
     translation:
       variants:
       - de: Ein trauriger Peter (Japper)!
-        ja_current: しょんぼりしたやつだ！
+        ja_current: まったく情けない奴だ！
         ja_proposed: まったく情けない奴だ！
         decision: revise
         rationale: null
@@ -691,11 +691,11 @@ scenes:
       file: part-i.yaml
       section_index: 1
       conversation_index: 11
-      fingerprint: 754bfecb162cb134
+      fingerprint: edb15f6d47e34a29
     source:
       modern:
       - de: Das Gute ist rar.
-        ja: 良いものは稀だ。
+        ja: 善きものは稀なり。
       grc:
       - ὀλίγον τὸ χρηστόν ἐστιν.
     dialogue:
@@ -721,7 +721,7 @@ scenes:
     translation:
       variants:
       - de: Das Gute ist rar.
-        ja_current: 良いものは稀だ。
+        ja_current: 善きものは稀なり。
         ja_proposed: 善きものは稀なり。
         decision: revise
         rationale: >
@@ -764,11 +764,11 @@ scenes:
       file: part-i.yaml
       section_index: 1
       conversation_index: 12
-      fingerprint: 9ef6219fbbc95162
+      fingerprint: 446f69ae320ee961
     source:
       modern:
       - de: Es ist kein Vorwärts\textcompwordmark{}kommen (für uns).
-        ja: （私たちには）前進の見込みがない。
+        ja: これでは、にっちもさっちも行かない。
       grc:
       - οὔτε θέομεν οὔτ’ ἐλαύνομεν.!
     dialogue:
@@ -794,7 +794,7 @@ scenes:
     translation:
       variants:
       - de: Es ist kein Vorwärts\textcompwordmark{}kommen (für uns).
-        ja_current: （私たちには）前進の見込みがない。
+        ja_current: これでは、にっちもさっちも行かない。
         ja_proposed: これでは、にっちもさっちも行かない。
         decision: revise
         rationale: >
@@ -840,11 +840,11 @@ scenes:
       file: part-i.yaml
       section_index: 1
       conversation_index: 13
-      fingerprint: 1f2e9171cc46e3e2
+      fingerprint: 4336e3a1d4b9c65d
     source:
       modern:
       - de: Geld regiert die Welt.
-        ja: 金が世を動かす。
+        ja: 金が世を支配する。
       grc:
       - ἅπαντα (γὰρ) τῷ πλουτεῖν ὑπήκοα.!
     dialogue:
@@ -867,7 +867,7 @@ scenes:
     translation:
       variants:
       - de: Geld regiert die Welt.
-        ja_current: 金が世を動かす。
+        ja_current: 金が世を支配する。
         ja_proposed: 金が世を支配する。
         decision: revise
         rationale: null
@@ -887,11 +887,11 @@ scenes:
       file: part-i.yaml
       section_index: 1
       conversation_index: 14
-      fingerprint: 56e99915abc1e7bf
+      fingerprint: 6e6e3420b7cca389
     source:
       modern:
       - de: \textlatin{Donec eris felix, multos numerabis amicos.}
-        ja: 幸運なうちは友も多い。
+        ja: 羽振りのよいうちは、友も多い。
       grc:
       - ζεῖ χύτρα, ζῇ φιλία.!
     dialogue:
@@ -914,7 +914,7 @@ scenes:
     translation:
       variants:
       - de: \textlatin{Donec eris felix, multos numerabis amicos.}
-        ja_current: 幸運なうちは友も多い。
+        ja_current: 羽振りのよいうちは、友も多い。
         ja_proposed: 羽振りのよいうちは、友も多い。
         decision: revise
         rationale: null
@@ -934,11 +934,11 @@ scenes:
       file: part-i.yaml
       section_index: 1
       conversation_index: 15
-      fingerprint: f83beecb51140d38
+      fingerprint: a8f0661a88a6c8fd
     source:
       modern:
       - de: Durch Schaden wird man klug!
-        ja: 痛い目を見て人は賢くなる！
+        ja: 痛い目を見て、人は賢くなる！
       grc:
       - \quotedblbase παθὼν δέ τε νήπιος ἔγνω.``
     dialogue:
@@ -964,7 +964,7 @@ scenes:
     translation:
       variants:
       - de: Durch Schaden wird man klug!
-        ja_current: 痛い目を見て人は賢くなる！
+        ja_current: 痛い目を見て、人は賢くなる！
         ja_proposed: 痛い目を見て、人は賢くなる！
         decision: revise
         rationale: >
@@ -1008,11 +1008,11 @@ scenes:
       file: part-i.yaml
       section_index: 1
       conversation_index: 16
-      fingerprint: bc49950b02ff4adc
+      fingerprint: f6d0ba12d0cbdd7c
     source:
       modern:
       - de: \textlatin{Tempi passati!}
-        ja: 過ぎ去った時代だ！
+        ja: 今は昔！
       grc:
       - πάλαι ποτ’ ἦσαν ἄλκιμοι Μιλήσιοι.
     dialogue:
@@ -1038,7 +1038,7 @@ scenes:
     translation:
       variants:
       - de: \textlatin{Tempi passati!}
-        ja_current: 過ぎ去った時代だ！
+        ja_current: 今は昔！
         ja_proposed: 今は昔！
         decision: revise
         rationale: >
@@ -1147,11 +1147,11 @@ scenes:
       file: part-i.yaml
       section_index: 1
       conversation_index: 17
-      fingerprint: e25104f0c062f624
+      fingerprint: d50e5eec789e9254
     source:
       modern:
       - de: \textlatin{Ubi bene, ibi patria!}
-        ja: 住みよい所こそ祖国だ！
+        ja: 住みよい所こそ、わが祖国！
       grc:
       - πατρὶς γάρ ἐστι πᾶσ’, ἵν ἂν πράττῃ τις εὖ.
     dialogue:
@@ -1177,7 +1177,7 @@ scenes:
     translation:
       variants:
       - de: \textlatin{Ubi bene, ibi patria!}
-        ja_current: 住みよい所こそ祖国だ！
+        ja_current: 住みよい所こそ、わが祖国！
         ja_proposed: 住みよい所こそ、わが祖国！
         decision: revise
         rationale: >
@@ -1221,11 +1221,11 @@ scenes:
       file: part-i.yaml
       section_index: 1
       conversation_index: 18
-      fingerprint: 832fbc1abd423472
+      fingerprint: c12cb429c12e2c59
     source:
       modern:
       - de: Er ist der beste Bruder auch nicht!
-        ja: 彼だって決して善人ではない！
+        ja: 彼も決して、ろくな仲間ではない。
       grc:
       - ἐστὶ τοῦ πονηροῦ κόμματος.
     dialogue:
@@ -1248,7 +1248,7 @@ scenes:
     translation:
       variants:
       - de: Er ist der beste Bruder auch nicht!
-        ja_current: 彼だって決して善人ではない！
+        ja_current: 彼も決して、ろくな仲間ではない。
         ja_proposed: 彼も決して、ろくな仲間ではない。
         decision: revise
         rationale: null
@@ -1268,11 +1268,11 @@ scenes:
       file: part-i.yaml
       section_index: 1
       conversation_index: 19
-      fingerprint: 58307d4b96ac6bdb
+      fingerprint: 6071953fb2fab982
     source:
       modern:
       - de: \textlatin{Parturiunt montes etc.}
-        ja: 山の胎動、産んだのは鼠一匹。
+        ja: 大山鳴動して鼠一匹。
       grc:
       - ὤδινεν ὄρος, εἶτα μῦν ἀπέτεκεν.
     dialogue:
@@ -1295,7 +1295,7 @@ scenes:
     translation:
       variants:
       - de: \textlatin{Parturiunt montes etc.}
-        ja_current: 山の胎動、産んだのは鼠一匹。
+        ja_current: 大山鳴動して鼠一匹。
         ja_proposed: 大山鳴動して鼠一匹。
         decision: revise
         rationale: null
@@ -1311,11 +1311,11 @@ scenes:
       file: part-i.yaml
       section_index: 1
       conversation_index: 20
-      fingerprint: b746b8c473eea6fd
+      fingerprint: e725b792a7cc32ae
     source:
       modern:
       - de: Du giebst dir vergebliche Mühe.
-        ja: 骨折り損だ。
+        ja: 所詮は無駄骨だ。
       grc:
       - λίθον ἕψεις.
     dialogue:
@@ -1338,7 +1338,7 @@ scenes:
     translation:
       variants:
       - de: Du giebst dir vergebliche Mühe.
-        ja_current: 骨折り損だ。
+        ja_current: 所詮は無駄骨だ。
         ja_proposed: 所詮は無駄骨だ。
         decision: revise
         rationale: German directly states that the effort is futile; Greek uses the proverbial image “you will boil a stone.” 「所詮は無駄骨」 gives the shared conclusion in restrained idiomatic Japanese.
@@ -1367,11 +1367,11 @@ scenes:
       file: part-i.yaml
       section_index: 1
       conversation_index: 21
-      fingerprint: a580a977fa498f9b
+      fingerprint: e7581dca9710103d
     source:
       modern:
       - de: Das Übel ärger machen.
-        ja: 災いに拍車をかける。
+        ja: 災いをいっそうひどくする。
       grc:
       - πλέον θάτερον ποιεῖν.
     dialogue:
@@ -1394,7 +1394,7 @@ scenes:
     translation:
       variants:
       - de: Das Übel ärger machen.
-        ja_current: 災いに拍車をかける。
+        ja_current: 災いをいっそうひどくする。
         ja_proposed: 災いをいっそうひどくする。
         decision: revise
         rationale: null
@@ -1414,11 +1414,11 @@ scenes:
       file: part-i.yaml
       section_index: 1
       conversation_index: 22
-      fingerprint: f036c76beb62e131
+      fingerprint: 28301beeaa35d7d7
     source:
       modern:
       - de: Eile mit Weile.
-        ja: 急がば回れ。
+        ja: ゆっくり急げ。
       grc:
       - 'σπεῦδε βραδέως!\textgerman{ (Wahlspruch
 
@@ -1443,7 +1443,7 @@ scenes:
     translation:
       variants:
       - de: Eile mit Weile.
-        ja_current: 急がば回れ。
+        ja_current: ゆっくり急げ。
         ja_proposed: ゆっくり急げ。
         decision: revise
         rationale: null
@@ -1459,11 +1459,11 @@ scenes:
       file: part-i.yaml
       section_index: 1
       conversation_index: 23
-      fingerprint: ba6a2ac817179c4a
+      fingerprint: 130a2890b1fad8d2
     source:
       modern:
       - de: Laß dir genügen!
-        ja: 分をわきまえて満足せよ！
+        ja: 足るを知れ\—{}半ばは全体に勝る。
       grc:
       - πλέον ἥμισυ παντός!
     dialogue:
@@ -1491,7 +1491,7 @@ scenes:
     translation:
       variants:
       - de: Laß dir genügen!
-        ja_current: 分をわきまえて満足せよ！
+        ja_current: 足るを知れ\—{}半ばは全体に勝る。
         ja_proposed: 足るを知れ\—{}半ばは全体に勝る。
         decision: revise
         rationale: >

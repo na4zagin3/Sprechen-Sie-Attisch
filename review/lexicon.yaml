@@ -2035,7 +2035,7 @@ sections:
     translation:
       de:
       - Der Streik.
-      ja_proposed: 同盟罷業（ストライキ）
+      ja_proposed: \ruby{同盟罷業}{ストライキ}
       decision: pending-review
       rationale: Concise Japanese headword matching the nineteenth-century German label.
       alternatives: []
@@ -2049,7 +2049,7 @@ sections:
       formation: null
       period_classification: modern-coinage-author-marked
       ancient_sense: Not entered in LSJ as an ancient noun for collective withdrawal of labour.
-      modern_sense: 同盟罷業（ストライキ）
+      modern_sense: \ruby{同盟罷業}{ストライキ}
       semantic_fit: exact
       semantic_note: A Modern Greek labour term transparently formed from ἀπεργέω/ἀπό + ἔργον and correctly marked as new.
     attestations: []
@@ -5324,7 +5324,7 @@ sections:
     translation:
       de:
       - Die Gardinen.
-      ja_proposed: 窓掛け（カーテン）
+      ja_proposed: \ruby{窓掛け}{カーテン}
       decision: pending-review
       rationale: Concise Japanese headword matching the nineteenth-century German label.
       alternatives: []
@@ -5338,7 +5338,7 @@ sections:
       formation: null
       period_classification: classical-attested-same-sense
       ancient_sense: A hanging, curtain, screen, or covering spread before something.
-      modern_sense: 窓掛け（カーテン）
+      modern_sense: \ruby{窓掛け}{カーテン}
       semantic_fit: exact
       semantic_note: The curtain sense is directly attested from Herodotus and comedy onward.
     attestations:

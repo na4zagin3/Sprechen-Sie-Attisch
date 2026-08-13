@@ -90,7 +90,7 @@ sections:
           - μὴ ὁρᾶν δοκῶμεν αὐτόν.
       - modern:
         - de: Ich werde mich hüten!
-          ja: 気をつけます！
+          ja: そんなことはしませんよ。
         grc:
           - |-
             φυλάξομαι\footnote{\textlatin{%
@@ -178,7 +178,7 @@ sections:
           - φράζειν.
       - modern:
         - de: Was hat sie darauf erwidert?
-          ja: それについて彼女は何と答えましましたか。
+          ja: それについて彼女は何と答えましたか。
         grc:
           - τί πρὸς ταῦτα εἶπεν;
       - modern:
@@ -210,7 +210,7 @@ sections:
           - οὐκ ἔχω φράσαι.
       - modern:
         - de: Worauf soll man rathen?
-          ja: どういう帰結があるうるのでしょうか。
+          ja: いったい何と見当をつければよいのでしょう。
         grc:
           - ποῖ τις ἂν τράποιτο;
       - modern:
@@ -404,7 +404,7 @@ sections:
           - καὶ σιμή (ἐστιν).
       - modern:
         - de: Sie ist geschminkt.
-          ja: 化粧も済ませています。
+          ja: （厚）化粧をしています。
         grc:
           - καὶ καταπεπλασμένη (ἐστίν).
       - modern:

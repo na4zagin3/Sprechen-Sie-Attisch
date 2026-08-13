@@ -241,7 +241,7 @@ scenes:
       file: part-d.yaml
       section_index: 1
       conversation_index: 5
-      fingerprint: 39ed12b0fcf08be5
+      fingerprint: e44516f31055bf61
     source:
       modern:
       - de: Erlauben Sie mir diesen Tanz, gnädige Frau? (— Fräulein?)
@@ -430,7 +430,7 @@ scenes:
       file: part-d.yaml
       section_index: 1
       conversation_index: 9
-      fingerprint: a28772538801153a
+      fingerprint: 3cf487d81c93a11b
     source:
       modern:
       - de: Nur dies \emph{eine} Mal erlauben Sie mir noch!
@@ -473,7 +473,7 @@ scenes:
       file: part-d.yaml
       section_index: 1
       conversation_index: 10
-      fingerprint: 7a6f4c6f7b892913
+      fingerprint: 099adf3d60ca9bee
     source:
       modern:
       - de: Nun denn noch dies \emph{eine} Mal und nicht weiter!
@@ -782,11 +782,11 @@ scenes:
       file: part-d.yaml
       section_index: 1
       conversation_index: 17
-      fingerprint: 0bc1aa3e55abdfd1
+      fingerprint: a510396de81e4065
     source:
       modern:
       - de: Ich werde mich hüten!
-        ja: そんなことは絶対にしませんよ！
+        ja: そんなことはしませんよ。
       grc:
       - 'φυλάξομαι\footnote{\textlatin{%
 
@@ -817,7 +817,7 @@ scenes:
     translation:
       variants:
       - de: Ich werde mich hüten!
-        ja_current: 気をつけます！
+        ja_current: そんなことはしませんよ。
         ja_proposed: そんなことはしませんよ。
         decision: revise
         rationale: >
@@ -1577,11 +1577,11 @@ scenes:
       file: part-d.yaml
       section_index: 2
       conversation_index: 11
-      fingerprint: 7111849c752592af
+      fingerprint: 3961d12a83fab48d
     source:
       modern:
       - de: Was hat sie darauf erwidert?
-        ja: それについて彼女は何と答えましましたか。
+        ja: それについて彼女は何と答えましたか。
       grc:
       - τί πρὸς ταῦτα εἶπεν;
     dialogue:
@@ -1604,7 +1604,7 @@ scenes:
     translation:
       variants:
       - de: Was hat sie darauf erwidert?
-        ja_current: それについて彼女は何と答えましましたか。
+        ja_current: それについて彼女は何と答えましたか。
         ja_proposed: それについて彼女は何と答えましたか。
         decision: pending-review
         rationale: null
@@ -1663,7 +1663,7 @@ scenes:
       file: part-d.yaml
       section_index: 2
       conversation_index: 13
-      fingerprint: c9b80d098d9dce81
+      fingerprint: aa4f65bd18550e8e
     source:
       modern:
       - de: Ich will euch ein Märchen erzählen nämlich —
@@ -1817,11 +1817,11 @@ scenes:
       file: part-d.yaml
       section_index: 3
       conversation_index: 3
-      fingerprint: a6e83b77ab8ad8ef
+      fingerprint: 1e60df68567d07e8
     source:
       modern:
       - de: Worauf soll man rathen?
-        ja: 一体、何と見当をつければよいのでしょうか。
+        ja: いったい何と見当をつければよいのでしょう。
       grc:
       - ποῖ τις ἂν τράποιτο;
     dialogue:
@@ -1849,7 +1849,7 @@ scenes:
     translation:
       variants:
       - de: Worauf soll man rathen?
-        ja_current: どういう帰結があるうるのでしょうか。
+        ja_current: いったい何と見当をつければよいのでしょう。
         ja_proposed: いったい何と見当をつければよいのでしょう。
         decision: revise
         rationale: >
@@ -2537,7 +2537,7 @@ scenes:
       file: part-d.yaml
       section_index: 3
       conversation_index: 17
-      fingerprint: 3bd40a4dca991d44
+      fingerprint: d3ea61c2092c84d2
     source:
       modern:
       - de: \emph{O, dann begreife ich, daß} Sie verstimmt sind.
@@ -2609,7 +2609,7 @@ scenes:
       file: part-d.yaml
       section_index: 4
       conversation_index: 1
-      fingerprint: 1fcbce2bc725221a
+      fingerprint: 15f6f2c8bdd22e7d
     source:
       modern:
       - de: Sehen Sie die hier an, wie \emph{schön} sie ist!
@@ -3190,7 +3190,7 @@ scenes:
       file: part-d.yaml
       section_index: 4
       conversation_index: 13
-      fingerprint: 4b37a7f2136506ab
+      fingerprint: b1ad1c29778aee25
     source:
       modern:
       - de: Sie lacht \emph{gern.}
@@ -3663,11 +3663,11 @@ scenes:
       file: part-d.yaml
       section_index: 4
       conversation_index: 24
-      fingerprint: a95cea8ecbddedb0
+      fingerprint: 36fd0048f3875af7
     source:
       modern:
       - de: Sie ist geschminkt.
-        ja: 化粧も済ませています。
+        ja: （厚）化粧をしています。
       grc:
       - καὶ καταπεπλασμένη (ἐστίν).
     dialogue:
@@ -3690,7 +3690,7 @@ scenes:
     translation:
       variants:
       - de: Sie ist geschminkt.
-        ja_current: 化粧も済ませています。
+        ja_current: （厚）化粧をしています。
         ja_proposed: （厚）化粧をしています。
         decision: pending-review
         rationale: null
@@ -3860,7 +3860,7 @@ scenes:
       file: part-d.yaml
       section_index: 5
       conversation_index: 1
-      fingerprint: dabaf5b6730f9d3b
+      fingerprint: fbb9ad9f00257e38
     source:
       modern:
       - de: Schulze heißt er? \emph{Was ist das für ein} Schulze?
@@ -5267,7 +5267,7 @@ scenes:
       file: part-d.yaml
       section_index: 6
       conversation_index: 4
-      fingerprint: 43037c2bbb103388
+      fingerprint: 1f1d684d074cd1e9
     source:
       modern:
       - de: Über 20 Jahre \emph{alt}.
@@ -5310,7 +5310,7 @@ scenes:
       file: part-d.yaml
       section_index: 6
       conversation_index: 5
-      fingerprint: 92664462a13d7929
+      fingerprint: 3eb4a6a2283cc191
     source:
       modern:
       - de: Du bist ein junger Mann \emph{von} 19 Jahren.

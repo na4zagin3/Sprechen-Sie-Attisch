@@ -4,6 +4,7 @@
 from __future__ import annotations
 
 import argparse
+import hashlib
 import re
 from pathlib import Path
 
@@ -56,6 +57,58 @@ def sync_part(part: str) -> None:
     source_path.write_text("".join(lines), encoding="utf-8")
 
 
+def refresh_review_current(part: str) -> None:
+    """Refresh review source/current Japanese fields from the main part file."""
+    source_path = ROOT / f"part-{part}.yaml"
+    review_path = ROOT / "review" / f"part-{part}.yaml"
+    source = yaml.safe_load(source_path.read_text(encoding="utf-8"))
+    values = [
+        variant["ja"]
+        for section in source["sections"]
+        for conversation in section["conversations"]
+        for variant in conversation["modern"]
+    ]
+    lines = review_path.read_text(encoding="utf-8").splitlines(keepends=True)
+    source_positions = [
+        i for i, line in enumerate(lines) if re.match(r"^        ja:", line)
+    ]
+    current_positions = [
+        i for i, line in enumerate(lines) if re.match(r"^        ja_current:", line)
+    ]
+    fingerprint_positions = [
+        i for i, line in enumerate(lines) if re.match(r"^      fingerprint:", line)
+    ]
+    fingerprints = []
+    for section in source["sections"]:
+        for conversation in section["conversations"]:
+            payload = yaml.safe_dump(
+                {
+                    "modern": conversation.get("modern", []),
+                    "grc": conversation.get("grc", []),
+                },
+                allow_unicode=True,
+                sort_keys=True,
+            )
+            fingerprints.append(hashlib.sha256(payload.encode("utf-8")).hexdigest()[:16])
+    if len(source_positions) != len(values) or len(current_positions) != len(values):
+        raise ValueError(
+            f"{review_path.name}: found {len(source_positions)} source and "
+            f"{len(current_positions)} current fields, expected {len(values)}"
+        )
+    if len(fingerprint_positions) != len(fingerprints):
+        raise ValueError(
+            f"{review_path.name}: found {len(fingerprint_positions)} fingerprints, "
+            f"expected {len(fingerprints)}"
+        )
+    for positions in (source_positions, current_positions):
+        for position, value in zip(positions, values):
+            key = "ja_current" if positions is current_positions else "ja"
+            lines[position] = f"        {key}: {plain_scalar(value)}\n"
+    for position, value in zip(fingerprint_positions, fingerprints):
+        lines[position] = f"      fingerprint: {value}\n"
+    review_path.write_text("".join(lines), encoding="utf-8")
+
+
 def sync_lexicon() -> None:
     source_path = ROOT / "lexicon.yaml"
     review_path = ROOT / "review" / "lexicon.yaml"
@@ -104,10 +157,19 @@ def sync_lexicon() -> None:
 
 def main() -> None:
     parser = argparse.ArgumentParser()
-    parser.add_argument("targets", nargs="+", choices=["g", "h", "i", "lexicon"])
+    parser.add_argument("targets", nargs="+", choices=["d", "e", "f", "g", "h", "i", "lexicon"])
+    parser.add_argument(
+        "--refresh-review-current",
+        action="store_true",
+        help="copy main-file Japanese into review source/current fields",
+    )
     args = parser.parse_args()
     for target in args.targets:
-        if target == "lexicon":
+        if args.refresh_review_current:
+            if target == "lexicon":
+                parser.error("--refresh-review-current does not support lexicon")
+            refresh_review_current(target)
+        elif target == "lexicon":
             sync_lexicon()
         else:
             sync_part(target)

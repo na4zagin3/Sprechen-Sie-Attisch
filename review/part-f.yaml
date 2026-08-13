@@ -93,11 +93,11 @@ scenes:
       file: part-f.yaml
       section_index: 1
       conversation_index: 1
-      fingerprint: 56a88d815f87d500
+      fingerprint: 264d4950ec7fb796
     source:
       modern:
       - de: Werden Sie mir wohl sagen können, wo hier Herr M. wohnt?
-        ja: こちらでM氏がどこに住んでいるか教えていただけますか？
+        ja: M氏のお宅がどちらか、教えていただけますか？
       grc:
       - ἔχοις ἂν φράσαι μοι (τόν κύριον{*}) Μύλλερον, ὅπου ἐνθάδε οἰκεῖ;
     dialogue:
@@ -120,7 +120,7 @@ scenes:
     translation:
       variants:
       - de: Werden Sie mir wohl sagen können, wo hier Herr M. wohnt?
-        ja_current: こちらでM氏がどこに住んでいるか教えていただけますか？
+        ja_current: M氏のお宅がどちらか、教えていただけますか？
         ja_proposed: M氏のお宅がどちらか、教えていただけますか？
         decision: revise
         rationale: >-
@@ -149,11 +149,11 @@ scenes:
       file: part-f.yaml
       section_index: 1
       conversation_index: 2
-      fingerprint: e07af7a42a6e4ed6
+      fingerprint: d432144bc1316aa0
     source:
       modern:
       - de: Ich möchte gern erfahren, wo Müller wohnt.
-        ja: ミュラーがどこに住んでいるか知りたいのですが。
+        ja: ミュラー氏がどちらにお住まいか、伺いたいのですが。
       grc:
       - ἡδέως ἂν μάθοιμι, ποῦ Μύλλερος οἰκεῖ.
     dialogue:
@@ -176,7 +176,7 @@ scenes:
     translation:
       variants:
       - de: Ich möchte gern erfahren, wo Müller wohnt.
-        ja_current: ミュラーがどこに住んでいるか知りたいのですが。
+        ja_current: ミュラー氏がどちらにお住まいか、伺いたいのですが。
         ja_proposed: ミュラー氏がどちらにお住まいか、伺いたいのですが。
         decision: revise
         rationale: >-
@@ -206,11 +206,11 @@ scenes:
       file: part-f.yaml
       section_index: 1
       conversation_index: 3
-      fingerprint: e34ff743247e6e3b
+      fingerprint: f725fd87caef8393
     source:
       modern:
       - de: Das möchte ich gern wissen.
-        ja: それを知りたいのです。
+        ja: ぜひ、それを教えて下さいませんか。
       grc:
       - τοῦτ’ με δίδαξον!
     dialogue:
@@ -233,7 +233,7 @@ scenes:
     translation:
       variants:
       - de: Das möchte ich gern wissen.
-        ja_current: それを知りたいのです。
+        ja_current: ぜひ、それを教えて下さいませんか。
         ja_proposed: ぜひ、それを教えて下さいませんか。
         decision: revise
         rationale: >-
@@ -316,11 +316,11 @@ scenes:
       file: part-f.yaml
       section_index: 1
       conversation_index: 5
-      fingerprint: 59f365d684c0c9e7
+      fingerprint: 0b365da769e343a8
     source:
       modern:
       - de: Er zieht aus.
-        ja: 彼は引っ越します。
+        ja: 彼は引っ越すところです。
       grc:
       - μετοικίζεται.
     dialogue:
@@ -343,7 +343,7 @@ scenes:
     translation:
       variants:
       - de: Er zieht aus.
-        ja_current: 彼は引っ越します。
+        ja_current: 彼は引っ越すところです。
         ja_proposed: 彼は引っ越すところです。
         decision: revise
         rationale: >-
@@ -376,11 +376,11 @@ scenes:
       file: part-f.yaml
       section_index: 1
       conversation_index: 6
-      fingerprint: 1fafd3edc405e3ba
+      fingerprint: e8ad95e6c406ab95
     source:
       modern:
       - de: Er ist aus\textcompwordmark{}gezogen.
-        ja: 彼はもう引っ越していきました。
+        ja: 彼なら、もう引っ越してしまいました。
       grc:
       - φροῦδός ἐστιν ἐξῳκισμένος.
     dialogue:
@@ -403,7 +403,7 @@ scenes:
     translation:
       variants:
       - de: Er ist aus\textcompwordmark{}gezogen.
-        ja_current: 彼はもう引っ越していきました。
+        ja_current: 彼なら、もう引っ越してしまいました。
         ja_proposed: 彼なら、もう引っ越してしまいました。
         decision: revise
         rationale: >-
@@ -432,11 +432,11 @@ scenes:
       file: part-f.yaml
       section_index: 1
       conversation_index: 7
-      fingerprint: fbf58a63b630d5f5
+      fingerprint: 0e721e9cb07c7555
     source:
       modern:
       - de: Da sieht er zum Fenster heraus!
-        ja: ほら、窓から顔を出しています！
+        ja: ほら、窓からこちらを窺いています！
       grc:
       - ὁδὶ ἐκ θυρίδος παρακύπτει.
     dialogue:
@@ -459,7 +459,7 @@ scenes:
     translation:
       variants:
       - de: Da sieht er zum Fenster heraus!
-        ja_current: ほら、窓から顔を出しています！
+        ja_current: ほら、窓からこちらを窺いています！
         ja_proposed: ほら、窓からこちらを窺いています！
         decision: revise
         rationale: >-
@@ -488,11 +488,11 @@ scenes:
       file: part-f.yaml
       section_index: 1
       conversation_index: 8
-      fingerprint: f47d4c34e2e295d7
+      fingerprint: 0aa75295926e9e09
     source:
       modern:
       - de: Das ist er.
-        ja: 彼だ。
+        ja: あれが、その人です。
       grc:
       - \emph{οὗτός ἐστ’ ἐκεῖνος.}
     dialogue:
@@ -515,7 +515,7 @@ scenes:
     translation:
       variants:
       - de: Das ist er.
-        ja_current: 彼だ。
+        ja_current: あれが、その人です。
         ja_proposed: あれが、その人です。
         decision: revise
         rationale: >-
@@ -569,11 +569,11 @@ scenes:
       file: part-f.yaml
       section_index: 1
       conversation_index: 9
-      fingerprint: b5c7cb1c70b7868e
+      fingerprint: 44561e8f90d9ff5c
     source:
       modern:
       - de: Wer klopft?
-        ja: 誰がノックしている？
+        ja: 戸を叩いているのは誰だ？
       grc:
       - τίς ἐσθ’ ὁ τὴν θύραν κόπτων;
     dialogue:
@@ -596,7 +596,7 @@ scenes:
     translation:
       variants:
       - de: Wer klopft?
-        ja_current: 誰がノックしている？
+        ja_current: 戸を叩いているのは誰だ？
         ja_proposed: 戸を叩いているのは誰だ？
         decision: revise
         rationale: >-
@@ -625,11 +625,11 @@ scenes:
       file: part-f.yaml
       section_index: 1
       conversation_index: 10
-      fingerprint: 1c3bb2e30335a2b8
+      fingerprint: e17020f5fc50922a
     source:
       modern:
       - de: Mach' die Thür auf!
-        ja: ドアを開けろ！
+        ja: 戸を開けてくれ！
       grc:
       - ἄνοιγε τὴν θύραν!
     dialogue:
@@ -652,7 +652,7 @@ scenes:
     translation:
       variants:
       - de: Mach' die Thür auf!
-        ja_current: ドアを開けろ！
+        ja_current: 戸を開けてくれ！
         ja_proposed: 戸を開けてくれ！
         decision: revise
         rationale: >-
@@ -768,11 +768,11 @@ scenes:
       file: part-f.yaml
       section_index: 1
       conversation_index: 11
-      fingerprint: 625284debcf0a1ec
+      fingerprint: 44ed859f2d39c282
     source:
       modern:
       - de: Mach' doch auf!
-        ja: さっさと開けて！
+        ja: まだ開けないのか！
       grc:
       - οὐκ ἀνοίξεις;
     dialogue:
@@ -795,7 +795,7 @@ scenes:
     translation:
       variants:
       - de: Mach' doch auf!
-        ja_current: さっさと開けて！
+        ja_current: まだ開けないのか！
         ja_proposed: まだ開けないのか！
         decision: revise
         rationale: >-
@@ -824,11 +824,11 @@ scenes:
       file: part-f.yaml
       section_index: 1
       conversation_index: 12
-      fingerprint: 2c7850a401fb9032
+      fingerprint: 05727fe383cd2ea8
     source:
       modern:
       - de: Mach' endlich die Thür auf!
-        ja: いい加減ドアを開けろ！
+        ja: いい加減戸を開けろ！
       grc:
       - ἄνοιγ’ \emph{ἀνύσας} τὴν θύραν.
     dialogue:
@@ -851,7 +851,7 @@ scenes:
     translation:
       variants:
       - de: Mach' endlich die Thür auf!
-        ja_current: いい加減ドアを開けろ！
+        ja_current: いい加減戸を開けろ！
         ja_proposed: いい加減戸を開けろ！
         decision: revise
         rationale: >-
@@ -884,11 +884,11 @@ scenes:
       file: part-f.yaml
       section_index: 1
       conversation_index: 13
-      fingerprint: 32300476d7835167
+      fingerprint: 693bf493441aa921
     source:
       modern:
       - de: Wer ist da?
-        ja: 誰だ？
+        ja: どなたですか？
       grc:
       - τίς οὗτος;
     dialogue:
@@ -911,7 +911,7 @@ scenes:
     translation:
       variants:
       - de: Wer ist da?
-        ja_current: 誰だ？
+        ja_current: どなたですか？
         ja_proposed: どなたですか？
         decision: revise
         rationale: >-
@@ -944,7 +944,7 @@ scenes:
       file: part-f.yaml
       section_index: 1
       conversation_index: 14
-      fingerprint: 517ea31e16cd4302
+      fingerprint: a682acec30376199
     source:
       modern:
       - de: Melden Sie mich!
@@ -1005,11 +1005,11 @@ scenes:
       file: part-f.yaml
       section_index: 1
       conversation_index: 15
-      fingerprint: c8fdec08adadf715
+      fingerprint: 2a64a4386dc51423
     source:
       modern:
       - de: Ich weiß Ihren Namen nicht genau.
-        ja: お名前をはっきり存じ上げません。
+        ja: お名前を正確には存じません。
       grc:
       - οὐκ οἶδ’ ἀκριβῶς σου τοὔνομα.
     dialogue:
@@ -1032,7 +1032,7 @@ scenes:
     translation:
       variants:
       - de: Ich weiß Ihren Namen nicht genau.
-        ja_current: お名前をはっきり存じ上げません。
+        ja_current: お名前を正確には存じません。
         ja_proposed: お名前を正確には存じません。
         decision: revise
         rationale: >-
@@ -1061,11 +1061,11 @@ scenes:
       file: part-f.yaml
       section_index: 1
       conversation_index: 16
-      fingerprint: 52ac806b9c78e2e9
+      fingerprint: 852315659ec93f33
     source:
       modern:
       - de: Ist Müller zu Hause?
-        ja: ミュラーは家にいますか？
+        ja: ミュラー氏はご在宅ですか？
       grc:
       - \emph{ἔνδον} ἐστὶ Μύλλερος;
     dialogue:
@@ -1088,7 +1088,7 @@ scenes:
     translation:
       variants:
       - de: Ist Müller zu Hause?
-        ja_current: ミュラーは家にいますか？
+        ja_current: ミュラー氏はご在宅ですか？
         ja_proposed: ミュラー氏はご在宅ですか？
         decision: revise
         rationale: >-
@@ -1172,11 +1172,11 @@ scenes:
       file: part-f.yaml
       section_index: 1
       conversation_index: 18
-      fingerprint: 273e7c66fe8c05db
+      fingerprint: 79496953b62b9c9f
     source:
       modern:
       - de: \emph{Augenblicklich} ist er nicht zu Hause.
-        ja: ちょうど今は家にいません。
+        ja: \kenten{ただいま}、留守にしております。
       grc:
       - οὐκ ἔνδον ὢν τυγχάνει.
     dialogue:
@@ -1199,7 +1199,7 @@ scenes:
     translation:
       variants:
       - de: \emph{Augenblicklich} ist er nicht zu Hause.
-        ja_current: ちょうど今は家にいません。
+        ja_current: \kenten{ただいま}、留守にしております。
         ja_proposed: \kenten{ただいま}、留守にしております。
         decision: revise
         rationale: >-
@@ -1236,11 +1236,11 @@ scenes:
       file: part-f.yaml
       section_index: 1
       conversation_index: 19
-      fingerprint: 204d58cfeb345229
+      fingerprint: aab2d0f8d4dead1b
     source:
       modern:
       - de: Er ist spazieren.
-        ja: 彼は散歩に出ています。
+        ja: 散歩に出ております。
       grc:
       - περίπατον ποιεῖται.
     dialogue:
@@ -1263,7 +1263,7 @@ scenes:
     translation:
       variants:
       - de: Er ist spazieren.
-        ja_current: 彼は散歩に出ています。
+        ja_current: 散歩に出ております。
         ja_proposed: 散歩に出ております。
         decision: revise
         rationale: >-
@@ -1292,7 +1292,7 @@ scenes:
       file: part-f.yaml
       section_index: 1
       conversation_index: 20
-      fingerprint: 543490ac911b0c12
+      fingerprint: 84d733de2abb0586
     source:
       modern:
       - de: So?
@@ -1560,11 +1560,11 @@ scenes:
       file: part-f.yaml
       section_index: 2
       conversation_index: 2
-      fingerprint: 1c354431bc9e46ee
+      fingerprint: 7692dd8b0a55e1a0
     source:
       modern:
       - de: Das Bett.
-        ja: ベッド。
+        ja: 寝床。
       grc:
       - τὰ \emph{στρώματα.}
     dialogue:
@@ -1587,7 +1587,7 @@ scenes:
     translation:
       variants:
       - de: Das Bett.
-        ja_current: ベッド。
+        ja_current: 寝床。
         ja_proposed: 寝床。
         decision: revise
         rationale: null
@@ -1618,11 +1618,11 @@ scenes:
       file: part-f.yaml
       section_index: 2
       conversation_index: 3
-      fingerprint: ee07e1002aed97cb
+      fingerprint: fb584767b0f97014
     source:
       modern:
       - de: Im Bette.
-        ja: ベッドの中で。
+        ja: 寝床の中で。
       grc:
       - ἐν τοῖς στρώμασιν.
     dialogue:
@@ -1645,7 +1645,7 @@ scenes:
     translation:
       variants:
       - de: Im Bette.
-        ja_current: ベッドの中で。
+        ja_current: 寝床の中で。
         ja_proposed: 寝床の中で。
         decision: revise
         rationale: null
@@ -1767,11 +1767,11 @@ scenes:
       file: part-f.yaml
       section_index: 2
       conversation_index: 4
-      fingerprint: 35b7a3acc3ff925f
+      fingerprint: 585ce78f0d31531f
     source:
       modern:
       - de: Er schläft eben.
-        ja: 彼はいま寝ています。
+        ja: 彼はいま、眠っているところです。
       grc:
       - ἀρτίως εὕδει.
     dialogue:
@@ -1794,7 +1794,7 @@ scenes:
     translation:
       variants:
       - de: Er schläft eben.
-        ja_current: 彼はいま寝ています。
+        ja_current: 彼はいま、眠っているところです。
         ja_proposed: 彼はいま、眠っているところです。
         decision: revise
         rationale: null
@@ -1879,11 +1879,11 @@ scenes:
       file: part-f.yaml
       section_index: 2
       conversation_index: 6
-      fingerprint: edc5152c64c5b858
+      fingerprint: 420764c05569f3df
     source:
       modern:
       - de: Steh' auf!
-        ja: 起きなさい！
+        ja: 起き上がれ！
       grc:
       - ἀνίστασο!
     dialogue:
@@ -1906,7 +1906,7 @@ scenes:
     translation:
       variants:
       - de: Steh' auf!
-        ja_current: 起きなさい！
+        ja_current: 起き上がれ！
         ja_proposed: 起き上がれ！
         decision: revise
         rationale: null
@@ -1937,11 +1937,11 @@ scenes:
       file: part-f.yaml
       section_index: 2
       conversation_index: 7
-      fingerprint: fb896500dc868de8
+      fingerprint: 42716b17bb30e35b
     source:
       modern:
       - de: Zünde Licht an!
-        ja: 明かりをつけて！
+        ja: 灯をともせ！
       grc:
       - ἅπτε λύχνον!
     dialogue:
@@ -1964,7 +1964,7 @@ scenes:
     translation:
       variants:
       - de: Zünde Licht an!
-        ja_current: 明かりをつけて！
+        ja_current: 灯をともせ！
         ja_proposed: 灯をともせ！
         decision: revise
         rationale: null
@@ -1991,11 +1991,11 @@ scenes:
       file: part-f.yaml
       section_index: 2
       conversation_index: 8
-      fingerprint: 1e01642a820dec15
+      fingerprint: 3fa8ddea0f951597
     source:
       modern:
       - de: Sehr wohl.
-        ja: わかりました。
+        ja: かしこまりました。
       grc:
       - ταῦτα.
     dialogue:
@@ -2018,7 +2018,7 @@ scenes:
     translation:
       variants:
       - de: Sehr wohl.
-        ja_current: わかりました。
+        ja_current: かしこまりました。
         ja_proposed: かしこまりました。
         decision: revise
         rationale: null
@@ -2049,11 +2049,11 @@ scenes:
       file: part-f.yaml
       section_index: 2
       conversation_index: 9
-      fingerprint: 2ce8ddcd2feb6ce7
+      fingerprint: 3eb563ce9d362301
     source:
       modern:
       - de: Hast du dich gewaschen?
-        ja: もう洗ったかい？
+        ja: もう顔や手は洗ったか？
       grc:
       - ἆρ’ ἀπονένιψαι;
     dialogue:
@@ -2076,7 +2076,7 @@ scenes:
     translation:
       variants:
       - de: Hast du dich gewaschen?
-        ja_current: もう洗ったかい？
+        ja_current: もう顔や手は洗ったか？
         ja_proposed: もう顔や手は洗ったか？
         decision: revise
         rationale: >-
@@ -2107,11 +2107,11 @@ scenes:
       file: part-f.yaml
       section_index: 2
       conversation_index: 10
-      fingerprint: 45b652c801cd0063
+      fingerprint: 253f27b3a6f0658c
     source:
       modern:
       - de: Kannst du \emph{ohne} Handtuch zurechtkommen?
-        ja: タオルなしでやっていけるか？
+        ja: \kenten{手拭いなしで}済ませるつもりか？
       grc:
       - ἀνύτεις χειρόμακτρον οὐκ ἔχων;
     dialogue:
@@ -2134,7 +2134,7 @@ scenes:
     translation:
       variants:
       - de: Kannst du \emph{ohne} Handtuch zurechtkommen?
-        ja_current: タオルなしでやっていけるか？
+        ja_current: \kenten{手拭いなしで}済ませるつもりか？
         ja_proposed: \kenten{手拭いなしで}済ませるつもりか？
         decision: revise
         rationale: >-
@@ -2163,11 +2163,11 @@ scenes:
       file: part-f.yaml
       section_index: 2
       conversation_index: 11
-      fingerprint: 00a304cde04e62b5
+      fingerprint: ef8fdb80d3c384d3
     source:
       modern:
       - de: Du siehst schrecklich schmutzig aus.
-        ja: ひどく汚れて見えるよ。
+        ja: ずいぶん薄汚れているぞ。
       grc:
       - αὐχμεῖς αἰσχρῶς.
     dialogue:
@@ -2190,7 +2190,7 @@ scenes:
     translation:
       variants:
       - de: Du siehst schrecklich schmutzig aus.
-        ja_current: ひどく汚れて見えるよ。
+        ja_current: ずいぶん薄汚れているぞ。
         ja_proposed: ずいぶん薄汚れているぞ。
         decision: revise
         rationale: null
@@ -2221,11 +2221,11 @@ scenes:
       file: part-f.yaml
       section_index: 2
       conversation_index: 12
-      fingerprint: 4c20b7edfea2a1b8
+      fingerprint: 9f8bc39c38fae3dd
     source:
       modern:
       - de: Er hat sich nicht gebadet.
-        ja: 彼は風呂に入らなかった。
+        ja: 彼は体を洗わなかった。
       grc:
       - οὐκ ἐλούσατο.
     dialogue:
@@ -2248,7 +2248,7 @@ scenes:
     translation:
       variants:
       - de: Er hat sich nicht gebadet.
-        ja_current: 彼は風呂に入らなかった。
+        ja_current: 彼は体を洗わなかった。
         ja_proposed: 彼は体を洗わなかった。
         decision: revise
         rationale: null
@@ -2275,11 +2275,11 @@ scenes:
       file: part-f.yaml
       section_index: 2
       conversation_index: 13
-      fingerprint: 544b2cc5445cdb74
+      fingerprint: f68df5d067317f0a
     source:
       modern:
       - de: Wisch' den Tisch ab!
-        ja: テーブルを拭け！
+        ja: 食卓を拭きなさい！
       grc:
       - ἀποκάθαιρε τὴν τράπεζαν!
     dialogue:
@@ -2302,7 +2302,7 @@ scenes:
     translation:
       variants:
       - de: Wisch' den Tisch ab!
-        ja_current: テーブルを拭け！
+        ja_current: 食卓を拭きなさい！
         ja_proposed: 食卓を拭きなさい！
         decision: revise
         rationale: null
@@ -2329,11 +2329,11 @@ scenes:
       file: part-f.yaml
       section_index: 2
       conversation_index: 14
-      fingerprint: 06e011c9c1b528a8
+      fingerprint: baea643e6e11183c
     source:
       modern:
       - de: Ich will zu hause bleiben.
-        ja: 家にいたい。
+        ja: 家にいることにするよ。
       grc:
       - οἴκοι μενῶ.
     dialogue:
@@ -2356,7 +2356,7 @@ scenes:
     translation:
       variants:
       - de: Ich will zu hause bleiben.
-        ja_current: 家にいたい。
+        ja_current: 家にいることにするよ。
         ja_proposed: 家にいることにするよ。
         decision: revise
         rationale: null
@@ -2383,11 +2383,11 @@ scenes:
       file: part-f.yaml
       section_index: 2
       conversation_index: 15
-      fingerprint: beb47df624c08bd3
+      fingerprint: da7dab91fa4d3569
     source:
       modern:
       - de: Wir wollen zu Hause bei mir studiren.
-        ja: 今日は私の家で勉強しよう。
+        ja: 僕の家で一緒に勉強しよう。
       grc:
       - ἔνδον παρ’ ἐμοὶ διατρίψομεν (περὶ τὰ μαθήματα).
     dialogue:
@@ -2410,7 +2410,7 @@ scenes:
     translation:
       variants:
       - de: Wir wollen zu Hause bei mir studiren.
-        ja_current: 今日は私の家で勉強しよう。
+        ja_current: 僕の家で一緒に勉強しよう。
         ja_proposed: 僕の家で一緒に勉強しよう。
         decision: revise
         rationale: null
@@ -2495,11 +2495,11 @@ scenes:
       file: part-f.yaml
       section_index: 2
       conversation_index: 17
-      fingerprint: f119d638a0e70026
+      fingerprint: b2321075c9ad8c31
     source:
       modern:
       - de: Ganz recht.
-        ja: そうだ。
+        ja: そうとも。
       grc:
       - πάνυ.
     dialogue:
@@ -2522,7 +2522,7 @@ scenes:
     translation:
       variants:
       - de: Ganz recht.
-        ja_current: そうだ。
+        ja_current: そうとも。
         ja_proposed: そうとも。
         decision: revise
         rationale: null
@@ -2553,11 +2553,11 @@ scenes:
       file: part-f.yaml
       section_index: 2
       conversation_index: 18
-      fingerprint: 0f836c12537c5f14
+      fingerprint: 0e2575b20ce43ef3
     source:
       modern:
       - de: Du warst gestern bei mir.
-        ja: 昨日はうちにいたね。
+        ja: 昨日は君がうちに来たね。
       grc:
       - παρ’ ἐμοὶ χθὲς ἦσθα.
     dialogue:
@@ -2580,7 +2580,7 @@ scenes:
     translation:
       variants:
       - de: Du warst gestern bei mir.
-        ja_current: 昨日はうちにいたね。
+        ja_current: 昨日は君がうちに来たね。
         ja_proposed: 昨日は君がうちに来たね。
         decision: revise
         rationale: null
@@ -2607,11 +2607,11 @@ scenes:
       file: part-f.yaml
       section_index: 2
       conversation_index: 19
-      fingerprint: 2a28725462c31c49
+      fingerprint: f7661bbc0f1a7381
     source:
       modern:
       - de: Kommt heute in meine Wohnung!
-        ja: 今日は私の家においで！
+        ja: 今日はみんな、うちへおいで！
       grc:
       - ἥκετ’ \emph{εἰς ἐμοῦ} τήμερον!
     dialogue:
@@ -2634,7 +2634,7 @@ scenes:
     translation:
       variants:
       - de: Kommt heute in meine Wohnung!
-        ja_current: 今日は私の家においで！
+        ja_current: 今日はみんな、うちへおいで！
         ja_proposed: 今日はみんな、うちへおいで！
         decision: revise
         rationale: null
@@ -2708,11 +2708,11 @@ scenes:
       file: part-f.yaml
       section_index: 3
       conversation_index: 1
-      fingerprint: 17d2beb79764ad0d
+      fingerprint: 17da7c6f0d97acf6
     source:
       modern:
       - de: Leg' ab!
-        ja: 脱げ！
+        ja: 上着を脱いでくれ！
       grc:
       - ἀποδύου!
     dialogue:
@@ -2737,7 +2737,7 @@ scenes:
     translation:
       variants:
       - de: Leg' ab!
-        ja_current: 脱げ！
+        ja_current: 上着を脱いでくれ！
         ja_proposed: 上着を脱いでくれ！
         decision: revise
         rationale: >-
@@ -2816,11 +2816,11 @@ scenes:
       file: part-f.yaml
       section_index: 3
       conversation_index: 2
-      fingerprint: e374347af00d613f
+      fingerprint: 251d45797a71c89b
     source:
       modern:
       - de: Ich ziehe mich schon aus.
-        ja: もう脱いでいるよ。
+        ja: もう脱いでいるところだよ。
       grc:
       - καὶ δὴ ἐκδύομαι.
     dialogue:
@@ -2845,7 +2845,7 @@ scenes:
     translation:
       variants:
       - de: Ich ziehe mich schon aus.
-        ja_current: もう脱いでいるよ。
+        ja_current: もう脱いでいるところだよ。
         ja_proposed: もう脱いでいるところだよ。
         decision: revise
         rationale: >-
@@ -2933,11 +2933,11 @@ scenes:
       file: part-f.yaml
       section_index: 3
       conversation_index: 4
-      fingerprint: d6c2c71105f093b6
+      fingerprint: 49fe631ae9eb4c93
     source:
       modern:
       - de: Nehmt Platz!
-        ja: 座ってください！
+        ja: 皆さん、お掛けください！
       grc:
       - κάθησθε!
     dialogue:
@@ -2960,7 +2960,7 @@ scenes:
     translation:
       variants:
       - de: Nehmt Platz!
-        ja_current: 座ってください！
+        ja_current: 皆さん、お掛けください！
         ja_proposed: 皆さん、お掛けください！
         decision: revise
         rationale: null
@@ -3057,11 +3057,11 @@ scenes:
       file: part-f.yaml
       section_index: 3
       conversation_index: 6
-      fingerprint: eeb10e171e0d9a70
+      fingerprint: f69be61fc288b8f4
     source:
       modern:
       - de: Wenn du erlaubst!
-        ja: 君がよければ。
+        ja: 君さえよければ。
       grc:
       - εἰ ταῦτα \emph{δοκεῖ!}
     dialogue:
@@ -3084,7 +3084,7 @@ scenes:
     translation:
       variants:
       - de: Wenn du erlaubst!
-        ja_current: 君がよければ。
+        ja_current: 君さえよければ。
         ja_proposed: 君さえよければ。
         decision: revise
         rationale: null
@@ -3121,11 +3121,11 @@ scenes:
       file: part-f.yaml
       section_index: 3
       conversation_index: 7
-      fingerprint: 76a392d4b34dbe23
+      fingerprint: 99ff2fccc9508c62
     source:
       modern:
       - de: So, ich sitze.
-        ja: よし、座った。
+        ja: ほら、座ったよ。
       grc:
       - ἰδού· κάθημαι.
     dialogue:
@@ -3148,7 +3148,7 @@ scenes:
     translation:
       variants:
       - de: So, ich sitze.
-        ja_current: よし、座った。
+        ja_current: ほら、座ったよ。
         ja_proposed: ほら、座ったよ。
         decision: revise
         rationale: null
@@ -3179,11 +3179,11 @@ scenes:
       file: part-f.yaml
       section_index: 3
       conversation_index: 8
-      fingerprint: 475a6f7941c9e33e
+      fingerprint: 822aa451aea77740
     source:
       modern:
       - de: Ich sitze schon!
-        ja: もう座っているよ。
+        ja: とっくに座っているよ。
       grc:
       - κάθημαι ’γὼ πάλαι.
     dialogue:
@@ -3206,7 +3206,7 @@ scenes:
     translation:
       variants:
       - de: Ich sitze schon!
-        ja_current: もう座っているよ。
+        ja_current: とっくに座っているよ。
         ja_proposed: とっくに座っているよ。
         decision: revise
         rationale: null
@@ -3243,11 +3243,11 @@ scenes:
       file: part-f.yaml
       section_index: 3
       conversation_index: 9
-      fingerprint: fa7610a657bb0cba
+      fingerprint: 4d0b9796c326db86
     source:
       modern:
       - de: Du hast keinen guten Platz.
-        ja: いい場所に座っていないね。
+        ja: 君の席は、あまりよくないね。
       grc:
       - οὐ καθίζεις ἐν καλῷ.
     dialogue:
@@ -3270,7 +3270,7 @@ scenes:
     translation:
       variants:
       - de: Du hast keinen guten Platz.
-        ja_current: いい場所に座っていないね。
+        ja_current: 君の席は、あまりよくないね。
         ja_proposed: 君の席は、あまりよくないね。
         decision: revise
         rationale: null
@@ -3297,11 +3297,11 @@ scenes:
       file: part-f.yaml
       section_index: 3
       conversation_index: 10
-      fingerprint: 72cdac9d25a7fd47
+      fingerprint: 5858714d9aa47bdf
     source:
       modern:
       - de: Hast du nichts zu essen?
-        ja: 食べるものがないの？
+        ja: 何か食べるものはないのか？
       grc:
       - οὐκ ἔχεις καταφαγεῖν;
     dialogue:
@@ -3324,7 +3324,7 @@ scenes:
     translation:
       variants:
       - de: Hast du nichts zu essen?
-        ja_current: 食べるものがないの？
+        ja_current: 何か食べるものはないのか？
         ja_proposed: 何か食べるものはないのか？
         decision: revise
         rationale: null
@@ -3351,11 +3351,11 @@ scenes:
       file: part-f.yaml
       section_index: 3
       conversation_index: 11
-      fingerprint: 0d71e575933ac5d6
+      fingerprint: d30d3dda4a4c723a
     source:
       modern:
       - de: \emph{Darf ich} dir ein Abendbrot vorsetzen?
-        ja: 夕食を出してもいいかい？
+        ja: 夕食を\kenten{お出ししましょうか}？
       grc:
       - βούλει παραθῶ σοι δόρπον.
     dialogue:
@@ -3378,7 +3378,7 @@ scenes:
     translation:
       variants:
       - de: \emph{Darf ich} dir ein Abendbrot vorsetzen?
-        ja_current: 夕食を出してもいいかい？
+        ja_current: 夕食を\kenten{お出ししましょうか}？
         ja_proposed: 夕食を\kenten{お出ししましょうか}？
         decision: revise
         rationale: null
@@ -3415,11 +3415,11 @@ scenes:
       file: part-f.yaml
       section_index: 3
       conversation_index: 12
-      fingerprint: 5366bdad333beed3
+      fingerprint: 0bc44ec268d97731
     source:
       modern:
       - de: Ich bitte nur um ein Stück Brot und Fleisch.
-        ja: パンと肉を少しだけいただければ十分です。
+        ja: パンと肉を少しだけいただきたいのですが。
       grc:
       - αἰτῶ λαβεῖν τιν’ ἄρτον καὶ κρέας.!
     dialogue:
@@ -3442,7 +3442,7 @@ scenes:
     translation:
       variants:
       - de: Ich bitte nur um ein Stück Brot und Fleisch.
-        ja_current: パンと肉を少しだけいただければ十分です。
+        ja_current: パンと肉を少しだけいただきたいのですが。
         ja_proposed: パンと肉を少しだけいただきたいのですが。
         decision: revise
         rationale: null
@@ -3471,11 +3471,11 @@ scenes:
       file: part-f.yaml
       section_index: 3
       conversation_index: 13
-      fingerprint: 3c0360dcbf8cb79e
+      fingerprint: 2d98b8a844a469e5
     source:
       modern:
       - de: Ich habe mir zu trinken \emph{mitgebracht}.
-        ja: 飲み物は持ってきました。
+        ja: 飲み物なら\kenten{持ってきた}よ。
       grc:
       - \emph{ἥκω φέρων} πιεῖν.
     dialogue:
@@ -3498,7 +3498,7 @@ scenes:
     translation:
       variants:
       - de: Ich habe mir zu trinken \emph{mitgebracht}.
-        ja_current: 飲み物は持ってきました。
+        ja_current: 飲み物なら\kenten{持ってきた}よ。
         ja_proposed: 飲み物なら\kenten{持ってきた}よ。
         decision: revise
         rationale: null
@@ -3525,11 +3525,11 @@ scenes:
       file: part-f.yaml
       section_index: 3
       conversation_index: 14
-      fingerprint: 9f1c4cb3efc8dea3
+      fingerprint: ad32aa83286b71af
     source:
       modern:
       - de: Gieb mir einmal zu trinken!
-        ja: ちょっと飲み物をください。
+        ja: ちょっと、飲み物をくれ。
       grc:
       - δός μοι πιεῖν.
     dialogue:
@@ -3552,7 +3552,7 @@ scenes:
     translation:
       variants:
       - de: Gieb mir einmal zu trinken!
-        ja_current: ちょっと飲み物をください。
+        ja_current: ちょっと、飲み物をくれ。
         ja_proposed: ちょっと、飲み物をくれ。
         decision: revise
         rationale: null
@@ -3583,11 +3583,11 @@ scenes:
       file: part-f.yaml
       section_index: 3
       conversation_index: 15
-      fingerprint: 7369269c3343d1e9
+      fingerprint: 6ece9c37b332dff4
     source:
       modern:
       - de: Gleich.
-        ja: すぐ。
+        ja: はい、ただいま。
       grc:
       - ἰδού.
     dialogue:
@@ -3610,7 +3610,7 @@ scenes:
     translation:
       variants:
       - de: Gleich.
-        ja_current: すぐ。
+        ja_current: はい、ただいま。
         ja_proposed: はい、ただいま。
         decision: revise
         rationale: null
@@ -3641,11 +3641,11 @@ scenes:
       file: part-f.yaml
       section_index: 3
       conversation_index: 16
-      fingerprint: daa9c54e2f27f9ed
+      fingerprint: 167535ea79830252
     source:
       modern:
       - de: Es ist unrecht, daß du hier sitzest.
-        ja: ここに座っているのはよくない。
+        ja: 君がここに座っているのは、よろしくない。
       grc:
       - ἀδικεῖς ἐνθάδε καθήμενος.
     dialogue:
@@ -3668,7 +3668,7 @@ scenes:
     translation:
       variants:
       - de: Es ist unrecht, daß du hier sitzest.
-        ja_current: ここに座っているのはよくない。
+        ja_current: 君がここに座っているのは、よろしくない。
         ja_proposed: 君がここに座っているのは、よろしくない。
         decision: revise
         rationale: >-
@@ -3697,11 +3697,11 @@ scenes:
       file: part-f.yaml
       section_index: 3
       conversation_index: 17
-      fingerprint: 4ade924b61d2d2a3
+      fingerprint: eb8d35970d0765da
     source:
       modern:
       - de: Steh' \emph{wieder} auf!
-        ja: もう一度立て！
+        ja: では、立ちなさい！
       grc:
       - ἀνίστασο!
     dialogue:
@@ -3724,7 +3724,7 @@ scenes:
     translation:
       variants:
       - de: Steh' \emph{wieder} auf!
-        ja_current: もう一度立て！
+        ja_current: では、立ちなさい！
         ja_proposed: では、立ちなさい！
         decision: revise
         rationale: >-
@@ -3764,11 +3764,11 @@ scenes:
       file: part-f.yaml
       section_index: 3
       conversation_index: 18
-      fingerprint: 93f37f9b3b3e9fbe
+      fingerprint: 74f32bc17cd1c6a0
     source:
       modern:
       - de: So steh' doch schnell auf, ehe dich jemand sieht!
-        ja: 誰かに見られる前に早く立て！
+        ja: 誰かに見られないうちに、早く立たないか！
       grc:
       - ούκουν ἀναστήσει ταχύ, πρίν τινά σ’ ἰδεῖν;
     dialogue:
@@ -3791,7 +3791,7 @@ scenes:
     translation:
       variants:
       - de: So steh' doch schnell auf, ehe dich jemand sieht!
-        ja_current: 誰かに見られる前に早く立て！
+        ja_current: 誰かに見られないうちに、早く立たないか！
         ja_proposed: 誰かに見られないうちに、早く立たないか！
         decision: revise
         rationale: null
@@ -3829,11 +3829,11 @@ scenes:
       file: part-f.yaml
       section_index: 3
       conversation_index: 19
-      fingerprint: a13580322e02866c
+      fingerprint: cffdfb247bba1617
     source:
       modern:
       - de: Steh' gerade!
-        ja: まっすぐ立て！
+        ja: 気をつけ！
       grc:
       - ἀνίστασο ὀρθός.
     dialogue:
@@ -3856,7 +3856,7 @@ scenes:
     translation:
       variants:
       - de: Steh' gerade!
-        ja_current: まっすぐ立て！
+        ja_current: 気をつけ！
         ja_proposed: 気をつけ！
         decision: revise
         rationale: null
@@ -3883,11 +3883,11 @@ scenes:
       file: part-f.yaml
       section_index: 3
       conversation_index: 20
-      fingerprint: 4afd39a97cffc1b9
+      fingerprint: cf1ace439d0e3e1f
     source:
       modern:
       - de: \emph{Bleib'} stehen!
-        ja: そのまま立っていろ！
+        ja: \kenten{そのまま}立っていろ！
       grc:
       - στῆθι.
     dialogue:
@@ -3910,7 +3910,7 @@ scenes:
     translation:
       variants:
       - de: \emph{Bleib'} stehen!
-        ja_current: そのまま立っていろ！
+        ja_current: \kenten{そのまま}立っていろ！
         ja_proposed: \kenten{そのまま}立っていろ！
         decision: revise
         rationale: null
@@ -3941,11 +3941,11 @@ scenes:
       file: part-f.yaml
       section_index: 3
       conversation_index: 21
-      fingerprint: c198957d0f676d78
+      fingerprint: b7d2abcf6529181d
     source:
       modern:
       - de: Zu Befehl, Herr Hauptmann!
-        ja: 了解しました、隊長！
+        ja: はっ、承知しました、大尉殿！
       grc:
       - ταῦτα, ὦ λοχαγέ!
     dialogue:
@@ -3968,7 +3968,7 @@ scenes:
     translation:
       variants:
       - de: Zu Befehl, Herr Hauptmann!
-        ja_current: 了解しました、隊長！
+        ja_current: はっ、承知しました、大尉殿！
         ja_proposed: はっ、承知しました、大尉殿！
         decision: revise
         rationale: null
@@ -4043,11 +4043,11 @@ scenes:
       file: part-f.yaml
       section_index: 4
       conversation_index: 1
-      fingerprint: 4e618bb1e7c1f691
+      fingerprint: 5f3eee1a8f8ce7a4
     source:
       modern:
       - de: Sie hat einen kleinen Jungen bekommen.
-        ja: 彼女は男の赤ちゃんを産んだ。
+        ja: 彼女は男の子を産んだ。
       grc:
       - ἄρρεν ἔτεκε παιδίον.
     dialogue:
@@ -4070,7 +4070,7 @@ scenes:
     translation:
       variants:
       - de: Sie hat einen kleinen Jungen bekommen.
-        ja_current: 彼女は男の赤ちゃんを産んだ。
+        ja_current: 彼女は男の子を産んだ。
         ja_proposed: 彼女は男の子を産んだ。
         decision: revise
         rationale: null
@@ -4216,11 +4216,11 @@ scenes:
       file: part-f.yaml
       section_index: 4
       conversation_index: 4
-      fingerprint: b41ba6df16829cb5
+      fingerprint: 56247fe5789c9555
     source:
       modern:
       - de: Wo ist meine Frau hin?
-        ja: 私の妻はどこへ行った？
+        ja: 私の妻は、いったいどこへ行った？
       grc:
       - ποῖ ἡ γυνὴ φρούδη ’στίν;
     dialogue:
@@ -4243,7 +4243,7 @@ scenes:
     translation:
       variants:
       - de: Wo ist meine Frau hin?
-        ja_current: 私の妻はどこへ行った？
+        ja_current: 私の妻は、いったいどこへ行った？
         ja_proposed: 私の妻は、いったいどこへ行った？
         decision: revise
         rationale: null
@@ -4270,11 +4270,11 @@ scenes:
       file: part-f.yaml
       section_index: 4
       conversation_index: 5
-      fingerprint: 4700d37e9390d3a3
+      fingerprint: 4ef4dda9c04ca356
     source:
       modern:
       - de: Wer kann mir sagen, wo meine Frau ist?
-        ja: 妻がどこにいるか誰か教えてくれませんか？
+        ja: 妻がどこにいるか、誰か教えてくれないか？
       grc:
       - τίς ἂν φράσειε, ποῦ ’στι ἡ γυνή;
     dialogue:
@@ -4297,7 +4297,7 @@ scenes:
     translation:
       variants:
       - de: Wer kann mir sagen, wo meine Frau ist?
-        ja_current: 妻がどこにいるか誰か教えてくれませんか？
+        ja_current: 妻がどこにいるか、誰か教えてくれないか？
         ja_proposed: 妻がどこにいるか、誰か教えてくれないか？
         decision: revise
         rationale: null
@@ -4324,11 +4324,11 @@ scenes:
       file: part-f.yaml
       section_index: 4
       conversation_index: 6
-      fingerprint: 4e184cea6f7e7507
+      fingerprint: 3ac2732b68349542
     source:
       modern:
       - de: Sie wäscht und päppelt das Kind.
-        ja: 彼女は子どもを洗って世話している。
+        ja: 彼女は子どもの体を洗い、食べさせてやっている。
       grc:
       - λούει καὶ ψωμίζει τὸ παιδίον.
     dialogue:
@@ -4353,7 +4353,7 @@ scenes:
     translation:
       variants:
       - de: Sie wäscht und päppelt das Kind.
-        ja_current: 彼女は子どもを洗って世話している。
+        ja_current: 彼女は子どもの体を洗い、食べさせてやっている。
         ja_proposed: 彼女は子どもの体を洗い、食べさせてやっている。
         decision: revise
         rationale: >-
@@ -4403,11 +4403,11 @@ scenes:
       file: part-f.yaml
       section_index: 4
       conversation_index: 7
-      fingerprint: 6f9c6a6496ab654d
+      fingerprint: 81ee0a8219113d7b
     source:
       modern:
       - de: Die Kinder sind gewaschen.
-        ja: 子どもたちは洗われている。
+        ja: 子どもたちは、もう綺麗に洗ってもらっている。
       grc:
       - ἀπονενιμμένα ἐστὶ τὰ παιδία.
     dialogue:
@@ -4430,7 +4430,7 @@ scenes:
     translation:
       variants:
       - de: Die Kinder sind gewaschen.
-        ja_current: 子どもたちは洗われている。
+        ja_current: 子どもたちは、もう綺麗に洗ってもらっている。
         ja_proposed: 子どもたちは、もう綺麗に洗ってもらっている。
         decision: revise
         rationale: null
@@ -4511,11 +4511,11 @@ scenes:
       file: part-f.yaml
       section_index: 4
       conversation_index: 9
-      fingerprint: 0526ce5bf1c286c5
+      fingerprint: fe7e9368177aa9cb
     source:
       modern:
       - de: Es ist \emph{höchste} Zeit.
-        ja: もういい時間だ。
+        ja: もう、\kenten{とっくに}寝かせる時間だ。
       grc:
       - καιρὸς δέ.
     dialogue:
@@ -4538,7 +4538,7 @@ scenes:
     translation:
       variants:
       - de: Es ist \emph{höchste} Zeit.
-        ja_current: もういい時間だ。
+        ja_current: もう、\kenten{とっくに}寝かせる時間だ。
         ja_proposed: もう、\kenten{とっくに}寝かせる時間だ。
         decision: revise
         rationale: >-
@@ -4571,11 +4571,11 @@ scenes:
       file: part-f.yaml
       section_index: 4
       conversation_index: 10
-      fingerprint: 6c2743560316f42d
+      fingerprint: 071dd4a1c54c0427
     source:
       modern:
       - de: Ihr habt lange genug gespielt.
-        ja: もう十分長く遊んだよ。
+        ja: みんな、もう十分遊んだでしょう。
       grc:
       - ἱκανὸν κρόνον ἐπαίζετε.
     dialogue:
@@ -4598,7 +4598,7 @@ scenes:
     translation:
       variants:
       - de: Ihr habt lange genug gespielt.
-        ja_current: もう十分長く遊んだよ。
+        ja_current: みんな、もう十分遊んだでしょう。
         ja_proposed: みんな、もう十分遊んだでしょう。
         decision: revise
         rationale: >-
@@ -4627,11 +4627,11 @@ scenes:
       file: part-f.yaml
       section_index: 4
       conversation_index: 11
-      fingerprint: ee8d560ab113dc6b
+      fingerprint: be7a1a2d3514fc42
     source:
       modern:
       - de: Sie würfeln. — Um was?
-        ja: 彼らはサイコロを振っている\—{}何を賭けているの？
+        ja: 彼らはサイコロを振っている\—{}何を賭けているのだろうか？
       grc:
       - κυβεύουσιν. — περὶ τοῦ;
     dialogue:
@@ -4654,7 +4654,7 @@ scenes:
     translation:
       variants:
       - de: Sie würfeln. — Um was?
-        ja_current: 彼らはサイコロを振っている\—{}何を賭けているの？
+        ja_current: 彼らはサイコロを振っている\—{}何を賭けているのだろうか？
         ja_proposed: 彼らはサイコロを振っている\—{}何を賭けているのだろうか？
         decision: keep
         rationale: null
@@ -4735,11 +4735,11 @@ scenes:
       file: part-f.yaml
       section_index: 4
       conversation_index: 13
-      fingerprint: aeff59263242331f
+      fingerprint: b33707c574318704
     source:
       modern:
       - de: Thu' das ja nicht!
-        ja: 絶対それをするな！
+        ja: 決してそんなことをしてはいけません！
       grc:
       - μηδαμῶς τοῦτ’ ἐργάσῃ!
     dialogue:
@@ -4762,7 +4762,7 @@ scenes:
     translation:
       variants:
       - de: Thu' das ja nicht!
-        ja_current: 絶対それをするな！
+        ja_current: 決してそんなことをしてはいけません！
         ja_proposed: 決してそんなことをしてはいけません！
         decision: revise
         rationale: null
@@ -4857,11 +4857,11 @@ scenes:
       file: part-f.yaml
       section_index: 4
       conversation_index: 15
-      fingerprint: f523317b72f7a5f9
+      fingerprint: 5dfe4c490896d5c2
     source:
       modern:
       - de: Der Onkel hat hübsche Geschenke mitgebracht.
-        ja: おじさんが素敵な贈り物を持ってきた。
+        ja: 叔父さんが、素敵な贈り物を持ってきてくれたよ。
       grc:
       - ὁ θεῖος ἥκει φέρων δῶρα χαρίεντα.!
     dialogue:
@@ -4884,7 +4884,7 @@ scenes:
     translation:
       variants:
       - de: Der Onkel hat hübsche Geschenke mitgebracht.
-        ja_current: おじさんが素敵な贈り物を持ってきた。
+        ja_current: 叔父さんが、素敵な贈り物を持ってきてくれたよ。
         ja_proposed: 叔父さんが、素敵な贈り物を持ってきてくれたよ。
         decision: revise
         rationale: null
@@ -4913,11 +4913,11 @@ scenes:
       file: part-f.yaml
       section_index: 4
       conversation_index: 16
-      fingerprint: 6b630603b4f5a10e
+      fingerprint: badf97bc1cd9f191
     source:
       modern:
       - de: Lies\textcompwordmark{}chen klatscht vor Freude in die Hände.
-        ja: リジヒェンは喜んで手を打っている。
+        ja: リースヒェンは嬉しそうに手を叩いている。
       grc:
       - Λουίσιον{*} τὼ χεῖρ’ ἀνακροτεῖ ὑφ’ ἡδονῆς.!
     dialogue:
@@ -4940,7 +4940,7 @@ scenes:
     translation:
       variants:
       - de: Lies\textcompwordmark{}chen klatscht vor Freude in die Hände.
-        ja_current: リジヒェンは喜んで手を打っている。
+        ja_current: リースヒェンは嬉しそうに手を叩いている。
         ja_proposed: リースヒェンは嬉しそうに手を叩いている。
         decision: revise
         rationale: null
@@ -4969,7 +4969,7 @@ scenes:
       file: part-f.yaml
       section_index: 4
       conversation_index: 17
-      fingerprint: adb81a4e9f711f2f
+      fingerprint: 97bb2147aaa5fafc
     source:
       modern:
       - de: Meine Frau ist nicht zu sehen.
@@ -5023,11 +5023,11 @@ scenes:
       file: part-f.yaml
       section_index: 4
       conversation_index: 18
-      fingerprint: 158100dc559c5374
+      fingerprint: 5c129b045f29c3f8
     source:
       modern:
       - de: Suchst du mich etwa?
-        ja: もしかして私を探しているのか？
+        ja: もしかして、私を探しているの？
       grc:
       - μῶν ἐμὲ ζητεῖς;
     dialogue:
@@ -5050,7 +5050,7 @@ scenes:
     translation:
       variants:
       - de: Suchst du mich etwa?
-        ja_current: もしかして私を探しているのか？
+        ja_current: もしかして、私を探しているの？
         ja_proposed: もしかして、私を探しているの？
         decision: revise
         rationale: null
@@ -5087,11 +5087,11 @@ scenes:
       file: part-f.yaml
       section_index: 4
       conversation_index: 19
-      fingerprint: 7bf1fd3849eb7f98
+      fingerprint: 573bb96fa9d3d645
     source:
       modern:
       - de: Komm her, mein goldiger Schatz!
-        ja: こっちへおいで、かわいい宝物！
+        ja: さあ、こっちへおいで、愛しい人！
       grc:
       - δεῦρό νυν, ὦ χρυσίον.
     dialogue:
@@ -5114,7 +5114,7 @@ scenes:
     translation:
       variants:
       - de: Komm her, mein goldiger Schatz!
-        ja_current: こっちへおいで、かわいい宝物！
+        ja_current: さあ、こっちへおいで、愛しい人！
         ja_proposed: さあ、こっちへおいで、愛しい人！
         decision: revise
         rationale: >-
@@ -5195,11 +5195,11 @@ scenes:
       file: part-f.yaml
       section_index: 5
       conversation_index: 1
-      fingerprint: c462516fdb81ed37
+      fingerprint: 6233ab0b005eb004
     source:
       modern:
       - de: Das ist Unrecht von dir.
-        ja: それはお前が悪い。
+        ja: そんなことをするなんて、お前が悪いぞ。
       grc:
       - ταῦτ’ οὐκ ὀρθῶς ποιεῖς.
     dialogue:
@@ -5222,7 +5222,7 @@ scenes:
     translation:
       variants:
       - de: Das ist Unrecht von dir.
-        ja_current: それはお前が悪い。
+        ja_current: そんなことをするなんて、お前が悪いぞ。
         ja_proposed: そんなことをするなんて、お前が悪いぞ。
         decision: revise
         rationale: null
@@ -5249,11 +5249,11 @@ scenes:
       file: part-f.yaml
       section_index: 5
       conversation_index: 2
-      fingerprint: de8824758fc3989f
+      fingerprint: 2de482a00ed48c3f
     source:
       modern:
       - de: Das ist unrecht, daß du mir das thust.
-        ja: そんなことを私にするのは間違っている。
+        ja: 僕にそんなことをするなんて、ずるいぞ。
       grc:
       - ἀδικεῖς γέ με τοῦτο ποιῶν.
     dialogue:
@@ -5276,7 +5276,7 @@ scenes:
     translation:
       variants:
       - de: Das ist unrecht, daß du mir das thust.
-        ja_current: そんなことを私にするのは間違っている。
+        ja_current: 僕にそんなことをするなんて、ずるいぞ。
         ja_proposed: 僕にそんなことをするなんて、ずるいぞ。
         decision: revise
         rationale: null
@@ -5303,11 +5303,11 @@ scenes:
       file: part-f.yaml
       section_index: 5
       conversation_index: 3
-      fingerprint: d60b71c818897ccb
+      fingerprint: 6686c79068a3dbc5
     source:
       modern:
       - de: Wenn du mich ärgern willst, so soll dir's schlecht gehen!
-        ja: もし私を怒らせるなら、ただでは済まないぞ！
+        ja: 僕にちょっかいを出すなら、ただではおかないぞ！
       grc:
       - ἤν τι λυπῇς με, οὐ χαιρήσεις!
     dialogue:
@@ -5330,7 +5330,7 @@ scenes:
     translation:
       variants:
       - de: Wenn du mich ärgern willst, so soll dir's schlecht gehen!
-        ja_current: もし私を怒らせるなら、ただでは済まないぞ！
+        ja_current: 僕にちょっかいを出すなら、ただではおかないぞ！
         ja_proposed: 僕にちょっかいを出すなら、ただではおかないぞ！
         decision: revise
         rationale: null
@@ -5421,11 +5421,11 @@ scenes:
       file: part-f.yaml
       section_index: 5
       conversation_index: 5
-      fingerprint: 8f7119b66a534213
+      fingerprint: 54f4e3c9259d26b3
     source:
       modern:
       - de: Oder du sollst sehen (= ich ergreife andere Maßregeln)!
-        ja: さもないと痛い目にあわせるぞ！
+        ja: さもないと、こっちにも考えがあるぞ！
       grc:
       - ἢ τἀπὶ τούτοις δρῶ.
     dialogue:
@@ -5448,7 +5448,7 @@ scenes:
     translation:
       variants:
       - de: Oder du sollst sehen (= ich ergreife andere Maßregeln)!
-        ja_current: さもないと痛い目にあわせるぞ！
+        ja_current: さもないと、こっちにも考えがあるぞ！
         ja_proposed: さもないと、こっちにも考えがあるぞ！
         decision: revise
         rationale: null
@@ -5485,11 +5485,11 @@ scenes:
       file: part-f.yaml
       section_index: 5
       conversation_index: 6
-      fingerprint: 6bdc707b3619d0fe
+      fingerprint: f29a7a1e3f58ec19
     source:
       modern:
       - de: Soll ich dir eine Ohrfeige geben?
-        ja: 頬を張ってやろうか？
+        ja: ひっぱたいてやろうか？
       grc:
       - τὴν γνάθον βούλει θένω;
     dialogue:
@@ -5512,7 +5512,7 @@ scenes:
     translation:
       variants:
       - de: Soll ich dir eine Ohrfeige geben?
-        ja_current: 頬を張ってやろうか？
+        ja_current: ひっぱたいてやろうか？
         ja_proposed: ひっぱたいてやろうか？
         decision: revise
         rationale: null
@@ -5549,11 +5549,11 @@ scenes:
       file: part-f.yaml
       section_index: 5
       conversation_index: 7
-      fingerprint: 9eaee432d5a0201c
+      fingerprint: 99e79f2fc5132f05
     source:
       modern:
       - de: Das sollst du nicht umsonst gesagt haben!
-        ja: ただでそんなことを言ったと思うなよ！
+        ja: 今の言葉、ただでは済まさないぞ！
       grc:
       - οὐ μὰ ∆ία σὺ καταπροίξει τοῦτο \emph{λέγων!}
     dialogue:
@@ -5576,7 +5576,7 @@ scenes:
     translation:
       variants:
       - de: Das sollst du nicht umsonst gesagt haben!
-        ja_current: ただでそんなことを言ったと思うなよ！
+        ja_current: 今の言葉、ただでは済まさないぞ！
         ja_proposed: 今の言葉、ただでは済まさないぞ！
         decision: revise
         rationale: null
@@ -5603,11 +5603,11 @@ scenes:
       file: part-f.yaml
       section_index: 5
       conversation_index: 8
-      fingerprint: 849342a28c701f1d
+      fingerprint: f1f9f7850a051bef
     source:
       modern:
       - de: Was hast du vor?
-        ja: 何をしようとしている？
+        ja: 何をする気だ？
       grc:
       - τί μέλλεις δρᾶν;
     dialogue:
@@ -5630,7 +5630,7 @@ scenes:
     translation:
       variants:
       - de: Was hast du vor?
-        ja_current: 何をしようとしている？
+        ja_current: 何をする気だ？
         ja_proposed: 何をする気だ？
         decision: revise
         rationale: null
@@ -5688,11 +5688,11 @@ scenes:
       file: part-f.yaml
       section_index: 5
       conversation_index: 9
-      fingerprint: 1b2309738983d415
+      fingerprint: eaf6d253c2cbf783
     source:
       modern:
       - de: Du sollst gehörige Prügel bekommen.
-        ja: たっぷり叩いてやるからな。
+        ja: たっぷりぶって、泣かせてやるぞ！
       grc:
       - κλαύσει μακρά.
     dialogue:
@@ -5715,7 +5715,7 @@ scenes:
     translation:
       variants:
       - de: Du sollst gehörige Prügel bekommen.
-        ja_current: たっぷり叩いてやるからな。
+        ja_current: たっぷりぶって、泣かせてやるぞ！
         ja_proposed: たっぷりぶって、泣かせてやるぞ！
         decision: revise
         rationale: >-
@@ -5811,11 +5811,11 @@ scenes:
       file: part-f.yaml
       section_index: 5
       conversation_index: 11
-      fingerprint: 855e5a1d04de1bab
+      fingerprint: 8a5d03fb6f8ab9cd
     source:
       modern:
       - de: Da hast du eine Backpfeife!
-        ja: ほら、ビンタだ！
+        ja: ほら、これでもくらえ！
       grc:
       - οὑτοσί σοι κόνδυλος!
     dialogue:
@@ -5838,7 +5838,7 @@ scenes:
     translation:
       variants:
       - de: Da hast du eine Backpfeife!
-        ja_current: ほら、ビンタだ！
+        ja_current: ほら、これでもくらえ！
         ja_proposed: ほら、これでもくらえ！
         decision: revise
         rationale: null
@@ -5875,11 +5875,11 @@ scenes:
       file: part-f.yaml
       section_index: 5
       conversation_index: 12
-      fingerprint: d29d8efc1f15919c
+      fingerprint: a5a7f62da970d0d9
     source:
       modern:
       - de: Zum Donnerwetter!Immer hau' ihn!
-        ja: ちくしょう！どんどん殴れ！
+        ja: ちくしょう！もっと殴れ！
       grc:
       - ἐς κόρακας!
     dialogue:
@@ -5902,7 +5902,7 @@ scenes:
     translation:
       variants:
       - de: Zum Donnerwetter!Immer hau' ihn!
-        ja_current: ちくしょう！どんどん殴れ！
+        ja_current: ちくしょう！もっと殴れ！
         ja_proposed: ちくしょう！もっと殴れ！
         decision: revise
         rationale: >-
@@ -6006,11 +6006,11 @@ scenes:
       file: part-f.yaml
       section_index: 5
       conversation_index: 14
-      fingerprint: 309a3177089f5ae1
+      fingerprint: 2a33f0903a1c60fa
     source:
       modern:
       - de: Kommt mir nicht zu nahe!
-        ja: 近寄るな！
+        ja: お前たち、近寄るな！
       grc:
       - μὴ πρόσιτε.
     dialogue:
@@ -6033,7 +6033,7 @@ scenes:
     translation:
       variants:
       - de: Kommt mir nicht zu nahe!
-        ja_current: 近寄るな！
+        ja_current: お前たち、近寄るな！
         ja_proposed: お前たち、近寄るな！
         decision: revise
         rationale: null
@@ -6118,11 +6118,11 @@ scenes:
       file: part-f.yaml
       section_index: 5
       conversation_index: 16
-      fingerprint: 1fc2a9dd011a240b
+      fingerprint: 738eabaf669607fb
     source:
       modern:
       - de: Jetzt haben wir ihn!
-        ja: これで捕まえたぞ！
+        ja: さあ、今度こそ捕まえたぞ！
       grc:
       - νῦν ἔχεται μέσος!
     dialogue:
@@ -6145,7 +6145,7 @@ scenes:
     translation:
       variants:
       - de: Jetzt haben wir ihn!
-        ja_current: これで捕まえたぞ！
+        ja_current: さあ、今度こそ捕まえたぞ！
         ja_proposed: さあ、今度こそ捕まえたぞ！
         decision: revise
         rationale: null
@@ -6172,11 +6172,11 @@ scenes:
       file: part-f.yaml
       section_index: 5
       conversation_index: 17
-      fingerprint: c786e841ba18de48
+      fingerprint: 2aca9eee7defc6fc
     source:
       modern:
       - de: Wollt ihr weg!
-        ja: 出て行け！
+        ja: さあ、行った、行った！
       grc:
       - οὐχὶ σοῦσθε;
     dialogue:
@@ -6199,7 +6199,7 @@ scenes:
     translation:
       variants:
       - de: Wollt ihr weg!
-        ja_current: 出て行け！
+        ja_current: さあ、行った、行った！
         ja_proposed: さあ、行った、行った！
         decision: revise
         rationale: null
@@ -6226,11 +6226,11 @@ scenes:
       file: part-f.yaml
       section_index: 5
       conversation_index: 18
-      fingerprint: 860e34e3c405879a
+      fingerprint: 104d86453214a87b
     source:
       modern:
       - de: Wir sollt ihr nicht wieder kommen!
-        ja: 二度と戻ってくるな！
+        ja: もう二度と来るんじゃないぞ！
       grc:
       - οὐδὲν ἄν με φλαῦρον ἔτι ἐργάσαισθε.
     dialogue:
@@ -6253,7 +6253,7 @@ scenes:
     translation:
       variants:
       - de: Wir sollt ihr nicht wieder kommen!
-        ja_current: 二度と戻ってくるな！
+        ja_current: もう二度と来るんじゃないぞ！
         ja_proposed: もう二度と来るんじゃないぞ！
         decision: revise
         rationale: null
@@ -6386,11 +6386,11 @@ scenes:
       file: part-f.yaml
       section_index: 6
       conversation_index: 2
-      fingerprint: 15be60ffdaa09456
+      fingerprint: 7e96881916f3dda4
     source:
       modern:
       - de: Schreit nicht so!
-        ja: そんなに騒ぐな！
+        ja: そう大声を出すな！
       grc:
       - μὴ βοᾶτε! — μὴ βοᾶτε μηδαμῶς! — μὴ κεκράγατε!
     dialogue:
@@ -6413,7 +6413,7 @@ scenes:
     translation:
       variants:
       - de: Schreit nicht so!
-        ja_current: そんなに騒ぐな！
+        ja_current: そう大声を出すな！
         ja_proposed: そう大声を出すな！
         decision: revise
         rationale: null
@@ -6440,11 +6440,11 @@ scenes:
       file: part-f.yaml
       section_index: 6
       conversation_index: 3
-      fingerprint: 9021979bc0af3c8d
+      fingerprint: a81670a704a6ae6b
     source:
       modern:
       - de: So hört doch endlich!
-        ja: もう黙りなさい！
+        ja: いい加減、言うことを聞きなさい！
       grc:
       - οὐκ ἄκούσεσθε ἐτεόν;
     dialogue:
@@ -6467,7 +6467,7 @@ scenes:
     translation:
       variants:
       - de: So hört doch endlich!
-        ja_current: もう黙りなさい！
+        ja_current: いい加減、言うことを聞きなさい！
         ja_proposed: いい加減、言うことを聞きなさい！
         decision: revise
         rationale: null
@@ -6552,11 +6552,11 @@ scenes:
       file: part-f.yaml
       section_index: 6
       conversation_index: 5
-      fingerprint: cc783d87abff2a94
+      fingerprint: 30740a6b42225bab
     source:
       modern:
       - de: Was ist los? Um was handelt es sich?
-        ja: どうしたんだ、何の用だ？
+        ja: いったい、何事だ？
       grc:
       - τί τὸ πρᾶγμα;
     dialogue:
@@ -6579,7 +6579,7 @@ scenes:
     translation:
       variants:
       - de: Was ist los? Um was handelt es sich?
-        ja_current: どうしたんだ、何の用だ？
+        ja_current: いったい、何事だ？
         ja_proposed: いったい、何事だ？
         decision: revise
         rationale: null
@@ -6783,11 +6783,11 @@ scenes:
       file: part-f.yaml
       section_index: 6
       conversation_index: 6
-      fingerprint: 2aadb08f858e22fd
+      fingerprint: 19a9d11df97acc49
     source:
       modern:
       - de: Wer schreit \emph{nach mir?}
-        ja: 誰が私を呼んで叫んでいるんだ？
+        ja: 誰だ、\kenten{私を呼んでいる}のは？
       grc:
       - τίς ὁ βοῶν με;
     dialogue:
@@ -6810,7 +6810,7 @@ scenes:
     translation:
       variants:
       - de: Wer schreit \emph{nach mir?}
-        ja_current: 誰が私を呼んで叫んでいるんだ？
+        ja_current: 誰だ、\kenten{私を呼んでいる}のは？
         ja_proposed: 誰だ、\kenten{私を呼んでいる}のは？
         decision: revise
         rationale: null
@@ -6837,11 +6837,11 @@ scenes:
       file: part-f.yaml
       section_index: 6
       conversation_index: 7
-      fingerprint: 21a849b6c15213cf
+      fingerprint: 3ebedebec60d2ac0
     source:
       modern:
       - de: Soll ich's sagen?
-        ja: 言いましょうか？
+        ja: 言ってもいいですか？
       grc:
       - εἴπω;
     dialogue:
@@ -6864,7 +6864,7 @@ scenes:
     translation:
       variants:
       - de: Soll ich's sagen?
-        ja_current: 言いましょうか？
+        ja_current: 言ってもいいですか？
         ja_proposed: 言ってもいいですか？
         decision: revise
         rationale: null
@@ -6895,11 +6895,11 @@ scenes:
       file: part-f.yaml
       section_index: 6
       conversation_index: 8
-      fingerprint: ab8d6a083841a4ab
+      fingerprint: 5b201e46c7f04ccd
     source:
       modern:
       - de: Erzähle es mir!
-        ja: 私に話してごらん。
+        ja: さあ、話してごらん。
       grc:
       - κάτειπέ μοι.
     dialogue:
@@ -6922,7 +6922,7 @@ scenes:
     translation:
       variants:
       - de: Erzähle es mir!
-        ja_current: 私に話してごらん。
+        ja_current: さあ、話してごらん。
         ja_proposed: さあ、話してごらん。
         decision: revise
         rationale: null
@@ -6953,11 +6953,11 @@ scenes:
       file: part-f.yaml
       section_index: 6
       conversation_index: 9
-      fingerprint: 3f9955827751c483
+      fingerprint: 3f1268d658c71b8d
     source:
       modern:
       - de: Karl hat uns geprügelt.
-        ja: カールが僕たちを殴った。
+        ja: カールが僕たちをぶったんです。
       grc:
       - Κάρολος πληγὰς ἡμῖν ἐνέβαλλεν.
     dialogue:
@@ -6980,7 +6980,7 @@ scenes:
     translation:
       variants:
       - de: Karl hat uns geprügelt.
-        ja_current: カールが僕たちを殴った。
+        ja_current: カールが僕たちをぶったんです。
         ja_proposed: カールが僕たちをぶったんです。
         decision: revise
         rationale: null
@@ -7007,11 +7007,11 @@ scenes:
       file: part-f.yaml
       section_index: 6
       conversation_index: 10
-      fingerprint: 9d8a8ceff1fb2947
+      fingerprint: fd11b3f20f2485c2
     source:
       modern:
       - de: Ist's möglich?
-        ja: 本当か？
+        ja: なんだって？
       grc:
       - τί φής!
     dialogue:
@@ -7034,7 +7034,7 @@ scenes:
     translation:
       variants:
       - de: Ist's möglich?
-        ja_current: 本当か？
+        ja_current: なんだって？
         ja_proposed: なんだって？
         decision: revise
         rationale: null
@@ -7065,11 +7065,11 @@ scenes:
       file: part-f.yaml
       section_index: 6
       conversation_index: 11
-      fingerprint: 6de2c679d99214b2
+      fingerprint: 4db1ef3aef5ffba2
     source:
       modern:
       - de: Und was war dir Ursache davon?
-        ja: それで原因は何だったんだ？
+        ja: それで、何が原因だったんだ？
       grc:
       - ἡ δ’ αἰτία τίς ἦν;
     dialogue:
@@ -7092,7 +7092,7 @@ scenes:
     translation:
       variants:
       - de: Und was war dir Ursache davon?
-        ja_current: それで原因は何だったんだ？
+        ja_current: それで、何が原因だったんだ？
         ja_proposed: それで、何が原因だったんだ？
         decision: revise
         rationale: null
@@ -7177,11 +7177,11 @@ scenes:
       file: part-f.yaml
       section_index: 6
       conversation_index: 13
-      fingerprint: 93833631ecae6aa6
+      fingerprint: fc605fb5a209b489
     source:
       modern:
       - de: So hitzig?
-        ja: そんなに短気なのか？
+        ja: なんて気が短いんだ！
       grc:
       - ὡς ὀξύθυμος!
     dialogue:
@@ -7204,7 +7204,7 @@ scenes:
     translation:
       variants:
       - de: So hitzig?
-        ja_current: そんなに短気なのか？
+        ja_current: なんて気が短いんだ！
         ja_proposed: なんて気が短いんだ！
         decision: revise
         rationale: null
@@ -7235,11 +7235,11 @@ scenes:
       file: part-f.yaml
       section_index: 6
       conversation_index: 14
-      fingerprint: 1941b8daa5bf0a29
+      fingerprint: ff6875cf34ede696
     source:
       modern:
       - de: Das ist immer so deine Art!
-        ja: それがいつもの君のやり方だ。
+        ja: まったく、お前はいつもそうだ！
       grc:
       - οὗτος ὁ τρόπος πανταχοῦ!
     dialogue:
@@ -7262,7 +7262,7 @@ scenes:
     translation:
       variants:
       - de: Das ist immer so deine Art!
-        ja_current: それがいつもの君のやり方だ。
+        ja_current: まったく、お前はいつもそうだ！
         ja_proposed: まったく、お前はいつもそうだ！
         decision: revise
         rationale: null
@@ -7299,11 +7299,11 @@ scenes:
       file: part-f.yaml
       section_index: 6
       conversation_index: 15
-      fingerprint: afa4b51e8f9f8870
+      fingerprint: 53eb193bcc2a7095
     source:
       modern:
       - de: Ich bin nicht schuld daran.
-        ja: 私のせいではない。
+        ja: 僕のせいじゃない。
       grc:
       - οὐκ ἐγὼ τούτων αἴτιος.
     dialogue:
@@ -7326,7 +7326,7 @@ scenes:
     translation:
       variants:
       - de: Ich bin nicht schuld daran.
-        ja_current: 私のせいではない。
+        ja_current: 僕のせいじゃない。
         ja_proposed: 僕のせいじゃない。
         decision: revise
         rationale: null
@@ -7353,11 +7353,11 @@ scenes:
       file: part-f.yaml
       section_index: 6
       conversation_index: 16
-      fingerprint: da16456e362800f9
+      fingerprint: 60b84ba281c8e152
     source:
       modern:
       - de: Ja mit mir hat er es ebenso gemacht.
-        ja: ああ、私にも同じことをした。
+        ja: そうです、僕にも同じことをしました。
       grc:
       - νὴ ∆ία, κἀμὲ τοῦτ’ ἔδρασε ταὐτόν.
     dialogue:
@@ -7380,7 +7380,7 @@ scenes:
     translation:
       variants:
       - de: Ja mit mir hat er es ebenso gemacht.
-        ja_current: ああ、私にも同じことをした。
+        ja_current: そうです、僕にも同じことをしました。
         ja_proposed: そうです、僕にも同じことをしました。
         decision: revise
         rationale: null
@@ -7407,11 +7407,11 @@ scenes:
       file: part-f.yaml
       section_index: 6
       conversation_index: 17
-      fingerprint: bf2cbf8d02d3f5db
+      fingerprint: 25fdeb8b0f7c89e1
     source:
       modern:
       - de: Du willst es in Abrede stellen?
-        ja: 否定するつもりか？
+        ja: しらを切るつもりか？
       grc:
       - ἀρνεῖ;
     dialogue:
@@ -7434,7 +7434,7 @@ scenes:
     translation:
       variants:
       - de: Du willst es in Abrede stellen?
-        ja_current: 否定するつもりか？
+        ja_current: しらを切るつもりか？
         ja_proposed: しらを切るつもりか？
         decision: revise
         rationale: null
@@ -7465,11 +7465,11 @@ scenes:
       file: part-f.yaml
       section_index: 6
       conversation_index: 18
-      fingerprint: 0e8fc64183385fb2
+      fingerprint: d92cb3ef9e58bdfd
     source:
       modern:
       - de: Nicht gemuckst!
-        ja: 黙っていろ！
+        ja: 一言も口答えするな！
       grc:
       - μὴ γρύξῃς!
     dialogue:
@@ -7492,7 +7492,7 @@ scenes:
     translation:
       variants:
       - de: Nicht gemuckst!
-        ja_current: 黙っていろ！
+        ja_current: 一言も口答えするな！
         ja_proposed: 一言も口答えするな！
         decision: revise
         rationale: null
@@ -7524,11 +7524,11 @@ scenes:
       file: part-f.yaml
       section_index: 6
       conversation_index: 19
-      fingerprint: adfdb0b627841c11
+      fingerprint: 13db3a14e3812b24
     source:
       modern:
       - de: Daß du mir keine Lügen sagst!
-        ja: 嘘は言うなよ！
+        ja: 私に嘘をつくんじゃないぞ！
       grc:
       - ὅπως ἐρεῖς μηδὲν ψεῦδος!
     dialogue:
@@ -7551,7 +7551,7 @@ scenes:
     translation:
       variants:
       - de: Daß du mir keine Lügen sagst!
-        ja_current: 嘘は言うなよ！
+        ja_current: 私に嘘をつくんじゃないぞ！
         ja_proposed: 私に嘘をつくんじゃないぞ！
         decision: revise
         rationale: null
@@ -7632,11 +7632,11 @@ scenes:
       file: part-f.yaml
       section_index: 6
       conversation_index: 21
-      fingerprint: e25d71a49329fb14
+      fingerprint: 11c2bbb55804f671
     source:
       modern:
       - de: Du, halt' einmal! Wo rennst du hin?
-        ja: おい、ちょっと待て！どこへ走っていく？
+        ja: こら、待ちなさい！どこへ駆けていくんだ？
       grc:
       - ἐπίσχες, οὗτος! ποῖ θεῖς;
     dialogue:
@@ -7659,7 +7659,7 @@ scenes:
     translation:
       variants:
       - de: Du, halt' einmal! Wo rennst du hin?
-        ja_current: おい、ちょっと待て！どこへ走っていく？
+        ja_current: こら、待ちなさい！どこへ駆けていくんだ？
         ja_proposed: こら、待ちなさい！どこへ駆けていくんだ？
         decision: revise
         rationale: null
@@ -7686,11 +7686,11 @@ scenes:
       file: part-f.yaml
       section_index: 6
       conversation_index: 22
-      fingerprint: ed7c5190118f8158
+      fingerprint: d4bfeacfd60b4bf7
     source:
       modern:
       - de: Sei nicht böse, lieber Vater!
-        ja: 怒らないで、お父さん！
+        ja: 怒らないでよ、お父さん！
       grc:
       - μηδὲν ἀγανάακτει, ὦ πάτερ!
     dialogue:
@@ -7713,7 +7713,7 @@ scenes:
     translation:
       variants:
       - de: Sei nicht böse, lieber Vater!
-        ja_current: 怒らないで、お父さん！
+        ja_current: 怒らないでよ、お父さん！
         ja_proposed: 怒らないでよ、お父さん！
         decision: revise
         rationale: null
@@ -7742,11 +7742,11 @@ scenes:
       file: part-f.yaml
       section_index: 6
       conversation_index: 23
-      fingerprint: 0617a94ba3009fa5
+      fingerprint: e64a0d90b57b6f1b
     source:
       modern:
       - de: Man muß sich todtärgern!
-        ja: もう腹が立ってたまらない！
+        ja: もう、腹が立って張り裂けそうだ！
       grc:
       - οἴμοι, διαρραγήσομαι.
     dialogue:
@@ -7769,7 +7769,7 @@ scenes:
     translation:
       variants:
       - de: Man muß sich todtärgern!
-        ja_current: もう腹が立ってたまらない！
+        ja_current: もう、腹が立って張り裂けそうだ！
         ja_proposed: もう、腹が立って張り裂けそうだ！
         decision: revise
         rationale: null

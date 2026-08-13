@@ -92,11 +92,11 @@ scenes:
       file: part-g.yaml
       section_index: 1
       conversation_index: 1
-      fingerprint: 89ec908714f82c57
+      fingerprint: e3b91cd18031e0be
     source:
       modern:
       - de: Eugen ist da?
-        ja: オイゲンは来ていますか？
+        ja: オイゲンが来ているのですか？
       grc:
       - ὁ Εὐγενὴς ἐπιδεδήμεκεν;
     dialogue:
@@ -119,7 +119,7 @@ scenes:
     translation:
       variants:
       - de: Eugen ist da?
-        ja_current: オイゲンは来ていますか？
+        ja_current: オイゲンが来ているのですか？
         ja_proposed: オイゲンが来ているのですか？
         decision: revise
         rationale: >-
@@ -150,11 +150,11 @@ scenes:
       file: part-g.yaml
       section_index: 1
       conversation_index: 2
-      fingerprint: ee5c156119ce389d
+      fingerprint: 013a9be20dbc4866
     source:
       modern:
       - de: Schon seit vorgestern.
-        ja: おとといからもう来ています。
+        ja: ええ、一昨日からもう。
       grc:
       - τρίτην ἤδη ἡμέραν.
     dialogue:
@@ -177,7 +177,7 @@ scenes:
     translation:
       variants:
       - de: Schon seit vorgestern.
-        ja_current: おとといからもう来ています。
+        ja_current: ええ、一昨日からもう。
         ja_proposed: ええ、一昨日からもう。
         decision: revise
         rationale: >-
@@ -208,11 +208,11 @@ scenes:
       file: part-g.yaml
       section_index: 1
       conversation_index: 3
-      fingerprint: 45f6f23f4cb91032
+      fingerprint: 00098ca02fd88a06
     source:
       modern:
       - de: Er wird doch wohl eine Rede halten?
-        ja: 彼は演説をするのでしょう？
+        ja: では、（彼は）演説をするのでしょうね？
       grc:
       - \emph{οὐκοῦν} δημηγορήσει;
     dialogue:
@@ -235,7 +235,7 @@ scenes:
     translation:
       variants:
       - de: Er wird doch wohl eine Rede halten?
-        ja_current: 彼は演説をするのでしょう？
+        ja_current: では、（彼は）演説をするのでしょうね？
         ja_proposed: では、（彼は）演説をするのでしょうね？
         decision: revise
         rationale: >-
@@ -261,11 +261,11 @@ scenes:
       file: part-g.yaml
       section_index: 1
       conversation_index: 4
-      fingerprint: 21b79fe6c65d0f20
+      fingerprint: 273d07b7935bc6ad
     source:
       modern:
       - de: Versteht sich! Heute Abend.
-        ja: もちろんです。今晩に。
+        ja: もちろんです！今晩ですよ。
       grc:
       - εὖ ἴσθ’ ὅτι εἰς ἑσπέραν.
     dialogue:
@@ -288,7 +288,7 @@ scenes:
     translation:
       variants:
       - de: Versteht sich! Heute Abend.
-        ja_current: もちろんです。今晩に。
+        ja_current: もちろんです！今晩ですよ。
         ja_proposed: もちろんです！今晩ですよ。
         decision: revise
         rationale: >-
@@ -313,11 +313,11 @@ scenes:
       file: part-g.yaml
       section_index: 1
       conversation_index: 5
-      fingerprint: 23441c836c55a915
+      fingerprint: 732694819ed6b387
     source:
       modern:
       - de: Worüber? Über alles Mögliche.
-        ja: 何について？あらゆることについてです。
+        ja: 何についてですか？\—{}ありとあらゆる問題についてです。
       grc:
       - περὶ τοῦ; περὶ \emph{ἁπάντων} πραγμάτων.
     dialogue:
@@ -340,7 +340,7 @@ scenes:
     translation:
       variants:
       - de: Worüber? Über alles Mögliche.
-        ja_current: 何について？あらゆることについてです。
+        ja_current: 何についてですか？\—{}ありとあらゆる問題についてです。
         ja_proposed: 何についてですか？\—{}ありとあらゆる問題についてです。
         decision: revise
         rationale: >-
@@ -371,11 +371,11 @@ scenes:
       file: part-g.yaml
       section_index: 1
       conversation_index: 6
-      fingerprint: 0ecdce4cf538a003
+      fingerprint: 19a28cd30c0a4dd7
     source:
       modern:
       - de: Ich will Sie mit in die Versammlung nehmen.
-        ja: 会合にご一緒しましょう。
+        ja: 集会へご一緒しましょう。
       grc:
       - \emph{ἄξω} σε μετ’ ἐμαυτοῦ εἰς τὸν σύλλογον.
     dialogue:
@@ -398,7 +398,7 @@ scenes:
     translation:
       variants:
       - de: Ich will Sie mit in die Versammlung nehmen.
-        ja_current: 会合にご一緒しましょう。
+        ja_current: 集会へご一緒しましょう。
         ja_proposed: 集会へご一緒しましょう。
         decision: revise
         rationale: >-
@@ -424,11 +424,11 @@ scenes:
       file: part-g.yaml
       section_index: 1
       conversation_index: 7
-      fingerprint: b2d053c7658e5622
+      fingerprint: f0cd80d6aeed36a7
     source:
       modern:
       - de: Ich danke, ich weiß den Weg.
-        ja: ありがとう、道は知っています。
+        ja: ありがとうございます。でも、道はわかっています。
       grc:
       - καλῶς· ἀλλ’ οἶδα τὴν ὁδόν.
     dialogue:
@@ -451,7 +451,7 @@ scenes:
     translation:
       variants:
       - de: Ich danke, ich weiß den Weg.
-        ja_current: ありがとう、道は知っています。
+        ja_current: ありがとうございます。でも、道はわかっています。
         ja_proposed: ありがとうございます。でも、道はわかっています。
         decision: revise
         rationale: >-
@@ -477,13 +477,13 @@ scenes:
       file: part-g.yaml
       section_index: 1
       conversation_index: 8
-      fingerprint: 1992ff8d7fec529f
+      fingerprint: 8fbc9c43172ef309
     source:
       modern:
       - de: 'Nun, so machen Sie denn, daß Sie \emph{auch} hinkommen und bringen
 
           Sie noch ein paar Andere mit!'
-        ja: ではあなたもぜひ来て、ほかの人も何人か連れてきてください。
+        ja: では、\kenten{あなたも}必ず来て、ほかの方を二、三人連れてきてください！
       grc:
       - ἀλλ’ ὅπως παρέσει καὶ αὐτὸς καὶ ἄλλους \emph{ἄξεις!}
     dialogue:
@@ -508,7 +508,7 @@ scenes:
       - de: 'Nun, so machen Sie denn, daß Sie \emph{auch} hinkommen und bringen
 
           Sie noch ein paar Andere mit!'
-        ja_current: ではあなたもぜひ来て、ほかの人も何人か連れてきてください。
+        ja_current: では、\kenten{あなたも}必ず来て、ほかの方を二、三人連れてきてください！
         ja_proposed: では、\kenten{あなたも}必ず来て、ほかの方を二、三人連れてきてください！
         decision: revise
         rationale: >-
@@ -625,11 +625,11 @@ scenes:
       file: part-g.yaml
       section_index: 1
       conversation_index: 11
-      fingerprint: 972169e22e7d9a11
+      fingerprint: bce274704716766f
     source:
       modern:
       - de: Die Rothen.
-        ja: 急進派（赤）。
+        ja: 赤派。
       grc:
       - οἱ δημοκρατικοί.
     dialogue:
@@ -652,7 +652,7 @@ scenes:
     translation:
       variants:
       - de: Die Rothen.
-        ja_current: 急進派（赤）。
+        ja_current: 赤派。
         ja_proposed: 赤派。
         decision: revise
         rationale: null
@@ -986,11 +986,11 @@ scenes:
       file: part-g.yaml
       section_index: 1
       conversation_index: 19
-      fingerprint: 4325f1914c565589
+      fingerprint: 65ad4532863b6181
     source:
       modern:
       - de: Wer hat die meisten (wenigsten) \emph{Stimmen?}
-        ja: だれが最多（最少）の得票を得ましたか？
+        ja: 誰が最多（最少）の\kenten{票}を得ましたか？
       grc:
       - τίνι πλεῖσται (ἐλάχισται) γεγόνασιν;
     dialogue:
@@ -1013,7 +1013,7 @@ scenes:
     translation:
       variants:
       - de: Wer hat die meisten (wenigsten) \emph{Stimmen?}
-        ja_current: だれが最多（最少）の得票を得ましたか？
+        ja_current: 誰が最多（最少）の\kenten{票}を得ましたか？
         ja_proposed: 誰が最多（最少）の\kenten{票}を得ましたか？
         decision: revise
         rationale: >-
@@ -1044,11 +1044,11 @@ scenes:
       file: part-g.yaml
       section_index: 1
       conversation_index: 20
-      fingerprint: 7b94e77ec5e2c88e
+      fingerprint: c737de334e3fd1b5
     source:
       modern:
       - de: Abgeordneter ist, wer die meisten \emph{Stimmen} bekommen hat.
-        ja: 最も多く票を得た者が代議士です。
+        ja: 最も多くの\kenten{票}を得た者が、代議士となります。
       grc:
       - βουλευτής ἐστιν, ᾧ ἂν πλεῖσται γένωνται.
     dialogue:
@@ -1071,7 +1071,7 @@ scenes:
     translation:
       variants:
       - de: Abgeordneter ist, wer die meisten \emph{Stimmen} bekommen hat.
-        ja_current: 最も多く票を得た者が代議士です。
+        ja_current: 最も多くの\kenten{票}を得た者が、代議士となります。
         ja_proposed: 最も多くの\kenten{票}を得た者が、代議士となります。
         decision: revise
         rationale: >-
@@ -1159,11 +1159,11 @@ scenes:
       file: part-g.yaml
       section_index: 1
       conversation_index: 22
-      fingerprint: e380bf4d553500dc
+      fingerprint: ccddca97bb3e1447
     source:
       modern:
       - de: Leider nicht!
-        ja: 残念ながら落選しました。
+        ja: 残念ながら、だめでした！
       grc:
       - εἰ γὰρ ὤφερε!
     dialogue:
@@ -1186,7 +1186,7 @@ scenes:
     translation:
       variants:
       - de: Leider nicht!
-        ja_current: 残念ながら落選しました。
+        ja_current: 残念ながら、だめでした！
         ja_proposed: 残念ながら、だめでした！
         decision: revise
         rationale: >-
@@ -1252,11 +1252,11 @@ scenes:
       file: part-g.yaml
       section_index: 2
       conversation_index: 1
-      fingerprint: 469e914edd705ea5
+      fingerprint: 10eb94226a0c3b07
     source:
       modern:
       - de: Wir brauchen keine neuen \emph{Steuern!}
-        ja: 新しい税金など必要ありません！
+        ja: 新たな\kenten{税}など、われわれには必要ない！
       grc:
       - οὐ δεόμεθα καινῶν δασμῶν!
     dialogue:
@@ -1279,7 +1279,7 @@ scenes:
     translation:
       variants:
       - de: Wir brauchen keine neuen \emph{Steuern!}
-        ja_current: 新しい税金など必要ありません！
+        ja_current: 新たな\kenten{税}など、われわれには必要ない！
         ja_proposed: 新たな\kenten{税}など、われわれには必要ない！
         decision: revise
         rationale: German emphasizes Steuern, so Japanese preserves the contrastive focus on 「税」.
@@ -1295,11 +1295,11 @@ scenes:
       file: part-g.yaml
       section_index: 2
       conversation_index: 2
-      fingerprint: 36612a9cecf753de
+      fingerprint: fe6d9416365d2138
     source:
       modern:
       - de: Wir \emph{brauchen} keine neuen Steuern!
-        ja: 私たちは本当に新税を要しません！
+        ja: 新たな税など、われわれには\kenten{必要ない}！
       grc:
       - καινῶν δασμῶν οὐ δεόμεθα!
     dialogue:
@@ -1322,7 +1322,7 @@ scenes:
     translation:
       variants:
       - de: Wir \emph{brauchen} keine neuen Steuern!
-        ja_current: 私たちは本当に新税を要しません！
+        ja_current: 新たな税など、われわれには\kenten{必要ない}！
         ja_proposed: 新たな税など、われわれには\kenten{必要ない}！
         decision: revise
         rationale: >-
@@ -1340,11 +1340,11 @@ scenes:
       file: part-g.yaml
       section_index: 2
       conversation_index: 3
-      fingerprint: a084e291c59d1299
+      fingerprint: d8999a235db7111e
     source:
       modern:
       - de: Das wird uns ruiniren!
-        ja: それでは破滅してしまう！
+        ja: そんなことをすれば、われわれは破滅する！
       grc:
       - τοῦθ’ ἡμᾶς ἐπιτρίψει!
     dialogue:
@@ -1367,7 +1367,7 @@ scenes:
     translation:
       variants:
       - de: Das wird uns ruiniren!
-        ja_current: それでは破滅してしまう！
+        ja_current: そんなことをすれば、われわれは破滅する！
         ja_proposed: そんなことをすれば、われわれは破滅する！
         decision: revise
         rationale: null
@@ -1383,11 +1383,11 @@ scenes:
       file: part-g.yaml
       section_index: 2
       conversation_index: 4
-      fingerprint: c3d05ab6ddf3fae9
+      fingerprint: 8cd4de16115403c8
     source:
       modern:
       - de: Ich denke, es giebt einen Mittelweg.
-        ja: 折衷案があると思います。
+        ja: しかし、その中間をゆく道があると思います。
       grc:
       - ἀλλ’ εἶναί τί μοι δοκεῖ μέση τούτων ὁδός.
     dialogue:
@@ -1410,7 +1410,7 @@ scenes:
     translation:
       variants:
       - de: Ich denke, es giebt einen Mittelweg.
-        ja_current: 折衷案があると思います。
+        ja_current: しかし、その中間をゆく道があると思います。
         ja_proposed: しかし、その中間をゆく道があると思います。
         decision: revise
         rationale: null
@@ -1426,11 +1426,11 @@ scenes:
       file: part-g.yaml
       section_index: 2
       conversation_index: 5
-      fingerprint: aa5016af5b7f9f19
+      fingerprint: 3eb1c764809b3cfe
     source:
       modern:
       - de: Jetzt ist Schonung der Steuerkraft nöthig!
-        ja: 今は租税負担を抑えるべきです！
+        ja: 今は、国民の担税力を温存する必要があります！
       grc:
       - νῦν \emph{ἔργον} εὐτελείας!
     dialogue:
@@ -1453,7 +1453,7 @@ scenes:
     translation:
       variants:
       - de: Jetzt ist Schonung der Steuerkraft nöthig!
-        ja_current: 今は租税負担を抑えるべきです！
+        ja_current: 今は、国民の担税力を温存する必要があります！
         ja_proposed: 今は、国民の担税力を温存する必要があります！
         decision: revise
         rationale: >-
@@ -1476,11 +1476,11 @@ scenes:
       file: part-g.yaml
       section_index: 2
       conversation_index: 6
-      fingerprint: 61bfc2b0754a59ca
+      fingerprint: e3c7d2ebd678d68c
     source:
       modern:
       - de: Die Kolonialpolitik bringt keinen Nutzen.
-        ja: 植民政策は利益をもたらしません。
+        ja: 植民政策に、何の益がありましょう？
       grc:
       - τί \emph{πλέον ἐστὶν} ἔξω ἐποικεῖν;
     dialogue:
@@ -1503,7 +1503,7 @@ scenes:
     translation:
       variants:
       - de: Die Kolonialpolitik bringt keinen Nutzen.
-        ja_current: 植民政策は利益をもたらしません。
+        ja_current: 植民政策に、何の益がありましょう？
         ja_proposed: 植民政策に、何の益がありましょう？
         decision: revise
         rationale: null
@@ -1523,11 +1523,11 @@ scenes:
       file: part-g.yaml
       section_index: 2
       conversation_index: 7
-      fingerprint: 05c78d9f097d57aa
+      fingerprint: 265d9dc9ef12ccf2
     source:
       modern:
       - de: Das gefällt mir nicht!
-        ja: それは気に入りません。
+        ja: それは気に入りません！
       grc:
       - τοῦτό μ’ οὐκ ἀρέσκει!
     dialogue:
@@ -1550,7 +1550,7 @@ scenes:
     translation:
       variants:
       - de: Das gefällt mir nicht!
-        ja_current: それは気に入りません。
+        ja_current: それは気に入りません！
         ja_proposed: それは気に入りません！
         decision: revise
         rationale: null
@@ -1587,11 +1587,11 @@ scenes:
       file: part-g.yaml
       section_index: 2
       conversation_index: 8
-      fingerprint: 9fe24e832055b09c
+      fingerprint: 97aed50385a8cc26
     source:
       modern:
       - de: Dahinter steckt etwas!
-        ja: 何か裏があります！
+        ja: 何か裏があるぞ！
       grc:
       - ἔστιν ἐνταῦθά τι κακόν!
     dialogue:
@@ -1614,7 +1614,7 @@ scenes:
     translation:
       variants:
       - de: Dahinter steckt etwas!
-        ja_current: 何か裏があります！
+        ja_current: 何か裏があるぞ！
         ja_proposed: 何か裏があるぞ！
         decision: revise
         rationale: null
@@ -1651,11 +1651,11 @@ scenes:
       file: part-g.yaml
       section_index: 2
       conversation_index: 9
-      fingerprint: 51df959119d0cd69
+      fingerprint: 2455f5cc07d9ba28
     source:
       modern:
       - de: Was hat man davon?
-        ja: それで何の得がありますか。
+        ja: それで何の得になる？
       grc:
       - τί κέρδος;
     dialogue:
@@ -1678,7 +1678,7 @@ scenes:
     translation:
       variants:
       - de: Was hat man davon?
-        ja_current: それで何の得がありますか。
+        ja_current: それで何の得になる？
         ja_proposed: それで何の得になる？
         decision: revise
         rationale: null
@@ -1694,11 +1694,11 @@ scenes:
       file: part-g.yaml
       section_index: 2
       conversation_index: 10
-      fingerprint: e541ec1a8ecc7cb6
+      fingerprint: cb6791d3397114f1
     source:
       modern:
       - de: Was werden wir davon haben?
-        ja: 私たちにどんな利益がありますか。
+        ja: それで、われわれに何の利益があるのです？
       grc:
       - τί κερδανοῦμεν;
     dialogue:
@@ -1721,7 +1721,7 @@ scenes:
     translation:
       variants:
       - de: Was werden wir davon haben?
-        ja_current: 私たちにどんな利益がありますか。
+        ja_current: それで、われわれに何の利益があるのです？
         ja_proposed: それで、われわれに何の利益があるのです？
         decision: revise
         rationale: null
@@ -1737,11 +1737,11 @@ scenes:
       file: part-g.yaml
       section_index: 2
       conversation_index: 11
-      fingerprint: 2e9530a5c40a2a3a
+      fingerprint: ad539d3df3cb89a8
     source:
       modern:
       - de: Was kann das nützen?
-        ja: 何の役に立つでしょうか。
+        ja: それが一体、何の役に立つというのです？
       grc:
       - πῶς ξυνοίσει ταῦτα;
     dialogue:
@@ -1764,7 +1764,7 @@ scenes:
     translation:
       variants:
       - de: Was kann das nützen?
-        ja_current: 何の役に立つでしょうか。
+        ja_current: それが一体、何の役に立つというのです？
         ja_proposed: それが一体、何の役に立つというのです？
         decision: revise
         rationale: null
@@ -1780,11 +1780,11 @@ scenes:
       file: part-g.yaml
       section_index: 2
       conversation_index: 12
-      fingerprint: 1b365139b9636c97
+      fingerprint: 20dcfbcd204b4a81
     source:
       modern:
       - de: Ich weiß schon, wo man hinaus\textcompwordmark{}will!
-        ja: 何を狙っているかもう分かっています。
+        ja: 何を企んでいるか、こちらにはわかっているぞ！
       grc:
       - οἶδα τὸν νοῦν!
     dialogue:
@@ -1807,7 +1807,7 @@ scenes:
     translation:
       variants:
       - de: Ich weiß schon, wo man hinaus\textcompwordmark{}will!
-        ja_current: 何を狙っているかもう分かっています。
+        ja_current: 何を企んでいるか、こちらにはわかっているぞ！
         ja_proposed: 何を企んでいるか、こちらにはわかっているぞ！
         decision: revise
         rationale: null
@@ -1865,11 +1865,11 @@ scenes:
       file: part-g.yaml
       section_index: 2
       conversation_index: 13
-      fingerprint: ea2381bdc893e4df
+      fingerprint: 2e90140ec9b29d16
     source:
       modern:
       - de: Fort mit Bis\textcompwordmark{}marck!
-        ja: ビスマルクはもうたくさんだ！
+        ja: ビスマルクを退陣させろ！
       grc:
       - Βίσμαρκ ἐρρέτω!
     dialogue:
@@ -1892,7 +1892,7 @@ scenes:
     translation:
       variants:
       - de: Fort mit Bis\textcompwordmark{}marck!
-        ja_current: ビスマルクはもうたくさんだ！
+        ja_current: ビスマルクを退陣させろ！
         ja_proposed: ビスマルクを退陣させろ！
         decision: revise
         rationale: null
@@ -1908,11 +1908,11 @@ scenes:
       file: part-g.yaml
       section_index: 2
       conversation_index: 14
-      fingerprint: f11cbc39b5f913a9
+      fingerprint: a70e7e10207000e4
     source:
       modern:
       - de: Bravo! Bravo!
-        ja: ブラボー！ブラボー！
+        ja: よく言った！よく言った！
       grc:
       - εὖγε! εὖγε!
     dialogue:
@@ -1935,7 +1935,7 @@ scenes:
     translation:
       variants:
       - de: Bravo! Bravo!
-        ja_current: ブラボー！ブラボー！
+        ja_current: よく言った！よく言った！
         ja_proposed: よく言った！よく言った！
         decision: revise
         rationale: In an assembly, Bravo! and εὖγε praise the preceding speaker; 「よく言った」 makes that audience response explicit.
@@ -1951,7 +1951,7 @@ scenes:
       file: part-g.yaml
       section_index: 2
       conversation_index: 15
-      fingerprint: 57881b6c5de215c7
+      fingerprint: 35cba61cd88f4904
     source:
       modern:
       - de: Wie gut ist es, einen so vortrefflichen Abgeordneten zu haben!
@@ -1997,11 +1997,11 @@ scenes:
       file: part-g.yaml
       section_index: 2
       conversation_index: 16
-      fingerprint: 20fe5f8d8de8a3fc
+      fingerprint: 8e2ea405f2a15e5e
     source:
       modern:
       - de: Unsinn!
-        ja: ばかげている！
+        ja: 何を馬鹿な！
       grc:
       - οὐδὲν λέγεις!
     dialogue:
@@ -2024,7 +2024,7 @@ scenes:
     translation:
       variants:
       - de: Unsinn!
-        ja_current: ばかげている！
+        ja_current: 何を馬鹿な！
         ja_proposed: 何を馬鹿な！
         decision: revise
         rationale: null
@@ -2040,11 +2040,11 @@ scenes:
       file: part-g.yaml
       section_index: 2
       conversation_index: 17
-      fingerprint: 400f1b216c9bd9de
+      fingerprint: 13c5d342654e1bd8
     source:
       modern:
       - de: Wir hängen diese Tiraden zum Halse heraus!
-        ja: もうこんな長広舌にはうんざりだ！
+        ja: こんな大演説には、もう心底うんざりだ！
       grc:
       - πάνυ μοι ἤδη ταῦτ’ ἐστὶ χολή.
     dialogue:
@@ -2067,7 +2067,7 @@ scenes:
     translation:
       variants:
       - de: Wir hängen diese Tiraden zum Halse heraus!
-        ja_current: もうこんな長広舌にはうんざりだ！
+        ja_current: こんな大演説には、もう心底うんざりだ！
         ja_proposed: こんな大演説には、もう心底うんざりだ！
         decision: revise
         rationale: null
@@ -2083,11 +2083,11 @@ scenes:
       file: part-g.yaml
       section_index: 2
       conversation_index: 18
-      fingerprint: 1973e83472c1d48c
+      fingerprint: 88f694fdf3670003
     source:
       modern:
       - de: Still!
-        ja: 静かに！
+        ja: 静粛に！
       grc:
       - σίγα!
     dialogue:
@@ -2110,7 +2110,7 @@ scenes:
     translation:
       variants:
       - de: Still!
-        ja_current: 静かに！
+        ja_current: 静粛に！
         ja_proposed: 静粛に！
         decision: revise
         rationale: null
@@ -2152,11 +2152,11 @@ scenes:
       file: part-g.yaml
       section_index: 3
       conversation_index: 1
-      fingerprint: d93fbf0a18c77489
+      fingerprint: fc709b9d49b6deaf
     source:
       modern:
       - de: Wer wünscht das Wort?
-        ja: 誰か発言を希望しますか。
+        ja: 発言を希望される方はおられますか。
       grc:
       - τίς ἀγορεύειν βούλεται;
     dialogue:
@@ -2179,7 +2179,7 @@ scenes:
     translation:
       variants:
       - de: Wer wünscht das Wort?
-        ja_current: 誰か発言を希望しますか。
+        ja_current: 発言を希望される方はおられますか。
         ja_proposed: 発言を希望される方はおられますか。
         decision: revise
         rationale: null
@@ -2238,11 +2238,11 @@ scenes:
       file: part-g.yaml
       section_index: 3
       conversation_index: 3
-      fingerprint: 9def588c7045e09d
+      fingerprint: d5656460959a1476
     source:
       modern:
       - de: Ist noch Jemand, der zu sprechen wünscht?
-        ja: ほかに発言したい人はいますか。
+        ja: ほかに発言を希望される方はおられますか。
       grc:
       - ἔσθ’ ὅστις ἕτερος βούλεται λέγειν;
     dialogue:
@@ -2265,7 +2265,7 @@ scenes:
     translation:
       variants:
       - de: Ist noch Jemand, der zu sprechen wünscht?
-        ja_current: ほかに発言したい人はいますか。
+        ja_current: ほかに発言を希望される方はおられますか。
         ja_proposed: ほかに発言を希望される方はおられますか。
         decision: revise
         rationale: null
@@ -2281,11 +2281,11 @@ scenes:
       file: part-g.yaml
       section_index: 3
       conversation_index: 4
-      fingerprint: aaf4295deaab672e
+      fingerprint: ede8c40114725ac0
     source:
       modern:
       - de: Es wird wohl Niemand dagegen stimmen.
-        ja: 反対票を投じる人はいないでしょう。
+        ja: まさか、これに反対票を投じる者はいないでしょうね。
       grc:
       - οὐ δεὶς ἀντιχειροτονήσειεν ἄν.
     dialogue:
@@ -2308,7 +2308,7 @@ scenes:
     translation:
       variants:
       - de: Es wird wohl Niemand dagegen stimmen.
-        ja_current: 反対票を投じる人はいないでしょう。
+        ja_current: まさか、これに反対票を投じる者はいないでしょうね。
         ja_proposed: まさか、これに反対票を投じる者はいないでしょうね。
         decision: revise
         rationale: null
@@ -2371,11 +2371,11 @@ scenes:
       file: part-g.yaml
       section_index: 3
       conversation_index: 6
-      fingerprint: 3c136f7704c08195
+      fingerprint: 34131fcb6658e1dc
     source:
       modern:
       - de: So ist's recht.
-        ja: それで結構。
+        ja: それでこそよい。
       grc:
       - καλῶς γε ποιῶν.
     dialogue:
@@ -2398,7 +2398,7 @@ scenes:
     translation:
       variants:
       - de: So ist's recht.
-        ja_current: それで結構。
+        ja_current: それでこそよい。
         ja_proposed: それでこそよい。
         decision: revise
         rationale: null
@@ -2455,11 +2455,11 @@ scenes:
       file: part-g.yaml
       section_index: 3
       conversation_index: 7
-      fingerprint: ac31ad6f31ea8654
+      fingerprint: 23a615734fb8c4e5
     source:
       modern:
       - de: Thu', was du \emph{denkst!}
-        ja: 思うとおりにしなさい。
+        ja: 君が\kenten{よいと思う}とおりにしたまえ！
       grc:
       - ποίει, ὅτι ἄν σοι δοκῇ.
     dialogue:
@@ -2482,7 +2482,7 @@ scenes:
     translation:
       variants:
       - de: Thu', was du \emph{denkst!}
-        ja_current: 思うとおりにしなさい。
+        ja_current: 君が\kenten{よいと思う}とおりにしたまえ！
         ja_proposed: 君が\kenten{よいと思う}とおりにしたまえ！
         decision: revise
         rationale: null
@@ -2498,11 +2498,11 @@ scenes:
       file: part-g.yaml
       section_index: 3
       conversation_index: 8
-      fingerprint: 7a935469e17057e2
+      fingerprint: 70ef7790ace9d6e8
     source:
       modern:
       - de: Was ist heute berathen worden?
-        ja: 今日は何が協議されましたか。
+        ja: 今日は何が審議されましたか。
       grc:
       - τί βεβούλεται τήμερον;
     dialogue:
@@ -2525,7 +2525,7 @@ scenes:
     translation:
       variants:
       - de: Was ist heute berathen worden?
-        ja_current: 今日は何が協議されましたか。
+        ja_current: 今日は何が審議されましたか。
         ja_proposed: 今日は何が審議されましたか。
         decision: revise
         rationale: null
@@ -2545,11 +2545,11 @@ scenes:
       file: part-g.yaml
       section_index: 3
       conversation_index: 9
-      fingerprint: 980e66c2ec1f2994
+      fingerprint: 7b963e826a35b5b6
     source:
       modern:
       - de: Was hat man denn beschlossen?
-        ja: では何が決まりましたか。
+        ja: それで、何が決まったのですか？
       grc:
       - τί δῆτ’ ἔδοξεν;
     dialogue:
@@ -2572,7 +2572,7 @@ scenes:
     translation:
       variants:
       - de: Was hat man denn beschlossen?
-        ja_current: では何が決まりましたか。
+        ja_current: それで、何が決まったのですか？
         ja_proposed: それで、何が決まったのですか？
         decision: revise
         rationale: null
@@ -2609,11 +2609,11 @@ scenes:
       file: part-g.yaml
       section_index: 3
       conversation_index: 10
-      fingerprint: 3dc530802853f1d2
+      fingerprint: e829c9f11962d510
     source:
       modern:
       - de: Noch nichts; es war \emph{Stimmen}gleichheit.
-        ja: まだ何も決まっていません；票が同数でした。
+        ja: まだ何も。\kenten{票が}同数だったのです。
       grc:
       - οὐδέν πω· ἶσαι γὰρ ἐγένοντο.
     dialogue:
@@ -2636,7 +2636,7 @@ scenes:
     translation:
       variants:
       - de: Noch nichts; es war \emph{Stimmen}gleichheit.
-        ja_current: まだ何も決まっていません；票が同数でした。
+        ja_current: まだ何も。\kenten{票が}同数だったのです。
         ja_proposed: まだ何も。\kenten{票が}同数だったのです。
         decision: revise
         rationale: null
@@ -2652,11 +2652,11 @@ scenes:
       file: part-g.yaml
       section_index: 3
       conversation_index: 11
-      fingerprint: 7d59a60893b19ae7
+      fingerprint: f6672d340a80a7a4
     source:
       modern:
       - de: Eine so unsinnige Versammlung habe ich noch nicht erlebt.
-        ja: こんな馬鹿げた会合は初めてです。
+        ja: これほど馬鹿げた集会は、いまだかつて見たことがありません。
       grc:
       - τοιοῦτον σύλλογον οὔπω \emph{ὄπωπα.}
       - ὃ δοκεῖ σοι, ποίει.
@@ -2680,7 +2680,7 @@ scenes:
     translation:
       variants:
       - de: Eine so unsinnige Versammlung habe ich noch nicht erlebt.
-        ja_current: こんな馬鹿げた会合は初めてです。
+        ja_current: これほど馬鹿げた集会は、いまだかつて見たことがありません。
         ja_proposed: これほど馬鹿げた集会は、いまだかつて見たことがありません。
         decision: revise
         rationale: null

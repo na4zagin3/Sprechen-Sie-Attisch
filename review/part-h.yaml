@@ -88,11 +88,11 @@ scenes:
       file: part-h.yaml
       section_index: 1
       conversation_index: 1
-      fingerprint: 9d015a71cb1de1df
+      fingerprint: 9430ba01579d5251
     source:
       modern:
       - de: Wollen wir nicht ein Spielchen machen?
-        ja: 一局やりませんか。
+        ja: 一局やりませんか？
       grc:
       - βούλεσθε παιδιὰν παίζωμεν;
     dialogue:
@@ -115,7 +115,7 @@ scenes:
     translation:
       variants:
       - de: Wollen wir nicht ein Spielchen machen?
-        ja_current: 一局やりませんか。
+        ja_current: 一局やりませんか？
         ja_proposed: 一局やりませんか？
         decision: revise
         rationale: null
@@ -131,11 +131,11 @@ scenes:
       file: part-h.yaml
       section_index: 1
       conversation_index: 2
-      fingerprint: 8f745ee2b7b3a5e6
+      fingerprint: 70f7ce37e496ced3
     source:
       modern:
       - de: Meinetwegen.
-        ja: いいですよ。
+        ja: かまいませんよ。
       grc:
       - \emph{οὐδὲν κωλύει.}
     dialogue:
@@ -158,7 +158,7 @@ scenes:
     translation:
       variants:
       - de: Meinetwegen.
-        ja_current: いいですよ。
+        ja_current: かまいませんよ。
         ja_proposed: かまいませんよ。
         decision: revise
         rationale: null
@@ -174,11 +174,11 @@ scenes:
       file: part-h.yaml
       section_index: 1
       conversation_index: 3
-      fingerprint: 53a86a34c5624664
+      fingerprint: 137873dd018dac37
     source:
       modern:
       - de: Was wollen wir spielen?
-        ja: 何をしましょうか。
+        ja: 何をやりましょうか？
       grc:
       - παιδιὰν τίνα;
     dialogue:
@@ -201,7 +201,7 @@ scenes:
     translation:
       variants:
       - de: Was wollen wir spielen?
-        ja_current: 何をしましょうか。
+        ja_current: 何をやりましょうか？
         ja_proposed: 何をやりましょうか？
         decision: revise
         rationale: The question asks the group to choose a game; 「何をやりましょうか」 is concise table-talk and leads naturally into the Skat proposal.
@@ -217,11 +217,11 @@ scenes:
       file: part-h.yaml
       section_index: 1
       conversation_index: 4
-      fingerprint: 30fa68fb18d618cf
+      fingerprint: 66444cab9069d6ac
     source:
       modern:
       - de: Einen Skat wollen wir machen.
-        ja: スカートをやりましょう。
+        ja: スカートを一局やりましょう。
       grc:
       - (σκατιούμεθα).
     dialogue:
@@ -244,7 +244,7 @@ scenes:
     translation:
       variants:
       - de: Einen Skat wollen wir machen.
-        ja_current: スカートをやりましょう。
+        ja_current: スカートを一局やりましょう。
         ja_proposed: スカートを一局やりましょう。
         decision: revise
         rationale: null
@@ -307,11 +307,11 @@ scenes:
       file: part-h.yaml
       section_index: 1
       conversation_index: 6
-      fingerprint: 91d6174b125364e8
+      fingerprint: a898ab0ea08b0954
     source:
       modern:
       - de: Ich frage.
-        ja: 私が声をかけます。
+        ja: 私から競りましょう。
       grc:
       - ἐμὸν τὸ ἐρωτᾶν.
     dialogue:
@@ -334,7 +334,7 @@ scenes:
     translation:
       variants:
       - de: Ich frage.
-        ja_current: 私が声をかけます。
+        ja_current: 私から競りましょう。
         ja_proposed: 私から競りましょう。
         decision: revise
         rationale: null
@@ -350,11 +350,11 @@ scenes:
       file: part-h.yaml
       section_index: 1
       conversation_index: 7
-      fingerprint: ec4c4ac5ec695c6e
+      fingerprint: 8c6077166f21795b
     source:
       modern:
       - de: Eichel, Grün, Roth, Schellen.
-        ja: どんぐり、葉、赤（ハート）、鈴だ。
+        ja: アイヒェル（団栗）、グリューン（葉）、ロート（赤）、シェレン（鈴）。
       grc:
       - τὰ βαλάνια, τὰ φυλλεῖα, τὰ ἐρυθρά, τά κρόταλα.
     dialogue:
@@ -377,7 +377,7 @@ scenes:
     translation:
       variants:
       - de: Eichel, Grün, Roth, Schellen.
-        ja_current: どんぐり、葉、赤（ハート）、鈴だ。
+        ja_current: アイヒェル（団栗）、グリューン（葉）、ロート（赤）、シェレン（鈴）。
         ja_proposed: アイヒェル（団栗）、グリューン（葉）、ロート（赤）、シェレン（鈴）。
         decision: revise
         rationale: null
@@ -393,11 +393,11 @@ scenes:
       file: part-h.yaml
       section_index: 1
       conversation_index: 8
-      fingerprint: 16e327c6b6ae06ff
+      fingerprint: 7b0a3c311ea34ba4
     source:
       modern:
       - de: Eichel sticht.
-        ja: どんぐりが切り札だ。
+        ja: アイヒェルが切り札だ。
       grc:
       - κρατεῖ τὰ βαλάνια.
     dialogue:
@@ -420,7 +420,7 @@ scenes:
     translation:
       variants:
       - de: Eichel sticht.
-        ja_current: どんぐりが切り札だ。
+        ja_current: アイヒェルが切り札だ。
         ja_proposed: アイヒェルが切り札だ。
         decision: revise
         rationale: null
@@ -436,11 +436,11 @@ scenes:
       file: part-h.yaml
       section_index: 1
       conversation_index: 9
-      fingerprint: 06576885c0c7af79
+      fingerprint: 46f93d873873f7f1
     source:
       modern:
       - de: Geben Sie Grün zu!
-        ja: 葉の札を出してください！
+        ja: グリューンを出してください！
       grc:
       - ἀπόδος φυλλεῖα!
     dialogue:
@@ -463,7 +463,7 @@ scenes:
     translation:
       variants:
       - de: Geben Sie Grün zu!
-        ja_current: 葉の札を出してください！
+        ja_current: グリューンを出してください！
         ja_proposed: グリューンを出してください！
         decision: revise
         rationale: null
@@ -522,11 +522,11 @@ scenes:
       file: part-h.yaml
       section_index: 1
       conversation_index: 11
-      fingerprint: e662a041987cc9ce
+      fingerprint: d20b7603f4fd1f70
     source:
       modern:
       - de: Freilich (Sie)!
-        ja: もちろん、あなたです！
+        ja: そう、あなたですよ！
       grc:
       - σὺ μέντοι!
     dialogue:
@@ -549,7 +549,7 @@ scenes:
     translation:
       variants:
       - de: Freilich (Sie)!
-        ja_current: もちろん、あなたです！
+        ja_current: そう、あなたですよ！
         ja_proposed: そう、あなたですよ！
         decision: revise
         rationale: null
@@ -565,11 +565,11 @@ scenes:
       file: part-h.yaml
       section_index: 1
       conversation_index: 12
-      fingerprint: 46a1e9c1bcc029b5
+      fingerprint: dbd83b6cd560aec3
     source:
       modern:
       - de: Was habe ich davon?
-        ja: それで私は何の得がありますか。
+        ja: それで、私に何の得があるのです？
       grc:
       - τί κερδανῶ;
     dialogue:
@@ -592,7 +592,7 @@ scenes:
     translation:
       variants:
       - de: Was habe ich davon?
-        ja_current: それで私は何の得がありますか。
+        ja_current: それで、私に何の得があるのです？
         ja_proposed: それで、私に何の得があるのです？
         decision: revise
         rationale: null
@@ -608,11 +608,11 @@ scenes:
       file: part-h.yaml
       section_index: 1
       conversation_index: 13
-      fingerprint: 0ab0ec609f923909
+      fingerprint: 09c89b5a0eb55504
     source:
       modern:
       - de: Was ich für ein Pech habe!
-        ja: なんてついてないんだ！
+        ja: なんという不運だ！
       grc:
       - ὡς δυστυκής εἰμι!
     dialogue:
@@ -635,7 +635,7 @@ scenes:
     translation:
       variants:
       - de: Was ich für ein Pech habe!
-        ja_current: なんてついてないんだ！
+        ja_current: なんという不運だ！
         ja_proposed: なんという不運だ！
         decision: revise
         rationale: null
@@ -651,11 +651,11 @@ scenes:
       file: part-h.yaml
       section_index: 1
       conversation_index: 14
-      fingerprint: aa964208b27e201f
+      fingerprint: a12d056f6ebc61c7
     source:
       modern:
       - de: Nur nicht ängstlich!
-        ja: おどおどするな！
+        ja: そう心配するな！
       grc:
       - μὴ δέδιθι!
     dialogue:
@@ -678,7 +678,7 @@ scenes:
     translation:
       variants:
       - de: Nur nicht ängstlich!
-        ja_current: おどおどするな！
+        ja_current: そう心配するな！
         ja_proposed: そう心配するな！
         decision: revise
         rationale: null
@@ -694,11 +694,11 @@ scenes:
       file: part-h.yaml
       section_index: 1
       conversation_index: 15
-      fingerprint: f7be622270bab48e
+      fingerprint: e4f043df3d509c78
     source:
       modern:
       - de: Sehen Sie sich vor, daß Ihnen der rothe Wenzel nicht entgeht!
-        ja: 赤のヴェンツェルを取り逃がさないよう気をつけて！
+        ja: ロートのヴェンツェルを取り逃がさぬよう、気をつけてください！
       grc:
       - εὐλαβοῦ, μὴ ἐκφύγῃ σε τῶν ἐρυθρῶν ὁ κράτιστος!
     dialogue:
@@ -721,7 +721,7 @@ scenes:
     translation:
       variants:
       - de: Sehen Sie sich vor, daß Ihnen der rothe Wenzel nicht entgeht!
-        ja_current: 赤のヴェンツェルを取り逃がさないよう気をつけて！
+        ja_current: ロートのヴェンツェルを取り逃がさぬよう、気をつけてください！
         ja_proposed: ロートのヴェンツェルを取り逃がさぬよう、気をつけてください！
         decision: revise
         rationale: null
@@ -737,11 +737,11 @@ scenes:
       file: part-h.yaml
       section_index: 1
       conversation_index: 16
-      fingerprint: 456f244eff4861b7
+      fingerprint: 1f8cd60370893137
     source:
       modern:
       - de: Jetzt ist's an Ihnen, zu sehen, wie wir gewinnen!
-        ja: さあ、どうやって勝つか考えるのはあなたの役目です！
+        ja: 今度はあなたが、どうすれば勝てるか考える番です！
       grc:
       - σὸν \emph{ἔργον} φροντίζειν, ὅπως κρατήσομεν.
     dialogue:
@@ -764,7 +764,7 @@ scenes:
     translation:
       variants:
       - de: Jetzt ist's an Ihnen, zu sehen, wie wir gewinnen!
-        ja_current: さあ、どうやって勝つか考えるのはあなたの役目です！
+        ja_current: 今度はあなたが、どうすれば勝てるか考える番です！
         ja_proposed: 今度はあなたが、どうすれば勝てるか考える番です！
         decision: revise
         rationale: null
@@ -780,11 +780,11 @@ scenes:
       file: part-h.yaml
       section_index: 1
       conversation_index: 17
-      fingerprint: fe240fdb77ee09ff
+      fingerprint: c36ed23051b6251b
     source:
       modern:
       - de: Jetzt gilt es!
-        ja: 今が勝負どころです！
+        ja: 今こそ勝負どころだ！
       grc:
       - νῶν ὁ καιρός!
     dialogue:
@@ -807,7 +807,7 @@ scenes:
     translation:
       variants:
       - de: Jetzt gilt es!
-        ja_current: 今が勝負どころです！
+        ja_current: 今こそ勝負どころだ！
         ja_proposed: 今こそ勝負どころだ！
         decision: revise
         rationale: null
@@ -827,11 +827,11 @@ scenes:
       file: part-h.yaml
       section_index: 1
       conversation_index: 18
-      fingerprint: a8a61fca90605168
+      fingerprint: 8f09ce8b60107144
     source:
       modern:
       - de: Jetzt haben wir ihn!
-        ja: これで押さえたぞ！
+        ja: よし、これで取ったぞ！
       grc:
       - νῶν ἔχεται μέσος!
     dialogue:
@@ -854,7 +854,7 @@ scenes:
     translation:
       variants:
       - de: Jetzt haben wir ihn!
-        ja_current: これで押さえたぞ！
+        ja_current: よし、これで取ったぞ！
         ja_proposed: よし、これで取ったぞ！
         decision: revise
         rationale: In the card-game setting, haben and ἔχεται describe securing a card or trick; 「取った」 avoids suggesting the literal capture of a person.
@@ -874,11 +874,11 @@ scenes:
       file: part-h.yaml
       section_index: 1
       conversation_index: 19
-      fingerprint: d3a422363fd43941
+      fingerprint: 131805d008386a5f
     source:
       modern:
       - de: Hau' ihm, Lucas!
-        ja: やっちまえ、ルーカス！
+        ja: やれ、ルーカス！
       grc:
       - παῖε, παῖε τὸν πανοῦργον!
     dialogue:
@@ -901,7 +901,7 @@ scenes:
     translation:
       variants:
       - de: Hau' ihm, Lucas!
-        ja_current: やっちまえ、ルーカス！
+        ja_current: やれ、ルーカス！
         ja_proposed: やれ、ルーカス！
         decision: revise
         rationale: null
@@ -939,13 +939,13 @@ scenes:
       file: part-h.yaml
       section_index: 1
       conversation_index: 20
-      fingerprint: c849f23ba978b510
+      fingerprint: c6ac3efb51b6daa3
     source:
       modern:
       - de: 'Das soll Ihnen schlecht bekommen, daß Sie das rothe Daus gestochen
 
           haben!'
-        ja: 赤のダウスを取ったのだから、ただではすみませんよ！
+        ja: ロートのダウスを切り札で取った報いは、きっと受けてもらいますよ！
       grc:
       - οὔ τοι μὰ Δία χαιρήσεις, ὁτιὴ τοῦτ’ ἔδρασας.!
     dialogue:
@@ -970,7 +970,7 @@ scenes:
       - de: 'Das soll Ihnen schlecht bekommen, daß Sie das rothe Daus gestochen
 
           haben!'
-        ja_current: 赤のダウスを取ったのだから、ただではすみませんよ！
+        ja_current: ロートのダウスを切り札で取った報いは、きっと受けてもらいますよ！
         ja_proposed: ロートのダウスを切り札で取った報いは、きっと受けてもらいますよ！
         decision: revise
         rationale: null
@@ -1033,11 +1033,11 @@ scenes:
       file: part-h.yaml
       section_index: 1
       conversation_index: 22
-      fingerprint: 2d867053ce7cdb7d
+      fingerprint: 2cdabe8aad57b030
     source:
       modern:
       - de: Ich weiß schon, wie Sie es machen.
-        ja: あなたの手口は分かっています。
+        ja: あなたの手口は、もうわかっています。
       grc:
       - τοὺς τρόπους σου ἐπίσταμαι.
     dialogue:
@@ -1060,7 +1060,7 @@ scenes:
     translation:
       variants:
       - de: Ich weiß schon, wie Sie es machen.
-        ja_current: あなたの手口は分かっています。
+        ja_current: あなたの手口は、もうわかっています。
         ja_proposed: あなたの手口は、もうわかっています。
         decision: revise
         rationale: The following turns reveal cheating, so 「手口」 anticipates a discovered method without yet stating the accusation outright.
@@ -1076,11 +1076,11 @@ scenes:
       file: part-h.yaml
       section_index: 1
       conversation_index: 23
-      fingerprint: ac8be8fcc53faeed
+      fingerprint: b2d4ce82a649e46e
     source:
       modern:
       - de: Feine Nase!
-        ja: 見事な差し方だ！
+        ja: 見事な読みだ！
       grc:
       - εὖ γε ξυνέβαλες!
     dialogue:
@@ -1103,7 +1103,7 @@ scenes:
     translation:
       variants:
       - de: Feine Nase!
-        ja_current: 見事な差し方だ！
+        ja_current: 見事な読みだ！
         ja_proposed: 見事な読みだ！
         decision: revise
         rationale: null
@@ -1166,11 +1166,11 @@ scenes:
       file: part-h.yaml
       section_index: 1
       conversation_index: 25
-      fingerprint: f2426e1f74801d07
+      fingerprint: 30e2875fac408cd5
     source:
       modern:
       - de: Darin bin ich Meister.
-        ja: それはお手のものだ。
+        ja: それなら私の得意とするところだ。
       grc:
       - ταύτεῃ κράτιστός εἰμι.
     dialogue:
@@ -1193,7 +1193,7 @@ scenes:
     translation:
       variants:
       - de: Darin bin ich Meister.
-        ja_current: それはお手のものだ。
+        ja_current: それなら私の得意とするところだ。
         ja_proposed: それなら私の得意とするところだ。
         decision: revise
         rationale: null
@@ -1213,11 +1213,11 @@ scenes:
       file: part-h.yaml
       section_index: 1
       conversation_index: 26
-      fingerprint: d8c8a490e052a00b
+      fingerprint: 08444c0c094c1da0
     source:
       modern:
       - de: Sie spielen falsch!
-        ja: 反則をしていますね！
+        ja: イカサマをしていますね！
       grc:
       - ἀδικεῖς!
     dialogue:
@@ -1240,7 +1240,7 @@ scenes:
     translation:
       variants:
       - de: Sie spielen falsch!
-        ja_current: 反則をしていますね！
+        ja_current: イカサマをしていますね！
         ja_proposed: イカサマをしていますね！
         decision: revise
         rationale: null
@@ -1256,11 +1256,11 @@ scenes:
       file: part-h.yaml
       section_index: 1
       conversation_index: 27
-      fingerprint: d6fc8e31562fac3d
+      fingerprint: 185a557c20f415cb
     source:
       modern:
       - de: Du hast die Mogelei nicht bemerkt.
-        ja: ごまかしに気づかなかったろう。
+        ja: イカサマに気づかなかったろう。
       grc:
       - τὸ πραττόμενόν σε λέληθεν.
     dialogue:
@@ -1283,7 +1283,7 @@ scenes:
     translation:
       variants:
       - de: Du hast die Mogelei nicht bemerkt.
-        ja_current: ごまかしに気づかなかったろう。
+        ja_current: イカサマに気づかなかったろう。
         ja_proposed: イカサマに気づかなかったろう。
         decision: revise
         rationale: Mogelei is specifically cheating at play; the established Japanese card-table term 「イカサマ」 is more precise than generic 「ごまかし」.
@@ -1342,11 +1342,11 @@ scenes:
       file: part-h.yaml
       section_index: 1
       conversation_index: 29
-      fingerprint: ecb7a3bb09edbead
+      fingerprint: a8e98539806becdc
     source:
       modern:
       - de: Ent\textcompwordmark{}schuldigen Sie!
-        ja: 失礼！
+        ja: どうかご容赦を！
       grc:
       - σύγγνωθί μοι!
     dialogue:
@@ -1369,7 +1369,7 @@ scenes:
     translation:
       variants:
       - de: Ent\textcompwordmark{}schuldigen Sie!
-        ja_current: 失礼！
+        ja_current: どうかご容赦を！
         ja_proposed: どうかご容赦を！
         decision: revise
         rationale: null
@@ -1385,11 +1385,11 @@ scenes:
       file: part-h.yaml
       section_index: 1
       conversation_index: 30
-      fingerprint: e9f9d803d149f71c
+      fingerprint: b95a5526fb2c2200
     source:
       modern:
       - de: Kellner, zünden Sie Licht an!
-        ja: ウェイター、灯りをつけて！
+        ja: 給仕さん、灯りをつけてください！
       grc:
       - ἅπτε, παῖ, λύχνον!
     dialogue:
@@ -1412,7 +1412,7 @@ scenes:
     translation:
       variants:
       - de: Kellner, zünden Sie Licht an!
-        ja_current: ウェイター、灯りをつけて！
+        ja_current: 給仕さん、灯りをつけてください！
         ja_proposed: 給仕さん、灯りをつけてください！
         decision: revise
         rationale: null
@@ -1449,11 +1449,11 @@ scenes:
       file: part-h.yaml
       section_index: 1
       conversation_index: 31
-      fingerprint: 8de034da382edf75
+      fingerprint: 8aa69f66e523c242
     source:
       modern:
       - de: Was fällt Ihnen denn ein, daß Sie die Zehn aus\textcompwordmark{}spielen?
-        ja: どうして十を切ったんですか。
+        ja: 十を出すとは、一体何を考えているのです？
       grc:
       - τί δὴ μαθὼν τοῦτο ποιεῖς;
     dialogue:
@@ -1476,7 +1476,7 @@ scenes:
     translation:
       variants:
       - de: Was fällt Ihnen denn ein, daß Sie die Zehn aus\textcompwordmark{}spielen?
-        ja_current: どうして十を切ったんですか。
+        ja_current: 十を出すとは、一体何を考えているのです？
         ja_proposed: 十を出すとは、一体何を考えているのです？
         decision: revise
         rationale: The question mark restores the utterance's interrogative force; the wording retains the indignant Was fällt Ihnen denn ein.
@@ -1492,11 +1492,11 @@ scenes:
       file: part-h.yaml
       section_index: 1
       conversation_index: 32
-      fingerprint: 419fd283ae639b92
+      fingerprint: 6213b2d7b1d9366e
     source:
       modern:
       - de: Die Noth zwingt mich dazu.
-        ja: それしか手がなかったんです。
+        ja: ほかに打つ手がないのです。
       grc:
       - ἡ ἀνάγκη με πιέζει.
     dialogue:
@@ -1519,7 +1519,7 @@ scenes:
     translation:
       variants:
       - de: Die Noth zwingt mich dazu.
-        ja_current: それしか手がなかったんです。
+        ja_current: ほかに打つ手がないのです。
         ja_proposed: ほかに打つ手がないのです。
         decision: revise
         rationale: null
@@ -1535,11 +1535,11 @@ scenes:
       file: part-h.yaml
       section_index: 1
       conversation_index: 33
-      fingerprint: b78a5bc1ca7ee78e
+      fingerprint: 333c20acb98ac00e
     source:
       modern:
       - de: Verwünscht! was soll ich thun?
-        ja: ちくしょう、どうしたらいい？
+        ja: ちくしょう、どうすればよいのだ。
       grc:
       - οἴ μοι, τί δράςω;
     dialogue:
@@ -1562,7 +1562,7 @@ scenes:
     translation:
       variants:
       - de: Verwünscht! was soll ich thun?
-        ja_current: ちくしょう、どうしたらいい？
+        ja_current: ちくしょう、どうすればよいのだ。
         ja_proposed: ちくしょう、どうすればよいのだ。
         decision: revise
         rationale: null
@@ -1582,11 +1582,11 @@ scenes:
       file: part-h.yaml
       section_index: 1
       conversation_index: 34
-      fingerprint: 6424c7fddeb84198
+      fingerprint: bfeea25ebee36a25
     source:
       modern:
       - de: Geben Sie mir einen guten Rath!
-        ja: いい助言をください！
+        ja: 何かよい知恵を貸してください！
       grc:
       - χρηστόν τι συμβούλευσον.
     dialogue:
@@ -1609,7 +1609,7 @@ scenes:
     translation:
       variants:
       - de: Geben Sie mir einen guten Rath!
-        ja_current: いい助言をください！
+        ja_current: 何かよい知恵を貸してください！
         ja_proposed: 何かよい知恵を貸してください！
         decision: revise
         rationale: null
@@ -1625,11 +1625,11 @@ scenes:
       file: part-h.yaml
       section_index: 1
       conversation_index: 35
-      fingerprint: e151062ebb550f90
+      fingerprint: 997ab21e2799b3d9
     source:
       modern:
       - de: Er will's gewinnen.
-        ja: 彼はそれを取りに行くつもりだ。
+        ja: 彼は勝つつもりだ。
       grc:
       - ἐθέλει οὗτος κρατῆσαι.
     dialogue:
@@ -1652,7 +1652,7 @@ scenes:
     translation:
       variants:
       - de: Er will's gewinnen.
-        ja_current: 彼はそれを取りに行くつもりだ。
+        ja_current: 彼は勝つつもりだ。
         ja_proposed: 彼は勝つつもりだ。
         decision: revise
         rationale: null
@@ -1668,11 +1668,11 @@ scenes:
       file: part-h.yaml
       section_index: 1
       conversation_index: 36
-      fingerprint: ef25c2c6bad69104
+      fingerprint: b126c778f99035c0
     source:
       modern:
       - de: Geben Sie sich keine vergebliche Mühe!
-        ja: むだな努力はやめなさい！
+        ja: 無駄な骨折りは、およしなさい！
       grc:
       - λίθον ἕψεις!
     dialogue:
@@ -1695,7 +1695,7 @@ scenes:
     translation:
       variants:
       - de: Geben Sie sich keine vergebliche Mühe!
-        ja_current: むだな努力はやめなさい！
+        ja_current: 無駄な骨折りは、およしなさい！
         ja_proposed: 無駄な骨折りは、およしなさい！
         decision: revise
         rationale: The restrained literary phrase 「骨折りはおよしなさい」 is natural Japanese and also suits Greek λίθον ἕψεις, “you will boil a stone,” for futile labour.
@@ -1724,11 +1724,11 @@ scenes:
       file: part-h.yaml
       section_index: 1
       conversation_index: 37
-      fingerprint: e9696c56f817be8f
+      fingerprint: 603f3b8251382487
     source:
       modern:
       - de: Hilf Himmel!
-        ja: 天よ助けて！
+        ja: 天よ、お助けを！
       grc:
       - Ἄπολλον ἀποτρόπαιε!
     dialogue:
@@ -1751,7 +1751,7 @@ scenes:
     translation:
       variants:
       - de: Hilf Himmel!
-        ja_current: 天よ助けて！
+        ja_current: 天よ、お助けを！
         ja_proposed: 天よ、お助けを！
         decision: revise
         rationale: null
@@ -1767,11 +1767,11 @@ scenes:
       file: part-h.yaml
       section_index: 1
       conversation_index: 38
-      fingerprint: 0febc53985e9bf86
+      fingerprint: 87c42bd0333981ff
     source:
       modern:
       - de: O weh! Jetzt geht's uns (zweien) schlecht!
-        ja: うわぁ、これで俺たち二人はまずいぞ！
+        ja: ああ、これでわれわれ二人ともおしまいだ！
       grc:
       - ἒ ἔ, παρὰ νῷν στενάζειν!
     dialogue:
@@ -1794,7 +1794,7 @@ scenes:
     translation:
       variants:
       - de: O weh! Jetzt geht's uns (zweien) schlecht!
-        ja_current: うわぁ、これで俺たち二人はまずいぞ！
+        ja_current: ああ、これでわれわれ二人ともおしまいだ！
         ja_proposed: ああ、これでわれわれ二人ともおしまいだ！
         decision: revise
         rationale: null
@@ -1831,11 +1831,11 @@ scenes:
       file: part-h.yaml
       section_index: 1
       conversation_index: 39
-      fingerprint: d1532ba7f0723fbb
+      fingerprint: 1eb706f7ba64c492
     source:
       modern:
       - de: Gerade das will ich ja!
-        ja: それこそ望むところだ。
+        ja: それこそ、こちらの望むところだ！
       grc:
       - τοῦτ’ αὐτὸ γὰρ καὶ βούλομαι!
     dialogue:
@@ -1858,7 +1858,7 @@ scenes:
     translation:
       variants:
       - de: Gerade das will ich ja!
-        ja_current: それこそ望むところだ。
+        ja_current: それこそ、こちらの望むところだ！
         ja_proposed: それこそ、こちらの望むところだ！
         decision: revise
         rationale: null
@@ -1895,11 +1895,11 @@ scenes:
       file: part-h.yaml
       section_index: 1
       conversation_index: 40
-      fingerprint: db08c67e12f6442b
+      fingerprint: b6b37bf70b323bcc
     source:
       modern:
       - de: Zähle einmal!
-        ja: 点を数えてみて！
+        ja: さあ、点を数えてみて！
       grc:
       - λόγισαι!
     dialogue:
@@ -1922,7 +1922,7 @@ scenes:
     translation:
       variants:
       - de: Zähle einmal!
-        ja_current: 点を数えてみて！
+        ja_current: さあ、点を数えてみて！
         ja_proposed: さあ、点を数えてみて！
         decision: revise
         rationale: null
@@ -1938,11 +1938,11 @@ scenes:
       file: part-h.yaml
       section_index: 1
       conversation_index: 41
-      fingerprint: 98a967cf5abafb1f
+      fingerprint: 3e582427c8c991d0
     source:
       modern:
       - de: Wir haben verspielt!
-        ja: 私たちは負けてしまった！
+        ja: われわれの負けだ！
       grc:
       - \emph{ἀπολώλαμεν} ἡμεῖς.
     dialogue:
@@ -1965,7 +1965,7 @@ scenes:
     translation:
       variants:
       - de: Wir haben verspielt!
-        ja_current: 私たちは負けてしまった！
+        ja_current: われわれの負けだ！
         ja_proposed: われわれの負けだ！
         decision: revise
         rationale: null
@@ -1981,11 +1981,11 @@ scenes:
       file: part-h.yaml
       section_index: 1
       conversation_index: 42
-      fingerprint: 9e2cded098fafec0
+      fingerprint: d14974d24264adc7
     source:
       modern:
       - de: Bitte, bezahlen Sie!
-        ja: お支払いください！
+        ja: どうぞ、お支払いください！
       grc:
       - ἀπότισον \emph{δῆτα!}
     dialogue:
@@ -2008,7 +2008,7 @@ scenes:
     translation:
       variants:
       - de: Bitte, bezahlen Sie!
-        ja_current: お支払いください！
+        ja_current: どうぞ、お支払いください！
         ja_proposed: どうぞ、お支払いください！
         decision: revise
         rationale: 「どうぞ」 preserves Bitte as a courteous but pointed request for settlement after the loss.
@@ -2024,11 +2024,11 @@ scenes:
       file: part-h.yaml
       section_index: 1
       conversation_index: 43
-      fingerprint: 101d8efa671fecbe
+      fingerprint: e34869e8789d1fff
     source:
       modern:
       - de: Mein Geld ist futsch!
-        ja: 私の金が消えた！
+        ja: 私の金が消えてしまった！
       grc:
       - φροῦδα τὰ χρήματα!
     dialogue:
@@ -2051,7 +2051,7 @@ scenes:
     translation:
       variants:
       - de: Mein Geld ist futsch!
-        ja_current: 私の金が消えた！
+        ja_current: 私の金が消えてしまった！
         ja_proposed: 私の金が消えてしまった！
         decision: revise
         rationale: null
@@ -2088,11 +2088,11 @@ scenes:
       file: part-h.yaml
       section_index: 1
       conversation_index: 44
-      fingerprint: 733eb0e79d0d3eb9
+      fingerprint: 631bd527963cb3fe
     source:
       modern:
       - de: Es steht schlecht mit mir.
-        ja: 私の状況はひどいです。
+        ja: こちらは、どうも分が悪い。
       grc:
       - φαῦλόν ἐστι τὸ ἐμὸν πρᾶγμα.
     dialogue:
@@ -2115,7 +2115,7 @@ scenes:
     translation:
       variants:
       - de: Es steht schlecht mit mir.
-        ja_current: 私の状況はひどいです。
+        ja_current: こちらは、どうも分が悪い。
         ja_proposed: こちらは、どうも分が悪い。
         decision: revise
         rationale: null
@@ -2131,11 +2131,11 @@ scenes:
       file: part-h.yaml
       section_index: 1
       conversation_index: 45
-      fingerprint: 651c280e406977d4
+      fingerprint: 4719a370d8315ffb
     source:
       modern:
       - de: Wir machen miserable Geschäfte.
-        ja: 私たちはひどい結果でした。
+        ja: われわれは散々な結果に終わった。
       grc:
       - ἀθλίως πεπράγαμεν.
     dialogue:
@@ -2158,7 +2158,7 @@ scenes:
     translation:
       variants:
       - de: Wir machen miserable Geschäfte.
-        ja_current: 私たちはひどい結果でした。
+        ja_current: われわれは散々な結果に終わった。
         ja_proposed: われわれは散々な結果に終わった。
         decision: revise
         rationale: The German uses business language for a poor result; Greek's resultative perfect says that matters have gone miserably. 「散々な結果に終わった」 fits the end-of-game reckoning.
@@ -2226,11 +2226,11 @@ scenes:
       file: part-h.yaml
       section_index: 2
       conversation_index: 1
-      fingerprint: 932629a90a6def0f
+      fingerprint: 52f5fb77b7d2de38
     source:
       modern:
       - de: (Ein Grand.)
-        ja: （グランドのゲーム。）
+        ja: （グラン。）
       grc:
       - (τὸ παμμέγιστον.)
     dialogue:
@@ -2253,7 +2253,7 @@ scenes:
     translation:
       variants:
       - de: (Ein Grand.)
-        ja_current: （グランドのゲーム。）
+        ja_current: （グラン。）
         ja_proposed: （グラン。）
         decision: revise
         rationale: null
@@ -2269,11 +2269,11 @@ scenes:
       file: part-h.yaml
       section_index: 2
       conversation_index: 2
-      fingerprint: ba44136fb99d4742
+      fingerprint: dc149f34bde5a9aa
     source:
       modern:
       - de: A. Wer giebt denn?
-        ja: さて誰が札を配る？
+        ja: A. ところで、誰が札を配るんだ。
       grc:
       - τίς ὁ διαδώσων;
     dialogue:
@@ -2296,7 +2296,7 @@ scenes:
     translation:
       variants:
       - de: A. Wer giebt denn?
-        ja_current: さて誰が札を配る？
+        ja_current: A. ところで、誰が札を配るんだ。
         ja_proposed: A. ところで、誰が札を配るんだ。
         decision: revise
         rationale: null
@@ -2312,11 +2312,11 @@ scenes:
       file: part-h.yaml
       section_index: 2
       conversation_index: 3
-      fingerprint: 1dfc44cf883b8961
+      fingerprint: 801ebde5afbc1ccf
     source:
       modern:
       - de: B. Du selbst.
-        ja: お前だよ。
+        ja: B. 君だよ。
       grc:
       - αὐτὸς σύ.
     dialogue:
@@ -2339,7 +2339,7 @@ scenes:
     translation:
       variants:
       - de: B. Du selbst.
-        ja_current: お前だよ。
+        ja_current: B. 君だよ。
         ja_proposed: B. 君だよ。
         decision: revise
         rationale: null
@@ -2355,11 +2355,11 @@ scenes:
       file: part-h.yaml
       section_index: 2
       conversation_index: 4
-      fingerprint: 0b56d87cafdac15f
+      fingerprint: f76424c9cf932da1
     source:
       modern:
       - de: C. Immer, wer fragt.
-        ja: いつだって、言い出した人間が配るんだ。
+        ja: C. いつだって、訊いた本人だ。
       grc:
       - ὁ ἀεὶ ἐρωτήσας.
     dialogue:
@@ -2382,7 +2382,7 @@ scenes:
     translation:
       variants:
       - de: C. Immer, wer fragt.
-        ja_current: いつだって、言い出した人間が配るんだ。
+        ja_current: C. いつだって、訊いた本人だ。
         ja_proposed: C. いつだって、訊いた本人だ。
         decision: revise
         rationale: null
@@ -2398,13 +2398,13 @@ scenes:
       file: part-h.yaml
       section_index: 2
       conversation_index: 5
-      fingerprint: 07207f1462b2bf51
+      fingerprint: 73f9c7c71a38c04c
     source:
       modern:
       - de: 'B. Nun gieb mir aber einmal anständige Karten; ich habe den ganzen
 
           Abend noch kein Spiel gehabt!'
-        ja: B. じゃあ今度こそまともな札をくれよ。今夜は一度もまともな手がなかったんだ！
+        ja: B. では今度こそ、まともな札を配ってくれよ。今夜はまだ一度も勝負になる手が来ていないんだ！
       grc:
       - 'δός τι δῆτ’ ἐμοὶ· οὐδὲν γὰρ πώποτ’ ἔλαβον ἔγωγε τῇδε τῇ\footnote{\textgreek{%
 
@@ -2433,7 +2433,7 @@ scenes:
       - de: 'B. Nun gieb mir aber einmal anständige Karten; ich habe den ganzen
 
           Abend noch kein Spiel gehabt!'
-        ja_current: B. じゃあ今度こそまともな札をくれよ。今夜は一度もまともな手がなかったんだ！
+        ja_current: B. では今度こそ、まともな札を配ってくれよ。今夜はまだ一度も勝負になる手が来ていないんだ！
         ja_proposed: B. では今度こそ、まともな札を配ってくれよ。今夜はまだ一度も勝負になる手が来ていないんだ！
         decision: revise
         rationale: null
@@ -2453,11 +2453,11 @@ scenes:
       file: part-h.yaml
       section_index: 2
       conversation_index: 6
-      fingerprint: d660813cf6ff755a
+      fingerprint: 568ed13c0df0727f
     source:
       modern:
       - de: C. Ich frage. Grün Solo!
-        ja: C. 俺が入札する。グリューンのソロだ！
+        ja: C. 私から競るぞ。グリューン・ソロ！
       grc:
       - 'ἐμὸν τὸ ἐρωτᾶν. τὰ φυλλεῖα αὐτὰ\footnote{\textgreek{τὸ ῥῆμα οὐ δύναμαι διαγνῶναι.}%
 
@@ -2482,7 +2482,7 @@ scenes:
     translation:
       variants:
       - de: C. Ich frage. Grün Solo!
-        ja_current: C. 俺が入札する。グリューンのソロだ！
+        ja_current: C. 私から競るぞ。グリューン・ソロ！
         ja_proposed: C. 私から競るぞ。グリューン・ソロ！
         decision: revise
         rationale: null
@@ -2545,11 +2545,11 @@ scenes:
       file: part-h.yaml
       section_index: 2
       conversation_index: 8
-      fingerprint: cd6c67522cd74a1e
+      fingerprint: 02f41916c3d0e1a4
     source:
       modern:
       - de: C. Null?
-        ja: C. ヌルはどうだ？
+        ja: C. ヌルは？
       grc:
       - τὸ μηδέν;
     dialogue:
@@ -2572,7 +2572,7 @@ scenes:
     translation:
       variants:
       - de: C. Null?
-        ja_current: C. ヌルはどうだ？
+        ja_current: C. ヌルは？
         ja_proposed: C. ヌルは？
         decision: revise
         rationale: null
@@ -2674,11 +2674,11 @@ scenes:
       file: part-h.yaml
       section_index: 2
       conversation_index: 11
-      fingerprint: a47cd7f5e4a2512d
+      fingerprint: 8015dc9070024aae
     source:
       modern:
       - de: A. Ich auch.
-        ja: A. 俺もパスだ。
+        ja: A. 私もパスだ。
       grc:
       - κἀγώ.
     dialogue:
@@ -2701,7 +2701,7 @@ scenes:
     translation:
       variants:
       - de: A. Ich auch.
-        ja_current: A. 俺もパスだ。
+        ja_current: A. 私もパスだ。
         ja_proposed: A. 私もパスだ。
         decision: revise
         rationale: null
@@ -2717,11 +2717,11 @@ scenes:
       file: part-h.yaml
       section_index: 2
       conversation_index: 12
-      fingerprint: 21b81cef82c83229
+      fingerprint: e141f6d736150c61
     source:
       modern:
       - de: B. Grand.
-        ja: B. グランドで行く。
+        ja: B. グラン。
       grc:
       - τὸ παμμέγιστον.
     dialogue:
@@ -2744,7 +2744,7 @@ scenes:
     translation:
       variants:
       - de: B. Grand.
-        ja_current: B. グランドで行く。
+        ja_current: B. グラン。
         ja_proposed: B. グラン。
         decision: revise
         rationale: null
@@ -2760,11 +2760,11 @@ scenes:
       file: part-h.yaml
       section_index: 2
       conversation_index: 13
-      fingerprint: 2d8fb72cc3203ad1
+      fingerprint: 5666333cd7cea89a
     source:
       modern:
       - de: B. Ich spiele selbst aus. Hier! Wenzel 'raus!
-        ja: B. 親は俺だ。さあ、ヴェンツェルを出すぞ！
+        ja: B. 私が最初の札を出すぞ。ほら、ヴェンツェルを出せ！
       grc:
       - ἐμὸν τὸ ἐξάρχειν. ἰδού. ἀπόδοτε δὴ τοὺς κρατίστους!
     dialogue:
@@ -2787,7 +2787,7 @@ scenes:
     translation:
       variants:
       - de: B. Ich spiele selbst aus. Hier! Wenzel 'raus!
-        ja_current: B. 親は俺だ。さあ、ヴェンツェルを出すぞ！
+        ja_current: B. 私が最初の札を出すぞ。ほら、ヴェンツェルを出せ！
         ja_proposed: B. 私が最初の札を出すぞ。ほら、ヴェンツェルを出せ！
         decision: revise
         rationale: >-
@@ -2805,11 +2805,11 @@ scenes:
       file: part-h.yaml
       section_index: 2
       conversation_index: 14
-      fingerprint: df885a43dffbc96b
+      fingerprint: 8ac687e52d6d9bc8
     source:
       modern:
       - de: C. Ja, den kann ich nicht!
-        ja: C. その札には合わせられない！
+        ja: C. そいつには勝てない！
       grc:
       - οὐ δυνατὸς ἐγὼ μὰ Δία ὑπὲρ τοῦτον.
     dialogue:
@@ -2832,7 +2832,7 @@ scenes:
     translation:
       variants:
       - de: C. Ja, den kann ich nicht!
-        ja_current: C. その札には合わせられない！
+        ja_current: C. そいつには勝てない！
         ja_proposed: C. そいつには勝てない！
         decision: revise
         rationale: null
@@ -2895,11 +2895,11 @@ scenes:
       file: part-h.yaml
       section_index: 2
       conversation_index: 16
-      fingerprint: bd48dac6494aa4e1
+      fingerprint: 21a4e2d4e561facf
     source:
       modern:
       - de: B. Hurrah! Der Alte liegt im Skat! Hier!
-        ja: B. やった！長老札（オーバーのジャック）がスカートにあったぞ！ほら！
+        ja: B. やった！アルテ\—{}最強のアイヒェル・ヴェンツェル\—{}は、スカートに入っているぞ！ほら！
       grc:
       - βαβαιάξ! ἀπόκειται ὁ παγκράτιστος! ἰδού
     dialogue:
@@ -2922,7 +2922,7 @@ scenes:
     translation:
       variants:
       - de: B. Hurrah! Der Alte liegt im Skat! Hier!
-        ja_current: B. やった！長老札（オーバーのジャック）がスカートにあったぞ！ほら！
+        ja_current: B. やった！アルテ\—{}最強のアイヒェル・ヴェンツェル\—{}は、スカートに入っているぞ！ほら！
         ja_proposed: B. やった！アルテ\—{}最強のアイヒェル・ヴェンツェル\—{}は、スカートに入っているぞ！ほら！
         decision: revise
         rationale: null
@@ -2938,11 +2938,11 @@ scenes:
       file: part-h.yaml
       section_index: 2
       conversation_index: 17
-      fingerprint: f067b58119b1e1d4
+      fingerprint: 3b0453c7ce0198e4
     source:
       modern:
       - de: C. Himmeldonnerwetter!
-        ja: C. ちくしょうめ！
+        ja: C. ちくしょう！
       grc:
       - ἐς κόρακας!
     dialogue:
@@ -2965,7 +2965,7 @@ scenes:
     translation:
       variants:
       - de: C. Himmeldonnerwetter!
-        ja_current: C. ちくしょうめ！
+        ja_current: C. ちくしょう！
         ja_proposed: C. ちくしょう！
         decision: revise
         rationale: null
@@ -3024,11 +3024,11 @@ scenes:
       file: part-h.yaml
       section_index: 2
       conversation_index: 19
-      fingerprint: 91f948808d28f4b4
+      fingerprint: 93743e78dbe44ef9
     source:
       modern:
       - de: C. Ih, da soll doch der Deiwel 'reinfahren!
-        ja: C. くそ、悪魔でも持っていけ！
+        ja: C. くそっ、悪魔にでも持っていかれろ！
       grc:
       - οἴμοι κακοδαίμων!
     dialogue:
@@ -3051,7 +3051,7 @@ scenes:
     translation:
       variants:
       - de: C. Ih, da soll doch der Deiwel 'reinfahren!
-        ja_current: C. くそ、悪魔でも持っていけ！
+        ja_current: C. くそっ、悪魔にでも持っていかれろ！
         ja_proposed: C. くそっ、悪魔にでも持っていかれろ！
         decision: revise
         rationale: null
@@ -3067,11 +3067,11 @@ scenes:
       file: part-h.yaml
       section_index: 2
       conversation_index: 20
-      fingerprint: f6bc6e0c3d532b35
+      fingerprint: 7fa4b1c6f995e295
     source:
       modern:
       - de: A. Heiliges Gewitter! Hast du denn gar nichts?
-        ja: A. 何てこった！お前、本当に何も持ってないのか？
+        ja: A. なんたることだ！君は本当に何も持っていないのか？
       grc:
       - 'ὦ Ζεῦ βασιλεῦ! οὐκ ἄρ’ ἔχεις\footnote{\textgreek{τὸ ῥῆμα οὐ δύναμαι διαγνῶναι.}%
 
@@ -3096,7 +3096,7 @@ scenes:
     translation:
       variants:
       - de: A. Heiliges Gewitter! Hast du denn gar nichts?
-        ja_current: A. 何てこった！お前、本当に何も持ってないのか？
+        ja_current: A. なんたることだ！君は本当に何も持っていないのか？
         ja_proposed: A. なんたることだ！君は本当に何も持っていないのか？
         decision: revise
         rationale: null
@@ -3116,11 +3116,11 @@ scenes:
       file: part-h.yaml
       section_index: 2
       conversation_index: 21
-      fingerprint: ff05dc6ac5d31683
+      fingerprint: d0d141722fde1747
     source:
       modern:
       - de: C. Dieser ist unser! 'rin, was Beine hat!
-        ja: C. これは俺たちの取り分だ！動ける札は全部突っ込め！
+        ja: C. これはこちらが取った！点になる札はみな放り込め！
       grc:
       - ἀλλὰ τοῦτό γε γίγνεται ἥμῖν. νῦν ὁ καιρὸς ἐπιδοῦναι!
     dialogue:
@@ -3143,7 +3143,7 @@ scenes:
     translation:
       variants:
       - de: C. Dieser ist unser! 'rin, was Beine hat!
-        ja_current: C. これは俺たちの取り分だ！動ける札は全部突っ込め！
+        ja_current: C. これはこちらが取った！点になる札はみな放り込め！
         ja_proposed: C. これはこちらが取った！点になる札はみな放り込め！
         decision: revise
         rationale: null
@@ -3163,11 +3163,11 @@ scenes:
       file: part-h.yaml
       section_index: 2
       conversation_index: 22
-      fingerprint: d37df8ada22529a0
+      fingerprint: f4ccaf05dcc2e1af
     source:
       modern:
       - de: B. Halt! Gesprochen wird nicht beim Spiel!
-        ja: B. やめろ！プレイ中はしゃべらない！
+        ja: B. 待て！勝負の最中に口をきくな！
       grc:
       - μὴ δῆτα — οὐ γὰρ ἔστι λαλεῖν τῷ παίζοντι!
     dialogue:
@@ -3190,7 +3190,7 @@ scenes:
     translation:
       variants:
       - de: B. Halt! Gesprochen wird nicht beim Spiel!
-        ja_current: B. やめろ！プレイ中はしゃべらない！
+        ja_current: B. 待て！勝負の最中に口をきくな！
         ja_proposed: B. 待て！勝負の最中に口をきくな！
         decision: revise
         rationale: null
@@ -3206,11 +3206,11 @@ scenes:
       file: part-h.yaml
       section_index: 2
       conversation_index: 23
-      fingerprint: 460e036bc9a1d73e
+      fingerprint: 91305d4ae8819b29
     source:
       modern:
       - de: C. So, das ist auch unser!
-        ja: C. よし、これもこっちのものだ！
+        ja: C. よし、これも取った！
       grc:
       - ἰδοὺ καὶ τοῦτο ἡμῖν!
     dialogue:
@@ -3233,7 +3233,7 @@ scenes:
     translation:
       variants:
       - de: C. So, das ist auch unser!
-        ja_current: C. よし、これもこっちのものだ！
+        ja_current: C. よし、これも取った！
         ja_proposed: C. よし、これも取った！
         decision: revise
         rationale: null
@@ -3249,11 +3249,11 @@ scenes:
       file: part-h.yaml
       section_index: 2
       conversation_index: 24
-      fingerprint: e417c9b9894fbe6e
+      fingerprint: 71b2da61626ea54b
     source:
       modern:
       - de: Gottlob! Aus dem Schneider wären wir!
-        ja: やれやれ、シュナイダーは免れたぞ！
+        ja: 助かった！これでシュナイダーは免れた！
       grc:
       - τὸ μέσον καλῶς τετμήκαμεν!
     dialogue:
@@ -3276,7 +3276,7 @@ scenes:
     translation:
       variants:
       - de: Gottlob! Aus dem Schneider wären wir!
-        ja_current: やれやれ、シュナイダーは免れたぞ！
+        ja_current: 助かった！これでシュナイダーは免れた！
         ja_proposed: 助かった！これでシュナイダーは免れた！
         decision: revise
         rationale: Gottlob expresses relief here. 「助かった」 preserves that force naturally, while the second sentence uses the established Skat term.
@@ -3292,11 +3292,11 @@ scenes:
       file: part-h.yaml
       section_index: 2
       conversation_index: 25
-      fingerprint: 4dc748b2a41912e9
+      fingerprint: 96dc793a77b6bc72
     source:
       modern:
       - de: A. Oh, wir kriegen noch viel mehr!
-        ja: A. まだまだもっと取れるさ！
+        ja: A. いや、まだまだ取れるぞ！
       grc:
       - ἕξομεν ἔτι πολλῷ πλέον, ὦ τάν.
     dialogue:
@@ -3319,7 +3319,7 @@ scenes:
     translation:
       variants:
       - de: A. Oh, wir kriegen noch viel mehr!
-        ja_current: A. まだまだもっと取れるさ！
+        ja_current: A. いや、まだまだ取れるぞ！
         ja_proposed: A. いや、まだまだ取れるぞ！
         decision: revise
         rationale: null
@@ -3335,11 +3335,11 @@ scenes:
       file: part-h.yaml
       section_index: 2
       conversation_index: 26
-      fingerprint: dfef1bcb4225ebf2
+      fingerprint: c42ad4d5b6d8b5fb
     source:
       modern:
       - de: B. Keinen Stich! Der Rest ist mein!
-        ja: B. もう一つも取らせない。残りは全部私のものだ！
+        ja: B. もう一度も取らせん！残りは全部、私のものだ！
       grc:
       - οὐκ ἄλλ’ οὐδὲ ἕν. ἐμὰ γὰρ τὰ λοιπά!
     dialogue:
@@ -3362,7 +3362,7 @@ scenes:
     translation:
       variants:
       - de: B. Keinen Stich! Der Rest ist mein!
-        ja_current: B. もう一つも取らせない。残りは全部私のものだ！
+        ja_current: B. もう一度も取らせん！残りは全部、私のものだ！
         ja_proposed: B. もう一度も取らせん！残りは全部、私のものだ！
         decision: revise
         rationale: null
@@ -3378,11 +3378,11 @@ scenes:
       file: part-h.yaml
       section_index: 2
       conversation_index: 27
-      fingerprint: 1392058c8512a578
+      fingerprint: 99646afcb25fee2b
     source:
       modern:
       - de: A. u. C. Oho! — Wahrhaftig!
-        ja: A・C. なんだと！\—{}本当に？
+        ja: A・C. ほう！\—{}本当かよ！
       grc:
       - οὐδὲν λέγεις! — μὰ τὸν Δί’ οὐ τοίνυν!
     dialogue:
@@ -3405,7 +3405,7 @@ scenes:
     translation:
       variants:
       - de: A. u. C. Oho! — Wahrhaftig!
-        ja_current: A・C. なんだと！\—{}本当に？
+        ja_current: A・C. ほう！\—{}本当かよ！
         ja_proposed: A・C. ほう！\—{}本当かよ！
         decision: revise
         rationale: null
@@ -3421,13 +3421,13 @@ scenes:
       file: part-h.yaml
       section_index: 2
       conversation_index: 28
-      fingerprint: d405b6287bc7642e
+      fingerprint: f22706f39f931cca
     source:
       modern:
       - de: 'A. Ja wie konntest du aber auch \emph{die} Farbe spielen? Wir mußten
 
           ja dicke gewinnen!'
-        ja: A. どうしてそこでそのスートを出したんだ？こっちは大勝ちできたはずなのに！
+        ja: A. しかし、どうしてよりによって\kenten{あの組}を出したんだ。こちらは大勝できたはずなのに！
       grc:
       - πῶς ἄρ’ οὖν ἐπὶ ταῦτα ἦλθες; ἐμέλλομεν γάρ τοι σφοδρῶς ὑπερέχειν!
     dialogue:
@@ -3452,7 +3452,7 @@ scenes:
       - de: 'A. Ja wie konntest du aber auch \emph{die} Farbe spielen? Wir mußten
 
           ja dicke gewinnen!'
-        ja_current: A. どうしてそこでそのスートを出したんだ？こっちは大勝ちできたはずなのに！
+        ja_current: A. しかし、どうしてよりによって\kenten{あの組}を出したんだ。こちらは大勝できたはずなのに！
         ja_proposed: A. しかし、どうしてよりによって\kenten{あの組}を出したんだ。こちらは大勝できたはずなのに！
         decision: revise
         rationale: null
@@ -3468,11 +3468,11 @@ scenes:
       file: part-h.yaml
       section_index: 2
       conversation_index: 29
-      fingerprint: d7be6e08a6536a67
+      fingerprint: 85f14d553214b5bb
     source:
       modern:
       - de: Ich sitze hier mit der ganzen Grün.
-        ja: こっちは葉の札を全部抱えてるんだ。
+        ja: こちらはグリューンを全部抱えていたんだぞ。
       grc:
       - ἐγὼ δὲ κάθημαι οὕτω πάντα τὰ φυλλεῖα ἔχων.
     dialogue:
@@ -3495,7 +3495,7 @@ scenes:
     translation:
       variants:
       - de: Ich sitze hier mit der ganzen Grün.
-        ja_current: こっちは葉の札を全部抱えてるんだ。
+        ja_current: こちらはグリューンを全部抱えていたんだぞ。
         ja_proposed: こちらはグリューンを全部抱えていたんだぞ。
         decision: revise
         rationale: null
@@ -3511,13 +3511,13 @@ scenes:
       file: part-h.yaml
       section_index: 2
       conversation_index: 30
-      fingerprint: bf868163bec53042
+      fingerprint: 7ca5d6d0ecc4d73f
     source:
       modern:
       - de: 'C. So? Warum stichst du denn nicht? Ich habe ganz richtig aus\textcompwordmark{}gespielt.
 
           — du bist schuld!'
-        ja: C. そうか？じゃあなぜ切らなかった？俺は正しくリードしたぞ。\—{}お前のせいだ！
+        ja: C. そうか？では、なぜ切り札を出さなかったんだ。私は正しく最初の札を出したぞ。\—{}君のせいだ！
       grc:
       - 'ἄληθες; τί δὴ παθὴν οὐχ ὑπερέβαλες\footnote{\textlatin{%
 
@@ -3546,7 +3546,7 @@ scenes:
       - de: 'C. So? Warum stichst du denn nicht? Ich habe ganz richtig aus\textcompwordmark{}gespielt.
 
           — du bist schuld!'
-        ja_current: C. そうか？じゃあなぜ切らなかった？俺は正しくリードしたぞ。\—{}お前のせいだ！
+        ja_current: C. そうか？では、なぜ切り札を出さなかったんだ。私は正しく最初の札を出したぞ。\—{}君のせいだ！
         ja_proposed: C. そうか？では、なぜ切り札を出さなかったんだ。私は正しく最初の札を出したぞ。\—{}君のせいだ！
         decision: revise
         rationale: null
@@ -3566,11 +3566,11 @@ scenes:
       file: part-h.yaml
       section_index: 2
       conversation_index: 31
-      fingerprint: b713ef1f20788fe5
+      fingerprint: a583065be4a9c660
     source:
       modern:
       - de: B. Das war Grand mit Vieren! Sechzig. Wer giebt?
-        ja: B. 今のはグランド・ミット・フィーアレンで六十点だ。次は誰が配る？
+        ja: B. 今のは四枚持ちのグラン。六十点だ。次は誰が配る？
       grc:
       - παμμέγιστον τοῦτ’ ἦν μετὰ τεσσάρων! ἑξήκοντα. τίς ὁ διαδώσων;
     dialogue:
@@ -3593,7 +3593,7 @@ scenes:
     translation:
       variants:
       - de: B. Das war Grand mit Vieren! Sechzig. Wer giebt?
-        ja_current: B. 今のはグランド・ミット・フィーアレンで六十点だ。次は誰が配る？
+        ja_current: B. 今のは四枚持ちのグラン。六十点だ。次は誰が配る？
         ja_proposed: B. 今のは四枚持ちのグラン。六十点だ。次は誰が配る？
         decision: revise
         rationale: null
