@@ -96,7 +96,9 @@
         \xeCJKsetup{CJKglue=\hfill}#2%
       \endgroup}%
     }
-    \newcommand{\kenten}[1]{\CJKunderdot{#1}}
+    % xeCJKfntef only exposes an ``underdot'' primitive.  A negative depth
+    % places the per-character marks above the Japanese text, as kenten.
+    \newcommand{\kenten}[1]{\CJKunderdot[depth=-0.9em]{#1}}
     \newcommand{\AttischXeRuby}[2]{%
       \begingroup
         % pxrubrica expects plain text in the ruby annotation.  Preserve the
@@ -143,20 +145,60 @@
   \ifFraktur
     %\newfontfamily\greekfont[Script=Greek,Ligatures={TeX,Common,Contextual,Rare,Historic}]{Anaktoria}
     %\newfontfamily\greekfont[Script=Greek,Ligatures={TeX,Common,Contextual,Rare,Historic}]{Theano Old Style}
+    %\newfontfamily\greekfont[Script=Greek,Ligatures={TeX,Common,Contextual,Rare,Historic}]{Theano Old Style}
+
+    % Close to the original text
+    %\newfontfamily\greekfont[Script=Greek,Ligatures={TeX},
+    %ItalicFont = {Old Standard Italic},
+    %ItalicFeatures = {LetterSpace=12.0, WordSpace=1.1},
+    %]{Old Standard Italic}
+
     \newfontfamily\greekfont[Script=Greek,Ligatures={TeX},
-    ItalicFont = {Old Standard Italic},
+    ItalicFont = {Theano Old Style},
     ItalicFeatures = {LetterSpace=12.0, WordSpace=1.1},
-    ]{Old Standard Italic}
+    ]{Theano Old Style}
+
     %\newfontfamily\greekfont[Script=Greek,Ligatures={TeX,Contextual}]{Junicode}
     %\newfontfamily\greekfont[Script=Greek,Ligatures={TeX,Common,Contextual,Rare,Historic}]{Asea}
     %\newfontfamily\greekfont[Script=Greek,Ligatures={TeX,NoCommon}]{Times Italic}
-    \newfontfamily\germanfont[Script=Latin,Language=German,Mapping=tex-text,Numbers=OldStyle,CharacterVariant={11,13,14},Ligatures=Historic,
-    BoldFont = UnifrakturMaguntia,
-    BoldFeatures = {LetterSpace=12.0, WordSpace=1.1, Ligatures=NoCommon, Kerning=Off},
-    ItalicFont = UnifrakturMaguntia,
-    ItalicFeatures = {LetterSpace=12.0, WordSpace=1.1, Ligatures=NoCommon, Kerning=Off}]{UnifrakturMaguntia}
+    \ifluatex
+      % Request UniFraktur's historical forms explicitly.  LuaTeX-ja needs the
+      % post-processing fix loaded below so that its glyph protection does not
+      % undo long-s and the ch/tz compositions before letterspacing.
+      \newfontfamily\germanfont[
+        Renderer=HarfBuzz,
+        Script=Latin,
+        Language=German,
+        Mapping=tex-text,
+        Numbers=OldStyle,
+        RawFeature={+ccmp,+cv11,+cv13,+cv14,+hlig},
+        BoldFont=UnifrakturMaguntia,
+        BoldFeatures={Renderer=HarfBuzz,LetterSpace=8.0,Ligatures=NoCommon,Kerning=Off,RawFeature={+ccmp,+cv11,+cv13,+cv14,+hlig,-liga,-kern}},
+        ItalicFont=UnifrakturMaguntia,
+        ItalicFeatures={Renderer=HarfBuzz,LetterSpace=8.0,Ligatures=NoCommon,Kerning=Off,RawFeature={+ccmp,+cv11,+cv13,+cv14,+hlig,-liga,-kern}}
+      ]{UnifrakturMaguntia}
+    \else
+      \newfontfamily\germanfont[
+        Script=Latin,
+        Language=German,
+        Mapping=tex-text,
+        Numbers=OldStyle,
+        CharacterVariant={11,13,14},
+        Ligatures=Historic,
+        BoldFont=UnifrakturMaguntia,
+        BoldFeatures={LetterSpace=8.0,Ligatures=NoCommon,Kerning=Off},
+        ItalicFont=UnifrakturMaguntia,
+        ItalicFeatures={LetterSpace=8.0,Ligatures=NoCommon,Kerning=Off}
+      ]{UnifrakturMaguntia}
+    \fi
     \newfontfamily\germanfontsf[Script=Latin,Language=German,Mapping=tex-text,CharacterVariant={11,13,14}]{UnifrakturCook}
     \setsansfont[Script=Latin,Language=German,Mapping=tex-text,CharacterVariant={11,13,14}]{UnifrakturCook}
+
+    \ifluatex
+      \AtBeginDocument{\directlua{%
+        dofile(assert(kpse.find_file('attisch-luatex-fontfix.lua')))%
+      }}
+    \fi
 
   \else
     %\newfontfamily\greekfont[Script=Greek,Ligatures={TeX,Common,Contextual,Rare,Historic}]{Asea}
@@ -294,6 +336,15 @@
 }
 \renewcommand*{\ldots}{. . .}
 
-\newcommand{\jdb}[1]{#1\hspace*{-\zw}\rlap{\hspace{0.75\zw}^^^^0323}　}
+
+\ifluatex
+  \newcommand{\jdb}[1]{#1\hspace*{-\zw}\rlap{\hspace{0.75\zw}^^^^0323}　}
+  \newcommand{\—}{\ltjjachar`—\kern-.5\zw\ltjjachar`—\kern-.5\zw\ltjjachar`—}
+\else
+  \newcommand{\jdb}[1]{\CJKunderdot{#1}}
+  %\newcommand{\—}{—\kern-.5\zw—\kern-.5\zw—}
+  \newcommand{\—}{——}
+\fi
+
 
 \makeatother
