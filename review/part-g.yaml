@@ -1955,7 +1955,7 @@ scenes:
     source:
       modern:
       - de: Wie gut ist es, einen so vortrefflichen Abgeordneten zu haben!
-        ja: こんな立派な代議士がいてありがたいことです！
+        ja: これほど立派な代議士を得られるとは、なんとありがたいことか！
       grc:
       - ὡς ἀγαθὸν τοιοῦτον ἔχειν βουλευτήν!
     dialogue:
@@ -1978,10 +1978,13 @@ scenes:
     translation:
       variants:
       - de: Wie gut ist es, einen so vortrefflichen Abgeordneten zu haben!
-        ja_current: こんな立派な代議士がいてありがたいことです！
-        ja_proposed: これほど立派な代議士が笑られるとは、なんとありがたいことか！
+        ja_current: これほど立派な代議士を得られるとは、なんとありがたいことか！
+        ja_proposed: これほど立派な代議士を得られるとは、なんとありがたいことか！
         decision: revise
-        rationale: null
+        rationale: >-
+          German haben and Greek ἔχειν present the representative as one whom the constituency has
+          for itself. In the Aozora corpus, 「代議士を持つ」 was not found in this political sense,
+          whereas 「優秀な……代議士を得る」 is attested; 「得られる」 is therefore both natural and faithful.
         alternatives: []
       register: null
       scene_dependency: null

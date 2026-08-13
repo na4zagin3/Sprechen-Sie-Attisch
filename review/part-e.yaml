@@ -4869,7 +4869,7 @@ scenes:
     source:
       modern:
       - de: Sind Sie verrückt?
-        ja: 気でも違ったのですか。
+        ja: 気でも違ったのですか！
       grc:
       - τί ποιεῖς;
     dialogue:
@@ -4892,7 +4892,7 @@ scenes:
     translation:
       variants:
       - de: Sind Sie verrückt?
-        ja_current: 気でも違ったのですか。
+        ja_current: 気でも違ったのですか！
         ja_proposed: 気でも違ったのですか！
         decision: revise
         rationale: >-
@@ -5621,7 +5621,7 @@ scenes:
     source:
       modern:
       - de: Gehen Sie zum Teufel!
-        ja: 地獄へ行け！
+        ja: 地獄へ行ってしまいなさい！
       grc:
       - ἐς κόρακας!
     dialogue:
@@ -5644,7 +5644,7 @@ scenes:
     translation:
       variants:
       - de: Gehen Sie zum Teufel!
-        ja_current: 地獄へ行け！
+        ja_current: 地獄へ行ってしまいなさい！
         ja_proposed: 地獄へ行ってしまいなさい！
         decision: retain
         rationale: >-
@@ -10199,7 +10199,7 @@ scenes:
     source:
       modern:
       - de: Er kann das Leben genießen.
-        ja: 人生を存分に楽しめる。
+        ja: これで人生が存分に楽しめるというわけだ。
       grc:
       - ἔχει τῆς ἥβης ἀπολαῦσαι.
     dialogue:
@@ -10222,7 +10222,7 @@ scenes:
     translation:
       variants:
       - de: Er kann das Leben genießen.
-        ja_current: 人生を存分に楽しめる。
+        ja_current: これで人生が存分に楽しめるというわけだ。
         ja_proposed: これで人生が存分に楽しめるというわけだ。
         decision: revise
         rationale: >-

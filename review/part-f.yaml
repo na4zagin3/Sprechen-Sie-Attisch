@@ -948,9 +948,9 @@ scenes:
     source:
       modern:
       - de: Melden Sie mich!
-        ja: 私が来たと取り次いでください。
+        ja: 私が来たと、お取り次ぎください。
       grc:
-      - εἰσάγγειλον.
+      - εἰσάγγειλον\footnote{\textlatin{orig.} εἰςάγγειλον}.
     dialogue:
       speaker:
         candidate: null
@@ -971,7 +971,7 @@ scenes:
     translation:
       variants:
       - de: Melden Sie mich!
-        ja_current: 私が来たと取り次いでください。
+        ja_current: 私が来たと、お取り次ぎください。
         ja_proposed: 私が来たと、お取り次ぎください。
         decision: revise
         rationale: >-
