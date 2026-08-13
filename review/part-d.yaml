@@ -241,11 +241,11 @@ scenes:
       file: part-d.yaml
       section_index: 1
       conversation_index: 5
-      fingerprint: e44516f31055bf61
+      fingerprint: 993ba608289426cb
     source:
       modern:
       - de: Erlauben Sie mir diesen Tanz, gnädige Frau? (— Fräulein?)
-        ja: 奥様（\—{}お嬢さん）、一緒に躍りませんか。
+        ja: 奥様（\—{}お嬢さん）、この踊りを私とご一緒願えますか。
       grc:
       - δὸς ὀρχεῖσθαι τοῦτο μετὰ σοῦ, ὦ γύναι! (--- ὦ κόρη!)
     dialogue:
@@ -269,12 +269,13 @@ scenes:
     translation:
       variants:
       - de: Erlauben Sie mir diesen Tanz, gnädige Frau? (— Fräulein?)
-        ja_current: 奥様（\—{}お嬢さん）、一緒に躍りませんか。
-        ja_proposed: 奥様（\—{}お嬢さん）、この曲をご一緒していただけますか。
+        ja_current: 奥様（\—{}お嬢さん）、この踊りを私とご一緒願えますか。
+        ja_proposed: 奥様（\—{}お嬢さん）、この踊りを私とご一緒願えますか。
         decision: revise
         rationale: >
-          “Allow me this dance” is a conventional invitation at a social dance. 「この曲をご一緒」
-          sounds more scene-specific than the generic 「一緒に踊りませんか」 and also corrects 躍り to 踊り.
+          “Allow me this dance” is a conventional invitation at a social dance. 青空文庫の舞踏場面にも
+          「最初の踊りを私と御一緒に」という近例があり、「この踊りを私とご一緒願えますか」は
+          原文の diesen Tanz を保ちながら、やや古風な社交上の申込みとして自然である。
         alternatives: []
       register: courteous-social
       scene_dependency: assumes a formal dance invitation
@@ -330,11 +331,11 @@ scenes:
       file: part-d.yaml
       section_index: 1
       conversation_index: 7
-      fingerprint: 5dd93ca6f8839bdb
+      fingerprint: 5259fb1e2d2769e2
     source:
       modern:
       - de: Bitte, hören Sie auf, ich kann nicht mehr.
-        ja: すみません、もう踊れませんからやめてください。
+        ja: もう、よしてください。これ以上は踊れません。
       grc:
       - παῦε δῆτ' ὀρχούμενος, !\footnote{\textlatin{sic}}
     dialogue:
@@ -365,12 +366,13 @@ scenes:
     translation:
       variants:
       - de: Bitte, hören Sie auf, ich kann nicht mehr.
-        ja_current: すみません、もう踊れませんからやめてください。
-        ja_proposed: もうおやめください。これ以上は踊れません。
+        ja_current: もう、よしてください。これ以上は踊れません。
+        ja_proposed: もう、よしてください。これ以上は踊れません。
         decision: revise
         rationale: >
           Separating the request from the reason avoids making 「踊れませんからやめてください」 sound as
-          though the addressee alone should stop for an unexplained reason.
+          though the addressee alone should stop for an unexplained reason. 青空文庫では、眼前の行為を
+          差し止める切迫した依頼に「よしてください」が用いられており、ここにも自然に合う。
         alternatives: []
       register: polite-but-firm
       scene_dependency: dance partner asking the other partner to stop
@@ -559,11 +561,11 @@ scenes:
       file: part-d.yaml
       section_index: 1
       conversation_index: 12
-      fingerprint: 1897cc9bd61804bb
+      fingerprint: 40111894df548eaf
     source:
       modern:
       - de: Wer ist eigentlich der Herr dort, der hierher sieht? der an der Thür steht?
-        ja: あそこでこちらを見ている紳士は誰ですか？ドアのところにいる\ruby{方}{かた}です。
+        ja: あそこでこちらを見ている紳士はどなたですか。扉のところに立っている\ruby{方}{かた}です。
       grc:
       - τίς ποθ' ὅδεὁ δεῦρο βλέπων; \emph{ὁ ἐπὶ} ταῖς θύραις;
     dialogue:
@@ -587,7 +589,7 @@ scenes:
     translation:
       variants:
       - de: Wer ist eigentlich der Herr dort, der hierher sieht? der an der Thür steht?
-        ja_current: あそこでこちらを見ている紳士は誰ですか？ドアのところにいる\ruby{方}{かた}です。
+        ja_current: あそこでこちらを見ている紳士はどなたですか。扉のところに立っている\ruby{方}{かた}です。
         ja_proposed: あそこでこちらを見ている紳士はどなたですか。扉のところに立っている\ruby{方}{かた}です。
         decision: revise
         rationale: >
@@ -734,11 +736,11 @@ scenes:
       file: part-d.yaml
       section_index: 1
       conversation_index: 16
-      fingerprint: 6a7c956ea642f741
+      fingerprint: 6b6a91bc72c96d5b
     source:
       modern:
       - de: Wir wollen gar nicht thun, als sähen wir ihn.
-        ja: 見えていないふりをしていましょう。
+        ja: 彼には気づかぬふりをしましょう。
       grc:
       - μὴ ὁρᾶν δοκῶμεν αὐτόν.
     dialogue:
@@ -764,12 +766,13 @@ scenes:
     translation:
       variants:
       - de: Wir wollen gar nicht thun, als sähen wir ihn.
-        ja_current: 見えていないふりをしていましょう。
-        ja_proposed: 彼には気づいていないふりをしましょう。
+        ja_current: 彼には気づかぬふりをしましょう。
+        ja_proposed: 彼には気づかぬふりをしましょう。
         decision: revise
         rationale: >
           「見えていない」suggests a failure of vision. The intended social pretense is not acknowledging
-          or noticing the husband.
+          or noticing the husband. 「気づかぬふり」は青空文庫にも複数の用例があり、簡潔でやや古風な
+          会話調にも合う。
         alternatives: []
       register: polite-conspiratorial
       scene_dependency: follows identification of the jealous husband
@@ -1029,11 +1032,11 @@ scenes:
       file: part-d.yaml
       section_index: 2
       conversation_index: 1
-      fingerprint: d002e8aa5529cba8
+      fingerprint: 00b5c0412dcdb742
     source:
       modern:
       - de: Hören Sie einmal zu, gnädige Frau, ich will Ihnen eine hübsche Geschichte erzählen.
-        ja: 奥様、ちょっとお聞きください、面白い話をいたしましょう。
+        ja: 奥様、ちょっとお聞きください。面白い話をひとついたしましょう。
       grc:
       - ἄκουσον, ὦ γύναι, λόγον σοι βούλομαι λέξαι χαρίεντα.
     dialogue:
@@ -1063,7 +1066,7 @@ scenes:
     translation:
       variants:
       - de: Hören Sie einmal zu, gnädige Frau, ich will Ihnen eine hübsche Geschichte erzählen.
-        ja_current: 奥様、ちょっとお聞きください、面白い話をいたしましょう。
+        ja_current: 奥様、ちょっとお聞きください。面白い話をひとついたしましょう。
         ja_proposed: 奥様、ちょっとお聞きください。面白い話をひとついたしましょう。
         decision: revise
         rationale: >
@@ -1109,11 +1112,11 @@ scenes:
       file: part-d.yaml
       section_index: 2
       conversation_index: 2
-      fingerprint: 516e4227a6098f37
+      fingerprint: 800d5eda86135cd3
     source:
       modern:
       - de: Nur zu, erzählen Sie!
-        ja: さあ、話してください！
+        ja: では、どうぞお話しください。
       grc:
       - 'ἴθι\footnote{\textlatin{%
 
@@ -1145,7 +1148,7 @@ scenes:
     translation:
       variants:
       - de: Nur zu, erzählen Sie!
-        ja_current: さあ、話してください！
+        ja_current: では、どうぞお話しください。
         ja_proposed: では、どうぞお話しください。
         decision: revise
         rationale: >
@@ -1448,11 +1451,11 @@ scenes:
       file: part-d.yaml
       section_index: 2
       conversation_index: 8
-      fingerprint: 14caa349f999ff97
+      fingerprint: d2ba38ef8b8682d0
     source:
       modern:
       - de: Nach dem, was Sie sagen, muß man sie bewundern.
-        ja: あなたの言によれば、彼女は賞賛されるべきですね。
+        ja: お話の通りなら、その方には感服せずにはいられませんね。
       grc:
       - κατὰ τὸν λόγον, ὃν σὺ λέγεις, ἀξία ἐστὶ θαυμάσαι.
     dialogue:
@@ -1475,10 +1478,13 @@ scenes:
     translation:
       variants:
       - de: Nach dem, was Sie sagen, muß man sie bewundern.
-        ja_current: あなたの言によれば、彼女は賞賛されるべきですね。
-        ja_proposed: あなたのお話通りなら、彼女は賞賛されるべきですね。
-        decision: pending-review
-        rationale: null
+        ja_current: お話の通りなら、その方には感服せずにはいられませんね。
+        ja_proposed: お話の通りなら、その方には感服せずにはいられませんね。
+        decision: revise
+        rationale: >-
+          「お話の通りならば」は青空文庫の会話にも用例がある。「賞賛されるべき」は受身かつ
+          規範的だが、muß man sie bewundern は話を聞いた者の必然的な反応を表す。青空文庫にも
+          「感服せずにはいられなかった」という用例があり、θαυμάσαι の敬服の強さにも合う。
         alternatives: []
       register: null
       scene_dependency: null
@@ -2065,11 +2071,11 @@ scenes:
       variants:
       - de: Nein, soviel ich weiß.
         ja_current: 私が知る限りでは、否です。
-        ja_proposed: いや、少なくとも私の知るかぎりでは。
-        decision: revise
+        ja_proposed: 私が知る限りでは、否です。
+        decision: retain
         rationale: >
-          「否です」is stiff for a conversational answer. Fronting 「いや」preserves the elliptical
-          negative and 「少なくとも」reflects γε.
+          現行訳を維持する。日本語としては硬質だが、この項目では独語の Nein と限定句
+          soviel ich weiß を明示的に保つことを優先する。
         alternatives: []
       register: neutral-conversational
       scene_dependency: may become evasive or sarcastic depending on the preceding question
@@ -2933,11 +2939,11 @@ scenes:
       variants:
       - de: Ja, ich.
         ja_current: はい、私は（知っています）。
-        ja_proposed: ええ、私は知っています。
-        decision: revise
+        ja_proposed: はい、私は（知っています）。
+        decision: retain
         rationale: >
-          Parentheses make an ordinary spoken reply look metalinguistic. Japanese can restore the
-          understood verb directly; the oath need not be literal in this modern scene.
+          現行訳を維持する。括弧は直前の問いから補われる動詞を明示し、Ja, ich. と
+          νὴ Δία ἔγωγε の省略的・自己選択的な応答を保つ。
         alternatives: []
       register: polite-social
       scene_dependency: direct reply to d-04-006
@@ -3276,11 +3282,11 @@ scenes:
       file: part-d.yaml
       section_index: 4
       conversation_index: 15
-      fingerprint: 94f19b0ba6045630
+      fingerprint: cd8172ec2aff8e46
     source:
       modern:
       - de: Aber sie hat wohl nichts?
-        ja: でも、貧乏\footnote{結婚持参金も用意できなさそう}なのでは？
+        ja: でも、財産はないのでしょう？
       grc:
       - ἀλλ' ἔχει οὐδέν;
     dialogue:
@@ -3303,14 +3309,31 @@ scenes:
     translation:
       variants:
       - de: Aber sie hat wohl nichts?
-        ja_current: でも、貧乏\footnote{結婚持参金も用意できなさそう}なのでは？
-        ja_proposed: でも、結婚持参金も用意できなさそうなのでしょう？
-        decision: pending-review
-        rationale: null
+        ja_current: でも、財産はないのでしょう？
+        ja_proposed: でも、財産はないのでしょう？
+        decision: revise
+        rationale: >-
+          Bare nichts haben in nineteenth-century marriage talk denotes lack of property or means,
+          not specifically lack of a dowry. The reply contrasts it directly with reich and Vermögen.
+          青空文庫でも縁談の文脈に「財産がない」が用いられ、対比を示す「財産は」がここでは自然である。
         alternatives: []
       register: null
       scene_dependency: null
-    attestations: []
+    attestations:
+    - target: Aber sie hat wohl nichts?
+      status: source-context-checked
+      match_type: formulaic-parallel
+      source:
+        author: Wilhelm Busch
+        work: Warnung vor der Ehe
+        passage: null
+        url: https://hlbrm.digitale-sammlungen.hebis.de/download/pdf/3553859.pdf
+      text_de: Sie hat nichts und Du hast desgleichen; [...] Ohne die gehörigen Mittel soll man keinen Krieg beginnen!
+      relationship_to_handbook: >-
+        In another marriage context, nichts haben is explicitly developed as lacking the necessary
+        Mittel, supporting the general sense “have no property or means,” not the narrower “have no dowry.”
+      confidence: high
+      research_method: exact-phrase web search and context check
     textual_issues: []
     review_comments: []
     status: unreviewed
@@ -3448,11 +3471,11 @@ scenes:
       file: part-d.yaml
       section_index: 4
       conversation_index: 19
-      fingerprint: 386a94a8e3513672
+      fingerprint: f4dfa2cb5975e8d4
     source:
       modern:
       - de: Wer ist denn die hinter ihr?
-        ja: では、その後ろにいる人は誰ですか。
+        ja: ところで、その後ろにいる方はどなたですか。
       grc:
       - τίς γάρ ἐσθ' ἡ ὄπισθεν αὐτῆς.
     dialogue:
@@ -3475,10 +3498,12 @@ scenes:
     translation:
       variants:
       - de: Wer ist denn die hinter ihr?
-        ja_current: では、その後ろにいる人は誰ですか。
-        ja_proposed: ところで、その後ろにいる人はどなたですか。
-        decision: pending-review
-        rationale: null
+        ja_current: ところで、その後ろにいる方はどなたですか。
+        ja_proposed: ところで、その後ろにいる方はどなたですか。
+        decision: revise
+        rationale: >-
+          denn and γάρ lightly shift attention to the other woman rather than marking a strict inference.
+          「ところで」と「方」が社交場面の人物同定として自然である。
         alternatives: []
       register: null
       scene_dependency: null
@@ -3491,11 +3516,11 @@ scenes:
       file: part-d.yaml
       section_index: 4
       conversation_index: 20
-      fingerprint: 4b57614629590141
+      fingerprint: 66f0c96a75236fca
     source:
       modern:
       - de: Wer die ist? Frau Schulze.
-        ja: あの人ですか？　シュルツェ夫人ですよ。
+        ja: あの人ですか？シュルツェ夫人ですよ。
       grc:
       - ἥτις ἐστίν; Σχουλζίου γυνή.
     dialogue:
@@ -3518,10 +3543,10 @@ scenes:
     translation:
       variants:
       - de: Wer die ist? Frau Schulze.
-        ja_current: あの人ですか？　シュルツェ夫人ですよ。
+        ja_current: あの人ですか？シュルツェ夫人ですよ。
         ja_proposed: あの人ですか？シュルツェ夫人ですよ。
-        decision: pending-review
-        rationale: null
+        decision: revise
+        rationale: 全角疑問符の後に手動の和文空白を置かないという本プロジェクトの組版方針に合わせる。
         alternatives: []
       register: null
       scene_dependency: null
@@ -5515,11 +5540,11 @@ scenes:
       variants:
       - de: Was hat sie für Toilette?
         ja_current: どんな身なりをしていますか。
-        ja_proposed: どんな装いをしていますか。
-        decision: revise
+        ja_proposed: どんな身なりをしていますか。
+        decision: retain
         rationale: >
-          German Toilette here means a woman’s attire or ensemble. 「装い」fits the dance setting
-          more specifically than the broader 「身なり」.
+          German Toilette here means a woman’s attire or ensemble, but 「どんな身なりをしていますか」は
+          青空文庫にも会話例があり、「どんな装い」より自然であるため現行訳を維持する。
         alternatives: []
       register: polite-social
       scene_dependency: asks for identifying clothing after d-06-008 “Where? Show me.”

@@ -209,7 +209,7 @@ scenes:
       - de: Das hieße Eulen nach Athen tragen.
         ja: それでは、ア\jdb{テ}ーナイへ梟を運ぶようなものだ。
       grc:
-      - τίς γλαῦκ’ Ἀθήναζε ἄγαγεν;
+      - τίς γλαῦκ’ Ἀθήναζε ἤγαγεν;
     dialogue:
       speaker:
         candidate: null

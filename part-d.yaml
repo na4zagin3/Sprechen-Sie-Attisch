@@ -30,7 +30,7 @@ sections:
             τὸ Γαλλικόν).
       - modern:
         - de: Erlauben Sie mir diesen Tanz, gnädige Frau? (— Fräulein?)
-          ja: 奥様（\—{}お嬢さん）、一緒に躍りませんか。
+          ja: 奥様（\—{}お嬢さん）、この踊りを私とご一緒願えますか。
         grc:
           - δὸς ὀρχεῖσθαι τοῦτο μετὰ σοῦ, ὦ γύναι! (--- ὦ κόρη!)
       - modern:
@@ -40,7 +40,7 @@ sections:
           - \emph{φθόνος οὐδείς.}
       - modern:
         - de: Bitte, hören Sie auf, ich kann nicht mehr.
-          ja: すみません、もう踊れませんからやめてください。
+          ja: もう、よしてください。これ以上は踊れません。
         grc:
           - "παῦε δῆτ' ὀρχούμενος, !\\footnote{\\textlatin{sic}}"
       - modern:
@@ -65,7 +65,7 @@ sections:
           - ὡς ἡδὺ μετὰ σοῦ ὀρχεῖσθαι!
       - modern:
         - de: Wer ist eigentlich der Herr dort, der hierher sieht? der an der Thür steht?
-          ja: あそこでこちらを見ている紳士は誰ですか？ドアのところにいる\ruby{方}{かた}です。
+          ja: あそこでこちらを見ている紳士はどなたですか。扉のところに立っている\ruby{方}{かた}です。
         grc:
           - "τίς ποθ' ὅδεὁ δεῦρο βλέπων; \\emph{ὁ ἐπὶ} ταῖς θύραις;"
       - modern:
@@ -85,7 +85,7 @@ sections:
           - σφόδρα ζηλότυπός ἐστιν.
       - modern:
         - de: Wir wollen gar nicht thun, als sähen wir ihn.
-          ja: 見えていないふりをしていましょう。
+          ja: 彼には気づかぬふりをしましょう。
         grc:
           - μὴ ὁρᾶν δοκῶμεν αὐτόν.
       - modern:
@@ -122,12 +122,12 @@ sections:
     conversations:
       - modern:
         - de: Hören Sie einmal zu, gnädige Frau, ich will Ihnen eine hübsche Geschichte erzählen.
-          ja: 奥様、ちょっとお聞きください、面白い話をいたしましょう。
+          ja: 奥様、ちょっとお聞きください。面白い話をひとついたしましょう。
         grc:
           - ἄκουσον, ὦ γύναι, λόγον σοι βούλομαι λέξαι χαρίεντα.
       - modern:
         - de: Nur zu, erzählen Sie!
-          ja: さあ、話してください！
+          ja: では、どうぞお話しください。
         grc:
           - |-
             ἴθι\footnote{\textlatin{%
@@ -163,7 +163,7 @@ sections:
             } ταῦτ' ἀληθῆ λέγεις, οὐδὲν ἔχω εἰπεῖν.
       - modern:
         - de: Nach dem, was Sie sagen, muß man sie bewundern.
-          ja: あなたの言によれば、彼女は賞賛されるべきですね。
+          ja: お話の通りなら、その方には感服せずにはいられませんね。
         grc:
           - κατὰ τὸν λόγον, ὃν σὺ λέγεις, ἀξία ἐστὶ θαυμάσαι.
       - modern:
@@ -359,7 +359,7 @@ sections:
           - ἔρως με εἴληφε τῆς κόρης ταύτης.
       - modern:
         - de: Aber sie hat wohl nichts?
-          ja: でも、貧乏\footnote{結婚持参金も用意できなさそう}なのでは？
+          ja: でも、財産はないのでしょう？
         grc:
           - "ἀλλ' ἔχει οὐδέν;"
       - modern:
@@ -379,12 +379,12 @@ sections:
           - ἐνταῦθα μείραξ ὡραία ἐστίν.
       - modern:
         - de: Wer ist denn die hinter ihr?
-          ja: では、その後ろにいる人は誰ですか。
+          ja: ところで、その後ろにいる方はどなたですか。
         grc:
           - "τίς γάρ ἐσθ' ἡ ὄπισθεν αὐτῆς."
       - modern:
         - de: Wer die ist? Frau Schulze.
-          ja: あの人ですか？　シュルツェ夫人ですよ。
+          ja: あの人ですか？シュルツェ夫人ですよ。
         grc:
           - ἥτις ἐστίν; Σχουλζίου γυνή.
       - modern:
